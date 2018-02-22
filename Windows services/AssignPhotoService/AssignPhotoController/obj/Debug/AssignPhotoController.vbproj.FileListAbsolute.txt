@@ -1,0 +1,30 @@
+C:\Users\VMW7-A\Desktop\AssignPhotoService\AssignPhotoController\bin\Debug\AssignPhotoController.exe
+C:\Users\VMW7-A\Desktop\AssignPhotoService\AssignPhotoController\bin\Debug\AssignPhotoController.pdb
+C:\Users\VMW7-A\Desktop\AssignPhotoService\AssignPhotoController\bin\Debug\AssignPhotoController.xml
+C:\Users\VMW7-A\Desktop\AssignPhotoService\AssignPhotoController\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\VMW7-A\Desktop\AssignPhotoService\AssignPhotoController\obj\Debug\AssignPhotoController.Form1.resources
+C:\Users\VMW7-A\Desktop\AssignPhotoService\AssignPhotoController\obj\Debug\AssignPhotoController.Resources.resources
+C:\Users\VMW7-A\Desktop\AssignPhotoService\AssignPhotoController\obj\Debug\AssignPhotoController.vbproj.GenerateResource.Cache
+C:\Users\VMW7-A\Desktop\AssignPhotoService\AssignPhotoController\obj\Debug\AssignPhotoController.exe
+C:\Users\VMW7-A\Desktop\AssignPhotoService\AssignPhotoController\obj\Debug\AssignPhotoController.xml
+C:\Users\VMW7-A\Desktop\AssignPhotoService\AssignPhotoController\obj\Debug\AssignPhotoController.pdb
+C:\IMIS\AssignPhotoService 14 8 2013\AssignPhotoController\obj\Debug\AssignPhotoController.exe
+C:\IMIS\AssignPhotoService 14 8 2013\AssignPhotoController\obj\Debug\AssignPhotoController.xml
+C:\IMIS\AssignPhotoService 14 8 2013\AssignPhotoController\obj\Debug\AssignPhotoController.pdb
+C:\IMIS\AssignPhotoService 14 8 2013\AssignPhotoController\bin\Debug\AssignPhotoController.exe
+C:\IMIS\AssignPhotoService 14 8 2013\AssignPhotoController\bin\Debug\AssignPhotoController.pdb
+C:\IMIS\AssignPhotoService 14 8 2013\AssignPhotoController\bin\Debug\AssignPhotoController.xml
+C:\IMIS\AssignPhotoService 14 8 2013\AssignPhotoController\obj\Debug\ResolveAssemblyReference.cache
+C:\IMIS\AssignPhotoService 14 8 2013\AssignPhotoController\obj\Debug\AssignPhotoController.Form1.resources
+C:\IMIS\AssignPhotoService 14 8 2013\AssignPhotoController\obj\Debug\AssignPhotoController.Resources.resources
+C:\IMIS\AssignPhotoService 14 8 2013\AssignPhotoController\obj\Debug\AssignPhotoController.vbproj.GenerateResource.Cache
+C:\Users\VMW7-A\Desktop\IMIS Project\Master\Windows Services\AssignPhotoService\AssignPhotoController\bin\Debug\AssignPhotoController.exe
+C:\Users\VMW7-A\Desktop\IMIS Project\Master\Windows Services\AssignPhotoService\AssignPhotoController\bin\Debug\AssignPhotoController.pdb
+C:\Users\VMW7-A\Desktop\IMIS Project\Master\Windows Services\AssignPhotoService\AssignPhotoController\bin\Debug\AssignPhotoController.xml
+C:\Users\VMW7-A\Desktop\IMIS Project\Master\Windows Services\AssignPhotoService\AssignPhotoController\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\VMW7-A\Desktop\IMIS Project\Master\Windows Services\AssignPhotoService\AssignPhotoController\obj\Debug\AssignPhotoController.Form1.resources
+C:\Users\VMW7-A\Desktop\IMIS Project\Master\Windows Services\AssignPhotoService\AssignPhotoController\obj\Debug\AssignPhotoController.Resources.resources
+C:\Users\VMW7-A\Desktop\IMIS Project\Master\Windows Services\AssignPhotoService\AssignPhotoController\obj\Debug\AssignPhotoController.vbproj.GenerateResource.Cache
+C:\Users\VMW7-A\Desktop\IMIS Project\Master\Windows Services\AssignPhotoService\AssignPhotoController\obj\Debug\AssignPhotoController.exe
+C:\Users\VMW7-A\Desktop\IMIS Project\Master\Windows Services\AssignPhotoService\AssignPhotoController\obj\Debug\AssignPhotoController.xml
+C:\Users\VMW7-A\Desktop\IMIS Project\Master\Windows Services\AssignPhotoService\AssignPhotoController\obj\Debug\AssignPhotoController.pdb

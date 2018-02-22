@@ -1,0 +1,11 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="4c137c88-7c93-4973-8669-bba2cb928954" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Average utilization of health care per insuree-1</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Current Insurees</ID>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Service Utilization</ID>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

@@ -1,0 +1,36 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="DataSource" Type="System.String" Scope="User">
+      <Value Profile="(Default)">.\EXACT2014</Value>
+    </Setting>
+    <Setting Name="DatabaseName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">IMIS</Value>
+    </Setting>
+    <Setting Name="UserName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">UserName</Value>
+    </Setting>
+    <Setting Name="Password" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Password</Value>
+    </Setting>
+    <Setting Name="ActionTime" Type="System.String" Scope="User">
+      <Value Profile="(Default)">00:00</Value>
+    </Setting>
+    <Setting Name="ActionInterval" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">24</Value>
+    </Setting>
+    <Setting Name="SubmittedFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Inetpub\wwwroot\imis\Images\Submitted\</Value>
+    </Setting>
+    <Setting Name="UpdatedFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Inetpub\wwwroot\imis\Images\Updated\</Value>
+    </Setting>
+    <Setting Name="RejectedFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Inetpub\wwwroot\imis\Images\Rejected\</Value>
+    </Setting>
+    <Setting Name="Delimiter" Type="System.String" Scope="User">
+      <Value Profile="(Default)">_</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

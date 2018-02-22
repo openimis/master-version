@@ -1,0 +1,30 @@
+C:\Users\VMW7-A\Desktop\SMSOnEffective\SMSOnEffectiveController\bin\Debug\SMSOnEffectiveController.exe
+C:\Users\VMW7-A\Desktop\SMSOnEffective\SMSOnEffectiveController\bin\Debug\SMSOnEffectiveController.pdb
+C:\Users\VMW7-A\Desktop\SMSOnEffective\SMSOnEffectiveController\bin\Debug\SMSOnEffectiveController.xml
+C:\Users\VMW7-A\Desktop\SMSOnEffective\SMSOnEffectiveController\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\VMW7-A\Desktop\SMSOnEffective\SMSOnEffectiveController\obj\Debug\SMSOnEffectiveController.Form1.resources
+C:\Users\VMW7-A\Desktop\SMSOnEffective\SMSOnEffectiveController\obj\Debug\SMSOnEffectiveController.Resources.resources
+C:\Users\VMW7-A\Desktop\SMSOnEffective\SMSOnEffectiveController\obj\Debug\SMSOnEffectiveController.vbproj.GenerateResource.Cache
+C:\Users\VMW7-A\Desktop\SMSOnEffective\SMSOnEffectiveController\obj\Debug\SMSOnEffectiveController.exe
+C:\Users\VMW7-A\Desktop\SMSOnEffective\SMSOnEffectiveController\obj\Debug\SMSOnEffectiveController.xml
+C:\Users\VMW7-A\Desktop\SMSOnEffective\SMSOnEffectiveController\obj\Debug\SMSOnEffectiveController.pdb
+D:\SMSOnEffective\SMSOnEffectiveController\bin\Debug\SMSOnEffectiveController.exe
+D:\SMSOnEffective\SMSOnEffectiveController\bin\Debug\SMSOnEffectiveController.pdb
+D:\SMSOnEffective\SMSOnEffectiveController\bin\Debug\SMSOnEffectiveController.xml
+D:\SMSOnEffective\SMSOnEffectiveController\obj\Debug\ResolveAssemblyReference.cache
+D:\SMSOnEffective\SMSOnEffectiveController\obj\Debug\SMSOnEffectiveController.Form1.resources
+D:\SMSOnEffective\SMSOnEffectiveController\obj\Debug\SMSOnEffectiveController.Resources.resources
+D:\SMSOnEffective\SMSOnEffectiveController\obj\Debug\SMSOnEffectiveController.vbproj.GenerateResource.Cache
+D:\SMSOnEffective\SMSOnEffectiveController\obj\Debug\SMSOnEffectiveController.exe
+D:\SMSOnEffective\SMSOnEffectiveController\obj\Debug\SMSOnEffectiveController.xml
+D:\SMSOnEffective\SMSOnEffectiveController\obj\Debug\SMSOnEffectiveController.pdb
+C:\Users\VMW7-A\Desktop\IMIS Project\Master\Windows Services\SMSOnEffective\SMSOnEffectiveController\bin\Debug\SMSOnEffectiveController.exe
+C:\Users\VMW7-A\Desktop\IMIS Project\Master\Windows Services\SMSOnEffective\SMSOnEffectiveController\bin\Debug\SMSOnEffectiveController.pdb
+C:\Users\VMW7-A\Desktop\IMIS Project\Master\Windows Services\SMSOnEffective\SMSOnEffectiveController\bin\Debug\SMSOnEffectiveController.xml
+C:\Users\VMW7-A\Desktop\IMIS Project\Master\Windows Services\SMSOnEffective\SMSOnEffectiveController\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\VMW7-A\Desktop\IMIS Project\Master\Windows Services\SMSOnEffective\SMSOnEffectiveController\obj\Debug\SMSOnEffectiveController.Form1.resources
+C:\Users\VMW7-A\Desktop\IMIS Project\Master\Windows Services\SMSOnEffective\SMSOnEffectiveController\obj\Debug\SMSOnEffectiveController.Resources.resources
+C:\Users\VMW7-A\Desktop\IMIS Project\Master\Windows Services\SMSOnEffective\SMSOnEffectiveController\obj\Debug\SMSOnEffectiveController.vbproj.GenerateResource.Cache
+C:\Users\VMW7-A\Desktop\IMIS Project\Master\Windows Services\SMSOnEffective\SMSOnEffectiveController\obj\Debug\SMSOnEffectiveController.exe
+C:\Users\VMW7-A\Desktop\IMIS Project\Master\Windows Services\SMSOnEffective\SMSOnEffectiveController\obj\Debug\SMSOnEffectiveController.xml
+C:\Users\VMW7-A\Desktop\IMIS Project\Master\Windows Services\SMSOnEffective\SMSOnEffectiveController\obj\Debug\SMSOnEffectiveController.pdb

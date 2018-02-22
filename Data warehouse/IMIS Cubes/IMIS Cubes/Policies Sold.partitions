@@ -1,0 +1,25 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="ebe7043b-682b-4377-89a9-8e9f9e707299" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Policies Sold</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Policies Sold</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="1cc14549-1e54-475f-ad50-5426b0158c98">
+          <ID>Policies Sold</ID>
+          <Name>Policies Sold</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="0c955328-f2ca-4a76-8dce-b4d8a0aaa2e9">
+            <DataSourceViewID>Policies Sold</DataSourceViewID>
+            <TableID>dbo_tblFactNumberPoliciesSold</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

@@ -1,0 +1,802 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="118c9e44-8eed-416c-b222-de621e7d1316" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Number of insured households</ID>
+  <Name>Share of insured Families or Groups</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="12" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-5542" scrolltop="-5772" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="20003" y="20241" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Region" left="6051" top="0" logicalid="6" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000b80b00004d0c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_tblDimRegion" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Time" left="325" top="5125" logicalid="7" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000b80b0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_tblDimTime" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Number of insured households" left="-79" top="370" logicalid="8" controlid="3" masterid="0" hint1="0" hint2="0" width="5424" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a000030150000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_tblFactNumberOfInsuredHouseholds" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="5045" top="625" logicalid="9" controlid="4" masterid="0" hint1="0" hint2="0" width="1306" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_tblFactNumberOfInsuredHouseholds_tblDimRegion]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="3" sourceattachpoint="12" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6051" y="1024" />
+              <point x="5698" y="1024" />
+              <point x="5698" y="971" />
+              <point x="5345" y="971" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="133" top="2372" logicalid="10" controlid="5" masterid="0" hint1="0" hint2="0" width="992" height="3253" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_tblFactNumberOfInsuredHouseholds_tblDimTime]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="3" sourceattachpoint="0" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="725" y="5125" />
+              <point x="725" y="3899" />
+              <point x="433" y="3899" />
+              <point x="433" y="2672" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-5542</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-5772</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-79</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="b4130b93-08bd-4657-877b-a255ed2ee379">
+      <ID>Region</ID>
+      <Name>Region</Name>
+      <DimensionID>Region</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="4021d0fd-d9f4-4bd5-8f9c-82a8905651b8">
+          <AttributeID>Region Dim Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d1688c16-42bc-4029-a9e9-528cfec66948">
+          <AttributeID>District</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="18faf595-4438-4581-829f-3858821ff7d5">
+          <AttributeID>Ward</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7fbae6af-5bc8-4f6c-9397-b912ce1f905e">
+          <AttributeID>Village</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ec2fa4ea-a147-4334-bf5d-fc6b1eb28814">
+          <AttributeID>Region</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="81a8d8bf-3950-4a41-8a06-442d4bf28152">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="ab627da0-2a2a-460b-80a9-76a5da888c0c">
+      <ID>Time</ID>
+      <Name>Time</Name>
+      <DimensionID>Time</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="0e24e7c2-4a96-4fff-bbd4-9f574d4202f8">
+          <AttributeID>Time Dim Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3dd8516b-e412-4600-b0ac-9eddf99cb5b4">
+          <AttributeID>Year Time</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b4086bea-45db-402d-bbbe-3a54001bcdfc">
+          <AttributeID>Quarter Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="133ae266-c58d-4d0c-a747-41359894bd90">
+          <AttributeID>Month Name</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="e95f377e-551a-43b4-8598-2819ad2d7f4a">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="509c0f5e-7095-490b-843d-2c85d659e997">
+      <Annotations>
+        <Annotation>
+          <Name>ImportSourceInformation</Name>
+          <Value>
+            <ImportSourceInformation xmlns="">
+              <DataSourceID>.</DataSourceID>
+              <SourceCubeID>Number of households</SourceCubeID>
+              <SourceObjectID>Region Hierarchy</SourceObjectID>
+            </ImportSourceInformation>
+          </Value>
+        </Annotation>
+      </Annotations>
+      <ID>Region 1</ID>
+      <Name>Region 1</Name>
+      <DimensionID>Region 1</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="26f0fd43-06f5-4592-966f-b6cde0c6421c">
+          <AttributeID>Region Dim Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8aee03f1-cea0-4084-a58b-8f4101aacc16">
+          <AttributeID>District</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f336f52a-7419-4e27-b316-a94181058f74">
+          <AttributeID>Ward</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2f734a59-fddb-47be-8d1c-7c62d3ce3bc2">
+          <AttributeID>Village</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="70c9f004-ac55-4997-8bb4-28ce2964c29b">
+          <AttributeID>Region</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="43a6baa8-18e3-44a9-8c03-6905e177f36a">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="fdf14f56-5fc3-4906-be34-0e89e75d4b1b">
+      <Annotations>
+        <Annotation>
+          <Name>ImportSourceInformation</Name>
+          <Value>
+            <ImportSourceInformation xmlns="">
+              <DataSourceID>.</DataSourceID>
+              <SourceCubeID>Insuree By Range</SourceCubeID>
+              <SourceObjectID>Age</SourceObjectID>
+            </ImportSourceInformation>
+          </Value>
+        </Annotation>
+      </Annotations>
+      <ID>Age</ID>
+      <Name>Age</Name>
+      <DimensionID>Age</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="3ef7e5ab-fa25-459a-b6ef-bed8dcaac19d">
+          <AttributeID>Age Dim Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a1fef395-ddf5-4809-adf7-f34c97afd4dc">
+          <AttributeID>Age Range</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="863bfe31-a6d9-46a1-9ef0-6a63ed555200">
+      <Annotations>
+        <Annotation>
+          <Name>ImportSourceInformation</Name>
+          <Value>
+            <ImportSourceInformation xmlns="">
+              <DataSourceID>.</DataSourceID>
+              <SourceCubeID>Insuree By Range</SourceCubeID>
+              <SourceObjectID>Expenditures</SourceObjectID>
+            </ImportSourceInformation>
+          </Value>
+        </Annotation>
+      </Annotations>
+      <ID>Expenditures</ID>
+      <Name>Expenditures</Name>
+      <DimensionID>Expenditures</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="aceccffb-be80-4562-a5bd-fe3680b7ca4a">
+          <AttributeID>Expenditure Dim Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="68e62757-49fa-4580-adf7-75e6881b5258">
+          <AttributeID>Expenditure Range</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="92bef9ae-1431-44e2-9446-9a3a8b1180f9">
+      <Annotations>
+        <Annotation>
+          <Name>ImportSourceInformation</Name>
+          <Value>
+            <ImportSourceInformation xmlns="">
+              <DataSourceID>.</DataSourceID>
+              <SourceCubeID>Insuree By Range</SourceCubeID>
+              <SourceObjectID>Gender</SourceObjectID>
+            </ImportSourceInformation>
+          </Value>
+        </Annotation>
+      </Annotations>
+      <ID>Gender</ID>
+      <Name>Gender</Name>
+      <DimensionID>Gender</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="bc918f6f-4382-49c7-a9c6-773be5427b8e">
+          <AttributeID>Gender Dim Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="11ddb8ee-e018-4838-b102-bc057407f1c1">
+          <AttributeID>Gender Name</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="1866311c-0d54-4331-9ec0-a47a759a02ef">
+      <Annotations>
+        <Annotation>
+          <Name>ImportSourceInformation</Name>
+          <Value>
+            <ImportSourceInformation xmlns="">
+              <DataSourceID>.</DataSourceID>
+              <SourceCubeID>Insuree By Range</SourceCubeID>
+              <SourceObjectID>Products</SourceObjectID>
+            </ImportSourceInformation>
+          </Value>
+        </Annotation>
+      </Annotations>
+      <ID>Products</ID>
+      <Name>Products</Name>
+      <DimensionID>Products</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="e69fb166-eab6-49aa-9810-b68dd3e656ab">
+          <AttributeID>Product Dim Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="41732209-cbe0-40aa-8002-a6581f8829c1">
+          <AttributeID>District</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d6c038a4-f883-40e3-92ed-5f0f2276c2af">
+          <AttributeID>Product Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1427fb69-1155-41ea-bf53-3186e748abfb">
+          <AttributeID>Product Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a0e59467-75c2-4232-8f19-811e77f47d9c">
+          <AttributeID>Region</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="2278f700-4ab7-4ea6-8b84-512e5e99a655">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="79420051-c28b-4910-8286-e2be58f8b615">
+      <ID>Number Of Insured Households</ID>
+      <Name>Number Of Insured Families or Groups</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="5d57c764-7950-46ee-bf15-2694d4906c10">
+          <ID>Insured Households</ID>
+          <Name>Insured Families or Groups</Name>
+          <Source dwd:design-time-name="5dae274b-a60b-464e-b21b-d74cd1f05618">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="fa8fd7d6-3789-4894-b02f-01919887b83b">
+              <TableID>dbo_tblFactNumberOfInsuredHouseholds</TableID>
+              <ColumnID>InsuredHouseholds</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>#,###</FormatString>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d24a898c-098c-4d7c-ae25-9a445b166044">
+          <CubeDimensionID>Region</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="a34446db-5cbb-4c75-96c2-4cc025263915">
+              <AttributeID>Region Dim Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="621db490-a08b-46fe-b560-613269ecbd16">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8d52b353-6cb6-4b35-be70-3e8e7041f6b3">
+                    <TableID>dbo_tblFactNumberOfInsuredHouseholds</TableID>
+                    <ColumnID>RegionDimId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c7b4e47b-c040-4d45-9779-e7cdcf464987">
+          <CubeDimensionID>Time</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="8b004df4-724b-4db5-94a1-b159765346f2">
+              <AttributeID>Time Dim Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="625a3b6c-8c27-4097-aa2d-323166293d32">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="678ed102-581c-4b3d-b0d8-eb625715e6a6">
+                    <TableID>dbo_tblFactNumberOfInsuredHouseholds</TableID>
+                    <ColumnID>TimeDimId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="01643b43-91cf-47f9-8b23-207660470bcc">
+      <ID>Current Policies</ID>
+      <Name>Current Policies</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="062b8338-3904-4876-9e4b-d41b04ae14e2">
+          <ID>Current Policies</ID>
+          <Name>Current Policies</Name>
+          <Source dwd:design-time-name="9b27d929-639c-4a64-8fb3-5a71a321043b">
+            <DataType>Integer</DataType>
+            <Source xsi:type="MeasureBinding" dwd:design-time-name="5be6de30-171c-4594-8a05-f274d27404c3">
+              <MeasureID>Current Policies</MeasureID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+          <FormatString>#,###</FormatString>
+        </Measure>
+      </Measures>
+      <Source dwd:design-time-name="a68f4f78-e38d-4ab5-966f-b9af148517b6">
+        <DataSourceID>.</DataSourceID>
+        <CubeID>All type of policies</CubeID>
+        <MeasureGroupID>Current Policies</MeasureGroupID>
+        <Persistence>Metadata</Persistence>
+        <RefreshInterval>PT1S</RefreshInterval>
+      </Source>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e8d5d362-e099-4679-9ab8-5e09f56507d9">
+          <CubeDimensionID>Region</CubeDimensionID>
+          <Source dwd:design-time-name="dbc5b0d7-0bb3-4d6b-8d1b-310bc7d85543">
+            <CubeDimensionID>Region</CubeDimensionID>
+          </Source>
+          <Attributes>
+            <Attribute dwd:design-time-name="5393c7cd-c297-415e-843c-3bc2f77448cc">
+              <AttributeID>Region Dim Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="0f11ec06-7ed6-43aa-8685-d01e96a11776">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="26f35fd3-f8c0-41f5-a151-83528b2d356c">
+                    <TableID>dbo_tblFactNumberPolicyCurrent</TableID>
+                    <ColumnID>RegionDimId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="79088f93-003f-45d1-a75d-7978850e3a1a">
+          <CubeDimensionID>Time</CubeDimensionID>
+          <Source dwd:design-time-name="e6e373cb-40f0-495a-896b-faf4a84b702b">
+            <CubeDimensionID>Time</CubeDimensionID>
+          </Source>
+          <Attributes>
+            <Attribute dwd:design-time-name="d2370b4c-ed20-48dd-a958-e70c780a74be">
+              <AttributeID>Time Dim Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="390fefec-3a56-4f55-8b84-9714c95cb238">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="87f1226b-28c4-45ec-ab3e-71c4364b5649">
+                    <TableID>dbo_tblFactNumberPolicyCurrent</TableID>
+                    <ColumnID>TimeDimId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="e8abfc97-c25e-4cb5-bc08-a5c9e8c51f76">
+      <ID>Number Of Insuree By Range</ID>
+      <Name>Number Of Insuree By Range</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="bd1d6c15-9269-4674-aa10-33487288dc0d">
+          <ID>Insuree Range</ID>
+          <Name>Insuree Range</Name>
+          <Source dwd:design-time-name="956c820b-43f3-48d8-a8a8-307ed1b140bd">
+            <DataType>Integer</DataType>
+            <Source xsi:type="MeasureBinding" dwd:design-time-name="6861d7ec-afc5-4f40-a4b4-33ff58cf92ed">
+              <MeasureID>Insuree Range</MeasureID>
+            </Source>
+          </Source>
+          <FormatString>#,###</FormatString>
+        </Measure>
+      </Measures>
+      <Source dwd:design-time-name="8dcfa05a-d764-4544-9f90-666fd976943d">
+        <DataSourceID>.</DataSourceID>
+        <CubeID>Insuree By Range</CubeID>
+        <MeasureGroupID>Number Of Insuree By Range</MeasureGroupID>
+        <Persistence>Metadata</Persistence>
+        <RefreshInterval>PT1S</RefreshInterval>
+      </Source>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f0f8e3ec-34da-43d5-8fd0-0773f3734396">
+          <CubeDimensionID>Age</CubeDimensionID>
+          <Source dwd:design-time-name="5bbd20cd-8eef-4e87-9a56-59474dff9f0e">
+            <CubeDimensionID>Age</CubeDimensionID>
+          </Source>
+          <Attributes>
+            <Attribute dwd:design-time-name="78fae20b-3643-4f98-ab01-8413865b8fc6">
+              <AttributeID>Age Dim Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="88e0dcff-e3a7-45ce-b3fe-ddf6d019a740">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="511d24e4-464a-430e-8e4f-6e69e9e92b8b">
+                    <TableID>dbo_tblFactNumberInsureesRange</TableID>
+                    <ColumnID>AgeDimId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="867c2369-9cba-4837-9575-79e11a169722">
+          <CubeDimensionID>Expenditures</CubeDimensionID>
+          <Source dwd:design-time-name="fd36e5c4-6d1e-45c3-8b17-f0a08071be93">
+            <CubeDimensionID>Expenditures</CubeDimensionID>
+          </Source>
+          <Attributes>
+            <Attribute dwd:design-time-name="dd7b1ab3-287c-4405-848f-8c9f61e018ba">
+              <AttributeID>Expenditure Dim Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="3ac85117-e3ee-4424-a82d-644493140506">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e7551eff-eb1a-4bb0-9f39-fd55c57a4593">
+                    <TableID>dbo_tblFactNumberInsureesRange</TableID>
+                    <ColumnID>ExpenditureDimId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="db6a125c-ddf5-46cd-a283-a695140f9acb">
+          <CubeDimensionID>Gender</CubeDimensionID>
+          <Source dwd:design-time-name="dcb202d0-9b74-47d6-82be-bd5400c10fe3">
+            <CubeDimensionID>Gender</CubeDimensionID>
+          </Source>
+          <Attributes>
+            <Attribute dwd:design-time-name="38cc2459-9ee7-40f9-8b11-c94d35f39d76">
+              <AttributeID>Gender Dim Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="e26a73e8-2bfb-4bc2-a988-67dabb71fa0b">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="89d52f2b-8082-4d1a-b6d5-9078cee1c652">
+                    <TableID>dbo_tblFactNumberInsureesRange</TableID>
+                    <ColumnID>GenderDimId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f85f18a1-64c9-4a47-9a0b-c2d3c1bc44f7">
+          <CubeDimensionID>Products</CubeDimensionID>
+          <Source dwd:design-time-name="8ff14442-179d-4019-b729-4f6848d9d606">
+            <CubeDimensionID>Products</CubeDimensionID>
+          </Source>
+          <Attributes>
+            <Attribute dwd:design-time-name="c6edf2f7-9015-452e-a073-9cf5f72e3d32">
+              <AttributeID>Product Dim Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c7f0160e-1e02-48b6-bb27-1cfc23a3a818">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a57d9967-cd08-4c4c-97df-abcb6ad1fb2b">
+                    <TableID>dbo_tblFactNumberInsureesRange</TableID>
+                    <ColumnID>ProductDimId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="0f98be0d-c364-4a50-8079-3c1fbee4ae5e">
+          <CubeDimensionID>Time</CubeDimensionID>
+          <Source dwd:design-time-name="cbe4f308-b1e4-40f4-a4f2-09d4ff6136d0">
+            <CubeDimensionID>Time</CubeDimensionID>
+          </Source>
+          <Attributes>
+            <Attribute dwd:design-time-name="49280964-ab30-4dc0-ad34-d06820c8d67f">
+              <AttributeID>Time Dim Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="6269359f-2f37-42f9-9314-45b8e6eacc48">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d8a0cf44-ec82-41d1-ae8f-89401e1b5bd8">
+                    <TableID>dbo_tblFactNumberInsureesRange</TableID>
+                    <ColumnID>TimeDimId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="ad08e93a-3849-4aca-8eb5-44c414035f09">
+      <ID>Families or Groups</ID>
+      <Name>Families or Groups</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="b795a135-7c84-4c7e-a9c6-d425b0fbcbe3">
+          <ID>House Holds</ID>
+          <Name>Number of Families or Groups</Name>
+          <Source dwd:design-time-name="84b8a52c-77d5-4ee7-ad39-f6d88c54fa22">
+            <DataType>Double</DataType>
+            <Source xsi:type="MeasureBinding" dwd:design-time-name="ca29e6d0-3c8a-4d1a-949d-8732fc3c7193">
+              <MeasureID>House Holds</MeasureID>
+            </Source>
+          </Source>
+          <FormatString>#,###</FormatString>
+        </Measure>
+      </Measures>
+      <Source dwd:design-time-name="7c5445e9-6bb1-46c2-bdb9-abc507987dea">
+        <DataSourceID>.</DataSourceID>
+        <CubeID>Number of households</CubeID>
+        <MeasureGroupID>Households</MeasureGroupID>
+        <Persistence>Metadata</Persistence>
+        <RefreshInterval>PT1S</RefreshInterval>
+      </Source>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="da8a0bd5-6d27-4ef3-98af-209d01d36f2c">
+          <CubeDimensionID>Region 1</CubeDimensionID>
+          <Source dwd:design-time-name="ce69dcb3-f83c-40ce-a39a-5a3c6911c444">
+            <CubeDimensionID>Region Hierarchy</CubeDimensionID>
+          </Source>
+          <Attributes>
+            <Attribute dwd:design-time-name="6b79bc31-fae6-452e-a74c-084d8b0ce26e">
+              <AttributeID>Region Dim Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="aca490f9-1c32-4d20-ad7f-d5ac7b6db955">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e46c7206-c46d-4454-927a-a550d2d12c27">
+                    <TableID>dbo_tblFactPopulation</TableID>
+                    <ColumnID>RegionDimId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="ebf672a7-7ec0-40d5-b132-4feb43dad2bd">
+      <ID>Families or Groups 1</ID>
+      <Name>Families or Groups 1</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="3f26173f-6084-4846-8b3e-5e4b0232f1c5">
+          <ID>Time Dim Id Distinct Count</ID>
+          <Name>Time Dim Id Distinct Count</Name>
+          <AggregateFunction>DistinctCount</AggregateFunction>
+          <DataType>Integer</DataType>
+          <Source dwd:design-time-name="db1580f0-64be-4674-b5c2-1eb26a07ac8c">
+            <DataType>Integer</DataType>
+            <Source xsi:type="MeasureBinding" dwd:design-time-name="dbd566a3-24d2-41a4-8489-0a90ef600c54">
+              <MeasureID>Time Dim Id Distinct Count</MeasureID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+          <FormatString>#,###</FormatString>
+        </Measure>
+      </Measures>
+      <Source dwd:design-time-name="1f49d52a-9e9a-46b1-8d1a-422ba04616a1">
+        <DataSourceID>.</DataSourceID>
+        <CubeID>Number of households</CubeID>
+        <MeasureGroupID>Households 1</MeasureGroupID>
+        <Persistence>Metadata</Persistence>
+        <RefreshInterval>PT1S</RefreshInterval>
+      </Source>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="60c7838b-d6b8-417a-b487-580ec7ed9fce">
+          <CubeDimensionID>Region 1</CubeDimensionID>
+          <Source dwd:design-time-name="09409a22-850b-4714-876f-49b1848fef7f">
+            <CubeDimensionID>Region Hierarchy</CubeDimensionID>
+          </Source>
+          <Attributes>
+            <Attribute dwd:design-time-name="435bed75-2e75-4a7e-89b3-fb9b4eee1209">
+              <AttributeID>Region Dim Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="146981de-f260-4757-b025-4175c2b25e30">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ec7afd1f-364f-4c09-92a9-08df8fbd95da">
+                    <TableID>dbo_tblFactPopulation</TableID>
+                    <ColumnID>RegionDimId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="52d1fefa-6de8-4093-8d45-5bec4f208ba7">
+    <DataSourceViewID>Number of insured households</DataSourceViewID>
+  </Source>
+  <MdxScripts>
+    <MdxScript dwd:design-time-name="24049213-a10b-4e90-a260-8b591f8bae7b">
+      <ID>MdxScript</ID>
+      <Name>MdxScript</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Commands>
+        <Command>
+          <Text>/*
+The CALCULATE command controls the aggregation of leaf cells in the cube.
+If the CALCULATE command is deleted or modified, the data within the cube is affected.
+You should edit this command only if you manually specify how the cube is aggregated.
+*/
+CALCULATE;     
+
+SCOPE([Measures].[Insured Families or Groups]);     
+    IF [Time].[Time Hierarchy].CURRENTMEMBER.LEVEL IS [Time].[Time Hierarchy].[Quarter Name] THEN
+        THIS = TAIL([Time].[Time Hierarchy].CURRENTMEMBER.Children)(0).Value
+    END IF;     
+    IF [Time].[Time Hierarchy].CURRENTMEMBER.LEVEL IS [Time].[Time Hierarchy].[Year Time] THEN
+        THIS = TAIL([Time].[Time Hierarchy].CURRENTMEMBER.Children)(0).Value
+    END IF;     
+END SCOPE;     
+
+SCOPE([Measures].[Current Policies]);     
+    IF [Time].[Time Hierarchy].CURRENTMEMBER.LEVEL IS [Time].[Time Hierarchy].[Quarter Name] THEN 
+        THIS = TAIL([Time].[Time Hierarchy].CURRENTMEMBER.Children)(0).Value
+    END IF;     
+    IF [Time].[Time Hierarchy].CURRENTMEMBER.LEVEL IS [Time].[Time Hierarchy].[Year Time] THEN 
+        THIS = TAIL([Time].[Time Hierarchy].CURRENTMEMBER.Children)(0).Value
+    END IF;     
+END SCOPE;         
+
+//SCOPE [Measures].[Number of Families or Groups];     
+//    THIS = [Measures].[Number of Families or Groups]/(2 * [Measures].[Time Dim Id Distinct Count]);     
+//END SCOPE;     
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Share of insured Families or Groups]
+ AS [Measures].[Insured Families or Groups]/ [Measures].[Number of Families or Groups], 
+FORMAT_STRING = "PERCENT", 
+VISIBLE = 1  ; 
+
+//&lt;ImportedScript DataSourceID="." SourceCubeID="Number of households"&gt;
+//This script was imported through the linked object wizard 
+//by VMW7-A on 8/17/2017.
+//Some of its calculations may not apply if they refer to objects (dimension, 
+//measure group, etc) that were not linked to this cube or that were renamed 
+//when linked.  You may want to review the imported script in order to avoid 
+//errors during processing.
+/*
+The CALCULATE command controls the aggregation of leaf cells in the cube.
+If the CALCULATE command is deleted or modified, the data within the cube is affected.
+You should edit this command only if you manually specify how the cube is aggregated.
+*/
+CALCULATE;  
+SCOPE [Measures].[Number of Families or Groups];  
+    THIS = [Measures].[Number of Families or Groups]/3;  
+END SCOPE;
+//&lt;/ImportedScript&gt;</Text>
+        </Command>
+      </Commands>
+    </MdxScript>
+  </MdxScripts>
+</Cube>

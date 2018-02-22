@@ -1,0 +1,437 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="00c74c03-ca88-4f77-add4-357b334e3685" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Number of feedbacks according to answers to specific questions</ID>
+  <Name>Feedback share answers</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="2a013948-f4f7-4469-aa3d-12ff00070a6c">
+      <Annotations>
+        <Annotation>
+          <Name>ImportSourceInformation</Name>
+          <Value>
+            <ImportSourceInformation xmlns="">
+              <DataSourceID>.</DataSourceID>
+              <SourceCubeID>Feedback Details</SourceCubeID>
+              <SourceObjectID>Products</SourceObjectID>
+            </ImportSourceInformation>
+          </Value>
+        </Annotation>
+      </Annotations>
+      <ID>Products</ID>
+      <Name>Products</Name>
+      <DimensionID>Products</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="44ac384a-3256-4e6a-a37c-7785ef966a47">
+          <AttributeID>Product Dim Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1f1c6f91-0a6c-4806-ba85-a926977fcdca">
+          <AttributeID>District</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="710cc9e8-e93f-40f6-97c9-cacb584924d6">
+          <AttributeID>Product Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0d6cde14-102a-4c25-8f66-38c0e0dedd74">
+          <AttributeID>Product Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="662c38eb-99e5-4ced-8cd1-0767bfb5312b">
+          <AttributeID>Region</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="e58aa61f-9644-4c55-85f5-a4ac753417e0">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="05cf32b1-3031-405f-a890-25b1fe0eb21a">
+      <Annotations>
+        <Annotation>
+          <Name>ImportSourceInformation</Name>
+          <Value>
+            <ImportSourceInformation xmlns="">
+              <DataSourceID>.</DataSourceID>
+              <SourceCubeID>Feedback Details</SourceCubeID>
+              <SourceObjectID>Providers</SourceObjectID>
+            </ImportSourceInformation>
+          </Value>
+        </Annotation>
+      </Annotations>
+      <ID>Providers</ID>
+      <Name>Providers</Name>
+      <DimensionID>Providers</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="caea5252-f724-4dfe-a917-4e90e9de9f36">
+          <AttributeID>Provider Dim Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3c8ccce1-abd9-403e-a992-4da387fdbf03">
+          <AttributeID>Provider Category</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="92dd44cf-87f1-41ac-bfc5-870a0a8dfa2f">
+          <AttributeID>Provider Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="462f5149-231e-421d-a7cc-1cfd5fd3ad0f">
+          <AttributeID>Provider Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="24ac75a5-0bcb-4426-b49d-f2d70eafde48">
+          <AttributeID>Provider Category Desc</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cb081b67-c8cd-411b-942d-83afe31e84d2">
+          <AttributeID>District</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b52e7800-ae7a-46f8-be9b-cb7d2c13952e">
+          <AttributeID>Region</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="f293db82-c513-4cb0-a658-75d50d60e131">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="9abe6a03-8f65-4422-83d7-ee3bd37270c3">
+      <Annotations>
+        <Annotation>
+          <Name>ImportSourceInformation</Name>
+          <Value>
+            <ImportSourceInformation xmlns="">
+              <DataSourceID>.</DataSourceID>
+              <SourceCubeID>Feedback Details</SourceCubeID>
+              <SourceObjectID>Time</SourceObjectID>
+            </ImportSourceInformation>
+          </Value>
+        </Annotation>
+      </Annotations>
+      <ID>Time</ID>
+      <Name>Time</Name>
+      <DimensionID>Time</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="027bec8a-3a01-4d7b-9956-1769df1a0faf">
+          <AttributeID>Time Dim Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="417ebd13-a5f3-4fda-bb67-587ef7237263">
+          <AttributeID>Year Time</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="35a66df5-5acd-4390-aab4-6657a41a52a2">
+          <AttributeID>Quarter Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="64c82ab7-2c6f-4c1d-835c-117b531f965b">
+          <AttributeID>Month Name</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="6177d69d-4712-4aed-988f-df08be8b0be8">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="dece1f27-274f-4a55-8e78-5bc21bd9ad34">
+      <Annotations>
+        <Annotation>
+          <Name>ImportSourceInformation</Name>
+          <Value>
+            <ImportSourceInformation xmlns="">
+              <DataSourceID>.</DataSourceID>
+              <SourceCubeID>Feedbacks Answered</SourceCubeID>
+              <SourceObjectID>Questions</SourceObjectID>
+            </ImportSourceInformation>
+          </Value>
+        </Annotation>
+      </Annotations>
+      <ID>Questions</ID>
+      <Name>Questions</Name>
+      <DimensionID>Questions</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="0c4c20f8-0490-4403-8faf-35e9b114ab43">
+          <AttributeID>Question Dim Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a94ac4d2-f6c1-4d6d-9d63-740d7b0e7fdf">
+          <AttributeID>Question</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <Visible>false</Visible>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="37b7d079-8002-4d70-84e6-34d1fe383e3e">
+      <ID>Feedbacks Responded</ID>
+      <Name>Feedbacks Responded</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="034c8bb1-2a7d-4849-b65a-bbec8ce71954">
+          <ID>Feedbacks Responded</ID>
+          <Name>Feedbacks Responded</Name>
+          <Source dwd:design-time-name="f06b8d71-b611-471c-8a0e-1bd05f0cb22d">
+            <DataType>Integer</DataType>
+            <Source xsi:type="MeasureBinding" dwd:design-time-name="98b6183b-8144-4ea5-8186-a2b99f3ec6a6">
+              <MeasureID>Feedbacks Responded</MeasureID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+          <FormatString>#,###</FormatString>
+        </Measure>
+      </Measures>
+      <Source dwd:design-time-name="030b417f-e1f0-4b34-9f85-ab6cbe85cd05">
+        <DataSourceID>.</DataSourceID>
+        <CubeID>Feedback Details</CubeID>
+        <MeasureGroupID>Feedbacks Responded</MeasureGroupID>
+        <Persistence>Metadata</Persistence>
+        <RefreshInterval>PT1S</RefreshInterval>
+      </Source>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="bd1d7c1c-1494-4ee5-8c2f-8a2113d002b3">
+          <CubeDimensionID>Products</CubeDimensionID>
+          <Source dwd:design-time-name="1878c991-89f3-43cb-b10e-a073ee10da11">
+            <CubeDimensionID>Products</CubeDimensionID>
+          </Source>
+          <Attributes>
+            <Attribute dwd:design-time-name="36399d78-bc28-4c28-9910-3a34bd5ab680">
+              <AttributeID>Product Dim Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c38b9adf-b495-4466-bbdb-eef069946e34">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="67dd0295-fc5e-4585-8095-a22c093b8c70">
+                    <TableID>dbo_tblFactNumberFeedbacksResponded</TableID>
+                    <ColumnID>ProductDimId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="cdc9a20b-ad2e-4075-95e9-2c314241127c">
+          <CubeDimensionID>Providers</CubeDimensionID>
+          <Source dwd:design-time-name="cfdf1fb5-b80f-437e-b908-c7d8509215ba">
+            <CubeDimensionID>Providers</CubeDimensionID>
+          </Source>
+          <Attributes>
+            <Attribute dwd:design-time-name="9799af84-a2e6-4887-aa39-38a5862003e9">
+              <AttributeID>Provider Dim Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="3f997389-baae-4507-9824-cfd81d705eaf">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2b0e8a16-fada-4ed0-996e-12f06059ccc7">
+                    <TableID>dbo_tblFactNumberFeedbacksResponded</TableID>
+                    <ColumnID>ProviderDimId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="647ffe8c-0cd4-47fe-b1f9-1ea00357572f">
+          <CubeDimensionID>Time</CubeDimensionID>
+          <Source dwd:design-time-name="6c1283ee-12ac-4faf-b0b7-c7c50ae49cb8">
+            <CubeDimensionID>Time</CubeDimensionID>
+          </Source>
+          <Attributes>
+            <Attribute dwd:design-time-name="2e08ac77-726c-4e33-b1d6-4d76a8b45c69">
+              <AttributeID>Time Dim Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c01389c1-91f1-4d1e-a8f9-7908037591b7">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="cd9e8cd1-115e-4f9b-8cda-23bb408fcd6c">
+                    <TableID>dbo_tblFactNumberFeedbacksResponded</TableID>
+                    <ColumnID>TimeDimId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="f13d0ba2-cb9c-4a8d-a626-174ba78a1099">
+      <ID>Feedbacks Answered In Yes</ID>
+      <Name>Feedbacks Answered In Yes</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="c416cd04-8e31-46ab-a179-8e0062104b97">
+          <ID>Answers Yes</ID>
+          <Name>Answers Yes</Name>
+          <Source dwd:design-time-name="6c2ddb0b-033d-46ce-8e8b-608d1e7a0be8">
+            <DataType>Integer</DataType>
+            <Source xsi:type="MeasureBinding" dwd:design-time-name="65d5ffa4-fe23-427f-83cc-06fbd804885a">
+              <MeasureID>Answers Yes</MeasureID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+          <FormatString>#,###</FormatString>
+        </Measure>
+      </Measures>
+      <Source dwd:design-time-name="25dbd160-b3cc-428c-90c0-dc454fa3a4fe">
+        <DataSourceID>.</DataSourceID>
+        <CubeID>Feedbacks Answered</CubeID>
+        <MeasureGroupID>Feedbacks Answered In Yes</MeasureGroupID>
+        <Persistence>Metadata</Persistence>
+        <RefreshInterval>PT1S</RefreshInterval>
+      </Source>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="4d4a5641-6d99-4e38-96f0-ede861441e33">
+          <CubeDimensionID>Products</CubeDimensionID>
+          <Source dwd:design-time-name="fcb5288f-10cd-4922-bc51-caf6bb498a0f">
+            <CubeDimensionID>Products</CubeDimensionID>
+          </Source>
+          <Attributes>
+            <Attribute dwd:design-time-name="1d9c8080-c5ba-4c32-b9cb-7f6ac3f56509">
+              <AttributeID>Product Dim Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="e0a45f2b-9067-4354-b02d-06a7493ee298">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="932db87f-b824-4d1a-95e7-d75c57644f13">
+                    <TableID>dbo_tblFactNumberFeedbacksAnswerYes</TableID>
+                    <ColumnID>ProductDimId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="adcce764-8bc1-4fc9-b207-fdfe6f7b9883">
+          <CubeDimensionID>Providers</CubeDimensionID>
+          <Source dwd:design-time-name="963cba26-9f2a-4e53-bfb5-4a8ff794c32d">
+            <CubeDimensionID>Providers</CubeDimensionID>
+          </Source>
+          <Attributes>
+            <Attribute dwd:design-time-name="d9c010fe-2b2f-4429-8db1-d1f2d1dc4ea7">
+              <AttributeID>Provider Dim Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="34320db8-882b-44d0-8cdf-2453be2f9a06">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9076f758-043d-4d16-a36a-fb8036814dd3">
+                    <TableID>dbo_tblFactNumberFeedbacksAnswerYes</TableID>
+                    <ColumnID>ProviderDimId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a1a805fa-168b-45d1-8db7-cf0e308ab20e">
+          <CubeDimensionID>Questions</CubeDimensionID>
+          <Source dwd:design-time-name="519408f4-5a63-4945-9f40-3e137ea45e68">
+            <CubeDimensionID>Questions</CubeDimensionID>
+          </Source>
+          <Attributes>
+            <Attribute dwd:design-time-name="f2b3e0a8-1a91-4f09-be49-f85a3a10b3f4">
+              <AttributeID>Question Dim Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="9bd660b8-bf9d-427e-b345-e9b397dc00b4">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6a75d9db-d106-4d71-8eca-9430ceb89a92">
+                    <TableID>dbo_tblFactNumberFeedbacksAnswerYes</TableID>
+                    <ColumnID>QuestionDimId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="9d0eb97b-26f0-4821-ac83-9be10e01f989">
+          <CubeDimensionID>Time</CubeDimensionID>
+          <Source dwd:design-time-name="b349fc3a-2f09-4ac9-98a8-41a429feb90b">
+            <CubeDimensionID>Time</CubeDimensionID>
+          </Source>
+          <Attributes>
+            <Attribute dwd:design-time-name="3dc6987f-55ce-4c44-8797-db1441155882">
+              <AttributeID>Time Dim Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="a8d5727f-c816-4f68-a47d-4b90080817b0">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1dcacdd7-dc62-497c-84b2-1a887856c330">
+                    <TableID>dbo_tblFactNumberFeedbacksAnswerYes</TableID>
+                    <ColumnID>TimeDimId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+    </MeasureGroup>
+  </MeasureGroups>
+  <MdxScripts>
+    <MdxScript dwd:design-time-name="d7dcddf4-c78f-45ee-a506-5d18ddb06945">
+      <ID>MdxScript</ID>
+      <Name>MdxScript</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Commands>
+        <Command>
+          <Text>/*
+The CALCULATE command controls the aggregation of leaf cells in the cube.
+If the CALCULATE command is deleted or modified, the data within the cube is affected.
+You should edit this command only if you manually specify how the cube is aggregated.
+*/
+CALCULATE;  
+CREATE MEMBER CURRENTCUBE.[Measures].[Share of Answers Yes]
+ AS [Measures].[Answers Yes]/[Measures].[Feedbacks Responded], 
+FORMAT_STRING = "#,##0.00;-#,##0.00", 
+VISIBLE = 1  ; </Text>
+        </Command>
+      </Commands>
+    </MdxScript>
+  </MdxScripts>
+</Cube>

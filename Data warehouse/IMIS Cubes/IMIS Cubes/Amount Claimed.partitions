@@ -1,0 +1,25 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="19030804-b63d-41d6-96d5-181b9bfbdd02" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Amount Claimed</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Amount Claimed</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="8e3a82f5-13a3-4ff0-80e3-35ce59afa808">
+          <ID>Amount Claimed</ID>
+          <Name>Amount Claimed</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="5d9ae08c-3d1f-49e1-a40f-0158824d7880">
+            <DataSourceViewID>Amount Claimed</DataSourceViewID>
+            <TableID>dbo_tblFactAmountClaimed</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

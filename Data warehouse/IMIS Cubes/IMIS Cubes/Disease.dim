@@ -1,0 +1,180 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="8dc60223-83c1-4839-9329-0c32599ea6db" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Disease</ID>
+  <Name>Disease</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2401" scrolltop="-8864" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="3784" y="15584" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Disease" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3334" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000060d0000a50a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_tblDimDisease" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2401</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-8864</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="7f5bb058-74d9-4118-a2e7-a55712c7c3ab">
+    <DataSourceViewID>Item Expenditures</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="4cfedcf3-80b1-4d30-808a-a4d862166658">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="6d7337db-7bf1-4900-a7e7-6ceedcc356d8">
+      <ID>Disease Dim Id</ID>
+      <Name>Disease Dim Id</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ce45d4bf-3464-407e-bce8-4cb9afb5fdfd">
+          <NullProcessing>UnknownMember</NullProcessing>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e593fe66-b04c-4e13-880a-a87787c35919">
+            <TableID>dbo_tblDimDisease</TableID>
+            <ColumnID>DiseaseDimId</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="e7cf85aa-cd65-4a12-a66f-8de9f5330305">
+          <AttributeID>Disease Code</AttributeID>
+          <Name>Disease Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4de1e8ac-86a9-4705-b406-8eae9df73836">
+          <AttributeID>Disease Name</AttributeID>
+          <Name>Disease Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="656b8d23-b3df-48b2-b732-973deec60fe0">
+          <AttributeID>Disease Category</AttributeID>
+          <Name>Disease Category</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="53110bf0-c7d0-4ef0-9740-ae86ffd26d8e">
+      <ID>Disease Code</ID>
+      <Name>Disease Code</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c7693f33-cbe7-478c-a5e7-ee3eefad69af">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="617c48b0-825b-44c7-aac7-9f80d19dc9f7">
+            <TableID>dbo_tblDimDisease</TableID>
+            <ColumnID>DiseaseCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a1b2bef1-18f1-4caa-8ebf-7fbc7cf36a94">
+      <ID>Disease Name</ID>
+      <Name>Disease Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="433cac71-b664-4136-9f6f-578b69ccff9a">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="16554586-b07e-42ad-9e34-7873f0aadb23">
+            <TableID>dbo_tblDimDisease</TableID>
+            <ColumnID>DiseaseName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d0a633bb-37d1-4f0a-b344-26bd739c663e">
+      <ID>Disease Category</ID>
+      <Name>Disease Category</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="077049a8-9c81-4a5d-ab12-e6f2a22213d2">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1eb2334e-74bb-483a-97ab-08c72a728020">
+            <TableID>dbo_tblDimDisease</TableID>
+            <ColumnID>DiseaseCategory</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="5590f7b5-c1a7-4d8d-986d-3b4114c18101">
+      <ID>Hierarchy</ID>
+      <Name>Disease Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="31b837e6-ebbc-41c2-991b-67ceb0a10b0e">
+          <ID>Disease Code</ID>
+          <Name>Disease Code</Name>
+          <SourceAttributeID>Disease Code</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="7c0d31e7-13e0-4ac8-b786-2b4087f8a4d1">
+          <ID>Disease Name</ID>
+          <Name>Disease Name</Name>
+          <SourceAttributeID>Disease Name</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+</Dimension>

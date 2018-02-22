@@ -1,0 +1,457 @@
+﻿<ConfigurationSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Database>
+    <DataSources>
+      <DataSource>
+        <ID>IMIS DW</ID>
+        <ConnectionString>Provider=SQLNCLI10.1;Data Source=VMW7A\EXACT2008R2;Password=;User ID=;Initial Catalog=IMIS_DW</ConnectionString>
+        <ImpersonationInfo>
+          <ImpersonationMode>Default</ImpersonationMode>
+          <ImpersonationInfoSecurity>Unchanged</ImpersonationInfoSecurity>
+        </ImpersonationInfo>
+      </DataSource>
+    </DataSources>
+    <Dimensions>
+      <Dimension>
+        <ID>Age</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Care Category</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Care Type</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Expenditures</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Gender</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Items</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Officers</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Payers</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Products</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Providers</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Questions</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Region</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Services</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Time</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Disease</ID>
+      </Dimension>
+    </Dimensions>
+    <Cubes>
+      <Cube>
+        <ID>Admissions</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Admissions</ID>
+            <Partitions>
+              <Partition>
+                <ID>Admissions</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Amount Approved</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Amount Approved</ID>
+            <Partitions>
+              <Partition>
+                <ID>Amount Approved</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Amount Claimed</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Amount Claimed</ID>
+            <Partitions>
+              <Partition>
+                <ID>Amount Claimed</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Amount Rejected</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Amount Rejected</ID>
+            <Partitions>
+              <Partition>
+                <ID>Amount Rejected</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Claims Sent</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Claims Sent</ID>
+            <Partitions>
+              <Partition>
+                <ID>Claims Sent</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Current Insurees</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Current Insurees</ID>
+            <Partitions>
+              <Partition>
+                <ID>Current Insurees</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Current Policies</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Current Policies</ID>
+            <Partitions>
+              <Partition>
+                <ID>Current Policies</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Feedbacks Answered</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Feedbacks Answered In Yes</ID>
+            <Partitions>
+              <Partition>
+                <ID>Feedbacks Answered In Yes</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Feedbacks Responded</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Feedbacks Responded</ID>
+            <Partitions>
+              <Partition>
+                <ID>Feedbacks Responded</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Feedbacks Sent</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Feedbacks Sent</ID>
+            <Partitions>
+              <Partition>
+                <ID>Feedbacks Sent</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Hospital Days</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Hospital Days</ID>
+            <Partitions>
+              <Partition>
+                <ID>Hospital Days</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Insuree By Range</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Number Of Insuree By Range</ID>
+            <Partitions>
+              <Partition>
+                <ID>Number Of Insuree By Range</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Insuree Expenditures Range</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Insuree Expenditures By Range</ID>
+            <Partitions>
+              <Partition>
+                <ID>Insuree Expenditures By Range</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Item Expenditures</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Item Expenditures</ID>
+            <Partitions>
+              <Partition>
+                <ID>Item Expenditures</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Item Utilization</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Item Utilization</ID>
+            <Partitions>
+              <Partition>
+                <ID>Item Utilization</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>New aquired insurees</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>New Aquired Insurees</ID>
+            <Partitions>
+              <Partition>
+                <ID>New Aquired Insurees</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Policies Expired</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Policies Expired</ID>
+            <Partitions>
+              <Partition>
+                <ID>Policies Expired</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Policies Renewed</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Policies Renewed</ID>
+            <Partitions>
+              <Partition>
+                <ID>Policies Renewed</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Policies Sold</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Policies Sold</ID>
+            <Partitions>
+              <Partition>
+                <ID>Policies Sold</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Premium Collection</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Premium Collection</ID>
+            <Partitions>
+              <Partition>
+                <ID>Premium Collection</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Service Expenditures</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Service Expenditures</ID>
+            <Partitions>
+              <Partition>
+                <ID>Service Expenditures</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Service Utilization</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Service Utilization</ID>
+            <Partitions>
+              <Partition>
+                <ID>Service Utilization</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Visits</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Visits</ID>
+            <Partitions>
+              <Partition>
+                <ID>Visits</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Average Expenditure</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Average Expenditures</ID>
+            <Partitions>
+              <Partition>
+                <ID>Average Expenditures</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Average Expenditure Item</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Averate Expenditures Item</ID>
+            <Partitions>
+              <Partition>
+                <ID>Averate Expenditures Item</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Average Utilization Services</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Average Utilization Services</ID>
+            <Partitions>
+              <Partition>
+                <ID>Average Utilization Services</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Average Utilization Items</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Average Utilization Items</ID>
+            <Partitions>
+              <Partition>
+                <ID>Average Utilization Items</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Average Stay In Hospital</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Average Stay Hospital</ID>
+            <Partitions>
+              <Partition>
+                <ID>Average Stay Hospital</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Average Settlement Amount</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Average Settlement Amount</ID>
+            <Partitions>
+              <Partition>
+                <ID>Average Settlement Amount</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Average Refused Amount</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Average Refused Amount</ID>
+            <Partitions>
+              <Partition>
+                <ID>Average Refused Amount</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+    </Cubes>
+    <DataSourceImpersonationInfo>
+      <ImpersonationMode>Default</ImpersonationMode>
+      <ImpersonationInfoSecurity>Unchanged</ImpersonationInfoSecurity>
+    </DataSourceImpersonationInfo>
+  </Database>
+</ConfigurationSettings>

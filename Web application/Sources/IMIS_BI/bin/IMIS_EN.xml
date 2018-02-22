@@ -1,0 +1,5125 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+IMIS_EN
+</name>
+</assembly>
+<members>
+<member name="M:IMIS_EN.IMISEntities.#ctor">
+	<summary>
+ Initializes a new IMISEntities object using the connection string found in the 'IMISEntities' section of the application configuration file.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.#ctor(System.String)">
+	<summary>
+ Initialize a new IMISEntities object.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.#ctor(System.Data.EntityClient.EntityConnection)">
+	<summary>
+ Initialize a new IMISEntities object.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblBatchRun">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblCeilingInterpretation">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblClaim">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblClaimAdmin">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblClaimDedRem">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblClaimItems">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblClaimServices">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblConfirmationTypes">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblControls">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblEducations">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblEmailSettings">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblExtracts">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblFamilies">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblFamilyTypes">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblFeedback">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblFeedbackPrompt">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblFromPhone">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblHealthStatus">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblHF">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblHFCatchment">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblHFSublevel">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblICDCodes">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblIdentificationTypes">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblIMISDefaults">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblInsuree">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblInsureePolicy">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblItems">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblLanguages">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblLegalForms">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblLocations">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblLogins">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblOfficer">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblOfficerVillages">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblPayer">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblPayerType">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblPhotos">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblPLItems">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblPLItemsDetail">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblPLServices">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblPLServicesDetail">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblPolicy">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblPolicyRenewalDetails">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblPolicyRenewals">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblPremium">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblProduct">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblProductItems">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblProductServices">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblProfessions">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblRelations">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblRelDistr">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblRelIndex">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblReporting">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblServices">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblSubmittedPhotos">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblUsers">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.IMISEntities.tblUsersDistricts">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblBatchRun(IMIS_EN.tblBatchRun)">
+	<summary>
+ Deprecated Method for adding a new object to the tblBatchRun EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblCeilingInterpretation(IMIS_EN.tblCeilingInterpretation)">
+	<summary>
+ Deprecated Method for adding a new object to the tblCeilingInterpretation EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblClaim(IMIS_EN.tblClaim)">
+	<summary>
+ Deprecated Method for adding a new object to the tblClaim EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblClaimAdmin(IMIS_EN.tblClaimAdmin)">
+	<summary>
+ Deprecated Method for adding a new object to the tblClaimAdmin EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblClaimDedRem(IMIS_EN.tblClaimDedRem)">
+	<summary>
+ Deprecated Method for adding a new object to the tblClaimDedRem EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblClaimItems(IMIS_EN.tblClaimItems)">
+	<summary>
+ Deprecated Method for adding a new object to the tblClaimItems EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblClaimServices(IMIS_EN.tblClaimServices)">
+	<summary>
+ Deprecated Method for adding a new object to the tblClaimServices EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblConfirmationTypes(IMIS_EN.tblConfirmationTypes)">
+	<summary>
+ Deprecated Method for adding a new object to the tblConfirmationTypes EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblControls(IMIS_EN.tblControls)">
+	<summary>
+ Deprecated Method for adding a new object to the tblControls EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblEducations(IMIS_EN.tblEducations)">
+	<summary>
+ Deprecated Method for adding a new object to the tblEducations EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblEmailSettings(IMIS_EN.tblEmailSettings)">
+	<summary>
+ Deprecated Method for adding a new object to the tblEmailSettings EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblExtracts(IMIS_EN.tblExtracts)">
+	<summary>
+ Deprecated Method for adding a new object to the tblExtracts EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblFamilies(IMIS_EN.tblFamilies)">
+	<summary>
+ Deprecated Method for adding a new object to the tblFamilies EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblFamilyTypes(IMIS_EN.tblFamilyTypes)">
+	<summary>
+ Deprecated Method for adding a new object to the tblFamilyTypes EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblFeedback(IMIS_EN.tblFeedback)">
+	<summary>
+ Deprecated Method for adding a new object to the tblFeedback EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblFeedbackPrompt(IMIS_EN.tblFeedbackPrompt)">
+	<summary>
+ Deprecated Method for adding a new object to the tblFeedbackPrompt EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblFromPhone(IMIS_EN.tblFromPhone)">
+	<summary>
+ Deprecated Method for adding a new object to the tblFromPhone EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblHealthStatus(IMIS_EN.tblHealthStatus)">
+	<summary>
+ Deprecated Method for adding a new object to the tblHealthStatus EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblHF(IMIS_EN.tblHF)">
+	<summary>
+ Deprecated Method for adding a new object to the tblHF EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblHFCatchment(IMIS_EN.tblHFCatchment)">
+	<summary>
+ Deprecated Method for adding a new object to the tblHFCatchment EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblHFSublevel(IMIS_EN.tblHFSublevel)">
+	<summary>
+ Deprecated Method for adding a new object to the tblHFSublevel EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblICDCodes(IMIS_EN.tblICDCodes)">
+	<summary>
+ Deprecated Method for adding a new object to the tblICDCodes EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblIdentificationTypes(IMIS_EN.tblIdentificationTypes)">
+	<summary>
+ Deprecated Method for adding a new object to the tblIdentificationTypes EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblIMISDefaults(IMIS_EN.tblIMISDefaults)">
+	<summary>
+ Deprecated Method for adding a new object to the tblIMISDefaults EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblInsuree(IMIS_EN.tblInsuree)">
+	<summary>
+ Deprecated Method for adding a new object to the tblInsuree EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblInsureePolicy(IMIS_EN.tblInsureePolicy)">
+	<summary>
+ Deprecated Method for adding a new object to the tblInsureePolicy EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblItems(IMIS_EN.tblItems)">
+	<summary>
+ Deprecated Method for adding a new object to the tblItems EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblLanguages(IMIS_EN.tblLanguages)">
+	<summary>
+ Deprecated Method for adding a new object to the tblLanguages EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblLegalForms(IMIS_EN.tblLegalForms)">
+	<summary>
+ Deprecated Method for adding a new object to the tblLegalForms EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblLocations(IMIS_EN.tblLocations)">
+	<summary>
+ Deprecated Method for adding a new object to the tblLocations EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblLogins(IMIS_EN.tblLogins)">
+	<summary>
+ Deprecated Method for adding a new object to the tblLogins EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblOfficer(IMIS_EN.tblOfficer)">
+	<summary>
+ Deprecated Method for adding a new object to the tblOfficer EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblOfficerVillages(IMIS_EN.tblOfficerVillages)">
+	<summary>
+ Deprecated Method for adding a new object to the tblOfficerVillages EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblPayer(IMIS_EN.tblPayer)">
+	<summary>
+ Deprecated Method for adding a new object to the tblPayer EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblPayerType(IMIS_EN.tblPayerType)">
+	<summary>
+ Deprecated Method for adding a new object to the tblPayerType EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblPhotos(IMIS_EN.tblPhotos)">
+	<summary>
+ Deprecated Method for adding a new object to the tblPhotos EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblPLItems(IMIS_EN.tblPLItems)">
+	<summary>
+ Deprecated Method for adding a new object to the tblPLItems EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblPLItemsDetail(IMIS_EN.tblPLItemsDetail)">
+	<summary>
+ Deprecated Method for adding a new object to the tblPLItemsDetail EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblPLServices(IMIS_EN.tblPLServices)">
+	<summary>
+ Deprecated Method for adding a new object to the tblPLServices EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblPLServicesDetail(IMIS_EN.tblPLServicesDetail)">
+	<summary>
+ Deprecated Method for adding a new object to the tblPLServicesDetail EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblPolicy(IMIS_EN.tblPolicy)">
+	<summary>
+ Deprecated Method for adding a new object to the tblPolicy EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblPolicyRenewalDetails(IMIS_EN.tblPolicyRenewalDetails)">
+	<summary>
+ Deprecated Method for adding a new object to the tblPolicyRenewalDetails EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblPolicyRenewals(IMIS_EN.tblPolicyRenewals)">
+	<summary>
+ Deprecated Method for adding a new object to the tblPolicyRenewals EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblPremium(IMIS_EN.tblPremium)">
+	<summary>
+ Deprecated Method for adding a new object to the tblPremium EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblProduct(IMIS_EN.tblProduct)">
+	<summary>
+ Deprecated Method for adding a new object to the tblProduct EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblProductItems(IMIS_EN.tblProductItems)">
+	<summary>
+ Deprecated Method for adding a new object to the tblProductItems EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblProductServices(IMIS_EN.tblProductServices)">
+	<summary>
+ Deprecated Method for adding a new object to the tblProductServices EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblProfessions(IMIS_EN.tblProfessions)">
+	<summary>
+ Deprecated Method for adding a new object to the tblProfessions EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblRelations(IMIS_EN.tblRelations)">
+	<summary>
+ Deprecated Method for adding a new object to the tblRelations EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblRelDistr(IMIS_EN.tblRelDistr)">
+	<summary>
+ Deprecated Method for adding a new object to the tblRelDistr EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblRelIndex(IMIS_EN.tblRelIndex)">
+	<summary>
+ Deprecated Method for adding a new object to the tblRelIndex EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblReporting(IMIS_EN.tblReporting)">
+	<summary>
+ Deprecated Method for adding a new object to the tblReporting EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblServices(IMIS_EN.tblServices)">
+	<summary>
+ Deprecated Method for adding a new object to the tblServices EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblSubmittedPhotos(IMIS_EN.tblSubmittedPhotos)">
+	<summary>
+ Deprecated Method for adding a new object to the tblSubmittedPhotos EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblUsers(IMIS_EN.tblUsers)">
+	<summary>
+ Deprecated Method for adding a new object to the tblUsers EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:IMIS_EN.IMISEntities.AddTotblUsersDistricts(IMIS_EN.tblUsersDistricts)">
+	<summary>
+ Deprecated Method for adding a new object to the tblUsersDistricts EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="T:IMIS_EN.IMISEntities">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblBatchRun.CreatetblBatchRun(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32,System.Byte)">
+	<summary>
+ Create a new tblBatchRun object.
+ </summary>
+	<param name="runID">Initial value of the RunID property.</param>
+	<param name="runDate">Initial value of the RunDate property.</param>
+	<param name="validityFrom">Initial value of the ValidityFrom property.</param>
+	<param name="auditUserID">Initial value of the AuditUserID property.</param>
+	<param name="runYear">Initial value of the RunYear property.</param>
+	<param name="runMonth">Initial value of the RunMonth property.</param>
+</member><member name="P:IMIS_EN.tblBatchRun.RunID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblBatchRun.LocationId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblBatchRun.RunDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblBatchRun.ValidityFrom">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblBatchRun.ValidityTo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblBatchRun.LegacyID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblBatchRun.AuditUserID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblBatchRun.RunYear">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblBatchRun.RunMonth">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblBatchRun.tblLocations">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblBatchRun.tblLocationsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblBatchRun.tblClaim">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblBatchRun">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblCeilingInterpretation.CreatetblCeilingInterpretation(System.String,System.String)">
+	<summary>
+ Create a new tblCeilingInterpretation object.
+ </summary>
+	<param name="ceilingIntCode">Initial value of the CeilingIntCode property.</param>
+	<param name="ceilingIntDesc">Initial value of the CeilingIntDesc property.</param>
+</member><member name="P:IMIS_EN.tblCeilingInterpretation.CeilingIntCode">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblCeilingInterpretation.CeilingIntDesc">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblCeilingInterpretation.AltLanguage">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblCeilingInterpretation.SortOrder">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblCeilingInterpretation.tblProduct">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblCeilingInterpretation">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblClaim.CreatetblClaim(System.Int32,System.Int32,System.String,System.DateTime,System.Int32,System.Byte,System.DateTime,System.Boolean,System.DateTime,System.Int32,System.Int32)">
+	<summary>
+ Create a new tblClaim object.
+ </summary>
+	<param name="claimID">Initial value of the ClaimID property.</param>
+	<param name="insureeID">Initial value of the InsureeID property.</param>
+	<param name="claimCode">Initial value of the ClaimCode property.</param>
+	<param name="dateFrom">Initial value of the DateFrom property.</param>
+	<param name="iCDID">Initial value of the ICDID property.</param>
+	<param name="claimStatus">Initial value of the ClaimStatus property.</param>
+	<param name="dateClaimed">Initial value of the DateClaimed property.</param>
+	<param name="feedback">Initial value of the Feedback property.</param>
+	<param name="validityFrom">Initial value of the ValidityFrom property.</param>
+	<param name="auditUserID">Initial value of the AuditUserID property.</param>
+	<param name="hFID">Initial value of the HFID property.</param>
+</member><member name="P:IMIS_EN.tblClaim.ClaimID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.InsureeID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.ClaimCode">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.DateFrom">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.DateTo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.ICDID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.ClaimStatus">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.Adjuster">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.Adjustment">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.Claimed">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.Approved">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.Reinsured">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.Valuated">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.DateClaimed">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.DateProcessed">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.Feedback">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.FeedbackID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.Explanation">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.FeedbackStatus">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.ReviewStatus">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.ApprovalStatus">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.RejectionReason">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.ValidityFrom">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.ValidityTo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.LegacyID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.AuditUserID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.ValidityFromReview">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.ValidityToReview">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.AuditUserIDReview">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.RowID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.HFID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.RunID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.AuditUserIDSubmit">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.AuditUserIDProcess">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.SubmitStamp">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.ProcessStamp">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.Remunerated">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.GuaranteeId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.ClaimAdminId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.ICDID1">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.ICDID2">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.ICDID3">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.ICDID4">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.VisitType">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.ClaimCategory">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.tblBatchRun">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.tblBatchRunReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.tblClaimAdmin">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.tblClaimAdminReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.tblFeedback">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.tblFeedbackReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.tblHF">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.tblHFReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.tblICDCodes">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.tblICDCodesReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.tblInsuree">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.tblInsureeReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.tblUsers">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.tblUsersReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.tblClaimItems">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.tblClaimServices">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaim.tblFeedback1">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblClaim">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblClaimAdmin.CreatetblClaimAdmin(System.Int32)">
+	<summary>
+ Create a new tblClaimAdmin object.
+ </summary>
+	<param name="claimAdminId">Initial value of the ClaimAdminId property.</param>
+</member><member name="P:IMIS_EN.tblClaimAdmin.ClaimAdminId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimAdmin.ClaimAdminCode">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimAdmin.LastName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimAdmin.OtherNames">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimAdmin.DOB">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimAdmin.Phone">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimAdmin.HFId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimAdmin.ValidityFrom">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimAdmin.ValidityTo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimAdmin.LegacyId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimAdmin.AuditUserId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimAdmin.RowId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimAdmin.EmailId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimAdmin.tblClaim">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimAdmin.tblHF">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimAdmin.tblHFReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblClaimAdmin">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblClaimDedRem.CreatetblClaimDedRem(System.Int32,System.Int32,System.Int32,System.Int32,System.DateTime,System.Int32)">
+	<summary>
+ Create a new tblClaimDedRem object.
+ </summary>
+	<param name="expenditureID">Initial value of the ExpenditureID property.</param>
+	<param name="policyID">Initial value of the PolicyID property.</param>
+	<param name="insureeID">Initial value of the InsureeID property.</param>
+	<param name="claimID">Initial value of the ClaimID property.</param>
+	<param name="validityFrom">Initial value of the ValidityFrom property.</param>
+	<param name="auditUserID">Initial value of the AuditUserID property.</param>
+</member><member name="P:IMIS_EN.tblClaimDedRem.ExpenditureID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimDedRem.PolicyID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimDedRem.InsureeID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimDedRem.ClaimID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimDedRem.DedG">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimDedRem.DedOP">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimDedRem.DedIP">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimDedRem.RemG">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimDedRem.RemIP">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimDedRem.RemOP">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimDedRem.RemConsult">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimDedRem.RemSurgery">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimDedRem.RemDelivery">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimDedRem.RemHospitalization">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimDedRem.ValidityFrom">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimDedRem.ValidityTo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimDedRem.LegacyID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimDedRem.AuditUserID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimDedRem.RemAntenatal">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimDedRem.tblInsuree">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimDedRem.tblInsureeReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimDedRem.tblPolicy">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimDedRem.tblPolicyReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblClaimDedRem">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblClaimItems.CreatetblClaimItems(System.Int32,System.Int32,System.Int32,System.Byte,System.Boolean,System.Decimal,System.Decimal,System.DateTime,System.Int32)">
+	<summary>
+ Create a new tblClaimItems object.
+ </summary>
+	<param name="claimItemID">Initial value of the ClaimItemID property.</param>
+	<param name="claimID">Initial value of the ClaimID property.</param>
+	<param name="itemID">Initial value of the ItemID property.</param>
+	<param name="claimItemStatus">Initial value of the ClaimItemStatus property.</param>
+	<param name="availability">Initial value of the Availability property.</param>
+	<param name="qtyProvided">Initial value of the QtyProvided property.</param>
+	<param name="priceAsked">Initial value of the PriceAsked property.</param>
+	<param name="validityFrom">Initial value of the ValidityFrom property.</param>
+	<param name="auditUserID">Initial value of the AuditUserID property.</param>
+</member><member name="P:IMIS_EN.tblClaimItems.ClaimItemID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimItems.ClaimID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimItems.ItemID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimItems.ProdID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimItems.ClaimItemStatus">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimItems.Availability">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimItems.QtyProvided">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimItems.QtyApproved">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimItems.PriceAsked">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimItems.PriceAdjusted">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimItems.PriceApproved">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimItems.PriceValuated">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimItems.Explanation">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimItems.Justification">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimItems.RejectionReason">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimItems.ValidityFrom">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimItems.ValidityTo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimItems.LegacyID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimItems.AuditUserID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimItems.ValidityFromReview">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimItems.ValidityToReview">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimItems.AuditUserIDReview">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimItems.LimitationValue">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimItems.Limitation">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimItems.PolicyID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimItems.RemuneratedAmount">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimItems.DeductableAmount">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimItems.ExceedCeilingAmount">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimItems.PriceOrigin">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimItems.ExceedCeilingAmountCategory">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimItems.tblClaim">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimItems.tblClaimReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimItems.tblItems">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimItems.tblItemsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimItems.tblProduct">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimItems.tblProductReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblClaimItems">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblClaimServices.CreatetblClaimServices(System.Int32,System.Int32,System.Int32,System.Byte,System.Decimal,System.Decimal,System.DateTime,System.Int32)">
+	<summary>
+ Create a new tblClaimServices object.
+ </summary>
+	<param name="claimServiceID">Initial value of the ClaimServiceID property.</param>
+	<param name="claimID">Initial value of the ClaimID property.</param>
+	<param name="serviceID">Initial value of the ServiceID property.</param>
+	<param name="claimServiceStatus">Initial value of the ClaimServiceStatus property.</param>
+	<param name="qtyProvided">Initial value of the QtyProvided property.</param>
+	<param name="priceAsked">Initial value of the PriceAsked property.</param>
+	<param name="validityFrom">Initial value of the ValidityFrom property.</param>
+	<param name="auditUserID">Initial value of the AuditUserID property.</param>
+</member><member name="P:IMIS_EN.tblClaimServices.ClaimServiceID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimServices.ClaimID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimServices.ServiceID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimServices.ProdID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimServices.ClaimServiceStatus">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimServices.QtyProvided">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimServices.QtyApproved">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimServices.PriceAsked">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimServices.PriceAdjusted">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimServices.PriceApproved">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimServices.PriceValuated">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimServices.Explanation">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimServices.Justification">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimServices.RejectionReason">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimServices.ValidityFrom">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimServices.ValidityTo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimServices.LegacyID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimServices.AuditUserID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimServices.ValidityFromReview">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimServices.ValidityToReview">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimServices.AuditUserIDReview">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimServices.LimitationValue">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimServices.Limitation">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimServices.PolicyID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimServices.RemuneratedAmount">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimServices.DeductableAmount">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimServices.ExceedCeilingAmount">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimServices.PriceOrigin">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimServices.ExceedCeilingAmountCategory">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimServices.tblClaim">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimServices.tblClaimReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimServices.tblProduct">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimServices.tblProductReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimServices.tblServices">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblClaimServices.tblServicesReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblClaimServices">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblConfirmationTypes.CreatetblConfirmationTypes(System.String,System.String)">
+	<summary>
+ Create a new tblConfirmationTypes object.
+ </summary>
+	<param name="confirmationTypeCode">Initial value of the ConfirmationTypeCode property.</param>
+	<param name="confirmationType">Initial value of the ConfirmationType property.</param>
+</member><member name="P:IMIS_EN.tblConfirmationTypes.ConfirmationTypeCode">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblConfirmationTypes.ConfirmationType">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblConfirmationTypes.SortOrder">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblConfirmationTypes.AltLanguage">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblConfirmationTypes.tblFamilies">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblConfirmationTypes">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblControls.CreatetblControls(System.String,System.String)">
+	<summary>
+ Create a new tblControls object.
+ </summary>
+	<param name="fieldName">Initial value of the FieldName property.</param>
+	<param name="adjustibility">Initial value of the Adjustibility property.</param>
+</member><member name="P:IMIS_EN.tblControls.FieldName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblControls.Adjustibility">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblControls.Usage">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblControls">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblEducations.CreatetblEducations(System.Int16,System.String)">
+	<summary>
+ Create a new tblEducations object.
+ </summary>
+	<param name="educationId">Initial value of the EducationId property.</param>
+	<param name="education">Initial value of the Education property.</param>
+</member><member name="P:IMIS_EN.tblEducations.EducationId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblEducations.Education">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblEducations.SortOrder">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblEducations.AltLanguage">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblEducations.tblInsuree">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblEducations">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblEmailSettings.CreatetblEmailSettings(System.String,System.String,System.String,System.Int32,System.Boolean)">
+	<summary>
+ Create a new tblEmailSettings object.
+ </summary>
+	<param name="emailId">Initial value of the EmailId property.</param>
+	<param name="emailPassword">Initial value of the EmailPassword property.</param>
+	<param name="sMTPHost">Initial value of the SMTPHost property.</param>
+	<param name="port">Initial value of the Port property.</param>
+	<param name="enableSSL">Initial value of the EnableSSL property.</param>
+</member><member name="P:IMIS_EN.tblEmailSettings.EmailId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblEmailSettings.EmailPassword">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblEmailSettings.SMTPHost">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblEmailSettings.Port">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblEmailSettings.EnableSSL">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblEmailSettings">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblExtracts.CreatetblExtracts(System.Int32,System.Byte,System.Byte,System.Int32,System.DateTime,System.Int32,System.Decimal,System.DateTime,System.Int32)">
+	<summary>
+ Create a new tblExtracts object.
+ </summary>
+	<param name="extractID">Initial value of the ExtractID property.</param>
+	<param name="extractDirection">Initial value of the ExtractDirection property.</param>
+	<param name="extractType">Initial value of the ExtractType property.</param>
+	<param name="extractSequence">Initial value of the ExtractSequence property.</param>
+	<param name="extractDate">Initial value of the ExtractDate property.</param>
+	<param name="locationId">Initial value of the LocationId property.</param>
+	<param name="appVersionBackend">Initial value of the AppVersionBackend property.</param>
+	<param name="validityFrom">Initial value of the ValidityFrom property.</param>
+	<param name="auditUserID">Initial value of the AuditUserID property.</param>
+</member><member name="P:IMIS_EN.tblExtracts.ExtractID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblExtracts.ExtractDirection">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblExtracts.ExtractType">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblExtracts.ExtractSequence">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblExtracts.ExtractDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblExtracts.ExtractFileName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblExtracts.ExtractFolder">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblExtracts.LocationId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblExtracts.HFID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblExtracts.AppVersionBackend">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblExtracts.ValidityFrom">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblExtracts.ValidityTo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblExtracts.LegacyID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblExtracts.AuditUserID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblExtracts.RowID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblExtracts">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblFamilies.CreatetblFamilies(System.Int32,System.Int32,System.Int32,System.DateTime,System.Int32)">
+	<summary>
+ Create a new tblFamilies object.
+ </summary>
+	<param name="familyID">Initial value of the FamilyID property.</param>
+	<param name="insureeID">Initial value of the InsureeID property.</param>
+	<param name="locationId">Initial value of the LocationId property.</param>
+	<param name="validityFrom">Initial value of the ValidityFrom property.</param>
+	<param name="auditUserID">Initial value of the AuditUserID property.</param>
+</member><member name="P:IMIS_EN.tblFamilies.FamilyID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFamilies.InsureeID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFamilies.LocationId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFamilies.Poverty">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFamilies.ValidityFrom">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFamilies.ValidityTo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFamilies.LegacyID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFamilies.AuditUserID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFamilies.RowID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFamilies.FamilyType">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFamilies.FamilyAddress">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFamilies.isOffline">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFamilies.Ethnicity">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFamilies.ConfirmationNo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFamilies.ConfirmationType">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFamilies.tblConfirmationTypes">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFamilies.tblConfirmationTypesReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFamilies.tblInsuree">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFamilies.tblInsureeReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFamilies.tblLocations">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFamilies.tblLocationsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFamilies.tblFamilyTypes">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFamilies.tblFamilyTypesReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFamilies.tblInsuree1">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFamilies.tblPolicy">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblFamilies">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblFamilyTypes.CreatetblFamilyTypes(System.String,System.String)">
+	<summary>
+ Create a new tblFamilyTypes object.
+ </summary>
+	<param name="familyTypeCode">Initial value of the FamilyTypeCode property.</param>
+	<param name="familyType">Initial value of the FamilyType property.</param>
+</member><member name="P:IMIS_EN.tblFamilyTypes.FamilyTypeCode">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFamilyTypes.FamilyType">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFamilyTypes.SortOrder">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFamilyTypes.AltLanguage">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFamilyTypes.tblFamilies">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblFamilyTypes">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblFeedback.CreatetblFeedback(System.Int32,System.Int32,System.DateTime,System.Int32)">
+	<summary>
+ Create a new tblFeedback object.
+ </summary>
+	<param name="feedbackID">Initial value of the FeedbackID property.</param>
+	<param name="claimID">Initial value of the ClaimID property.</param>
+	<param name="validityFrom">Initial value of the ValidityFrom property.</param>
+	<param name="auditUserID">Initial value of the AuditUserID property.</param>
+</member><member name="P:IMIS_EN.tblFeedback.FeedbackID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFeedback.ClaimID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFeedback.CareRendered">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFeedback.PaymentAsked">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFeedback.DrugPrescribed">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFeedback.DrugReceived">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFeedback.Asessment">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFeedback.CHFOfficerCode">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFeedback.FeedbackDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFeedback.ValidityFrom">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFeedback.ValidityTo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFeedback.LegacyID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFeedback.AuditUserID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFeedback.tblClaim">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFeedback.tblClaim1">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFeedback.tblClaim1Reference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblFeedback">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblFeedbackPrompt.CreatetblFeedbackPrompt(System.Int32,System.DateTime)">
+	<summary>
+ Create a new tblFeedbackPrompt object.
+ </summary>
+	<param name="feedbackPromptID">Initial value of the FeedbackPromptID property.</param>
+	<param name="feedbackPromptDate">Initial value of the FeedbackPromptDate property.</param>
+</member><member name="P:IMIS_EN.tblFeedbackPrompt.FeedbackPromptID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFeedbackPrompt.FeedbackPromptDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFeedbackPrompt.ClaimID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFeedbackPrompt.OfficerID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFeedbackPrompt.PhoneNumber">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFeedbackPrompt.SMSStatus">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFeedbackPrompt.ValidityFrom">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFeedbackPrompt.ValidityTo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFeedbackPrompt.LegacyID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFeedbackPrompt.AuditUserID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblFeedbackPrompt">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblFromPhone.CreatetblFromPhone(System.Int32,System.String,System.String,System.DateTime)">
+	<summary>
+ Create a new tblFromPhone object.
+ </summary>
+	<param name="fromPhoneId">Initial value of the FromPhoneId property.</param>
+	<param name="docType">Initial value of the DocType property.</param>
+	<param name="docName">Initial value of the DocName property.</param>
+	<param name="landedDate">Initial value of the LandedDate property.</param>
+</member><member name="P:IMIS_EN.tblFromPhone.FromPhoneId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFromPhone.DocType">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFromPhone.DocName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFromPhone.DocStatus">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFromPhone.LandedDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFromPhone.OfficerCode">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFromPhone.CHFID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFromPhone.PhotoSumittedDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblFromPhone.ClaimId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblFromPhone">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblHealthStatus.CreatetblHealthStatus(System.Int32,System.Int32)">
+	<summary>
+ Create a new tblHealthStatus object.
+ </summary>
+	<param name="healthStatusID">Initial value of the HealthStatusID property.</param>
+	<param name="insureeID">Initial value of the InsureeID property.</param>
+</member><member name="P:IMIS_EN.tblHealthStatus.HealthStatusID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHealthStatus.InsureeID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHealthStatus.Description">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHealthStatus.ValidityFrom">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHealthStatus.ValidityTo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHealthStatus.AuditUserID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHealthStatus.LegacyID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHealthStatus.tblInsuree">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHealthStatus.tblInsureeReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblHealthStatus">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblHF.CreatetblHF(System.Int32,System.String,System.String,System.String,System.String,System.Int32,System.String,System.Boolean,System.DateTime,System.Int32)">
+	<summary>
+ Create a new tblHF object.
+ </summary>
+	<param name="hfID">Initial value of the HfID property.</param>
+	<param name="hFCode">Initial value of the HFCode property.</param>
+	<param name="hFName">Initial value of the HFName property.</param>
+	<param name="legalForm">Initial value of the LegalForm property.</param>
+	<param name="hFLevel">Initial value of the HFLevel property.</param>
+	<param name="locationId">Initial value of the LocationId property.</param>
+	<param name="hFCareType">Initial value of the HFCareType property.</param>
+	<param name="offLine">Initial value of the OffLine property.</param>
+	<param name="validityFrom">Initial value of the ValidityFrom property.</param>
+	<param name="auditUserID">Initial value of the AuditUserID property.</param>
+</member><member name="P:IMIS_EN.tblHF.HfID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHF.HFCode">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHF.HFName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHF.LegalForm">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHF.HFLevel">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHF.HFSublevel">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHF.HFAddress">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHF.LocationId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHF.Phone">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHF.Fax">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHF.eMail">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHF.HFCareType">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHF.PLServiceID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHF.PLItemID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHF.AccCode">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHF.OffLine">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHF.ValidityFrom">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHF.ValidityTo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHF.LegacyID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHF.AuditUserID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHF.RowID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHF.tblClaim">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHF.tblClaimAdmin">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHF.tblLocations">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHF.tblLocationsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHF.tblPLItems">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHF.tblPLItemsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHF.tblPLServices">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHF.tblPLServicesReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHF.tblHFCatchment">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHF.tblHFSublevel">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHF.tblHFSublevelReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHF.tblInsuree">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHF.tblLegalForms">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHF.tblLegalFormsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblHF">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblHFCatchment.CreatetblHFCatchment(System.Int32,System.Int32,System.Int32)">
+	<summary>
+ Create a new tblHFCatchment object.
+ </summary>
+	<param name="hFCatchmentId">Initial value of the HFCatchmentId property.</param>
+	<param name="hFID">Initial value of the HFID property.</param>
+	<param name="locationId">Initial value of the LocationId property.</param>
+</member><member name="P:IMIS_EN.tblHFCatchment.HFCatchmentId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHFCatchment.HFID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHFCatchment.LocationId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHFCatchment.Catchment">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHFCatchment.ValidityFrom">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHFCatchment.ValidityTo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHFCatchment.LegacyId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHFCatchment.AuditUserId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHFCatchment.tblHF">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHFCatchment.tblHFReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHFCatchment.tblLocations">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHFCatchment.tblLocationsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblHFCatchment">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblHFSublevel.CreatetblHFSublevel(System.String)">
+	<summary>
+ Create a new tblHFSublevel object.
+ </summary>
+	<param name="hFSublevel">Initial value of the HFSublevel property.</param>
+</member><member name="P:IMIS_EN.tblHFSublevel.HFSublevel">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHFSublevel.HFSublevelDesc">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHFSublevel.SortOrder">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHFSublevel.AltLanguage">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblHFSublevel.tblHF">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblHFSublevel">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblICDCodes.CreatetblICDCodes(System.Int32,System.String,System.String,System.DateTime,System.Int32)">
+	<summary>
+ Create a new tblICDCodes object.
+ </summary>
+	<param name="iCDID">Initial value of the ICDID property.</param>
+	<param name="iCDCode">Initial value of the ICDCode property.</param>
+	<param name="iCDName">Initial value of the ICDName property.</param>
+	<param name="validityFrom">Initial value of the ValidityFrom property.</param>
+	<param name="auditUserID">Initial value of the AuditUserID property.</param>
+</member><member name="P:IMIS_EN.tblICDCodes.ICDID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblICDCodes.ICDCode">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblICDCodes.ICDName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblICDCodes.ValidityFrom">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblICDCodes.ValidityTo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblICDCodes.LegacyID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblICDCodes.AuditUserID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblICDCodes.RowID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblICDCodes.tblClaim">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblICDCodes">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblIdentificationTypes.CreatetblIdentificationTypes(System.String,System.String)">
+	<summary>
+ Create a new tblIdentificationTypes object.
+ </summary>
+	<param name="identificationCode">Initial value of the IdentificationCode property.</param>
+	<param name="identificationTypes">Initial value of the IdentificationTypes property.</param>
+</member><member name="P:IMIS_EN.tblIdentificationTypes.IdentificationCode">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblIdentificationTypes.IdentificationTypes">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblIdentificationTypes.AltLanguage">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblIdentificationTypes.SortOrder">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblIdentificationTypes.tblInsuree">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblIdentificationTypes">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblIMISDefaults.CreatetblIMISDefaults(System.Int32)">
+	<summary>
+ Create a new tblIMISDefaults object.
+ </summary>
+	<param name="defaultID">Initial value of the DefaultID property.</param>
+</member><member name="P:IMIS_EN.tblIMISDefaults.DefaultID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblIMISDefaults.PolicyRenewalInterval">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblIMISDefaults.FTPHost">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblIMISDefaults.FTPUser">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblIMISDefaults.FTPPassword">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblIMISDefaults.FTPPort">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblIMISDefaults.FTPEnrollmentFolder">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblIMISDefaults.AssociatedPhotoFolder">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblIMISDefaults.FTPClaimFolder">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblIMISDefaults.FTPFeedbackFolder">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblIMISDefaults.FTPPolicyRenewalFolder">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblIMISDefaults.FTPPhoneExtractFolder">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblIMISDefaults.FTPOffLineExtractFolder">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblIMISDefaults.AppVersionBackEnd">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblIMISDefaults.AppVersionEnquire">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblIMISDefaults.AppVersionEnroll">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblIMISDefaults.AppVersionRenewal">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblIMISDefaults.AppVersionFeedback">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblIMISDefaults.AppVersionClaim">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblIMISDefaults.OffLineHF">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblIMISDefaults.WinRarFolder">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblIMISDefaults.DatabaseBackupFolder">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblIMISDefaults.OfflineCHF">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblIMISDefaults.SMSLink">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblIMISDefaults.SMSIP">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblIMISDefaults.SMSUserName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblIMISDefaults.SMSPassword">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblIMISDefaults.SMSSource">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblIMISDefaults.SMSDlr">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblIMISDefaults.SMSType">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblIMISDefaults.AppVersionFeedbackRenewal">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblIMISDefaults">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblInsuree.CreatetblInsuree(System.Int32,System.Int32,System.String,System.String,System.DateTime,System.Boolean,System.Boolean,System.DateTime,System.Int32)">
+	<summary>
+ Create a new tblInsuree object.
+ </summary>
+	<param name="insureeID">Initial value of the InsureeID property.</param>
+	<param name="familyID">Initial value of the FamilyID property.</param>
+	<param name="lastName">Initial value of the LastName property.</param>
+	<param name="otherNames">Initial value of the OtherNames property.</param>
+	<param name="dOB">Initial value of the DOB property.</param>
+	<param name="isHead">Initial value of the IsHead property.</param>
+	<param name="cardIssued">Initial value of the CardIssued property.</param>
+	<param name="validityFrom">Initial value of the ValidityFrom property.</param>
+	<param name="auditUserID">Initial value of the AuditUserID property.</param>
+</member><member name="P:IMIS_EN.tblInsuree.InsureeID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.FamilyID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.CHFID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.LastName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.OtherNames">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.DOB">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.Gender">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.Marital">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.IsHead">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.passport">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.Phone">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.PhotoID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.PhotoDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.CardIssued">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.ValidityFrom">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.ValidityTo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.LegacyID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.AuditUserID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.RowID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.Relationship">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.Profession">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.Education">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.Email">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.isOffline">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.TypeOfId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.HFID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.CurrentAddress">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.GeoLocation">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.CurrentVillage">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.tblClaim">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.tblClaimDedRem">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.tblEducations">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.tblEducationsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.tblFamilies">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.tblFamilies1">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.tblFamilies1Reference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.tblHealthStatus">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.tblHF">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.tblHFReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.tblIdentificationTypes">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.tblIdentificationTypesReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.tblPhotos">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.tblPhotosReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.tblInsureePolicy">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.tblPolicyRenewalDetails">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.tblPolicyRenewals">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.tblProfessions">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.tblProfessionsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.tblRelations">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsuree.tblRelationsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblInsuree">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblInsureePolicy.CreatetblInsureePolicy(System.Int32)">
+	<summary>
+ Create a new tblInsureePolicy object.
+ </summary>
+	<param name="insureePolicyId">Initial value of the InsureePolicyId property.</param>
+</member><member name="P:IMIS_EN.tblInsureePolicy.InsureePolicyId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsureePolicy.InsureeId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsureePolicy.PolicyId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsureePolicy.EnrollmentDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsureePolicy.StartDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsureePolicy.EffectiveDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsureePolicy.ExpiryDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsureePolicy.ValidityFrom">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsureePolicy.ValidityTo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsureePolicy.LegacyId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsureePolicy.AuditUserId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsureePolicy.isOffline">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsureePolicy.RowId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsureePolicy.tblInsuree">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsureePolicy.tblInsureeReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsureePolicy.tblPolicy">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblInsureePolicy.tblPolicyReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblInsureePolicy">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblItems.CreatetblItems(System.Int32,System.String,System.String,System.String,System.Decimal,System.String,System.Byte,System.DateTime,System.Int32)">
+	<summary>
+ Create a new tblItems object.
+ </summary>
+	<param name="itemID">Initial value of the ItemID property.</param>
+	<param name="itemCode">Initial value of the ItemCode property.</param>
+	<param name="itemName">Initial value of the ItemName property.</param>
+	<param name="itemType">Initial value of the ItemType property.</param>
+	<param name="itemPrice">Initial value of the ItemPrice property.</param>
+	<param name="itemCareType">Initial value of the ItemCareType property.</param>
+	<param name="itemPatCat">Initial value of the ItemPatCat property.</param>
+	<param name="validityFrom">Initial value of the ValidityFrom property.</param>
+	<param name="auditUserID">Initial value of the AuditUserID property.</param>
+</member><member name="P:IMIS_EN.tblItems.ItemID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblItems.ItemCode">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblItems.ItemName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblItems.ItemType">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblItems.ItemPackage">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblItems.ItemPrice">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblItems.ItemCareType">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblItems.ItemFrequency">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblItems.ItemPatCat">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblItems.ValidityFrom">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblItems.ValidityTo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblItems.LegacyID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblItems.AuditUserID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblItems.RowID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblItems.tblClaimItems">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblItems.tblPLItemsDetail">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblItems.tblProductItems">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblItems">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblLanguages.CreatetblLanguages(System.String,System.String)">
+	<summary>
+ Create a new tblLanguages object.
+ </summary>
+	<param name="languageCode">Initial value of the LanguageCode property.</param>
+	<param name="languageName">Initial value of the LanguageName property.</param>
+</member><member name="P:IMIS_EN.tblLanguages.LanguageCode">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblLanguages.LanguageName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblLanguages.SortOrder">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblLanguages.tblUsers">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblLanguages">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblLegalForms.CreatetblLegalForms(System.String,System.String)">
+	<summary>
+ Create a new tblLegalForms object.
+ </summary>
+	<param name="legalFormCode">Initial value of the LegalFormCode property.</param>
+	<param name="legalForms">Initial value of the LegalForms property.</param>
+</member><member name="P:IMIS_EN.tblLegalForms.LegalFormCode">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblLegalForms.LegalForms">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblLegalForms.SortOrder">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblLegalForms.AltLanguage">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblLegalForms.tblHF">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblLegalForms">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblLocations.CreatetblLocations(System.Int32,System.String,System.Byte[])">
+	<summary>
+ Create a new tblLocations object.
+ </summary>
+	<param name="locationId">Initial value of the LocationId property.</param>
+	<param name="locationType">Initial value of the LocationType property.</param>
+	<param name="rowId">Initial value of the RowId property.</param>
+</member><member name="P:IMIS_EN.tblLocations.LocationId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblLocations.LocationCode">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblLocations.LocationName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblLocations.ParentLocationId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblLocations.LocationType">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblLocations.ValidityFrom">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblLocations.ValidityTo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblLocations.LegacyId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblLocations.AuditUserId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblLocations.RowId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblLocations.MalePopulation">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblLocations.FemalePopulation">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblLocations.OtherPopulation">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblLocations.Families">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblLocations.tblBatchRun">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblLocations.tblFamilies">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblLocations.tblHF">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblLocations.tblHFCatchment">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblLocations.tblOfficer">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblLocations.tblOfficerVillages">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblLocations.tblPayer">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblLocations.tblPLItems">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblLocations.tblPLServices">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblLocations.tblProduct">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblLocations.tblUsersDistricts">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblLocations">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblLogins.CreatetblLogins(System.Int32)">
+	<summary>
+ Create a new tblLogins object.
+ </summary>
+	<param name="loginId">Initial value of the LoginId property.</param>
+</member><member name="P:IMIS_EN.tblLogins.LoginId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblLogins.UserId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblLogins.LogTime">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblLogins.LogAction">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblLogins.tblUsers">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblLogins.tblUsersReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblLogins">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblOfficer.CreatetblOfficer(System.Int32,System.String,System.String,System.String,System.DateTime,System.Int32)">
+	<summary>
+ Create a new tblOfficer object.
+ </summary>
+	<param name="officerID">Initial value of the OfficerID property.</param>
+	<param name="code">Initial value of the Code property.</param>
+	<param name="lastName">Initial value of the LastName property.</param>
+	<param name="otherNames">Initial value of the OtherNames property.</param>
+	<param name="validityFrom">Initial value of the ValidityFrom property.</param>
+	<param name="auditUserID">Initial value of the AuditUserID property.</param>
+</member><member name="P:IMIS_EN.tblOfficer.OfficerID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblOfficer.Code">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblOfficer.LastName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblOfficer.OtherNames">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblOfficer.DOB">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblOfficer.Phone">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblOfficer.LocationId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblOfficer.OfficerIDSubst">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblOfficer.WorksTo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblOfficer.VEOCode">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblOfficer.VEOLastName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblOfficer.VEOOtherNames">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblOfficer.VEODOB">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblOfficer.VEOPhone">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblOfficer.ValidityFrom">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblOfficer.ValidityTo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblOfficer.LegacyID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblOfficer.AuditUserID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblOfficer.RowID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblOfficer.EmailId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblOfficer.PhoneCommunication">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblOfficer.PermanentAddress">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblOfficer.tblLocations">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblOfficer.tblLocationsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblOfficer.tblOfficer1">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblOfficer.tblOfficer2">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblOfficer.tblOfficer2Reference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblOfficer.tblOfficerVillages">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblOfficer.tblPolicy">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblOfficer.tblPolicyRenewals">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblOfficer">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblOfficerVillages.CreatetblOfficerVillages(System.Int32,System.Byte[])">
+	<summary>
+ Create a new tblOfficerVillages object.
+ </summary>
+	<param name="officerVillageId">Initial value of the OfficerVillageId property.</param>
+	<param name="rowId">Initial value of the RowId property.</param>
+</member><member name="P:IMIS_EN.tblOfficerVillages.OfficerVillageId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblOfficerVillages.OfficerId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblOfficerVillages.LocationId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblOfficerVillages.ValidityFrom">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblOfficerVillages.ValidityTo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblOfficerVillages.LegacyId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblOfficerVillages.AuditUserId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblOfficerVillages.RowId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblOfficerVillages.tblLocations">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblOfficerVillages.tblLocationsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblOfficerVillages.tblOfficer">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblOfficerVillages.tblOfficerReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblOfficerVillages">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblPayer.CreatetblPayer(System.Int32,System.String,System.String,System.DateTime,System.Int32)">
+	<summary>
+ Create a new tblPayer object.
+ </summary>
+	<param name="payerID">Initial value of the PayerID property.</param>
+	<param name="payerType">Initial value of the PayerType property.</param>
+	<param name="payerName">Initial value of the PayerName property.</param>
+	<param name="validityFrom">Initial value of the ValidityFrom property.</param>
+	<param name="auditUserID">Initial value of the AuditUserID property.</param>
+</member><member name="P:IMIS_EN.tblPayer.PayerID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPayer.PayerType">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPayer.PayerName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPayer.PayerAddress">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPayer.LocationId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPayer.Phone">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPayer.Fax">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPayer.eMail">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPayer.ValidityFrom">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPayer.ValidityTo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPayer.LegacyID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPayer.AuditUserID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPayer.RowID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPayer.tblLocations">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPayer.tblLocationsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPayer.tblPayerType">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPayer.tblPayerTypeReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPayer.tblPremium">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblPayer">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblPayerType.CreatetblPayerType(System.String,System.String)">
+	<summary>
+ Create a new tblPayerType object.
+ </summary>
+	<param name="code">Initial value of the Code property.</param>
+	<param name="payerType">Initial value of the PayerType property.</param>
+</member><member name="P:IMIS_EN.tblPayerType.Code">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPayerType.PayerType">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPayerType.AltLanguage">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPayerType.SortOrder">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPayerType.tblPayer">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblPayerType">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblPhotos.CreatetblPhotos(System.Int32,System.String,System.Int32,System.DateTime,System.DateTime)">
+	<summary>
+ Create a new tblPhotos object.
+ </summary>
+	<param name="photoID">Initial value of the PhotoID property.</param>
+	<param name="photoFolder">Initial value of the PhotoFolder property.</param>
+	<param name="officerID">Initial value of the OfficerID property.</param>
+	<param name="photoDate">Initial value of the PhotoDate property.</param>
+	<param name="validityFrom">Initial value of the ValidityFrom property.</param>
+</member><member name="P:IMIS_EN.tblPhotos.PhotoID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPhotos.InsureeID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPhotos.CHFID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPhotos.PhotoFolder">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPhotos.PhotoFileName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPhotos.OfficerID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPhotos.PhotoDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPhotos.ValidityFrom">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPhotos.ValidityTo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPhotos.AuditUserID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPhotos.RowID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPhotos.tblInsuree">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblPhotos">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblPLItems.CreatetblPLItems(System.Int32,System.String,System.DateTime,System.DateTime,System.Int32)">
+	<summary>
+ Create a new tblPLItems object.
+ </summary>
+	<param name="pLItemID">Initial value of the PLItemID property.</param>
+	<param name="pLItemName">Initial value of the PLItemName property.</param>
+	<param name="datePL">Initial value of the DatePL property.</param>
+	<param name="validityFrom">Initial value of the ValidityFrom property.</param>
+	<param name="auditUserID">Initial value of the AuditUserID property.</param>
+</member><member name="P:IMIS_EN.tblPLItems.PLItemID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLItems.PLItemName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLItems.DatePL">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLItems.LocationId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLItems.ValidityFrom">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLItems.ValidityTo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLItems.LegacyID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLItems.AuditUserID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLItems.RowID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLItems.tblHF">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLItems.tblLocations">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLItems.tblLocationsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLItems.tblPLItemsDetail">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblPLItems">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblPLItemsDetail.CreatetblPLItemsDetail(System.Int32,System.Int32,System.Int32,System.DateTime,System.Int32)">
+	<summary>
+ Create a new tblPLItemsDetail object.
+ </summary>
+	<param name="pLItemDetailID">Initial value of the PLItemDetailID property.</param>
+	<param name="pLItemID">Initial value of the PLItemID property.</param>
+	<param name="itemID">Initial value of the ItemID property.</param>
+	<param name="validityFrom">Initial value of the ValidityFrom property.</param>
+	<param name="auditUserID">Initial value of the AuditUserID property.</param>
+</member><member name="P:IMIS_EN.tblPLItemsDetail.PLItemDetailID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLItemsDetail.PLItemID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLItemsDetail.ItemID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLItemsDetail.PriceOverule">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLItemsDetail.ValidityFrom">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLItemsDetail.ValidityTo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLItemsDetail.LegacyID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLItemsDetail.AuditUserID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLItemsDetail.RowID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLItemsDetail.tblItems">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLItemsDetail.tblItemsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLItemsDetail.tblPLItems">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLItemsDetail.tblPLItemsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblPLItemsDetail">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblPLServices.CreatetblPLServices(System.Int32,System.String,System.DateTime,System.DateTime,System.Int32)">
+	<summary>
+ Create a new tblPLServices object.
+ </summary>
+	<param name="pLServiceID">Initial value of the PLServiceID property.</param>
+	<param name="pLServName">Initial value of the PLServName property.</param>
+	<param name="datePL">Initial value of the DatePL property.</param>
+	<param name="validityFrom">Initial value of the ValidityFrom property.</param>
+	<param name="auditUserID">Initial value of the AuditUserID property.</param>
+</member><member name="P:IMIS_EN.tblPLServices.PLServiceID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLServices.PLServName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLServices.DatePL">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLServices.LocationId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLServices.ValidityFrom">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLServices.ValidityTo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLServices.LegacyID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLServices.AuditUserID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLServices.RowID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLServices.tblHF">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLServices.tblLocations">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLServices.tblLocationsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLServices.tblPLServicesDetail">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblPLServices">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblPLServicesDetail.CreatetblPLServicesDetail(System.Int32,System.Int32,System.Int32,System.DateTime,System.Int32)">
+	<summary>
+ Create a new tblPLServicesDetail object.
+ </summary>
+	<param name="pLServiceDetailID">Initial value of the PLServiceDetailID property.</param>
+	<param name="pLServiceID">Initial value of the PLServiceID property.</param>
+	<param name="serviceID">Initial value of the ServiceID property.</param>
+	<param name="validityFrom">Initial value of the ValidityFrom property.</param>
+	<param name="auditUserID">Initial value of the AuditUserID property.</param>
+</member><member name="P:IMIS_EN.tblPLServicesDetail.PLServiceDetailID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLServicesDetail.PLServiceID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLServicesDetail.ServiceID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLServicesDetail.PriceOverule">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLServicesDetail.ValidityFrom">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLServicesDetail.ValidityTo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLServicesDetail.LegacyID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLServicesDetail.AuditUserID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLServicesDetail.RowID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLServicesDetail.tblPLServices">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLServicesDetail.tblPLServicesReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLServicesDetail.tblServices">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPLServicesDetail.tblServicesReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblPLServicesDetail">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblPolicy.CreatetblPolicy(System.Int32,System.Int32,System.DateTime,System.DateTime,System.Int32,System.DateTime,System.Int32)">
+	<summary>
+ Create a new tblPolicy object.
+ </summary>
+	<param name="policyID">Initial value of the PolicyID property.</param>
+	<param name="familyID">Initial value of the FamilyID property.</param>
+	<param name="enrollDate">Initial value of the EnrollDate property.</param>
+	<param name="startDate">Initial value of the StartDate property.</param>
+	<param name="prodID">Initial value of the ProdID property.</param>
+	<param name="validityFrom">Initial value of the ValidityFrom property.</param>
+	<param name="auditUserID">Initial value of the AuditUserID property.</param>
+</member><member name="P:IMIS_EN.tblPolicy.PolicyID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicy.FamilyID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicy.EnrollDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicy.StartDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicy.EffectiveDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicy.ExpiryDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicy.PolicyStatus">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicy.PolicyValue">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicy.ProdID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicy.OfficerID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicy.PolicyStage">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicy.ValidityFrom">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicy.ValidityTo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicy.LegacyID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicy.AuditUserID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicy.RowID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicy.isOffline">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicy.tblClaimDedRem">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicy.tblFamilies">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicy.tblFamiliesReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicy.tblInsureePolicy">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicy.tblOfficer">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicy.tblOfficerReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicy.tblProduct">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicy.tblProductReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicy.tblPolicyRenewals">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicy.tblPremium">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblPolicy">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblPolicyRenewalDetails.CreatetblPolicyRenewalDetails(System.Int32,System.Int32,System.Int32,System.DateTime,System.Int32)">
+	<summary>
+ Create a new tblPolicyRenewalDetails object.
+ </summary>
+	<param name="renewalDetailID">Initial value of the RenewalDetailID property.</param>
+	<param name="renewalID">Initial value of the RenewalID property.</param>
+	<param name="insureeID">Initial value of the InsureeID property.</param>
+	<param name="validityFrom">Initial value of the ValidityFrom property.</param>
+	<param name="auditCreateUser">Initial value of the AuditCreateUser property.</param>
+</member><member name="P:IMIS_EN.tblPolicyRenewalDetails.RenewalDetailID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicyRenewalDetails.RenewalID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicyRenewalDetails.InsureeID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicyRenewalDetails.ValidityFrom">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicyRenewalDetails.ValidityTo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicyRenewalDetails.LegacyID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicyRenewalDetails.AuditCreateUser">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicyRenewalDetails.tblInsuree">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicyRenewalDetails.tblInsureeReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicyRenewalDetails.tblPolicyRenewals">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicyRenewalDetails.tblPolicyRenewalsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblPolicyRenewalDetails">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblPolicyRenewals.CreatetblPolicyRenewals(System.Int32,System.DateTime,System.DateTime,System.Byte,System.Int32,System.Int32,System.Int32,System.DateTime)">
+	<summary>
+ Create a new tblPolicyRenewals object.
+ </summary>
+	<param name="renewalID">Initial value of the RenewalID property.</param>
+	<param name="renewalPromptDate">Initial value of the RenewalPromptDate property.</param>
+	<param name="renewalDate">Initial value of the RenewalDate property.</param>
+	<param name="sMSStatus">Initial value of the SMSStatus property.</param>
+	<param name="insureeID">Initial value of the InsureeID property.</param>
+	<param name="policyID">Initial value of the PolicyID property.</param>
+	<param name="newProdID">Initial value of the NewProdID property.</param>
+	<param name="validityFrom">Initial value of the ValidityFrom property.</param>
+</member><member name="P:IMIS_EN.tblPolicyRenewals.RenewalID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicyRenewals.RenewalPromptDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicyRenewals.RenewalDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicyRenewals.NewOfficerID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicyRenewals.PhoneNumber">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicyRenewals.SMSStatus">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicyRenewals.InsureeID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicyRenewals.PolicyID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicyRenewals.NewProdID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicyRenewals.RenewalWarnings">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicyRenewals.ValidityFrom">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicyRenewals.ValidityTo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicyRenewals.LegacyID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicyRenewals.AuditCreateUser">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicyRenewals.ResponseStatus">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicyRenewals.ResponseDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicyRenewals.tblInsuree">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicyRenewals.tblInsureeReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicyRenewals.tblOfficer">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicyRenewals.tblOfficerReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicyRenewals.tblPolicy">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicyRenewals.tblPolicyReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicyRenewals.tblPolicyRenewalDetails">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicyRenewals.tblProduct">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPolicyRenewals.tblProductReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblPolicyRenewals">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblPremium.CreatetblPremium(System.Int32,System.Int32,System.Decimal,System.String,System.DateTime,System.String,System.DateTime,System.Int32)">
+	<summary>
+ Create a new tblPremium object.
+ </summary>
+	<param name="premiumId">Initial value of the PremiumId property.</param>
+	<param name="policyID">Initial value of the PolicyID property.</param>
+	<param name="amount">Initial value of the Amount property.</param>
+	<param name="receipt">Initial value of the Receipt property.</param>
+	<param name="payDate">Initial value of the PayDate property.</param>
+	<param name="payType">Initial value of the PayType property.</param>
+	<param name="validityFrom">Initial value of the ValidityFrom property.</param>
+	<param name="auditUserID">Initial value of the AuditUserID property.</param>
+</member><member name="P:IMIS_EN.tblPremium.PremiumId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPremium.PolicyID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPremium.PayerID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPremium.Amount">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPremium.Receipt">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPremium.PayDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPremium.PayType">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPremium.ValidityFrom">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPremium.ValidityTo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPremium.LegacyID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPremium.AuditUserID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPremium.RowID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPremium.isPhotoFee">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPremium.isOffline">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPremium.ReportingId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPremium.tblPayer">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPremium.tblPayerReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPremium.tblPolicy">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblPremium.tblPolicyReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblPremium">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblProduct.CreatetblProduct(System.Int32,System.String,System.String,System.Byte,System.DateTime,System.DateTime,System.Decimal,System.Int16,System.Int32,System.DateTime,System.Int32)">
+	<summary>
+ Create a new tblProduct object.
+ </summary>
+	<param name="prodID">Initial value of the ProdID property.</param>
+	<param name="productCode">Initial value of the ProductCode property.</param>
+	<param name="productName">Initial value of the ProductName property.</param>
+	<param name="insurancePeriod">Initial value of the InsurancePeriod property.</param>
+	<param name="dateFrom">Initial value of the DateFrom property.</param>
+	<param name="dateTo">Initial value of the DateTo property.</param>
+	<param name="lumpSum">Initial value of the LumpSum property.</param>
+	<param name="memberCount">Initial value of the MemberCount property.</param>
+	<param name="gracePeriod">Initial value of the GracePeriod property.</param>
+	<param name="validityFrom">Initial value of the ValidityFrom property.</param>
+	<param name="auditUserID">Initial value of the AuditUserID property.</param>
+</member><member name="P:IMIS_EN.tblProduct.ProdID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.ProductCode">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.ProductName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.LocationId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.InsurancePeriod">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.DateFrom">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.DateTo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.ConversionProdID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.LumpSum">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.MemberCount">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.PremiumAdult">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.PremiumChild">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.DedInsuree">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.DedOPInsuree">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.DedIPInsuree">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.MaxInsuree">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.MaxOPInsuree">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.MaxIPInsuree">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.PeriodRelPrices">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.PeriodRelPricesOP">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.PeriodRelPricesIP">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.AccCodePremiums">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.AccCodeRemuneration">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.DedTreatment">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.DedOPTreatment">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.DedIPTreatment">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.MaxTreatment">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.MaxOPTreatment">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.MaxIPTreatment">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.DedPolicy">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.DedOPPolicy">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.DedIPPolicy">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.MaxPolicy">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.MaxOPPolicy">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.MaxIPPolicy">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.GracePeriod">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.ValidityFrom">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.ValidityTo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.LegacyID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.AuditUserID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.RowID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.RegistrationLumpSum">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.RegistrationFee">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.GeneralAssemblyLumpSum">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.GeneralAssemblyFee">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.StartCycle1">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.StartCycle2">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.MaxNoConsultation">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.MaxNoSurgery">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.MaxNoDelivery">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.MaxNoHospitalizaion">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.MaxNoVisits">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.MaxAmountConsultation">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.MaxAmountSurgery">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.MaxAmountDelivery">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.MaxAmountHospitalization">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.GracePeriodRenewal">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.MaxInstallments">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.WaitingPeriod">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.Threshold">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.RenewalDiscountPerc">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.RenewalDiscountPeriod">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.StartCycle3">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.StartCycle4">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.AdministrationPeriod">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.MaxPolicyExtraMember">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.MaxPolicyExtraMemberIP">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.MaxPolicyExtraMemberOP">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.MaxCeilingPolicy">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.MaxCeilingPolicyIP">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.MaxCeilingPolicyOP">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.EnrolmentDiscountPerc">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.EnrolmentDiscountPeriod">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.MaxAmountAntenatal">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.MaxNoAntenatal">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.CeilingInterpretation">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.tblCeilingInterpretation">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.tblCeilingInterpretationReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.tblClaimItems">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.tblClaimServices">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.tblLocations">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.tblLocationsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.tblPolicy">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.tblPolicyRenewals">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.tblProduct1">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.tblProduct2">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.tblProduct2Reference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.tblProductItems">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.tblProductServices">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.tblRelDistr">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProduct.tblRelIndex">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblProduct">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblProductItems.CreatetblProductItems(System.Int32,System.Int32,System.Int32,System.String,System.String,System.DateTime,System.Int32)">
+	<summary>
+ Create a new tblProductItems object.
+ </summary>
+	<param name="prodItemID">Initial value of the ProdItemID property.</param>
+	<param name="prodID">Initial value of the ProdID property.</param>
+	<param name="itemID">Initial value of the ItemID property.</param>
+	<param name="limitationType">Initial value of the LimitationType property.</param>
+	<param name="priceOrigin">Initial value of the PriceOrigin property.</param>
+	<param name="validityFrom">Initial value of the ValidityFrom property.</param>
+	<param name="auditUserID">Initial value of the AuditUserID property.</param>
+</member><member name="P:IMIS_EN.tblProductItems.ProdItemID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductItems.ProdID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductItems.ItemID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductItems.LimitationType">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductItems.PriceOrigin">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductItems.LimitAdult">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductItems.LimitChild">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductItems.ValidityFrom">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductItems.ValidityTo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductItems.LegacyID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductItems.AuditUserID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductItems.RowID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductItems.WaitingPeriodAdult">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductItems.WaitingPeriodChild">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductItems.LimitNoAdult">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductItems.LimitNoChild">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductItems.LimitationTypeR">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductItems.LimitationTypeE">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductItems.LimitAdultR">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductItems.LimitAdultE">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductItems.LimitChildR">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductItems.LimitChildE">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductItems.CeilingExclusionAdult">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductItems.CeilingExclusionChild">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductItems.tblItems">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductItems.tblItemsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductItems.tblProduct">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductItems.tblProductReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblProductItems">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblProductServices.CreatetblProductServices(System.Int32,System.Int32,System.Int32,System.String,System.String,System.DateTime,System.Int32)">
+	<summary>
+ Create a new tblProductServices object.
+ </summary>
+	<param name="prodServiceID">Initial value of the ProdServiceID property.</param>
+	<param name="prodID">Initial value of the ProdID property.</param>
+	<param name="serviceID">Initial value of the ServiceID property.</param>
+	<param name="limitationType">Initial value of the LimitationType property.</param>
+	<param name="priceOrigin">Initial value of the PriceOrigin property.</param>
+	<param name="validityFrom">Initial value of the ValidityFrom property.</param>
+	<param name="auditUserID">Initial value of the AuditUserID property.</param>
+</member><member name="P:IMIS_EN.tblProductServices.ProdServiceID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductServices.ProdID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductServices.ServiceID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductServices.LimitationType">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductServices.PriceOrigin">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductServices.LimitAdult">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductServices.LimitChild">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductServices.ValidityFrom">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductServices.ValidityTo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductServices.LegacyID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductServices.AuditUserID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductServices.RowID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductServices.WaitingPeriodAdult">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductServices.WaitingPeriodChild">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductServices.LimitNoAdult">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductServices.LimitNoChild">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductServices.LimitationTypeR">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductServices.LimitationTypeE">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductServices.LimitAdultR">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductServices.LimitAdultE">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductServices.LimitChildR">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductServices.LimitChildE">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductServices.CeilingExclusionAdult">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductServices.CeilingExclusionChild">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductServices.tblProduct">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductServices.tblProductReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductServices.tblServices">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProductServices.tblServicesReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblProductServices">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblProfessions.CreatetblProfessions(System.Int16,System.String)">
+	<summary>
+ Create a new tblProfessions object.
+ </summary>
+	<param name="professionId">Initial value of the ProfessionId property.</param>
+	<param name="profession">Initial value of the Profession property.</param>
+</member><member name="P:IMIS_EN.tblProfessions.ProfessionId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProfessions.Profession">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProfessions.SortOrder">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProfessions.AltLanguage">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblProfessions.tblInsuree">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblProfessions">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblRelations.CreatetblRelations(System.Int16,System.String)">
+	<summary>
+ Create a new tblRelations object.
+ </summary>
+	<param name="relationId">Initial value of the RelationId property.</param>
+	<param name="relation">Initial value of the Relation property.</param>
+</member><member name="P:IMIS_EN.tblRelations.RelationId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblRelations.Relation">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblRelations.SortOrder">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblRelations.AltLanguage">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblRelations.tblInsuree">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblRelations">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblRelDistr.CreatetblRelDistr(System.Int32,System.Byte,System.String,System.Int32,System.Byte,System.DateTime,System.Int32)">
+	<summary>
+ Create a new tblRelDistr object.
+ </summary>
+	<param name="distrID">Initial value of the DistrID property.</param>
+	<param name="distrType">Initial value of the DistrType property.</param>
+	<param name="distrCareType">Initial value of the DistrCareType property.</param>
+	<param name="prodID">Initial value of the ProdID property.</param>
+	<param name="period">Initial value of the Period property.</param>
+	<param name="validityFrom">Initial value of the ValidityFrom property.</param>
+	<param name="auditUserID">Initial value of the AuditUserID property.</param>
+</member><member name="P:IMIS_EN.tblRelDistr.DistrID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblRelDistr.DistrType">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblRelDistr.DistrCareType">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblRelDistr.ProdID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblRelDistr.Period">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblRelDistr.DistrPerc">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblRelDistr.ValidityFrom">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblRelDistr.ValidityTo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblRelDistr.LegacyID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblRelDistr.AuditUserID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblRelDistr.RowID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblRelDistr.tblProduct">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblRelDistr.tblProductReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblRelDistr">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblRelIndex.CreatetblRelIndex(System.Int32,System.Int32,System.Byte,System.String,System.Int32,System.Byte,System.DateTime,System.DateTime,System.Int32)">
+	<summary>
+ Create a new tblRelIndex object.
+ </summary>
+	<param name="relIndexID">Initial value of the RelIndexID property.</param>
+	<param name="prodID">Initial value of the ProdID property.</param>
+	<param name="relType">Initial value of the RelType property.</param>
+	<param name="relCareType">Initial value of the RelCareType property.</param>
+	<param name="relYear">Initial value of the RelYear property.</param>
+	<param name="relPeriod">Initial value of the RelPeriod property.</param>
+	<param name="calcDate">Initial value of the CalcDate property.</param>
+	<param name="validityFrom">Initial value of the ValidityFrom property.</param>
+	<param name="auditUserID">Initial value of the AuditUserID property.</param>
+</member><member name="P:IMIS_EN.tblRelIndex.RelIndexID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblRelIndex.ProdID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblRelIndex.RelType">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblRelIndex.RelCareType">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblRelIndex.RelYear">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblRelIndex.RelPeriod">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblRelIndex.CalcDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblRelIndex.RelIndex">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblRelIndex.ValidityFrom">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblRelIndex.ValidityTo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblRelIndex.LegacyID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblRelIndex.AuditUserID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblRelIndex.LocationId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblRelIndex.tblProduct">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblRelIndex.tblProductReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblRelIndex">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblReporting.CreatetblReporting(System.Int32,System.DateTime,System.Int32,System.Int32,System.DateTime,System.DateTime,System.Int32)">
+	<summary>
+ Create a new tblReporting object.
+ </summary>
+	<param name="reportingId">Initial value of the ReportingId property.</param>
+	<param name="reportingDate">Initial value of the ReportingDate property.</param>
+	<param name="locationId">Initial value of the LocationId property.</param>
+	<param name="prodId">Initial value of the ProdId property.</param>
+	<param name="startDate">Initial value of the StartDate property.</param>
+	<param name="endDate">Initial value of the EndDate property.</param>
+	<param name="recordFound">Initial value of the RecordFound property.</param>
+</member><member name="P:IMIS_EN.tblReporting.ReportingId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblReporting.ReportingDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblReporting.LocationId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblReporting.ProdId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblReporting.PayerId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblReporting.StartDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblReporting.EndDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblReporting.RecordFound">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblReporting">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblServices.CreatetblServices(System.Int32,System.String,System.String,System.String,System.String,System.Decimal,System.String,System.Byte)">
+	<summary>
+ Create a new tblServices object.
+ </summary>
+	<param name="serviceID">Initial value of the ServiceID property.</param>
+	<param name="servCode">Initial value of the ServCode property.</param>
+	<param name="servName">Initial value of the ServName property.</param>
+	<param name="servType">Initial value of the ServType property.</param>
+	<param name="servLevel">Initial value of the ServLevel property.</param>
+	<param name="servPrice">Initial value of the ServPrice property.</param>
+	<param name="servCareType">Initial value of the ServCareType property.</param>
+	<param name="servPatCat">Initial value of the ServPatCat property.</param>
+</member><member name="P:IMIS_EN.tblServices.ServiceID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblServices.ServCode">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblServices.ServName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblServices.ServType">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblServices.ServLevel">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblServices.ServPrice">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblServices.ServCareType">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblServices.ServFrequency">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblServices.ServPatCat">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblServices.ValidityFrom">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblServices.ValidityTo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblServices.LegacyID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblServices.AuditUserID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblServices.RowID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblServices.ServCategory">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblServices.tblClaimServices">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblServices.tblPLServicesDetail">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblServices.tblProductServices">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblServices">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblSubmittedPhotos.CreatetblSubmittedPhotos(System.Int32)">
+	<summary>
+ Create a new tblSubmittedPhotos object.
+ </summary>
+	<param name="photoId">Initial value of the PhotoId property.</param>
+</member><member name="P:IMIS_EN.tblSubmittedPhotos.PhotoId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblSubmittedPhotos.ImageName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblSubmittedPhotos.CHFID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblSubmittedPhotos.OfficerCode">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblSubmittedPhotos.PhotoDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblSubmittedPhotos.RegisterDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblSubmittedPhotos">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblUsers.CreatetblUsers(System.Int32,System.String,System.String,System.String,System.String,System.Int32,System.DateTime,System.Int32)">
+	<summary>
+ Create a new tblUsers object.
+ </summary>
+	<param name="userID">Initial value of the UserID property.</param>
+	<param name="languageID">Initial value of the LanguageID property.</param>
+	<param name="lastName">Initial value of the LastName property.</param>
+	<param name="otherNames">Initial value of the OtherNames property.</param>
+	<param name="loginName">Initial value of the LoginName property.</param>
+	<param name="roleID">Initial value of the RoleID property.</param>
+	<param name="validityFrom">Initial value of the ValidityFrom property.</param>
+	<param name="auditUserID">Initial value of the AuditUserID property.</param>
+</member><member name="P:IMIS_EN.tblUsers.UserID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblUsers.LanguageID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblUsers.LastName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblUsers.OtherNames">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblUsers.Phone">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblUsers.LoginName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblUsers.RoleID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblUsers.HFID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblUsers.ValidityFrom">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblUsers.ValidityTo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblUsers.LegacyID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblUsers.AuditUserID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblUsers.password">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblUsers.DummyPwd">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblUsers.EmailId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblUsers.tblClaim">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblUsers.tblLanguages">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblUsers.tblLanguagesReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblUsers.tblLogins">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblUsers.tblUsersDistricts">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblUsers">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:IMIS_EN.tblUsersDistricts.CreatetblUsersDistricts(System.Int32,System.Int32,System.Int32,System.DateTime,System.Int32)">
+	<summary>
+ Create a new tblUsersDistricts object.
+ </summary>
+	<param name="userDistrictID">Initial value of the UserDistrictID property.</param>
+	<param name="userID">Initial value of the UserID property.</param>
+	<param name="locationId">Initial value of the LocationId property.</param>
+	<param name="validityFrom">Initial value of the ValidityFrom property.</param>
+	<param name="auditUserID">Initial value of the AuditUserID property.</param>
+</member><member name="P:IMIS_EN.tblUsersDistricts.UserDistrictID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblUsersDistricts.UserID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblUsersDistricts.LocationId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblUsersDistricts.ValidityFrom">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblUsersDistricts.ValidityTo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblUsersDistricts.LegacyID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblUsersDistricts.AuditUserID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblUsersDistricts.tblLocations">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblUsersDistricts.tblLocationsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblUsersDistricts.tblUsers">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.tblUsersDistricts.tblUsersReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:IMIS_EN.tblUsersDistricts">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:IMIS_EN.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:IMIS_EN.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:IMIS_EN.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:IMIS_EN.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:IMIS_EN.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="T:IMIS_EN.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

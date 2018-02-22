@@ -1,0 +1,85 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="5c9447ab-e9d4-4f52-9d35-84cc9f578813" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Claim details products</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Processed Claims</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="93adc544-65bd-4747-b752-e7f3179a2730">
+          <ID>Processed Claims</ID>
+          <Name>Processed Claims</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="e3e66578-fa3e-4463-ae28-4f6bfb49c0c8">
+            <DataSourceViewID>Claim details products</DataSourceViewID>
+            <TableID>dbo_tblFactClaimProcessed</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Valuated Claims</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="81581f96-85da-4285-a686-ac9a50e929b2">
+          <ID>Valuated Claims</ID>
+          <Name>Valuated Claims</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="70b3db1d-ef64-4cfc-9d97-b92c82082fb8">
+            <DataSourceViewID>Claim details products</DataSourceViewID>
+            <TableID>dbo_tblFactClaimValuated</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Amount Approved</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="a8d27eb4-5bb6-416a-ae29-c2ec404538fa">
+          <ID>Amount Approved</ID>
+          <Name>Amount Approved</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="72f08921-51d5-46d1-b683-587634b46a59">
+            <DataSourceViewID>Claim details products</DataSourceViewID>
+            <TableID>dbo_tblFactAmountApproved</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Amount Valuated</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="ea790fab-c0e0-4621-9d81-4ef334fff913">
+          <ID>Amount Valuated</ID>
+          <Name>Amount Valuated</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="04297db6-4ca5-4d29-8ccc-657e4efc79a0">
+            <DataSourceViewID>Claim details products</DataSourceViewID>
+            <TableID>dbo_tblFactAmountValuated</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

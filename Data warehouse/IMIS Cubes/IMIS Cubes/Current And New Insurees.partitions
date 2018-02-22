@@ -1,0 +1,45 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="103a2d4a-39ba-487c-ba33-a5d9a2e30204" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Current And New Insuree</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Current Insurees</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="32edda9b-3dcc-466b-a9e2-31e18adcee2b">
+          <ID>Current Insurees</ID>
+          <Name>Current Insurees</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="2c84d711-9060-44c9-b32c-050ace83b843">
+            <DataSourceViewID>Current Insurees</DataSourceViewID>
+            <TableID>dbo_tblFactNumberInsureeCurrent</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>New Aquired Insurees</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="56d91168-87b0-42da-a519-fcf3ffd401c7">
+          <ID>New Aquired Insurees</ID>
+          <Name>New Aquired Insurees</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="dafb05c9-1571-4ea8-80fa-aee71aad4e0a">
+            <DataSourceViewID>Current Insurees</DataSourceViewID>
+            <TableID>dbo_tblFactNumberInsureeAquired</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

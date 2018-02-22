@@ -1,0 +1,25 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f6807daf-cbfc-458a-a4c5-d1aa00fb95b0" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Feedbacks Answered</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Feedbacks Answered In Yes</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="88ebe426-6f01-4792-a3a3-b05406b54206">
+          <ID>Feedbacks Answered In Yes</ID>
+          <Name>Feedbacks Answered In Yes</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="8b2ce10c-7ed1-4b47-b9ca-285bbabc6f59">
+            <DataSourceViewID>Feedbacks Answered</DataSourceViewID>
+            <TableID>dbo_tblFactNumberFeedbacksAnswerYes</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

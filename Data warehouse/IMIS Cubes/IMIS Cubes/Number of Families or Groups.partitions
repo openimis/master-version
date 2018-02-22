@@ -1,0 +1,45 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="0bb08ad8-4748-461c-966d-16e4e6070e40" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Number of households</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Households</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="de01ae39-ddb5-4554-b6a9-21a712ab3d61">
+          <ID>Households</ID>
+          <Name>Households</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="b1f5abf5-cc6b-4ede-95b2-c8d6078d1612">
+            <DataSourceViewID>Population</DataSourceViewID>
+            <TableID>dbo_tblFactPopulation</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Households 1</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="d3f97516-57aa-4619-a926-fe65c248f284">
+          <ID>Households</ID>
+          <Name>Households</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a6abb933-4d66-4d3a-9c76-ced2c5b49555">
+            <DataSourceViewID>Population</DataSourceViewID>
+            <TableID>dbo_tblFactPopulation</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

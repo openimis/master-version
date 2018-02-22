@@ -1,0 +1,85 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="2ff0ccaa-b0b4-47f9-b6e3-6302ebeacc06" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>All type of policies</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Current Policies</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="b5cb139e-a9bd-428a-aae6-8d884ad5bb71">
+          <ID>Current Policies</ID>
+          <Name>Current Policies</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="4c62b5d5-06f7-42b7-9d0d-bd9283469612">
+            <DataSourceViewID>Current Policies</DataSourceViewID>
+            <TableID>dbo_tblFactNumberPolicyCurrent</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Expired Policies</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="1648a4e8-929c-48eb-8096-d9cbeef563ce">
+          <ID>Expired Policies</ID>
+          <Name>Expired Policies</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="adafd757-424b-40d3-b868-24da1cf5c559">
+            <DataSourceViewID>Current Policies</DataSourceViewID>
+            <TableID>dbo_tblFactNumberPoliciesExpired</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Renewed Policies</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="7518a595-dc37-406f-a5d7-b891d9595e9c">
+          <ID>Renewed Policies</ID>
+          <Name>Renewed Policies</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="6cb3a5cb-e0b9-4bd4-9c81-330280388f4f">
+            <DataSourceViewID>Current Policies</DataSourceViewID>
+            <TableID>dbo_tblFactNumberPoliciesRenewed</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Sold Policies</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="ba23fce2-273d-4934-a786-ab0005b6124e">
+          <ID>Sold Policies</ID>
+          <Name>Sold Policies</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="051f9836-6e8d-4436-b417-4bc4835aeffb">
+            <DataSourceViewID>Current Policies</DataSourceViewID>
+            <TableID>dbo_tblFactNumberPoliciesSold</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

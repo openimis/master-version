@@ -1,0 +1,439 @@
+﻿<Project xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <ProductVersion>11.0.3402.0</ProductVersion>
+  <SchemaVersion>9.0.2.10</SchemaVersion>
+  <State>$base64$PFNvdXJjZUNvbnRyb2xJbmZvIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOmRkbDI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yIiB4bWxuczpkZGwyXzI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yLzIiIHhtbG5zOmRkbDEwMF8xMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDA4L2VuZ2luZS8xMDAvMTAwIiB4bWxuczpkZGwyMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAiIHhtbG5zOmRkbDIwMF8yMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAvMjAwIiB4bWxuczpkZGwzMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDExL2VuZ2luZS8zMDAiIHhtbG5zOmRkbDMwMF8zMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDExL2VuZ2luZS8zMDAvMzAwIiB4bWxuczpkZGw0MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEyL2VuZ2luZS80MDAiIHhtbG5zOmRkbDQwMF80MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEyL2VuZ2luZS80MDAvNDAwIiB4bWxuczpkd2Q9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vRGF0YVdhcmVob3VzZS9EZXNpZ25lci8xLjAiPg0KICA8RW5hYmxlZD5mYWxzZTwvRW5hYmxlZD4NCiAgPFByb2plY3ROYW1lPjwvUHJvamVjdE5hbWU+DQogIDxBdXhQYXRoPjwvQXV4UGF0aD4NCiAgPExvY2FsUGF0aD48L0xvY2FsUGF0aD4NCiAgPFByb3ZpZGVyPjwvUHJvdmlkZXI+DQo8L1NvdXJjZUNvbnRyb2xJbmZvPg==</State>
+  <Database>
+    <Name>IMIS Cubes.database</Name>
+    <FullPath>IMIS Cubes.database</FullPath>
+  </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>Admissions, visits and hospital days.cube</Name>
+      <FullPath>Admissions, Visits and Hospital Days.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Admissions, Visits and Hospital Days.partitions</Name>
+          <FullPath>Admissions, Visits and Hospital Days.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>All type of policies.cube</Name>
+      <FullPath>All type of policies.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>All type of policies.partitions</Name>
+          <FullPath>All type of policies.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Average expenditures for health care per insuree.cube</Name>
+      <FullPath>Average expenditures for health care per insuree.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Average expenditures for health care per insuree.partitions</Name>
+          <FullPath>Average expenditures for health care per insuree.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Average expenditures for medical items per insuree.cube</Name>
+      <FullPath>Average expenditures for medical items per insuree.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Average expenditures for medical items per insuree.partitions</Name>
+          <FullPath>Average expenditures for medical items per insuree.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Average expenditures for services per insuree.cube</Name>
+      <FullPath>Average expenditures for services per insuree.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Average expenditures for services per insuree.partitions</Name>
+          <FullPath>Average expenditures for services per insuree.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Average utilization of medical items per insuree.cube</Name>
+      <FullPath>Average utilization of medical items per insuree.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Average utilization of medical items per insuree.partitions</Name>
+          <FullPath>Average utilization of medical items per insuree.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Average utilization of services per insuree.cube</Name>
+      <FullPath>Average utilization of services per insuree.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Average utilization of services per insuree.partitions</Name>
+          <FullPath>Average utilization of services per insuree.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Claim details products.cube</Name>
+      <FullPath>Claim details products.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Claim details products.partitions</Name>
+          <FullPath>Claim details products.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Claim details.cube</Name>
+      <FullPath>Claim details.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Claim details.partitions</Name>
+          <FullPath>Claim details.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Contribution Allocation.cube</Name>
+      <FullPath>Contribution Allocation.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Contribution Allocation.partitions</Name>
+          <FullPath>Contribution Allocation.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Contribution Collection.cube</Name>
+      <FullPath>Contribution Collection.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Contribution Collection.partitions</Name>
+          <FullPath>Contribution Collection.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Current and new insurees.cube</Name>
+      <FullPath>Current And New Insurees.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Current And New Insurees.partitions</Name>
+          <FullPath>Current And New Insurees.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Expenditures by ranges.cube</Name>
+      <FullPath>Expenditures by ranges.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Expenditures by ranges.partitions</Name>
+          <FullPath>Expenditures by ranges.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Expenditures for medical items.cube</Name>
+      <FullPath>Expenditures for medical items.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Expenditures for medical items.partitions</Name>
+          <FullPath>Expenditures for medical items.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Expenditures for services.cube</Name>
+      <FullPath>Expenditures for services.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Expenditures for services.partitions</Name>
+          <FullPath>Expenditures for services.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Feedback answers.cube</Name>
+      <FullPath>Feedback answers.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Feedback answers.partitions</Name>
+          <FullPath>Feedback answers.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Feedback details.cube</Name>
+      <FullPath>Feedback Details.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Feedback Details.partitions</Name>
+          <FullPath>Feedback Details.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Feedback share answers.cube</Name>
+      <FullPath>Feedback share answers.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Feedback share answers.partitions</Name>
+          <FullPath>Feedback share answers.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Number of Families or Groups.cube</Name>
+      <FullPath>Number of Families or Groups.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Number of Families or Groups.partitions</Name>
+          <FullPath>Number of Families or Groups.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Number of insured Families or Groups.cube</Name>
+      <FullPath>Number of insured Families or Groups.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Number of insured Families or Groups.partitions</Name>
+          <FullPath>Number of insured Families or Groups.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Number of insurees by ranges.cube</Name>
+      <FullPath>Number of insurees by ranges.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Number of insurees by ranges.partitions</Name>
+          <FullPath>Number of insurees by ranges.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Population.cube</Name>
+      <FullPath>Population.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Population.partitions</Name>
+          <FullPath>Population.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Share of insured population.cube</Name>
+      <FullPath>Share of insured population.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Share of insured population.partitions</Name>
+          <FullPath>Share of insured population.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Utilization of medical items.cube</Name>
+      <FullPath>Utilization of medical items.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Utilization of medical items.partitions</Name>
+          <FullPath>Utilization of medical items.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Utilization of services.cube</Name>
+      <FullPath>Utilization of services.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Utilization of services.partitions</Name>
+          <FullPath>Utilization of services.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Age.dim</Name>
+      <FullPath>Age.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Care Category.dim</Name>
+      <FullPath>Care Category.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Care Type.dim</Name>
+      <FullPath>Care Type.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Expenditures.dim</Name>
+      <FullPath>Expenditures.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Gender.dim</Name>
+      <FullPath>Gender.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Items.dim</Name>
+      <FullPath>Items.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Officers.dim</Name>
+      <FullPath>Officers.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Payers.dim</Name>
+      <FullPath>Payers.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Products.dim</Name>
+      <FullPath>Products.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Providers.dim</Name>
+      <FullPath>Providers.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Questions.dim</Name>
+      <FullPath>Questions.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Region.dim</Name>
+      <FullPath>Region.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Time.dim</Name>
+      <FullPath>Time.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Disease.dim</Name>
+      <FullPath>Disease.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Services.dim</Name>
+      <FullPath>Services.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Region 1.dim</Name>
+      <FullPath>Region 1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Time 1.dim</Name>
+      <FullPath>Time 1.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
+  <DataSources>
+    <ProjectItem>
+      <Name>IMIS DW.ds</Name>
+      <FullPath>IMIS DW.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>Admissions and Visits and Hospital Days.dsv</Name>
+      <FullPath>Admissions and Visits and Hospital Days.dsv</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>All types of Policies.dsv</Name>
+      <FullPath>All types of Policies.dsv</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Claim details products.dsv</Name>
+      <FullPath>Claim details products.dsv</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Claim details.dsv</Name>
+      <FullPath>Claim details.dsv</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Current and New Insurees.dsv</Name>
+      <FullPath>Current and New Insurees.dsv</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Feedbacks Answered.dsv</Name>
+      <FullPath>Feedbacks Answered.dsv</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Feedbacks Details.dsv</Name>
+      <FullPath>Feedbacks Details.dsv</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Insuree By Range.dsv</Name>
+      <FullPath>Insuree By Range.dsv</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Insuree Expenditures Range.dsv</Name>
+      <FullPath>Insuree Expenditures Range.dsv</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Item Expenditures.dsv</Name>
+      <FullPath>Item Expenditures.dsv</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Item Utilization.dsv</Name>
+      <FullPath>Item Utilization.dsv</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Overall Assessment.dsv</Name>
+      <FullPath>Overall Assessment.dsv</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Population.dsv</Name>
+      <FullPath>Population.dsv</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Premium Allocation.dsv</Name>
+      <FullPath>Premium Allocation.dsv</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Premium Collection.dsv</Name>
+      <FullPath>Premium Collection.dsv</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Service Expenditures.dsv</Name>
+      <FullPath>Service Expenditures.dsv</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Service Utilization.dsv</Name>
+      <FullPath>Service Utilization.dsv</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Number of insured households.dsv</Name>
+      <FullPath>Number of insured households.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
+  <Roles>
+    <ProjectItem>
+      <Name>Role.role</Name>
+      <FullPath>Role.role</FullPath>
+    </ProjectItem>
+  </Roles>
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>IMIS DW</Id>
+            <Name>IMIS DW</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI10.1;Data Source=HIREN\EXACT2014DEV;Persist Security Info=True;Password=;User ID=;Initial Catalog=IMIS_DW</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>IMIS DW</Id>
+            <Name>IMIS DW</Name>
+            <Value xsi:type="xsd:int">1</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+        <OutputPath>C:\Users\VMW7-A\Desktop\IMIS Project\Master\Published Cubes\</OutputPath>
+      </Options>
+    </Configuration>
+  </Configurations>
+</Project>

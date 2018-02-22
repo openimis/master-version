@@ -1,0 +1,467 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>IMIS Cubes</Database>
+    <Server>.\EXACT2014DEV</Server>
+    <ConnectionString>DataSource=.\EXACT2014DEV;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>E44GtjS57bNaL5WGwQIQ9Rqj1vs=10/08/2017 10:57:3510/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>IMIS DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>QoU8xpE6EcQi9guyA3ifOi2Ot1s=30/11/2016 16:02:1110/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Admissions</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>UroJE16PLyePyVhBAAuWsdiVFNg=20/12/2016 09:34:5010/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Current Policies</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>q1JsXDbF8uFkPztO7jBIR4zlIq0=28/03/2017 16:17:0710/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Claim details products</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>MqOCrpUZLnyAbMhYMF3uX/l7gLM=20/12/2016 09:35:1910/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Claim details</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>me9SPkNbSMvJNTy0fHmwgG1e43A=20/12/2016 09:35:2710/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Current Insurees</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>ztnYV1KM0pTLRJDNh27+9jRfHcM=20/12/2016 09:35:3610/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Feedbacks Answered</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>Xy4wFH2Cp+E3FcULAtABphDDdKc=20/12/2016 09:35:4610/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Feedbacks Sent</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>JS3bLhq1XFD2kwOnG1lTzES7ssQ=20/12/2016 09:35:5410/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Insuree By Range</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>yRIa9sBKhL8szJXOr3j8a2fxjiQ=20/12/2016 09:36:0210/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Insuree Expenditures Range</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>ASVVUH35YoWN46wIl97g4eokXmc=20/12/2016 09:36:1010/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Item Expenditures</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>8HfEzwHa7pMxN+9jEsPhtlBHv+0=20/12/2016 09:36:1910/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Item Utilization</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>TvS0BSGSW/41zICGe7i+EB6X9Bs=20/12/2016 09:36:2710/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Overall Assessment</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>Q/nYkTHc2YU9mFWhipgngNFJXWI=20/12/2016 09:36:3410/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Population</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>4AFFDtKS7k9E10dkWeNr4gBKREs=20/12/2016 09:36:4110/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Premium Allocation</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>dVl+69QyB/ve92lpOCCV4GS3UrQ=20/12/2016 09:36:4910/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Premium Collection</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>Yq24vpmC6I+6iqNxUVLl/upvxDo=30/11/2016 16:03:0510/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Service Expenditures</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>O5N7w6eh0c0MQkVfqDMjJ0xOS9s=20/12/2016 09:37:0510/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Service Utilization</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>DfiE/uRAecmWoMrFf2i8kafymMM=22/12/2016 13:50:4010/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Number of insured households</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Nkn6ZtnlOzBOoeFwzktkpfZzyTo=29/02/2016 13:35:1310/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Age</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Lja0VJ9tdspFxQA6o1KuhQoz1Hw=29/02/2016 13:38:3310/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Care Category</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>LDe+6eeCgflfTM0n7WgHPVVms2E=29/02/2016 13:39:2310/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Care Type</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>/SsbIkGnJ+XUhrhe5qRrFOyQkrY=29/02/2016 13:39:4010/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Expenditures</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>IJlef42TFmMl2CzrPGRLYEoOsbQ=29/02/2016 13:39:5010/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Gender</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>zQnSfA0HDAKlAiZYI2ruAyWAn7A=29/02/2016 13:40:0010/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Items</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>jwS8kI7L9fvPg7NBkg0q6e3Mt6I=30/11/2016 14:07:0610/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Officers</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>zCcq6Aisrh6VWeQvXyialPH/YhQ=26/01/2017 12:32:1510/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Payers</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Aq3jnlIiWOwcKEo+LB52PmySFMY=20/12/2016 09:39:4110/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Products</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>G6JHfgE4B9obWlGaf3uAZrdFbz4=30/11/2016 16:03:2210/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Providers</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>wQGrCcbxh1iQxI8HBpFz9DDU3R0=29/02/2016 13:40:5210/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Questions</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>y3o45s5oSaubU347HYk78xfrNWQ=10/08/2017 09:18:1210/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Region</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ChhXDOgdifA9spHmFe21W59iMTM=29/02/2016 13:41:1210/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Time</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>EqIfi4BJI5YptUqWcm6MrVkTpwM=29/02/2016 13:41:1910/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Disease</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>1fAQ/x/xMTDKssARfQeR7c5Rw10=29/02/2016 13:41:2810/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Services 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Y+3d30/K9sXXZ6UwCTMtlGjkxz8=30/11/2016 14:02:5210/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Region 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>v3LWHUHqXosF6PGmRZFNade5GxY=29/02/2016 13:41:5010/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Time 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>eSkGyeoQAnV7+ODC+Wgk/3GX9g8=28/03/2017 15:30:2010/08/2017 08:43:11UtxOc9/9TU2jh4K/mUwmd2Ai6FA=22/02/2016 15:44:2310/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Admissions</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>yvqjQrYwacfCJ7uE5R4Lc8Fn3uY=30/11/2016 14:07:0610/08/2017 08:43:11hid1dNTYmuKphAobPIU0LYmIHoA=17/11/2015 13:34:0610/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>All type of policies</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>C62XwwWEf+Q3i6CY52DWsrjJbG0=28/03/2017 15:31:3410/08/2017 08:43:11zlvJ02A9bDP9sMnSFQ1CWN6uMD8=18/12/2015 16:42:4110/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Average Expenditures - 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>CcxXe64SxLThLdOhMazREPNrcY8=28/03/2017 12:24:2510/08/2017 08:43:11+OP6hzL+jeYQZMeOmNMKQmdYBIY=18/12/2015 15:35:4310/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>AverageExpendituresItem</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>jixqFruvYHjt6jETETHieclO5Ow=28/03/2017 12:24:5710/08/2017 08:43:11CGCVXHyKlQQrZmovpE0cszzvDN0=18/12/2015 15:56:4010/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Average Expenditure Services-1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>uUbdXAA8mLFX0FNJKtzsqYMfT2I=28/03/2017 12:25:4310/08/2017 08:43:11p/KsxvPlEY98GaqfQIXHQLJOLk4=18/12/2015 17:08:1510/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Average utilization of drugs and medical aids per insuree-1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>HZqn/8zelbPyxSbmUW2Xh9geJoU=28/03/2017 15:37:0110/08/2017 08:43:11v/7wPkkzMHJuj2mm0oWODsb2GUg=18/12/2015 16:58:4210/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Average utilization of health care per insuree-1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>Yr/hUXy7JicqYlFnCgr7XGWb6r8=28/03/2017 15:29:4710/08/2017 08:43:11vqDFyBlyYOVp3em0UXdXlGSAY8A=24/02/2016 11:23:0510/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Claim details products</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>PPgIL7HCUnU+XSoNq+I2+bsGymo=28/03/2017 15:38:2110/08/2017 08:43:117+4v5QwSffQUwUr4qP6uqlSMOxU=23/02/2016 13:15:0010/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Claim details 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>f2Cp7dOHCaIxs/EizBGe4aDTLe8=28/03/2017 14:22:2310/08/2017 08:43:11cMOa66rW6jEhiUiySBz4boJ9jq8=18/11/2015 15:20:5410/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Amount of allocated premiums</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>3aM5EjJfHIcfSya+OutzR9/Rv5k=28/03/2017 14:24:1810/08/2017 08:43:11iuxypEucZOJTo+tEmL0lQNlxFBY=02/07/2014 15:29:4810/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Premium Collection</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>d05rHCplGNiCK8WWX8Dp3iZl54o=30/11/2016 14:07:0610/08/2017 08:43:11tEZUCjUMspZk85SmA7F6AR+5amc=17/11/2015 15:08:2210/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Current And New Insuree</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>6+TacB8hgLpkv2bi6l06p5VIA9I=28/03/2017 14:25:3110/08/2017 08:43:11G3hH2kXO2oKIAKsasNRGPtPR6AE=02/07/2014 12:18:5910/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Insuree Expenditures Range</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>Pq2z0Pb3viGMbFKwoTTIjAxls78=28/03/2017 14:26:2310/08/2017 08:43:11hUsrzWk+fLCGVBr0JFRyDIOXqm8=02/07/2014 11:51:0310/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Item Expenditures</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>omaGbtPf47DHZECRJyx9dKXr4N8=28/03/2017 14:28:0710/08/2017 08:43:11O5iwNPuJcIgzgMah3/V/xd3PcKw=02/07/2014 11:47:0610/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Service Expenditures</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>HHDkulAvLljcZTliHJzFAE51Gl0=28/03/2017 14:28:4810/08/2017 08:43:11ytEuM9ULJYvg3IOTWJEJcIAF57g=02/07/2014 12:17:3710/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Feedbacks Answered</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>HWckbMTZO63iyhBtRSfKTU39zJs=28/03/2017 12:36:0210/08/2017 08:43:11dTur2cs2DrdJwi2hvBquis8F4+E=20/11/2015 09:37:4310/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Feedback Details</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>Pon0LT1qFXqwgNskEuwsvLnOavg=26/01/2017 12:25:4110/08/2017 08:43:11ylvXrmWNJedcjHU/rzi/Uc/kkrU=24/02/2016 16:57:0410/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Number of feedbacks according to answers to specific questions</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>JZsqbIgOOK+4IUOldtHYP1GXov8=14/08/2017 13:11:3410/08/2017 08:43:11xfkaQdtJbYkQlG5T7lQJbeL4YyY=24/02/2016 16:11:0210/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Number of households</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>mPSGkyNi9oXA7IQGzAejFwnr8WY=17/08/2017 13:46:4710/08/2017 08:43:11YXPFbDAh2QyzSgFRwHWFUS2OYYY=01/12/2016 13:10:3610/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Number of insured households</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>b9uOYzS12f6bISRV5mhKANdhwqE=28/03/2017 12:38:2110/08/2017 08:43:11RubDgi4J2cLGdvNNihGTSkVQTpA=02/07/2014 12:21:1210/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Insuree By Range</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>kg+fvyCB3qgsDyYIEnRaahJBd9k=14/08/2017 13:01:2110/08/2017 08:43:11ZwsV9wAOGRp/CQu85Oe/BaEkUHA=14/08/2017 12:59:1010/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Population New</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>kxkwE3N7YQIxd8wIKU8yG4sZr7Y=14/08/2017 13:00:2310/08/2017 08:43:11LBxNYuGvhtTuP5u08zw89k4zlHo=24/02/2016 14:56:3110/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Share of insured population</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>Ii6w1VScblg5oF9NdIHPNOuwM58=28/03/2017 14:35:3810/08/2017 08:43:11c8G+WIlfEhrnQPHGZ9P9GxAX/2o=02/07/2014 11:57:4010/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Item Utilization</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>d6LONCoCxm3yOxFTtVO3bR5gNqI=28/03/2017 14:35:0910/08/2017 08:43:11UeuY87ktt1HRSRw7JjLUtcN6ChY=02/07/2014 11:55:0610/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Service Utilization</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Role</Type>
+        <TimeStamp>sRv9c48yetq4ZfHRh0M1Sa90U1I=21/11/2016 11:03:1810/08/2017 08:43:11</TimeStamp>
+        <ID>
+          <String>Role</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>D2+ZIEF1g5XqNHLxbh8c6ufkObg=21/11/2016 11:03:1810/08/2017 08:43:11</TimeStamp>
+      <ID>
+        <String>IMIS Cubes</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2017-08-24T07:17:23.003333Z</LastDeployed>
+</DeploymentSnapshot>

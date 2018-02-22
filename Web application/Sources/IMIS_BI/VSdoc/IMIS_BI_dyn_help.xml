@@ -1,0 +1,5965 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DynamicHelp xmlns="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd" xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance" xsi:schemaLocation="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd">	
+   <LINKGROUP ID="IMIS_BI" Title="IMIS_BI Reference Help" Priority="2100">
+      <GLYPH Expanded="vs:/ctxhelp_show.gif" Collapsed="vs:/ctxhelp_hide.gif"/>
+   </LINKGROUP>
+
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.AddFundingBI.AddFund" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000004.html" LinkGroup="IMIS_BI">AddFund Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.AddFundingBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000000.html" LinkGroup="IMIS_BI">AddFundingBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ChangeFamily" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000006.html" LinkGroup="IMIS_BI">ChangeFamily Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ChangeFamilyBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000000B.html" LinkGroup="IMIS_BI">ChangeFamilyBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ChangeFamilyBI.ChangeHead" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000000C.html" LinkGroup="IMIS_BI">ChangeHead Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ChangePasswordBI.ChangePassword" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000001D.html" LinkGroup="IMIS_BI">ChangePassword Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ChangePasswordBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000001B.html" LinkGroup="IMIS_BI">ChangePasswordBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ProductBI.ChangeProductItems" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001FC.html" LinkGroup="IMIS_BI">ChangeProductItems Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ProductBI.ChangeProductServices" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001FD.html" LinkGroup="IMIS_BI">ChangeProductServices Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FamilyBI.CheckCHFID" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000076.html" LinkGroup="IMIS_BI">CheckCHFID Method {IMIS_BI.FamilyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.InsureeBI.CheckCHFID" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000149.html" LinkGroup="IMIS_BI">CheckCHFID Method {IMIS_BI.InsureeBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.MasterBI.CheckCHFID" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000016A.html" LinkGroup="IMIS_BI">CheckCHFID Method {IMIS_BI.MasterBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimAdministratorBI.CheckRoles" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000020.html" LinkGroup="IMIS_BI">CheckRoles Method {IMIS_BI.ClaimAdministratorBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindClaimAdministratorBI.CheckRoles" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000092.html" LinkGroup="IMIS_BI">CheckRoles Method {IMIS_BI.FindClaimAdministratorBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.UserBI.CheckRoles" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000024C.html" LinkGroup="IMIS_BI">CheckRoles Method {IMIS_BI.UserBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimAdministratorBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000001E.html" LinkGroup="IMIS_BI">ClaimAdministratorBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000024.html" LinkGroup="IMIS_BI">ClaimBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimFeedbackBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000003B.html" LinkGroup="IMIS_BI">ClaimFeedbackBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimOverviewBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000043.html" LinkGroup="IMIS_BI">ClaimOverviewBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimReviewBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000055.html" LinkGroup="IMIS_BI">ClaimReviewBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.UtilitiesBI.CreateDatabaseBackup" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000024F.html" LinkGroup="IMIS_BI">CreateDatabaseBackup Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.IMISExtractsBI.CreateEnrolmentXML" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000139.html" LinkGroup="IMIS_BI">CreateEnrolmentXML Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.IMISExtractsBI.CreateOffLineExtracts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000130.html" LinkGroup="IMIS_BI">CreateOffLineExtracts Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.IMISExtractsBI.CreatePhoneExtracts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000012F.html" LinkGroup="IMIS_BI">CreatePhoneExtracts Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindClaimsBI.DeleteClaim" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000009E.html" LinkGroup="IMIS_BI">DeleteClaim Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindClaimAdministratorBI.DeleteClaimAdmin" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000095.html" LinkGroup="IMIS_BI">DeleteClaimAdmin Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimBI.DeleteClaimItems" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000034.html" LinkGroup="IMIS_BI">DeleteClaimItems Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimBI.DeleteClaimService" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000033.html" LinkGroup="IMIS_BI">DeleteClaimService Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.OverviewFamilyBI.DeleteFamily" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000196.html" LinkGroup="IMIS_BI">DeleteFamily Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindHealthFacilityBI.DeleteHealthFacility" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000BA.html" LinkGroup="IMIS_BI">DeleteHealthFacility Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.OverviewFamilyBI.DeleteInsuree" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000193.html" LinkGroup="IMIS_BI">DeleteInsuree Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindMedicalItemsBI.DeleteItem" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000CA.html" LinkGroup="IMIS_BI">DeleteItem Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.LocationsBI.DeleteLocation" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000015C.html" LinkGroup="IMIS_BI">DeleteLocation Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindOfficersBI.DeleteOfficer" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000D7.html" LinkGroup="IMIS_BI">DeleteOfficer Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindPayersBI.DeletePayer" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000DD.html" LinkGroup="IMIS_BI">DeletePayer Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.OverviewFamilyBI.DeletePolicy" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000194.html" LinkGroup="IMIS_BI">DeletePolicy Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.OverviewFamilyBI.DeletePremium" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000195.html" LinkGroup="IMIS_BI">DeletePremium Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindPricelistMIBI.DeletePriceListMI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000F7.html" LinkGroup="IMIS_BI">DeletePriceListMI Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindPriceListMSBI.DeletePriceListMS" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000FF.html" LinkGroup="IMIS_BI">DeletePriceListMS Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindProductsBI.DeleteProduct" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000105.html" LinkGroup="IMIS_BI">DeleteProduct Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindMedicalServicesBI.DeleteService" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000D0.html" LinkGroup="IMIS_BI">DeleteService Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindUsersBI.DeleteUser" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000010D.html" LinkGroup="IMIS_BI">DeleteUser Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindPriceListMSBI.DuplicatePriceListMI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000FE.html" LinkGroup="IMIS_BI">DuplicatePriceListMI Method {IMIS_BI.FindPriceListMSBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindPricelistMIBI.DuplicatePriceListMI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000F6.html" LinkGroup="IMIS_BI">DuplicatePriceListMI Method {IMIS_BI.FindPricelistMIBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.EmailSettingsBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000064.html" LinkGroup="IMIS_BI">EmailSettingsBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.UtilitiesBI.Execute" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000252.html" LinkGroup="IMIS_BI">Execute Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FamilyBI.ExtractCHFID" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000073.html" LinkGroup="IMIS_BI">ExtractCHFID Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FamilyBI.ExtractDate" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000075.html" LinkGroup="IMIS_BI">ExtractDate Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FamilyBI.ExtractLatitude" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000080.html" LinkGroup="IMIS_BI">ExtractLatitude Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FamilyBI.ExtractLongitude" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000081.html" LinkGroup="IMIS_BI">ExtractLongitude Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FamilyBI.ExtractOfficerCode" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000074.html" LinkGroup="IMIS_BI">ExtractOfficerCode Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FamilyBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000067.html" LinkGroup="IMIS_BI">FamilyBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FamilyBI.FamilyExists" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000071.html" LinkGroup="IMIS_BI">FamilyExists Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FeedbackPromptBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000087.html" LinkGroup="IMIS_BI">FeedbackPromptBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.InsureeBI.FetchNewImages" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000144.html" LinkGroup="IMIS_BI">FetchNewImages Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindClaimAdministratorBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000090.html" LinkGroup="IMIS_BI">FindClaimAdministratorBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindClaimsBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000096.html" LinkGroup="IMIS_BI">FindClaimsBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindFamilyBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000A9.html" LinkGroup="IMIS_BI">FindFamilyBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindHealthFacilityBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000B4.html" LinkGroup="IMIS_BI">FindHealthFacilityBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindInsureeBI.FindInsuree" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000BE.html" LinkGroup="IMIS_BI">FindInsuree Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindInsureeBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000BD.html" LinkGroup="IMIS_BI">FindInsureeBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindMedicalItemsBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000C7.html" LinkGroup="IMIS_BI">FindMedicalItemsBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindMedicalServicesBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000CD.html" LinkGroup="IMIS_BI">FindMedicalServicesBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindOfficersBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000D4.html" LinkGroup="IMIS_BI">FindOfficersBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindPayersBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000DA.html" LinkGroup="IMIS_BI">FindPayersBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindPolicyBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000E1.html" LinkGroup="IMIS_BI">FindPolicyBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindPremiumBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000EC.html" LinkGroup="IMIS_BI">FindPremiumBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindPriceListMSBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000FA.html" LinkGroup="IMIS_BI">FindPriceListMSBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindPricelistMIBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000F3.html" LinkGroup="IMIS_BI">FindPricelistMIBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindProductsBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000102.html" LinkGroup="IMIS_BI">FindProductsBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindUsersBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000108.html" LinkGroup="IMIS_BI">FindUsersBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ForgotPasswordBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000111.html" LinkGroup="IMIS_BI">ForgotPasswordBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ProcessBatchesBI.GetAccounts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001EF.html" LinkGroup="IMIS_BI">GetAccounts Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportsBI.GetActions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000235.html" LinkGroup="IMIS_BI">GetActions Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ProductBI.GetAllDistributionData" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000207.html" LinkGroup="IMIS_BI">GetAllDistributionData Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportsBI.GetAllProducts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000238.html" LinkGroup="IMIS_BI">GetAllProducts Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.HealthFacilityBI.GetAllVillage" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000125.html" LinkGroup="IMIS_BI">GetAllVillage Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.HealthFacilityBI.GetAllWards" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000124.html" LinkGroup="IMIS_BI">GetAllWards Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimOverviewBI.GetBatchRun" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000051.html" LinkGroup="IMIS_BI">GetBatchRun Method {IMIS_BI.ClaimOverviewBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindClaimsBI.GetBatchRun" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000A0.html" LinkGroup="IMIS_BI">GetBatchRun Method {IMIS_BI.FindClaimsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ProcessBatchesBI.GetBatchRunDate" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001F7.html" LinkGroup="IMIS_BI">GetBatchRunDate Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ProcessBatchesBI.GetBatches" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001F4.html" LinkGroup="IMIS_BI">GetBatches Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PremiumBI.GetCategory" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001C5.html" LinkGroup="IMIS_BI">GetCategory Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ProductBI.GetCeilingInterpritation" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000020B.html" LinkGroup="IMIS_BI">GetCeilingInterpritation Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimBI.GetClaim" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000039.html" LinkGroup="IMIS_BI">GetClaim Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimBI.GetClaimAdminDetails" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000037.html" LinkGroup="IMIS_BI">GetClaimAdminDetails Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindClaimAdministratorBI.GetClaimAdmins" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000094.html" LinkGroup="IMIS_BI">GetClaimAdmins Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportsBI.GetClaimOverview" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000230.html" LinkGroup="IMIS_BI">GetClaimOverview Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimOverviewBI.GetClaimStatus" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000004D.html" LinkGroup="IMIS_BI">GetClaimStatus Method {IMIS_BI.ClaimOverviewBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimReviewBI.GetClaimStatus" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000056.html" LinkGroup="IMIS_BI">GetClaimStatus Method {IMIS_BI.ClaimReviewBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindClaimsBI.GetClaimStatus" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000A3.html" LinkGroup="IMIS_BI">GetClaimStatus Method {IMIS_BI.FindClaimsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportsBI.GetClaimStatus" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000022E.html" LinkGroup="IMIS_BI">GetClaimStatus Method {IMIS_BI.ReportsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindClaimsBI.GetClaims" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000098.html" LinkGroup="IMIS_BI">GetClaims Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindClaimsBI.GetClaimsCount" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000099.html" LinkGroup="IMIS_BI">GetClaimsCount Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FamilyBI.GetCurDistricts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000082.html" LinkGroup="IMIS_BI">GetCurDistricts Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FamilyBI.GetCurVillages" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000084.html" LinkGroup="IMIS_BI">GetCurVillages Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FamilyBI.GetCurWards" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000083.html" LinkGroup="IMIS_BI">GetCurWards Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ProductBI.GetDays" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000209.html" LinkGroup="IMIS_BI">GetDays Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.IMISExtractsBI.GetDefaults" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000132.html" LinkGroup="IMIS_BI">GetDefaults Method {IMIS_BI.IMISExtractsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.LoginBI.GetDefaults" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000162.html" LinkGroup="IMIS_BI">GetDefaults Method {IMIS_BI.LoginBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.MasterBI.GetDefaults" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000016C.html" LinkGroup="IMIS_BI">GetDefaults Method {IMIS_BI.MasterBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportsBI.GetDerivedIndicators" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000021D.html" LinkGroup="IMIS_BI">GetDerivedIndicators Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ProductBI.GetDistribution" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000206.html" LinkGroup="IMIS_BI">GetDistribution Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.UserBI.GetDistrictForHF" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000243.html" LinkGroup="IMIS_BI">GetDistrictForHF Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FamilyBI.GetDistricts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000007D_overloads--.html" LinkGroup="IMIS_BI">GetDistricts Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FamilyBI.GetDistricts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000069_overloads--.html" LinkGroup="IMIS_BI">GetDistricts Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.AddFundingBI.GetDistricts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000001.html" LinkGroup="IMIS_BI">GetDistricts Method {IMIS_BI.AddFundingBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ChangeFamilyBI.GetDistricts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000011.html" LinkGroup="IMIS_BI">GetDistricts Method {IMIS_BI.ChangeFamilyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ChangeFamily.GetDistricts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000007.html" LinkGroup="IMIS_BI">GetDistricts Method {IMIS_BI.ChangeFamily}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimOverviewBI.GetDistricts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000045.html" LinkGroup="IMIS_BI">GetDistricts Method {IMIS_BI.ClaimOverviewBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FeedbackPromptBI.GetDistricts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000088.html" LinkGroup="IMIS_BI">GetDistricts Method {IMIS_BI.FeedbackPromptBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindClaimsBI.GetDistricts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000009A.html" LinkGroup="IMIS_BI">GetDistricts Method {IMIS_BI.FindClaimsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindFamilyBI.GetDistricts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000AB.html" LinkGroup="IMIS_BI">GetDistricts Method {IMIS_BI.FindFamilyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindHealthFacilityBI.GetDistricts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000B9.html" LinkGroup="IMIS_BI">GetDistricts Method {IMIS_BI.FindHealthFacilityBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindInsureeBI.GetDistricts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000BF.html" LinkGroup="IMIS_BI">GetDistricts Method {IMIS_BI.FindInsureeBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindOfficersBI.GetDistricts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000D6.html" LinkGroup="IMIS_BI">GetDistricts Method {IMIS_BI.FindOfficersBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindPayersBI.GetDistricts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000DC.html" LinkGroup="IMIS_BI">GetDistricts Method {IMIS_BI.FindPayersBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindPolicyBI.GetDistricts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000E3.html" LinkGroup="IMIS_BI">GetDistricts Method {IMIS_BI.FindPolicyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindPremiumBI.GetDistricts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000F1.html" LinkGroup="IMIS_BI">GetDistricts Method {IMIS_BI.FindPremiumBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindPriceListMSBI.GetDistricts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000FC.html" LinkGroup="IMIS_BI">GetDistricts Method {IMIS_BI.FindPriceListMSBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindPricelistMIBI.GetDistricts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000F5.html" LinkGroup="IMIS_BI">GetDistricts Method {IMIS_BI.FindPricelistMIBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindProductsBI.GetDistricts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000104.html" LinkGroup="IMIS_BI">GetDistricts Method {IMIS_BI.FindProductsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindUsersBI.GetDistricts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000010A.html" LinkGroup="IMIS_BI">GetDistricts Method {IMIS_BI.FindUsersBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.HealthFacilityBI.GetDistricts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000114.html" LinkGroup="IMIS_BI">GetDistricts Method {IMIS_BI.HealthFacilityBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.IMISExtractsBI.GetDistricts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000012E.html" LinkGroup="IMIS_BI">GetDistricts Method {IMIS_BI.IMISExtractsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.InsureeBI.GetDistricts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000014F.html" LinkGroup="IMIS_BI">GetDistricts Method {IMIS_BI.InsureeBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.LocationsBI.GetDistricts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000158.html" LinkGroup="IMIS_BI">GetDistricts Method {IMIS_BI.LocationsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.MoveLocationBI.GetDistricts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000017E.html" LinkGroup="IMIS_BI">GetDistricts Method {IMIS_BI.MoveLocationBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.OfficerBI.GetDistricts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000187.html" LinkGroup="IMIS_BI">GetDistricts Method {IMIS_BI.OfficerBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PayerBI.GetDistricts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000019D.html" LinkGroup="IMIS_BI">GetDistricts Method {IMIS_BI.PayerBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PolicyRenewalBI.GetDistricts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001BB.html" LinkGroup="IMIS_BI">GetDistricts Method {IMIS_BI.PolicyRenewalBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PremiumCollectionBI.GetDistricts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001CA.html" LinkGroup="IMIS_BI">GetDistricts Method {IMIS_BI.PremiumCollectionBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PremiumDistributionBI.GetDistricts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001D0.html" LinkGroup="IMIS_BI">GetDistricts Method {IMIS_BI.PremiumDistributionBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PricelisMIBI.GetDistricts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001D6.html" LinkGroup="IMIS_BI">GetDistricts Method {IMIS_BI.PricelisMIBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PricelistMSBI.GetDistricts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001DD.html" LinkGroup="IMIS_BI">GetDistricts Method {IMIS_BI.PricelistMSBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ProcessBatchesBI.GetDistricts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001ED.html" LinkGroup="IMIS_BI">GetDistricts Method {IMIS_BI.ProcessBatchesBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ProductBI.GetDistricts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001FE.html" LinkGroup="IMIS_BI">GetDistricts Method {IMIS_BI.ProductBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportsBI.GetDistricts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000218.html" LinkGroup="IMIS_BI">GetDistricts Method {IMIS_BI.ReportsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.UserBI.GetDistricts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000242.html" LinkGroup="IMIS_BI">GetDistricts Method {IMIS_BI.UserBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FamilyBI.GetDistrictsAll" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000006A.html" LinkGroup="IMIS_BI">GetDistrictsAll Method {IMIS_BI.FamilyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.InsureeBI.GetDistrictsAll" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000156.html" LinkGroup="IMIS_BI">GetDistrictsAll Method {IMIS_BI.InsureeBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.IMISExtractsBI.GetDownLoadExtractInfo" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000134.html" LinkGroup="IMIS_BI">GetDownLoadExtractInfo Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FamilyBI.GetEducation" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000079.html" LinkGroup="IMIS_BI">GetEducation Method {IMIS_BI.FamilyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.InsureeBI.GetEducation" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000014C.html" LinkGroup="IMIS_BI">GetEducation Method {IMIS_BI.InsureeBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportsBI.GetEnroledFamilies" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000232.html" LinkGroup="IMIS_BI">GetEnroledFamilies Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportsBI.GetEntities" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000236.html" LinkGroup="IMIS_BI">GetEntities Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ChangeFamilyBI.GetEthnicity" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000019.html" LinkGroup="IMIS_BI">GetEthnicity Method {IMIS_BI.ChangeFamilyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FamilyBI.GetEthnicity" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000007B.html" LinkGroup="IMIS_BI">GetEthnicity Method {IMIS_BI.FamilyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.IMISExtractsBI.GetExtractList" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000133.html" LinkGroup="IMIS_BI">GetExtractList Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FamilyBI.GetFSPHF" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000007F.html" LinkGroup="IMIS_BI">GetFSPHF Method {IMIS_BI.FamilyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.InsureeBI.GetFSPHF" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000153.html" LinkGroup="IMIS_BI">GetFSPHF Method {IMIS_BI.InsureeBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindFamilyBI.GetFamily" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000AA.html" LinkGroup="IMIS_BI">GetFamily Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ChangeFamilyBI.GetFamilyHeadInfo" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000010.html" LinkGroup="IMIS_BI">GetFamilyHeadInfo Method {IMIS_BI.ChangeFamilyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.InsureeBI.GetFamilyHeadInfo" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000013E.html" LinkGroup="IMIS_BI">GetFamilyHeadInfo Method {IMIS_BI.InsureeBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.OverviewFamilyBI.GetFamilyHeadInfo" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000192.html" LinkGroup="IMIS_BI">GetFamilyHeadInfo Method {IMIS_BI.OverviewFamilyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PolicyBI.GetFamilyHeadInfo" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001A3.html" LinkGroup="IMIS_BI">GetFamilyHeadInfo Method {IMIS_BI.PolicyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PremiumBI.GetFamilyHeadInfo" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001BE.html" LinkGroup="IMIS_BI">GetFamilyHeadInfo Method {IMIS_BI.PremiumBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FeedbackPromptBI.GetFeedbackPrompt" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000008C.html" LinkGroup="IMIS_BI">GetFeedbackPrompt Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimOverviewBI.GetFeedbackStatus" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000004B.html" LinkGroup="IMIS_BI">GetFeedbackStatus Method {IMIS_BI.ClaimOverviewBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindClaimsBI.GetFeedbackStatus" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000A1.html" LinkGroup="IMIS_BI">GetFeedbackStatus Method {IMIS_BI.FindClaimsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FamilyBI.GetGender" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000006D.html" LinkGroup="IMIS_BI">GetGender Method {IMIS_BI.FamilyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindFamilyBI.GetGender" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000AE.html" LinkGroup="IMIS_BI">GetGender Method {IMIS_BI.FindFamilyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindInsureeBI.GetGender" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000C2.html" LinkGroup="IMIS_BI">GetGender Method {IMIS_BI.FindInsureeBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.InsureeBI.GetGender" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000140.html" LinkGroup="IMIS_BI">GetGender Method {IMIS_BI.InsureeBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimOverviewBI.GetHFClaimAdminCodes" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000052.html" LinkGroup="IMIS_BI">GetHFClaimAdminCodes Method {IMIS_BI.ClaimOverviewBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindClaimsBI.GetHFClaimAdminCodes" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000009D.html" LinkGroup="IMIS_BI">GetHFClaimAdminCodes Method {IMIS_BI.FindClaimsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimAdministratorBI.GetHFCodes" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000021.html" LinkGroup="IMIS_BI">GetHFCodes Method {IMIS_BI.ClaimAdministratorBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimBI.GetHFCodes" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000002F.html" LinkGroup="IMIS_BI">GetHFCodes Method {IMIS_BI.ClaimBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimOverviewBI.GetHFCodes" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000048.html" LinkGroup="IMIS_BI">GetHFCodes Method {IMIS_BI.ClaimOverviewBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindClaimAdministratorBI.GetHFCodes" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000093.html" LinkGroup="IMIS_BI">GetHFCodes Method {IMIS_BI.FindClaimAdministratorBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindClaimsBI.GetHFCodes" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000009B.html" LinkGroup="IMIS_BI">GetHFCodes Method {IMIS_BI.FindClaimsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindUsersBI.GetHFCodes" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000010F.html" LinkGroup="IMIS_BI">GetHFCodes Method {IMIS_BI.FindUsersBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ProcessBatchesBI.GetHFCodes" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001F2.html" LinkGroup="IMIS_BI">GetHFCodes Method {IMIS_BI.ProcessBatchesBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportsBI.GetHFCodes" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000217.html" LinkGroup="IMIS_BI">GetHFCodes Method {IMIS_BI.ReportsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.UserBI.GetHFCodes" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000248.html" LinkGroup="IMIS_BI">GetHFCodes Method {IMIS_BI.UserBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindHealthFacilityBI.GetHFLegal" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000B8.html" LinkGroup="IMIS_BI">GetHFLegal Method {IMIS_BI.FindHealthFacilityBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.HealthFacilityBI.GetHFLegal" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000117.html" LinkGroup="IMIS_BI">GetHFLegal Method {IMIS_BI.HealthFacilityBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FamilyBI.GetHFLevel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000007E.html" LinkGroup="IMIS_BI">GetHFLevel Method {IMIS_BI.FamilyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindHealthFacilityBI.GetHFLevel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000B7.html" LinkGroup="IMIS_BI">GetHFLevel Method {IMIS_BI.FindHealthFacilityBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.HealthFacilityBI.GetHFLevel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000116.html" LinkGroup="IMIS_BI">GetHFLevel Method {IMIS_BI.HealthFacilityBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.InsureeBI.GetHFLevel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000152.html" LinkGroup="IMIS_BI">GetHFLevel Method {IMIS_BI.InsureeBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ProcessBatchesBI.GetHFLevel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001F1.html" LinkGroup="IMIS_BI">GetHFLevel Method {IMIS_BI.ProcessBatchesBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ProcessBatchesBI.GetHFLevelType" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001E8.html" LinkGroup="IMIS_BI">GetHFLevelType Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimBI.GetHFType" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000002B.html" LinkGroup="IMIS_BI">GetHFType Method {IMIS_BI.ClaimBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindHealthFacilityBI.GetHFType" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000B6.html" LinkGroup="IMIS_BI">GetHFType Method {IMIS_BI.FindHealthFacilityBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.HealthFacilityBI.GetHFType" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000115.html" LinkGroup="IMIS_BI">GetHFType Method {IMIS_BI.HealthFacilityBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindHealthFacilityBI.GetHealthFacility" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000B5.html" LinkGroup="IMIS_BI">GetHealthFacility Method {IMIS_BI.FindHealthFacilityBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ProcessBatchesBI.GetHealthFacility" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001EC.html" LinkGroup="IMIS_BI">GetHealthFacility Method {IMIS_BI.ProcessBatchesBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimBI.GetICDCodes" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000030.html" LinkGroup="IMIS_BI">GetICDCodes Method {IMIS_BI.ClaimBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimOverviewBI.GetICDCodes" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000004E.html" LinkGroup="IMIS_BI">GetICDCodes Method {IMIS_BI.ClaimOverviewBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindClaimsBI.GetICDCodes" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000009C.html" LinkGroup="IMIS_BI">GetICDCodes Method {IMIS_BI.FindClaimsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PremiumBI.GetInstallmentsInfo" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001C7.html" LinkGroup="IMIS_BI">GetInstallmentsInfo Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.InsureeBI.GetInsureeByCHFID" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000146.html" LinkGroup="IMIS_BI">GetInsureeByCHFID Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimBI.GetInsureeByCHFIDGrid" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000003A.html" LinkGroup="IMIS_BI">GetInsureeByCHFIDGrid Method {IMIS_BI.ClaimBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.InsureeBI.GetInsureeByCHFIDGrid" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000147.html" LinkGroup="IMIS_BI">GetInsureeByCHFIDGrid Method {IMIS_BI.InsureeBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.MasterBI.GetInsureeProductDetails" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000016F.html" LinkGroup="IMIS_BI">GetInsureeProductDetails Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ChangeFamilyBI.GetInsureesByCHFID" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000016.html" LinkGroup="IMIS_BI">GetInsureesByCHFID Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.OverviewFamilyBI.GetInsureesByFamilyFiltered" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000018F.html" LinkGroup="IMIS_BI">GetInsureesByFamilyFiltered Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportsBI.GetInsureesWithoutPhotos" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000229.html" LinkGroup="IMIS_BI">GetInsureesWithoutPhotos Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimBI.GetItemCode" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000029.html" LinkGroup="IMIS_BI">GetItemCode Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimBI.GetItemServiceStatus" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000027.html" LinkGroup="IMIS_BI">GetItemServiceStatus Method {IMIS_BI.ClaimBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimReviewBI.GetItemServiceStatus" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000058.html" LinkGroup="IMIS_BI">GetItemServiceStatus Method {IMIS_BI.ClaimReviewBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindMedicalItemsBI.GetItemType" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000C9.html" LinkGroup="IMIS_BI">GetItemType Method {IMIS_BI.FindMedicalItemsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.MedicalItemBI.GetItemType" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000175.html" LinkGroup="IMIS_BI">GetItemType Method {IMIS_BI.MedicalItemBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PolicyRenewalBI.GetJournalOn" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001B8.html" LinkGroup="IMIS_BI">GetJournalOn Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindUsersBI.GetLanguage" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000010C.html" LinkGroup="IMIS_BI">GetLanguage Method {IMIS_BI.FindUsersBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.UserBI.GetLanguage" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000241.html" LinkGroup="IMIS_BI">GetLanguage Method {IMIS_BI.UserBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.IMISExtractsBI.GetLastCreateExtractInfo" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000136.html" LinkGroup="IMIS_BI">GetLastCreateExtractInfo Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PremiumBI.GetLastDateForPayment" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001C6.html" LinkGroup="IMIS_BI">GetLastDateForPayment Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.LoginBI.GetLogin" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000163.html" LinkGroup="IMIS_BI">GetLogin Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FamilyBI.GetMaritalStatus" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000006F.html" LinkGroup="IMIS_BI">GetMaritalStatus Method {IMIS_BI.FamilyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindFamilyBI.GetMaritalStatus" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000AF.html" LinkGroup="IMIS_BI">GetMaritalStatus Method {IMIS_BI.FindFamilyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindInsureeBI.GetMaritalStatus" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000C3.html" LinkGroup="IMIS_BI">GetMaritalStatus Method {IMIS_BI.FindInsureeBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.InsureeBI.GetMaritalStatus" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000142.html" LinkGroup="IMIS_BI">GetMaritalStatus Method {IMIS_BI.InsureeBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportsBI.GetMatchingFunds" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000022F.html" LinkGroup="IMIS_BI">GetMatchingFunds Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ChangeFamilyBI.GetMaxMemberCount" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000018.html" LinkGroup="IMIS_BI">GetMaxMemberCount Method {IMIS_BI.ChangeFamilyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.InsureeBI.GetMaxMemberCount" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000014D.html" LinkGroup="IMIS_BI">GetMaxMemberCount Method {IMIS_BI.InsureeBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindMedicalItemsBI.GetMedicalItems" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000C8.html" LinkGroup="IMIS_BI">GetMedicalItems Method {IMIS_BI.FindMedicalItemsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.MedicalItemBI.GetMedicalItems" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000171.html" LinkGroup="IMIS_BI">GetMedicalItems Method {IMIS_BI.MedicalItemBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindMedicalServicesBI.GetMedicalService" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000CE.html" LinkGroup="IMIS_BI">GetMedicalService Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PricelistMSBI.GetMedicalServices" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001DE_overloads--.html" LinkGroup="IMIS_BI">GetMedicalServices Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PricelistMSBI.GetMedicalServices" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001E1_overloads--.html" LinkGroup="IMIS_BI">GetMedicalServices Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.MedicalItemBI.GetMedicalServices" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000172.html" LinkGroup="IMIS_BI">GetMedicalServices Method {IMIS_BI.MedicalItemBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ProductBI.GetMedicalServices" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000200.html" LinkGroup="IMIS_BI">GetMedicalServices Method {IMIS_BI.ProductBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PremiumDistributionBI.GetMonths" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001D1.html" LinkGroup="IMIS_BI">GetMonths Method {IMIS_BI.PremiumDistributionBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ProcessBatchesBI.GetMonths" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001E6.html" LinkGroup="IMIS_BI">GetMonths Method {IMIS_BI.ProcessBatchesBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ProductBI.GetMonths" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000020A.html" LinkGroup="IMIS_BI">GetMonths Method {IMIS_BI.ProductBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportsBI.GetMonths" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000021E.html" LinkGroup="IMIS_BI">GetMonths Method {IMIS_BI.ReportsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimFeedbackBI.GetOfficers" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000042.html" LinkGroup="IMIS_BI">GetOfficers Method {IMIS_BI.ClaimFeedbackBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FeedbackPromptBI.GetOfficers" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000089.html" LinkGroup="IMIS_BI">GetOfficers Method {IMIS_BI.FeedbackPromptBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindOfficersBI.GetOfficers" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000D5.html" LinkGroup="IMIS_BI">GetOfficers Method {IMIS_BI.FindOfficersBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindPolicyBI.GetOfficers" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000E4.html" LinkGroup="IMIS_BI">GetOfficers Method {IMIS_BI.FindPolicyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.OfficerBI.GetOfficers" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000188.html" LinkGroup="IMIS_BI">GetOfficers Method {IMIS_BI.OfficerBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PolicyBI.GetOfficers" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001A5.html" LinkGroup="IMIS_BI">GetOfficers Method {IMIS_BI.PolicyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportsBI.GetOfficers" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000022A.html" LinkGroup="IMIS_BI">GetOfficers Method {IMIS_BI.ReportsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.HealthFacilityBI.GetPLItems" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000011A.html" LinkGroup="IMIS_BI">GetPLItems Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PricelisMIBI.GetPLMedicalItems" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001D7.html" LinkGroup="IMIS_BI">GetPLMedicalItems Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.HealthFacilityBI.GetPLServices" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000011B.html" LinkGroup="IMIS_BI">GetPLServices Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindMedicalItemsBI.GetPatient" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000CB.html" LinkGroup="IMIS_BI">GetPatient Method {IMIS_BI.FindMedicalItemsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindMedicalServicesBI.GetPatient" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000D2.html" LinkGroup="IMIS_BI">GetPatient Method {IMIS_BI.FindMedicalServicesBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindPayersBI.GetPayerType" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000DE.html" LinkGroup="IMIS_BI">GetPayerType Method {IMIS_BI.FindPayersBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PayerBI.GetPayerType" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001A0.html" LinkGroup="IMIS_BI">GetPayerType Method {IMIS_BI.PayerBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.AddFundingBI.GetPayers" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000003.html" LinkGroup="IMIS_BI">GetPayers Method {IMIS_BI.AddFundingBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindPayersBI.GetPayers" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000DB.html" LinkGroup="IMIS_BI">GetPayers Method {IMIS_BI.FindPayersBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindPremiumBI.GetPayers" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000EF.html" LinkGroup="IMIS_BI">GetPayers Method {IMIS_BI.FindPremiumBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PremiumBI.GetPayers" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001BF.html" LinkGroup="IMIS_BI">GetPayers Method {IMIS_BI.PremiumBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportsBI.GetPayers" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000022C.html" LinkGroup="IMIS_BI">GetPayers Method {IMIS_BI.ReportsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportsBI.GetPaymentCategoryOverview" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000022B.html" LinkGroup="IMIS_BI">GetPaymentCategoryOverview Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportsBI.GetPendingInsurees" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000233.html" LinkGroup="IMIS_BI">GetPendingInsurees Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportsBI.GetPercentageReferral" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000231.html" LinkGroup="IMIS_BI">GetPercentageReferral Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ProcessBatchesBI.GetPeriod" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001EA.html" LinkGroup="IMIS_BI">GetPeriod Method {IMIS_BI.ProcessBatchesBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ProductBI.GetPeriod" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000202.html" LinkGroup="IMIS_BI">GetPeriod Method {IMIS_BI.ProductBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PolicyBI.GetPeriodForPolicy" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001B1.html" LinkGroup="IMIS_BI">GetPeriodForPolicy Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ProcessBatchesBI.GetPeriodNo" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001F8.html" LinkGroup="IMIS_BI">GetPeriodNo Method {IMIS_BI.ProcessBatchesBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportsBI.GetPeriodNo" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000225.html" LinkGroup="IMIS_BI">GetPeriodNo Method {IMIS_BI.ReportsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindInsureeBI.GetPhotoAssigned" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000C5.html" LinkGroup="IMIS_BI">GetPhotoAssigned Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindPolicyBI.GetPolicy" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000E2.html" LinkGroup="IMIS_BI">GetPolicy Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PremiumBI.GetPolicyOfflineValue" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001C4.html" LinkGroup="IMIS_BI">GetPolicyOfflineValue Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PolicyRenewalBI.GetPolicyPromptJournal" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001B6.html" LinkGroup="IMIS_BI">GetPolicyPromptJournal Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PremiumCollectionBI.GetPolicySold" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001CE.html" LinkGroup="IMIS_BI">GetPolicySold Method {IMIS_BI.PremiumCollectionBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportBI.GetPolicySold" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000211.html" LinkGroup="IMIS_BI">GetPolicySold Method {IMIS_BI.ReportBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportsBI.GetPolicySold" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000223.html" LinkGroup="IMIS_BI">GetPolicySold Method {IMIS_BI.ReportsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindPolicyBI.GetPolicyStatus" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000E9.html" LinkGroup="IMIS_BI">GetPolicyStatus Method {IMIS_BI.FindPolicyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PolicyRenewalBI.GetPolicyStatus" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001B5.html" LinkGroup="IMIS_BI">GetPolicyStatus Method {IMIS_BI.PolicyRenewalBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportsBI.GetPolicyStatus" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000234.html" LinkGroup="IMIS_BI">GetPolicyStatus Method {IMIS_BI.ReportsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindPolicyBI.GetPolicyType" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000EA.html" LinkGroup="IMIS_BI">GetPolicyType Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.OverviewFamilyBI.GetPolicyValue" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000198.html" LinkGroup="IMIS_BI">GetPolicyValue Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.OverviewFamilyBI.GetPolicybyFamily" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000190.html" LinkGroup="IMIS_BI">GetPolicybyFamily Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ChangeFamily.GetPoverty" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000000A.html" LinkGroup="IMIS_BI">GetPoverty Method {IMIS_BI.ChangeFamily}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindFamilyBI.GetPoverty" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000B0.html" LinkGroup="IMIS_BI">GetPoverty Method {IMIS_BI.FindFamilyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindPremiumBI.GetPremium" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000ED.html" LinkGroup="IMIS_BI">GetPremium Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PremiumCollectionBI.GetPremiumCollection" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001CD.html" LinkGroup="IMIS_BI">GetPremiumCollection Method {IMIS_BI.PremiumCollectionBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportBI.GetPremiumCollection" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000210.html" LinkGroup="IMIS_BI">GetPremiumCollection Method {IMIS_BI.ReportBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportsBI.GetPremiumCollection" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000222.html" LinkGroup="IMIS_BI">GetPremiumCollection Method {IMIS_BI.ReportsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PremiumBI.GetPremiumContribution" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001C2.html" LinkGroup="IMIS_BI">GetPremiumContribution Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PremiumDistributionBI.GetPremiumDistribution" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001D4.html" LinkGroup="IMIS_BI">GetPremiumDistribution Method {IMIS_BI.PremiumDistributionBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportBI.GetPremiumDistribution" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000212.html" LinkGroup="IMIS_BI">GetPremiumDistribution Method {IMIS_BI.ReportBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportsBI.GetPremiumDistribution" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000224.html" LinkGroup="IMIS_BI">GetPremiumDistribution Method {IMIS_BI.ReportsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.OverviewFamilyBI.GetPremiumsByPolicy" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000191.html" LinkGroup="IMIS_BI">GetPremiumsByPolicy Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportsBI.GetPreviousMatchingFundsReportDates" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000022D.html" LinkGroup="IMIS_BI">GetPreviousMatchingFundsReportDates Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindPricelistMIBI.GetPriceListMI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000F4.html" LinkGroup="IMIS_BI">GetPriceListMI Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindPriceListMSBI.GetPriceListMS" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000FB.html" LinkGroup="IMIS_BI">GetPriceListMS Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportsBI.GetPrimaryIndicators1" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000021B.html" LinkGroup="IMIS_BI">GetPrimaryIndicators1 Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportsBI.GetPrimaryIndicators2" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000021C.html" LinkGroup="IMIS_BI">GetPrimaryIndicators2 Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ProcessBatchesBI.GetProcessBatch" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001F5.html" LinkGroup="IMIS_BI">GetProcessBatch Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ProcessBatchesBI.GetProcessBatchWithClaims" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001F6.html" LinkGroup="IMIS_BI">GetProcessBatchWithClaims Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PolicyBI.GetProductAdministrationPeriod" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001AD.html" LinkGroup="IMIS_BI">GetProductAdministrationPeriod Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PolicyBI.GetProductDetails" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001AE.html" LinkGroup="IMIS_BI">GetProductDetails Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PolicyBI.GetProductForRenewal" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001B2.html" LinkGroup="IMIS_BI">GetProductForRenewal Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ProductBI.GetProductItems" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001FF.html" LinkGroup="IMIS_BI">GetProductItems Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportsBI.GetProductName_Account" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000237.html" LinkGroup="IMIS_BI">GetProductName_Account Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.AddFundingBI.GetProducts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000002.html" LinkGroup="IMIS_BI">GetProducts Method {IMIS_BI.AddFundingBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindPolicyBI.GetProducts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000E6.html" LinkGroup="IMIS_BI">GetProducts Method {IMIS_BI.FindPolicyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindProductsBI.GetProducts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000103.html" LinkGroup="IMIS_BI">GetProducts Method {IMIS_BI.FindProductsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PolicyBI.GetProducts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001A6.html" LinkGroup="IMIS_BI">GetProducts Method {IMIS_BI.PolicyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PremiumCollectionBI.GetProducts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001CC.html" LinkGroup="IMIS_BI">GetProducts Method {IMIS_BI.PremiumCollectionBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PremiumDistributionBI.GetProducts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001D3.html" LinkGroup="IMIS_BI">GetProducts Method {IMIS_BI.PremiumDistributionBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ProductBI.GetProducts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000203.html" LinkGroup="IMIS_BI">GetProducts Method {IMIS_BI.ProductBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportsBI.GetProducts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000215.html" LinkGroup="IMIS_BI">GetProducts Method {IMIS_BI.ReportsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ProcessBatchesBI.GetProductsStict" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001E9.html" LinkGroup="IMIS_BI">GetProductsStict Method {IMIS_BI.ProcessBatchesBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportsBI.GetProductsStict" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000216.html" LinkGroup="IMIS_BI">GetProductsStict Method {IMIS_BI.ReportsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FamilyBI.GetProfession" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000078.html" LinkGroup="IMIS_BI">GetProfession Method {IMIS_BI.FamilyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.InsureeBI.GetProfession" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000014B.html" LinkGroup="IMIS_BI">GetProfession Method {IMIS_BI.InsureeBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.AddFundingBI.GetRegions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000005.html" LinkGroup="IMIS_BI">GetRegions Method {IMIS_BI.AddFundingBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ChangeFamilyBI.GetRegions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000001A.html" LinkGroup="IMIS_BI">GetRegions Method {IMIS_BI.ChangeFamilyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimOverviewBI.GetRegions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000054.html" LinkGroup="IMIS_BI">GetRegions Method {IMIS_BI.ClaimOverviewBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FamilyBI.GetRegions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000085.html" LinkGroup="IMIS_BI">GetRegions Method {IMIS_BI.FamilyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FeedbackPromptBI.GetRegions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000008F.html" LinkGroup="IMIS_BI">GetRegions Method {IMIS_BI.FeedbackPromptBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindClaimsBI.GetRegions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000A8.html" LinkGroup="IMIS_BI">GetRegions Method {IMIS_BI.FindClaimsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindFamilyBI.GetRegions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000B3.html" LinkGroup="IMIS_BI">GetRegions Method {IMIS_BI.FindFamilyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindHealthFacilityBI.GetRegions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000BC.html" LinkGroup="IMIS_BI">GetRegions Method {IMIS_BI.FindHealthFacilityBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindInsureeBI.GetRegions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000C6.html" LinkGroup="IMIS_BI">GetRegions Method {IMIS_BI.FindInsureeBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindOfficersBI.GetRegions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000D9.html" LinkGroup="IMIS_BI">GetRegions Method {IMIS_BI.FindOfficersBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindPayersBI.GetRegions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000E0.html" LinkGroup="IMIS_BI">GetRegions Method {IMIS_BI.FindPayersBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindPolicyBI.GetRegions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000EB.html" LinkGroup="IMIS_BI">GetRegions Method {IMIS_BI.FindPolicyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindPremiumBI.GetRegions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000F2.html" LinkGroup="IMIS_BI">GetRegions Method {IMIS_BI.FindPremiumBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindPriceListMSBI.GetRegions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000101.html" LinkGroup="IMIS_BI">GetRegions Method {IMIS_BI.FindPriceListMSBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindPricelistMIBI.GetRegions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000F9.html" LinkGroup="IMIS_BI">GetRegions Method {IMIS_BI.FindPricelistMIBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindProductsBI.GetRegions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000107.html" LinkGroup="IMIS_BI">GetRegions Method {IMIS_BI.FindProductsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindUsersBI.GetRegions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000110.html" LinkGroup="IMIS_BI">GetRegions Method {IMIS_BI.FindUsersBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.HealthFacilityBI.GetRegions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000011D.html" LinkGroup="IMIS_BI">GetRegions Method {IMIS_BI.HealthFacilityBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.IMISExtractsBI.GetRegions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000013C.html" LinkGroup="IMIS_BI">GetRegions Method {IMIS_BI.IMISExtractsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.InsureeBI.GetRegions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000154.html" LinkGroup="IMIS_BI">GetRegions Method {IMIS_BI.InsureeBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.LocationsBI.GetRegions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000015F.html" LinkGroup="IMIS_BI">GetRegions Method {IMIS_BI.LocationsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.MoveLocationBI.GetRegions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000017D.html" LinkGroup="IMIS_BI">GetRegions Method {IMIS_BI.MoveLocationBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.OfficerBI.GetRegions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000018D.html" LinkGroup="IMIS_BI">GetRegions Method {IMIS_BI.OfficerBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PayerBI.GetRegions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001A1.html" LinkGroup="IMIS_BI">GetRegions Method {IMIS_BI.PayerBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PolicyRenewalBI.GetRegions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001BA.html" LinkGroup="IMIS_BI">GetRegions Method {IMIS_BI.PolicyRenewalBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PricelisMIBI.GetRegions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001DB.html" LinkGroup="IMIS_BI">GetRegions Method {IMIS_BI.PricelisMIBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PricelistMSBI.GetRegions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001E3.html" LinkGroup="IMIS_BI">GetRegions Method {IMIS_BI.PricelistMSBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ProcessBatchesBI.GetRegions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001F9.html" LinkGroup="IMIS_BI">GetRegions Method {IMIS_BI.ProcessBatchesBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ProductBI.GetRegions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000020C.html" LinkGroup="IMIS_BI">GetRegions Method {IMIS_BI.ProductBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportsBI.GetRegions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000023B.html" LinkGroup="IMIS_BI">GetRegions Method {IMIS_BI.ReportsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FamilyBI.GetRegionsAll" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000086.html" LinkGroup="IMIS_BI">GetRegionsAll Method {IMIS_BI.FamilyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.InsureeBI.GetRegionsAll" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000155.html" LinkGroup="IMIS_BI">GetRegionsAll Method {IMIS_BI.InsureeBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ProcessBatchesBI.GetRelIndexes" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001EB.html" LinkGroup="IMIS_BI">GetRelIndexes Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.InsureeBI.GetRelations" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000014A.html" LinkGroup="IMIS_BI">GetRelations Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportsBI.GetRenewals" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000239.html" LinkGroup="IMIS_BI">GetRenewals Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportsBI.GetReportTypes" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000220.html" LinkGroup="IMIS_BI">GetReportTypes Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimOverviewBI.GetReviewClaims" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000046.html" LinkGroup="IMIS_BI">GetReviewClaims Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimOverviewBI.GetReviewClaimsCount" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000047.html" LinkGroup="IMIS_BI">GetReviewClaimsCount Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimOverviewBI.GetReviewSelection" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000049.html" LinkGroup="IMIS_BI">GetReviewSelection Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimOverviewBI.GetReviewStatus" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000004C.html" LinkGroup="IMIS_BI">GetReviewStatus Method {IMIS_BI.ClaimOverviewBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindClaimsBI.GetReviewStatus" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000A2.html" LinkGroup="IMIS_BI">GetReviewStatus Method {IMIS_BI.FindClaimsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.HomeBI.GetRoles" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000128.html" LinkGroup="IMIS_BI">GetRoles Method {IMIS_BI.HomeBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.UserBI.GetRoles" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000246.html" LinkGroup="IMIS_BI">GetRoles Method {IMIS_BI.UserBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FeedbackPromptBI.GetSMSStatus" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000008D.html" LinkGroup="IMIS_BI">GetSMSStatus Method {IMIS_BI.FeedbackPromptBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PolicyRenewalBI.GetSMSStatus" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001B7.html" LinkGroup="IMIS_BI">GetSMSStatus Method {IMIS_BI.PolicyRenewalBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.MedicalServiceBI.GetServiceCategory" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000017B.html" LinkGroup="IMIS_BI">GetServiceCategory Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimBI.GetServiceCode" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000028.html" LinkGroup="IMIS_BI">GetServiceCode Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindMedicalServicesBI.GetServiceLevel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000D1.html" LinkGroup="IMIS_BI">GetServiceLevel Method {IMIS_BI.FindMedicalServicesBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.MedicalServiceBI.GetServiceLevel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000177.html" LinkGroup="IMIS_BI">GetServiceLevel Method {IMIS_BI.MedicalServiceBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindMedicalServicesBI.GetServiceType" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000CF.html" LinkGroup="IMIS_BI">GetServiceType Method {IMIS_BI.FindMedicalServicesBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.MedicalServiceBI.GetServiceType" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000017A.html" LinkGroup="IMIS_BI">GetServiceType Method {IMIS_BI.MedicalServiceBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportsBI.GetSorting" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000023A.html" LinkGroup="IMIS_BI">GetSorting Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportsBI.GetStatusofRegisters" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000228.html" LinkGroup="IMIS_BI">GetStatusofRegisters Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.HealthFacilityBI.GetSublevel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000011C.html" LinkGroup="IMIS_BI">GetSublevel Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ChangeFamilyBI.GetSubsidy" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000000F.html" LinkGroup="IMIS_BI">GetSubsidy Method {IMIS_BI.ChangeFamilyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FamilyBI.GetSubsidy" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000007A.html" LinkGroup="IMIS_BI">GetSubsidy Method {IMIS_BI.FamilyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindFamilyBI.GetSubsidy" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000B2.html" LinkGroup="IMIS_BI">GetSubsidy Method {IMIS_BI.FindFamilyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.OfficerBI.GetSubstitutionOfficer" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000018C.html" LinkGroup="IMIS_BI">GetSubstitutionOfficer Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.MasterBI.GetSuggestionItemCodes" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000016E.html" LinkGroup="IMIS_BI">GetSuggestionItemCodes Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.MasterBI.GetSuggestionServiceCodes" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000016D.html" LinkGroup="IMIS_BI">GetSuggestionServiceCodes Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FamilyBI.GetTypeOfIdentity" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000007C.html" LinkGroup="IMIS_BI">GetTypeOfIdentity Method {IMIS_BI.FamilyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.InsureeBI.GetTypeOfIdentity" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000014E.html" LinkGroup="IMIS_BI">GetTypeOfIdentity Method {IMIS_BI.InsureeBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindPremiumBI.GetTypeOfPayment" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000EE.html" LinkGroup="IMIS_BI">GetTypeOfPayment Method {IMIS_BI.FindPremiumBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PremiumBI.GetTypeOfPayment" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001C0.html" LinkGroup="IMIS_BI">GetTypeOfPayment Method {IMIS_BI.PremiumBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PremiumCollectionBI.GetTypeOfPayment" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001CB.html" LinkGroup="IMIS_BI">GetTypeOfPayment Method {IMIS_BI.PremiumCollectionBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportsBI.GetTypeOfPayment" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000221.html" LinkGroup="IMIS_BI">GetTypeOfPayment Method {IMIS_BI.ReportsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ChangeFamilyBI.GetTypes" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000017.html" LinkGroup="IMIS_BI">GetTypes Method {IMIS_BI.ChangeFamilyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FamilyBI.GetTypes" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000077.html" LinkGroup="IMIS_BI">GetTypes Method {IMIS_BI.FamilyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportsBI.GetUserActivityData" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000226.html" LinkGroup="IMIS_BI">GetUserActivityData Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.HomeBI.GetUserRegions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000012A.html" LinkGroup="IMIS_BI">GetUserRegions Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindUsersBI.GetUserRoles" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000010B.html" LinkGroup="IMIS_BI">GetUserRoles Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindUsersBI.GetUsers" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000109.html" LinkGroup="IMIS_BI">GetUsers Method {IMIS_BI.FindUsersBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportsBI.GetUsers" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000227.html" LinkGroup="IMIS_BI">GetUsers Method {IMIS_BI.ReportsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ChangeFamilyBI.GetVillages" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000013.html" LinkGroup="IMIS_BI">GetVillages Method {IMIS_BI.ChangeFamilyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ChangeFamily.GetVillages" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000009.html" LinkGroup="IMIS_BI">GetVillages Method {IMIS_BI.ChangeFamily}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FamilyBI.GetVillages" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000006C.html" LinkGroup="IMIS_BI">GetVillages Method {IMIS_BI.FamilyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FeedbackPromptBI.GetVillages" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000008B.html" LinkGroup="IMIS_BI">GetVillages Method {IMIS_BI.FeedbackPromptBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindFamilyBI.GetVillages" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000AD.html" LinkGroup="IMIS_BI">GetVillages Method {IMIS_BI.FindFamilyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindInsureeBI.GetVillages" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000C1.html" LinkGroup="IMIS_BI">GetVillages Method {IMIS_BI.FindInsureeBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindPolicyBI.GetVillages" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000E8.html" LinkGroup="IMIS_BI">GetVillages Method {IMIS_BI.FindPolicyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.HealthFacilityBI.GetVillages" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000011F.html" LinkGroup="IMIS_BI">GetVillages Method {IMIS_BI.HealthFacilityBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.InsureeBI.GetVillages" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000151.html" LinkGroup="IMIS_BI">GetVillages Method {IMIS_BI.InsureeBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.LocationsBI.GetVillages" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000015A.html" LinkGroup="IMIS_BI">GetVillages Method {IMIS_BI.LocationsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.MoveLocationBI.GetVillages" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000180.html" LinkGroup="IMIS_BI">GetVillages Method {IMIS_BI.MoveLocationBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.OfficerBI.GetVillages" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000018B.html" LinkGroup="IMIS_BI">GetVillages Method {IMIS_BI.OfficerBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportsBI.GetVillages" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000021A.html" LinkGroup="IMIS_BI">GetVillages Method {IMIS_BI.ReportsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimReviewBI.GetVisitTypeText" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000063.html" LinkGroup="IMIS_BI">GetVisitTypeText Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimBI.GetVisitTypes" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000038.html" LinkGroup="IMIS_BI">GetVisitTypes Method {IMIS_BI.ClaimBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimOverviewBI.GetVisitTypes" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000053.html" LinkGroup="IMIS_BI">GetVisitTypes Method {IMIS_BI.ClaimOverviewBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindClaimsBI.GetVisitTypes" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000A7.html" LinkGroup="IMIS_BI">GetVisitTypes Method {IMIS_BI.FindClaimsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ChangeFamilyBI.GetWards" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000012.html" LinkGroup="IMIS_BI">GetWards Method {IMIS_BI.ChangeFamilyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ChangeFamily.GetWards" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000008.html" LinkGroup="IMIS_BI">GetWards Method {IMIS_BI.ChangeFamily}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FamilyBI.GetWards" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000006B.html" LinkGroup="IMIS_BI">GetWards Method {IMIS_BI.FamilyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FeedbackPromptBI.GetWards" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000008A.html" LinkGroup="IMIS_BI">GetWards Method {IMIS_BI.FeedbackPromptBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindFamilyBI.GetWards" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000AC.html" LinkGroup="IMIS_BI">GetWards Method {IMIS_BI.FindFamilyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindInsureeBI.GetWards" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000C0.html" LinkGroup="IMIS_BI">GetWards Method {IMIS_BI.FindInsureeBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindPolicyBI.GetWards" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000E7.html" LinkGroup="IMIS_BI">GetWards Method {IMIS_BI.FindPolicyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.HealthFacilityBI.GetWards" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000011E.html" LinkGroup="IMIS_BI">GetWards Method {IMIS_BI.HealthFacilityBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.InsureeBI.GetWards" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000150.html" LinkGroup="IMIS_BI">GetWards Method {IMIS_BI.InsureeBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.LocationsBI.GetWards" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000159.html" LinkGroup="IMIS_BI">GetWards Method {IMIS_BI.LocationsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.MoveLocationBI.GetWards" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000017F.html" LinkGroup="IMIS_BI">GetWards Method {IMIS_BI.MoveLocationBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.OfficerBI.GetWards" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000018A.html" LinkGroup="IMIS_BI">GetWards Method {IMIS_BI.OfficerBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportsBI.GetWards" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000219.html" LinkGroup="IMIS_BI">GetWards Method {IMIS_BI.ReportsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PremiumDistributionBI.GetYears" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001D2.html" LinkGroup="IMIS_BI">GetYears Method {IMIS_BI.PremiumDistributionBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ProcessBatchesBI.GetYears" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001E7.html" LinkGroup="IMIS_BI">GetYears Method {IMIS_BI.ProcessBatchesBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportsBI.GetYears" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000021F.html" LinkGroup="IMIS_BI">GetYears Method {IMIS_BI.ReportsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ChangeFamilyBI.GetYesNO" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000000E.html" LinkGroup="IMIS_BI">GetYesNO Method {IMIS_BI.ChangeFamilyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FamilyBI.GetYesNO" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000006E.html" LinkGroup="IMIS_BI">GetYesNO Method {IMIS_BI.FamilyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.InsureeBI.GetYesNO" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000141.html" LinkGroup="IMIS_BI">GetYesNO Method {IMIS_BI.InsureeBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimFeedbackBI.GetYesNo" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000003C.html" LinkGroup="IMIS_BI">GetYesNo Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.HealthFacilityBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000113.html" LinkGroup="IMIS_BI">HealthFacilityBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.HomeBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000126.html" LinkGroup="IMIS_BI">HomeBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.IMISExtractsBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000012D.html" LinkGroup="IMIS_BI">IMISExtractsBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000254.html" LinkGroup="IMIS_BI">IMIS_BI Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI Reference" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000253.html" LinkGroup="IMIS_BI">IMIS_BI Reference</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.My" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000182.html" LinkGroup="IMIS_BI">IMIS_BI.My Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.IMIS_GenBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000012B.html" LinkGroup="IMIS_BI">IMIS_GenBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.IMISExtractsBI.ImportOffLineExtracts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000131.html" LinkGroup="IMIS_BI">ImportOffLineExtracts Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.IMISExtractsBI.ImportOffLinePhotos" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000135.html" LinkGroup="IMIS_BI">ImportOffLinePhotos Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.LoginBI.InsertLogTime" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000165.html" LinkGroup="IMIS_BI">InsertLogTime Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.InsureeBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000013D.html" LinkGroup="IMIS_BI">InsureeBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.InsureeBI.InsureeExists" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000148.html" LinkGroup="IMIS_BI">InsureeExists Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimReviewBI.IsClaimReviewStatusChanged" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000005F.html" LinkGroup="IMIS_BI">IsClaimReviewStatusChanged Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimBI.IsClaimStatusChanged" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000035.html" LinkGroup="IMIS_BI">IsClaimStatusChanged Method {IMIS_BI.ClaimBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindClaimsBI.IsClaimStatusChanged" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000A4.html" LinkGroup="IMIS_BI">IsClaimStatusChanged Method {IMIS_BI.FindClaimsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimReviewBI.IsClaimStatusChecked" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000060.html" LinkGroup="IMIS_BI">IsClaimStatusChecked Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimReviewBI.IsItSystemRejectedItem" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000005A.html" LinkGroup="IMIS_BI">IsItSystemRejectedItem Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimReviewBI.IsItSystemRejectedService" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000005B.html" LinkGroup="IMIS_BI">IsItSystemRejectedService Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.LocationsBI.IsLocCodeUnique" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000160.html" LinkGroup="IMIS_BI">IsLocCodeUnique Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PolicyBI.IsRenewalLate" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001AC.html" LinkGroup="IMIS_BI">IsRenewalLate Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.HealthFacilityBI.LoadCatchmentDistricts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000121.html" LinkGroup="IMIS_BI">LoadCatchmentDistricts Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.HealthFacilityBI.LoadCatchmentVillage" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000123.html" LinkGroup="IMIS_BI">LoadCatchmentVillage Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.HealthFacilityBI.LoadCatchmentWard" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000122.html" LinkGroup="IMIS_BI">LoadCatchmentWard Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.HealthFacilityBI.LoadCathmentRegions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000120.html" LinkGroup="IMIS_BI">LoadCathmentRegions Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimBI.LoadClaim" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000025.html" LinkGroup="IMIS_BI">LoadClaim Method {IMIS_BI.ClaimBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimFeedbackBI.LoadClaim" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000003E.html" LinkGroup="IMIS_BI">LoadClaim Method {IMIS_BI.ClaimFeedbackBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimReviewBI.LoadClaim" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000057.html" LinkGroup="IMIS_BI">LoadClaim Method {IMIS_BI.ClaimReviewBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimAdministratorBI.LoadClaimAdmin" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000022.html" LinkGroup="IMIS_BI">LoadClaimAdmin Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ChangeFamilyBI.LoadFamily" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000014.html" LinkGroup="IMIS_BI">LoadFamily Method {IMIS_BI.ChangeFamilyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FamilyBI.LoadFamily" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000068.html" LinkGroup="IMIS_BI">LoadFamily Method {IMIS_BI.FamilyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.HealthFacilityBI.LoadHF" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000118.html" LinkGroup="IMIS_BI">LoadHF Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.InsureeBI.LoadInsuree" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000013F.html" LinkGroup="IMIS_BI">LoadInsuree Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.MedicalItemBI.LoadItem" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000173.html" LinkGroup="IMIS_BI">LoadItem Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.MedicalServiceBI.LoadMedicalServices" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000179.html" LinkGroup="IMIS_BI">LoadMedicalServices Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.OfficerBI.LoadOfficer" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000189.html" LinkGroup="IMIS_BI">LoadOfficer Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PayerBI.LoadPayer" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000019F.html" LinkGroup="IMIS_BI">LoadPayer Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PolicyBI.LoadPolicy" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001A7.html" LinkGroup="IMIS_BI">LoadPolicy Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PolicyBI.LoadPolicyDedRem" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001A9.html" LinkGroup="IMIS_BI">LoadPolicyDedRem Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PremiumBI.LoadPremium" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001BD.html" LinkGroup="IMIS_BI">LoadPremium Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PricelisMIBI.LoadPriceListMI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001D8.html" LinkGroup="IMIS_BI">LoadPriceListMI Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PricelistMSBI.LoadPriceListMS" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001DF.html" LinkGroup="IMIS_BI">LoadPriceListMS Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ProductBI.LoadProduct" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000201.html" LinkGroup="IMIS_BI">LoadProduct Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ChangePasswordBI.LoadUsers" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000001C.html" LinkGroup="IMIS_BI">LoadUsers Method {IMIS_BI.ChangePasswordBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.HomeBI.LoadUsers" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000129.html" LinkGroup="IMIS_BI">LoadUsers Method {IMIS_BI.HomeBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.UserBI.LoadUsers" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000247.html" LinkGroup="IMIS_BI">LoadUsers Method {IMIS_BI.UserBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.LocationsBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000157.html" LinkGroup="IMIS_BI">LocationsBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.LoginBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000161.html" LinkGroup="IMIS_BI">LoginBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimOverviewBI.ManualSelectionUpdate" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000004F.html" LinkGroup="IMIS_BI">ManualSelectionUpdate Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.MasterBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000168.html" LinkGroup="IMIS_BI">MasterBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.MedicalItemBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000170.html" LinkGroup="IMIS_BI">MedicalItemBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.MedicalServiceBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000176.html" LinkGroup="IMIS_BI">MedicalServiceBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ChangeFamilyBI.MoveInsuree" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000000D.html" LinkGroup="IMIS_BI">MoveInsuree Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.MoveLocationBI.MoveLocation" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000181.html" LinkGroup="IMIS_BI">MoveLocation Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.MoveLocationBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000017C.html" LinkGroup="IMIS_BI">MoveLocationBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.My.MyWebExtension" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000183.html" LinkGroup="IMIS_BI">MyWebExtension Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.OfficerBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000185.html" LinkGroup="IMIS_BI">OfficerBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.OverviewFamilyBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000018E.html" LinkGroup="IMIS_BI">OverviewFamilyBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PayerBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000019B.html" LinkGroup="IMIS_BI">PayerBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PolicyBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001A2.html" LinkGroup="IMIS_BI">PolicyBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PolicyRenewalBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001B3.html" LinkGroup="IMIS_BI">PolicyRenewalBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PremiumBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001BC.html" LinkGroup="IMIS_BI">PremiumBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PremiumCollectionBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001C9.html" LinkGroup="IMIS_BI">PremiumCollectionBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PremiumDistributionBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001CF.html" LinkGroup="IMIS_BI">PremiumDistributionBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ProcessBatchesBI.PreviewAccounts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001F0.html" LinkGroup="IMIS_BI">PreviewAccounts Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PricelisMIBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001D5.html" LinkGroup="IMIS_BI">PricelisMIBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PricelistMSBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001DC.html" LinkGroup="IMIS_BI">PricelistMSBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ProcessBatchesBI.ProcessBatch" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001F3.html" LinkGroup="IMIS_BI">ProcessBatch Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ProcessBatchesBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001E4.html" LinkGroup="IMIS_BI">ProcessBatchesBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimOverviewBI.ProcessClaims" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000050.html" LinkGroup="IMIS_BI">ProcessClaims Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ProcessBatchesBI.ProcessRelativeIndex" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001E5.html" LinkGroup="IMIS_BI">ProcessRelativeIndex Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ProcessBatchesBI.ProcessRelativeIndexes" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001EE.html" LinkGroup="IMIS_BI">ProcessRelativeIndexes Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ProductBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001FA.html" LinkGroup="IMIS_BI">ProductBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000020F.html" LinkGroup="IMIS_BI">ReportBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportsBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000213.html" LinkGroup="IMIS_BI">ReportsBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.UtilitiesBI.RestoreDatabases" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000251.html" LinkGroup="IMIS_BI">RestoreDatabases Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimFeedbackBI.ReturnClaimStatus" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000040.html" LinkGroup="IMIS_BI">ReturnClaimStatus Method {IMIS_BI.ClaimFeedbackBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimReviewBI.ReturnClaimStatus" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000062.html" LinkGroup="IMIS_BI">ReturnClaimStatus Method {IMIS_BI.ClaimReviewBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimFeedbackBI.ReturnFeedbackStatus" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000003F.html" LinkGroup="IMIS_BI">ReturnFeedbackStatus Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.OverviewFamilyBI.ReturnPolicyStatus" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000019A.html" LinkGroup="IMIS_BI">ReturnPolicyStatus Method {IMIS_BI.OverviewFamilyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PolicyBI.ReturnPolicyStatus" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001AA.html" LinkGroup="IMIS_BI">ReturnPolicyStatus Method {IMIS_BI.PolicyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PremiumBI.ReturnPolicyStatus" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001C3.html" LinkGroup="IMIS_BI">ReturnPolicyStatus Method {IMIS_BI.PremiumBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimFeedbackBI.ReturnReviewStatus" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000041.html" LinkGroup="IMIS_BI">ReturnReviewStatus Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimOverviewBI.ReviewFeedbackSelection" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000004A.html" LinkGroup="IMIS_BI">ReviewFeedbackSelection Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimAdministratorBI.RunPageSecurity" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000001F.html" LinkGroup="IMIS_BI">RunPageSecurity Method {IMIS_BI.ClaimAdministratorBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindClaimAdministratorBI.RunPageSecurity" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000091.html" LinkGroup="IMIS_BI">RunPageSecurity Method {IMIS_BI.FindClaimAdministratorBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.UserBI.RunPageSecurity" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000024A.html" LinkGroup="IMIS_BI">RunPageSecurity Method {IMIS_BI.UserBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimBI.SaveClaim" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000002C.html" LinkGroup="IMIS_BI">SaveClaim Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimAdministratorBI.SaveClaimAdmin" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000023.html" LinkGroup="IMIS_BI">SaveClaimAdmin Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimBI.SaveClaimItems" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000032.html" LinkGroup="IMIS_BI">SaveClaimItems Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimReviewBI.SaveClaimItemsforReview" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000061.html" LinkGroup="IMIS_BI">SaveClaimItemsforReview Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimReviewBI.SaveClaimReview" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000005D.html" LinkGroup="IMIS_BI">SaveClaimReview Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimBI.SaveClaimServices" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000031.html" LinkGroup="IMIS_BI">SaveClaimServices Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimReviewBI.SaveClaimServicesforReview" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000005C.html" LinkGroup="IMIS_BI">SaveClaimServicesforReview Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.EmailSettingsBI.SaveEmailSettings" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000066.html" LinkGroup="IMIS_BI">SaveEmailSettings Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FamilyBI.SaveFamily" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000070.html" LinkGroup="IMIS_BI">SaveFamily Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimFeedbackBI.SaveFeedback" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000003D.html" LinkGroup="IMIS_BI">SaveFeedback Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.HealthFacilityBI.SaveHealthFacilities" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000119.html" LinkGroup="IMIS_BI">SaveHealthFacilities Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.InsureeBI.SaveInsuree" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000143.html" LinkGroup="IMIS_BI">SaveInsuree Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.LocationsBI.SaveLocation" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000015B.html" LinkGroup="IMIS_BI">SaveLocation Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.MedicalItemBI.SaveMedicalItem" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000174.html" LinkGroup="IMIS_BI">SaveMedicalItem Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.MedicalServiceBI.SaveMedicalService" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000178.html" LinkGroup="IMIS_BI">SaveMedicalService Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.OfficerBI.SaveOfficer" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000186.html" LinkGroup="IMIS_BI">SaveOfficer Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.LoginBI.SaveOfflineHFID" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000164.html" LinkGroup="IMIS_BI">SaveOfflineHFID Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PricelisMIBI.SavePLItemDetails" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001DA.html" LinkGroup="IMIS_BI">SavePLItemDetails Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PricelistMSBI.SavePLServicesDetail" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001E2.html" LinkGroup="IMIS_BI">SavePLServicesDetail Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PayerBI.SavePayer" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000019C.html" LinkGroup="IMIS_BI">SavePayer Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.OverviewFamilyBI.SavePolicy" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000199.html" LinkGroup="IMIS_BI">SavePolicy Method {IMIS_BI.OverviewFamilyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PolicyBI.SavePolicy" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001A8.html" LinkGroup="IMIS_BI">SavePolicy Method {IMIS_BI.PolicyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PremiumBI.SavePremium" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001C1.html" LinkGroup="IMIS_BI">SavePremium Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PricelisMIBI.SavePriceListMI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001D9.html" LinkGroup="IMIS_BI">SavePriceListMI Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PricelistMSBI.SavePriceListMS" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001E0.html" LinkGroup="IMIS_BI">SavePriceListMS Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindPriceListMSBI.SavePricelist" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000FD.html" LinkGroup="IMIS_BI">SavePricelist Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ProductBI.SaveProduct" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001FB.html" LinkGroup="IMIS_BI">SaveProduct Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ProductBI.SaveRelDistributionPercentageChanges" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000208.html" LinkGroup="IMIS_BI">SaveRelDistributionPercentageChanges Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.UserBI.SaveUser" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000244.html" LinkGroup="IMIS_BI">SaveUser Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.UserBI.SaveUserDistricts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000245.html" LinkGroup="IMIS_BI">SaveUserDistricts Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ForgotPasswordBI.SendPassword" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000112.html" LinkGroup="IMIS_BI">SendPassword Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.IMISExtractsBI.SubmitClaimFromXML" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000137.html" LinkGroup="IMIS_BI">SubmitClaimFromXML Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindClaimsBI.SubmitClaims" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000009F.html" LinkGroup="IMIS_BI">SubmitClaims Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.UserBI.TestTable" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000249.html" LinkGroup="IMIS_BI">TestTable Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PolicyRenewalBI.UpdatPolicyRenewal" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001B4.html" LinkGroup="IMIS_BI">UpdatPolicyRenewal Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ChangeFamilyBI.UpdateChangeFamily" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000015.html" LinkGroup="IMIS_BI">UpdateChangeFamily Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimReviewBI.UpdateClaimApprovedValue" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000005E.html" LinkGroup="IMIS_BI">UpdateClaimApprovedValue Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimBI.UpdateClaimTotalValue" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000002D.html" LinkGroup="IMIS_BI">UpdateClaimTotalValue Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.InsureeBI.UpdateImage" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000145.html" LinkGroup="IMIS_BI">UpdateImage Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.IMISExtractsBI.UpdateOfflineUserDistrict" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000013B.html" LinkGroup="IMIS_BI">UpdateOfflineUserDistrict Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ProductBI.UpdateProductItems" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000204.html" LinkGroup="IMIS_BI">UpdateProductItems Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ProductBI.UpdateProductServices" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000205.html" LinkGroup="IMIS_BI">UpdateProductServices Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.IMISExtractsBI.UploadEnrolments" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000013A.html" LinkGroup="IMIS_BI">UploadEnrolments Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.UploadICDBI.UploadICD" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000023F.html" LinkGroup="IMIS_BI">UploadICD Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.UploadICDBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000023E.html" LinkGroup="IMIS_BI">UploadICDBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.LocationsBI.UploadLocations" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000015D.html" LinkGroup="IMIS_BI">UploadLocations Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.UserBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000240.html" LinkGroup="IMIS_BI">UserBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.UtilitiesBI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000024E.html" LinkGroup="IMIS_BI">UtilitiesBI Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindClaimsBI.WriteToXml" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000A5.html" LinkGroup="IMIS_BI">WriteToXml Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindClaimsBI.ZipXMLs" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000A6.html" LinkGroup="IMIS_BI">ZipXMLs Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimBI.checkClaimCode" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000002E.html" LinkGroup="IMIS_BI">checkClaimCode Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimOverviewBI.checkRoles" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000044.html" LinkGroup="IMIS_BI">checkRoles Method {IMIS_BI.ClaimOverviewBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindClaimsBI.checkRoles" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000097.html" LinkGroup="IMIS_BI">checkRoles Method {IMIS_BI.FindClaimsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindFamilyBI.checkRoles" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000B1.html" LinkGroup="IMIS_BI">checkRoles Method {IMIS_BI.FindFamilyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindHealthFacilityBI.checkRoles" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000BB.html" LinkGroup="IMIS_BI">checkRoles Method {IMIS_BI.FindHealthFacilityBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindInsureeBI.checkRoles" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000C4.html" LinkGroup="IMIS_BI">checkRoles Method {IMIS_BI.FindInsureeBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindMedicalItemsBI.checkRoles" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000CC.html" LinkGroup="IMIS_BI">checkRoles Method {IMIS_BI.FindMedicalItemsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindMedicalServicesBI.checkRoles" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000D3.html" LinkGroup="IMIS_BI">checkRoles Method {IMIS_BI.FindMedicalServicesBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindOfficersBI.checkRoles" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000D8.html" LinkGroup="IMIS_BI">checkRoles Method {IMIS_BI.FindOfficersBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindPayersBI.checkRoles" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000DF.html" LinkGroup="IMIS_BI">checkRoles Method {IMIS_BI.FindPayersBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindPolicyBI.checkRoles" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000E5.html" LinkGroup="IMIS_BI">checkRoles Method {IMIS_BI.FindPolicyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindPremiumBI.checkRoles" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000F0.html" LinkGroup="IMIS_BI">checkRoles Method {IMIS_BI.FindPremiumBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindPriceListMSBI.checkRoles" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000100.html" LinkGroup="IMIS_BI">checkRoles Method {IMIS_BI.FindPriceListMSBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindPricelistMIBI.checkRoles" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000000F8.html" LinkGroup="IMIS_BI">checkRoles Method {IMIS_BI.FindPricelistMIBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindProductsBI.checkRoles" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000106.html" LinkGroup="IMIS_BI">checkRoles Method {IMIS_BI.FindProductsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FindUsersBI.checkRoles" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000010E.html" LinkGroup="IMIS_BI">checkRoles Method {IMIS_BI.FindUsersBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.IMISExtractsBI.checkRoles" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000138.html" LinkGroup="IMIS_BI">checkRoles Method {IMIS_BI.IMISExtractsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.IMIS_GenBI.checkRoles" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000012C.html" LinkGroup="IMIS_BI">checkRoles Method {IMIS_BI.IMIS_GenBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.LocationsBI.checkRoles" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000015E.html" LinkGroup="IMIS_BI">checkRoles Method {IMIS_BI.LocationsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.MasterBI.checkRoles" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000169.html" LinkGroup="IMIS_BI">checkRoles Method {IMIS_BI.MasterBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.OverviewFamilyBI.checkRoles" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000197.html" LinkGroup="IMIS_BI">checkRoles Method {IMIS_BI.OverviewFamilyBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportsBI.checkRoles" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000214.html" LinkGroup="IMIS_BI">checkRoles Method {IMIS_BI.ReportsBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportsBI.getCatchmentArea" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000023D.html" LinkGroup="IMIS_BI">getCatchmentArea Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimBI.getClaimServiceAndItems" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000026.html" LinkGroup="IMIS_BI">getClaimServiceAndItems Method {IMIS_BI.ClaimBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimReviewBI.getClaimServiceAndItems" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000059.html" LinkGroup="IMIS_BI">getClaimServiceAndItems Method {IMIS_BI.ClaimReviewBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.LoginBI.getControlsSettings" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000167.html" LinkGroup="IMIS_BI">getControlsSettings Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.UtilitiesBI.getDatabasePath" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000250.html" LinkGroup="IMIS_BI">getDatabasePath Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.EmailSettingsBI.getEmailSettings" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000065.html" LinkGroup="IMIS_BI">getEmailSettings Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PolicyBI.getEnrollmentOfficerMoved" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001B0.html" LinkGroup="IMIS_BI">getEnrollmentOfficerMoved Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimBI.getHFCodeAndName" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000036.html" LinkGroup="IMIS_BI">getHFCodeAndName Method {IMIS_BI.ClaimBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.LoginBI.getHFCodeAndName" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000166.html" LinkGroup="IMIS_BI">getHFCodeAndName Method {IMIS_BI.LoginBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.MasterBI.getHFCodeAndName" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000016B.html" LinkGroup="IMIS_BI">getHFCodeAndName Method {IMIS_BI.MasterBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ProductBI.getLevels" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000020D.html" LinkGroup="IMIS_BI">getLevels Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FamilyBI.getOfficerID" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000072.html" LinkGroup="IMIS_BI">getOfficerID Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PolicyBI.getPolicyValue" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001A4.html" LinkGroup="IMIS_BI">getPolicyValue Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ReportsBI.getProductCathmentDetails" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000023C.html" LinkGroup="IMIS_BI">getProductCathmentDetails Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PolicyBI.getProductDetailMin" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001AF.html" LinkGroup="IMIS_BI">getProductDetailMin Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.UserBI.getRegions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000024D.html" LinkGroup="IMIS_BI">getRegions Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.UserBI.getRoleId" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000024B.html" LinkGroup="IMIS_BI">getRoleId Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ProductBI.getSubLevels" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000020E.html" LinkGroup="IMIS_BI">getSubLevels Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PayerBI.getTypeOfPayment" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000019E.html" LinkGroup="IMIS_BI">getTypeOfPayment Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.HomeBI.getUsersDistricts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_0000000000000127.html" LinkGroup="IMIS_BI">getUsersDistricts Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PolicyBI.isExceededAdherents" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001AB.html" LinkGroup="IMIS_BI">isExceededAdherents Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PremiumBI.isUniqueReceipt" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001C8.html" LinkGroup="IMIS_BI">isUniqueReceipt Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.FeedbackPromptBI.sendSMS" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000008E.html" LinkGroup="IMIS_BI">sendSMS Method {IMIS_BI.FeedbackPromptBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.PolicyRenewalBI.sendSMS" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_00000000000001B9.html" LinkGroup="IMIS_BI">sendSMS Method {IMIS_BI.PolicyRenewalBI}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="IMIS_BI.ClaimBI.verifyCHFIDandReturnName" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:IMIS_BI.chm::/topic_000000000000002A.html" LinkGroup="IMIS_BI">verifyCHFIDandReturnName Method</LItem>
+      </Links>
+   </Context>
+   
+
+</DynamicHelp>
+

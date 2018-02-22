@@ -1,0 +1,25 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c41f662a-acca-4c08-97f7-041348088cda" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Overall Assessment</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Overall Assessment</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="8a32c0d2-2940-4e6d-88bf-ab2132aebd67">
+          <ID>Overall Assessment</ID>
+          <Name>Overall Assessment</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="fb97917d-badb-4b5f-b2b8-ba05cce6359b">
+            <DataSourceViewID>Overall Assessment</DataSourceViewID>
+            <TableID>dbo_tblFactOverAllAssessment</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ImisFeedbackPrompt", "ImisFeedbackPrompt\ImisFeedbackPrompt.vbproj", "{CA0B0A7A-7F6F-4A60-92A2-8CF1925DE531}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ImisFeedbackPromptController", "ImisFeedbackPromptController\ImisFeedbackPromptController.vbproj", "{4D5B8598-330F-4FD7-8E4D-2F1AFA813C2B}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ImisFeedbackPromptSetup", "ImisFeedbackPromptSetup\ImisFeedbackPromptSetup.vdproj", "{9EB07B61-1275-45EA-A61F-F4AB2F9B8080}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA0B0A7A-7F6F-4A60-92A2-8CF1925DE531}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA0B0A7A-7F6F-4A60-92A2-8CF1925DE531}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA0B0A7A-7F6F-4A60-92A2-8CF1925DE531}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA0B0A7A-7F6F-4A60-92A2-8CF1925DE531}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D5B8598-330F-4FD7-8E4D-2F1AFA813C2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D5B8598-330F-4FD7-8E4D-2F1AFA813C2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D5B8598-330F-4FD7-8E4D-2F1AFA813C2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D5B8598-330F-4FD7-8E4D-2F1AFA813C2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EB07B61-1275-45EA-A61F-F4AB2F9B8080}.Debug|Any CPU.ActiveCfg = Debug
+		{9EB07B61-1275-45EA-A61F-F4AB2F9B8080}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

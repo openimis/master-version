@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ImisBackup", "ImisBackup\ImisBackup.vbproj", "{706F19D0-A6F2-4096-83A0-3629DF62CB4C}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ImisBackupx64Setup", "ImisBackupx64Setup\ImisBackupx64Setup.vdproj", "{3E7D619F-6059-4C18-BC35-E91DC194F5E2}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ImisBackupController", "ImisBackupController\ImisBackupController.vbproj", "{E248E615-C5A7-4EB7-B3CD-1BAD6904A6E2}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ImisBackupx86Setup", "ImisBackupx86Setup\ImisBackupx86Setup.vdproj", "{51D5087C-5C2C-4813-B5EB-A7895B0DA52F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{706F19D0-A6F2-4096-83A0-3629DF62CB4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{706F19D0-A6F2-4096-83A0-3629DF62CB4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{706F19D0-A6F2-4096-83A0-3629DF62CB4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{706F19D0-A6F2-4096-83A0-3629DF62CB4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E7D619F-6059-4C18-BC35-E91DC194F5E2}.Debug|Any CPU.ActiveCfg = Debug
+		{3E7D619F-6059-4C18-BC35-E91DC194F5E2}.Release|Any CPU.ActiveCfg = Release
+		{E248E615-C5A7-4EB7-B3CD-1BAD6904A6E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E248E615-C5A7-4EB7-B3CD-1BAD6904A6E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E248E615-C5A7-4EB7-B3CD-1BAD6904A6E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E248E615-C5A7-4EB7-B3CD-1BAD6904A6E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51D5087C-5C2C-4813-B5EB-A7895B0DA52F}.Debug|Any CPU.ActiveCfg = Debug
+		{51D5087C-5C2C-4813-B5EB-A7895B0DA52F}.Debug|Any CPU.Build.0 = Debug
+		{51D5087C-5C2C-4813-B5EB-A7895B0DA52F}.Release|Any CPU.ActiveCfg = Release
+		{51D5087C-5C2C-4813-B5EB-A7895B0DA52F}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,65 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="9ff8732e-910e-4943-be72-e291aec2568e" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Feedback Details</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Feedbacks Sent</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="df0c921f-5968-4b80-b5e5-cb3dc91283b7">
+          <ID>Feedbacks Sent</ID>
+          <Name>Feedbacks Sent</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="c5d07c16-43b2-48f0-bd57-e5f8c9bf3394">
+            <DataSourceViewID>Feedbacks Sent</DataSourceViewID>
+            <TableID>dbo_tblFactNumberFeedbacksSent</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Feedbacks Responded</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="184093c9-b819-4814-8699-2c3ca38b6f48">
+          <ID>Feedbacks Responded</ID>
+          <Name>Feedbacks Responded</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="efd8a76a-dee7-44f2-9950-cd884d973d49">
+            <DataSourceViewID>Feedbacks Sent</DataSourceViewID>
+            <TableID>dbo_tblFactNumberFeedbacksResponded</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Overall Assessment</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="0f58b2c4-412e-472e-837e-4423e87014d9">
+          <ID>Overall Assessment</ID>
+          <Name>Overall Assessment</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="03ee4206-d8a8-4af0-ac5d-830c457585c7">
+            <DataSourceViewID>Feedbacks Sent</DataSourceViewID>
+            <TableID>dbo_tblFactOverAllAssessment</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

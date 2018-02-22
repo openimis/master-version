@@ -1,0 +1,36 @@
+C:\Users\VMW7-A\Desktop\AssignPhotoService\AssignPhotoService\bin\Debug\AssignPhotoService.exe.config
+C:\Users\VMW7-A\Desktop\AssignPhotoService\AssignPhotoService\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\VMW7-A\Desktop\AssignPhotoService\AssignPhotoService\obj\Debug\AssignPhotoService.Resources.resources
+C:\Users\VMW7-A\Desktop\AssignPhotoService\AssignPhotoService\obj\Debug\AssignPhotoService.ProjectInstaller.resources
+C:\Users\VMW7-A\Desktop\AssignPhotoService\AssignPhotoService\obj\Debug\AssignPhotoService.AssignPhotos.resources
+C:\Users\VMW7-A\Desktop\AssignPhotoService\AssignPhotoService\obj\Debug\AssignPhotoService.vbproj.GenerateResource.Cache
+C:\Users\VMW7-A\Desktop\AssignPhotoService\AssignPhotoService\bin\Debug\AssignPhotoService.exe
+C:\Users\VMW7-A\Desktop\AssignPhotoService\AssignPhotoService\bin\Debug\AssignPhotoService.pdb
+C:\Users\VMW7-A\Desktop\AssignPhotoService\AssignPhotoService\bin\Debug\AssignPhotoService.xml
+C:\Users\VMW7-A\Desktop\AssignPhotoService\AssignPhotoService\obj\Debug\AssignPhotoService.exe
+C:\Users\VMW7-A\Desktop\AssignPhotoService\AssignPhotoService\obj\Debug\AssignPhotoService.xml
+C:\Users\VMW7-A\Desktop\AssignPhotoService\AssignPhotoService\obj\Debug\AssignPhotoService.pdb
+C:\IMIS\AssignPhotoService 14 8 2013\AssignPhotoService\bin\Debug\AssignPhotoService.exe.config
+C:\IMIS\AssignPhotoService 14 8 2013\AssignPhotoService\obj\Debug\AssignPhotoService.exe
+C:\IMIS\AssignPhotoService 14 8 2013\AssignPhotoService\obj\Debug\AssignPhotoService.xml
+C:\IMIS\AssignPhotoService 14 8 2013\AssignPhotoService\obj\Debug\AssignPhotoService.pdb
+C:\IMIS\AssignPhotoService 14 8 2013\AssignPhotoService\bin\Debug\AssignPhotoService.exe
+C:\IMIS\AssignPhotoService 14 8 2013\AssignPhotoService\bin\Debug\AssignPhotoService.pdb
+C:\IMIS\AssignPhotoService 14 8 2013\AssignPhotoService\bin\Debug\AssignPhotoService.xml
+C:\IMIS\AssignPhotoService 14 8 2013\AssignPhotoService\obj\Debug\ResolveAssemblyReference.cache
+C:\IMIS\AssignPhotoService 14 8 2013\AssignPhotoService\obj\Debug\AssignPhotoService.Resources.resources
+C:\IMIS\AssignPhotoService 14 8 2013\AssignPhotoService\obj\Debug\AssignPhotoService.ProjectInstaller.resources
+C:\IMIS\AssignPhotoService 14 8 2013\AssignPhotoService\obj\Debug\AssignPhotoService.AssignPhotos.resources
+C:\IMIS\AssignPhotoService 14 8 2013\AssignPhotoService\obj\Debug\AssignPhotoService.vbproj.GenerateResource.Cache
+C:\Users\VMW7-A\Desktop\IMIS Project\Master\Windows Services\AssignPhotoService\AssignPhotoService\bin\Debug\AssignPhotoService.exe.config
+C:\Users\VMW7-A\Desktop\IMIS Project\Master\Windows Services\AssignPhotoService\AssignPhotoService\bin\Debug\AssignPhotoService.exe
+C:\Users\VMW7-A\Desktop\IMIS Project\Master\Windows Services\AssignPhotoService\AssignPhotoService\bin\Debug\AssignPhotoService.pdb
+C:\Users\VMW7-A\Desktop\IMIS Project\Master\Windows Services\AssignPhotoService\AssignPhotoService\bin\Debug\AssignPhotoService.xml
+C:\Users\VMW7-A\Desktop\IMIS Project\Master\Windows Services\AssignPhotoService\AssignPhotoService\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\VMW7-A\Desktop\IMIS Project\Master\Windows Services\AssignPhotoService\AssignPhotoService\obj\Debug\AssignPhotoService.Resources.resources
+C:\Users\VMW7-A\Desktop\IMIS Project\Master\Windows Services\AssignPhotoService\AssignPhotoService\obj\Debug\AssignPhotoService.ProjectInstaller.resources
+C:\Users\VMW7-A\Desktop\IMIS Project\Master\Windows Services\AssignPhotoService\AssignPhotoService\obj\Debug\AssignPhotoService.AssignPhotos.resources
+C:\Users\VMW7-A\Desktop\IMIS Project\Master\Windows Services\AssignPhotoService\AssignPhotoService\obj\Debug\AssignPhotoService.vbproj.GenerateResource.Cache
+C:\Users\VMW7-A\Desktop\IMIS Project\Master\Windows Services\AssignPhotoService\AssignPhotoService\obj\Debug\AssignPhotoService.exe
+C:\Users\VMW7-A\Desktop\IMIS Project\Master\Windows Services\AssignPhotoService\AssignPhotoService\obj\Debug\AssignPhotoService.xml
+C:\Users\VMW7-A\Desktop\IMIS Project\Master\Windows Services\AssignPhotoService\AssignPhotoService\obj\Debug\AssignPhotoService.pdb

@@ -1,0 +1,2306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="IMISModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="IMISModelStoreContainer">
+    <EntitySet Name="tblBatchRun" EntityType="IMISModel.Store.tblBatchRun" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblCeilingInterpretation" EntityType="IMISModel.Store.tblCeilingInterpretation" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblClaim" EntityType="IMISModel.Store.tblClaim" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblClaimAdmin" EntityType="IMISModel.Store.tblClaimAdmin" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblClaimDedRem" EntityType="IMISModel.Store.tblClaimDedRem" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblClaimItems" EntityType="IMISModel.Store.tblClaimItems" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblClaimServices" EntityType="IMISModel.Store.tblClaimServices" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblConfirmationTypes" EntityType="IMISModel.Store.tblConfirmationTypes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblControls" EntityType="IMISModel.Store.tblControls" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEducations" EntityType="IMISModel.Store.tblEducations" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEmailSettings" EntityType="IMISModel.Store.tblEmailSettings" store:Type="Tables" store:Schema="dbo" store:Name="tblEmailSettings">
+      <DefiningQuery>SELECT 
+      [tblEmailSettings].[EmailId] AS [EmailId], 
+      [tblEmailSettings].[EmailPassword] AS [EmailPassword], 
+      [tblEmailSettings].[SMTPHost] AS [SMTPHost], 
+      [tblEmailSettings].[Port] AS [Port], 
+      [tblEmailSettings].[EnableSSL] AS [EnableSSL]
+      FROM [dbo].[tblEmailSettings] AS [tblEmailSettings]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tblExtracts" EntityType="IMISModel.Store.tblExtracts" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblFamilies" EntityType="IMISModel.Store.tblFamilies" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblFamilyTypes" EntityType="IMISModel.Store.tblFamilyTypes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblFeedback" EntityType="IMISModel.Store.tblFeedback" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblFeedbackPrompt" EntityType="IMISModel.Store.tblFeedbackPrompt" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblFromPhone" EntityType="IMISModel.Store.tblFromPhone" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblHealthStatus" EntityType="IMISModel.Store.tblHealthStatus" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblHF" EntityType="IMISModel.Store.tblHF" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblHFCatchment" EntityType="IMISModel.Store.tblHFCatchment" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblHFSublevel" EntityType="IMISModel.Store.tblHFSublevel" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblICDCodes" EntityType="IMISModel.Store.tblICDCodes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblIdentificationTypes" EntityType="IMISModel.Store.tblIdentificationTypes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblIMISDefaults" EntityType="IMISModel.Store.tblIMISDefaults" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblInsuree" EntityType="IMISModel.Store.tblInsuree" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblInsureePolicy" EntityType="IMISModel.Store.tblInsureePolicy" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblItems" EntityType="IMISModel.Store.tblItems" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblLanguages" EntityType="IMISModel.Store.tblLanguages" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblLegalForms" EntityType="IMISModel.Store.tblLegalForms" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblLocations" EntityType="IMISModel.Store.tblLocations" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblLogins" EntityType="IMISModel.Store.tblLogins" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblOfficer" EntityType="IMISModel.Store.tblOfficer" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblOfficerVillages" EntityType="IMISModel.Store.tblOfficerVillages" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblPayer" EntityType="IMISModel.Store.tblPayer" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblPayerType" EntityType="IMISModel.Store.tblPayerType" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblPhotos" EntityType="IMISModel.Store.tblPhotos" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblPLItems" EntityType="IMISModel.Store.tblPLItems" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblPLItemsDetail" EntityType="IMISModel.Store.tblPLItemsDetail" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblPLServices" EntityType="IMISModel.Store.tblPLServices" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblPLServicesDetail" EntityType="IMISModel.Store.tblPLServicesDetail" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblPolicy" EntityType="IMISModel.Store.tblPolicy" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblPolicyRenewalDetails" EntityType="IMISModel.Store.tblPolicyRenewalDetails" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblPolicyRenewals" EntityType="IMISModel.Store.tblPolicyRenewals" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblPremium" EntityType="IMISModel.Store.tblPremium" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblProduct" EntityType="IMISModel.Store.tblProduct" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblProductItems" EntityType="IMISModel.Store.tblProductItems" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblProductServices" EntityType="IMISModel.Store.tblProductServices" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblProfessions" EntityType="IMISModel.Store.tblProfessions" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblRelations" EntityType="IMISModel.Store.tblRelations" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblRelDistr" EntityType="IMISModel.Store.tblRelDistr" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblRelIndex" EntityType="IMISModel.Store.tblRelIndex" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblReporting" EntityType="IMISModel.Store.tblReporting" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblServices" EntityType="IMISModel.Store.tblServices" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblSubmittedPhotos" EntityType="IMISModel.Store.tblSubmittedPhotos" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblUsers" EntityType="IMISModel.Store.tblUsers" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblUsersDistricts" EntityType="IMISModel.Store.tblUsersDistricts" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_tblBatchRun_tblLocations" Association="IMISModel.Store.FK_tblBatchRun_tblLocations">
+      <End Role="tblLocations" EntitySet="tblLocations" />
+      <End Role="tblBatchRun" EntitySet="tblBatchRun" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblClaim_tblBatchRun" Association="IMISModel.Store.FK_tblClaim_tblBatchRun">
+      <End Role="tblBatchRun" EntitySet="tblBatchRun" />
+      <End Role="tblClaim" EntitySet="tblClaim" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblClaim_tblClaimAdmin" Association="IMISModel.Store.FK_tblClaim_tblClaimAdmin">
+      <End Role="tblClaimAdmin" EntitySet="tblClaimAdmin" />
+      <End Role="tblClaim" EntitySet="tblClaim" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblClaim_tblFeedback-FeedbackID" Association="IMISModel.Store.FK_tblClaim_tblFeedback-FeedbackID">
+      <End Role="tblFeedback" EntitySet="tblFeedback" />
+      <End Role="tblClaim" EntitySet="tblClaim" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblClaim_tblHF" Association="IMISModel.Store.FK_tblClaim_tblHF">
+      <End Role="tblHF" EntitySet="tblHF" />
+      <End Role="tblClaim" EntitySet="tblClaim" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblClaim_tblICDCodes-ICDID" Association="IMISModel.Store.FK_tblClaim_tblICDCodes-ICDID">
+      <End Role="tblICDCodes" EntitySet="tblICDCodes" />
+      <End Role="tblClaim" EntitySet="tblClaim" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblClaim_tblInsuree-InsureeID" Association="IMISModel.Store.FK_tblClaim_tblInsuree-InsureeID">
+      <End Role="tblInsuree" EntitySet="tblInsuree" />
+      <End Role="tblClaim" EntitySet="tblClaim" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblClaim_tblUsers" Association="IMISModel.Store.FK_tblClaim_tblUsers">
+      <End Role="tblUsers" EntitySet="tblUsers" />
+      <End Role="tblClaim" EntitySet="tblClaim" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblClaimAdmin_tblHF" Association="IMISModel.Store.FK_tblClaimAdmin_tblHF">
+      <End Role="tblHF" EntitySet="tblHF" />
+      <End Role="tblClaimAdmin" EntitySet="tblClaimAdmin" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblClaimDedRem_tblInsuree" Association="IMISModel.Store.FK_tblClaimDedRem_tblInsuree">
+      <End Role="tblInsuree" EntitySet="tblInsuree" />
+      <End Role="tblClaimDedRem" EntitySet="tblClaimDedRem" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblClaimDedRem_tblPolicy" Association="IMISModel.Store.FK_tblClaimDedRem_tblPolicy">
+      <End Role="tblPolicy" EntitySet="tblPolicy" />
+      <End Role="tblClaimDedRem" EntitySet="tblClaimDedRem" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblClaimItems_tblClaim-ClaimID" Association="IMISModel.Store.FK_tblClaimItems_tblClaim-ClaimID">
+      <End Role="tblClaim" EntitySet="tblClaim" />
+      <End Role="tblClaimItems" EntitySet="tblClaimItems" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblClaimItems_tblItems-ItemID" Association="IMISModel.Store.FK_tblClaimItems_tblItems-ItemID">
+      <End Role="tblItems" EntitySet="tblItems" />
+      <End Role="tblClaimItems" EntitySet="tblClaimItems" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblClaimItems_tblProduct-ProdID" Association="IMISModel.Store.FK_tblClaimItems_tblProduct-ProdID">
+      <End Role="tblProduct" EntitySet="tblProduct" />
+      <End Role="tblClaimItems" EntitySet="tblClaimItems" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblClaimServices_tblClaim-ClaimID" Association="IMISModel.Store.FK_tblClaimServices_tblClaim-ClaimID">
+      <End Role="tblClaim" EntitySet="tblClaim" />
+      <End Role="tblClaimServices" EntitySet="tblClaimServices" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblClaimServices_tblProduct-ProdID" Association="IMISModel.Store.FK_tblClaimServices_tblProduct-ProdID">
+      <End Role="tblProduct" EntitySet="tblProduct" />
+      <End Role="tblClaimServices" EntitySet="tblClaimServices" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblClaimServices_tblServices-ServiceID" Association="IMISModel.Store.FK_tblClaimServices_tblServices-ServiceID">
+      <End Role="tblServices" EntitySet="tblServices" />
+      <End Role="tblClaimServices" EntitySet="tblClaimServices" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblConfirmationType_tblFamilies" Association="IMISModel.Store.FK_tblConfirmationType_tblFamilies">
+      <End Role="tblConfirmationTypes" EntitySet="tblConfirmationTypes" />
+      <End Role="tblFamilies" EntitySet="tblFamilies" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblEducations_tblInsuree" Association="IMISModel.Store.FK_tblEducations_tblInsuree">
+      <End Role="tblEducations" EntitySet="tblEducations" />
+      <End Role="tblInsuree" EntitySet="tblInsuree" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblFamilies_tblInsuree" Association="IMISModel.Store.FK_tblFamilies_tblInsuree">
+      <End Role="tblInsuree" EntitySet="tblInsuree" />
+      <End Role="tblFamilies" EntitySet="tblFamilies" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblFamilies_tblLocations" Association="IMISModel.Store.FK_tblFamilies_tblLocations">
+      <End Role="tblLocations" EntitySet="tblLocations" />
+      <End Role="tblFamilies" EntitySet="tblFamilies" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblFamilyTypes_tblFamilies" Association="IMISModel.Store.FK_tblFamilyTypes_tblFamilies">
+      <End Role="tblFamilyTypes" EntitySet="tblFamilyTypes" />
+      <End Role="tblFamilies" EntitySet="tblFamilies" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblFeedback_tblClaim-ClaimID" Association="IMISModel.Store.FK_tblFeedback_tblClaim-ClaimID">
+      <End Role="tblClaim" EntitySet="tblClaim" />
+      <End Role="tblFeedback" EntitySet="tblFeedback" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblHealthStatus_tblInsuree" Association="IMISModel.Store.FK_tblHealthStatus_tblInsuree">
+      <End Role="tblInsuree" EntitySet="tblInsuree" />
+      <End Role="tblHealthStatus" EntitySet="tblHealthStatus" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblHF_tblLocations" Association="IMISModel.Store.FK_tblHF_tblLocations">
+      <End Role="tblLocations" EntitySet="tblLocations" />
+      <End Role="tblHF" EntitySet="tblHF" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblHF_tblPLItems-PLItemID" Association="IMISModel.Store.FK_tblHF_tblPLItems-PLItemID">
+      <End Role="tblPLItems" EntitySet="tblPLItems" />
+      <End Role="tblHF" EntitySet="tblHF" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblHF_tblPLServices-PLService-ID" Association="IMISModel.Store.FK_tblHF_tblPLServices-PLService-ID">
+      <End Role="tblPLServices" EntitySet="tblPLServices" />
+      <End Role="tblHF" EntitySet="tblHF" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblHFCatchment_tbLHF" Association="IMISModel.Store.FK_tblHFCatchment_tbLHF">
+      <End Role="tblHF" EntitySet="tblHF" />
+      <End Role="tblHFCatchment" EntitySet="tblHFCatchment" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblHFCatchment_tblLocations" Association="IMISModel.Store.FK_tblHFCatchment_tblLocations">
+      <End Role="tblLocations" EntitySet="tblLocations" />
+      <End Role="tblHFCatchment" EntitySet="tblHFCatchment" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblHFSublevel_tblHF" Association="IMISModel.Store.FK_tblHFSublevel_tblHF">
+      <End Role="tblHFSublevel" EntitySet="tblHFSublevel" />
+      <End Role="tblHF" EntitySet="tblHF" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblIdentificationTypes_tblInsuree" Association="IMISModel.Store.FK_tblIdentificationTypes_tblInsuree">
+      <End Role="tblIdentificationTypes" EntitySet="tblIdentificationTypes" />
+      <End Role="tblInsuree" EntitySet="tblInsuree" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblInsuree_tblFamilies1-FamilyID" Association="IMISModel.Store.FK_tblInsuree_tblFamilies1-FamilyID">
+      <End Role="tblFamilies" EntitySet="tblFamilies" />
+      <End Role="tblInsuree" EntitySet="tblInsuree" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblInsuree_tblHF" Association="IMISModel.Store.FK_tblInsuree_tblHF">
+      <End Role="tblHF" EntitySet="tblHF" />
+      <End Role="tblInsuree" EntitySet="tblInsuree" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblInsuree_tblPhotos" Association="IMISModel.Store.FK_tblInsuree_tblPhotos">
+      <End Role="tblPhotos" EntitySet="tblPhotos" />
+      <End Role="tblInsuree" EntitySet="tblInsuree" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblInsureePolicy_tblInsuree" Association="IMISModel.Store.FK_tblInsureePolicy_tblInsuree">
+      <End Role="tblInsuree" EntitySet="tblInsuree" />
+      <End Role="tblInsureePolicy" EntitySet="tblInsureePolicy" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblInsureePolicy_tblPolicy" Association="IMISModel.Store.FK_tblInsureePolicy_tblPolicy">
+      <End Role="tblPolicy" EntitySet="tblPolicy" />
+      <End Role="tblInsureePolicy" EntitySet="tblInsureePolicy" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblLanguages_tblUsers" Association="IMISModel.Store.FK_tblLanguages_tblUsers">
+      <End Role="tblLanguages" EntitySet="tblLanguages" />
+      <End Role="tblUsers" EntitySet="tblUsers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblLegalForms_tblHF" Association="IMISModel.Store.FK_tblLegalForms_tblHF">
+      <End Role="tblLegalForms" EntitySet="tblLegalForms" />
+      <End Role="tblHF" EntitySet="tblHF" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblLogins_tblUsers" Association="IMISModel.Store.FK_tblLogins_tblUsers">
+      <End Role="tblUsers" EntitySet="tblUsers" />
+      <End Role="tblLogins" EntitySet="tblLogins" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblOfficer_tblLocations" Association="IMISModel.Store.FK_tblOfficer_tblLocations">
+      <End Role="tblLocations" EntitySet="tblLocations" />
+      <End Role="tblOfficer" EntitySet="tblOfficer" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblOfficer_tblOfficer" Association="IMISModel.Store.FK_tblOfficer_tblOfficer">
+      <End Role="tblOfficer" EntitySet="tblOfficer" />
+      <End Role="tblOfficer1" EntitySet="tblOfficer" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblOfficerVillages_tblLocations" Association="IMISModel.Store.FK_tblOfficerVillages_tblLocations">
+      <End Role="tblLocations" EntitySet="tblLocations" />
+      <End Role="tblOfficerVillages" EntitySet="tblOfficerVillages" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblOfficerVillages_tblOfficer" Association="IMISModel.Store.FK_tblOfficerVillages_tblOfficer">
+      <End Role="tblOfficer" EntitySet="tblOfficer" />
+      <End Role="tblOfficerVillages" EntitySet="tblOfficerVillages" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblPayer_tblLocations" Association="IMISModel.Store.FK_tblPayer_tblLocations">
+      <End Role="tblLocations" EntitySet="tblLocations" />
+      <End Role="tblPayer" EntitySet="tblPayer" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblPayer_tblPayerType" Association="IMISModel.Store.FK_tblPayer_tblPayerType">
+      <End Role="tblPayerType" EntitySet="tblPayerType" />
+      <End Role="tblPayer" EntitySet="tblPayer" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblPLItems_tblLocations" Association="IMISModel.Store.FK_tblPLItems_tblLocations">
+      <End Role="tblLocations" EntitySet="tblLocations" />
+      <End Role="tblPLItems" EntitySet="tblPLItems" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblPLItemsDetail_tblItems-ItemID" Association="IMISModel.Store.FK_tblPLItemsDetail_tblItems-ItemID">
+      <End Role="tblItems" EntitySet="tblItems" />
+      <End Role="tblPLItemsDetail" EntitySet="tblPLItemsDetail" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblPLItemsDetail_tblPLItems-PLItemID" Association="IMISModel.Store.FK_tblPLItemsDetail_tblPLItems-PLItemID">
+      <End Role="tblPLItems" EntitySet="tblPLItems" />
+      <End Role="tblPLItemsDetail" EntitySet="tblPLItemsDetail" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblPLServices_tblLocations" Association="IMISModel.Store.FK_tblPLServices_tblLocations">
+      <End Role="tblLocations" EntitySet="tblLocations" />
+      <End Role="tblPLServices" EntitySet="tblPLServices" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblPLServicesDetail_tblPLServices-PLServiceID" Association="IMISModel.Store.FK_tblPLServicesDetail_tblPLServices-PLServiceID">
+      <End Role="tblPLServices" EntitySet="tblPLServices" />
+      <End Role="tblPLServicesDetail" EntitySet="tblPLServicesDetail" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblPLServicesDetail_tblServices-ServiceID" Association="IMISModel.Store.FK_tblPLServicesDetail_tblServices-ServiceID">
+      <End Role="tblServices" EntitySet="tblServices" />
+      <End Role="tblPLServicesDetail" EntitySet="tblPLServicesDetail" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblPolicy_tblFamilies-FamilyID" Association="IMISModel.Store.FK_tblPolicy_tblFamilies-FamilyID">
+      <End Role="tblFamilies" EntitySet="tblFamilies" />
+      <End Role="tblPolicy" EntitySet="tblPolicy" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblPolicy_tblOfficer-OfficerID" Association="IMISModel.Store.FK_tblPolicy_tblOfficer-OfficerID">
+      <End Role="tblOfficer" EntitySet="tblOfficer" />
+      <End Role="tblPolicy" EntitySet="tblPolicy" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblPolicy_tblProduct-ProductID" Association="IMISModel.Store.FK_tblPolicy_tblProduct-ProductID">
+      <End Role="tblProduct" EntitySet="tblProduct" />
+      <End Role="tblPolicy" EntitySet="tblPolicy" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblPolicyRenewalDetails_tblInsuree" Association="IMISModel.Store.FK_tblPolicyRenewalDetails_tblInsuree">
+      <End Role="tblInsuree" EntitySet="tblInsuree" />
+      <End Role="tblPolicyRenewalDetails" EntitySet="tblPolicyRenewalDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblPolicyRenewalDetails_tblPolicyRenewals" Association="IMISModel.Store.FK_tblPolicyRenewalDetails_tblPolicyRenewals">
+      <End Role="tblPolicyRenewals" EntitySet="tblPolicyRenewals" />
+      <End Role="tblPolicyRenewalDetails" EntitySet="tblPolicyRenewalDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblPolicyRenewals_tblInsuree" Association="IMISModel.Store.FK_tblPolicyRenewals_tblInsuree">
+      <End Role="tblInsuree" EntitySet="tblInsuree" />
+      <End Role="tblPolicyRenewals" EntitySet="tblPolicyRenewals" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblPolicyRenewals_tblOfficer" Association="IMISModel.Store.FK_tblPolicyRenewals_tblOfficer">
+      <End Role="tblOfficer" EntitySet="tblOfficer" />
+      <End Role="tblPolicyRenewals" EntitySet="tblPolicyRenewals" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblPolicyRenewals_tblPolicy" Association="IMISModel.Store.FK_tblPolicyRenewals_tblPolicy">
+      <End Role="tblPolicy" EntitySet="tblPolicy" />
+      <End Role="tblPolicyRenewals" EntitySet="tblPolicyRenewals" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblPolicyRenewals_tblProduct" Association="IMISModel.Store.FK_tblPolicyRenewals_tblProduct">
+      <End Role="tblProduct" EntitySet="tblProduct" />
+      <End Role="tblPolicyRenewals" EntitySet="tblPolicyRenewals" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblPremium_tblPayer" Association="IMISModel.Store.FK_tblPremium_tblPayer">
+      <End Role="tblPayer" EntitySet="tblPayer" />
+      <End Role="tblPremium" EntitySet="tblPremium" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblPremium_tblPolicy" Association="IMISModel.Store.FK_tblPremium_tblPolicy">
+      <End Role="tblPolicy" EntitySet="tblPolicy" />
+      <End Role="tblPremium" EntitySet="tblPremium" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblProduct_tblCeilingInterpretation" Association="IMISModel.Store.FK_tblProduct_tblCeilingInterpretation">
+      <End Role="tblCeilingInterpretation" EntitySet="tblCeilingInterpretation" />
+      <End Role="tblProduct" EntitySet="tblProduct" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblProduct_tblLocation" Association="IMISModel.Store.FK_tblProduct_tblLocation">
+      <End Role="tblLocations" EntitySet="tblLocations" />
+      <End Role="tblProduct" EntitySet="tblProduct" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblProduct_tblProduct" Association="IMISModel.Store.FK_tblProduct_tblProduct">
+      <End Role="tblProduct" EntitySet="tblProduct" />
+      <End Role="tblProduct1" EntitySet="tblProduct" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblProductItems_tblItems-ItemID" Association="IMISModel.Store.FK_tblProductItems_tblItems-ItemID">
+      <End Role="tblItems" EntitySet="tblItems" />
+      <End Role="tblProductItems" EntitySet="tblProductItems" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblProductItems_tblProduct-ProductID" Association="IMISModel.Store.FK_tblProductItems_tblProduct-ProductID">
+      <End Role="tblProduct" EntitySet="tblProduct" />
+      <End Role="tblProductItems" EntitySet="tblProductItems" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblProductServices_tblProduct-ProductID" Association="IMISModel.Store.FK_tblProductServices_tblProduct-ProductID">
+      <End Role="tblProduct" EntitySet="tblProduct" />
+      <End Role="tblProductServices" EntitySet="tblProductServices" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblProductServices_tblServices-ServiceID" Association="IMISModel.Store.FK_tblProductServices_tblServices-ServiceID">
+      <End Role="tblServices" EntitySet="tblServices" />
+      <End Role="tblProductServices" EntitySet="tblProductServices" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblProfessions_tblInsuree" Association="IMISModel.Store.FK_tblProfessions_tblInsuree">
+      <End Role="tblProfessions" EntitySet="tblProfessions" />
+      <End Role="tblInsuree" EntitySet="tblInsuree" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblRelations_tblInsuree" Association="IMISModel.Store.FK_tblRelations_tblInsuree">
+      <End Role="tblRelations" EntitySet="tblRelations" />
+      <End Role="tblInsuree" EntitySet="tblInsuree" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblRelDistr_tblProduct" Association="IMISModel.Store.FK_tblRelDistr_tblProduct">
+      <End Role="tblProduct" EntitySet="tblProduct" />
+      <End Role="tblRelDistr" EntitySet="tblRelDistr" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblRelIndex_tblProduct" Association="IMISModel.Store.FK_tblRelIndex_tblProduct">
+      <End Role="tblProduct" EntitySet="tblProduct" />
+      <End Role="tblRelIndex" EntitySet="tblRelIndex" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblUsersDistricts_tblLocations" Association="IMISModel.Store.FK_tblUsersDistricts_tblLocations">
+      <End Role="tblLocations" EntitySet="tblLocations" />
+      <End Role="tblUsersDistricts" EntitySet="tblUsersDistricts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblUsersDistricts_tblUsers" Association="IMISModel.Store.FK_tblUsersDistricts_tblUsers">
+      <End Role="tblUsers" EntitySet="tblUsers" />
+      <End Role="tblUsersDistricts" EntitySet="tblUsersDistricts" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="tblBatchRun">
+    <Key>
+      <PropertyRef Name="RunID" />
+    </Key>
+    <Property Name="RunID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="LocationId" Type="int" />
+    <Property Name="RunDate" Type="datetime" Nullable="false" />
+    <Property Name="ValidityFrom" Type="datetime" Nullable="false" />
+    <Property Name="ValidityTo" Type="datetime" />
+    <Property Name="LegacyID" Type="int" />
+    <Property Name="AuditUserID" Type="int" Nullable="false" />
+    <Property Name="RunYear" Type="int" Nullable="false" />
+    <Property Name="RunMonth" Type="tinyint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblCeilingInterpretation">
+    <Key>
+      <PropertyRef Name="CeilingIntCode" />
+    </Key>
+    <Property Name="CeilingIntCode" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="CeilingIntDesc" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="AltLanguage" Type="nvarchar" MaxLength="100" />
+    <Property Name="SortOrder" Type="int" />
+  </EntityType>
+  <EntityType Name="tblClaim">
+    <Key>
+      <PropertyRef Name="ClaimID" />
+    </Key>
+    <Property Name="ClaimID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="InsureeID" Type="int" Nullable="false" />
+    <Property Name="ClaimCode" Type="nvarchar" Nullable="false" MaxLength="8" />
+    <Property Name="DateFrom" Type="smalldatetime" Nullable="false" />
+    <Property Name="DateTo" Type="smalldatetime" />
+    <Property Name="ICDID" Type="int" Nullable="false" />
+    <Property Name="ClaimStatus" Type="tinyint" Nullable="false" />
+    <Property Name="Adjuster" Type="int" />
+    <Property Name="Adjustment" Type="ntext" />
+    <Property Name="Claimed" Type="decimal" Scale="2" />
+    <Property Name="Approved" Type="decimal" Scale="2" />
+    <Property Name="Reinsured" Type="decimal" Scale="2" />
+    <Property Name="Valuated" Type="decimal" Scale="2" />
+    <Property Name="DateClaimed" Type="date" Nullable="false" />
+    <Property Name="DateProcessed" Type="smalldatetime" />
+    <Property Name="Feedback" Type="bit" Nullable="false" />
+    <Property Name="FeedbackID" Type="int" />
+    <Property Name="Explanation" Type="ntext" />
+    <Property Name="FeedbackStatus" Type="tinyint" />
+    <Property Name="ReviewStatus" Type="tinyint" />
+    <Property Name="ApprovalStatus" Type="tinyint" />
+    <Property Name="RejectionReason" Type="tinyint" />
+    <Property Name="ValidityFrom" Type="datetime" Nullable="false" />
+    <Property Name="ValidityTo" Type="datetime" />
+    <Property Name="LegacyID" Type="int" />
+    <Property Name="AuditUserID" Type="int" Nullable="false" />
+    <Property Name="ValidityFromReview" Type="datetime" />
+    <Property Name="ValidityToReview" Type="datetime" />
+    <Property Name="AuditUserIDReview" Type="int" />
+    <Property Name="RowID" Type="timestamp" StoreGeneratedPattern="Computed" />
+    <Property Name="HFID" Type="int" Nullable="false" />
+    <Property Name="RunID" Type="int" />
+    <Property Name="AuditUserIDSubmit" Type="int" />
+    <Property Name="AuditUserIDProcess" Type="int" />
+    <Property Name="SubmitStamp" Type="datetime" />
+    <Property Name="ProcessStamp" Type="datetime" />
+    <Property Name="Remunerated" Type="decimal" Scale="2" />
+    <Property Name="GuaranteeId" Type="nvarchar" MaxLength="50" />
+    <Property Name="ClaimAdminId" Type="int" />
+    <Property Name="ICDID1" Type="int" />
+    <Property Name="ICDID2" Type="int" />
+    <Property Name="ICDID3" Type="int" />
+    <Property Name="ICDID4" Type="int" />
+    <Property Name="VisitType" Type="char" MaxLength="1" />
+    <Property Name="ClaimCategory" Type="char" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="tblClaimAdmin">
+    <Key>
+      <PropertyRef Name="ClaimAdminId" />
+    </Key>
+    <Property Name="ClaimAdminId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ClaimAdminCode" Type="nvarchar" MaxLength="8" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="100" />
+    <Property Name="OtherNames" Type="nvarchar" MaxLength="100" />
+    <Property Name="DOB" Type="date" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="50" />
+    <Property Name="HFId" Type="int" />
+    <Property Name="ValidityFrom" Type="datetime" />
+    <Property Name="ValidityTo" Type="datetime" />
+    <Property Name="LegacyId" Type="int" />
+    <Property Name="AuditUserId" Type="int" />
+    <Property Name="RowId" Type="timestamp" StoreGeneratedPattern="Computed" />
+    <Property Name="EmailId" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="tblClaimDedRem">
+    <Key>
+      <PropertyRef Name="ExpenditureID" />
+    </Key>
+    <Property Name="ExpenditureID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PolicyID" Type="int" Nullable="false" />
+    <Property Name="InsureeID" Type="int" Nullable="false" />
+    <Property Name="ClaimID" Type="int" Nullable="false" />
+    <Property Name="DedG" Type="decimal" Scale="2" />
+    <Property Name="DedOP" Type="decimal" Scale="2" />
+    <Property Name="DedIP" Type="decimal" Scale="2" />
+    <Property Name="RemG" Type="decimal" Scale="2" />
+    <Property Name="RemIP" Type="decimal" Scale="2" />
+    <Property Name="RemOP" Type="decimal" Scale="2" />
+    <Property Name="RemConsult" Type="decimal" Scale="2" />
+    <Property Name="RemSurgery" Type="decimal" Scale="2" />
+    <Property Name="RemDelivery" Type="decimal" Scale="2" />
+    <Property Name="RemHospitalization" Type="decimal" Scale="2" />
+    <Property Name="ValidityFrom" Type="datetime" Nullable="false" />
+    <Property Name="ValidityTo" Type="datetime" />
+    <Property Name="LegacyID" Type="int" />
+    <Property Name="AuditUserID" Type="int" Nullable="false" />
+    <Property Name="RemAntenatal" Type="decimal" Scale="2" />
+  </EntityType>
+  <EntityType Name="tblClaimItems">
+    <Key>
+      <PropertyRef Name="ClaimItemID" />
+    </Key>
+    <Property Name="ClaimItemID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ClaimID" Type="int" Nullable="false" />
+    <Property Name="ItemID" Type="int" Nullable="false" />
+    <Property Name="ProdID" Type="int" />
+    <Property Name="ClaimItemStatus" Type="tinyint" Nullable="false" />
+    <Property Name="Availability" Type="bit" Nullable="false" />
+    <Property Name="QtyProvided" Type="decimal" Nullable="false" Scale="2" />
+    <Property Name="QtyApproved" Type="decimal" Scale="2" />
+    <Property Name="PriceAsked" Type="decimal" Nullable="false" Scale="2" />
+    <Property Name="PriceAdjusted" Type="decimal" Scale="2" />
+    <Property Name="PriceApproved" Type="decimal" Scale="2" />
+    <Property Name="PriceValuated" Type="decimal" Scale="2" />
+    <Property Name="Explanation" Type="ntext" />
+    <Property Name="Justification" Type="ntext" />
+    <Property Name="RejectionReason" Type="smallint" />
+    <Property Name="ValidityFrom" Type="datetime" Nullable="false" />
+    <Property Name="ValidityTo" Type="datetime" />
+    <Property Name="LegacyID" Type="int" />
+    <Property Name="AuditUserID" Type="int" Nullable="false" />
+    <Property Name="ValidityFromReview" Type="datetime" />
+    <Property Name="ValidityToReview" Type="datetime" />
+    <Property Name="AuditUserIDReview" Type="int" />
+    <Property Name="LimitationValue" Type="decimal" Scale="2" />
+    <Property Name="Limitation" Type="char" MaxLength="1" />
+    <Property Name="PolicyID" Type="int" />
+    <Property Name="RemuneratedAmount" Type="decimal" Scale="2" />
+    <Property Name="DeductableAmount" Type="decimal" Scale="2" />
+    <Property Name="ExceedCeilingAmount" Type="decimal" Scale="2" />
+    <Property Name="PriceOrigin" Type="char" MaxLength="1" />
+    <Property Name="ExceedCeilingAmountCategory" Type="decimal" Scale="2" />
+  </EntityType>
+  <EntityType Name="tblClaimServices">
+    <Key>
+      <PropertyRef Name="ClaimServiceID" />
+    </Key>
+    <Property Name="ClaimServiceID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ClaimID" Type="int" Nullable="false" />
+    <Property Name="ServiceID" Type="int" Nullable="false" />
+    <Property Name="ProdID" Type="int" />
+    <Property Name="ClaimServiceStatus" Type="tinyint" Nullable="false" />
+    <Property Name="QtyProvided" Type="decimal" Nullable="false" Scale="2" />
+    <Property Name="QtyApproved" Type="decimal" Scale="2" />
+    <Property Name="PriceAsked" Type="decimal" Nullable="false" Scale="2" />
+    <Property Name="PriceAdjusted" Type="decimal" Scale="2" />
+    <Property Name="PriceApproved" Type="decimal" Scale="2" />
+    <Property Name="PriceValuated" Type="decimal" Scale="2" />
+    <Property Name="Explanation" Type="ntext" />
+    <Property Name="Justification" Type="ntext" />
+    <Property Name="RejectionReason" Type="smallint" />
+    <Property Name="ValidityFrom" Type="datetime" Nullable="false" />
+    <Property Name="ValidityTo" Type="datetime" />
+    <Property Name="LegacyID" Type="int" />
+    <Property Name="AuditUserID" Type="int" Nullable="false" />
+    <Property Name="ValidityFromReview" Type="datetime" />
+    <Property Name="ValidityToReview" Type="datetime" />
+    <Property Name="AuditUserIDReview" Type="int" />
+    <Property Name="LimitationValue" Type="decimal" Scale="2" />
+    <Property Name="Limitation" Type="char" MaxLength="1" />
+    <Property Name="PolicyID" Type="int" />
+    <Property Name="RemuneratedAmount" Type="decimal" Scale="2" />
+    <Property Name="DeductableAmount" Type="decimal" Scale="2" />
+    <Property Name="ExceedCeilingAmount" Type="decimal" Scale="2" />
+    <Property Name="PriceOrigin" Type="char" MaxLength="1" />
+    <Property Name="ExceedCeilingAmountCategory" Type="decimal" Scale="2" />
+  </EntityType>
+  <EntityType Name="tblConfirmationTypes">
+    <Key>
+      <PropertyRef Name="ConfirmationTypeCode" />
+    </Key>
+    <Property Name="ConfirmationTypeCode" Type="nvarchar" Nullable="false" MaxLength="3" />
+    <Property Name="ConfirmationType" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="SortOrder" Type="int" />
+    <Property Name="AltLanguage" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblControls">
+    <Key>
+      <PropertyRef Name="FieldName" />
+    </Key>
+    <Property Name="FieldName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Adjustibility" Type="nvarchar" Nullable="false" MaxLength="1" />
+    <Property Name="Usage" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="tblEducations">
+    <Key>
+      <PropertyRef Name="EducationId" />
+    </Key>
+    <Property Name="EducationId" Type="smallint" Nullable="false" />
+    <Property Name="Education" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="SortOrder" Type="int" />
+    <Property Name="AltLanguage" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'IMIS.dbo.tblEmailSettings' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="tblEmailSettings">
+    <Key>
+      <PropertyRef Name="EmailId" />
+      <PropertyRef Name="EmailPassword" />
+      <PropertyRef Name="SMTPHost" />
+      <PropertyRef Name="Port" />
+      <PropertyRef Name="EnableSSL" />
+    </Key>
+    <Property Name="EmailId" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="EmailPassword" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="SMTPHost" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="Port" Type="int" Nullable="false" />
+    <Property Name="EnableSSL" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblExtracts">
+    <Key>
+      <PropertyRef Name="ExtractID" />
+    </Key>
+    <Property Name="ExtractID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ExtractDirection" Type="tinyint" Nullable="false" />
+    <Property Name="ExtractType" Type="tinyint" Nullable="false" />
+    <Property Name="ExtractSequence" Type="int" Nullable="false" />
+    <Property Name="ExtractDate" Type="datetime" Nullable="false" />
+    <Property Name="ExtractFileName" Type="nvarchar" MaxLength="255" />
+    <Property Name="ExtractFolder" Type="nvarchar" MaxLength="255" />
+    <Property Name="LocationId" Type="int" Nullable="false" />
+    <Property Name="HFID" Type="int" />
+    <Property Name="AppVersionBackend" Type="decimal" Nullable="false" Precision="3" Scale="1" />
+    <Property Name="ValidityFrom" Type="datetime" Nullable="false" />
+    <Property Name="ValidityTo" Type="datetime" />
+    <Property Name="LegacyID" Type="int" />
+    <Property Name="AuditUserID" Type="int" Nullable="false" />
+    <Property Name="RowID" Type="bigint" />
+  </EntityType>
+  <EntityType Name="tblFamilies">
+    <Key>
+      <PropertyRef Name="FamilyID" />
+    </Key>
+    <Property Name="FamilyID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="InsureeID" Type="int" Nullable="false" />
+    <Property Name="LocationId" Type="int" Nullable="false" />
+    <Property Name="Poverty" Type="bit" />
+    <Property Name="ValidityFrom" Type="datetime" Nullable="false" />
+    <Property Name="ValidityTo" Type="datetime" />
+    <Property Name="LegacyID" Type="int" />
+    <Property Name="AuditUserID" Type="int" Nullable="false" />
+    <Property Name="RowID" Type="timestamp" StoreGeneratedPattern="Computed" />
+    <Property Name="FamilyType" Type="nvarchar" MaxLength="2" />
+    <Property Name="FamilyAddress" Type="nvarchar" MaxLength="200" />
+    <Property Name="isOffline" Type="bit" />
+    <Property Name="Ethnicity" Type="nvarchar" MaxLength="1" />
+    <Property Name="ConfirmationNo" Type="nvarchar" MaxLength="12" />
+    <Property Name="ConfirmationType" Type="nvarchar" MaxLength="3" />
+  </EntityType>
+  <EntityType Name="tblFamilyTypes">
+    <Key>
+      <PropertyRef Name="FamilyTypeCode" />
+    </Key>
+    <Property Name="FamilyTypeCode" Type="nvarchar" Nullable="false" MaxLength="2" />
+    <Property Name="FamilyType" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="SortOrder" Type="int" />
+    <Property Name="AltLanguage" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblFeedback">
+    <Key>
+      <PropertyRef Name="FeedbackID" />
+    </Key>
+    <Property Name="FeedbackID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ClaimID" Type="int" Nullable="false" />
+    <Property Name="CareRendered" Type="bit" />
+    <Property Name="PaymentAsked" Type="bit" />
+    <Property Name="DrugPrescribed" Type="bit" />
+    <Property Name="DrugReceived" Type="bit" />
+    <Property Name="Asessment" Type="tinyint" />
+    <Property Name="CHFOfficerCode" Type="int" />
+    <Property Name="FeedbackDate" Type="datetime" />
+    <Property Name="ValidityFrom" Type="datetime" Nullable="false" />
+    <Property Name="ValidityTo" Type="datetime" />
+    <Property Name="LegacyID" Type="int" />
+    <Property Name="AuditUserID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblFeedbackPrompt">
+    <Key>
+      <PropertyRef Name="FeedbackPromptID" />
+    </Key>
+    <Property Name="FeedbackPromptID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="FeedbackPromptDate" Type="date" Nullable="false" />
+    <Property Name="ClaimID" Type="int" />
+    <Property Name="OfficerID" Type="int" />
+    <Property Name="PhoneNumber" Type="nvarchar" MaxLength="25" />
+    <Property Name="SMSStatus" Type="tinyint" />
+    <Property Name="ValidityFrom" Type="datetime" />
+    <Property Name="ValidityTo" Type="datetime" />
+    <Property Name="LegacyID" Type="int" />
+    <Property Name="AuditUserID" Type="int" />
+  </EntityType>
+  <EntityType Name="tblFromPhone">
+    <Key>
+      <PropertyRef Name="FromPhoneId" />
+    </Key>
+    <Property Name="FromPhoneId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="DocType" Type="nvarchar" Nullable="false" MaxLength="3" />
+    <Property Name="DocName" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="DocStatus" Type="nvarchar" MaxLength="3" />
+    <Property Name="LandedDate" Type="datetime" Nullable="false" />
+    <Property Name="OfficerCode" Type="nvarchar" MaxLength="8" />
+    <Property Name="CHFID" Type="nvarchar" MaxLength="12" />
+    <Property Name="PhotoSumittedDate" Type="datetime" />
+    <Property Name="ClaimId" Type="int" />
+  </EntityType>
+  <EntityType Name="tblHealthStatus">
+    <Key>
+      <PropertyRef Name="HealthStatusID" />
+    </Key>
+    <Property Name="HealthStatusID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="InsureeID" Type="int" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="255" />
+    <Property Name="ValidityFrom" Type="datetime" />
+    <Property Name="ValidityTo" Type="datetime" />
+    <Property Name="AuditUserID" Type="int" />
+    <Property Name="LegacyID" Type="int" />
+  </EntityType>
+  <EntityType Name="tblHF">
+    <Key>
+      <PropertyRef Name="HfID" />
+    </Key>
+    <Property Name="HfID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HFCode" Type="nvarchar" Nullable="false" MaxLength="8" />
+    <Property Name="HFName" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="LegalForm" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="HFLevel" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="HFSublevel" Type="char" MaxLength="1" />
+    <Property Name="HFAddress" Type="nvarchar" MaxLength="100" />
+    <Property Name="LocationId" Type="int" Nullable="false" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="50" />
+    <Property Name="Fax" Type="nvarchar" MaxLength="50" />
+    <Property Name="eMail" Type="nvarchar" MaxLength="50" />
+    <Property Name="HFCareType" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="PLServiceID" Type="int" />
+    <Property Name="PLItemID" Type="int" />
+    <Property Name="AccCode" Type="nvarchar" MaxLength="25" />
+    <Property Name="OffLine" Type="bit" Nullable="false" />
+    <Property Name="ValidityFrom" Type="datetime" Nullable="false" />
+    <Property Name="ValidityTo" Type="datetime" />
+    <Property Name="LegacyID" Type="int" />
+    <Property Name="AuditUserID" Type="int" Nullable="false" />
+    <Property Name="RowID" Type="timestamp" StoreGeneratedPattern="Computed" />
+  </EntityType>
+  <EntityType Name="tblHFCatchment">
+    <Key>
+      <PropertyRef Name="HFCatchmentId" />
+    </Key>
+    <Property Name="HFCatchmentId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HFID" Type="int" Nullable="false" />
+    <Property Name="LocationId" Type="int" Nullable="false" />
+    <Property Name="Catchment" Type="int" />
+    <Property Name="ValidityFrom" Type="datetime" />
+    <Property Name="ValidityTo" Type="datetime" />
+    <Property Name="LegacyId" Type="int" />
+    <Property Name="AuditUserId" Type="int" />
+  </EntityType>
+  <EntityType Name="tblHFSublevel">
+    <Key>
+      <PropertyRef Name="HFSublevel" />
+    </Key>
+    <Property Name="HFSublevel" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="HFSublevelDesc" Type="nvarchar" MaxLength="50" />
+    <Property Name="SortOrder" Type="int" />
+    <Property Name="AltLanguage" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblICDCodes">
+    <Key>
+      <PropertyRef Name="ICDID" />
+    </Key>
+    <Property Name="ICDID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ICDCode" Type="nvarchar" Nullable="false" MaxLength="6" />
+    <Property Name="ICDName" Type="nvarchar" Nullable="false" MaxLength="255" />
+    <Property Name="ValidityFrom" Type="datetime" Nullable="false" />
+    <Property Name="ValidityTo" Type="datetime" />
+    <Property Name="LegacyID" Type="int" />
+    <Property Name="AuditUserID" Type="int" Nullable="false" />
+    <Property Name="RowID" Type="timestamp" StoreGeneratedPattern="Computed" />
+  </EntityType>
+  <EntityType Name="tblIdentificationTypes">
+    <Key>
+      <PropertyRef Name="IdentificationCode" />
+    </Key>
+    <Property Name="IdentificationCode" Type="nvarchar" Nullable="false" MaxLength="1" />
+    <Property Name="IdentificationTypes" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="AltLanguage" Type="nvarchar" MaxLength="50" />
+    <Property Name="SortOrder" Type="int" />
+  </EntityType>
+  <EntityType Name="tblIMISDefaults">
+    <Key>
+      <PropertyRef Name="DefaultID" />
+    </Key>
+    <Property Name="DefaultID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PolicyRenewalInterval" Type="int" />
+    <Property Name="FTPHost" Type="nvarchar" MaxLength="50" />
+    <Property Name="FTPUser" Type="nvarchar" MaxLength="50" />
+    <Property Name="FTPPassword" Type="nvarchar" MaxLength="20" />
+    <Property Name="FTPPort" Type="int" />
+    <Property Name="FTPEnrollmentFolder" Type="nvarchar" MaxLength="255" />
+    <Property Name="AssociatedPhotoFolder" Type="nvarchar" MaxLength="255" />
+    <Property Name="FTPClaimFolder" Type="nvarchar" MaxLength="255" />
+    <Property Name="FTPFeedbackFolder" Type="nvarchar" MaxLength="255" />
+    <Property Name="FTPPolicyRenewalFolder" Type="nvarchar" MaxLength="255" />
+    <Property Name="FTPPhoneExtractFolder" Type="nvarchar" MaxLength="255" />
+    <Property Name="FTPOffLineExtractFolder" Type="nvarchar" MaxLength="255" />
+    <Property Name="AppVersionBackEnd" Type="decimal" Precision="3" Scale="1" />
+    <Property Name="AppVersionEnquire" Type="decimal" Precision="3" Scale="1" />
+    <Property Name="AppVersionEnroll" Type="decimal" Precision="3" Scale="1" />
+    <Property Name="AppVersionRenewal" Type="decimal" Precision="3" Scale="1" />
+    <Property Name="AppVersionFeedback" Type="decimal" Precision="3" Scale="1" />
+    <Property Name="AppVersionClaim" Type="decimal" Precision="3" Scale="1" />
+    <Property Name="OffLineHF" Type="int" />
+    <Property Name="WinRarFolder" Type="nvarchar" MaxLength="255" />
+    <Property Name="DatabaseBackupFolder" Type="nvarchar" MaxLength="255" />
+    <Property Name="OfflineCHF" Type="int" />
+    <Property Name="SMSLink" Type="nvarchar" MaxLength="500" />
+    <Property Name="SMSIP" Type="nvarchar" MaxLength="15" />
+    <Property Name="SMSUserName" Type="nvarchar" MaxLength="15" />
+    <Property Name="SMSPassword" Type="nvarchar" MaxLength="50" />
+    <Property Name="SMSSource" Type="nvarchar" MaxLength="15" />
+    <Property Name="SMSDlr" Type="int" />
+    <Property Name="SMSType" Type="int" />
+    <Property Name="AppVersionFeedbackRenewal" Type="decimal" Precision="3" Scale="1" />
+  </EntityType>
+  <EntityType Name="tblInsuree">
+    <Key>
+      <PropertyRef Name="InsureeID" />
+    </Key>
+    <Property Name="InsureeID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="FamilyID" Type="int" Nullable="false" />
+    <Property Name="CHFID" Type="nvarchar" MaxLength="12" />
+    <Property Name="LastName" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="OtherNames" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="DOB" Type="date" Nullable="false" />
+    <Property Name="Gender" Type="char" MaxLength="1" />
+    <Property Name="Marital" Type="char" MaxLength="1" />
+    <Property Name="IsHead" Type="bit" Nullable="false" />
+    <Property Name="passport" Type="nvarchar" MaxLength="25" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="50" />
+    <Property Name="PhotoID" Type="int" />
+    <Property Name="PhotoDate" Type="date" />
+    <Property Name="CardIssued" Type="bit" Nullable="false" />
+    <Property Name="ValidityFrom" Type="datetime" Nullable="false" />
+    <Property Name="ValidityTo" Type="datetime" />
+    <Property Name="LegacyID" Type="int" />
+    <Property Name="AuditUserID" Type="int" Nullable="false" />
+    <Property Name="RowID" Type="timestamp" StoreGeneratedPattern="Computed" />
+    <Property Name="Relationship" Type="smallint" />
+    <Property Name="Profession" Type="smallint" />
+    <Property Name="Education" Type="smallint" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" />
+    <Property Name="isOffline" Type="bit" />
+    <Property Name="TypeOfId" Type="nvarchar" MaxLength="1" />
+    <Property Name="HFID" Type="int" />
+    <Property Name="CurrentAddress" Type="nvarchar" MaxLength="200" />
+    <Property Name="GeoLocation" Type="nvarchar" MaxLength="250" />
+    <Property Name="CurrentVillage" Type="int" />
+  </EntityType>
+  <EntityType Name="tblInsureePolicy">
+    <Key>
+      <PropertyRef Name="InsureePolicyId" />
+    </Key>
+    <Property Name="InsureePolicyId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="InsureeId" Type="int" />
+    <Property Name="PolicyId" Type="int" />
+    <Property Name="EnrollmentDate" Type="date" />
+    <Property Name="StartDate" Type="date" />
+    <Property Name="EffectiveDate" Type="date" />
+    <Property Name="ExpiryDate" Type="date" />
+    <Property Name="ValidityFrom" Type="datetime" />
+    <Property Name="ValidityTo" Type="datetime" />
+    <Property Name="LegacyId" Type="int" />
+    <Property Name="AuditUserId" Type="int" />
+    <Property Name="isOffline" Type="bit" />
+    <Property Name="RowId" Type="timestamp" StoreGeneratedPattern="Computed" />
+  </EntityType>
+  <EntityType Name="tblItems">
+    <Key>
+      <PropertyRef Name="ItemID" />
+    </Key>
+    <Property Name="ItemID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ItemCode" Type="nvarchar" Nullable="false" MaxLength="6" />
+    <Property Name="ItemName" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="ItemType" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="ItemPackage" Type="nvarchar" MaxLength="255" />
+    <Property Name="ItemPrice" Type="decimal" Nullable="false" Scale="2" />
+    <Property Name="ItemCareType" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="ItemFrequency" Type="smallint" />
+    <Property Name="ItemPatCat" Type="tinyint" Nullable="false" />
+    <Property Name="ValidityFrom" Type="datetime" Nullable="false" />
+    <Property Name="ValidityTo" Type="datetime" />
+    <Property Name="LegacyID" Type="int" />
+    <Property Name="AuditUserID" Type="int" Nullable="false" />
+    <Property Name="RowID" Type="timestamp" StoreGeneratedPattern="Computed" />
+  </EntityType>
+  <EntityType Name="tblLanguages">
+    <Key>
+      <PropertyRef Name="LanguageCode" />
+    </Key>
+    <Property Name="LanguageCode" Type="nvarchar" Nullable="false" MaxLength="2" />
+    <Property Name="LanguageName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="SortOrder" Type="int" />
+  </EntityType>
+  <EntityType Name="tblLegalForms">
+    <Key>
+      <PropertyRef Name="LegalFormCode" />
+    </Key>
+    <Property Name="LegalFormCode" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="LegalForms" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="SortOrder" Type="int" />
+    <Property Name="AltLanguage" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblLocations">
+    <Key>
+      <PropertyRef Name="LocationId" />
+    </Key>
+    <Property Name="LocationId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="LocationCode" Type="nvarchar" MaxLength="8" />
+    <Property Name="LocationName" Type="nvarchar" MaxLength="50" />
+    <Property Name="ParentLocationId" Type="int" />
+    <Property Name="LocationType" Type="nchar" Nullable="false" MaxLength="1" />
+    <Property Name="ValidityFrom" Type="datetime" />
+    <Property Name="ValidityTo" Type="datetime" />
+    <Property Name="LegacyId" Type="int" />
+    <Property Name="AuditUserId" Type="int" />
+    <Property Name="RowId" Type="timestamp" Nullable="false" StoreGeneratedPattern="Computed" />
+    <Property Name="MalePopulation" Type="int" />
+    <Property Name="FemalePopulation" Type="int" />
+    <Property Name="OtherPopulation" Type="int" />
+    <Property Name="Families" Type="int" />
+  </EntityType>
+  <EntityType Name="tblLogins">
+    <Key>
+      <PropertyRef Name="LoginId" />
+    </Key>
+    <Property Name="LoginId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="int" />
+    <Property Name="LogTime" Type="datetime" />
+    <Property Name="LogAction" Type="int" />
+  </EntityType>
+  <EntityType Name="tblOfficer">
+    <Key>
+      <PropertyRef Name="OfficerID" />
+    </Key>
+    <Property Name="OfficerID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Code" Type="nvarchar" Nullable="false" MaxLength="8" />
+    <Property Name="LastName" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="OtherNames" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="DOB" Type="date" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="50" />
+    <Property Name="LocationId" Type="int" />
+    <Property Name="OfficerIDSubst" Type="int" />
+    <Property Name="WorksTo" Type="smalldatetime" />
+    <Property Name="VEOCode" Type="nvarchar" MaxLength="8" />
+    <Property Name="VEOLastName" Type="nvarchar" MaxLength="100" />
+    <Property Name="VEOOtherNames" Type="nvarchar" MaxLength="100" />
+    <Property Name="VEODOB" Type="date" />
+    <Property Name="VEOPhone" Type="nvarchar" MaxLength="25" />
+    <Property Name="ValidityFrom" Type="datetime" Nullable="false" />
+    <Property Name="ValidityTo" Type="datetime" />
+    <Property Name="LegacyID" Type="int" />
+    <Property Name="AuditUserID" Type="int" Nullable="false" />
+    <Property Name="RowID" Type="timestamp" StoreGeneratedPattern="Computed" />
+    <Property Name="EmailId" Type="nvarchar" MaxLength="200" />
+    <Property Name="PhoneCommunication" Type="bit" />
+  </EntityType>
+  <EntityType Name="tblOfficerVillages">
+    <Key>
+      <PropertyRef Name="OfficerVillageId" />
+    </Key>
+    <Property Name="OfficerVillageId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="OfficerId" Type="int" />
+    <Property Name="LocationId" Type="int" />
+    <Property Name="ValidityFrom" Type="datetime" />
+    <Property Name="ValidityTo" Type="datetime" />
+    <Property Name="LegacyId" Type="int" />
+    <Property Name="AuditUserId" Type="int" />
+    <Property Name="RowId" Type="timestamp" Nullable="false" StoreGeneratedPattern="Computed" />
+  </EntityType>
+  <EntityType Name="tblPayer">
+    <Key>
+      <PropertyRef Name="PayerID" />
+    </Key>
+    <Property Name="PayerID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PayerType" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="PayerName" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="PayerAddress" Type="nvarchar" MaxLength="100" />
+    <Property Name="LocationId" Type="int" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="50" />
+    <Property Name="Fax" Type="nvarchar" MaxLength="50" />
+    <Property Name="eMail" Type="nvarchar" MaxLength="50" />
+    <Property Name="ValidityFrom" Type="datetime" Nullable="false" />
+    <Property Name="ValidityTo" Type="datetime" />
+    <Property Name="LegacyID" Type="int" />
+    <Property Name="AuditUserID" Type="int" Nullable="false" />
+    <Property Name="RowID" Type="timestamp" StoreGeneratedPattern="Computed" />
+  </EntityType>
+  <EntityType Name="tblPayerType">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="PayerType" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="AltLanguage" Type="nvarchar" MaxLength="50" />
+    <Property Name="SortOrder" Type="int" />
+  </EntityType>
+  <EntityType Name="tblPhotos">
+    <Key>
+      <PropertyRef Name="PhotoID" />
+    </Key>
+    <Property Name="PhotoID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="InsureeID" Type="int" />
+    <Property Name="CHFID" Type="nvarchar" MaxLength="12" />
+    <Property Name="PhotoFolder" Type="nvarchar" Nullable="false" MaxLength="255" />
+    <Property Name="PhotoFileName" Type="nvarchar" MaxLength="250" />
+    <Property Name="OfficerID" Type="int" Nullable="false" />
+    <Property Name="PhotoDate" Type="date" Nullable="false" />
+    <Property Name="ValidityFrom" Type="datetime" Nullable="false" />
+    <Property Name="ValidityTo" Type="datetime" />
+    <Property Name="AuditUserID" Type="int" />
+    <Property Name="RowID" Type="timestamp" StoreGeneratedPattern="Computed" />
+  </EntityType>
+  <EntityType Name="tblPLItems">
+    <Key>
+      <PropertyRef Name="PLItemID" />
+    </Key>
+    <Property Name="PLItemID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PLItemName" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="DatePL" Type="date" Nullable="false" />
+    <Property Name="LocationId" Type="int" />
+    <Property Name="ValidityFrom" Type="datetime" Nullable="false" />
+    <Property Name="ValidityTo" Type="datetime" />
+    <Property Name="LegacyID" Type="int" />
+    <Property Name="AuditUserID" Type="int" Nullable="false" />
+    <Property Name="RowID" Type="timestamp" StoreGeneratedPattern="Computed" />
+  </EntityType>
+  <EntityType Name="tblPLItemsDetail">
+    <Key>
+      <PropertyRef Name="PLItemDetailID" />
+    </Key>
+    <Property Name="PLItemDetailID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PLItemID" Type="int" Nullable="false" />
+    <Property Name="ItemID" Type="int" Nullable="false" />
+    <Property Name="PriceOverule" Type="decimal" Scale="2" />
+    <Property Name="ValidityFrom" Type="datetime" Nullable="false" />
+    <Property Name="ValidityTo" Type="datetime" />
+    <Property Name="LegacyID" Type="int" />
+    <Property Name="AuditUserID" Type="int" Nullable="false" />
+    <Property Name="RowID" Type="timestamp" StoreGeneratedPattern="Computed" />
+  </EntityType>
+  <EntityType Name="tblPLServices">
+    <Key>
+      <PropertyRef Name="PLServiceID" />
+    </Key>
+    <Property Name="PLServiceID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PLServName" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="DatePL" Type="date" Nullable="false" />
+    <Property Name="LocationId" Type="int" />
+    <Property Name="ValidityFrom" Type="datetime" Nullable="false" />
+    <Property Name="ValidityTo" Type="datetime" />
+    <Property Name="LegacyID" Type="int" />
+    <Property Name="AuditUserID" Type="int" Nullable="false" />
+    <Property Name="RowID" Type="timestamp" StoreGeneratedPattern="Computed" />
+  </EntityType>
+  <EntityType Name="tblPLServicesDetail">
+    <Key>
+      <PropertyRef Name="PLServiceDetailID" />
+    </Key>
+    <Property Name="PLServiceDetailID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PLServiceID" Type="int" Nullable="false" />
+    <Property Name="ServiceID" Type="int" Nullable="false" />
+    <Property Name="PriceOverule" Type="decimal" Scale="2" />
+    <Property Name="ValidityFrom" Type="datetime" Nullable="false" />
+    <Property Name="ValidityTo" Type="datetime" />
+    <Property Name="LegacyID" Type="int" />
+    <Property Name="AuditUserID" Type="int" Nullable="false" />
+    <Property Name="RowID" Type="timestamp" StoreGeneratedPattern="Computed" />
+  </EntityType>
+  <EntityType Name="tblPolicy">
+    <Key>
+      <PropertyRef Name="PolicyID" />
+    </Key>
+    <Property Name="PolicyID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="FamilyID" Type="int" Nullable="false" />
+    <Property Name="EnrollDate" Type="date" Nullable="false" />
+    <Property Name="StartDate" Type="date" Nullable="false" />
+    <Property Name="EffectiveDate" Type="date" />
+    <Property Name="ExpiryDate" Type="date" />
+    <Property Name="PolicyStatus" Type="tinyint" />
+    <Property Name="PolicyValue" Type="decimal" Scale="2" />
+    <Property Name="ProdID" Type="int" Nullable="false" />
+    <Property Name="OfficerID" Type="int" />
+    <Property Name="PolicyStage" Type="char" MaxLength="1" />
+    <Property Name="ValidityFrom" Type="datetime" Nullable="false" />
+    <Property Name="ValidityTo" Type="datetime" />
+    <Property Name="LegacyID" Type="int" />
+    <Property Name="AuditUserID" Type="int" Nullable="false" />
+    <Property Name="RowID" Type="timestamp" StoreGeneratedPattern="Computed" />
+    <Property Name="isOffline" Type="bit" />
+  </EntityType>
+  <EntityType Name="tblPolicyRenewalDetails">
+    <Key>
+      <PropertyRef Name="RenewalDetailID" />
+    </Key>
+    <Property Name="RenewalDetailID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="RenewalID" Type="int" Nullable="false" />
+    <Property Name="InsureeID" Type="int" Nullable="false" />
+    <Property Name="ValidityFrom" Type="datetime" Nullable="false" />
+    <Property Name="ValidityTo" Type="datetime" />
+    <Property Name="LegacyID" Type="int" />
+    <Property Name="AuditCreateUser" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblPolicyRenewals">
+    <Key>
+      <PropertyRef Name="RenewalID" />
+    </Key>
+    <Property Name="RenewalID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="RenewalPromptDate" Type="date" Nullable="false" />
+    <Property Name="RenewalDate" Type="date" Nullable="false" />
+    <Property Name="NewOfficerID" Type="int" />
+    <Property Name="PhoneNumber" Type="nvarchar" MaxLength="25" />
+    <Property Name="SMSStatus" Type="tinyint" Nullable="false" />
+    <Property Name="InsureeID" Type="int" Nullable="false" />
+    <Property Name="PolicyID" Type="int" Nullable="false" />
+    <Property Name="NewProdID" Type="int" Nullable="false" />
+    <Property Name="RenewalWarnings" Type="tinyint" />
+    <Property Name="ValidityFrom" Type="datetime" Nullable="false" />
+    <Property Name="ValidityTo" Type="datetime" />
+    <Property Name="LegacyID" Type="int" />
+    <Property Name="AuditCreateUser" Type="int" />
+    <Property Name="ResponseStatus" Type="int" />
+    <Property Name="ResponseDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tblPremium">
+    <Key>
+      <PropertyRef Name="PremiumId" />
+    </Key>
+    <Property Name="PremiumId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PolicyID" Type="int" Nullable="false" />
+    <Property Name="PayerID" Type="int" />
+    <Property Name="Amount" Type="decimal" Nullable="false" Scale="2" />
+    <Property Name="Receipt" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="PayDate" Type="date" Nullable="false" />
+    <Property Name="PayType" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="ValidityFrom" Type="datetime" Nullable="false" />
+    <Property Name="ValidityTo" Type="datetime" />
+    <Property Name="LegacyID" Type="int" />
+    <Property Name="AuditUserID" Type="int" Nullable="false" />
+    <Property Name="RowID" Type="timestamp" StoreGeneratedPattern="Computed" />
+    <Property Name="isPhotoFee" Type="bit" />
+    <Property Name="isOffline" Type="bit" />
+    <Property Name="ReportingId" Type="int" />
+  </EntityType>
+  <EntityType Name="tblProduct">
+    <Key>
+      <PropertyRef Name="ProdID" />
+    </Key>
+    <Property Name="ProdID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ProductCode" Type="nvarchar" Nullable="false" MaxLength="8" />
+    <Property Name="ProductName" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="LocationId" Type="int" />
+    <Property Name="InsurancePeriod" Type="tinyint" Nullable="false" />
+    <Property Name="DateFrom" Type="smalldatetime" Nullable="false" />
+    <Property Name="DateTo" Type="smalldatetime" Nullable="false" />
+    <Property Name="ConversionProdID" Type="int" />
+    <Property Name="LumpSum" Type="decimal" Nullable="false" Scale="2" />
+    <Property Name="MemberCount" Type="smallint" Nullable="false" />
+    <Property Name="PremiumAdult" Type="decimal" Scale="2" />
+    <Property Name="PremiumChild" Type="decimal" Scale="2" />
+    <Property Name="DedInsuree" Type="decimal" Scale="2" />
+    <Property Name="DedOPInsuree" Type="decimal" Scale="2" />
+    <Property Name="DedIPInsuree" Type="decimal" Scale="2" />
+    <Property Name="MaxInsuree" Type="decimal" Scale="2" />
+    <Property Name="MaxOPInsuree" Type="decimal" Scale="2" />
+    <Property Name="MaxIPInsuree" Type="decimal" Scale="2" />
+    <Property Name="PeriodRelPrices" Type="char" MaxLength="1" />
+    <Property Name="PeriodRelPricesOP" Type="char" MaxLength="1" />
+    <Property Name="PeriodRelPricesIP" Type="char" MaxLength="1" />
+    <Property Name="AccCodePremiums" Type="nvarchar" MaxLength="25" />
+    <Property Name="AccCodeRemuneration" Type="nvarchar" MaxLength="25" />
+    <Property Name="DedTreatment" Type="decimal" Scale="2" />
+    <Property Name="DedOPTreatment" Type="decimal" Scale="2" />
+    <Property Name="DedIPTreatment" Type="decimal" Scale="2" />
+    <Property Name="MaxTreatment" Type="decimal" Scale="2" />
+    <Property Name="MaxOPTreatment" Type="decimal" Scale="2" />
+    <Property Name="MaxIPTreatment" Type="decimal" Scale="2" />
+    <Property Name="DedPolicy" Type="decimal" Scale="2" />
+    <Property Name="DedOPPolicy" Type="decimal" Scale="2" />
+    <Property Name="DedIPPolicy" Type="decimal" Scale="2" />
+    <Property Name="MaxPolicy" Type="decimal" Scale="2" />
+    <Property Name="MaxOPPolicy" Type="decimal" Scale="2" />
+    <Property Name="MaxIPPolicy" Type="decimal" Scale="2" />
+    <Property Name="GracePeriod" Type="int" Nullable="false" />
+    <Property Name="ValidityFrom" Type="datetime" Nullable="false" />
+    <Property Name="ValidityTo" Type="datetime" />
+    <Property Name="LegacyID" Type="int" />
+    <Property Name="AuditUserID" Type="int" Nullable="false" />
+    <Property Name="RowID" Type="timestamp" StoreGeneratedPattern="Computed" />
+    <Property Name="RegistrationLumpSum" Type="decimal" Scale="2" />
+    <Property Name="RegistrationFee" Type="decimal" Scale="2" />
+    <Property Name="GeneralAssemblyLumpSum" Type="decimal" Scale="2" />
+    <Property Name="GeneralAssemblyFee" Type="decimal" Scale="2" />
+    <Property Name="StartCycle1" Type="nvarchar" MaxLength="5" />
+    <Property Name="StartCycle2" Type="nvarchar" MaxLength="5" />
+    <Property Name="MaxNoConsultation" Type="int" />
+    <Property Name="MaxNoSurgery" Type="int" />
+    <Property Name="MaxNoDelivery" Type="int" />
+    <Property Name="MaxNoHospitalizaion" Type="int" />
+    <Property Name="MaxNoVisits" Type="int" />
+    <Property Name="MaxAmountConsultation" Type="decimal" Scale="2" />
+    <Property Name="MaxAmountSurgery" Type="decimal" Scale="2" />
+    <Property Name="MaxAmountDelivery" Type="decimal" Scale="2" />
+    <Property Name="MaxAmountHospitalization" Type="decimal" Scale="2" />
+    <Property Name="GracePeriodRenewal" Type="int" />
+    <Property Name="MaxInstallments" Type="int" />
+    <Property Name="WaitingPeriod" Type="int" />
+    <Property Name="Threshold" Type="int" />
+    <Property Name="RenewalDiscountPerc" Type="int" />
+    <Property Name="RenewalDiscountPeriod" Type="int" />
+    <Property Name="StartCycle3" Type="nvarchar" MaxLength="5" />
+    <Property Name="StartCycle4" Type="nvarchar" MaxLength="5" />
+    <Property Name="AdministrationPeriod" Type="int" />
+    <Property Name="MaxPolicyExtraMember" Type="decimal" Scale="2" />
+    <Property Name="MaxPolicyExtraMemberIP" Type="decimal" Scale="2" />
+    <Property Name="MaxPolicyExtraMemberOP" Type="decimal" Scale="2" />
+    <Property Name="MaxCeilingPolicy" Type="decimal" Scale="2" />
+    <Property Name="MaxCeilingPolicyIP" Type="decimal" Scale="2" />
+    <Property Name="MaxCeilingPolicyOP" Type="decimal" Scale="2" />
+    <Property Name="EnrolmentDiscountPerc" Type="int" />
+    <Property Name="EnrolmentDiscountPeriod" Type="int" />
+    <Property Name="MaxAmountAntenatal" Type="decimal" Scale="2" />
+    <Property Name="MaxNoAntenatal" Type="int" />
+    <Property Name="CeilingInterpretation" Type="char" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="tblProductItems">
+    <Key>
+      <PropertyRef Name="ProdItemID" />
+    </Key>
+    <Property Name="ProdItemID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ProdID" Type="int" Nullable="false" />
+    <Property Name="ItemID" Type="int" Nullable="false" />
+    <Property Name="LimitationType" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="PriceOrigin" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="LimitAdult" Type="decimal" Scale="2" />
+    <Property Name="LimitChild" Type="decimal" Scale="2" />
+    <Property Name="ValidityFrom" Type="datetime" Nullable="false" />
+    <Property Name="ValidityTo" Type="datetime" />
+    <Property Name="LegacyID" Type="int" />
+    <Property Name="AuditUserID" Type="int" Nullable="false" />
+    <Property Name="RowID" Type="timestamp" StoreGeneratedPattern="Computed" />
+    <Property Name="WaitingPeriodAdult" Type="int" />
+    <Property Name="WaitingPeriodChild" Type="int" />
+    <Property Name="LimitNoAdult" Type="int" />
+    <Property Name="LimitNoChild" Type="int" />
+    <Property Name="LimitationTypeR" Type="char" MaxLength="1" />
+    <Property Name="LimitationTypeE" Type="char" MaxLength="1" />
+    <Property Name="LimitAdultR" Type="decimal" Scale="2" />
+    <Property Name="LimitAdultE" Type="decimal" Scale="2" />
+    <Property Name="LimitChildR" Type="decimal" Scale="2" />
+    <Property Name="LimitChildE" Type="decimal" Scale="2" />
+    <Property Name="CeilingExclusionAdult" Type="nvarchar" MaxLength="1" />
+    <Property Name="CeilingExclusionChild" Type="nvarchar" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="tblProductServices">
+    <Key>
+      <PropertyRef Name="ProdServiceID" />
+    </Key>
+    <Property Name="ProdServiceID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ProdID" Type="int" Nullable="false" />
+    <Property Name="ServiceID" Type="int" Nullable="false" />
+    <Property Name="LimitationType" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="PriceOrigin" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="LimitAdult" Type="decimal" Scale="2" />
+    <Property Name="LimitChild" Type="decimal" Scale="2" />
+    <Property Name="ValidityFrom" Type="datetime" Nullable="false" />
+    <Property Name="ValidityTo" Type="datetime" />
+    <Property Name="LegacyID" Type="int" />
+    <Property Name="AuditUserID" Type="int" Nullable="false" />
+    <Property Name="RowID" Type="timestamp" StoreGeneratedPattern="Computed" />
+    <Property Name="WaitingPeriodAdult" Type="int" />
+    <Property Name="WaitingPeriodChild" Type="int" />
+    <Property Name="LimitNoAdult" Type="int" />
+    <Property Name="LimitNoChild" Type="int" />
+    <Property Name="LimitationTypeR" Type="char" MaxLength="1" />
+    <Property Name="LimitationTypeE" Type="char" MaxLength="1" />
+    <Property Name="LimitAdultR" Type="decimal" Scale="2" />
+    <Property Name="LimitAdultE" Type="decimal" Scale="2" />
+    <Property Name="LimitChildR" Type="decimal" Scale="2" />
+    <Property Name="LimitChildE" Type="decimal" Scale="2" />
+    <Property Name="CeilingExclusionAdult" Type="nvarchar" MaxLength="1" />
+    <Property Name="CeilingExclusionChild" Type="nvarchar" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="tblProfessions">
+    <Key>
+      <PropertyRef Name="ProfessionId" />
+    </Key>
+    <Property Name="ProfessionId" Type="smallint" Nullable="false" />
+    <Property Name="Profession" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="SortOrder" Type="int" />
+    <Property Name="AltLanguage" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblRelations">
+    <Key>
+      <PropertyRef Name="RelationId" />
+    </Key>
+    <Property Name="RelationId" Type="smallint" Nullable="false" />
+    <Property Name="Relation" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="SortOrder" Type="int" />
+    <Property Name="AltLanguage" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblRelDistr">
+    <Key>
+      <PropertyRef Name="DistrID" />
+    </Key>
+    <Property Name="DistrID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="DistrType" Type="tinyint" Nullable="false" />
+    <Property Name="DistrCareType" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="ProdID" Type="int" Nullable="false" />
+    <Property Name="Period" Type="tinyint" Nullable="false" />
+    <Property Name="DistrPerc" Type="decimal" Scale="2" />
+    <Property Name="ValidityFrom" Type="datetime" Nullable="false" />
+    <Property Name="ValidityTo" Type="datetime" />
+    <Property Name="LegacyID" Type="int" />
+    <Property Name="AuditUserID" Type="int" Nullable="false" />
+    <Property Name="RowID" Type="timestamp" StoreGeneratedPattern="Computed" />
+  </EntityType>
+  <EntityType Name="tblRelIndex">
+    <Key>
+      <PropertyRef Name="RelIndexID" />
+    </Key>
+    <Property Name="RelIndexID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ProdID" Type="int" Nullable="false" />
+    <Property Name="RelType" Type="tinyint" Nullable="false" />
+    <Property Name="RelCareType" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="RelYear" Type="int" Nullable="false" />
+    <Property Name="RelPeriod" Type="tinyint" Nullable="false" />
+    <Property Name="CalcDate" Type="datetime" Nullable="false" />
+    <Property Name="RelIndex" Type="decimal" Scale="4" />
+    <Property Name="ValidityFrom" Type="datetime" Nullable="false" />
+    <Property Name="ValidityTo" Type="datetime" />
+    <Property Name="LegacyID" Type="int" />
+    <Property Name="AuditUserID" Type="int" Nullable="false" />
+    <Property Name="LocationId" Type="int" />
+  </EntityType>
+  <EntityType Name="tblReporting">
+    <Key>
+      <PropertyRef Name="ReportingId" />
+    </Key>
+    <Property Name="ReportingId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ReportingDate" Type="datetime" Nullable="false" />
+    <Property Name="LocationId" Type="int" Nullable="false" />
+    <Property Name="ProdId" Type="int" Nullable="false" />
+    <Property Name="PayerId" Type="int" />
+    <Property Name="StartDate" Type="date" Nullable="false" />
+    <Property Name="EndDate" Type="date" Nullable="false" />
+    <Property Name="RecordFound" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblServices">
+    <Key>
+      <PropertyRef Name="ServiceID" />
+    </Key>
+    <Property Name="ServiceID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ServCode" Type="nvarchar" Nullable="false" MaxLength="6" />
+    <Property Name="ServName" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="ServType" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="ServLevel" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="ServPrice" Type="decimal" Nullable="false" Scale="2" />
+    <Property Name="ServCareType" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="ServFrequency" Type="smallint" />
+    <Property Name="ServPatCat" Type="tinyint" Nullable="false" />
+    <Property Name="ValidityFrom" Type="datetime" />
+    <Property Name="ValidityTo" Type="datetime" />
+    <Property Name="LegacyID" Type="int" />
+    <Property Name="AuditUserID" Type="int" />
+    <Property Name="RowID" Type="timestamp" StoreGeneratedPattern="Computed" />
+    <Property Name="ServCategory" Type="char" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="tblSubmittedPhotos">
+    <Key>
+      <PropertyRef Name="PhotoId" />
+    </Key>
+    <Property Name="PhotoId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ImageName" Type="nvarchar" MaxLength="50" />
+    <Property Name="CHFID" Type="nvarchar" MaxLength="12" />
+    <Property Name="OfficerCode" Type="nvarchar" MaxLength="8" />
+    <Property Name="PhotoDate" Type="date" />
+    <Property Name="RegisterDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tblUsers">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="LanguageID" Type="nvarchar" Nullable="false" MaxLength="2" />
+    <Property Name="LastName" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="OtherNames" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="50" />
+    <Property Name="LoginName" Type="nvarchar" Nullable="false" MaxLength="25" />
+    <Property Name="RoleID" Type="int" Nullable="false" />
+    <Property Name="HFID" Type="int" />
+    <Property Name="ValidityFrom" Type="datetime" Nullable="false" />
+    <Property Name="ValidityTo" Type="datetime" />
+    <Property Name="LegacyID" Type="int" />
+    <Property Name="AuditUserID" Type="int" Nullable="false" />
+    <Property Name="password" Type="varbinary" MaxLength="256" />
+    <Property Name="DummyPwd" Type="nvarchar" MaxLength="25" />
+    <Property Name="EmailId" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="tblUsersDistricts">
+    <Key>
+      <PropertyRef Name="UserDistrictID" />
+    </Key>
+    <Property Name="UserDistrictID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="UserID" Type="int" Nullable="false" />
+    <Property Name="LocationId" Type="int" Nullable="false" />
+    <Property Name="ValidityFrom" Type="datetime" Nullable="false" />
+    <Property Name="ValidityTo" Type="datetime" />
+    <Property Name="LegacyID" Type="int" />
+    <Property Name="AuditUserID" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_tblBatchRun_tblLocations">
+    <End Role="tblLocations" Type="IMISModel.Store.tblLocations" Multiplicity="0..1" />
+    <End Role="tblBatchRun" Type="IMISModel.Store.tblBatchRun" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblLocations">
+        <PropertyRef Name="LocationId" />
+      </Principal>
+      <Dependent Role="tblBatchRun">
+        <PropertyRef Name="LocationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblClaim_tblBatchRun">
+    <End Role="tblBatchRun" Type="IMISModel.Store.tblBatchRun" Multiplicity="0..1" />
+    <End Role="tblClaim" Type="IMISModel.Store.tblClaim" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblBatchRun">
+        <PropertyRef Name="RunID" />
+      </Principal>
+      <Dependent Role="tblClaim">
+        <PropertyRef Name="RunID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblClaim_tblClaimAdmin">
+    <End Role="tblClaimAdmin" Type="IMISModel.Store.tblClaimAdmin" Multiplicity="0..1" />
+    <End Role="tblClaim" Type="IMISModel.Store.tblClaim" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblClaimAdmin">
+        <PropertyRef Name="ClaimAdminId" />
+      </Principal>
+      <Dependent Role="tblClaim">
+        <PropertyRef Name="ClaimAdminId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblClaim_tblFeedback-FeedbackID">
+    <End Role="tblFeedback" Type="IMISModel.Store.tblFeedback" Multiplicity="0..1" />
+    <End Role="tblClaim" Type="IMISModel.Store.tblClaim" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblFeedback">
+        <PropertyRef Name="FeedbackID" />
+      </Principal>
+      <Dependent Role="tblClaim">
+        <PropertyRef Name="FeedbackID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblClaim_tblHF">
+    <End Role="tblHF" Type="IMISModel.Store.tblHF" Multiplicity="1" />
+    <End Role="tblClaim" Type="IMISModel.Store.tblClaim" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblHF">
+        <PropertyRef Name="HfID" />
+      </Principal>
+      <Dependent Role="tblClaim">
+        <PropertyRef Name="HFID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblClaim_tblICDCodes-ICDID">
+    <End Role="tblICDCodes" Type="IMISModel.Store.tblICDCodes" Multiplicity="1" />
+    <End Role="tblClaim" Type="IMISModel.Store.tblClaim" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblICDCodes">
+        <PropertyRef Name="ICDID" />
+      </Principal>
+      <Dependent Role="tblClaim">
+        <PropertyRef Name="ICDID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblClaim_tblInsuree-InsureeID">
+    <End Role="tblInsuree" Type="IMISModel.Store.tblInsuree" Multiplicity="1" />
+    <End Role="tblClaim" Type="IMISModel.Store.tblClaim" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblInsuree">
+        <PropertyRef Name="InsureeID" />
+      </Principal>
+      <Dependent Role="tblClaim">
+        <PropertyRef Name="InsureeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblClaim_tblUsers">
+    <End Role="tblUsers" Type="IMISModel.Store.tblUsers" Multiplicity="0..1" />
+    <End Role="tblClaim" Type="IMISModel.Store.tblClaim" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblUsers">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="tblClaim">
+        <PropertyRef Name="Adjuster" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblClaimAdmin_tblHF">
+    <End Role="tblHF" Type="IMISModel.Store.tblHF" Multiplicity="0..1" />
+    <End Role="tblClaimAdmin" Type="IMISModel.Store.tblClaimAdmin" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblHF">
+        <PropertyRef Name="HfID" />
+      </Principal>
+      <Dependent Role="tblClaimAdmin">
+        <PropertyRef Name="HFId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblClaimDedRem_tblInsuree">
+    <End Role="tblInsuree" Type="IMISModel.Store.tblInsuree" Multiplicity="1" />
+    <End Role="tblClaimDedRem" Type="IMISModel.Store.tblClaimDedRem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblInsuree">
+        <PropertyRef Name="InsureeID" />
+      </Principal>
+      <Dependent Role="tblClaimDedRem">
+        <PropertyRef Name="InsureeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblClaimDedRem_tblPolicy">
+    <End Role="tblPolicy" Type="IMISModel.Store.tblPolicy" Multiplicity="1" />
+    <End Role="tblClaimDedRem" Type="IMISModel.Store.tblClaimDedRem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblPolicy">
+        <PropertyRef Name="PolicyID" />
+      </Principal>
+      <Dependent Role="tblClaimDedRem">
+        <PropertyRef Name="PolicyID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblClaimItems_tblClaim-ClaimID">
+    <End Role="tblClaim" Type="IMISModel.Store.tblClaim" Multiplicity="1" />
+    <End Role="tblClaimItems" Type="IMISModel.Store.tblClaimItems" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblClaim">
+        <PropertyRef Name="ClaimID" />
+      </Principal>
+      <Dependent Role="tblClaimItems">
+        <PropertyRef Name="ClaimID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblClaimItems_tblItems-ItemID">
+    <End Role="tblItems" Type="IMISModel.Store.tblItems" Multiplicity="1" />
+    <End Role="tblClaimItems" Type="IMISModel.Store.tblClaimItems" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblItems">
+        <PropertyRef Name="ItemID" />
+      </Principal>
+      <Dependent Role="tblClaimItems">
+        <PropertyRef Name="ItemID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblClaimItems_tblProduct-ProdID">
+    <End Role="tblProduct" Type="IMISModel.Store.tblProduct" Multiplicity="0..1" />
+    <End Role="tblClaimItems" Type="IMISModel.Store.tblClaimItems" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblProduct">
+        <PropertyRef Name="ProdID" />
+      </Principal>
+      <Dependent Role="tblClaimItems">
+        <PropertyRef Name="ProdID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblClaimServices_tblClaim-ClaimID">
+    <End Role="tblClaim" Type="IMISModel.Store.tblClaim" Multiplicity="1" />
+    <End Role="tblClaimServices" Type="IMISModel.Store.tblClaimServices" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblClaim">
+        <PropertyRef Name="ClaimID" />
+      </Principal>
+      <Dependent Role="tblClaimServices">
+        <PropertyRef Name="ClaimID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblClaimServices_tblProduct-ProdID">
+    <End Role="tblProduct" Type="IMISModel.Store.tblProduct" Multiplicity="0..1" />
+    <End Role="tblClaimServices" Type="IMISModel.Store.tblClaimServices" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblProduct">
+        <PropertyRef Name="ProdID" />
+      </Principal>
+      <Dependent Role="tblClaimServices">
+        <PropertyRef Name="ProdID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblClaimServices_tblServices-ServiceID">
+    <End Role="tblServices" Type="IMISModel.Store.tblServices" Multiplicity="1" />
+    <End Role="tblClaimServices" Type="IMISModel.Store.tblClaimServices" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblServices">
+        <PropertyRef Name="ServiceID" />
+      </Principal>
+      <Dependent Role="tblClaimServices">
+        <PropertyRef Name="ServiceID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblConfirmationType_tblFamilies">
+    <End Role="tblConfirmationTypes" Type="IMISModel.Store.tblConfirmationTypes" Multiplicity="0..1" />
+    <End Role="tblFamilies" Type="IMISModel.Store.tblFamilies" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblConfirmationTypes">
+        <PropertyRef Name="ConfirmationTypeCode" />
+      </Principal>
+      <Dependent Role="tblFamilies">
+        <PropertyRef Name="ConfirmationType" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblEducations_tblInsuree">
+    <End Role="tblEducations" Type="IMISModel.Store.tblEducations" Multiplicity="0..1" />
+    <End Role="tblInsuree" Type="IMISModel.Store.tblInsuree" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblEducations">
+        <PropertyRef Name="EducationId" />
+      </Principal>
+      <Dependent Role="tblInsuree">
+        <PropertyRef Name="Education" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblFamilies_tblInsuree">
+    <End Role="tblInsuree" Type="IMISModel.Store.tblInsuree" Multiplicity="1" />
+    <End Role="tblFamilies" Type="IMISModel.Store.tblFamilies" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblInsuree">
+        <PropertyRef Name="InsureeID" />
+      </Principal>
+      <Dependent Role="tblFamilies">
+        <PropertyRef Name="InsureeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblFamilies_tblLocations">
+    <End Role="tblLocations" Type="IMISModel.Store.tblLocations" Multiplicity="1" />
+    <End Role="tblFamilies" Type="IMISModel.Store.tblFamilies" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblLocations">
+        <PropertyRef Name="LocationId" />
+      </Principal>
+      <Dependent Role="tblFamilies">
+        <PropertyRef Name="LocationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblFamilyTypes_tblFamilies">
+    <End Role="tblFamilyTypes" Type="IMISModel.Store.tblFamilyTypes" Multiplicity="0..1" />
+    <End Role="tblFamilies" Type="IMISModel.Store.tblFamilies" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblFamilyTypes">
+        <PropertyRef Name="FamilyTypeCode" />
+      </Principal>
+      <Dependent Role="tblFamilies">
+        <PropertyRef Name="FamilyType" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblFeedback_tblClaim-ClaimID">
+    <End Role="tblClaim" Type="IMISModel.Store.tblClaim" Multiplicity="1" />
+    <End Role="tblFeedback" Type="IMISModel.Store.tblFeedback" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblClaim">
+        <PropertyRef Name="ClaimID" />
+      </Principal>
+      <Dependent Role="tblFeedback">
+        <PropertyRef Name="ClaimID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblHealthStatus_tblInsuree">
+    <End Role="tblInsuree" Type="IMISModel.Store.tblInsuree" Multiplicity="1" />
+    <End Role="tblHealthStatus" Type="IMISModel.Store.tblHealthStatus" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblInsuree">
+        <PropertyRef Name="InsureeID" />
+      </Principal>
+      <Dependent Role="tblHealthStatus">
+        <PropertyRef Name="InsureeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblHF_tblLocations">
+    <End Role="tblLocations" Type="IMISModel.Store.tblLocations" Multiplicity="1" />
+    <End Role="tblHF" Type="IMISModel.Store.tblHF" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblLocations">
+        <PropertyRef Name="LocationId" />
+      </Principal>
+      <Dependent Role="tblHF">
+        <PropertyRef Name="LocationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblHF_tblPLItems-PLItemID">
+    <End Role="tblPLItems" Type="IMISModel.Store.tblPLItems" Multiplicity="0..1" />
+    <End Role="tblHF" Type="IMISModel.Store.tblHF" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblPLItems">
+        <PropertyRef Name="PLItemID" />
+      </Principal>
+      <Dependent Role="tblHF">
+        <PropertyRef Name="PLItemID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblHF_tblPLServices-PLService-ID">
+    <End Role="tblPLServices" Type="IMISModel.Store.tblPLServices" Multiplicity="0..1" />
+    <End Role="tblHF" Type="IMISModel.Store.tblHF" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblPLServices">
+        <PropertyRef Name="PLServiceID" />
+      </Principal>
+      <Dependent Role="tblHF">
+        <PropertyRef Name="PLServiceID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblHFCatchment_tbLHF">
+    <End Role="tblHF" Type="IMISModel.Store.tblHF" Multiplicity="1" />
+    <End Role="tblHFCatchment" Type="IMISModel.Store.tblHFCatchment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblHF">
+        <PropertyRef Name="HfID" />
+      </Principal>
+      <Dependent Role="tblHFCatchment">
+        <PropertyRef Name="HFID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblHFCatchment_tblLocations">
+    <End Role="tblLocations" Type="IMISModel.Store.tblLocations" Multiplicity="1" />
+    <End Role="tblHFCatchment" Type="IMISModel.Store.tblHFCatchment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblLocations">
+        <PropertyRef Name="LocationId" />
+      </Principal>
+      <Dependent Role="tblHFCatchment">
+        <PropertyRef Name="LocationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblHFSublevel_tblHF">
+    <End Role="tblHFSublevel" Type="IMISModel.Store.tblHFSublevel" Multiplicity="0..1" />
+    <End Role="tblHF" Type="IMISModel.Store.tblHF" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblHFSublevel">
+        <PropertyRef Name="HFSublevel" />
+      </Principal>
+      <Dependent Role="tblHF">
+        <PropertyRef Name="HFSublevel" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblIdentificationTypes_tblInsuree">
+    <End Role="tblIdentificationTypes" Type="IMISModel.Store.tblIdentificationTypes" Multiplicity="0..1" />
+    <End Role="tblInsuree" Type="IMISModel.Store.tblInsuree" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblIdentificationTypes">
+        <PropertyRef Name="IdentificationCode" />
+      </Principal>
+      <Dependent Role="tblInsuree">
+        <PropertyRef Name="TypeOfId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblInsuree_tblFamilies1-FamilyID">
+    <End Role="tblFamilies" Type="IMISModel.Store.tblFamilies" Multiplicity="1" />
+    <End Role="tblInsuree" Type="IMISModel.Store.tblInsuree" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblFamilies">
+        <PropertyRef Name="FamilyID" />
+      </Principal>
+      <Dependent Role="tblInsuree">
+        <PropertyRef Name="FamilyID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblInsuree_tblHF">
+    <End Role="tblHF" Type="IMISModel.Store.tblHF" Multiplicity="0..1" />
+    <End Role="tblInsuree" Type="IMISModel.Store.tblInsuree" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblHF">
+        <PropertyRef Name="HfID" />
+      </Principal>
+      <Dependent Role="tblInsuree">
+        <PropertyRef Name="HFID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblInsuree_tblPhotos">
+    <End Role="tblPhotos" Type="IMISModel.Store.tblPhotos" Multiplicity="0..1" />
+    <End Role="tblInsuree" Type="IMISModel.Store.tblInsuree" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblPhotos">
+        <PropertyRef Name="PhotoID" />
+      </Principal>
+      <Dependent Role="tblInsuree">
+        <PropertyRef Name="PhotoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblInsureePolicy_tblInsuree">
+    <End Role="tblInsuree" Type="IMISModel.Store.tblInsuree" Multiplicity="0..1" />
+    <End Role="tblInsureePolicy" Type="IMISModel.Store.tblInsureePolicy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblInsuree">
+        <PropertyRef Name="InsureeID" />
+      </Principal>
+      <Dependent Role="tblInsureePolicy">
+        <PropertyRef Name="InsureeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblInsureePolicy_tblPolicy">
+    <End Role="tblPolicy" Type="IMISModel.Store.tblPolicy" Multiplicity="0..1" />
+    <End Role="tblInsureePolicy" Type="IMISModel.Store.tblInsureePolicy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblPolicy">
+        <PropertyRef Name="PolicyID" />
+      </Principal>
+      <Dependent Role="tblInsureePolicy">
+        <PropertyRef Name="PolicyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblLanguages_tblUsers">
+    <End Role="tblLanguages" Type="IMISModel.Store.tblLanguages" Multiplicity="1" />
+    <End Role="tblUsers" Type="IMISModel.Store.tblUsers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblLanguages">
+        <PropertyRef Name="LanguageCode" />
+      </Principal>
+      <Dependent Role="tblUsers">
+        <PropertyRef Name="LanguageID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblLegalForms_tblHF">
+    <End Role="tblLegalForms" Type="IMISModel.Store.tblLegalForms" Multiplicity="1" />
+    <End Role="tblHF" Type="IMISModel.Store.tblHF" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblLegalForms">
+        <PropertyRef Name="LegalFormCode" />
+      </Principal>
+      <Dependent Role="tblHF">
+        <PropertyRef Name="LegalForm" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblLogins_tblUsers">
+    <End Role="tblUsers" Type="IMISModel.Store.tblUsers" Multiplicity="0..1" />
+    <End Role="tblLogins" Type="IMISModel.Store.tblLogins" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblUsers">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="tblLogins">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblOfficer_tblLocations">
+    <End Role="tblLocations" Type="IMISModel.Store.tblLocations" Multiplicity="0..1" />
+    <End Role="tblOfficer" Type="IMISModel.Store.tblOfficer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblLocations">
+        <PropertyRef Name="LocationId" />
+      </Principal>
+      <Dependent Role="tblOfficer">
+        <PropertyRef Name="LocationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblOfficer_tblOfficer">
+    <End Role="tblOfficer" Type="IMISModel.Store.tblOfficer" Multiplicity="0..1" />
+    <End Role="tblOfficer1" Type="IMISModel.Store.tblOfficer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblOfficer">
+        <PropertyRef Name="OfficerID" />
+      </Principal>
+      <Dependent Role="tblOfficer1">
+        <PropertyRef Name="OfficerIDSubst" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblOfficerVillages_tblLocations">
+    <End Role="tblLocations" Type="IMISModel.Store.tblLocations" Multiplicity="0..1" />
+    <End Role="tblOfficerVillages" Type="IMISModel.Store.tblOfficerVillages" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblLocations">
+        <PropertyRef Name="LocationId" />
+      </Principal>
+      <Dependent Role="tblOfficerVillages">
+        <PropertyRef Name="LocationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblOfficerVillages_tblOfficer">
+    <End Role="tblOfficer" Type="IMISModel.Store.tblOfficer" Multiplicity="0..1" />
+    <End Role="tblOfficerVillages" Type="IMISModel.Store.tblOfficerVillages" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblOfficer">
+        <PropertyRef Name="OfficerID" />
+      </Principal>
+      <Dependent Role="tblOfficerVillages">
+        <PropertyRef Name="OfficerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblPayer_tblLocations">
+    <End Role="tblLocations" Type="IMISModel.Store.tblLocations" Multiplicity="0..1" />
+    <End Role="tblPayer" Type="IMISModel.Store.tblPayer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblLocations">
+        <PropertyRef Name="LocationId" />
+      </Principal>
+      <Dependent Role="tblPayer">
+        <PropertyRef Name="LocationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblPayer_tblPayerType">
+    <End Role="tblPayerType" Type="IMISModel.Store.tblPayerType" Multiplicity="1" />
+    <End Role="tblPayer" Type="IMISModel.Store.tblPayer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblPayerType">
+        <PropertyRef Name="Code" />
+      </Principal>
+      <Dependent Role="tblPayer">
+        <PropertyRef Name="PayerType" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblPLItems_tblLocations">
+    <End Role="tblLocations" Type="IMISModel.Store.tblLocations" Multiplicity="0..1" />
+    <End Role="tblPLItems" Type="IMISModel.Store.tblPLItems" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblLocations">
+        <PropertyRef Name="LocationId" />
+      </Principal>
+      <Dependent Role="tblPLItems">
+        <PropertyRef Name="LocationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblPLItemsDetail_tblItems-ItemID">
+    <End Role="tblItems" Type="IMISModel.Store.tblItems" Multiplicity="1" />
+    <End Role="tblPLItemsDetail" Type="IMISModel.Store.tblPLItemsDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblItems">
+        <PropertyRef Name="ItemID" />
+      </Principal>
+      <Dependent Role="tblPLItemsDetail">
+        <PropertyRef Name="ItemID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblPLItemsDetail_tblPLItems-PLItemID">
+    <End Role="tblPLItems" Type="IMISModel.Store.tblPLItems" Multiplicity="1" />
+    <End Role="tblPLItemsDetail" Type="IMISModel.Store.tblPLItemsDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblPLItems">
+        <PropertyRef Name="PLItemID" />
+      </Principal>
+      <Dependent Role="tblPLItemsDetail">
+        <PropertyRef Name="PLItemID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblPLServices_tblLocations">
+    <End Role="tblLocations" Type="IMISModel.Store.tblLocations" Multiplicity="0..1" />
+    <End Role="tblPLServices" Type="IMISModel.Store.tblPLServices" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblLocations">
+        <PropertyRef Name="LocationId" />
+      </Principal>
+      <Dependent Role="tblPLServices">
+        <PropertyRef Name="LocationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblPLServicesDetail_tblPLServices-PLServiceID">
+    <End Role="tblPLServices" Type="IMISModel.Store.tblPLServices" Multiplicity="1" />
+    <End Role="tblPLServicesDetail" Type="IMISModel.Store.tblPLServicesDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblPLServices">
+        <PropertyRef Name="PLServiceID" />
+      </Principal>
+      <Dependent Role="tblPLServicesDetail">
+        <PropertyRef Name="PLServiceID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblPLServicesDetail_tblServices-ServiceID">
+    <End Role="tblServices" Type="IMISModel.Store.tblServices" Multiplicity="1" />
+    <End Role="tblPLServicesDetail" Type="IMISModel.Store.tblPLServicesDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblServices">
+        <PropertyRef Name="ServiceID" />
+      </Principal>
+      <Dependent Role="tblPLServicesDetail">
+        <PropertyRef Name="ServiceID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblPolicy_tblFamilies-FamilyID">
+    <End Role="tblFamilies" Type="IMISModel.Store.tblFamilies" Multiplicity="1" />
+    <End Role="tblPolicy" Type="IMISModel.Store.tblPolicy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblFamilies">
+        <PropertyRef Name="FamilyID" />
+      </Principal>
+      <Dependent Role="tblPolicy">
+        <PropertyRef Name="FamilyID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblPolicy_tblOfficer-OfficerID">
+    <End Role="tblOfficer" Type="IMISModel.Store.tblOfficer" Multiplicity="0..1" />
+    <End Role="tblPolicy" Type="IMISModel.Store.tblPolicy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblOfficer">
+        <PropertyRef Name="OfficerID" />
+      </Principal>
+      <Dependent Role="tblPolicy">
+        <PropertyRef Name="OfficerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblPolicy_tblProduct-ProductID">
+    <End Role="tblProduct" Type="IMISModel.Store.tblProduct" Multiplicity="1" />
+    <End Role="tblPolicy" Type="IMISModel.Store.tblPolicy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblProduct">
+        <PropertyRef Name="ProdID" />
+      </Principal>
+      <Dependent Role="tblPolicy">
+        <PropertyRef Name="ProdID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblPolicyRenewalDetails_tblInsuree">
+    <End Role="tblInsuree" Type="IMISModel.Store.tblInsuree" Multiplicity="1" />
+    <End Role="tblPolicyRenewalDetails" Type="IMISModel.Store.tblPolicyRenewalDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblInsuree">
+        <PropertyRef Name="InsureeID" />
+      </Principal>
+      <Dependent Role="tblPolicyRenewalDetails">
+        <PropertyRef Name="InsureeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblPolicyRenewalDetails_tblPolicyRenewals">
+    <End Role="tblPolicyRenewals" Type="IMISModel.Store.tblPolicyRenewals" Multiplicity="1" />
+    <End Role="tblPolicyRenewalDetails" Type="IMISModel.Store.tblPolicyRenewalDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblPolicyRenewals">
+        <PropertyRef Name="RenewalID" />
+      </Principal>
+      <Dependent Role="tblPolicyRenewalDetails">
+        <PropertyRef Name="RenewalID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblPolicyRenewals_tblInsuree">
+    <End Role="tblInsuree" Type="IMISModel.Store.tblInsuree" Multiplicity="1" />
+    <End Role="tblPolicyRenewals" Type="IMISModel.Store.tblPolicyRenewals" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblInsuree">
+        <PropertyRef Name="InsureeID" />
+      </Principal>
+      <Dependent Role="tblPolicyRenewals">
+        <PropertyRef Name="InsureeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblPolicyRenewals_tblOfficer">
+    <End Role="tblOfficer" Type="IMISModel.Store.tblOfficer" Multiplicity="0..1" />
+    <End Role="tblPolicyRenewals" Type="IMISModel.Store.tblPolicyRenewals" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblOfficer">
+        <PropertyRef Name="OfficerID" />
+      </Principal>
+      <Dependent Role="tblPolicyRenewals">
+        <PropertyRef Name="NewOfficerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblPolicyRenewals_tblPolicy">
+    <End Role="tblPolicy" Type="IMISModel.Store.tblPolicy" Multiplicity="1" />
+    <End Role="tblPolicyRenewals" Type="IMISModel.Store.tblPolicyRenewals" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblPolicy">
+        <PropertyRef Name="PolicyID" />
+      </Principal>
+      <Dependent Role="tblPolicyRenewals">
+        <PropertyRef Name="PolicyID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblPolicyRenewals_tblProduct">
+    <End Role="tblProduct" Type="IMISModel.Store.tblProduct" Multiplicity="1" />
+    <End Role="tblPolicyRenewals" Type="IMISModel.Store.tblPolicyRenewals" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblProduct">
+        <PropertyRef Name="ProdID" />
+      </Principal>
+      <Dependent Role="tblPolicyRenewals">
+        <PropertyRef Name="NewProdID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblPremium_tblPayer">
+    <End Role="tblPayer" Type="IMISModel.Store.tblPayer" Multiplicity="0..1" />
+    <End Role="tblPremium" Type="IMISModel.Store.tblPremium" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblPayer">
+        <PropertyRef Name="PayerID" />
+      </Principal>
+      <Dependent Role="tblPremium">
+        <PropertyRef Name="PayerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblPremium_tblPolicy">
+    <End Role="tblPolicy" Type="IMISModel.Store.tblPolicy" Multiplicity="1" />
+    <End Role="tblPremium" Type="IMISModel.Store.tblPremium" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblPolicy">
+        <PropertyRef Name="PolicyID" />
+      </Principal>
+      <Dependent Role="tblPremium">
+        <PropertyRef Name="PolicyID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblProduct_tblCeilingInterpretation">
+    <End Role="tblCeilingInterpretation" Type="IMISModel.Store.tblCeilingInterpretation" Multiplicity="0..1" />
+    <End Role="tblProduct" Type="IMISModel.Store.tblProduct" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblCeilingInterpretation">
+        <PropertyRef Name="CeilingIntCode" />
+      </Principal>
+      <Dependent Role="tblProduct">
+        <PropertyRef Name="CeilingInterpretation" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblProduct_tblLocation">
+    <End Role="tblLocations" Type="IMISModel.Store.tblLocations" Multiplicity="0..1" />
+    <End Role="tblProduct" Type="IMISModel.Store.tblProduct" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblLocations">
+        <PropertyRef Name="LocationId" />
+      </Principal>
+      <Dependent Role="tblProduct">
+        <PropertyRef Name="LocationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblProduct_tblProduct">
+    <End Role="tblProduct" Type="IMISModel.Store.tblProduct" Multiplicity="0..1" />
+    <End Role="tblProduct1" Type="IMISModel.Store.tblProduct" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblProduct">
+        <PropertyRef Name="ProdID" />
+      </Principal>
+      <Dependent Role="tblProduct1">
+        <PropertyRef Name="ConversionProdID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblProductItems_tblItems-ItemID">
+    <End Role="tblItems" Type="IMISModel.Store.tblItems" Multiplicity="1" />
+    <End Role="tblProductItems" Type="IMISModel.Store.tblProductItems" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblItems">
+        <PropertyRef Name="ItemID" />
+      </Principal>
+      <Dependent Role="tblProductItems">
+        <PropertyRef Name="ItemID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblProductItems_tblProduct-ProductID">
+    <End Role="tblProduct" Type="IMISModel.Store.tblProduct" Multiplicity="1" />
+    <End Role="tblProductItems" Type="IMISModel.Store.tblProductItems" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblProduct">
+        <PropertyRef Name="ProdID" />
+      </Principal>
+      <Dependent Role="tblProductItems">
+        <PropertyRef Name="ProdID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblProductServices_tblProduct-ProductID">
+    <End Role="tblProduct" Type="IMISModel.Store.tblProduct" Multiplicity="1" />
+    <End Role="tblProductServices" Type="IMISModel.Store.tblProductServices" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblProduct">
+        <PropertyRef Name="ProdID" />
+      </Principal>
+      <Dependent Role="tblProductServices">
+        <PropertyRef Name="ProdID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblProductServices_tblServices-ServiceID">
+    <End Role="tblServices" Type="IMISModel.Store.tblServices" Multiplicity="1" />
+    <End Role="tblProductServices" Type="IMISModel.Store.tblProductServices" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblServices">
+        <PropertyRef Name="ServiceID" />
+      </Principal>
+      <Dependent Role="tblProductServices">
+        <PropertyRef Name="ServiceID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblProfessions_tblInsuree">
+    <End Role="tblProfessions" Type="IMISModel.Store.tblProfessions" Multiplicity="0..1" />
+    <End Role="tblInsuree" Type="IMISModel.Store.tblInsuree" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblProfessions">
+        <PropertyRef Name="ProfessionId" />
+      </Principal>
+      <Dependent Role="tblInsuree">
+        <PropertyRef Name="Profession" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblRelations_tblInsuree">
+    <End Role="tblRelations" Type="IMISModel.Store.tblRelations" Multiplicity="0..1" />
+    <End Role="tblInsuree" Type="IMISModel.Store.tblInsuree" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblRelations">
+        <PropertyRef Name="RelationId" />
+      </Principal>
+      <Dependent Role="tblInsuree">
+        <PropertyRef Name="Relationship" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblRelDistr_tblProduct">
+    <End Role="tblProduct" Type="IMISModel.Store.tblProduct" Multiplicity="1" />
+    <End Role="tblRelDistr" Type="IMISModel.Store.tblRelDistr" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblProduct">
+        <PropertyRef Name="ProdID" />
+      </Principal>
+      <Dependent Role="tblRelDistr">
+        <PropertyRef Name="ProdID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblRelIndex_tblProduct">
+    <End Role="tblProduct" Type="IMISModel.Store.tblProduct" Multiplicity="1" />
+    <End Role="tblRelIndex" Type="IMISModel.Store.tblRelIndex" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblProduct">
+        <PropertyRef Name="ProdID" />
+      </Principal>
+      <Dependent Role="tblRelIndex">
+        <PropertyRef Name="ProdID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblUsersDistricts_tblLocations">
+    <End Role="tblLocations" Type="IMISModel.Store.tblLocations" Multiplicity="1" />
+    <End Role="tblUsersDistricts" Type="IMISModel.Store.tblUsersDistricts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblLocations">
+        <PropertyRef Name="LocationId" />
+      </Principal>
+      <Dependent Role="tblUsersDistricts">
+        <PropertyRef Name="LocationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblUsersDistricts_tblUsers">
+    <End Role="tblUsers" Type="IMISModel.Store.tblUsers" Multiplicity="1" />
+    <End Role="tblUsersDistricts" Type="IMISModel.Store.tblUsersDistricts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblUsers">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="tblUsersDistricts">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

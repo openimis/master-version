@@ -1,0 +1,25 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="fbdb10e9-9edf-48ab-9b22-555593f4e8a6" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Current Policies</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Current Policies</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="fdeaea1d-a927-41e3-92ea-df56f9cc5646">
+          <ID>Current Policies</ID>
+          <Name>Current Policies</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="d920952d-7719-420e-8d6a-21a3ace04bdd">
+            <DataSourceViewID>Current Policies</DataSourceViewID>
+            <TableID>dbo_tblFactNumberPolicyCurrent</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

@@ -1,0 +1,201 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="821b06fc-8ff9-4f40-b052-5c489e52ca03" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Services 1</ID>
+  <Name>Services</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-946" scrolltop="-6006" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="3784" y="15584" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Services" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="6244" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000641800004d0c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_tblDimServices" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-946</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-6006</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="6272f585-8292-4f44-952f-0105e498eebe">
+    <DataSourceViewID>Service Utilization</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="e5e609b1-7083-497e-862a-add7a012bd6e">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="a8ba779f-0ef3-46fb-9847-da23a7f09e49">
+      <ID>Service Dim Id</ID>
+      <Name>Service Dim Id</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="67d32439-127b-42b6-a1d9-ec8b0b8ae745">
+          <NullProcessing>UnknownMember</NullProcessing>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ce97c38d-b26c-424a-a8b2-43b33acaa2e8">
+            <TableID>dbo_tblDimServices</TableID>
+            <ColumnID>ServiceDimId</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="62542ec2-1873-4b72-a75d-b22469421882">
+          <AttributeID>Service Category Code</AttributeID>
+          <Name>Service Category Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ec572550-f6bd-4316-bcff-ba452aa8741d">
+          <AttributeID>Service Code</AttributeID>
+          <Name>Service Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="6aee0f13-4758-474d-9ade-8d57bebe7bbe">
+          <AttributeID>Service Name</AttributeID>
+          <Name>Service Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="77be1128-aac8-4b18-8b39-b356f15ff6a3">
+          <AttributeID>Service Category Desc</AttributeID>
+          <Name>Service Category</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c9656b00-a209-4b20-bc85-cfe5eea7c789">
+      <ID>Service Category Code</ID>
+      <Name>Service Category Code</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9156c9ff-0724-4984-9889-f0e7c570f221">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="aef924b3-1fc7-438c-a073-3934c9c32f33">
+            <TableID>dbo_tblDimServices</TableID>
+            <ColumnID>ServiceCategory</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ad1f1100-84ce-4c67-ba28-48f3f92c2372">
+      <ID>Service Code</ID>
+      <Name>Service Code</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="50bcdaa9-dfdc-472c-98f8-2c25980ad004">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fcaa8524-ad32-4bfc-ab40-e643ddbcc54b">
+            <TableID>dbo_tblDimServices</TableID>
+            <ColumnID>ServiceCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8a0c2cc5-1436-47e8-aa40-b19c0e6a132a">
+      <ID>Service Name</ID>
+      <Name>Service Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8a4774f1-9637-4b56-9174-608d3545a2d4">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d1001a25-3b9f-43ee-82ea-d700a876813e">
+            <TableID>dbo_tblDimServices</TableID>
+            <ColumnID>ServiceName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="36baacf2-5a90-4685-bef8-0452ffca82da">
+      <ID>Service Category Desc</ID>
+      <Name>Service Category</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7ba6722f-ed4b-47f4-8ea0-d5f2718a5947">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="75a7284c-20bd-4f6e-b409-5d6ee21e0d8d">
+            <TableID>dbo_tblDimServices</TableID>
+            <ColumnID>ServiceCategoryDesc</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="3be87216-b620-4030-ae2a-eb25ff067eb9">
+      <ID>Hierarchy</ID>
+      <Name>Service Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="422137a3-44cc-484c-8763-92c8d1adedb2">
+          <ID>Service Category</ID>
+          <Name>Service Category</Name>
+          <SourceAttributeID>Service Category Desc</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="647fc643-29b5-4a23-8674-c877c0e1edc5">
+          <ID>Service Name</ID>
+          <Name>Service Name</Name>
+          <SourceAttributeID>Service Name</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+</Dimension>

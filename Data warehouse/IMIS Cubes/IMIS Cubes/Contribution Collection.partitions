@@ -1,0 +1,26 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="3f301b62-8956-44af-8045-3c1039a7ac35" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Premium Collection</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Premium Collection</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="dbec0c7d-7f6b-4599-9e0b-206006321008">
+          <ID>Premium Collection</ID>
+          <Name>Premium Collection</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ab19c8ac-4ec8-4a38-b5ad-e4150121fb2e">
+            <DataSourceViewID>Premium Collection</DataSourceViewID>
+            <TableID>dbo_tblFactPremiumCollected</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <EstimatedRows>4551</EstimatedRows>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

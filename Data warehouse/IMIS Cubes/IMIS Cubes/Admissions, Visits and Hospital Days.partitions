@@ -1,0 +1,65 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="cf8f5eb2-5f1b-442a-aa8d-374158266242" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Admissions, Visits and Hospital Days</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Admissions</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="56073043-27de-4a19-ac97-2790af4275b9">
+          <ID>Admissions</ID>
+          <Name>Admissions</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="c1313a8b-f13d-488a-8eb2-0f2d46d4dd2d">
+            <DataSourceViewID>Admissions</DataSourceViewID>
+            <TableID>dbo_tblFactAdmissions</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Visits</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="1ac9ea7c-79ab-4aee-a67a-6f7dcf13c819">
+          <ID>Visits</ID>
+          <Name>Visits</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="43eae3e6-ebe0-4836-93ae-4138e89f6f12">
+            <DataSourceViewID>Admissions</DataSourceViewID>
+            <TableID>dbo_tblFactVisits</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Hospital Days</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="d199efeb-228b-4ebe-8abe-d7d9a0174a57">
+          <ID>Hospital Days</ID>
+          <Name>Hospital Days</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a5ebbd6c-b8ce-4fb7-a103-fa49d7c24d7a">
+            <DataSourceViewID>Admissions</DataSourceViewID>
+            <TableID>dbo_tblFactHospitalDays</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

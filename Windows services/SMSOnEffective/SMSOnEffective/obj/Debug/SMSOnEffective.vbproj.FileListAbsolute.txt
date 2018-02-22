@@ -1,0 +1,36 @@
+C:\Users\VMW7-A\Desktop\SMSOnEffective\SMSOnEffective\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\VMW7-A\Desktop\SMSOnEffective\SMSOnEffective\obj\Debug\SMSOnEffective.Resources.resources
+C:\Users\VMW7-A\Desktop\SMSOnEffective\SMSOnEffective\obj\Debug\SMSOnEffective.SMSOnEffective.resources
+C:\Users\VMW7-A\Desktop\SMSOnEffective\SMSOnEffective\obj\Debug\SMSOnEffective.vbproj.GenerateResource.Cache
+C:\Users\VMW7-A\Desktop\SMSOnEffective\SMSOnEffective\bin\Debug\SMSOnEffective.exe.config
+C:\Users\VMW7-A\Desktop\SMSOnEffective\SMSOnEffective\bin\Debug\SMSOnEffective.exe
+C:\Users\VMW7-A\Desktop\SMSOnEffective\SMSOnEffective\bin\Debug\SMSOnEffective.pdb
+C:\Users\VMW7-A\Desktop\SMSOnEffective\SMSOnEffective\bin\Debug\SMSOnEffective.xml
+C:\Users\VMW7-A\Desktop\SMSOnEffective\SMSOnEffective\obj\Debug\SMSOnEffective.exe
+C:\Users\VMW7-A\Desktop\SMSOnEffective\SMSOnEffective\obj\Debug\SMSOnEffective.xml
+C:\Users\VMW7-A\Desktop\SMSOnEffective\SMSOnEffective\obj\Debug\SMSOnEffective.pdb
+C:\Users\VMW7-A\Desktop\SMSOnEffective\SMSOnEffective\obj\Debug\SMSOnEffective.ProjectInstaller.resources
+D:\SMSOnEffective\SMSOnEffective\bin\Debug\SMSOnEffective.exe.config
+D:\SMSOnEffective\SMSOnEffective\obj\Debug\SMSOnEffective.exe
+D:\SMSOnEffective\SMSOnEffective\obj\Debug\SMSOnEffective.xml
+D:\SMSOnEffective\SMSOnEffective\obj\Debug\SMSOnEffective.pdb
+D:\SMSOnEffective\SMSOnEffective\bin\Debug\SMSOnEffective.exe
+D:\SMSOnEffective\SMSOnEffective\bin\Debug\SMSOnEffective.pdb
+D:\SMSOnEffective\SMSOnEffective\bin\Debug\SMSOnEffective.xml
+D:\SMSOnEffective\SMSOnEffective\obj\Debug\ResolveAssemblyReference.cache
+D:\SMSOnEffective\SMSOnEffective\obj\Debug\SMSOnEffective.Resources.resources
+D:\SMSOnEffective\SMSOnEffective\obj\Debug\SMSOnEffective.ProjectInstaller.resources
+D:\SMSOnEffective\SMSOnEffective\obj\Debug\SMSOnEffective.SMSOnEffective.resources
+D:\SMSOnEffective\SMSOnEffective\obj\Debug\SMSOnEffective.vbproj.GenerateResource.Cache
+C:\Users\VMW7-A\Desktop\IMIS Project\Master\Windows Services\SMSOnEffective\SMSOnEffective\bin\Debug\SMSOnEffective.exe.config
+C:\Users\VMW7-A\Desktop\IMIS Project\Master\Windows Services\SMSOnEffective\SMSOnEffective\obj\Debug\SMSOnEffective.exe
+C:\Users\VMW7-A\Desktop\IMIS Project\Master\Windows Services\SMSOnEffective\SMSOnEffective\obj\Debug\SMSOnEffective.xml
+C:\Users\VMW7-A\Desktop\IMIS Project\Master\Windows Services\SMSOnEffective\SMSOnEffective\obj\Debug\SMSOnEffective.pdb
+C:\Users\VMW7-A\Desktop\IMIS Project\Master\Windows Services\SMSOnEffective\SMSOnEffective\bin\Debug\SMSOnEffective.exe
+C:\Users\VMW7-A\Desktop\IMIS Project\Master\Windows Services\SMSOnEffective\SMSOnEffective\bin\Debug\SMSOnEffective.pdb
+C:\Users\VMW7-A\Desktop\IMIS Project\Master\Windows Services\SMSOnEffective\SMSOnEffective\bin\Debug\SMSOnEffective.xml
+C:\Users\VMW7-A\Desktop\IMIS Project\Master\Windows Services\SMSOnEffective\SMSOnEffective\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\VMW7-A\Desktop\IMIS Project\Master\Windows Services\SMSOnEffective\SMSOnEffective\obj\Debug\SMSOnEffective.Resources.resources
+C:\Users\VMW7-A\Desktop\IMIS Project\Master\Windows Services\SMSOnEffective\SMSOnEffective\obj\Debug\SMSOnEffective.ProjectInstaller.resources
+C:\Users\VMW7-A\Desktop\IMIS Project\Master\Windows Services\SMSOnEffective\SMSOnEffective\obj\Debug\SMSOnEffective.SMSOnEffective.resources
+C:\Users\VMW7-A\Desktop\IMIS Project\Master\Windows Services\SMSOnEffective\SMSOnEffective\obj\Debug\SMSOnEffective.vbproj.GenerateResource.Cache
