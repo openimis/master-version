@@ -1,0 +1,23 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 21
+    buildToolsVersion '25.0.0'
+    defaultConfig {
+        applicationId "com.exact.imis.enrollment"
+        minSdkVersion 7
+        targetSdkVersion 7
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile project(':CaptureActivity')
+    compile project(':General')
+}

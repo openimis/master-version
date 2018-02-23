@@ -1,0 +1,3619 @@
+[
+    {
+        "outputFile": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 33,
+                    "endColumn": 10,
+                    "endOffset": 693
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 33,
+                        "endColumn": 10,
+                        "endOffset": 693
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 698,
+                    "endColumn": 37,
+                    "endOffset": 731
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 1,
+                        "startOffset": 54,
+                        "endColumn": 34,
+                        "endOffset": 87
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 736,
+                    "endColumn": 49,
+                    "endOffset": 781
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 698,
+                        "endColumn": 49,
+                        "endOffset": 743
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 786,
+                    "endColumn": 47,
+                    "endOffset": 829
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 748,
+                        "endColumn": 47,
+                        "endOffset": 791
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 834,
+                    "endColumn": 52,
+                    "endOffset": 882
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 796,
+                        "endColumn": 52,
+                        "endOffset": 844
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 887,
+                    "endColumn": 45,
+                    "endOffset": 928
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 849,
+                        "endColumn": 45,
+                        "endOffset": 890
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 933,
+                    "endColumn": 58,
+                    "endOffset": 987
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 895,
+                        "endColumn": 58,
+                        "endOffset": 949
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 992,
+                    "endColumn": 55,
+                    "endOffset": 1043
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 4,
+                        "startOffset": 954,
+                        "endColumn": 55,
+                        "endOffset": 1005
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 1048,
+                    "endColumn": 53,
+                    "endOffset": 1097
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 4,
+                        "startOffset": 1010,
+                        "endColumn": 53,
+                        "endOffset": 1059
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 1102,
+                    "endColumn": 49,
+                    "endOffset": 1147
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 4,
+                        "startOffset": 1064,
+                        "endColumn": 49,
+                        "endOffset": 1109
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 1152,
+                    "endColumn": 47,
+                    "endOffset": 1195
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 1114,
+                        "endColumn": 47,
+                        "endOffset": 1157
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 1200,
+                    "endColumn": 47,
+                    "endOffset": 1243
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 1162,
+                        "endColumn": 47,
+                        "endOffset": 1205
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 1248,
+                    "endColumn": 51,
+                    "endOffset": 1295
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 1210,
+                        "endColumn": 51,
+                        "endOffset": 1257
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 1300,
+                    "endColumn": 51,
+                    "endOffset": 1347
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 4,
+                        "startOffset": 1262,
+                        "endColumn": 51,
+                        "endOffset": 1309
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 1352,
+                    "endColumn": 51,
+                    "endOffset": 1399
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 4,
+                        "startOffset": 1314,
+                        "endColumn": 51,
+                        "endOffset": 1361
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 1404,
+                    "endColumn": 49,
+                    "endOffset": 1449
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 4,
+                        "startOffset": 1366,
+                        "endColumn": 49,
+                        "endOffset": 1411
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 1454,
+                    "endColumn": 56,
+                    "endOffset": 1506
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 4,
+                        "startOffset": 1416,
+                        "endColumn": 56,
+                        "endOffset": 1468
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 1511,
+                    "endColumn": 52,
+                    "endOffset": 1559
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 4,
+                        "startOffset": 1473,
+                        "endColumn": 52,
+                        "endOffset": 1521
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 1564,
+                    "endColumn": 46,
+                    "endOffset": 1606
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 1526,
+                        "endColumn": 46,
+                        "endOffset": 1568
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 1611,
+                    "endColumn": 47,
+                    "endOffset": 1654
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 51,
+                        "startColumn": 4,
+                        "startOffset": 1573,
+                        "endColumn": 47,
+                        "endOffset": 1616
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 1659,
+                    "endColumn": 47,
+                    "endOffset": 1702
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 52,
+                        "startColumn": 4,
+                        "startOffset": 1621,
+                        "endColumn": 47,
+                        "endOffset": 1664
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 1707,
+                    "endColumn": 52,
+                    "endOffset": 1755
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 53,
+                        "startColumn": 4,
+                        "startOffset": 1669,
+                        "endColumn": 52,
+                        "endOffset": 1717
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 1760,
+                    "endColumn": 52,
+                    "endOffset": 1808
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 4,
+                        "startOffset": 1722,
+                        "endColumn": 52,
+                        "endOffset": 1770
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 1813,
+                    "endColumn": 51,
+                    "endOffset": 1860
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 4,
+                        "startOffset": 1775,
+                        "endColumn": 51,
+                        "endOffset": 1822
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 1865,
+                    "endColumn": 39,
+                    "endOffset": 1900
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 4,
+                        "startOffset": 1827,
+                        "endColumn": 39,
+                        "endOffset": 1862
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 1905,
+                    "endColumn": 35,
+                    "endOffset": 1936
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 4,
+                        "startOffset": 1867,
+                        "endColumn": 35,
+                        "endOffset": 1898
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 1941,
+                    "endColumn": 42,
+                    "endOffset": 1979
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 4,
+                        "startOffset": 1903,
+                        "endColumn": 42,
+                        "endOffset": 1941
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 60,
+                    "startColumn": 4,
+                    "startOffset": 1984,
+                    "endColumn": 45,
+                    "endOffset": 2025
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 59,
+                        "startColumn": 4,
+                        "startOffset": 1946,
+                        "endColumn": 45,
+                        "endOffset": 1987
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 61,
+                    "startColumn": 4,
+                    "startOffset": 2030,
+                    "endColumn": 49,
+                    "endOffset": 2075
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 60,
+                        "startColumn": 4,
+                        "startOffset": 1992,
+                        "endColumn": 49,
+                        "endOffset": 2037
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 62,
+                    "startColumn": 4,
+                    "startOffset": 2080,
+                    "endColumn": 33,
+                    "endOffset": 2109
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 61,
+                        "startColumn": 4,
+                        "startOffset": 2042,
+                        "endColumn": 33,
+                        "endOffset": 2071
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 63,
+                    "startColumn": 4,
+                    "startOffset": 2114,
+                    "endColumn": 44,
+                    "endOffset": 2154
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 4,
+                        "startOffset": 2076,
+                        "endColumn": 44,
+                        "endOffset": 2116
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 64,
+                    "startColumn": 4,
+                    "startOffset": 2159,
+                    "endColumn": 47,
+                    "endOffset": 2202
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 63,
+                        "startColumn": 4,
+                        "startOffset": 2121,
+                        "endColumn": 47,
+                        "endOffset": 2164
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 65,
+                    "startColumn": 4,
+                    "startOffset": 2207,
+                    "endColumn": 56,
+                    "endOffset": 2259
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 4,
+                        "startOffset": 2169,
+                        "endColumn": 56,
+                        "endOffset": 2221
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 66,
+                    "startColumn": 4,
+                    "startOffset": 2264,
+                    "endColumn": 59,
+                    "endOffset": 2319
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 65,
+                        "startColumn": 4,
+                        "startOffset": 2226,
+                        "endColumn": 59,
+                        "endOffset": 2281
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 67,
+                    "startColumn": 4,
+                    "startOffset": 2324,
+                    "endColumn": 47,
+                    "endOffset": 2367
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 1,
+                        "startOffset": 255,
+                        "endColumn": 44,
+                        "endOffset": 298
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 68,
+                    "startColumn": 4,
+                    "startOffset": 2372,
+                    "endColumn": 98,
+                    "endOffset": 2466
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 1,
+                        "startOffset": 1370,
+                        "endColumn": 95,
+                        "endOffset": 1464
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 69,
+                    "startColumn": 4,
+                    "startOffset": 2471,
+                    "endColumn": 63,
+                    "endOffset": 2530
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1738,
+                        "endColumn": 63,
+                        "endOffset": 1797
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 70,
+                    "startColumn": 4,
+                    "startOffset": 2535,
+                    "endColumn": 81,
+                    "endOffset": 2612
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 1,
+                        "startOffset": 1655,
+                        "endColumn": 78,
+                        "endOffset": 1732
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 71,
+                    "startColumn": 4,
+                    "startOffset": 2617,
+                    "endColumn": 115,
+                    "endOffset": 2728
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 1,
+                        "startOffset": 982,
+                        "endColumn": 112,
+                        "endOffset": 1093
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 72,
+                    "startColumn": 4,
+                    "startOffset": 2733,
+                    "endColumn": 44,
+                    "endOffset": 2773
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 1,
+                        "startOffset": 2227,
+                        "endColumn": 41,
+                        "endOffset": 2267
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 73,
+                    "startColumn": 4,
+                    "startOffset": 2778,
+                    "endColumn": 96,
+                    "endOffset": 2870
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 1,
+                        "startOffset": 1467,
+                        "endColumn": 93,
+                        "endOffset": 1559
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 74,
+                    "startColumn": 4,
+                    "startOffset": 2875,
+                    "endColumn": 50,
+                    "endOffset": 2921
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 1,
+                        "startOffset": 638,
+                        "endColumn": 47,
+                        "endOffset": 684
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 75,
+                    "startColumn": 4,
+                    "startOffset": 2926,
+                    "endColumn": 55,
+                    "endOffset": 2977
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 1,
+                        "startOffset": 1923,
+                        "endColumn": 52,
+                        "endOffset": 1974
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 76,
+                    "startColumn": 4,
+                    "startOffset": 2982,
+                    "endColumn": 53,
+                    "endOffset": 3031
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 1,
+                        "startOffset": 2029,
+                        "endColumn": 50,
+                        "endOffset": 2078
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 77,
+                    "startColumn": 4,
+                    "startOffset": 3036,
+                    "endColumn": 100,
+                    "endOffset": 3132
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 1,
+                        "startOffset": 2081,
+                        "endColumn": 97,
+                        "endOffset": 2177
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 78,
+                    "startColumn": 4,
+                    "startOffset": 3137,
+                    "endColumn": 62,
+                    "endOffset": 3195
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 1,
+                        "startOffset": 1594,
+                        "endColumn": 59,
+                        "endOffset": 1652
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 79,
+                    "startColumn": 4,
+                    "startOffset": 3200,
+                    "endColumn": 67,
+                    "endOffset": 3263
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 1,
+                        "startOffset": 760,
+                        "endColumn": 64,
+                        "endOffset": 823
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 80,
+                    "startColumn": 4,
+                    "startOffset": 3268,
+                    "endColumn": 64,
+                    "endOffset": 3328
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 1,
+                        "startOffset": 2337,
+                        "endColumn": 61,
+                        "endOffset": 2397
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 81,
+                    "startColumn": 4,
+                    "startOffset": 3333,
+                    "endColumn": 64,
+                    "endOffset": 3393
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 1,
+                        "startOffset": 826,
+                        "endColumn": 61,
+                        "endOffset": 886
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 82,
+                    "startColumn": 4,
+                    "startOffset": 3398,
+                    "endColumn": 74,
+                    "endOffset": 3468
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 1,
+                        "startOffset": 687,
+                        "endColumn": 71,
+                        "endOffset": 757
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 83,
+                    "startColumn": 4,
+                    "startOffset": 3473,
+                    "endColumn": 68,
+                    "endOffset": 3537
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 1,
+                        "startOffset": 2270,
+                        "endColumn": 65,
+                        "endOffset": 2334
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 84,
+                    "startColumn": 4,
+                    "startOffset": 3542,
+                    "endColumn": 53,
+                    "endOffset": 3591
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 1,
+                        "startOffset": 1318,
+                        "endColumn": 50,
+                        "endOffset": 1367
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 85,
+                    "startColumn": 4,
+                    "startOffset": 3596,
+                    "endColumn": 131,
+                    "endOffset": 3723
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 1,
+                        "startOffset": 508,
+                        "endColumn": 128,
+                        "endOffset": 635
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 86,
+                    "startColumn": 4,
+                    "startOffset": 3728,
+                    "endColumn": 53,
+                    "endOffset": 3777
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 1,
+                        "startOffset": 1977,
+                        "endColumn": 50,
+                        "endOffset": 2026
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 87,
+                    "startColumn": 4,
+                    "startOffset": 3782,
+                    "endColumn": 71,
+                    "endOffset": 3849
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1803,
+                        "endColumn": 71,
+                        "endOffset": 1870
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 88,
+                    "startColumn": 4,
+                    "startOffset": 3854,
+                    "endColumn": 33,
+                    "endOffset": 3883
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 1,
+                        "startOffset": 1562,
+                        "endColumn": 30,
+                        "endOffset": 1591
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 89,
+                    "startColumn": 4,
+                    "startOffset": 3888,
+                    "endColumn": 54,
+                    "endOffset": 3938
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 202,
+                        "endColumn": 54,
+                        "endOffset": 252
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 90,
+                    "startColumn": 4,
+                    "startOffset": 3943,
+                    "endColumn": 52,
+                    "endOffset": 3991
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 148,
+                        "endColumn": 52,
+                        "endOffset": 196
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 91,
+                    "startColumn": 4,
+                    "startOffset": 3996,
+                    "endColumn": 33,
+                    "endOffset": 4025
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 1,
+                        "startOffset": 1286,
+                        "endColumn": 30,
+                        "endOffset": 1315
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 92,
+                    "startColumn": 4,
+                    "startOffset": 4030,
+                    "endColumn": 132,
+                    "endOffset": 4158
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 1,
+                        "startOffset": 377,
+                        "endColumn": 129,
+                        "endOffset": 505
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 93,
+                    "startColumn": 4,
+                    "startOffset": 4163,
+                    "endColumn": 94,
+                    "endOffset": 4253
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 1,
+                        "startOffset": 889,
+                        "endColumn": 91,
+                        "endOffset": 979
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 94,
+                    "startColumn": 4,
+                    "startOffset": 4258,
+                    "endColumn": 37,
+                    "endOffset": 4291
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 1,
+                        "startOffset": 301,
+                        "endColumn": 34,
+                        "endOffset": 334
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 95,
+                    "startColumn": 4,
+                    "startOffset": 4296,
+                    "endColumn": 48,
+                    "endOffset": 4340
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 1,
+                        "startOffset": 2180,
+                        "endColumn": 45,
+                        "endOffset": 2224
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 96,
+                    "startColumn": 4,
+                    "startOffset": 4345,
+                    "endColumn": 49,
+                    "endOffset": 4390
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 1,
+                        "startOffset": 1875,
+                        "endColumn": 46,
+                        "endOffset": 1920
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 97,
+                    "startColumn": 4,
+                    "startOffset": 4395,
+                    "endColumn": 41,
+                    "endOffset": 4432
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 1,
+                        "startOffset": 337,
+                        "endColumn": 38,
+                        "endOffset": 374
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 98,
+                    "startColumn": 4,
+                    "startOffset": 4437,
+                    "endColumn": 61,
+                    "endOffset": 4494
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 1,
+                        "startOffset": 1226,
+                        "endColumn": 58,
+                        "endOffset": 1283
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 99,
+                    "startColumn": 4,
+                    "startOffset": 4499,
+                    "endColumn": 78,
+                    "endOffset": 4573
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 1,
+                        "startOffset": 1096,
+                        "endColumn": 75,
+                        "endOffset": 1170
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 100,
+                    "startColumn": 4,
+                    "startOffset": 4578,
+                    "endColumn": 48,
+                    "endOffset": 4622
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 1,
+                        "startOffset": 1173,
+                        "endColumn": 51,
+                        "endOffset": 1223
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 101,
+                    "startColumn": 4,
+                    "startOffset": 4627,
+                    "endColumn": 52,
+                    "endOffset": 4675
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 1,
+                        "startOffset": 2400,
+                        "endColumn": 49,
+                        "endOffset": 2448
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 102,
+                    "startColumn": 4,
+                    "startOffset": 4680,
+                    "endColumn": 47,
+                    "endOffset": 4723
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 99,
+                        "endColumn": 47,
+                        "endOffset": 142
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 103,
+                    "startColumn": 4,
+                    "startOffset": 4728,
+                    "endColumn": 56,
+                    "endOffset": 4780
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 67,
+                        "startColumn": 4,
+                        "startOffset": 2339,
+                        "endColumn": 56,
+                        "endOffset": 2391
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 104,
+                    "startColumn": 4,
+                    "startOffset": 4785,
+                    "endColumn": 58,
+                    "endOffset": 4839
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 68,
+                        "startColumn": 4,
+                        "startOffset": 2396,
+                        "endColumn": 58,
+                        "endOffset": 2450
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 105,
+                    "startColumn": 4,
+                    "startOffset": 4844,
+                    "endColumn": 63,
+                    "endOffset": 4903
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 69,
+                        "startColumn": 4,
+                        "startOffset": 2455,
+                        "endColumn": 63,
+                        "endOffset": 2514
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 106,
+                    "startColumn": 4,
+                    "startOffset": 4908,
+                    "endColumn": 58,
+                    "endOffset": 4962
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 70,
+                        "startColumn": 4,
+                        "startOffset": 2519,
+                        "endColumn": 58,
+                        "endOffset": 2573
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 107,
+                    "startColumn": 4,
+                    "startOffset": 4967,
+                    "endColumn": 44,
+                    "endOffset": 5007
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 71,
+                        "startColumn": 4,
+                        "startOffset": 2578,
+                        "endColumn": 44,
+                        "endOffset": 2618
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 108,
+                    "startColumn": 4,
+                    "startOffset": 5012,
+                    "endColumn": 58,
+                    "endOffset": 5066
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 72,
+                        "startColumn": 4,
+                        "startOffset": 2623,
+                        "endColumn": 58,
+                        "endOffset": 2677
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 109,
+                    "startColumn": 4,
+                    "startOffset": 5071,
+                    "endColumn": 48,
+                    "endOffset": 5115
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 73,
+                        "startColumn": 4,
+                        "startOffset": 2682,
+                        "endColumn": 48,
+                        "endOffset": 2726
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 110,
+                    "startColumn": 4,
+                    "startOffset": 5120,
+                    "endColumn": 66,
+                    "endOffset": 5182
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 74,
+                        "startColumn": 4,
+                        "startOffset": 2731,
+                        "endColumn": 66,
+                        "endOffset": 2793
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 111,
+                    "startColumn": 4,
+                    "startOffset": 5187,
+                    "endColumn": 70,
+                    "endOffset": 5253
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 75,
+                        "startColumn": 4,
+                        "startOffset": 2798,
+                        "endColumn": 70,
+                        "endOffset": 2864
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 112,
+                    "startColumn": 4,
+                    "startOffset": 5258,
+                    "endColumn": 51,
+                    "endOffset": 5305
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 76,
+                        "startColumn": 4,
+                        "startOffset": 2869,
+                        "endColumn": 51,
+                        "endOffset": 2916
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 113,
+                    "startColumn": 4,
+                    "startOffset": 5310,
+                    "endColumn": 44,
+                    "endOffset": 5350
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 77,
+                        "startColumn": 4,
+                        "startOffset": 2921,
+                        "endColumn": 44,
+                        "endOffset": 2961
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 114,
+                    "startColumn": 4,
+                    "startOffset": 5355,
+                    "endColumn": 51,
+                    "endOffset": 5402
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 78,
+                        "startColumn": 4,
+                        "startOffset": 2966,
+                        "endColumn": 51,
+                        "endOffset": 3013
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 115,
+                    "startColumn": 4,
+                    "startOffset": 5407,
+                    "endColumn": 64,
+                    "endOffset": 5467
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 79,
+                        "startColumn": 4,
+                        "startOffset": 3018,
+                        "endColumn": 64,
+                        "endOffset": 3078
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 116,
+                    "startColumn": 4,
+                    "startOffset": 5472,
+                    "endColumn": 64,
+                    "endOffset": 5532
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 80,
+                        "startColumn": 4,
+                        "startOffset": 3083,
+                        "endColumn": 64,
+                        "endOffset": 3143
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 117,
+                    "startColumn": 4,
+                    "startOffset": 5537,
+                    "endColumn": 47,
+                    "endOffset": 5580
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 81,
+                        "startColumn": 4,
+                        "startOffset": 3148,
+                        "endColumn": 47,
+                        "endOffset": 3191
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 118,
+                    "startColumn": 4,
+                    "startOffset": 5585,
+                    "endColumn": 40,
+                    "endOffset": 5621
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 82,
+                        "startColumn": 4,
+                        "startOffset": 3196,
+                        "endColumn": 40,
+                        "endOffset": 3232
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 119,
+                    "startColumn": 4,
+                    "startOffset": 5626,
+                    "endColumn": 60,
+                    "endOffset": 5682
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 83,
+                        "startColumn": 4,
+                        "startOffset": 3237,
+                        "endColumn": 60,
+                        "endOffset": 3293
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 120,
+                    "startColumn": 4,
+                    "startOffset": 5687,
+                    "endColumn": 64,
+                    "endOffset": 5747
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 84,
+                        "startColumn": 4,
+                        "startOffset": 3298,
+                        "endColumn": 64,
+                        "endOffset": 3358
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 121,
+                    "startColumn": 4,
+                    "startOffset": 5752,
+                    "endColumn": 71,
+                    "endOffset": 5819
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 85,
+                        "startColumn": 4,
+                        "startOffset": 3363,
+                        "endColumn": 71,
+                        "endOffset": 3430
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 122,
+                    "startColumn": 4,
+                    "startOffset": 5824,
+                    "endColumn": 56,
+                    "endOffset": 5876
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 86,
+                        "startColumn": 4,
+                        "startOffset": 3435,
+                        "endColumn": 56,
+                        "endOffset": 3487
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 123,
+                    "startColumn": 4,
+                    "startOffset": 5881,
+                    "endColumn": 58,
+                    "endOffset": 5935
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 87,
+                        "startColumn": 4,
+                        "startOffset": 3492,
+                        "endColumn": 58,
+                        "endOffset": 3546
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 124,
+                    "startColumn": 4,
+                    "startOffset": 5940,
+                    "endColumn": 65,
+                    "endOffset": 6001
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 88,
+                        "startColumn": 4,
+                        "startOffset": 3551,
+                        "endColumn": 65,
+                        "endOffset": 3612
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 125,
+                    "startColumn": 4,
+                    "startOffset": 6006,
+                    "endColumn": 61,
+                    "endOffset": 6063
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 89,
+                        "startColumn": 4,
+                        "startOffset": 3617,
+                        "endColumn": 61,
+                        "endOffset": 3674
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 126,
+                    "startColumn": 4,
+                    "startOffset": 6068,
+                    "endColumn": 60,
+                    "endOffset": 6124
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 90,
+                        "startColumn": 4,
+                        "startOffset": 3679,
+                        "endColumn": 60,
+                        "endOffset": 3735
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 127,
+                    "startColumn": 4,
+                    "startOffset": 6129,
+                    "endColumn": 56,
+                    "endOffset": 6181
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 91,
+                        "startColumn": 4,
+                        "startOffset": 3740,
+                        "endColumn": 56,
+                        "endOffset": 3792
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 128,
+                    "startColumn": 4,
+                    "startOffset": 6186,
+                    "endColumn": 52,
+                    "endOffset": 6234
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 92,
+                        "startColumn": 4,
+                        "startOffset": 3797,
+                        "endColumn": 52,
+                        "endOffset": 3845
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 129,
+                    "startColumn": 4,
+                    "startOffset": 6239,
+                    "endColumn": 47,
+                    "endOffset": 6282
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 93,
+                        "startColumn": 4,
+                        "startOffset": 3850,
+                        "endColumn": 47,
+                        "endOffset": 3893
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 130,
+                    "startColumn": 4,
+                    "startOffset": 6287,
+                    "endColumn": 56,
+                    "endOffset": 6339
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 94,
+                        "startColumn": 4,
+                        "startOffset": 3898,
+                        "endColumn": 56,
+                        "endOffset": 3950
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 131,
+                    "startColumn": 4,
+                    "startOffset": 6344,
+                    "endColumn": 58,
+                    "endOffset": 6398
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 95,
+                        "startColumn": 4,
+                        "startOffset": 3955,
+                        "endColumn": 58,
+                        "endOffset": 4009
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 132,
+                    "startColumn": 4,
+                    "startOffset": 6403,
+                    "endColumn": 57,
+                    "endOffset": 6456
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 96,
+                        "startColumn": 4,
+                        "startOffset": 4014,
+                        "endColumn": 57,
+                        "endOffset": 4067
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 133,
+                    "startColumn": 4,
+                    "startOffset": 6461,
+                    "endColumn": 56,
+                    "endOffset": 6513
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 97,
+                        "startColumn": 4,
+                        "startOffset": 4072,
+                        "endColumn": 56,
+                        "endOffset": 4124
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 134,
+                    "startColumn": 4,
+                    "startOffset": 6518,
+                    "endColumn": 68,
+                    "endOffset": 6582
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 98,
+                        "startColumn": 4,
+                        "startOffset": 4129,
+                        "endColumn": 68,
+                        "endOffset": 4193
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 135,
+                    "startColumn": 4,
+                    "startOffset": 6587,
+                    "endColumn": 55,
+                    "endOffset": 6638
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 99,
+                        "startColumn": 4,
+                        "startOffset": 4198,
+                        "endColumn": 55,
+                        "endOffset": 4249
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 136,
+                    "startColumn": 4,
+                    "startOffset": 6643,
+                    "endColumn": 52,
+                    "endOffset": 6691
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 100,
+                        "startColumn": 4,
+                        "startOffset": 4254,
+                        "endColumn": 52,
+                        "endOffset": 4302
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 137,
+                    "startColumn": 4,
+                    "startOffset": 6696,
+                    "endColumn": 52,
+                    "endOffset": 6744
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 101,
+                        "startColumn": 4,
+                        "startOffset": 4307,
+                        "endColumn": 52,
+                        "endOffset": 4355
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 138,
+                    "startColumn": 4,
+                    "startOffset": 6749,
+                    "endColumn": 46,
+                    "endOffset": 6791
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\General\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 100,
+                        "endColumn": 46,
+                        "endOffset": 142
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 139,
+                    "startColumn": 4,
+                    "startOffset": 6796,
+                    "endColumn": 64,
+                    "endOffset": 6856
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 102,
+                        "startColumn": 4,
+                        "startOffset": 4360,
+                        "endColumn": 64,
+                        "endOffset": 4420
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 140,
+                    "startColumn": 4,
+                    "startOffset": 6861,
+                    "endColumn": 60,
+                    "endOffset": 6917
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 103,
+                        "startColumn": 4,
+                        "startOffset": 4425,
+                        "endColumn": 60,
+                        "endOffset": 4481
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 141,
+                    "startColumn": 4,
+                    "startOffset": 6922,
+                    "endColumn": 71,
+                    "endOffset": 6989
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 104,
+                        "startColumn": 4,
+                        "startOffset": 4486,
+                        "endColumn": 71,
+                        "endOffset": 4553
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 142,
+                    "startColumn": 4,
+                    "startOffset": 6994,
+                    "endColumn": 47,
+                    "endOffset": 7037
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 105,
+                        "startColumn": 4,
+                        "startOffset": 4558,
+                        "endColumn": 47,
+                        "endOffset": 4601
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 143,
+                    "startColumn": 4,
+                    "startOffset": 7042,
+                    "endColumn": 84,
+                    "endOffset": 7122
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 106,
+                        "startColumn": 4,
+                        "startOffset": 4606,
+                        "endColumn": 84,
+                        "endOffset": 4686
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 144,
+                    "startColumn": 4,
+                    "startOffset": 7127,
+                    "endColumn": 53,
+                    "endOffset": 7176
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 107,
+                        "startColumn": 4,
+                        "startOffset": 4691,
+                        "endColumn": 53,
+                        "endOffset": 4740
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 145,
+                    "startColumn": 4,
+                    "startOffset": 7181,
+                    "endColumn": 49,
+                    "endOffset": 7226
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 108,
+                        "startColumn": 4,
+                        "startOffset": 4745,
+                        "endColumn": 49,
+                        "endOffset": 4790
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 146,
+                    "startColumn": 4,
+                    "startOffset": 7231,
+                    "endColumn": 44,
+                    "endOffset": 7271
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 109,
+                        "startColumn": 4,
+                        "startOffset": 4795,
+                        "endColumn": 44,
+                        "endOffset": 4835
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 147,
+                    "startColumn": 4,
+                    "startOffset": 7276,
+                    "endColumn": 57,
+                    "endOffset": 7329
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 110,
+                        "startColumn": 4,
+                        "startOffset": 4840,
+                        "endColumn": 57,
+                        "endOffset": 4893
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 148,
+                    "startColumn": 4,
+                    "startOffset": 7334,
+                    "endColumn": 55,
+                    "endOffset": 7385
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 111,
+                        "startColumn": 4,
+                        "startOffset": 4898,
+                        "endColumn": 55,
+                        "endOffset": 4949
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 149,
+                    "startColumn": 4,
+                    "startOffset": 7390,
+                    "endColumn": 42,
+                    "endOffset": 7428
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 112,
+                        "startColumn": 4,
+                        "startOffset": 4954,
+                        "endColumn": 42,
+                        "endOffset": 4992
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 150,
+                    "startColumn": 4,
+                    "startOffset": 7433,
+                    "endColumn": 48,
+                    "endOffset": 7477
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 113,
+                        "startColumn": 4,
+                        "startOffset": 4997,
+                        "endColumn": 48,
+                        "endOffset": 5041
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 151,
+                    "startColumn": 4,
+                    "startOffset": 7482,
+                    "endColumn": 50,
+                    "endOffset": 7528
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 114,
+                        "startColumn": 4,
+                        "startOffset": 5046,
+                        "endColumn": 50,
+                        "endOffset": 5092
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 152,
+                    "startColumn": 4,
+                    "startOffset": 7533,
+                    "endColumn": 44,
+                    "endOffset": 7573
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 115,
+                        "startColumn": 4,
+                        "startOffset": 5097,
+                        "endColumn": 44,
+                        "endOffset": 5137
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 153,
+                    "startColumn": 4,
+                    "startOffset": 7578,
+                    "endColumn": 104,
+                    "endOffset": 7678
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 116,
+                        "startColumn": 4,
+                        "startOffset": 5142,
+                        "endColumn": 104,
+                        "endOffset": 5242
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 154,
+                    "startColumn": 4,
+                    "startOffset": 7683,
+                    "endColumn": 86,
+                    "endOffset": 7765
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 117,
+                        "startColumn": 4,
+                        "startOffset": 5247,
+                        "endColumn": 86,
+                        "endOffset": 5329
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 155,
+                    "startColumn": 4,
+                    "startOffset": 7770,
+                    "endColumn": 137,
+                    "endOffset": 7903
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 118,
+                        "startColumn": 4,
+                        "startOffset": 5334,
+                        "endColumn": 137,
+                        "endOffset": 5467
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 156,
+                    "startColumn": 4,
+                    "startOffset": 7908,
+                    "endColumn": 53,
+                    "endOffset": 7957
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 119,
+                        "startColumn": 4,
+                        "startOffset": 5472,
+                        "endColumn": 53,
+                        "endOffset": 5521
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 157,
+                    "startColumn": 4,
+                    "startOffset": 7962,
+                    "endColumn": 53,
+                    "endOffset": 8011
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 120,
+                        "startColumn": 4,
+                        "startOffset": 5526,
+                        "endColumn": 53,
+                        "endOffset": 5575
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 158,
+                    "startColumn": 4,
+                    "startOffset": 8016,
+                    "endColumn": 54,
+                    "endOffset": 8066
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 121,
+                        "startColumn": 4,
+                        "startOffset": 5580,
+                        "endColumn": 54,
+                        "endOffset": 5630
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 159,
+                    "startColumn": 4,
+                    "startOffset": 8071,
+                    "endColumn": 106,
+                    "endOffset": 8173
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 122,
+                        "startColumn": 4,
+                        "startOffset": 5635,
+                        "endColumn": 106,
+                        "endOffset": 5737
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 160,
+                    "startColumn": 4,
+                    "startOffset": 8178,
+                    "endColumn": 49,
+                    "endOffset": 8223
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 123,
+                        "startColumn": 4,
+                        "startOffset": 5742,
+                        "endColumn": 49,
+                        "endOffset": 5787
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 161,
+                    "startColumn": 4,
+                    "startOffset": 8228,
+                    "endColumn": 49,
+                    "endOffset": 8273
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 124,
+                        "startColumn": 4,
+                        "startOffset": 5792,
+                        "endColumn": 49,
+                        "endOffset": 5837
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 162,
+                    "startColumn": 4,
+                    "startOffset": 8278,
+                    "endColumn": 105,
+                    "endOffset": 8379
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 125,
+                        "startColumn": 4,
+                        "startOffset": 5842,
+                        "endColumn": 105,
+                        "endOffset": 5943
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 163,
+                    "startColumn": 4,
+                    "startOffset": 8384,
+                    "endColumn": 57,
+                    "endOffset": 8437
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 126,
+                        "startColumn": 4,
+                        "startOffset": 5948,
+                        "endColumn": 57,
+                        "endOffset": 6001
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 164,
+                    "startColumn": 4,
+                    "startOffset": 8442,
+                    "endColumn": 68,
+                    "endOffset": 8506
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 127,
+                        "startColumn": 4,
+                        "startOffset": 6006,
+                        "endColumn": 68,
+                        "endOffset": 6070
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 165,
+                    "startColumn": 4,
+                    "startOffset": 8511,
+                    "endColumn": 86,
+                    "endOffset": 8593
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 128,
+                        "startColumn": 4,
+                        "startOffset": 6075,
+                        "endColumn": 86,
+                        "endOffset": 6157
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 166,
+                    "startColumn": 4,
+                    "startOffset": 8598,
+                    "endColumn": 197,
+                    "endOffset": 8791
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 129,
+                        "startColumn": 4,
+                        "startOffset": 6162,
+                        "endColumn": 197,
+                        "endOffset": 6355
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 167,
+                    "startColumn": 4,
+                    "startOffset": 8796,
+                    "endColumn": 138,
+                    "endOffset": 8930
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 130,
+                        "startColumn": 4,
+                        "startOffset": 6360,
+                        "endColumn": 138,
+                        "endOffset": 6494
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 168,
+                    "startColumn": 4,
+                    "startOffset": 8935,
+                    "endColumn": 49,
+                    "endOffset": 8980
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 131,
+                        "startColumn": 4,
+                        "startOffset": 6499,
+                        "endColumn": 49,
+                        "endOffset": 6544
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 169,
+                    "startColumn": 4,
+                    "startOffset": 8985,
+                    "endColumn": 91,
+                    "endOffset": 9072
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 132,
+                        "startColumn": 4,
+                        "startOffset": 6549,
+                        "endColumn": 91,
+                        "endOffset": 6636
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 170,
+                    "startColumn": 4,
+                    "startOffset": 9077,
+                    "endColumn": 83,
+                    "endOffset": 9156
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 133,
+                        "startColumn": 4,
+                        "startOffset": 6641,
+                        "endColumn": 83,
+                        "endOffset": 6720
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 171,
+                    "startColumn": 4,
+                    "startOffset": 9161,
+                    "endColumn": 69,
+                    "endOffset": 9226
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 134,
+                        "startColumn": 4,
+                        "startOffset": 6725,
+                        "endColumn": 69,
+                        "endOffset": 6790
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 172,
+                    "startColumn": 4,
+                    "startOffset": 9231,
+                    "endColumn": 45,
+                    "endOffset": 9272
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 135,
+                        "startColumn": 4,
+                        "startOffset": 6795,
+                        "endColumn": 45,
+                        "endOffset": 6836
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 173,
+                    "startColumn": 4,
+                    "startOffset": 9277,
+                    "endColumn": 71,
+                    "endOffset": 9344
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 136,
+                        "startColumn": 4,
+                        "startOffset": 6841,
+                        "endColumn": 71,
+                        "endOffset": 6908
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 174,
+                    "startColumn": 4,
+                    "startOffset": 9349,
+                    "endColumn": 77,
+                    "endOffset": 9422
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 137,
+                        "startColumn": 4,
+                        "startOffset": 6913,
+                        "endColumn": 77,
+                        "endOffset": 6986
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 175,
+                    "startColumn": 4,
+                    "startOffset": 9427,
+                    "endColumn": 61,
+                    "endOffset": 9484
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 138,
+                        "startColumn": 4,
+                        "startOffset": 6991,
+                        "endColumn": 61,
+                        "endOffset": 7048
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 176,
+                    "startColumn": 4,
+                    "startOffset": 9489,
+                    "endColumn": 143,
+                    "endOffset": 9628
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 139,
+                        "startColumn": 4,
+                        "startOffset": 7053,
+                        "endColumn": 143,
+                        "endOffset": 7192
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 177,
+                    "startColumn": 4,
+                    "startOffset": 9633,
+                    "endColumn": 95,
+                    "endOffset": 9724
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 140,
+                        "startColumn": 4,
+                        "startOffset": 7197,
+                        "endColumn": 95,
+                        "endOffset": 7288
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 178,
+                    "startColumn": 4,
+                    "startOffset": 9729,
+                    "endColumn": 76,
+                    "endOffset": 9801
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 141,
+                        "startColumn": 4,
+                        "startOffset": 7293,
+                        "endColumn": 76,
+                        "endOffset": 7365
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 179,
+                    "startColumn": 4,
+                    "startOffset": 9806,
+                    "endColumn": 50,
+                    "endOffset": 9852
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 142,
+                        "startColumn": 4,
+                        "startOffset": 7370,
+                        "endColumn": 50,
+                        "endOffset": 7416
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 180,
+                    "startColumn": 4,
+                    "startOffset": 9857,
+                    "endColumn": 81,
+                    "endOffset": 9934
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 143,
+                        "startColumn": 4,
+                        "startOffset": 7421,
+                        "endColumn": 81,
+                        "endOffset": 7498
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 181,
+                    "startColumn": 4,
+                    "startOffset": 9939,
+                    "endColumn": 83,
+                    "endOffset": 10018
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 144,
+                        "startColumn": 4,
+                        "startOffset": 7503,
+                        "endColumn": 83,
+                        "endOffset": 7582
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 182,
+                    "startColumn": 4,
+                    "startOffset": 10023,
+                    "endColumn": 98,
+                    "endOffset": 10117
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 145,
+                        "startColumn": 4,
+                        "startOffset": 7587,
+                        "endColumn": 98,
+                        "endOffset": 7681
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 183,
+                    "startColumn": 4,
+                    "startOffset": 10122,
+                    "endColumn": 70,
+                    "endOffset": 10188
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 146,
+                        "startColumn": 4,
+                        "startOffset": 7686,
+                        "endColumn": 70,
+                        "endOffset": 7752
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 184,
+                    "startColumn": 4,
+                    "startOffset": 10193,
+                    "endColumn": 81,
+                    "endOffset": 10270
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 147,
+                        "startColumn": 4,
+                        "startOffset": 7757,
+                        "endColumn": 81,
+                        "endOffset": 7834
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 185,
+                    "startColumn": 4,
+                    "startOffset": 10275,
+                    "endColumn": 140,
+                    "endOffset": 10411
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 148,
+                        "startColumn": 4,
+                        "startOffset": 7839,
+                        "endColumn": 140,
+                        "endOffset": 7975
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 186,
+                    "startColumn": 4,
+                    "startOffset": 10416,
+                    "endColumn": 85,
+                    "endOffset": 10497
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 149,
+                        "startColumn": 4,
+                        "startOffset": 7980,
+                        "endColumn": 85,
+                        "endOffset": 8061
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 187,
+                    "startColumn": 4,
+                    "startOffset": 10502,
+                    "endColumn": 67,
+                    "endOffset": 10565
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 150,
+                        "startColumn": 4,
+                        "startOffset": 8066,
+                        "endColumn": 67,
+                        "endOffset": 8129
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 188,
+                    "startColumn": 4,
+                    "startOffset": 10570,
+                    "endColumn": 76,
+                    "endOffset": 10642
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 151,
+                        "startColumn": 4,
+                        "startOffset": 8134,
+                        "endColumn": 76,
+                        "endOffset": 8206
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 189,
+                    "startColumn": 4,
+                    "startOffset": 10647,
+                    "endColumn": 64,
+                    "endOffset": 10707
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 152,
+                        "startColumn": 4,
+                        "startOffset": 8211,
+                        "endColumn": 64,
+                        "endOffset": 8271
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 190,
+                    "startColumn": 4,
+                    "startOffset": 10712,
+                    "endColumn": 156,
+                    "endOffset": 10864
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 153,
+                        "startColumn": 4,
+                        "startOffset": 8276,
+                        "endColumn": 156,
+                        "endOffset": 8428
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 191,
+                    "startColumn": 4,
+                    "startOffset": 10869,
+                    "endColumn": 73,
+                    "endOffset": 10938
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 154,
+                        "startColumn": 4,
+                        "startOffset": 8433,
+                        "endColumn": 73,
+                        "endOffset": 8502
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 192,
+                    "startColumn": 4,
+                    "startOffset": 10943,
+                    "endColumn": 70,
+                    "endOffset": 11009
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 155,
+                        "startColumn": 4,
+                        "startOffset": 8507,
+                        "endColumn": 70,
+                        "endOffset": 8573
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 193,
+                    "startColumn": 4,
+                    "startOffset": 11014,
+                    "endColumn": 53,
+                    "endOffset": 11063
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 156,
+                        "startColumn": 4,
+                        "startOffset": 8578,
+                        "endColumn": 53,
+                        "endOffset": 8627
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 194,
+                    "startColumn": 4,
+                    "startOffset": 11068,
+                    "endColumn": 60,
+                    "endOffset": 11124
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 157,
+                        "startColumn": 4,
+                        "startOffset": 8632,
+                        "endColumn": 60,
+                        "endOffset": 8688
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 195,
+                    "startColumn": 4,
+                    "startOffset": 11129,
+                    "endColumn": 119,
+                    "endOffset": 11244
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 158,
+                        "startColumn": 4,
+                        "startOffset": 8693,
+                        "endColumn": 119,
+                        "endOffset": 8808
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 196,
+                    "startColumn": 4,
+                    "startOffset": 11249,
+                    "endColumn": 85,
+                    "endOffset": 11330
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 159,
+                        "startColumn": 4,
+                        "startOffset": 8813,
+                        "endColumn": 85,
+                        "endOffset": 8894
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 197,
+                    "startColumn": 4,
+                    "startOffset": 11335,
+                    "endColumn": 68,
+                    "endOffset": 11399
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 160,
+                        "startColumn": 4,
+                        "startOffset": 8899,
+                        "endColumn": 68,
+                        "endOffset": 8963
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 198,
+                    "startColumn": 4,
+                    "startOffset": 11404,
+                    "endColumn": 104,
+                    "endOffset": 11504
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 161,
+                        "startColumn": 4,
+                        "startOffset": 8968,
+                        "endColumn": 104,
+                        "endOffset": 9068
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 199,
+                    "startColumn": 4,
+                    "startOffset": 11509,
+                    "endColumn": 81,
+                    "endOffset": 11586
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 162,
+                        "startColumn": 4,
+                        "startOffset": 9073,
+                        "endColumn": 81,
+                        "endOffset": 9150
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 200,
+                    "startColumn": 4,
+                    "startOffset": 11591,
+                    "endColumn": 95,
+                    "endOffset": 11682
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 163,
+                        "startColumn": 4,
+                        "startOffset": 9155,
+                        "endColumn": 95,
+                        "endOffset": 9246
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 201,
+                    "startColumn": 4,
+                    "startOffset": 11687,
+                    "endColumn": 69,
+                    "endOffset": 11752
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 164,
+                        "startColumn": 4,
+                        "startOffset": 9251,
+                        "endColumn": 69,
+                        "endOffset": 9316
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 202,
+                    "startColumn": 4,
+                    "startOffset": 11757,
+                    "endColumn": 120,
+                    "endOffset": 11873
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 165,
+                        "startColumn": 4,
+                        "startOffset": 9321,
+                        "endColumn": 120,
+                        "endOffset": 9437
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 203,
+                    "startColumn": 4,
+                    "startOffset": 11878,
+                    "endColumn": 77,
+                    "endOffset": 11951
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 166,
+                        "startColumn": 4,
+                        "startOffset": 9442,
+                        "endColumn": 77,
+                        "endOffset": 9515
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 204,
+                    "startColumn": 4,
+                    "startOffset": 11956,
+                    "endColumn": 61,
+                    "endOffset": 12013
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 167,
+                        "startColumn": 4,
+                        "startOffset": 9520,
+                        "endColumn": 61,
+                        "endOffset": 9577
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 205,
+                    "startColumn": 4,
+                    "startOffset": 12018,
+                    "endColumn": 66,
+                    "endOffset": 12080
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 168,
+                        "startColumn": 4,
+                        "startOffset": 9582,
+                        "endColumn": 66,
+                        "endOffset": 9644
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 206,
+                    "startColumn": 4,
+                    "startOffset": 12085,
+                    "endColumn": 64,
+                    "endOffset": 12145
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 169,
+                        "startColumn": 4,
+                        "startOffset": 9649,
+                        "endColumn": 64,
+                        "endOffset": 9709
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 207,
+                    "startColumn": 4,
+                    "startOffset": 12150,
+                    "endColumn": 68,
+                    "endOffset": 12214
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 170,
+                        "startColumn": 4,
+                        "startOffset": 9714,
+                        "endColumn": 68,
+                        "endOffset": 9778
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 208,
+                    "startColumn": 4,
+                    "startOffset": 12219,
+                    "endColumn": 67,
+                    "endOffset": 12282
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 171,
+                        "startColumn": 4,
+                        "startOffset": 9783,
+                        "endColumn": 67,
+                        "endOffset": 9846
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 209,
+                    "startColumn": 4,
+                    "startOffset": 12287,
+                    "endColumn": 50,
+                    "endOffset": 12333
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 172,
+                        "startColumn": 4,
+                        "startOffset": 9851,
+                        "endColumn": 50,
+                        "endOffset": 9897
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 210,
+                    "startColumn": 4,
+                    "startOffset": 12338,
+                    "endColumn": 56,
+                    "endOffset": 12390
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 173,
+                        "startColumn": 4,
+                        "startOffset": 9902,
+                        "endColumn": 56,
+                        "endOffset": 9954
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 211,
+                    "startColumn": 4,
+                    "startOffset": 12395,
+                    "endColumn": 56,
+                    "endOffset": 12447
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 174,
+                        "startColumn": 4,
+                        "startOffset": 9959,
+                        "endColumn": 56,
+                        "endOffset": 10011
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 212,
+                    "startColumn": 4,
+                    "startOffset": 12452,
+                    "endColumn": 57,
+                    "endOffset": 12505
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 175,
+                        "startColumn": 4,
+                        "startOffset": 10016,
+                        "endColumn": 57,
+                        "endOffset": 10069
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 213,
+                    "startColumn": 4,
+                    "startOffset": 12510,
+                    "endColumn": 56,
+                    "endOffset": 12562
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 176,
+                        "startColumn": 4,
+                        "startOffset": 10074,
+                        "endColumn": 56,
+                        "endOffset": 10126
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 214,
+                    "startColumn": 4,
+                    "startOffset": 12567,
+                    "endColumn": 48,
+                    "endOffset": 12611
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 177,
+                        "startColumn": 4,
+                        "startOffset": 10131,
+                        "endColumn": 48,
+                        "endOffset": 10175
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 215,
+                    "startColumn": 4,
+                    "startOffset": 12616,
+                    "endColumn": 64,
+                    "endOffset": 12676
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 178,
+                        "startColumn": 4,
+                        "startOffset": 10180,
+                        "endColumn": 64,
+                        "endOffset": 10240
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 216,
+                    "startColumn": 4,
+                    "startOffset": 12681,
+                    "endColumn": 55,
+                    "endOffset": 12732
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 179,
+                        "startColumn": 4,
+                        "startOffset": 10245,
+                        "endColumn": 55,
+                        "endOffset": 10296
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 217,
+                    "startColumn": 4,
+                    "startOffset": 12737,
+                    "endColumn": 56,
+                    "endOffset": 12789
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 180,
+                        "startColumn": 4,
+                        "startOffset": 10301,
+                        "endColumn": 56,
+                        "endOffset": 10353
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 218,
+                    "startColumn": 4,
+                    "startOffset": 12794,
+                    "endColumn": 57,
+                    "endOffset": 12847
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 181,
+                        "startColumn": 4,
+                        "startOffset": 10358,
+                        "endColumn": 57,
+                        "endOffset": 10411
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 219,
+                    "startColumn": 4,
+                    "startOffset": 12852,
+                    "endColumn": 88,
+                    "endOffset": 12936
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 182,
+                        "startColumn": 4,
+                        "startOffset": 10416,
+                        "endColumn": 88,
+                        "endOffset": 10500
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 220,
+                    "startColumn": 4,
+                    "startOffset": 12941,
+                    "endColumn": 56,
+                    "endOffset": 12993
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 183,
+                        "startColumn": 4,
+                        "startOffset": 10505,
+                        "endColumn": 56,
+                        "endOffset": 10557
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 221,
+                    "startColumn": 4,
+                    "startOffset": 12998,
+                    "endColumn": 48,
+                    "endOffset": 13042
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 184,
+                        "startColumn": 4,
+                        "startOffset": 10562,
+                        "endColumn": 48,
+                        "endOffset": 10606
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 222,
+                    "startColumn": 4,
+                    "startOffset": 13047,
+                    "endColumn": 68,
+                    "endOffset": 13111
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 185,
+                        "startColumn": 4,
+                        "startOffset": 10611,
+                        "endColumn": 68,
+                        "endOffset": 10675
+                    }
+                }
+            }
+        ]
+    }
+]

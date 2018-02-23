@@ -1,0 +1,2287 @@
+[
+    {
+        "outputFile": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rCN\\values-zh-rCN.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 42,
+                    "endOffset": 93
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 42,
+                        "endOffset": 93
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 98,
+                    "endColumn": 46,
+                    "endOffset": 140
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 98,
+                        "endColumn": 46,
+                        "endOffset": 140
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 145,
+                    "endColumn": 51,
+                    "endOffset": 192
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 145,
+                        "endColumn": 51,
+                        "endOffset": 192
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 197,
+                    "endColumn": 55,
+                    "endOffset": 248
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 197,
+                        "endColumn": 55,
+                        "endOffset": 248
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 253,
+                    "endColumn": 52,
+                    "endOffset": 301
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 253,
+                        "endColumn": 52,
+                        "endOffset": 301
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 306,
+                    "endColumn": 42,
+                    "endOffset": 344
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 306,
+                        "endColumn": 42,
+                        "endOffset": 344
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 349,
+                    "endColumn": 53,
+                    "endOffset": 398
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 349,
+                        "endColumn": 53,
+                        "endOffset": 398
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 403,
+                    "endColumn": 44,
+                    "endOffset": 443
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 403,
+                        "endColumn": 44,
+                        "endOffset": 443
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 448,
+                    "endColumn": 56,
+                    "endOffset": 500
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 448,
+                        "endColumn": 56,
+                        "endOffset": 500
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 505,
+                    "endColumn": 62,
+                    "endOffset": 563
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 505,
+                        "endColumn": 62,
+                        "endOffset": 563
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 568,
+                    "endColumn": 42,
+                    "endOffset": 606
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 568,
+                        "endColumn": 42,
+                        "endOffset": 606
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 611,
+                    "endColumn": 42,
+                    "endOffset": 649
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 611,
+                        "endColumn": 42,
+                        "endOffset": 649
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 654,
+                    "endColumn": 48,
+                    "endOffset": 698
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 654,
+                        "endColumn": 48,
+                        "endOffset": 698
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 703,
+                    "endColumn": 54,
+                    "endOffset": 753
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 703,
+                        "endColumn": 54,
+                        "endOffset": 753
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 758,
+                    "endColumn": 54,
+                    "endOffset": 808
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 758,
+                        "endColumn": 54,
+                        "endOffset": 808
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 813,
+                    "endColumn": 43,
+                    "endOffset": 852
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 813,
+                        "endColumn": 43,
+                        "endOffset": 852
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 857,
+                    "endColumn": 40,
+                    "endOffset": 893
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 857,
+                        "endColumn": 40,
+                        "endOffset": 893
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 898,
+                    "endColumn": 53,
+                    "endOffset": 947
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 898,
+                        "endColumn": 53,
+                        "endOffset": 947
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 952,
+                    "endColumn": 56,
+                    "endOffset": 1004
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 952,
+                        "endColumn": 56,
+                        "endOffset": 1004
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1009,
+                    "endColumn": 62,
+                    "endOffset": 1067
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1009,
+                        "endColumn": 62,
+                        "endOffset": 1067
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1072,
+                    "endColumn": 49,
+                    "endOffset": 1117
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1072,
+                        "endColumn": 49,
+                        "endOffset": 1117
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1122,
+                    "endColumn": 54,
+                    "endOffset": 1172
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1122,
+                        "endColumn": 54,
+                        "endOffset": 1172
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1177,
+                    "endColumn": 59,
+                    "endOffset": 1232
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1177,
+                        "endColumn": 59,
+                        "endOffset": 1232
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1237,
+                    "endColumn": 54,
+                    "endOffset": 1287
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1237,
+                        "endColumn": 54,
+                        "endOffset": 1287
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1292,
+                    "endColumn": 56,
+                    "endOffset": 1344
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1292,
+                        "endColumn": 56,
+                        "endOffset": 1344
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1349,
+                    "endColumn": 54,
+                    "endOffset": 1399
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1349,
+                        "endColumn": 54,
+                        "endOffset": 1399
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1404,
+                    "endColumn": 48,
+                    "endOffset": 1448
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1404,
+                        "endColumn": 48,
+                        "endOffset": 1448
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1453,
+                    "endColumn": 43,
+                    "endOffset": 1492
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1453,
+                        "endColumn": 43,
+                        "endOffset": 1492
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1497,
+                    "endColumn": 50,
+                    "endOffset": 1543
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1497,
+                        "endColumn": 50,
+                        "endOffset": 1543
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 1548,
+                    "endColumn": 45,
+                    "endOffset": 1589
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 1548,
+                        "endColumn": 45,
+                        "endOffset": 1589
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 1594,
+                    "endColumn": 50,
+                    "endOffset": 1640
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 1594,
+                        "endColumn": 50,
+                        "endOffset": 1640
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 1645,
+                    "endColumn": 50,
+                    "endOffset": 1691
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 1645,
+                        "endColumn": 50,
+                        "endOffset": 1691
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 1696,
+                    "endColumn": 50,
+                    "endOffset": 1742
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 1696,
+                        "endColumn": 50,
+                        "endOffset": 1742
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 1747,
+                    "endColumn": 47,
+                    "endOffset": 1790
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 1747,
+                        "endColumn": 47,
+                        "endOffset": 1790
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 1795,
+                    "endColumn": 45,
+                    "endOffset": 1836
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 1795,
+                        "endColumn": 45,
+                        "endOffset": 1836
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 1841,
+                    "endColumn": 45,
+                    "endOffset": 1882
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 1841,
+                        "endColumn": 45,
+                        "endOffset": 1882
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 1887,
+                    "endColumn": 61,
+                    "endOffset": 1944
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 1887,
+                        "endColumn": 61,
+                        "endOffset": 1944
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 1949,
+                    "endColumn": 51,
+                    "endOffset": 1996
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 4,
+                        "startOffset": 1949,
+                        "endColumn": 51,
+                        "endOffset": 1996
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 2001,
+                    "endColumn": 55,
+                    "endOffset": 2052
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 4,
+                        "startOffset": 2001,
+                        "endColumn": 55,
+                        "endOffset": 2052
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 2057,
+                    "endColumn": 44,
+                    "endOffset": 2097
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 4,
+                        "startOffset": 2057,
+                        "endColumn": 44,
+                        "endOffset": 2097
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 2102,
+                    "endColumn": 58,
+                    "endOffset": 2156
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 2102,
+                        "endColumn": 58,
+                        "endOffset": 2156
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 2161,
+                    "endColumn": 45,
+                    "endOffset": 2202
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 2161,
+                        "endColumn": 45,
+                        "endOffset": 2202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 2207,
+                    "endColumn": 44,
+                    "endOffset": 2247
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 2207,
+                        "endColumn": 44,
+                        "endOffset": 2247
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 2252,
+                    "endColumn": 41,
+                    "endOffset": 2289
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 4,
+                        "startOffset": 2252,
+                        "endColumn": 41,
+                        "endOffset": 2289
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 2294,
+                    "endColumn": 55,
+                    "endOffset": 2345
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 4,
+                        "startOffset": 2294,
+                        "endColumn": 55,
+                        "endOffset": 2345
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 2350,
+                    "endColumn": 53,
+                    "endOffset": 2399
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 4,
+                        "startOffset": 2350,
+                        "endColumn": 53,
+                        "endOffset": 2399
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 2404,
+                    "endColumn": 40,
+                    "endOffset": 2440
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 4,
+                        "startOffset": 2404,
+                        "endColumn": 40,
+                        "endOffset": 2440
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 2445,
+                    "endColumn": 43,
+                    "endOffset": 2484
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 4,
+                        "startOffset": 2445,
+                        "endColumn": 43,
+                        "endOffset": 2484
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 2489,
+                    "endColumn": 44,
+                    "endOffset": 2529
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 2489,
+                        "endColumn": 44,
+                        "endOffset": 2529
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 2534,
+                    "endColumn": 41,
+                    "endOffset": 2571
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 51,
+                        "startColumn": 4,
+                        "startOffset": 2534,
+                        "endColumn": 41,
+                        "endOffset": 2571
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 2576,
+                    "endColumn": 51,
+                    "endOffset": 2623
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 52,
+                        "startColumn": 4,
+                        "startOffset": 2576,
+                        "endColumn": 51,
+                        "endOffset": 2623
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 2628,
+                    "endColumn": 63,
+                    "endOffset": 2687
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 53,
+                        "startColumn": 4,
+                        "startOffset": 2628,
+                        "endColumn": 63,
+                        "endOffset": 2687
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 2692,
+                    "endColumn": 80,
+                    "endOffset": 2768
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 4,
+                        "startOffset": 2692,
+                        "endColumn": 80,
+                        "endOffset": 2768
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 2773,
+                    "endColumn": 49,
+                    "endOffset": 2818
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 4,
+                        "startOffset": 2773,
+                        "endColumn": 49,
+                        "endOffset": 2818
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 2823,
+                    "endColumn": 48,
+                    "endOffset": 2867
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 4,
+                        "startOffset": 2823,
+                        "endColumn": 48,
+                        "endOffset": 2867
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 2872,
+                    "endColumn": 54,
+                    "endOffset": 2922
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 4,
+                        "startOffset": 2872,
+                        "endColumn": 54,
+                        "endOffset": 2922
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 2927,
+                    "endColumn": 62,
+                    "endOffset": 2985
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 4,
+                        "startOffset": 2927,
+                        "endColumn": 62,
+                        "endOffset": 2985
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 2990,
+                    "endColumn": 47,
+                    "endOffset": 3033
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 59,
+                        "startColumn": 4,
+                        "startOffset": 2990,
+                        "endColumn": 47,
+                        "endOffset": 3033
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 60,
+                    "startColumn": 4,
+                    "startOffset": 3038,
+                    "endColumn": 47,
+                    "endOffset": 3081
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 60,
+                        "startColumn": 4,
+                        "startOffset": 3038,
+                        "endColumn": 47,
+                        "endOffset": 3081
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 61,
+                    "startColumn": 4,
+                    "startOffset": 3086,
+                    "endColumn": 71,
+                    "endOffset": 3153
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 61,
+                        "startColumn": 4,
+                        "startOffset": 3086,
+                        "endColumn": 71,
+                        "endOffset": 3153
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 62,
+                    "startColumn": 4,
+                    "startOffset": 3158,
+                    "endColumn": 49,
+                    "endOffset": 3203
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 4,
+                        "startOffset": 3158,
+                        "endColumn": 49,
+                        "endOffset": 3203
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 63,
+                    "startColumn": 4,
+                    "startOffset": 3208,
+                    "endColumn": 51,
+                    "endOffset": 3255
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 63,
+                        "startColumn": 4,
+                        "startOffset": 3208,
+                        "endColumn": 51,
+                        "endOffset": 3255
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 64,
+                    "startColumn": 4,
+                    "startOffset": 3260,
+                    "endColumn": 62,
+                    "endOffset": 3318
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 4,
+                        "startOffset": 3260,
+                        "endColumn": 62,
+                        "endOffset": 3318
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 65,
+                    "startColumn": 4,
+                    "startOffset": 3323,
+                    "endColumn": 96,
+                    "endOffset": 3415
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 65,
+                        "startColumn": 4,
+                        "startOffset": 3323,
+                        "endColumn": 96,
+                        "endOffset": 3415
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 66,
+                    "startColumn": 4,
+                    "startOffset": 3420,
+                    "endColumn": 68,
+                    "endOffset": 3484
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 66,
+                        "startColumn": 4,
+                        "startOffset": 3420,
+                        "endColumn": 68,
+                        "endOffset": 3484
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 67,
+                    "startColumn": 4,
+                    "startOffset": 3489,
+                    "endColumn": 44,
+                    "endOffset": 3529
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 67,
+                        "startColumn": 4,
+                        "startOffset": 3489,
+                        "endColumn": 44,
+                        "endOffset": 3529
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 68,
+                    "startColumn": 4,
+                    "startOffset": 3534,
+                    "endColumn": 67,
+                    "endOffset": 3597
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 68,
+                        "startColumn": 4,
+                        "startOffset": 3534,
+                        "endColumn": 67,
+                        "endOffset": 3597
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 69,
+                    "startColumn": 4,
+                    "startOffset": 3602,
+                    "endColumn": 54,
+                    "endOffset": 3652
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 69,
+                        "startColumn": 4,
+                        "startOffset": 3602,
+                        "endColumn": 54,
+                        "endOffset": 3652
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 70,
+                    "startColumn": 4,
+                    "startOffset": 3657,
+                    "endColumn": 58,
+                    "endOffset": 3711
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 70,
+                        "startColumn": 4,
+                        "startOffset": 3657,
+                        "endColumn": 58,
+                        "endOffset": 3711
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 71,
+                    "startColumn": 4,
+                    "startOffset": 3716,
+                    "endColumn": 43,
+                    "endOffset": 3755
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 71,
+                        "startColumn": 4,
+                        "startOffset": 3716,
+                        "endColumn": 43,
+                        "endOffset": 3755
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 72,
+                    "startColumn": 4,
+                    "startOffset": 3760,
+                    "endColumn": 56,
+                    "endOffset": 3812
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 72,
+                        "startColumn": 4,
+                        "startOffset": 3760,
+                        "endColumn": 56,
+                        "endOffset": 3812
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 73,
+                    "startColumn": 4,
+                    "startOffset": 3817,
+                    "endColumn": 61,
+                    "endOffset": 3874
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 73,
+                        "startColumn": 4,
+                        "startOffset": 3817,
+                        "endColumn": 61,
+                        "endOffset": 3874
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 74,
+                    "startColumn": 4,
+                    "startOffset": 3879,
+                    "endColumn": 53,
+                    "endOffset": 3928
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 74,
+                        "startColumn": 4,
+                        "startOffset": 3879,
+                        "endColumn": 53,
+                        "endOffset": 3928
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 75,
+                    "startColumn": 4,
+                    "startOffset": 3933,
+                    "endColumn": 86,
+                    "endOffset": 4015
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 75,
+                        "startColumn": 4,
+                        "startOffset": 3933,
+                        "endColumn": 86,
+                        "endOffset": 4015
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 76,
+                    "startColumn": 4,
+                    "startOffset": 4020,
+                    "endColumn": 62,
+                    "endOffset": 4078
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 76,
+                        "startColumn": 4,
+                        "startOffset": 4020,
+                        "endColumn": 62,
+                        "endOffset": 4078
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 77,
+                    "startColumn": 4,
+                    "startOffset": 4083,
+                    "endColumn": 50,
+                    "endOffset": 4129
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 77,
+                        "startColumn": 4,
+                        "startOffset": 4083,
+                        "endColumn": 50,
+                        "endOffset": 4129
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 78,
+                    "startColumn": 4,
+                    "startOffset": 4134,
+                    "endColumn": 42,
+                    "endOffset": 4172
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 78,
+                        "startColumn": 4,
+                        "startOffset": 4134,
+                        "endColumn": 42,
+                        "endOffset": 4172
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 79,
+                    "startColumn": 4,
+                    "startOffset": 4177,
+                    "endColumn": 55,
+                    "endOffset": 4228
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 79,
+                        "startColumn": 4,
+                        "startOffset": 4177,
+                        "endColumn": 55,
+                        "endOffset": 4228
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 80,
+                    "startColumn": 4,
+                    "startOffset": 4233,
+                    "endColumn": 59,
+                    "endOffset": 4288
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 80,
+                        "startColumn": 4,
+                        "startOffset": 4233,
+                        "endColumn": 59,
+                        "endOffset": 4288
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 81,
+                    "startColumn": 4,
+                    "startOffset": 4293,
+                    "endColumn": 70,
+                    "endOffset": 4359
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 81,
+                        "startColumn": 4,
+                        "startOffset": 4293,
+                        "endColumn": 70,
+                        "endOffset": 4359
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 82,
+                    "startColumn": 4,
+                    "startOffset": 4364,
+                    "endColumn": 62,
+                    "endOffset": 4422
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 82,
+                        "startColumn": 4,
+                        "startOffset": 4364,
+                        "endColumn": 62,
+                        "endOffset": 4422
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 83,
+                    "startColumn": 4,
+                    "startOffset": 4427,
+                    "endColumn": 70,
+                    "endOffset": 4493
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 83,
+                        "startColumn": 4,
+                        "startOffset": 4427,
+                        "endColumn": 70,
+                        "endOffset": 4493
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 84,
+                    "startColumn": 4,
+                    "startOffset": 4498,
+                    "endColumn": 108,
+                    "endOffset": 4602
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 84,
+                        "startColumn": 4,
+                        "startOffset": 4498,
+                        "endColumn": 108,
+                        "endOffset": 4602
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 85,
+                    "startColumn": 4,
+                    "startOffset": 4607,
+                    "endColumn": 75,
+                    "endOffset": 4678
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 85,
+                        "startColumn": 4,
+                        "startOffset": 4607,
+                        "endColumn": 75,
+                        "endOffset": 4678
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 86,
+                    "startColumn": 4,
+                    "startOffset": 4683,
+                    "endColumn": 63,
+                    "endOffset": 4742
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 86,
+                        "startColumn": 4,
+                        "startOffset": 4683,
+                        "endColumn": 63,
+                        "endOffset": 4742
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 87,
+                    "startColumn": 4,
+                    "startOffset": 4747,
+                    "endColumn": 71,
+                    "endOffset": 4814
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 87,
+                        "startColumn": 4,
+                        "startOffset": 4747,
+                        "endColumn": 71,
+                        "endOffset": 4814
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 88,
+                    "startColumn": 4,
+                    "startOffset": 4819,
+                    "endColumn": 62,
+                    "endOffset": 4877
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 88,
+                        "startColumn": 4,
+                        "startOffset": 4819,
+                        "endColumn": 62,
+                        "endOffset": 4877
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 89,
+                    "startColumn": 4,
+                    "startOffset": 4882,
+                    "endColumn": 70,
+                    "endOffset": 4948
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 89,
+                        "startColumn": 4,
+                        "startOffset": 4882,
+                        "endColumn": 70,
+                        "endOffset": 4948
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 90,
+                    "startColumn": 4,
+                    "startOffset": 4953,
+                    "endColumn": 60,
+                    "endOffset": 5009
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 90,
+                        "startColumn": 4,
+                        "startOffset": 4953,
+                        "endColumn": 60,
+                        "endOffset": 5009
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 91,
+                    "startColumn": 4,
+                    "startOffset": 5014,
+                    "endColumn": 58,
+                    "endOffset": 5068
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 91,
+                        "startColumn": 4,
+                        "startOffset": 5014,
+                        "endColumn": 58,
+                        "endOffset": 5068
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 92,
+                    "startColumn": 4,
+                    "startOffset": 5073,
+                    "endColumn": 47,
+                    "endOffset": 5116
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 92,
+                        "startColumn": 4,
+                        "startOffset": 5073,
+                        "endColumn": 47,
+                        "endOffset": 5116
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 93,
+                    "startColumn": 4,
+                    "startOffset": 5121,
+                    "endColumn": 59,
+                    "endOffset": 5176
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 93,
+                        "startColumn": 4,
+                        "startOffset": 5121,
+                        "endColumn": 59,
+                        "endOffset": 5176
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 94,
+                    "startColumn": 4,
+                    "startOffset": 5181,
+                    "endColumn": 80,
+                    "endOffset": 5257
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 94,
+                        "startColumn": 4,
+                        "startOffset": 5181,
+                        "endColumn": 80,
+                        "endOffset": 5257
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 95,
+                    "startColumn": 4,
+                    "startOffset": 5262,
+                    "endColumn": 70,
+                    "endOffset": 5328
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 95,
+                        "startColumn": 4,
+                        "startOffset": 5262,
+                        "endColumn": 70,
+                        "endOffset": 5328
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 96,
+                    "startColumn": 4,
+                    "startOffset": 5333,
+                    "endColumn": 57,
+                    "endOffset": 5386
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 96,
+                        "startColumn": 4,
+                        "startOffset": 5333,
+                        "endColumn": 57,
+                        "endOffset": 5386
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 97,
+                    "startColumn": 4,
+                    "startOffset": 5391,
+                    "endColumn": 74,
+                    "endOffset": 5461
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 97,
+                        "startColumn": 4,
+                        "startOffset": 5391,
+                        "endColumn": 74,
+                        "endOffset": 5461
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 98,
+                    "startColumn": 4,
+                    "startOffset": 5466,
+                    "endColumn": 68,
+                    "endOffset": 5530
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 98,
+                        "startColumn": 4,
+                        "startOffset": 5466,
+                        "endColumn": 68,
+                        "endOffset": 5530
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 99,
+                    "startColumn": 4,
+                    "startOffset": 5535,
+                    "endColumn": 61,
+                    "endOffset": 5592
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 99,
+                        "startColumn": 4,
+                        "startOffset": 5535,
+                        "endColumn": 61,
+                        "endOffset": 5592
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 100,
+                    "startColumn": 4,
+                    "startOffset": 5597,
+                    "endColumn": 59,
+                    "endOffset": 5652
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 100,
+                        "startColumn": 4,
+                        "startOffset": 5597,
+                        "endColumn": 59,
+                        "endOffset": 5652
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 101,
+                    "startColumn": 4,
+                    "startOffset": 5657,
+                    "endColumn": 76,
+                    "endOffset": 5729
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 101,
+                        "startColumn": 4,
+                        "startOffset": 5657,
+                        "endColumn": 76,
+                        "endOffset": 5729
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 102,
+                    "startColumn": 4,
+                    "startOffset": 5734,
+                    "endColumn": 65,
+                    "endOffset": 5795
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 102,
+                        "startColumn": 4,
+                        "startOffset": 5734,
+                        "endColumn": 65,
+                        "endOffset": 5795
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 103,
+                    "startColumn": 4,
+                    "startOffset": 5800,
+                    "endColumn": 56,
+                    "endOffset": 5852
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 103,
+                        "startColumn": 4,
+                        "startOffset": 5800,
+                        "endColumn": 56,
+                        "endOffset": 5852
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 104,
+                    "startColumn": 4,
+                    "startOffset": 5857,
+                    "endColumn": 55,
+                    "endOffset": 5908
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 104,
+                        "startColumn": 4,
+                        "startOffset": 5857,
+                        "endColumn": 55,
+                        "endOffset": 5908
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 105,
+                    "startColumn": 4,
+                    "startOffset": 5913,
+                    "endColumn": 50,
+                    "endOffset": 5959
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 105,
+                        "startColumn": 4,
+                        "startOffset": 5913,
+                        "endColumn": 50,
+                        "endOffset": 5959
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 106,
+                    "startColumn": 4,
+                    "startOffset": 5964,
+                    "endColumn": 58,
+                    "endOffset": 6018
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 106,
+                        "startColumn": 4,
+                        "startOffset": 5964,
+                        "endColumn": 58,
+                        "endOffset": 6018
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 107,
+                    "startColumn": 4,
+                    "startOffset": 6023,
+                    "endColumn": 45,
+                    "endOffset": 6064
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 107,
+                        "startColumn": 4,
+                        "startOffset": 6023,
+                        "endColumn": 45,
+                        "endOffset": 6064
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 108,
+                    "startColumn": 4,
+                    "startOffset": 6069,
+                    "endColumn": 44,
+                    "endOffset": 6109
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 108,
+                        "startColumn": 4,
+                        "startOffset": 6069,
+                        "endColumn": 44,
+                        "endOffset": 6109
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 109,
+                    "startColumn": 4,
+                    "startOffset": 6114,
+                    "endColumn": 47,
+                    "endOffset": 6157
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 109,
+                        "startColumn": 4,
+                        "startOffset": 6114,
+                        "endColumn": 47,
+                        "endOffset": 6157
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 110,
+                    "startColumn": 4,
+                    "startOffset": 6162,
+                    "endColumn": 45,
+                    "endOffset": 6203
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 110,
+                        "startColumn": 4,
+                        "startOffset": 6162,
+                        "endColumn": 45,
+                        "endOffset": 6203
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 111,
+                    "startColumn": 4,
+                    "startOffset": 6208,
+                    "endColumn": 45,
+                    "endOffset": 6249
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 111,
+                        "startColumn": 4,
+                        "startOffset": 6208,
+                        "endColumn": 45,
+                        "endOffset": 6249
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 112,
+                    "startColumn": 4,
+                    "startOffset": 6254,
+                    "endColumn": 45,
+                    "endOffset": 6295
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 112,
+                        "startColumn": 4,
+                        "startOffset": 6254,
+                        "endColumn": 45,
+                        "endOffset": 6295
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 113,
+                    "startColumn": 4,
+                    "startOffset": 6300,
+                    "endColumn": 44,
+                    "endOffset": 6340
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 113,
+                        "startColumn": 4,
+                        "startOffset": 6300,
+                        "endColumn": 44,
+                        "endOffset": 6340
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 114,
+                    "startColumn": 4,
+                    "startOffset": 6345,
+                    "endColumn": 46,
+                    "endOffset": 6387
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 114,
+                        "startColumn": 4,
+                        "startOffset": 6345,
+                        "endColumn": 46,
+                        "endOffset": 6387
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 115,
+                    "startColumn": 4,
+                    "startOffset": 6392,
+                    "endColumn": 47,
+                    "endOffset": 6435
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 115,
+                        "startColumn": 4,
+                        "startOffset": 6392,
+                        "endColumn": 47,
+                        "endOffset": 6435
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 116,
+                    "startColumn": 4,
+                    "startOffset": 6440,
+                    "endColumn": 45,
+                    "endOffset": 6481
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 116,
+                        "startColumn": 4,
+                        "startOffset": 6440,
+                        "endColumn": 45,
+                        "endOffset": 6481
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 117,
+                    "startColumn": 4,
+                    "startOffset": 6486,
+                    "endColumn": 45,
+                    "endOffset": 6527
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 117,
+                        "startColumn": 4,
+                        "startOffset": 6486,
+                        "endColumn": 45,
+                        "endOffset": 6527
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 118,
+                    "startColumn": 4,
+                    "startOffset": 6532,
+                    "endColumn": 63,
+                    "endOffset": 6591
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 118,
+                        "startColumn": 4,
+                        "startOffset": 6532,
+                        "endColumn": 63,
+                        "endOffset": 6591
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 119,
+                    "startColumn": 4,
+                    "startOffset": 6596,
+                    "endColumn": 50,
+                    "endOffset": 6642
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 119,
+                        "startColumn": 4,
+                        "startOffset": 6596,
+                        "endColumn": 50,
+                        "endOffset": 6642
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 120,
+                    "startColumn": 4,
+                    "startOffset": 6647,
+                    "endColumn": 46,
+                    "endOffset": 6689
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 120,
+                        "startColumn": 4,
+                        "startOffset": 6647,
+                        "endColumn": 46,
+                        "endOffset": 6689
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 121,
+                    "startColumn": 4,
+                    "startOffset": 6694,
+                    "endColumn": 68,
+                    "endOffset": 6758
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 121,
+                        "startColumn": 4,
+                        "startOffset": 6694,
+                        "endColumn": 68,
+                        "endOffset": 6758
+                    }
+                }
+            }
+        ]
+    }
+]

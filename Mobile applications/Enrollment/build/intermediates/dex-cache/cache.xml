@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\libs\core.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ce53c77399b98cb4488c40ca2349fa39d86d5653">
+        <dex dex="D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\build\intermediates\pre-dexed\debug\core_4cdce70ad52ab1e80ba23b94d71b403d4589567e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\General\build\intermediates\bundles\default\libs\ksoap2-android-assembly-2.4-jar-with-dependencies.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6418287d14460984d4f79ae3d8fcd05845958012">
+        <dex dex="D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\build\intermediates\pre-dexed\debug\ksoap2-android-assembly-2.4-jar-with-dependencies_8983e2d670826f236f187cb5ae972707ef2557c6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="74e225bceb33f85f902c53d82ade9dbab47cd3f2">
+        <dex dex="D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\build\intermediates\pre-dexed\debug\classes_2df8b61a81b889ae6790010f6615487dde2b5ee8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\General\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="966627cff0565ff012c5918c5d511cdc8ae18e71">
+        <dex dex="D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\build\intermediates\pre-dexed\debug\classes_5a75b91688c5518b4583c175d56344f95c2aadc8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\General\build\intermediates\bundles\default\libs\commons-net-ftp-2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8dc348b84cf01b59a4c14a21350c301549a294eb">
+        <dex dex="D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\build\intermediates\pre-dexed\debug\commons-net-ftp-2.0_7f236a35698abd467e88cc1caed7365903dde16d.jar" />
+    </item>
+
+</items>

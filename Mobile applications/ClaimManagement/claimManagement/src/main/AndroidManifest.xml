@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.exact.imis.claim"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:versionCode="1"
+    android:versionName="2.7" >
+
+    <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="7" />
+	
+    <uses-feature android:name="android.hardware.camera" />
+	
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.VIBRATE"/>
+	<uses-permission android:name="android.permission.FLASHLIGHT"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+	<uses-permission android:name="android.permission.CAMERA"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    
+    <application
+        tools:replace="icon, label"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".ClaimManagementActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!--<activity android:name="Batch"></activity>-->
+        <!--<activity android:name="Claims"></activity>-->
+        <activity android:name="AddItems" android:label="@string/AddItems" ></activity>
+        <activity android:name="AddServices" android:label="@string/AddServices" ></activity>
+        <activity android:name="MapItems" android:label="@string/MapItems" ></activity>
+        <activity android:name="MapServices" android:label="@string/MapServices" ></activity>
+        <activity android:name="Statistics" android:label="@string/GetStats" ></activity>
+
+        <!--<activity android:name="com.google.zxing.client.android.CaptureActivity"
+          android:screenOrientation="landscape"
+          android:configChanges="orientation|keyboardHidden"
+          android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+          android:windowSoftInputMode="stateAlwaysHidden">
+          <intent-filter>-->
+              <!--&lt;!&ndash;<action android:name="android.intent.action.MAIN"/>&ndash;&gt;-->
+              <!--<category android:name="android.intent.category.DEFAULT"/>-->
+           <!--</intent-filter>-->
+           <!--<intent-filter>-->
+              <!--<action android:name="com.google.zxing.client.android.SCAN"/>-->
+              <!--<category android:name="android.intent.category.DEFAULT"/>-->
+            <!--</intent-filter>
+        </activity>-->
+    </application>
+    
+   
+</manifest>

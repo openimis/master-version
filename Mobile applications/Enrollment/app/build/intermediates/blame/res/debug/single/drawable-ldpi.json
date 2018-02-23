@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\camera.png",
+        "source": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\src\\main\\res\\drawable-ldpi\\camera.png"
+    },
+    {
+        "merged": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\scan.png",
+        "source": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\src\\main\\res\\drawable-ldpi\\scan.png"
+    },
+    {
+        "merged": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_launcher.png",
+        "source": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\src\\main\\res\\drawable-ldpi\\ic_launcher.png"
+    }
+]

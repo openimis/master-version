@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@+id/mnuAddItems"
+	        android:icon="@drawable/additems"
+	        android:title="@string/AddItems">
+	    </item>
+	    
+	    <item android:id="@+id/mnuAddServices"
+	    	android:icon="@drawable/addservices"
+	        android:title="@string/AddServices">
+	    </item>
+	    
+        <item android:id="@+id/mnuUploadClaim"
+            android:icon="@drawable/upload"
+            android:title="@string/UploadAllClaims" >
+        </item>
+        <item android:id="@+id/mnuMapItems"
+	    	android:icon="@drawable/mapitems"
+	        android:title="@string/MapItems">
+	    </item>
+	    <item android:id="@+id/mnuMapServices"
+	    	android:icon="@drawable/mapservices"
+	        android:title="@string/MapServices">
+	    </item>
+        <item android:id="@+id/mnuStatistics"
+            android:icon="@drawable/statistics"
+            android:title="@string/Statistics">
+        </item>
+    </menu>
+    

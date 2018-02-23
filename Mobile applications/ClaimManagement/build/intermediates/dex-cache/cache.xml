@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\AndroidProjects\Master\ClaimManagement\CaptureActivity\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="74e225bceb33f85f902c53d82ade9dbab47cd3f2">
+        <dex dex="D:\AndroidProjects\Master\ClaimManagement\claimManagement\build\intermediates\pre-dexed\debug\classes_e68cfe2fa45ec12ab8e1e598dc80dfa4483e53e0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\ClaimManagement\General\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="18b8fccafacd0b59bb6f8b1ab7ca23d25f751dd6">
+        <dex dex="D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\ClaimManagement\claimManagement\build\intermediates\pre-dexed\debug\classes_e69d95cdf000f9c2e143655ea5f5db90b0f8793c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidProjects\Master\ClaimManagement\CaptureActivity\build\intermediates\bundles\default\libs\core.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ce53c77399b98cb4488c40ca2349fa39d86d5653">
+        <dex dex="D:\AndroidProjects\Master\ClaimManagement\claimManagement\build\intermediates\pre-dexed\debug\core_9fa2a50f5f61ebe5694bc911c789c3cc7d4ae073.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidProjects\Master\ClaimManagement\General\build\intermediates\bundles\default\libs\commons-net-ftp-2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8dc348b84cf01b59a4c14a21350c301549a294eb">
+        <dex dex="D:\AndroidProjects\Master\ClaimManagement\claimManagement\build\intermediates\pre-dexed\debug\commons-net-ftp-2.0_a343cc6a472ff9aa0eb712d87146e9b2d595df5e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidProjects\Master\ClaimManagement\General\build\intermediates\bundles\default\libs\ksoap2-android-assembly-2.4-jar-with-dependencies.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6418287d14460984d4f79ae3d8fcd05845958012">
+        <dex dex="D:\AndroidProjects\Master\ClaimManagement\claimManagement\build\intermediates\pre-dexed\debug\ksoap2-android-assembly-2.4-jar-with-dependencies_30dc655e30b8338261f6469e09129534a7276b41.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\ClaimManagement\General\build\intermediates\bundles\default\libs\ksoap2-android-assembly-2.4-jar-with-dependencies.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6418287d14460984d4f79ae3d8fcd05845958012">
+        <dex dex="D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\ClaimManagement\claimManagement\build\intermediates\pre-dexed\debug\ksoap2-android-assembly-2.4-jar-with-dependencies_312c110890d7f836649ea8a6c19110b9b4f91261.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidProjects\Master\ClaimManagement\General\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="18b8fccafacd0b59bb6f8b1ab7ca23d25f751dd6">
+        <dex dex="D:\AndroidProjects\Master\ClaimManagement\claimManagement\build\intermediates\pre-dexed\debug\classes_4464d2784e2d62fd413bd0d50b779ca779da3a79.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\ClaimManagement\CaptureActivity\build\intermediates\bundles\default\libs\core.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ce53c77399b98cb4488c40ca2349fa39d86d5653">
+        <dex dex="D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\ClaimManagement\claimManagement\build\intermediates\pre-dexed\debug\core_73ca634fbe8c635fe93d6c6aad38aae847e25dd1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\ClaimManagement\CaptureActivity\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="74e225bceb33f85f902c53d82ade9dbab47cd3f2">
+        <dex dex="D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\ClaimManagement\claimManagement\build\intermediates\pre-dexed\debug\classes_ba2903624cfb07186686cdbc9bb7df006340ca22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\ClaimManagement\General\build\intermediates\bundles\default\libs\commons-net-ftp-2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8dc348b84cf01b59a4c14a21350c301549a294eb">
+        <dex dex="D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\ClaimManagement\claimManagement\build\intermediates\pre-dexed\debug\commons-net-ftp-2.0_6ed893e4ae494aad4d35c4f550e8fb62a5225f4f.jar" />
+    </item>
+
+</items>

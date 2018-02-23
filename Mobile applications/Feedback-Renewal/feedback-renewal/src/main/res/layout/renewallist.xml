@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvCHFID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CHFID"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/Maroon" />
+
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="Updated Time"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/Gray" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvFullName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Full Name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/LightBlue" />
+
+    <TextView
+        android:id="@+id/tvProduct"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Product"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tvVillage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Village"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+</LinearLayout>
+

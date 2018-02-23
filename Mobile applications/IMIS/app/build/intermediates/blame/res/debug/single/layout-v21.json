@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/user/Desktop/2018/ANDROID v17.5.14 18.1.2018/MASTER v17.5.14 18.1.2018/MASTER SOURCE v17.5.14 18.1.2018/IMIS/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/user/.android/build-cache/898bf8a6ad624f61082a68c3c23e2354ecf46ef6/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/user/Desktop/2018/ANDROID v17.5.14 18.1.2018/MASTER v17.5.14 18.1.2018/MASTER SOURCE v17.5.14 18.1.2018/IMIS/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/user/.android/build-cache/898bf8a6ad624f61082a68c3c23e2354ecf46ef6/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/user/Desktop/2018/ANDROID v17.5.14 18.1.2018/MASTER v17.5.14 18.1.2018/MASTER SOURCE v17.5.14 18.1.2018/IMIS/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/user/.android/build-cache/898bf8a6ad624f61082a68c3c23e2354ecf46ef6/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/user/Desktop/2018/ANDROID v17.5.14 18.1.2018/MASTER v17.5.14 18.1.2018/MASTER SOURCE v17.5.14 18.1.2018/IMIS/app/build/intermediates/res/merged/debug/layout-v21/renewal.xml",
+        "source": "/Users/user/Desktop/2018/ANDROID v17.5.14 18.1.2018/MASTER v17.5.14 18.1.2018/MASTER SOURCE v17.5.14 18.1.2018/IMIS/app/src/main/res/layout-v21/renewal.xml"
+    },
+    {
+        "merged": "/Users/user/Desktop/2018/ANDROID v17.5.14 18.1.2018/MASTER v17.5.14 18.1.2018/MASTER SOURCE v17.5.14 18.1.2018/IMIS/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/user/.android/build-cache/898bf8a6ad624f61082a68c3c23e2354ecf46ef6/output/res/layout-v21/notification_template_custom_big.xml"
+    }
+]

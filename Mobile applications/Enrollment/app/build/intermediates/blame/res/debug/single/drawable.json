@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\share_via_barcode.png",
+        "source": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\drawable\\share_via_barcode.png"
+    },
+    {
+        "merged": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\launcher_icon.png",
+        "source": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\drawable\\launcher_icon.png"
+    },
+    {
+        "merged": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shopper_icon.png",
+        "source": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\Enrollment\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\drawable\\shopper_icon.png"
+    }
+]

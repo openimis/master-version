@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/user/.android/build-cache/6431fbaccde460ab5ba21d201f911dbb357fc720/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="402e22475f6e4448917e1ac3809de66ab0e3306b">
+        <dex dex="/Users/user/Desktop/2018/ANDROID v17.5.14 18.1.2018/MASTER v17.5.14 18.1.2018/MASTER SOURCE v17.5.14 18.1.2018/IMIS/app/build/intermediates/pre-dexed/debug/classes_2d84a6221307e0fe2d3a9da8304120d90219616e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/user/.android/build-cache/6431fbaccde460ab5ba21d201f911dbb357fc720/output/jars/libs/core.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ce53c77399b98cb4488c40ca2349fa39d86d5653">
+        <dex dex="/Users/user/Desktop/2018/ANDROID v17.5.14 18.1.2018/MASTER v17.5.14 18.1.2018/MASTER SOURCE v17.5.14 18.1.2018/IMIS/app/build/intermediates/pre-dexed/debug/core_a850478169c8fc996262e8579dbc2089fed76dc9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/user/Desktop/2018/ANDROID v17.5.14 18.1.2018/MASTER v17.5.14 18.1.2018/MASTER SOURCE v17.5.14 18.1.2018/IMIS/app/libs/ksoap2-android-assembly-2.4-jar-with-dependencies.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e8796346a9191a019e936210a2dc50662c57594b">
+        <dex dex="/Users/user/Desktop/2018/ANDROID v17.5.14 18.1.2018/MASTER v17.5.14 18.1.2018/MASTER SOURCE v17.5.14 18.1.2018/IMIS/app/build/intermediates/pre-dexed/debug/ksoap2-android-assembly-2.4-jar-with-dependencies_50036b3a2b800095107b44d69415380a8a56d76a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/user/Desktop/2018/ANDROID v17.5.14 18.1.2018/MASTER v17.5.14 18.1.2018/MASTER SOURCE v17.5.14 18.1.2018/IMIS/app/libs/commons-net-ftp-2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="50ab0797241117153a458ce33c1c3dd33a470218">
+        <dex dex="/Users/user/Desktop/2018/ANDROID v17.5.14 18.1.2018/MASTER v17.5.14 18.1.2018/MASTER SOURCE v17.5.14 18.1.2018/IMIS/app/build/intermediates/pre-dexed/debug/commons-net-ftp-2.0_726345ae7db8ade30a35c89837223d6d47b10b2b.jar" />
+    </item>
+
+</items>

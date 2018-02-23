@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="Red">#FF0000</color>
+	
+	
+    <string name="app_name">Enrollment</string>
+    <string name="OfflineMode">Offline Mode</string>
+    <string name="Officer">Enrollment officer</string>
+	<string name="CHFID">Insurance No.</string>
+	<string name="Scan">Scan</string>
+	<string name="Submit">Submit</string>
+	<string name="ReadOnly">SD Card is set to readonly mode. Please set the mode to read/write and restart the application.</string>
+	<string name="NoSDCard">IMIS needs external memory card to run. Please insert memory card and restart the application.</string>
+	<string name="ForceClose">Force Close</string>
+	<string name="MissingOfficer">Please enter enrollment officer</string>
+	<string name="MissingCHFID">Please enter Insurance No.</string>
+	<string name="MissingImage">Please capture an Image</string>
+	<string name="SavedOnMemoryCard">Data has been saved on the external memory card.</string>
+	<string name="CouldNotUpload">Data could not be sent to the server. Saved on the external memory card.</string>
+	<string name="Uploaded">Data uploaded to the server successfully.</string>
+	<string name="Uploading">Uploading&#8230;</string>
+	<string name="UploadAllImages">Upload all Images</string>
+	<string name="Ok">OK</string>
+	<string name="NoImages">No images found.</string>
+	<string name="CheckInternet">Please check your internet connection to upload images..</string>
+	<string name="FTPConnectionFailed">Unable to connect the server. Operation aborted.</string>
+	<string name="Of">of</string>
+	<string name="InvalidCHFID">Invalid Insurance No.</string>
+	<string name="ContentTitle">New release of Enquire is now available.</string>
+   	<string name="ContentText">Click here to download.</string>
+   	<string name="NotificationAlertText">New update available.</string>
+
+	<string name="Statistics">Statistics</string>
+	<string name="GetStats">Request Statistics</string>
+	<string name="NoStatFound">No data found</string>
+	<string name="InProgress">In Progress...</string>
+	<string name="InternetRequired">Internet connection is required to view the statistics.</string>
+	<string name="StartDate">Start Date</string>
+	<string name="EndDate">End Date</string>
+	<string name="MissingStartDate">Please enter Start Date</string>
+	<string name="MissingEndDate">Please enter End Date</string>
+	<string name="action_settings">Settings</string>
+</resources>

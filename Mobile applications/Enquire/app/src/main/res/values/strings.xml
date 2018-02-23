@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+     <color name="Green">#00ff00</color>
+     <color name="Orange">#FFA500</color>
+     <color name="Red">#FF0000</color>
+     <color name="Black">#000000</color>
+     <color name="Blue">#0000FF</color>
+    
+    <string name="app_name">Enquire</string> 
+    <string name="ReadOnly">SD Card is set to readonly mode. Please set the mode to read/write and restart the application.</string>
+	<string name="NoSDCard">IMIS needs external memory card to run. Please insert memory card and restart the application.</string>
+	<string name="ForceClose">Force Close</string>
+	<string name="OfflineMode">Offline Mode</string>
+    <string name="FileNOtFound">File not found.</string>
+    
+    <string name="CHFID">Insurance No.</string>
+    <string name="Scan">Scan</string>
+    <string name="Go">Go</string>
+   	<string name="InsureeName">Name</string>
+   	<string name="Gender">Gender</string>
+   	<string name="DOB">DOB</string>
+   	<string name="InvalidCHFID">Invalid Insurance No.</string>
+   	<string name="GetingInsuuree">Getting insuree info&#8230;</string>
+   	<string name="MissingCHFID">Please enter Insurance No</string>
+   	<string name="RecordNotFound">Member with this Insurance No. does not exist.</string>
+   	<string name="ContentTitle">New release of Enquire is now available.</string>
+   	<string name="ContentText">Click here to download.</string>
+   	<string name="NotificationAlertText">New update available.</string>
+</resources>

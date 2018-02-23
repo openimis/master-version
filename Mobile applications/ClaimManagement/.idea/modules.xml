@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CaptureActivity/CaptureActivity.iml" filepath="$PROJECT_DIR$/CaptureActivity/CaptureActivity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ClaimManagement.iml" filepath="$PROJECT_DIR$/ClaimManagement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/General/General.iml" filepath="$PROJECT_DIR$/General/General.iml" />
+      <module fileurl="file://$PROJECT_DIR$/claimManagement/claimManagement.iml" filepath="$PROJECT_DIR$/claimManagement/claimManagement.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Recherche</string>
+    <string name="ReadOnly">La carte SD est en mode lecture seule. Réglez le mode en lecture / écriture et redémarrez l\'application.</string>
+    <string name="NoSDCard">IMIS a besoin d\'une carte mémoire externe pour être exécuté. Insérez la carte mémoire et redémarrez l\'application.</string>
+    <string name="ForceClose">Forcer à quitter</string>
+    <string name="OfflineMode">Mode hors ligne</string>
+    <string name="FileNOtFound">Fichier non trouvé</string>
+
+    <string name="CHFID">Numéro d\'assuré</string>
+    <string name="Scan">Scanner</string>
+    <string name="Go">Go</string>
+    <string name="InsureeName">Nom</string>
+    <string name="Gender">Sexe</string>
+    <string name="DOB">DDN</string>
+    <string name="InvalidCHFID">Numéro d\'assuré invalide</string>
+    <string name="GetingInsuuree">Recherche d\'info de l\'assuré&#8230;</string>
+    <string name="MissingCHFID">Entrez un numéro d\'assuré</string>
+    <string name="RecordNotFound">Aucun assuré avec ce numéro trouvé</string>
+    <string name="ContentTitle">Nouvelle version de Recherche disponible</string>
+    <string name="ContentText">Cliquez ici pour télécharger</string>
+    <string name="NotificationAlertText">Nouvelle version de Recherche disponible</string>
+</resources>

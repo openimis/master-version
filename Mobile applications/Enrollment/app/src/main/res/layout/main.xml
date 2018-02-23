@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+
+	>
+
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+  
+	    <EditText
+			android:id="@+id/etofficer"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:hint="@string/Officer"
+		    android:ems="10" android:singleLine="true">
+			
+		    <requestFocus />
+	
+		</EditText>
+		
+	    <LinearLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal">
+	        
+		    	<EditText
+					android:id="@+id/etCHFID"
+				    android:layout_width="0dp"
+				    android:layout_height="wrap_content"
+				    android:layout_weight="1"
+				    android:hint="@string/CHFID"
+				    android:ems="10" android:singleLine="true" 
+				    android:numeric="integer" android:maxLength="12">
+		
+			    
+		    	</EditText>
+
+		    	<ImageButton
+		    	    android:id="@+id/btnScan"
+		    	    android:layout_width="43dp"
+		    	    android:layout_height="43dp"
+		    	    android:contentDescription="@string/Scan"
+		    	    android:src="@drawable/scan" />
+		    	
+		   </LinearLayout>
+		
+	    	<ImageView
+	        	android:id="@+id/imageView"
+	            android:layout_width="wrap_content"
+	            android:layout_height="145dp"
+	            android:layout_marginBottom="5dp"
+	            android:src="@drawable/noimage" 
+	            android:layout_gravity="center"/>
+	    
+    </LinearLayout>
+
+	  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true" >
+	        
+	      <ImageButton
+		    	    android:id="@+id/btnTakePhoto"
+		    	    android:layout_width="50dp"
+		    	    android:layout_height="43dp"
+		    	    android:contentDescription="@string/Scan"
+		    	    android:src="@drawable/camera"
+		    	    android:layout_marginLeft="3dp" />
+	        <Button 
+	            android:id="@+id/btnSubmit"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/Submit" />
+	    </LinearLayout>
+</RelativeLayout>

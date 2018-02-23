@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/user/Desktop/2018/ANDROID v17.5.14 18.1.2018/MASTER v17.5.14 18.1.2018/MASTER SOURCE v17.5.14 18.1.2018/Enquire/General/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9f5c4ac33362caaf7474e71e261e9517cd0c6be4">
+        <dex dex="/Users/user/Desktop/2018/ANDROID v17.5.14 18.1.2018/MASTER v17.5.14 18.1.2018/MASTER SOURCE v17.5.14 18.1.2018/Enquire/app/build/intermediates/pre-dexed/debug/classes_316f43ba29dbea8ff0265971e52c0f70d32744cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/user/Desktop/2018/ANDROID v17.5.14 18.1.2018/MASTER v17.5.14 18.1.2018/MASTER SOURCE v17.5.14 18.1.2018/Enquire/CaptureActivity/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="74e225bceb33f85f902c53d82ade9dbab47cd3f2">
+        <dex dex="/Users/user/Desktop/2018/ANDROID v17.5.14 18.1.2018/MASTER v17.5.14 18.1.2018/MASTER SOURCE v17.5.14 18.1.2018/Enquire/app/build/intermediates/pre-dexed/debug/classes_ad9a67b3457783be5e5b7a127b03af7241429964.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/user/Desktop/2018/ANDROID v17.5.14 18.1.2018/MASTER v17.5.14 18.1.2018/MASTER SOURCE v17.5.14 18.1.2018/Enquire/CaptureActivity/build/intermediates/bundles/default/libs/core.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ce53c77399b98cb4488c40ca2349fa39d86d5653">
+        <dex dex="/Users/user/Desktop/2018/ANDROID v17.5.14 18.1.2018/MASTER v17.5.14 18.1.2018/MASTER SOURCE v17.5.14 18.1.2018/Enquire/app/build/intermediates/pre-dexed/debug/core_a8516c45530f0eff1f8ff5fcb0e287879305cad3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/user/Desktop/2018/ANDROID v17.5.14 18.1.2018/MASTER v17.5.14 18.1.2018/MASTER SOURCE v17.5.14 18.1.2018/Enquire/General/build/intermediates/bundles/default/libs/commons-net-ftp-2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8dc348b84cf01b59a4c14a21350c301549a294eb">
+        <dex dex="/Users/user/Desktop/2018/ANDROID v17.5.14 18.1.2018/MASTER v17.5.14 18.1.2018/MASTER SOURCE v17.5.14 18.1.2018/Enquire/app/build/intermediates/pre-dexed/debug/commons-net-ftp-2.0_9e085816cadb9b0e6321cbf37cbc81377c022767.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/user/Desktop/2018/ANDROID v17.5.14 18.1.2018/MASTER v17.5.14 18.1.2018/MASTER SOURCE v17.5.14 18.1.2018/Enquire/General/build/intermediates/bundles/default/libs/ksoap2-android-assembly-2.4-jar-with-dependencies.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6418287d14460984d4f79ae3d8fcd05845958012">
+        <dex dex="/Users/user/Desktop/2018/ANDROID v17.5.14 18.1.2018/MASTER v17.5.14 18.1.2018/MASTER SOURCE v17.5.14 18.1.2018/Enquire/app/build/intermediates/pre-dexed/debug/ksoap2-android-assembly-2.4-jar-with-dependencies_0537d2254a272fcabdeaa5f830c58856ea70120b.jar" />
+    </item>
+
+</items>

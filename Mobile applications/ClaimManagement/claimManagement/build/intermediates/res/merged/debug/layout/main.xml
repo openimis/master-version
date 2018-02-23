@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/llBottom"
+        android:isScrollContainer="true"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarStyle="insideInset"
+        android:scrollbars="vertical" >
+
+    <LinearLayout
+        android:id="@+id/llTop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+		
+        <EditText
+            android:id="@+id/etHealthFacility"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/HealthFacility"
+            android:ems="10" 
+            android:singleLine="true"
+            android:maxLength="8">
+        </EditText>
+         <EditText
+            android:id="@+id/etClaimAdmin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ClaimAdmin"
+            android:ems="10" 
+            android:singleLine="true"
+            android:maxLength="8">
+        </EditText>
+       <EditText
+            android:id="@+id/etClaimCode"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ClaimCode"
+            android:ems="10" 
+            android:singleLine="true"
+            android:maxLength="8">
+            
+            <requestFocus />
+        </EditText>
+        
+        <LinearLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal">
+	        
+		    	<EditText
+					android:id="@+id/etCHFID"
+				    android:layout_width="0dp"
+				    android:layout_height="wrap_content"
+				    android:layout_weight="1"
+				    android:hint="@string/CHFID"
+				    android:ems="10" android:singleLine="true" 
+				    android:inputType="number" 
+				    android:maxLength="12">
+		
+			    
+		    	</EditText>
+
+		    	<ImageButton
+		    	    android:id="@+id/btnScan"
+		    	    android:layout_width="43dp"
+		    	    android:layout_height="43dp"
+		    	    android:contentDescription="@string/Scan"
+		    	    android:src="@drawable/scan" />
+		    	
+		   </LinearLayout>
+		<LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+        <EditText
+            android:id="@+id/etStartDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/StartDate"
+            android:ems="10" android:singleLine="true"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/etEndDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/EndDate"
+            android:ems="10" android:singleLine="true"
+            android:layout_weight="1"/>
+      	</LinearLayout>
+        
+        <AutoCompleteTextView
+            android:id="@+id/etDiagnosis"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Diagnosis"
+            android:ems="10" 
+            android:singleLine="true"
+            android:maxLength="6"
+            >
+        </AutoCompleteTextView>
+
+        <LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+        <!--<EditText-->
+            <!--android:id="@+id/etDiagnosis1"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:hint="@string/Diagnosis1"-->
+            <!--android:ems="10" android:singleLine="true"-->
+            <!--android:maxLength="6"-->
+            <!--android:layout_weight="1"/>-->
+
+            <AutoCompleteTextView
+                android:id="@+id/etDiagnosis1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/Diagnosis1"
+                android:ems="10" android:singleLine="true"
+                android:maxLength="6"
+                android:layout_weight="1"
+
+                />
+
+        <AutoCompleteTextView
+            android:id="@+id/etDiagnosis2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/Diagnosis2"
+            android:ems="10" android:singleLine="true"
+            android:maxLength="6"
+            android:layout_weight="1"/>
+      	</LinearLayout>
+
+          <LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+        <AutoCompleteTextView
+            android:id="@+id/etDiagnosis3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/Diagnosis3"
+            android:ems="10" android:singleLine="true"
+            android:maxLength="6"
+            android:layout_weight="1"/>
+        <AutoCompleteTextView
+            android:id="@+id/etDiagnosis4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/Diagnosis4"
+            android:ems="10" android:singleLine="true"
+            android:maxLength="6"
+            android:layout_weight="1"/>
+        
+        
+        
+      	</LinearLayout>
+          
+              <RadioGroup android:id="@+id/rgVisitType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 >
+
+              <RadioButton
+                  android:id="@+id/rbEmergency"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:tag="E"
+                  android:text="@string/Emergency" />
+              
+              <RadioButton
+                  android:id="@+id/rbReferral"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:tag="R"
+                  android:text="@string/Referral" />
+              
+              <RadioButton
+                  android:id="@+id/rbOther"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:tag="O"
+                  android:text="@string/Other" />
+
+              </RadioGroup>
+          </LinearLayout>
+         
+       
+    </ScrollView>
+    <LinearLayout android:id="@+id/llBottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:background="@color/Gray" >
+        
+    
+    <LinearLayout android:id="@+id/llLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingRight="3dp" >
+           
+
+       <TextView
+           android:id="@+id/tvItemLable"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="0.33"
+           android:gravity="right"
+           android:text="@string/Item"
+           android:textColor="@color/Green" />
+       
+
+       <TextView
+           android:id="@+id/tvServiceLable"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="0.33"
+           android:gravity="right"
+           android:text="@string/Service"
+           android:textColor="@color/Green" />
+       
+
+<!--        <TextView -->
+<!--            android:id="@+id/tvTotalLable" -->
+<!--            android:layout_width="0dp" -->
+<!--            android:layout_height="wrap_content" -->
+<!--            android:layout_weight="0.33" -->
+<!--            android:gravity="right" -->
+<!--            android:text="@string/Total" -->
+<!--            android:textColor="@color/Green" /> -->
+
+       </LinearLayout>
+	
+    
+      <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingRight="3dp" >
+           
+
+       <TextView
+           android:id="@+id/tvItemTotal"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="0.33"
+           android:gravity="right"
+           android:textColor="@color/White" />
+       
+
+       <TextView
+           android:id="@+id/tvServiceTotal"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="0.33"
+           android:gravity="right"
+           android:textColor="@color/White" />
+       
+
+<!--        <TextView -->
+<!--            android:id="@+id/tvTotal" -->
+<!--            android:layout_width="0dp" -->
+<!--            android:layout_height="wrap_content" -->
+<!--            android:layout_weight="0.33" -->
+<!--            android:gravity="right" -->
+<!--            android:textColor="@color/White" -->
+<!--            android:textStyle="bold" /> -->
+
+       </LinearLayout>
+    
+    </LinearLayout>
+    
+   <LinearLayout android:id="@+id/llButton"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+        
+       
+        
+       <Button
+	        android:id="@+id/btnNew"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="@string/New" />
+		    
+		<Button
+	        android:id="@+id/btnPost"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="@string/Save" />
+		    
+		
+	</LinearLayout>
+	</LinearLayout>
+    
+       
+    
+</RelativeLayout>

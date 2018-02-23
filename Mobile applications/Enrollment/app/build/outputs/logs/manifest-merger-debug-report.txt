@@ -1,0 +1,318 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:2:1-62:12
+	package
+		ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:3:5-40
+		INJECTED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml
+		INJECTED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:6:5-30
+		INJECTED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml
+		INJECTED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:4:5-51
+	android:versionCode
+		ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:5:5-28
+		INJECTED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml
+		INJECTED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:8:5-74
+MERGED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:22:5-24:40
+MERGED from [Enrollment:General:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\General\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:40
+	android:targetSdkVersion
+		ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:8:42-71
+		INJECTED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml
+		INJECTED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:8:15-41
+		INJECTED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml
+		INJECTED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml
+uses-feature#android.hardware.camera
+ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:9:2-57
+MERGED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:36:5-60
+	android:name
+		ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:9:16-54
+uses-permission#android.permission.INTERNET
+ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:11:2-63
+MERGED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:27:5-67
+	android:name
+		ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:11:19-61
+uses-permission#android.permission.VIBRATE
+ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:12:2-62
+MERGED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:28:5-66
+	android:name
+		ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:12:19-60
+uses-permission#android.permission.FLASHLIGHT
+ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:13:2-65
+MERGED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:29:5-69
+	android:name
+		ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:13:19-63
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:16:2-77
+MERGED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:32:5-81
+	android:name
+		ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:16:19-75
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:17:2-72
+MERGED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:33:5-76
+	android:name
+		ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:17:19-70
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:18:2-72
+MERGED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:34:5-76
+	android:name
+		ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:18:19-70
+uses-permission#android.permission.CAMERA
+ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:19:2-61
+MERGED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:26:5-65
+	android:name
+		ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:19:19-59
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:20:2-76
+	android:name
+		ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:20:19-73
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:21:5-78
+	android:name
+		ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:21:22-76
+application
+ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:22:5-60:19
+MERGED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:58:5-222:19
+MERGED from [Enrollment:General:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\General\build\intermediates\bundles\default\AndroidManifest.xml:11:5-14:19
+	android:label
+		ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:25:9-41
+		REJECTED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:60:9-41
+		REJECTED from [Enrollment:General:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\General\build\intermediates\bundles\default\AndroidManifest.xml:13:9-41
+	android:icon
+		ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:24:9-45
+		REJECTED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:59:9-47
+		REJECTED from [Enrollment:General:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\General\build\intermediates\bundles\default\AndroidManifest.xml:12:9-45
+	tools:replace
+		ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:23:9-35
+activity#com.exact.imis.enrollment.EnrollmentActivity
+ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:27:9-39:20
+	android:screenOrientation
+		ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:30:13-49
+	android:label
+		ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:29:13-45
+	android:configChanges
+		ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:31:13-74
+	android:name
+		ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:28:13-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:34:13-38:29
+action#android.intent.action.MAIN
+ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:35:17-69
+	android:name
+		ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:35:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:37:17-77
+	android:name
+		ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:37:27-74
+activity#com.google.zxing.client.android.CaptureActivity
+ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:41:9-54:20
+MERGED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:61:9-126:20
+	android:screenOrientation
+		ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:42:12-49
+	android:clearTaskOnLaunch
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:63:13-45
+	android:stateNotNeeded
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:66:13-42
+	android:windowSoftInputMode
+		ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:45:12-59
+	android:configChanges
+		ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:43:12-62
+	android:theme
+		ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:44:12-70
+	android:name
+		ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:41:19-81
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT
+ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:46:12-49:28
+category#android.intent.category.DEFAULT
+ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:48:15-73
+	android:name
+		ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:48:25-71
+intent-filter#android.intent.category.DEFAULT+com.google.zxing.client.android.SCAN
+ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:50:12-53:29
+action#com.google.zxing.client.android.SCAN
+ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:51:15-76
+	android:name
+		ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:51:23-74
+activity#com.exact.imis.enrollment.Statistics
+ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:55:9-58:20
+	android:label
+		ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:56:13-47
+	android:name
+		ADDED from D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\app\src\main\AndroidManifest.xml:55:19-45
+uses-permission#android.permission.READ_CONTACTS
+ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:30:5-72
+	android:name
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:30:22-69
+uses-permission#com.android.browser.permission.READ_HISTORY_BOOKMARKS
+ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:31:5-93
+	android:name
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:31:22-90
+uses-feature#android.hardware.camera.autofocus
+ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:37:5-39:36
+	android:required
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:39:9-33
+	android:name
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:38:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:40:5-42:36
+	android:required
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:42:9-33
+	android:name
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:41:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:43:5-70
+	android:name
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:43:19-67
+uses-feature#android.hardware.wifi
+ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:44:5-46:36
+	android:required
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:46:9-33
+	android:name
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:45:9-45
+uses-feature#android.hardware.touchscreen
+ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:47:5-49:36
+	android:required
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:49:9-33
+	android:name
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:48:9-52
+supports-screens
+ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:52:5-56:39
+	android:largeScreens
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:54:9-36
+	android:smallScreens
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:56:9-36
+	android:normalScreens
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:55:9-37
+	android:anyDensity
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:53:9-34
+intent-filter#android.intent.action.MAIN
+ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:69:13-72:29
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:79:13-89:29
+action#android.intent.action.VIEW
+ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:80:17-69
+	android:name
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:80:25-66
+category#android.intent.category.BROWSABLE
+ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:83:17-78
+	android:name
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:83:27-75
+data
+ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:85:17-88:45
+	android:path
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:87:21-41
+	android:host
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:86:21-53
+	android:scheme
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:88:21-42
+activity#com.google.zxing.client.android.PreferencesActivity
+ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:127:9-131:20
+	android:label
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:129:13-53
+	android:stateNotNeeded
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:130:13-42
+	android:name
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:128:13-79
+activity#com.google.zxing.client.android.encode.EncodeActivity
+ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:132:9-157:20
+	android:label
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:134:13-47
+	android:stateNotNeeded
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:135:13-42
+	android:name
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:133:13-81
+intent-filter#android.intent.category.DEFAULT+com.google.zxing.client.android.ENCODE
+ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:136:13-140:29
+action#com.google.zxing.client.android.ENCODE
+ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:137:17-81
+	android:name
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:137:25-78
+intent-filter#android.intent.action.SEND+android.intent.category.DEFAULT
+ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:142:13-148:29
+action#android.intent.action.SEND
+ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:143:17-69
+	android:name
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:143:25-66
+activity#com.google.zxing.client.android.book.SearchBookContentsActivity
+ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:158:9-169:20
+	android:screenOrientation
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:162:13-50
+	android:label
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:161:13-45
+	android:stateNotNeeded
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:163:13-42
+	android:configChanges
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:160:13-63
+	android:name
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:159:13-91
+intent-filter#android.intent.category.DEFAULT+com.google.zxing.client.android.SEARCH_BOOK_CONTENTS
+ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:164:13-168:29
+action#com.google.zxing.client.android.SEARCH_BOOK_CONTENTS
+ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:165:17-95
+	android:name
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:165:25-92
+activity#com.google.zxing.client.android.share.ShareActivity
+ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:170:9-181:20
+	android:screenOrientation
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:173:13-45
+	android:label
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:172:13-47
+	android:stateNotNeeded
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:174:13-42
+	android:theme
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:175:13-55
+	android:name
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:171:13-79
+intent-filter#android.intent.category.DEFAULT+com.google.zxing.client.android.SHARE
+ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:176:13-180:29
+action#com.google.zxing.client.android.SHARE
+ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:177:17-80
+	android:name
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:177:25-77
+activity#com.google.zxing.client.android.history.HistoryActivity
+ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:182:9-191:20
+	android:label
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:184:13-50
+	android:stateNotNeeded
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:185:13-42
+	android:name
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:183:13-83
+intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT
+ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:186:13-190:29
+activity#com.google.zxing.client.android.share.BookmarkPickerActivity
+ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:192:9-201:20
+	android:label
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:194:13-57
+	android:stateNotNeeded
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:195:13-42
+	android:name
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:193:13-88
+intent-filter#android.intent.action.PICK+android.intent.category.DEFAULT
+ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:196:13-200:29
+action#android.intent.action.PICK
+ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:197:17-69
+	android:name
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:197:25-66
+activity#com.google.zxing.client.android.share.AppPickerActivity
+ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:202:9-212:20
+	android:label
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:205:13-52
+	android:stateNotNeeded
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:206:13-42
+	android:configChanges
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:204:13-48
+	android:name
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:203:13-83
+activity#com.google.zxing.client.android.HelpActivity
+ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:213:9-221:20
+	android:screenOrientation
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:215:13-45
+	android:name
+		ADDED from [Enrollment:CaptureActivity:unspecified] D:\EXACT\ANDROID SOURCE v17.5.12 12.12.2017\MASTER\Enrollment\CaptureActivity\build\intermediates\bundles\default\AndroidManifest.xml:214:13-72

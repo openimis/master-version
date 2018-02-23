@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/user/Desktop/2018/ANDROID v17.5.14 18.1.2018/MASTER v17.5.14 18.1.2018/MASTER SOURCE v17.5.14 18.1.2018/IMIS/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_custom.xml",
+        "source": "/Users/user/.android/build-cache/898bf8a6ad624f61082a68c3c23e2354ecf46ef6/output/res/layout-v11/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/Users/user/Desktop/2018/ANDROID v17.5.14 18.1.2018/MASTER v17.5.14 18.1.2018/MASTER SOURCE v17.5.14 18.1.2018/IMIS/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow_custom.xml",
+        "source": "/Users/user/.android/build-cache/898bf8a6ad624f61082a68c3c23e2354ecf46ef6/output/res/layout-v11/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/Users/user/Desktop/2018/ANDROID v17.5.14 18.1.2018/MASTER v17.5.14 18.1.2018/MASTER SOURCE v17.5.14 18.1.2018/IMIS/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media.xml",
+        "source": "/Users/user/.android/build-cache/898bf8a6ad624f61082a68c3c23e2354ecf46ef6/output/res/layout-v11/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/user/Desktop/2018/ANDROID v17.5.14 18.1.2018/MASTER v17.5.14 18.1.2018/MASTER SOURCE v17.5.14 18.1.2018/IMIS/app/build/intermediates/res/merged/debug/layout-v11/notification_media_cancel_action.xml",
+        "source": "/Users/user/.android/build-cache/898bf8a6ad624f61082a68c3c23e2354ecf46ef6/output/res/layout-v11/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/user/Desktop/2018/ANDROID v17.5.14 18.1.2018/MASTER v17.5.14 18.1.2018/MASTER SOURCE v17.5.14 18.1.2018/IMIS/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow.xml",
+        "source": "/Users/user/.android/build-cache/898bf8a6ad624f61082a68c3c23e2354ecf46ef6/output/res/layout-v11/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/user/Desktop/2018/ANDROID v17.5.14 18.1.2018/MASTER v17.5.14 18.1.2018/MASTER SOURCE v17.5.14 18.1.2018/IMIS/app/build/intermediates/res/merged/debug/layout-v11/notification_media_action.xml",
+        "source": "/Users/user/.android/build-cache/898bf8a6ad624f61082a68c3c23e2354ecf46ef6/output/res/layout-v11/notification_media_action.xml"
+    }
+]

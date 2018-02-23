@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true" >
+
+    <LinearLayout android:id="@+id/llTop"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal" >
+
+		        <!--<Spinner-->
+		            <!--android:id="@+id/spServices"-->
+		            <!--android:layout_width="0dp"-->
+		            <!--android:layout_height="wrap_content"-->
+		            <!--android:layout_weight="1"-->
+		            <!--android:focusable="true"-->
+		            <!--android:prompt="@string/SelectService" />-->
+
+
+				<AutoCompleteTextView
+					android:id="@+id/etService"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:focusable="true"
+					android:hint="@string/SelectService" />
+
+		   <Button
+		            android:id="@+id/btnAdd"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_gravity="center"
+		            android:gravity="center_vertical|center_horizontal"
+		            android:text="@string/Add" />
+		        
+			</LinearLayout>
+	        
+	        <LinearLayout
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal" >
+
+
+
+	        <EditText
+	            android:id="@+id/etSQuantity"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:ems="10"
+	            android:hint="@string/Quantity"
+	            android:inputType="number"
+	            android:maxLength="6"
+	            android:singleLine="true" >
+
+            </EditText>
+
+
+         <EditText
+             android:id="@+id/etSAmount"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:ems="10"
+             android:hint="@string/Amount"
+             android:inputType="number"
+             android:maxLength="9"
+             android:singleLine="true" >
+
+            </EditText>
+	        </LinearLayout>
+        </LinearLayout>
+    
+
+
+
+	<LinearLayout
+	    android:id="@+id/llListView"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_above="@+id/llButton"
+	    android:layout_below="@+id/llTop"
+	    android:background="@color/Green"
+	    android:visibility="visible" >
+
+
+
+
+
+	    <ListView
+	        android:id="@+id/lvServices"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:layout_margin="2dp"
+	        android:background="@color/Black"
+	        android:choiceMode="none"
+	        android:divider="@color/Orange"
+	        android:dividerHeight="2dp"
+	        android:fadeScrollbars="true" >
+
+	    </ListView>
+	    
+    </LinearLayout>
+    
+    
+    <LinearLayout android:id="@+id/llButton"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:orientation="horizontal">
+	    
+
+
+		<Button
+		    android:id="@+id/btnBack"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:text="@string/Back" />
+
+	</LinearLayout>
+	
+</RelativeLayout>

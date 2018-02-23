@@ -1,0 +1,4797 @@
+[
+    {
+        "outputFile": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 33,
+                    "endColumn": 10,
+                    "endOffset": 693
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 33,
+                        "endColumn": 10,
+                        "endOffset": 693
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 698,
+                    "endColumn": 39,
+                    "endOffset": 733
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 5,
+                        "startOffset": 185,
+                        "endColumn": 40,
+                        "endOffset": 220
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 738,
+                    "endColumn": 38,
+                    "endOffset": 772
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 5,
+                        "startOffset": 227,
+                        "endColumn": 39,
+                        "endOffset": 261
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 777,
+                    "endColumn": 38,
+                    "endOffset": 811
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 5,
+                        "startOffset": 310,
+                        "endColumn": 39,
+                        "endOffset": 344
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 816,
+                    "endColumn": 39,
+                    "endOffset": 851
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 5,
+                        "startOffset": 60,
+                        "endColumn": 40,
+                        "endOffset": 95
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 856,
+                    "endColumn": 40,
+                    "endOffset": 892
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 5,
+                        "startOffset": 102,
+                        "endColumn": 41,
+                        "endOffset": 138
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 897,
+                    "endColumn": 37,
+                    "endOffset": 930
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 5,
+                        "startOffset": 145,
+                        "endColumn": 38,
+                        "endOffset": 178
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 935,
+                    "endColumn": 39,
+                    "endOffset": 970
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 5,
+                        "startOffset": 268,
+                        "endColumn": 40,
+                        "endOffset": 303
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 975,
+                    "endColumn": 49,
+                    "endOffset": 1020
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 698,
+                        "endColumn": 49,
+                        "endOffset": 743
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 1025,
+                    "endColumn": 47,
+                    "endOffset": 1068
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 748,
+                        "endColumn": 47,
+                        "endOffset": 791
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 1073,
+                    "endColumn": 52,
+                    "endOffset": 1121
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 796,
+                        "endColumn": 52,
+                        "endOffset": 844
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 1126,
+                    "endColumn": 45,
+                    "endOffset": 1167
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 849,
+                        "endColumn": 45,
+                        "endOffset": 890
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 1172,
+                    "endColumn": 58,
+                    "endOffset": 1226
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 895,
+                        "endColumn": 58,
+                        "endOffset": 949
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 1231,
+                    "endColumn": 55,
+                    "endOffset": 1282
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 4,
+                        "startOffset": 954,
+                        "endColumn": 55,
+                        "endOffset": 1005
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 1287,
+                    "endColumn": 53,
+                    "endOffset": 1336
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 4,
+                        "startOffset": 1010,
+                        "endColumn": 53,
+                        "endOffset": 1059
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 1341,
+                    "endColumn": 49,
+                    "endOffset": 1386
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 4,
+                        "startOffset": 1064,
+                        "endColumn": 49,
+                        "endOffset": 1109
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 1391,
+                    "endColumn": 47,
+                    "endOffset": 1434
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 1114,
+                        "endColumn": 47,
+                        "endOffset": 1157
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 1439,
+                    "endColumn": 47,
+                    "endOffset": 1482
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 1162,
+                        "endColumn": 47,
+                        "endOffset": 1205
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 1487,
+                    "endColumn": 51,
+                    "endOffset": 1534
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 1210,
+                        "endColumn": 51,
+                        "endOffset": 1257
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 1539,
+                    "endColumn": 51,
+                    "endOffset": 1586
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 4,
+                        "startOffset": 1262,
+                        "endColumn": 51,
+                        "endOffset": 1309
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 1591,
+                    "endColumn": 51,
+                    "endOffset": 1638
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 4,
+                        "startOffset": 1314,
+                        "endColumn": 51,
+                        "endOffset": 1361
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 1643,
+                    "endColumn": 49,
+                    "endOffset": 1688
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 4,
+                        "startOffset": 1366,
+                        "endColumn": 49,
+                        "endOffset": 1411
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 1693,
+                    "endColumn": 56,
+                    "endOffset": 1745
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 4,
+                        "startOffset": 1416,
+                        "endColumn": 56,
+                        "endOffset": 1468
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 1750,
+                    "endColumn": 52,
+                    "endOffset": 1798
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 4,
+                        "startOffset": 1473,
+                        "endColumn": 52,
+                        "endOffset": 1521
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 1803,
+                    "endColumn": 46,
+                    "endOffset": 1845
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 1526,
+                        "endColumn": 46,
+                        "endOffset": 1568
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 1850,
+                    "endColumn": 47,
+                    "endOffset": 1893
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 51,
+                        "startColumn": 4,
+                        "startOffset": 1573,
+                        "endColumn": 47,
+                        "endOffset": 1616
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 1898,
+                    "endColumn": 47,
+                    "endOffset": 1941
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 52,
+                        "startColumn": 4,
+                        "startOffset": 1621,
+                        "endColumn": 47,
+                        "endOffset": 1664
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 60,
+                    "startColumn": 4,
+                    "startOffset": 1946,
+                    "endColumn": 52,
+                    "endOffset": 1994
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 53,
+                        "startColumn": 4,
+                        "startOffset": 1669,
+                        "endColumn": 52,
+                        "endOffset": 1717
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 61,
+                    "startColumn": 4,
+                    "startOffset": 1999,
+                    "endColumn": 52,
+                    "endOffset": 2047
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 4,
+                        "startOffset": 1722,
+                        "endColumn": 52,
+                        "endOffset": 1770
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 62,
+                    "startColumn": 4,
+                    "startOffset": 2052,
+                    "endColumn": 51,
+                    "endOffset": 2099
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 4,
+                        "startOffset": 1775,
+                        "endColumn": 51,
+                        "endOffset": 1822
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 63,
+                    "startColumn": 4,
+                    "startOffset": 2104,
+                    "endColumn": 39,
+                    "endOffset": 2139
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 4,
+                        "startOffset": 1827,
+                        "endColumn": 39,
+                        "endOffset": 1862
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 64,
+                    "startColumn": 4,
+                    "startOffset": 2144,
+                    "endColumn": 35,
+                    "endOffset": 2175
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 4,
+                        "startOffset": 1867,
+                        "endColumn": 35,
+                        "endOffset": 1898
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 65,
+                    "startColumn": 4,
+                    "startOffset": 2180,
+                    "endColumn": 42,
+                    "endOffset": 2218
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 4,
+                        "startOffset": 1903,
+                        "endColumn": 42,
+                        "endOffset": 1941
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 66,
+                    "startColumn": 4,
+                    "startOffset": 2223,
+                    "endColumn": 45,
+                    "endOffset": 2264
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 59,
+                        "startColumn": 4,
+                        "startOffset": 1946,
+                        "endColumn": 45,
+                        "endOffset": 1987
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 67,
+                    "startColumn": 4,
+                    "startOffset": 2269,
+                    "endColumn": 49,
+                    "endOffset": 2314
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 60,
+                        "startColumn": 4,
+                        "startOffset": 1992,
+                        "endColumn": 49,
+                        "endOffset": 2037
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 68,
+                    "startColumn": 4,
+                    "startOffset": 2319,
+                    "endColumn": 33,
+                    "endOffset": 2348
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 61,
+                        "startColumn": 4,
+                        "startOffset": 2042,
+                        "endColumn": 33,
+                        "endOffset": 2071
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 69,
+                    "startColumn": 4,
+                    "startOffset": 2353,
+                    "endColumn": 44,
+                    "endOffset": 2393
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 4,
+                        "startOffset": 2076,
+                        "endColumn": 44,
+                        "endOffset": 2116
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 70,
+                    "startColumn": 4,
+                    "startOffset": 2398,
+                    "endColumn": 47,
+                    "endOffset": 2441
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 63,
+                        "startColumn": 4,
+                        "startOffset": 2121,
+                        "endColumn": 47,
+                        "endOffset": 2164
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 71,
+                    "startColumn": 4,
+                    "startOffset": 2446,
+                    "endColumn": 56,
+                    "endOffset": 2498
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 4,
+                        "startOffset": 2169,
+                        "endColumn": 56,
+                        "endOffset": 2221
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 72,
+                    "startColumn": 4,
+                    "startOffset": 2503,
+                    "endColumn": 59,
+                    "endOffset": 2558
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 65,
+                        "startColumn": 4,
+                        "startOffset": 2226,
+                        "endColumn": 59,
+                        "endOffset": 2281
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 73,
+                    "startColumn": 4,
+                    "startOffset": 2563,
+                    "endColumn": 35,
+                    "endOffset": 2594
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 1,
+                        "startOffset": 2557,
+                        "endColumn": 32,
+                        "endOffset": 2588
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 74,
+                    "startColumn": 4,
+                    "startOffset": 2599,
+                    "endColumn": 46,
+                    "endOffset": 2641
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 90,
+                        "startColumn": 1,
+                        "startOffset": 4946,
+                        "endColumn": 43,
+                        "endOffset": 4988
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 75,
+                    "startColumn": 4,
+                    "startOffset": 2646,
+                    "endColumn": 52,
+                    "endOffset": 2694
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 91,
+                        "startColumn": 1,
+                        "startOffset": 4991,
+                        "endColumn": 49,
+                        "endOffset": 5039
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 76,
+                    "startColumn": 4,
+                    "startOffset": 2699,
+                    "endColumn": 92,
+                    "endOffset": 2787
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 65,
+                        "startColumn": 1,
+                        "startOffset": 3566,
+                        "endColumn": 89,
+                        "endOffset": 3654
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 77,
+                    "startColumn": 4,
+                    "startOffset": 2792,
+                    "endColumn": 41,
+                    "endOffset": 2829
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 1,
+                        "startOffset": 2356,
+                        "endColumn": 38,
+                        "endOffset": 2393
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 78,
+                    "startColumn": 4,
+                    "startOffset": 2834,
+                    "endColumn": 37,
+                    "endOffset": 2867
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 85,
+                        "startColumn": 1,
+                        "startOffset": 4743,
+                        "endColumn": 34,
+                        "endOffset": 4776
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 79,
+                    "startColumn": 4,
+                    "startOffset": 2872,
+                    "endColumn": 48,
+                    "endOffset": 2916
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 1,
+                        "startOffset": 1700,
+                        "endColumn": 45,
+                        "endOffset": 1744
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 80,
+                    "startColumn": 4,
+                    "startOffset": 2921,
+                    "endColumn": 48,
+                    "endOffset": 2965
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 1,
+                        "startOffset": 1841,
+                        "endColumn": 45,
+                        "endOffset": 1885
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 81,
+                    "startColumn": 4,
+                    "startOffset": 2970,
+                    "endColumn": 86,
+                    "endOffset": 3052
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 1,
+                        "startOffset": 3481,
+                        "endColumn": 83,
+                        "endOffset": 3563
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 82,
+                    "startColumn": 4,
+                    "startOffset": 3057,
+                    "endColumn": 149,
+                    "endOffset": 3202
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 76,
+                        "startColumn": 1,
+                        "startOffset": 4252,
+                        "endColumn": 146,
+                        "endOffset": 4397
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 83,
+                    "startColumn": 4,
+                    "startOffset": 3207,
+                    "endColumn": 46,
+                    "endOffset": 3249
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 1,
+                        "startOffset": 1888,
+                        "endColumn": 43,
+                        "endOffset": 1930
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 84,
+                    "startColumn": 4,
+                    "startOffset": 3254,
+                    "endColumn": 41,
+                    "endOffset": 3291
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 88,
+                        "startColumn": 1,
+                        "startOffset": 4866,
+                        "endColumn": 38,
+                        "endOffset": 4903
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 85,
+                    "startColumn": 4,
+                    "startOffset": 3296,
+                    "endColumn": 117,
+                    "endOffset": 3409
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 75,
+                        "startColumn": 1,
+                        "startOffset": 4136,
+                        "endColumn": 114,
+                        "endOffset": 4249
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 86,
+                    "startColumn": 4,
+                    "startOffset": 3414,
+                    "endColumn": 58,
+                    "endOffset": 3468
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 93,
+                        "startColumn": 1,
+                        "startOffset": 5109,
+                        "endColumn": 55,
+                        "endOffset": 5163
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 87,
+                    "startColumn": 4,
+                    "startOffset": 3473,
+                    "endColumn": 50,
+                    "endOffset": 3519
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 1,
+                        "startOffset": 1651,
+                        "endColumn": 47,
+                        "endOffset": 1697
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 88,
+                    "startColumn": 4,
+                    "startOffset": 3524,
+                    "endColumn": 48,
+                    "endOffset": 3568
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 1,
+                        "startOffset": 2653,
+                        "endColumn": 45,
+                        "endOffset": 2697
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 89,
+                    "startColumn": 4,
+                    "startOffset": 3573,
+                    "endColumn": 69,
+                    "endOffset": 3638
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 67,
+                        "startColumn": 1,
+                        "startOffset": 3689,
+                        "endColumn": 66,
+                        "endOffset": 3754
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 90,
+                    "startColumn": 4,
+                    "startOffset": 3643,
+                    "endColumn": 113,
+                    "endOffset": 3752
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 70,
+                        "startColumn": 1,
+                        "startOffset": 3823,
+                        "endColumn": 110,
+                        "endOffset": 3932
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 91,
+                    "startColumn": 4,
+                    "startOffset": 3757,
+                    "endColumn": 63,
+                    "endOffset": 3816
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 871,
+                        "endColumn": 63,
+                        "endOffset": 930
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 92,
+                    "startColumn": 4,
+                    "startOffset": 3821,
+                    "endColumn": 90,
+                    "endOffset": 3907
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 779,
+                        "endColumn": 90,
+                        "endOffset": 865
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 93,
+                    "startColumn": 4,
+                    "startOffset": 3912,
+                    "endColumn": 41,
+                    "endOffset": 3949
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 89,
+                        "startColumn": 1,
+                        "startOffset": 4906,
+                        "endColumn": 38,
+                        "endOffset": 4943
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 94,
+                    "startColumn": 4,
+                    "startOffset": 3954,
+                    "endColumn": 47,
+                    "endOffset": 3997
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 1,
+                        "startOffset": 2023,
+                        "endColumn": 44,
+                        "endOffset": 2066
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 95,
+                    "startColumn": 4,
+                    "startOffset": 4002,
+                    "endColumn": 50,
+                    "endOffset": 4048
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 1,
+                        "startOffset": 2069,
+                        "endColumn": 47,
+                        "endOffset": 2115
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 96,
+                    "startColumn": 4,
+                    "startOffset": 4053,
+                    "endColumn": 50,
+                    "endOffset": 4099
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 1,
+                        "startOffset": 2118,
+                        "endColumn": 47,
+                        "endOffset": 2164
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 97,
+                    "startColumn": 4,
+                    "startOffset": 4104,
+                    "endColumn": 50,
+                    "endOffset": 4150
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 1,
+                        "startOffset": 2167,
+                        "endColumn": 47,
+                        "endOffset": 2213
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 98,
+                    "startColumn": 4,
+                    "startOffset": 4155,
+                    "endColumn": 50,
+                    "endOffset": 4201
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 1,
+                        "startOffset": 2216,
+                        "endColumn": 47,
+                        "endOffset": 2262
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 99,
+                    "startColumn": 4,
+                    "startOffset": 4206,
+                    "endColumn": 47,
+                    "endOffset": 4249
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 80,
+                        "startColumn": 1,
+                        "startOffset": 4543,
+                        "endColumn": 44,
+                        "endOffset": 4586
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 100,
+                    "startColumn": 4,
+                    "startOffset": 4254,
+                    "endColumn": 44,
+                    "endOffset": 4294
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 1,
+                        "startOffset": 1980,
+                        "endColumn": 41,
+                        "endOffset": 2020
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 101,
+                    "startColumn": 4,
+                    "startOffset": 4299,
+                    "endColumn": 96,
+                    "endOffset": 4391
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 1,
+                        "startOffset": 1288,
+                        "endColumn": 93,
+                        "endOffset": 1380
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 102,
+                    "startColumn": 4,
+                    "startOffset": 4396,
+                    "endColumn": 56,
+                    "endOffset": 4448
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 721,
+                        "endColumn": 56,
+                        "endOffset": 773
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 103,
+                    "startColumn": 4,
+                    "startOffset": 4453,
+                    "endColumn": 50,
+                    "endOffset": 4499
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 1,
+                        "startOffset": 618,
+                        "endColumn": 47,
+                        "endOffset": 664
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 104,
+                    "startColumn": 4,
+                    "startOffset": 4504,
+                    "endColumn": 55,
+                    "endOffset": 4555
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 102,
+                        "startColumn": 1,
+                        "startOffset": 5759,
+                        "endColumn": 52,
+                        "endOffset": 5810
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 105,
+                    "startColumn": 4,
+                    "startOffset": 4560,
+                    "endColumn": 55,
+                    "endOffset": 4611
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 1,
+                        "startOffset": 1597,
+                        "endColumn": 52,
+                        "endOffset": 1648
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 106,
+                    "startColumn": 4,
+                    "startOffset": 4616,
+                    "endColumn": 63,
+                    "endOffset": 4675
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 1,
+                        "startOffset": 2591,
+                        "endColumn": 60,
+                        "endOffset": 2650
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 107,
+                    "startColumn": 4,
+                    "startOffset": 4680,
+                    "endColumn": 53,
+                    "endOffset": 4729
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 104,
+                        "startColumn": 1,
+                        "startOffset": 5865,
+                        "endColumn": 50,
+                        "endOffset": 5914
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 108,
+                    "startColumn": 4,
+                    "startOffset": 4734,
+                    "endColumn": 100,
+                    "endOffset": 4830
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 105,
+                        "startColumn": 1,
+                        "startOffset": 5917,
+                        "endColumn": 97,
+                        "endOffset": 6013
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 109,
+                    "startColumn": 4,
+                    "startOffset": 4835,
+                    "endColumn": 54,
+                    "endOffset": 4885
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 59,
+                        "startColumn": 1,
+                        "startOffset": 3132,
+                        "endColumn": 51,
+                        "endOffset": 3182
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 110,
+                    "startColumn": 4,
+                    "startOffset": 4890,
+                    "endColumn": 37,
+                    "endOffset": 4923
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 52,
+                        "startColumn": 1,
+                        "startOffset": 2736,
+                        "endColumn": 34,
+                        "endOffset": 2769
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 111,
+                    "startColumn": 4,
+                    "startOffset": 4928,
+                    "endColumn": 52,
+                    "endOffset": 4976
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1447,
+                        "endColumn": 52,
+                        "endOffset": 1495
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 112,
+                    "startColumn": 4,
+                    "startOffset": 4981,
+                    "endColumn": 54,
+                    "endOffset": 5031
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1501,
+                        "endColumn": 54,
+                        "endOffset": 1551
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 113,
+                    "startColumn": 4,
+                    "startOffset": 5036,
+                    "endColumn": 46,
+                    "endOffset": 5078
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 77,
+                        "startColumn": 1,
+                        "startOffset": 4400,
+                        "endColumn": 43,
+                        "endOffset": 4442
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 114,
+                    "startColumn": 4,
+                    "startOffset": 5083,
+                    "endColumn": 52,
+                    "endOffset": 5131
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 78,
+                        "startColumn": 1,
+                        "startOffset": 4445,
+                        "endColumn": 49,
+                        "endOffset": 4493
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 115,
+                    "startColumn": 4,
+                    "startOffset": 5136,
+                    "endColumn": 133,
+                    "endOffset": 5265
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 96,
+                        "startColumn": 1,
+                        "startOffset": 5265,
+                        "endColumn": 130,
+                        "endOffset": 5394
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 116,
+                    "startColumn": 4,
+                    "startOffset": 5270,
+                    "endColumn": 141,
+                    "endOffset": 5407
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 98,
+                        "startColumn": 1,
+                        "startOffset": 5463,
+                        "endColumn": 138,
+                        "endOffset": 5600
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 117,
+                    "startColumn": 4,
+                    "startOffset": 5412,
+                    "endColumn": 58,
+                    "endOffset": 5466
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 1,
+                        "startOffset": 3075,
+                        "endColumn": 55,
+                        "endOffset": 3129
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 118,
+                    "startColumn": 4,
+                    "startOffset": 5471,
+                    "endColumn": 103,
+                    "endOffset": 5570
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 1,
+                        "startOffset": 3315,
+                        "endColumn": 100,
+                        "endOffset": 3414
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 119,
+                    "startColumn": 4,
+                    "startOffset": 5575,
+                    "endColumn": 75,
+                    "endOffset": 5646
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 1,
+                        "startOffset": 2934,
+                        "endColumn": 72,
+                        "endOffset": 3005
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 120,
+                    "startColumn": 4,
+                    "startOffset": 5651,
+                    "endColumn": 68,
+                    "endOffset": 5715
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 1,
+                        "startOffset": 3008,
+                        "endColumn": 65,
+                        "endOffset": 3072
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 121,
+                    "startColumn": 4,
+                    "startOffset": 5720,
+                    "endColumn": 65,
+                    "endOffset": 5781
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 63,
+                        "startColumn": 1,
+                        "startOffset": 3417,
+                        "endColumn": 62,
+                        "endOffset": 3478
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 122,
+                    "startColumn": 4,
+                    "startOffset": 5786,
+                    "endColumn": 64,
+                    "endOffset": 5846
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 61,
+                        "startColumn": 1,
+                        "startOffset": 3252,
+                        "endColumn": 61,
+                        "endOffset": 3312
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 123,
+                    "startColumn": 4,
+                    "startOffset": 5851,
+                    "endColumn": 83,
+                    "endOffset": 5930
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 1,
+                        "startOffset": 2852,
+                        "endColumn": 80,
+                        "endOffset": 2931
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 124,
+                    "startColumn": 4,
+                    "startOffset": 5935,
+                    "endColumn": 68,
+                    "endOffset": 5999
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 60,
+                        "startColumn": 1,
+                        "startOffset": 3185,
+                        "endColumn": 65,
+                        "endOffset": 3249
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 125,
+                    "startColumn": 4,
+                    "startOffset": 6004,
+                    "endColumn": 70,
+                    "endOffset": 6070
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 83,
+                        "startColumn": 1,
+                        "startOffset": 4671,
+                        "endColumn": 67,
+                        "endOffset": 4737
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 126,
+                    "startColumn": 4,
+                    "startOffset": 6075,
+                    "endColumn": 41,
+                    "endOffset": 6112
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 86,
+                        "startColumn": 1,
+                        "startOffset": 4779,
+                        "endColumn": 38,
+                        "endOffset": 4816
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 127,
+                    "startColumn": 4,
+                    "startOffset": 6117,
+                    "endColumn": 33,
+                    "endOffset": 6146
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 69,
+                        "startColumn": 1,
+                        "startOffset": 3791,
+                        "endColumn": 30,
+                        "endOffset": 3820
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 128,
+                    "startColumn": 4,
+                    "startOffset": 6151,
+                    "endColumn": 61,
+                    "endOffset": 6208
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 74,
+                        "startColumn": 1,
+                        "startOffset": 4076,
+                        "endColumn": 58,
+                        "endOffset": 4133
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 129,
+                    "startColumn": 4,
+                    "startOffset": 6213,
+                    "endColumn": 61,
+                    "endOffset": 6270
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 95,
+                        "startColumn": 1,
+                        "startOffset": 5205,
+                        "endColumn": 58,
+                        "endOffset": 5262
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 130,
+                    "startColumn": 4,
+                    "startOffset": 6275,
+                    "endColumn": 131,
+                    "endOffset": 6402
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 1,
+                        "startOffset": 488,
+                        "endColumn": 128,
+                        "endOffset": 615
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 131,
+                    "startColumn": 4,
+                    "startOffset": 6407,
+                    "endColumn": 67,
+                    "endOffset": 6470
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 97,
+                        "startColumn": 1,
+                        "startOffset": 5397,
+                        "endColumn": 64,
+                        "endOffset": 5460
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 132,
+                    "startColumn": 4,
+                    "startOffset": 6475,
+                    "endColumn": 53,
+                    "endOffset": 6524
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 103,
+                        "startColumn": 1,
+                        "startOffset": 5813,
+                        "endColumn": 50,
+                        "endOffset": 5862
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 133,
+                    "startColumn": 4,
+                    "startOffset": 6529,
+                    "endColumn": 71,
+                    "endOffset": 6596
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 936,
+                        "endColumn": 71,
+                        "endOffset": 1003
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 134,
+                    "startColumn": 4,
+                    "startOffset": 6601,
+                    "endColumn": 33,
+                    "endOffset": 6630
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 71,
+                        "startColumn": 1,
+                        "startOffset": 3935,
+                        "endColumn": 30,
+                        "endOffset": 3964
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 135,
+                    "startColumn": 4,
+                    "startOffset": 6635,
+                    "endColumn": 52,
+                    "endOffset": 6683
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 1,
+                        "startOffset": 667,
+                        "endColumn": 49,
+                        "endOffset": 715
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 136,
+                    "startColumn": 4,
+                    "startOffset": 6688,
+                    "endColumn": 33,
+                    "endOffset": 6717
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 66,
+                        "startColumn": 1,
+                        "startOffset": 3657,
+                        "endColumn": 30,
+                        "endOffset": 3686
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 137,
+                    "startColumn": 4,
+                    "startOffset": 6722,
+                    "endColumn": 39,
+                    "endOffset": 6757
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 82,
+                        "startColumn": 1,
+                        "startOffset": 4633,
+                        "endColumn": 36,
+                        "endOffset": 4668
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 138,
+                    "startColumn": 4,
+                    "startOffset": 6762,
+                    "endColumn": 50,
+                    "endOffset": 6808
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 1,
+                        "startOffset": 1747,
+                        "endColumn": 47,
+                        "endOffset": 1793
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 139,
+                    "startColumn": 4,
+                    "startOffset": 6813,
+                    "endColumn": 46,
+                    "endOffset": 6855
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 1,
+                        "startOffset": 1796,
+                        "endColumn": 43,
+                        "endOffset": 1838
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 140,
+                    "startColumn": 4,
+                    "startOffset": 6860,
+                    "endColumn": 39,
+                    "endOffset": 6895
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 1,
+                        "startOffset": 2396,
+                        "endColumn": 36,
+                        "endOffset": 2431
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 141,
+                    "startColumn": 4,
+                    "startOffset": 6900,
+                    "endColumn": 45,
+                    "endOffset": 6941
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 1,
+                        "startOffset": 2312,
+                        "endColumn": 42,
+                        "endOffset": 2353
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 142,
+                    "startColumn": 4,
+                    "startOffset": 6946,
+                    "endColumn": 132,
+                    "endOffset": 7074
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 357,
+                        "endColumn": 132,
+                        "endOffset": 485
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 143,
+                    "startColumn": 4,
+                    "startOffset": 7079,
+                    "endColumn": 45,
+                    "endOffset": 7120
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 81,
+                        "startColumn": 1,
+                        "startOffset": 4589,
+                        "endColumn": 42,
+                        "endOffset": 4630
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 144,
+                    "startColumn": 4,
+                    "startOffset": 7125,
+                    "endColumn": 143,
+                    "endOffset": 7264
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 1,
+                        "startOffset": 1146,
+                        "endColumn": 140,
+                        "endOffset": 1285
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 145,
+                    "startColumn": 4,
+                    "startOffset": 7269,
+                    "endColumn": 138,
+                    "endOffset": 7403
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1009,
+                        "endColumn": 138,
+                        "endOffset": 1143
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 146,
+                    "startColumn": 4,
+                    "startOffset": 7408,
+                    "endColumn": 48,
+                    "endOffset": 7452
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 87,
+                        "startColumn": 1,
+                        "startOffset": 4819,
+                        "endColumn": 45,
+                        "endOffset": 4863
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 147,
+                    "startColumn": 4,
+                    "startOffset": 7457,
+                    "endColumn": 40,
+                    "endOffset": 7493
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 94,
+                        "startColumn": 1,
+                        "startOffset": 5166,
+                        "endColumn": 37,
+                        "endOffset": 5202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 148,
+                    "startColumn": 4,
+                    "startOffset": 7498,
+                    "endColumn": 42,
+                    "endOffset": 7536
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 79,
+                        "startColumn": 1,
+                        "startOffset": 4496,
+                        "endColumn": 45,
+                        "endOffset": 4540
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 149,
+                    "startColumn": 4,
+                    "startOffset": 7541,
+                    "endColumn": 37,
+                    "endOffset": 7574
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 51,
+                        "startColumn": 1,
+                        "startOffset": 2700,
+                        "endColumn": 34,
+                        "endOffset": 2733
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 150,
+                    "startColumn": 4,
+                    "startOffset": 7579,
+                    "endColumn": 52,
+                    "endOffset": 7627
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 99,
+                        "startColumn": 1,
+                        "startOffset": 5603,
+                        "endColumn": 49,
+                        "endOffset": 5651
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 151,
+                    "startColumn": 4,
+                    "startOffset": 7632,
+                    "endColumn": 58,
+                    "endOffset": 7686
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 100,
+                        "startColumn": 1,
+                        "startOffset": 5654,
+                        "endColumn": 55,
+                        "endOffset": 5708
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 152,
+                    "startColumn": 4,
+                    "startOffset": 7691,
+                    "endColumn": 68,
+                    "endOffset": 7755
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 92,
+                        "startColumn": 1,
+                        "startOffset": 5042,
+                        "endColumn": 65,
+                        "endOffset": 5106
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 153,
+                    "startColumn": 4,
+                    "startOffset": 7760,
+                    "endColumn": 60,
+                    "endOffset": 7816
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 1,
+                        "startOffset": 2434,
+                        "endColumn": 57,
+                        "endOffset": 2490
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 154,
+                    "startColumn": 4,
+                    "startOffset": 7821,
+                    "endColumn": 65,
+                    "endOffset": 7882
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 1,
+                        "startOffset": 2493,
+                        "endColumn": 62,
+                        "endOffset": 2554
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 155,
+                    "startColumn": 4,
+                    "startOffset": 7887,
+                    "endColumn": 43,
+                    "endOffset": 7926
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 53,
+                        "startColumn": 1,
+                        "startOffset": 2772,
+                        "endColumn": 40,
+                        "endOffset": 2811
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 156,
+                    "startColumn": 4,
+                    "startOffset": 7931,
+                    "endColumn": 48,
+                    "endOffset": 7975
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 1,
+                        "startOffset": 1933,
+                        "endColumn": 45,
+                        "endOffset": 1977
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 157,
+                    "startColumn": 4,
+                    "startOffset": 7980,
+                    "endColumn": 49,
+                    "endOffset": 8025
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 101,
+                        "startColumn": 1,
+                        "startOffset": 5711,
+                        "endColumn": 46,
+                        "endOffset": 5756
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 158,
+                    "startColumn": 4,
+                    "startOffset": 8030,
+                    "endColumn": 41,
+                    "endOffset": 8067
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1557,
+                        "endColumn": 41,
+                        "endOffset": 1594
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 159,
+                    "startColumn": 4,
+                    "startOffset": 8072,
+                    "endColumn": 39,
+                    "endOffset": 8107
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 1,
+                        "startOffset": 2814,
+                        "endColumn": 36,
+                        "endOffset": 2849
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 160,
+                    "startColumn": 4,
+                    "startOffset": 8112,
+                    "endColumn": 57,
+                    "endOffset": 8165
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 73,
+                        "startColumn": 1,
+                        "startOffset": 4020,
+                        "endColumn": 54,
+                        "endOffset": 4073
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 161,
+                    "startColumn": 4,
+                    "startOffset": 8170,
+                    "endColumn": 48,
+                    "endOffset": 8214
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 72,
+                        "startColumn": 1,
+                        "startOffset": 3967,
+                        "endColumn": 51,
+                        "endOffset": 4017
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 162,
+                    "startColumn": 4,
+                    "startOffset": 8219,
+                    "endColumn": 48,
+                    "endOffset": 8263
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 1,
+                        "startOffset": 2265,
+                        "endColumn": 45,
+                        "endOffset": 2309
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 163,
+                    "startColumn": 4,
+                    "startOffset": 8268,
+                    "endColumn": 35,
+                    "endOffset": 8299
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 68,
+                        "startColumn": 1,
+                        "startOffset": 3757,
+                        "endColumn": 32,
+                        "endOffset": 3788
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 164,
+                    "startColumn": 4,
+                    "startOffset": 8304,
+                    "endColumn": 53,
+                    "endOffset": 8353
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\claimManagement\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1392,
+                        "endColumn": 53,
+                        "endOffset": 1441
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 165,
+                    "startColumn": 4,
+                    "startOffset": 8358,
+                    "endColumn": 56,
+                    "endOffset": 8410
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 67,
+                        "startColumn": 4,
+                        "startOffset": 2339,
+                        "endColumn": 56,
+                        "endOffset": 2391
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 166,
+                    "startColumn": 4,
+                    "startOffset": 8415,
+                    "endColumn": 58,
+                    "endOffset": 8469
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 68,
+                        "startColumn": 4,
+                        "startOffset": 2396,
+                        "endColumn": 58,
+                        "endOffset": 2450
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 167,
+                    "startColumn": 4,
+                    "startOffset": 8474,
+                    "endColumn": 63,
+                    "endOffset": 8533
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 69,
+                        "startColumn": 4,
+                        "startOffset": 2455,
+                        "endColumn": 63,
+                        "endOffset": 2514
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 168,
+                    "startColumn": 4,
+                    "startOffset": 8538,
+                    "endColumn": 58,
+                    "endOffset": 8592
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 70,
+                        "startColumn": 4,
+                        "startOffset": 2519,
+                        "endColumn": 58,
+                        "endOffset": 2573
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 169,
+                    "startColumn": 4,
+                    "startOffset": 8597,
+                    "endColumn": 44,
+                    "endOffset": 8637
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 71,
+                        "startColumn": 4,
+                        "startOffset": 2578,
+                        "endColumn": 44,
+                        "endOffset": 2618
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 170,
+                    "startColumn": 4,
+                    "startOffset": 8642,
+                    "endColumn": 58,
+                    "endOffset": 8696
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 72,
+                        "startColumn": 4,
+                        "startOffset": 2623,
+                        "endColumn": 58,
+                        "endOffset": 2677
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 171,
+                    "startColumn": 4,
+                    "startOffset": 8701,
+                    "endColumn": 48,
+                    "endOffset": 8745
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 73,
+                        "startColumn": 4,
+                        "startOffset": 2682,
+                        "endColumn": 48,
+                        "endOffset": 2726
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 172,
+                    "startColumn": 4,
+                    "startOffset": 8750,
+                    "endColumn": 66,
+                    "endOffset": 8812
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 74,
+                        "startColumn": 4,
+                        "startOffset": 2731,
+                        "endColumn": 66,
+                        "endOffset": 2793
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 173,
+                    "startColumn": 4,
+                    "startOffset": 8817,
+                    "endColumn": 70,
+                    "endOffset": 8883
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 75,
+                        "startColumn": 4,
+                        "startOffset": 2798,
+                        "endColumn": 70,
+                        "endOffset": 2864
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 174,
+                    "startColumn": 4,
+                    "startOffset": 8888,
+                    "endColumn": 51,
+                    "endOffset": 8935
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 76,
+                        "startColumn": 4,
+                        "startOffset": 2869,
+                        "endColumn": 51,
+                        "endOffset": 2916
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 175,
+                    "startColumn": 4,
+                    "startOffset": 8940,
+                    "endColumn": 44,
+                    "endOffset": 8980
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 77,
+                        "startColumn": 4,
+                        "startOffset": 2921,
+                        "endColumn": 44,
+                        "endOffset": 2961
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 176,
+                    "startColumn": 4,
+                    "startOffset": 8985,
+                    "endColumn": 51,
+                    "endOffset": 9032
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 78,
+                        "startColumn": 4,
+                        "startOffset": 2966,
+                        "endColumn": 51,
+                        "endOffset": 3013
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 177,
+                    "startColumn": 4,
+                    "startOffset": 9037,
+                    "endColumn": 64,
+                    "endOffset": 9097
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 79,
+                        "startColumn": 4,
+                        "startOffset": 3018,
+                        "endColumn": 64,
+                        "endOffset": 3078
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 178,
+                    "startColumn": 4,
+                    "startOffset": 9102,
+                    "endColumn": 64,
+                    "endOffset": 9162
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 80,
+                        "startColumn": 4,
+                        "startOffset": 3083,
+                        "endColumn": 64,
+                        "endOffset": 3143
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 179,
+                    "startColumn": 4,
+                    "startOffset": 9167,
+                    "endColumn": 47,
+                    "endOffset": 9210
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 81,
+                        "startColumn": 4,
+                        "startOffset": 3148,
+                        "endColumn": 47,
+                        "endOffset": 3191
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 180,
+                    "startColumn": 4,
+                    "startOffset": 9215,
+                    "endColumn": 40,
+                    "endOffset": 9251
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 82,
+                        "startColumn": 4,
+                        "startOffset": 3196,
+                        "endColumn": 40,
+                        "endOffset": 3232
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 181,
+                    "startColumn": 4,
+                    "startOffset": 9256,
+                    "endColumn": 60,
+                    "endOffset": 9312
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 83,
+                        "startColumn": 4,
+                        "startOffset": 3237,
+                        "endColumn": 60,
+                        "endOffset": 3293
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 182,
+                    "startColumn": 4,
+                    "startOffset": 9317,
+                    "endColumn": 64,
+                    "endOffset": 9377
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 84,
+                        "startColumn": 4,
+                        "startOffset": 3298,
+                        "endColumn": 64,
+                        "endOffset": 3358
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 183,
+                    "startColumn": 4,
+                    "startOffset": 9382,
+                    "endColumn": 71,
+                    "endOffset": 9449
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 85,
+                        "startColumn": 4,
+                        "startOffset": 3363,
+                        "endColumn": 71,
+                        "endOffset": 3430
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 184,
+                    "startColumn": 4,
+                    "startOffset": 9454,
+                    "endColumn": 56,
+                    "endOffset": 9506
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 86,
+                        "startColumn": 4,
+                        "startOffset": 3435,
+                        "endColumn": 56,
+                        "endOffset": 3487
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 185,
+                    "startColumn": 4,
+                    "startOffset": 9511,
+                    "endColumn": 58,
+                    "endOffset": 9565
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 87,
+                        "startColumn": 4,
+                        "startOffset": 3492,
+                        "endColumn": 58,
+                        "endOffset": 3546
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 186,
+                    "startColumn": 4,
+                    "startOffset": 9570,
+                    "endColumn": 65,
+                    "endOffset": 9631
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 88,
+                        "startColumn": 4,
+                        "startOffset": 3551,
+                        "endColumn": 65,
+                        "endOffset": 3612
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 187,
+                    "startColumn": 4,
+                    "startOffset": 9636,
+                    "endColumn": 61,
+                    "endOffset": 9693
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 89,
+                        "startColumn": 4,
+                        "startOffset": 3617,
+                        "endColumn": 61,
+                        "endOffset": 3674
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 188,
+                    "startColumn": 4,
+                    "startOffset": 9698,
+                    "endColumn": 60,
+                    "endOffset": 9754
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 90,
+                        "startColumn": 4,
+                        "startOffset": 3679,
+                        "endColumn": 60,
+                        "endOffset": 3735
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 189,
+                    "startColumn": 4,
+                    "startOffset": 9759,
+                    "endColumn": 56,
+                    "endOffset": 9811
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 91,
+                        "startColumn": 4,
+                        "startOffset": 3740,
+                        "endColumn": 56,
+                        "endOffset": 3792
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 190,
+                    "startColumn": 4,
+                    "startOffset": 9816,
+                    "endColumn": 52,
+                    "endOffset": 9864
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 92,
+                        "startColumn": 4,
+                        "startOffset": 3797,
+                        "endColumn": 52,
+                        "endOffset": 3845
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 191,
+                    "startColumn": 4,
+                    "startOffset": 9869,
+                    "endColumn": 47,
+                    "endOffset": 9912
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 93,
+                        "startColumn": 4,
+                        "startOffset": 3850,
+                        "endColumn": 47,
+                        "endOffset": 3893
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 192,
+                    "startColumn": 4,
+                    "startOffset": 9917,
+                    "endColumn": 56,
+                    "endOffset": 9969
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 94,
+                        "startColumn": 4,
+                        "startOffset": 3898,
+                        "endColumn": 56,
+                        "endOffset": 3950
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 193,
+                    "startColumn": 4,
+                    "startOffset": 9974,
+                    "endColumn": 58,
+                    "endOffset": 10028
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 95,
+                        "startColumn": 4,
+                        "startOffset": 3955,
+                        "endColumn": 58,
+                        "endOffset": 4009
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 194,
+                    "startColumn": 4,
+                    "startOffset": 10033,
+                    "endColumn": 57,
+                    "endOffset": 10086
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 96,
+                        "startColumn": 4,
+                        "startOffset": 4014,
+                        "endColumn": 57,
+                        "endOffset": 4067
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 195,
+                    "startColumn": 4,
+                    "startOffset": 10091,
+                    "endColumn": 56,
+                    "endOffset": 10143
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 97,
+                        "startColumn": 4,
+                        "startOffset": 4072,
+                        "endColumn": 56,
+                        "endOffset": 4124
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 196,
+                    "startColumn": 4,
+                    "startOffset": 10148,
+                    "endColumn": 68,
+                    "endOffset": 10212
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 98,
+                        "startColumn": 4,
+                        "startOffset": 4129,
+                        "endColumn": 68,
+                        "endOffset": 4193
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 197,
+                    "startColumn": 4,
+                    "startOffset": 10217,
+                    "endColumn": 55,
+                    "endOffset": 10268
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 99,
+                        "startColumn": 4,
+                        "startOffset": 4198,
+                        "endColumn": 55,
+                        "endOffset": 4249
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 198,
+                    "startColumn": 4,
+                    "startOffset": 10273,
+                    "endColumn": 52,
+                    "endOffset": 10321
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 100,
+                        "startColumn": 4,
+                        "startOffset": 4254,
+                        "endColumn": 52,
+                        "endOffset": 4302
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 199,
+                    "startColumn": 4,
+                    "startOffset": 10326,
+                    "endColumn": 52,
+                    "endOffset": 10374
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 101,
+                        "startColumn": 4,
+                        "startOffset": 4307,
+                        "endColumn": 52,
+                        "endOffset": 4355
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 200,
+                    "startColumn": 4,
+                    "startOffset": 10379,
+                    "endColumn": 46,
+                    "endOffset": 10421
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\General\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 100,
+                        "endColumn": 46,
+                        "endOffset": 142
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 201,
+                    "startColumn": 4,
+                    "startOffset": 10426,
+                    "endColumn": 64,
+                    "endOffset": 10486
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 102,
+                        "startColumn": 4,
+                        "startOffset": 4360,
+                        "endColumn": 64,
+                        "endOffset": 4420
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 202,
+                    "startColumn": 4,
+                    "startOffset": 10491,
+                    "endColumn": 60,
+                    "endOffset": 10547
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 103,
+                        "startColumn": 4,
+                        "startOffset": 4425,
+                        "endColumn": 60,
+                        "endOffset": 4481
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 203,
+                    "startColumn": 4,
+                    "startOffset": 10552,
+                    "endColumn": 71,
+                    "endOffset": 10619
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 104,
+                        "startColumn": 4,
+                        "startOffset": 4486,
+                        "endColumn": 71,
+                        "endOffset": 4553
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 204,
+                    "startColumn": 4,
+                    "startOffset": 10624,
+                    "endColumn": 47,
+                    "endOffset": 10667
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 105,
+                        "startColumn": 4,
+                        "startOffset": 4558,
+                        "endColumn": 47,
+                        "endOffset": 4601
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 205,
+                    "startColumn": 4,
+                    "startOffset": 10672,
+                    "endColumn": 84,
+                    "endOffset": 10752
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 106,
+                        "startColumn": 4,
+                        "startOffset": 4606,
+                        "endColumn": 84,
+                        "endOffset": 4686
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 206,
+                    "startColumn": 4,
+                    "startOffset": 10757,
+                    "endColumn": 53,
+                    "endOffset": 10806
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 107,
+                        "startColumn": 4,
+                        "startOffset": 4691,
+                        "endColumn": 53,
+                        "endOffset": 4740
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 207,
+                    "startColumn": 4,
+                    "startOffset": 10811,
+                    "endColumn": 49,
+                    "endOffset": 10856
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 108,
+                        "startColumn": 4,
+                        "startOffset": 4745,
+                        "endColumn": 49,
+                        "endOffset": 4790
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 208,
+                    "startColumn": 4,
+                    "startOffset": 10861,
+                    "endColumn": 44,
+                    "endOffset": 10901
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 109,
+                        "startColumn": 4,
+                        "startOffset": 4795,
+                        "endColumn": 44,
+                        "endOffset": 4835
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 209,
+                    "startColumn": 4,
+                    "startOffset": 10906,
+                    "endColumn": 57,
+                    "endOffset": 10959
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 110,
+                        "startColumn": 4,
+                        "startOffset": 4840,
+                        "endColumn": 57,
+                        "endOffset": 4893
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 210,
+                    "startColumn": 4,
+                    "startOffset": 10964,
+                    "endColumn": 55,
+                    "endOffset": 11015
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 111,
+                        "startColumn": 4,
+                        "startOffset": 4898,
+                        "endColumn": 55,
+                        "endOffset": 4949
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 211,
+                    "startColumn": 4,
+                    "startOffset": 11020,
+                    "endColumn": 42,
+                    "endOffset": 11058
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 112,
+                        "startColumn": 4,
+                        "startOffset": 4954,
+                        "endColumn": 42,
+                        "endOffset": 4992
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 212,
+                    "startColumn": 4,
+                    "startOffset": 11063,
+                    "endColumn": 48,
+                    "endOffset": 11107
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 113,
+                        "startColumn": 4,
+                        "startOffset": 4997,
+                        "endColumn": 48,
+                        "endOffset": 5041
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 213,
+                    "startColumn": 4,
+                    "startOffset": 11112,
+                    "endColumn": 50,
+                    "endOffset": 11158
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 114,
+                        "startColumn": 4,
+                        "startOffset": 5046,
+                        "endColumn": 50,
+                        "endOffset": 5092
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 214,
+                    "startColumn": 4,
+                    "startOffset": 11163,
+                    "endColumn": 44,
+                    "endOffset": 11203
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 115,
+                        "startColumn": 4,
+                        "startOffset": 5097,
+                        "endColumn": 44,
+                        "endOffset": 5137
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 215,
+                    "startColumn": 4,
+                    "startOffset": 11208,
+                    "endColumn": 104,
+                    "endOffset": 11308
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 116,
+                        "startColumn": 4,
+                        "startOffset": 5142,
+                        "endColumn": 104,
+                        "endOffset": 5242
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 216,
+                    "startColumn": 4,
+                    "startOffset": 11313,
+                    "endColumn": 86,
+                    "endOffset": 11395
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 117,
+                        "startColumn": 4,
+                        "startOffset": 5247,
+                        "endColumn": 86,
+                        "endOffset": 5329
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 217,
+                    "startColumn": 4,
+                    "startOffset": 11400,
+                    "endColumn": 137,
+                    "endOffset": 11533
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 118,
+                        "startColumn": 4,
+                        "startOffset": 5334,
+                        "endColumn": 137,
+                        "endOffset": 5467
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 218,
+                    "startColumn": 4,
+                    "startOffset": 11538,
+                    "endColumn": 53,
+                    "endOffset": 11587
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 119,
+                        "startColumn": 4,
+                        "startOffset": 5472,
+                        "endColumn": 53,
+                        "endOffset": 5521
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 219,
+                    "startColumn": 4,
+                    "startOffset": 11592,
+                    "endColumn": 53,
+                    "endOffset": 11641
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 120,
+                        "startColumn": 4,
+                        "startOffset": 5526,
+                        "endColumn": 53,
+                        "endOffset": 5575
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 220,
+                    "startColumn": 4,
+                    "startOffset": 11646,
+                    "endColumn": 54,
+                    "endOffset": 11696
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 121,
+                        "startColumn": 4,
+                        "startOffset": 5580,
+                        "endColumn": 54,
+                        "endOffset": 5630
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 221,
+                    "startColumn": 4,
+                    "startOffset": 11701,
+                    "endColumn": 106,
+                    "endOffset": 11803
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 122,
+                        "startColumn": 4,
+                        "startOffset": 5635,
+                        "endColumn": 106,
+                        "endOffset": 5737
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 222,
+                    "startColumn": 4,
+                    "startOffset": 11808,
+                    "endColumn": 49,
+                    "endOffset": 11853
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 123,
+                        "startColumn": 4,
+                        "startOffset": 5742,
+                        "endColumn": 49,
+                        "endOffset": 5787
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 223,
+                    "startColumn": 4,
+                    "startOffset": 11858,
+                    "endColumn": 49,
+                    "endOffset": 11903
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 124,
+                        "startColumn": 4,
+                        "startOffset": 5792,
+                        "endColumn": 49,
+                        "endOffset": 5837
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 224,
+                    "startColumn": 4,
+                    "startOffset": 11908,
+                    "endColumn": 105,
+                    "endOffset": 12009
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 125,
+                        "startColumn": 4,
+                        "startOffset": 5842,
+                        "endColumn": 105,
+                        "endOffset": 5943
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 225,
+                    "startColumn": 4,
+                    "startOffset": 12014,
+                    "endColumn": 57,
+                    "endOffset": 12067
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 126,
+                        "startColumn": 4,
+                        "startOffset": 5948,
+                        "endColumn": 57,
+                        "endOffset": 6001
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 226,
+                    "startColumn": 4,
+                    "startOffset": 12072,
+                    "endColumn": 68,
+                    "endOffset": 12136
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 127,
+                        "startColumn": 4,
+                        "startOffset": 6006,
+                        "endColumn": 68,
+                        "endOffset": 6070
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 227,
+                    "startColumn": 4,
+                    "startOffset": 12141,
+                    "endColumn": 86,
+                    "endOffset": 12223
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 128,
+                        "startColumn": 4,
+                        "startOffset": 6075,
+                        "endColumn": 86,
+                        "endOffset": 6157
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 228,
+                    "startColumn": 4,
+                    "startOffset": 12228,
+                    "endColumn": 197,
+                    "endOffset": 12421
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 129,
+                        "startColumn": 4,
+                        "startOffset": 6162,
+                        "endColumn": 197,
+                        "endOffset": 6355
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 229,
+                    "startColumn": 4,
+                    "startOffset": 12426,
+                    "endColumn": 138,
+                    "endOffset": 12560
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 130,
+                        "startColumn": 4,
+                        "startOffset": 6360,
+                        "endColumn": 138,
+                        "endOffset": 6494
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 230,
+                    "startColumn": 4,
+                    "startOffset": 12565,
+                    "endColumn": 49,
+                    "endOffset": 12610
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 131,
+                        "startColumn": 4,
+                        "startOffset": 6499,
+                        "endColumn": 49,
+                        "endOffset": 6544
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 231,
+                    "startColumn": 4,
+                    "startOffset": 12615,
+                    "endColumn": 91,
+                    "endOffset": 12702
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 132,
+                        "startColumn": 4,
+                        "startOffset": 6549,
+                        "endColumn": 91,
+                        "endOffset": 6636
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 232,
+                    "startColumn": 4,
+                    "startOffset": 12707,
+                    "endColumn": 83,
+                    "endOffset": 12786
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 133,
+                        "startColumn": 4,
+                        "startOffset": 6641,
+                        "endColumn": 83,
+                        "endOffset": 6720
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 233,
+                    "startColumn": 4,
+                    "startOffset": 12791,
+                    "endColumn": 69,
+                    "endOffset": 12856
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 134,
+                        "startColumn": 4,
+                        "startOffset": 6725,
+                        "endColumn": 69,
+                        "endOffset": 6790
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 234,
+                    "startColumn": 4,
+                    "startOffset": 12861,
+                    "endColumn": 45,
+                    "endOffset": 12902
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 135,
+                        "startColumn": 4,
+                        "startOffset": 6795,
+                        "endColumn": 45,
+                        "endOffset": 6836
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 235,
+                    "startColumn": 4,
+                    "startOffset": 12907,
+                    "endColumn": 71,
+                    "endOffset": 12974
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 136,
+                        "startColumn": 4,
+                        "startOffset": 6841,
+                        "endColumn": 71,
+                        "endOffset": 6908
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 236,
+                    "startColumn": 4,
+                    "startOffset": 12979,
+                    "endColumn": 77,
+                    "endOffset": 13052
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 137,
+                        "startColumn": 4,
+                        "startOffset": 6913,
+                        "endColumn": 77,
+                        "endOffset": 6986
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 237,
+                    "startColumn": 4,
+                    "startOffset": 13057,
+                    "endColumn": 61,
+                    "endOffset": 13114
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 138,
+                        "startColumn": 4,
+                        "startOffset": 6991,
+                        "endColumn": 61,
+                        "endOffset": 7048
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 238,
+                    "startColumn": 4,
+                    "startOffset": 13119,
+                    "endColumn": 143,
+                    "endOffset": 13258
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 139,
+                        "startColumn": 4,
+                        "startOffset": 7053,
+                        "endColumn": 143,
+                        "endOffset": 7192
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 239,
+                    "startColumn": 4,
+                    "startOffset": 13263,
+                    "endColumn": 95,
+                    "endOffset": 13354
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 140,
+                        "startColumn": 4,
+                        "startOffset": 7197,
+                        "endColumn": 95,
+                        "endOffset": 7288
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 240,
+                    "startColumn": 4,
+                    "startOffset": 13359,
+                    "endColumn": 76,
+                    "endOffset": 13431
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 141,
+                        "startColumn": 4,
+                        "startOffset": 7293,
+                        "endColumn": 76,
+                        "endOffset": 7365
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 241,
+                    "startColumn": 4,
+                    "startOffset": 13436,
+                    "endColumn": 50,
+                    "endOffset": 13482
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 142,
+                        "startColumn": 4,
+                        "startOffset": 7370,
+                        "endColumn": 50,
+                        "endOffset": 7416
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 242,
+                    "startColumn": 4,
+                    "startOffset": 13487,
+                    "endColumn": 81,
+                    "endOffset": 13564
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 143,
+                        "startColumn": 4,
+                        "startOffset": 7421,
+                        "endColumn": 81,
+                        "endOffset": 7498
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 243,
+                    "startColumn": 4,
+                    "startOffset": 13569,
+                    "endColumn": 83,
+                    "endOffset": 13648
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 144,
+                        "startColumn": 4,
+                        "startOffset": 7503,
+                        "endColumn": 83,
+                        "endOffset": 7582
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 244,
+                    "startColumn": 4,
+                    "startOffset": 13653,
+                    "endColumn": 98,
+                    "endOffset": 13747
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 145,
+                        "startColumn": 4,
+                        "startOffset": 7587,
+                        "endColumn": 98,
+                        "endOffset": 7681
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 245,
+                    "startColumn": 4,
+                    "startOffset": 13752,
+                    "endColumn": 70,
+                    "endOffset": 13818
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 146,
+                        "startColumn": 4,
+                        "startOffset": 7686,
+                        "endColumn": 70,
+                        "endOffset": 7752
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 246,
+                    "startColumn": 4,
+                    "startOffset": 13823,
+                    "endColumn": 81,
+                    "endOffset": 13900
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 147,
+                        "startColumn": 4,
+                        "startOffset": 7757,
+                        "endColumn": 81,
+                        "endOffset": 7834
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 247,
+                    "startColumn": 4,
+                    "startOffset": 13905,
+                    "endColumn": 140,
+                    "endOffset": 14041
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 148,
+                        "startColumn": 4,
+                        "startOffset": 7839,
+                        "endColumn": 140,
+                        "endOffset": 7975
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 248,
+                    "startColumn": 4,
+                    "startOffset": 14046,
+                    "endColumn": 85,
+                    "endOffset": 14127
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 149,
+                        "startColumn": 4,
+                        "startOffset": 7980,
+                        "endColumn": 85,
+                        "endOffset": 8061
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 249,
+                    "startColumn": 4,
+                    "startOffset": 14132,
+                    "endColumn": 67,
+                    "endOffset": 14195
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 150,
+                        "startColumn": 4,
+                        "startOffset": 8066,
+                        "endColumn": 67,
+                        "endOffset": 8129
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 250,
+                    "startColumn": 4,
+                    "startOffset": 14200,
+                    "endColumn": 76,
+                    "endOffset": 14272
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 151,
+                        "startColumn": 4,
+                        "startOffset": 8134,
+                        "endColumn": 76,
+                        "endOffset": 8206
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 251,
+                    "startColumn": 4,
+                    "startOffset": 14277,
+                    "endColumn": 64,
+                    "endOffset": 14337
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 152,
+                        "startColumn": 4,
+                        "startOffset": 8211,
+                        "endColumn": 64,
+                        "endOffset": 8271
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 252,
+                    "startColumn": 4,
+                    "startOffset": 14342,
+                    "endColumn": 156,
+                    "endOffset": 14494
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 153,
+                        "startColumn": 4,
+                        "startOffset": 8276,
+                        "endColumn": 156,
+                        "endOffset": 8428
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 253,
+                    "startColumn": 4,
+                    "startOffset": 14499,
+                    "endColumn": 73,
+                    "endOffset": 14568
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 154,
+                        "startColumn": 4,
+                        "startOffset": 8433,
+                        "endColumn": 73,
+                        "endOffset": 8502
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 254,
+                    "startColumn": 4,
+                    "startOffset": 14573,
+                    "endColumn": 70,
+                    "endOffset": 14639
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 155,
+                        "startColumn": 4,
+                        "startOffset": 8507,
+                        "endColumn": 70,
+                        "endOffset": 8573
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 255,
+                    "startColumn": 4,
+                    "startOffset": 14644,
+                    "endColumn": 53,
+                    "endOffset": 14693
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 156,
+                        "startColumn": 4,
+                        "startOffset": 8578,
+                        "endColumn": 53,
+                        "endOffset": 8627
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 256,
+                    "startColumn": 4,
+                    "startOffset": 14698,
+                    "endColumn": 60,
+                    "endOffset": 14754
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 157,
+                        "startColumn": 4,
+                        "startOffset": 8632,
+                        "endColumn": 60,
+                        "endOffset": 8688
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 257,
+                    "startColumn": 4,
+                    "startOffset": 14759,
+                    "endColumn": 119,
+                    "endOffset": 14874
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 158,
+                        "startColumn": 4,
+                        "startOffset": 8693,
+                        "endColumn": 119,
+                        "endOffset": 8808
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 258,
+                    "startColumn": 4,
+                    "startOffset": 14879,
+                    "endColumn": 85,
+                    "endOffset": 14960
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 159,
+                        "startColumn": 4,
+                        "startOffset": 8813,
+                        "endColumn": 85,
+                        "endOffset": 8894
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 259,
+                    "startColumn": 4,
+                    "startOffset": 14965,
+                    "endColumn": 68,
+                    "endOffset": 15029
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 160,
+                        "startColumn": 4,
+                        "startOffset": 8899,
+                        "endColumn": 68,
+                        "endOffset": 8963
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 260,
+                    "startColumn": 4,
+                    "startOffset": 15034,
+                    "endColumn": 104,
+                    "endOffset": 15134
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 161,
+                        "startColumn": 4,
+                        "startOffset": 8968,
+                        "endColumn": 104,
+                        "endOffset": 9068
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 261,
+                    "startColumn": 4,
+                    "startOffset": 15139,
+                    "endColumn": 81,
+                    "endOffset": 15216
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 162,
+                        "startColumn": 4,
+                        "startOffset": 9073,
+                        "endColumn": 81,
+                        "endOffset": 9150
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 262,
+                    "startColumn": 4,
+                    "startOffset": 15221,
+                    "endColumn": 95,
+                    "endOffset": 15312
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 163,
+                        "startColumn": 4,
+                        "startOffset": 9155,
+                        "endColumn": 95,
+                        "endOffset": 9246
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 263,
+                    "startColumn": 4,
+                    "startOffset": 15317,
+                    "endColumn": 69,
+                    "endOffset": 15382
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 164,
+                        "startColumn": 4,
+                        "startOffset": 9251,
+                        "endColumn": 69,
+                        "endOffset": 9316
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 264,
+                    "startColumn": 4,
+                    "startOffset": 15387,
+                    "endColumn": 120,
+                    "endOffset": 15503
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 165,
+                        "startColumn": 4,
+                        "startOffset": 9321,
+                        "endColumn": 120,
+                        "endOffset": 9437
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 265,
+                    "startColumn": 4,
+                    "startOffset": 15508,
+                    "endColumn": 77,
+                    "endOffset": 15581
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 166,
+                        "startColumn": 4,
+                        "startOffset": 9442,
+                        "endColumn": 77,
+                        "endOffset": 9515
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 266,
+                    "startColumn": 4,
+                    "startOffset": 15586,
+                    "endColumn": 61,
+                    "endOffset": 15643
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 167,
+                        "startColumn": 4,
+                        "startOffset": 9520,
+                        "endColumn": 61,
+                        "endOffset": 9577
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 267,
+                    "startColumn": 4,
+                    "startOffset": 15648,
+                    "endColumn": 66,
+                    "endOffset": 15710
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 168,
+                        "startColumn": 4,
+                        "startOffset": 9582,
+                        "endColumn": 66,
+                        "endOffset": 9644
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 268,
+                    "startColumn": 4,
+                    "startOffset": 15715,
+                    "endColumn": 64,
+                    "endOffset": 15775
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 169,
+                        "startColumn": 4,
+                        "startOffset": 9649,
+                        "endColumn": 64,
+                        "endOffset": 9709
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 269,
+                    "startColumn": 4,
+                    "startOffset": 15780,
+                    "endColumn": 68,
+                    "endOffset": 15844
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 170,
+                        "startColumn": 4,
+                        "startOffset": 9714,
+                        "endColumn": 68,
+                        "endOffset": 9778
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 270,
+                    "startColumn": 4,
+                    "startOffset": 15849,
+                    "endColumn": 67,
+                    "endOffset": 15912
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 171,
+                        "startColumn": 4,
+                        "startOffset": 9783,
+                        "endColumn": 67,
+                        "endOffset": 9846
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 271,
+                    "startColumn": 4,
+                    "startOffset": 15917,
+                    "endColumn": 50,
+                    "endOffset": 15963
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 172,
+                        "startColumn": 4,
+                        "startOffset": 9851,
+                        "endColumn": 50,
+                        "endOffset": 9897
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 272,
+                    "startColumn": 4,
+                    "startOffset": 15968,
+                    "endColumn": 56,
+                    "endOffset": 16020
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 173,
+                        "startColumn": 4,
+                        "startOffset": 9902,
+                        "endColumn": 56,
+                        "endOffset": 9954
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 273,
+                    "startColumn": 4,
+                    "startOffset": 16025,
+                    "endColumn": 56,
+                    "endOffset": 16077
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 174,
+                        "startColumn": 4,
+                        "startOffset": 9959,
+                        "endColumn": 56,
+                        "endOffset": 10011
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 274,
+                    "startColumn": 4,
+                    "startOffset": 16082,
+                    "endColumn": 57,
+                    "endOffset": 16135
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 175,
+                        "startColumn": 4,
+                        "startOffset": 10016,
+                        "endColumn": 57,
+                        "endOffset": 10069
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 275,
+                    "startColumn": 4,
+                    "startOffset": 16140,
+                    "endColumn": 56,
+                    "endOffset": 16192
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 176,
+                        "startColumn": 4,
+                        "startOffset": 10074,
+                        "endColumn": 56,
+                        "endOffset": 10126
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 276,
+                    "startColumn": 4,
+                    "startOffset": 16197,
+                    "endColumn": 48,
+                    "endOffset": 16241
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 177,
+                        "startColumn": 4,
+                        "startOffset": 10131,
+                        "endColumn": 48,
+                        "endOffset": 10175
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 277,
+                    "startColumn": 4,
+                    "startOffset": 16246,
+                    "endColumn": 64,
+                    "endOffset": 16306
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 178,
+                        "startColumn": 4,
+                        "startOffset": 10180,
+                        "endColumn": 64,
+                        "endOffset": 10240
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 278,
+                    "startColumn": 4,
+                    "startOffset": 16311,
+                    "endColumn": 55,
+                    "endOffset": 16362
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 179,
+                        "startColumn": 4,
+                        "startOffset": 10245,
+                        "endColumn": 55,
+                        "endOffset": 10296
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 279,
+                    "startColumn": 4,
+                    "startOffset": 16367,
+                    "endColumn": 56,
+                    "endOffset": 16419
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 180,
+                        "startColumn": 4,
+                        "startOffset": 10301,
+                        "endColumn": 56,
+                        "endOffset": 10353
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 280,
+                    "startColumn": 4,
+                    "startOffset": 16424,
+                    "endColumn": 57,
+                    "endOffset": 16477
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 181,
+                        "startColumn": 4,
+                        "startOffset": 10358,
+                        "endColumn": 57,
+                        "endOffset": 10411
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 281,
+                    "startColumn": 4,
+                    "startOffset": 16482,
+                    "endColumn": 88,
+                    "endOffset": 16566
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 182,
+                        "startColumn": 4,
+                        "startOffset": 10416,
+                        "endColumn": 88,
+                        "endOffset": 10500
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 282,
+                    "startColumn": 4,
+                    "startOffset": 16571,
+                    "endColumn": 56,
+                    "endOffset": 16623
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 183,
+                        "startColumn": 4,
+                        "startOffset": 10505,
+                        "endColumn": 56,
+                        "endOffset": 10557
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 283,
+                    "startColumn": 4,
+                    "startOffset": 16628,
+                    "endColumn": 48,
+                    "endOffset": 16672
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 184,
+                        "startColumn": 4,
+                        "startOffset": 10562,
+                        "endColumn": 48,
+                        "endOffset": 10606
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 284,
+                    "startColumn": 4,
+                    "startOffset": 16677,
+                    "endColumn": 68,
+                    "endOffset": 16741
+                },
+                "from": {
+                    "file": "D:\\EXACT\\ANDROID SOURCE v17.5.12 12.12.2017\\MASTER\\ClaimManagement\\CaptureActivity\\build\\intermediates\\bundles\\default\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 185,
+                        "startColumn": 4,
+                        "startOffset": 10611,
+                        "endColumn": 68,
+                        "endOffset": 10675
+                    }
+                }
+            }
+        ]
+    }
+]
