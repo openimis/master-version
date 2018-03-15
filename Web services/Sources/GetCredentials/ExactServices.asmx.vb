@@ -1,4 +1,4 @@
-'Copyright (c) 2016-2017 Swiss Agency for Development and Cooperation (SDC)
+'Copyright (c) 2016-%CurrentYear% Swiss Agency for Development and Cooperation (SDC)
 '
 'The program users must agree to the following terms:
 '
@@ -503,18 +503,24 @@ Public Class Service1
         Dim ConStr As String = ConfigurationManager.ConnectionStrings("CHF_CENTRALConnectionString").ConnectionString.ToString
         Dim con As New SqlConnection(ConStr)
         Dim sSQL As String = ""
-        sSQL = "SELECT R.RenewalId,R.PolicyId, O.OfficerId, O.Code OfficerCode, I.CHFID, I.LastName, I.OtherNames, Prod.ProductCode, Prod.ProductName,"
-        sSQL += " F.LocationId, V.VillageName, CONVERT(NVARCHAR(10),R.RenewalpromptDate,103)RenewalpromptDate, O.Phone, CONVERT(NVARCHAR(10),Po.EnrollDate,103) EnrollDate,Po.PolicyStage, F.FamilyID, Prod.ProdID"
-        sSQL += " FROM tblPolicyRenewals R INNER JOIN tblOfficer O ON R.NewOfficerId = O.OfficerId"
+        sSQL += " ;WITH FollowingPolicies AS ("
+        sSQL += " SELECT P.PolicyId, P.FamilyId, ISNULL(Prod.ConversionProdId, Prod.ProdId)ProdID, P.StartDate"
+        sSQL += " FROM tblPolicy P"
+        sSQL += " INNER JOIN tblProduct Prod ON P.ProdId = ISNULL(Prod.ConversionProdId, Prod.ProdId)"
+        sSQL += " WHERE P.ValidityTo IS NULL"
+        sSQL += " AND Prod.ValidityTo IS NULL )"
+        sSQL += " SELECT R.RenewalId,R.PolicyId, O.OfficerId, O.Code OfficerCode, I.CHFID, I.LastName, I.OtherNames, Prod.ProductCode, Prod.ProductName,F.LocationId, V.VillageName, CONVERT(NVARCHAR(10),R.RenewalpromptDate,103)RenewalpromptDate, O.Phone, CONVERT(NVARCHAR(10),Po.EnrollDate,103) EnrollDate,Po.PolicyStage, F.FamilyID, Prod.ProdID FROM tblPolicyRenewals R "
+        sSQL += " INNER JOIN tblOfficer O ON R.NewOfficerId = O.OfficerId"
         sSQL += " INNER JOIN tblInsuree I ON R.InsureeId = I.InsureeId"
         sSQL += " LEFT OUTER JOIN tblProduct Prod ON R.NewProdId = Prod.ProdId"
         sSQL += " INNER JOIN tblFamilies F ON I.FamilyId = F.Familyid"
         sSQL += " INNER JOIN tblVillages V ON F.LocationId = V.VillageId"
         sSQL += " INNER JOIN tblPolicy Po ON Po.PolicyID = R.PolicyID"
+        sSQL += " LEFT OUTER JOIN FollowingPolicies FP ON FP.FamilyID = F.FamilyId AND FP.ProdId = Po.ProdID AND FP.PolicyId <> R.PolicyID"
         sSQL += " WHERE R.ValidityTo Is NULL"
         sSQL += " AND ISNULL(R.ResponseStatus, 0) = 0"
         sSQL += " AND O.Code = @OfficerCode"
-
+        sSQL += " AND FP.PolicyId IS NULL"
         Dim cmd As New SqlCommand(sSQL, con)
 
         cmd.Parameters.Add("@OfficerCode", SqlDbType.NVarChar, 8).Value = OfficerCode
@@ -1084,7 +1090,8 @@ Public Class Service1
         data.params("@ProdId", ProdId)
         data.params("@PolicyId", PolicyId)
         data.params("@PolicyStage", PolicyStage)
-        data.params("@EnrollDate", EnrollDate)
+        'amani modified 26/02/2018
+        data.params("@EnrollDate", Date.ParseExact(EnrollDate, "dd/MM/yyyy", System.Globalization.DateTimeFormatInfo.InvariantInfo))
         data.params("@PreviousPolicyId", PreviousPolicyId)
         Dim dt As DataTable = data.Filldata
         Return dt.Rows(0)("PolicyValue")
@@ -1421,8 +1428,8 @@ Public Class Service1
     Private Function getInsurees(ByVal FamilyId As Integer) As DataTable
         Dim sSQL As String = ""
         Dim data As New ExactSQL
-        sSQL = "SELECT I.InsureeId, FamilyId, I.CHFID, LastName, OtherNames,  FORMAT(DOB, 'yyyy-MM-dd') DOB, Gender, Marital, IsHead, Phone, CardIssued, Relationship,"
-        sSQL += " Profession, Education, Email, TypeOfId, HFID, CurrentAddress, GeoLocation, CurrentVillage CurVillage, PhotoFileName PhotoPath,"
+        sSQL = "SELECT ISNULL(I.Passport,'') IdentificationNumber, I.InsureeId, FamilyId, I.CHFID, LastName, OtherNames,  FORMAT(DOB, 'yyyy-MM-dd') DOB, Gender, Marital, IsHead, ISNULL(Phone,'') Phone, CardIssued, Relationship,"
+        sSQL += " ISNULL(Profession,'')Profession, ISNULL(Education,'')Education, ISNULL(Email,'')Email, TypeOfId, HFID, ISNULL(CurrentAddress,'')CurrentAddress, GeoLocation, CurrentVillage CurVillage, PhotoFileName PhotoPath,"
         sSQL += " id.IdentificationTypes, 0 isOffline"
         sSQL += " FROM tblInsuree I"
         sSQL += " LEFT JOIN tblPhotos P ON P.PhotoID = I.PhotoID"
@@ -1554,7 +1561,7 @@ Public Class Service1
         sSQL += " AND V.ValidityTo IS NULL"
         sSQL += " AND W.ValidityTo IS NULL"
         sSQL += " AND D.ValidityTo IS NULL"
-        sSQL += " AND I.IsHead = 1"
+        'sSQL += " AND I.IsHead = 1"
 
         data.setSQLCommand(sSQL, CommandType.Text)
         data.params("@CHFID", SqlDbType.NVarChar, 12, CHFID)
@@ -1596,6 +1603,17 @@ Public Class Service1
         data.ExecuteCommand()
         Dim RV As Integer = data.sqlParameters("@RV")
         Return RV
+    End Function
+
+    <WebMethod>
+    <ScriptMethod(ResponseFormat:=ResponseFormat.Json)>
+    Public Function InsureeNumberExist(ByVal CHFID As String) As Boolean
+        Dim data As New ExactSQL
+        Dim sSQL As String = "SELECT CHFID FROM tblInsuree  WHERE LTRIM(RTRIM(CHFID))=LTRIM(RTRIM(@CHFID))  AND ValidityTo IS NULL"
+        data.setSQLCommand(sSQL, CommandType.Text)
+        data.params("@CHFID", SqlDbType.NVarChar, 120, CHFID)
+        Dim dt As DataTable = data.Filldata
+        Return dt.Rows.Count > 0
     End Function
 #End Region
 End Class

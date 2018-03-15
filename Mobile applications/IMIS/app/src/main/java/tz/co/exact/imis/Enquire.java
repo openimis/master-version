@@ -245,7 +245,6 @@ public class Enquire extends AppCompatActivity {
             result = cs.getInsureeInfo(chfid);
         }else{
             //TODO: yet to be done
-
             result = getDataFromDb(etCHFID.getText().toString());
         }
 
@@ -380,6 +379,8 @@ public class Enquire extends AppCompatActivity {
         });
 
     }
+
+    @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         try {
             switch(requestCode){
@@ -409,8 +410,6 @@ public class Enquire extends AppCompatActivity {
     }
     private String getDataFromDb(String chfid){
        try {
-
-
            ca.OfflineEnquire(chfid);
            result = ca.OfflineEnquire(chfid);
            return result;

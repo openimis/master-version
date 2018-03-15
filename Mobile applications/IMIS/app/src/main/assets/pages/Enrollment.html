@@ -76,22 +76,23 @@ In case of dispute arising out or in relation to the use of the program, it is s
                   buttons: {
                     OK: function() {
                    if(isOffline == 0 || isOffline == 2){
-                                deletedSuccess = parseInt(Android.DeleteOnlineData(FamilyId, 'F'));
-                                }
-                             else{
-								deletedSuccess = parseInt(Android.DeleteFamily(FamilyId));
-								}
+                        deletedSuccess = parseInt(Android.DeleteOnlineData(FamilyId, 'F'));
+                    }
+                    else{
+						deletedSuccess = parseInt(Android.DeleteFamily(FamilyId));
+                        LoadFamilies();
+				    }
 
-							  if(deletedSuccess == 1){
-								Android.ShowDialog(Android.getString('FamilyDeleted'));
-                                window.open('Enrollment.html', '_self');
-							  }
-							  else if(deletedSuccess == -1){
-								    Android.ShowDialog(Android.getString('LoginToDeleteOnlineData'));
-							  }else if(deletedSuccess == 3){
-							        Android.deleteDialog(Android.getString('DeleteFamilyWithPolicy'),FamilyId);
+					if(deletedSuccess == 1){
 
-							  }
+                        Android.ShowDialog(Android.getString('FamilyDeleted'));
+                        window.open('Enrollment.html', '_self');
+					}
+					else if(deletedSuccess == -1){
+					    Android.ShowDialog(Android.getString('LoginToDeleteOnlineData'));
+					}else if(deletedSuccess == 3){
+						Android.deleteDialog(Android.getString('DeleteFamilyWithPolicy'),FamilyId);
+					 }
          $( this ).dialog( "close" );
         },
         Cancel: function() {

@@ -75,8 +75,12 @@ public class General {
         CallSoap cs = new CallSoap();
         cs.setFunctionName("GetCurrentVersion");
         result = cs.GetCurrentVersion(Field);
-        if (result == "") return false;
-        return (!getVersion(ctx,PackageName).toString().equals(result));
-
+        if (result == "") {
+            return false;
+        }else if(Float.parseFloat(getVersion(ctx,PackageName).toString()) < Float.parseFloat(result)){
+            return true;
+        }else{
+            return false;
+        }
     }
 }

@@ -181,11 +181,19 @@
     <Content Include="User.aspx" />
     <Content Include="Utilities.aspx" />
     <Content Include="Manual\IMIS_manual.pdf" />
+    <Content Include="Extracts\OffLine\WorkFolder\dummy.dmd" />
+    <Content Include="Archive\dummy.dmd" />
+    <Content Include="Extracts\Phone\WorkFolder\dummy.dmd" />
+    <Content Include="FromPhone\Claim\Rejected\dummy.dmd" />
+    <Content Include="FromPhone\Enrollment\dummy.dmd" />
+    <Content Include="FromPhone\Feedback\Rejected\dummy.dmd" />
+    <Content Include="FromPhone\Renewal\Rejected\dummy.dmd" />
     <None Include="My Project\PublishProfiles\IMIS.pubxml" />
     <None Include="Web References\IMISService\ExactServices.disco" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Workspace\dummy.dmd" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddFunding.aspx.designer.vb">
@@ -740,16 +748,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Archive\" />
-    <Folder Include="Extracts\OffLine\WorkFolder\" />
-    <Folder Include="Extracts\Phone\WorkFolder\" />
-    <Folder Include="FromPhone\Claim\Rejected\" />
-    <Folder Include="FromPhone\Enrollment\" />
-    <Folder Include="FromPhone\Feedback\Rejected\" />
-    <Folder Include="FromPhone\Renewal\Rejected\" />
     <Folder Include="Images\Submitted\" />
     <Folder Include="Images\Updated\" />
-    <Folder Include="Workspace\" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />

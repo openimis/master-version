@@ -35,6 +35,7 @@ In case of dispute arising out or in relation to the use of the program, it is s
     <script type="text/javascript">
         $(document).ready(function(){
 
+
         document.title = Android.getString('AddEditPolicy');
 
             var LocationId =parseInt(queryString("l"));
@@ -60,19 +61,22 @@ In case of dispute arising out or in relation to the use of the program, it is s
                 $("#ddlProduct").val($Policy[0]["ProdId"]);
                 $("#ddlOfficer").val($Policy[0]["OfficerId"]);
                 var PolicyStage = $Policy[0]["PolicyStage"];
+                var StartDate = $Policy[0]["StartDate"];
                 var EnrolmentDate =$Policy[0]["EnrollDate"];
+                var ExpiryDate =$Policy[0]["ExpiryDate"];
                 var ProdId = parseInt($Policy[0]["ProdId"]);
                 var CurrentPolicyValue = $Policy[0]["PolicyValue"];
                 var isOffline = parseInt($Policy[0]["isOffline"]);
                 bindDataFromDatafield(strPolicy);
-                getPolicyPeriod(EnrolmentDate,ProdId,FamilyId,parseInt(policyId))
+
+                $('#txtStartDate').val((StartDate));
+                $('#txtExpiryDate').val(ExpiryDate);
+
                 var HSCycle = false;
                  if($('#hfHasCycle').val()) HSCycle = true;
 
                 var NewPolicyValue = Android.getPolicyValue(EnrolmentDate,ProdId,FamilyId,$('#hffStartDate').val(),HSCycle,parseInt(policyId),PolicyStage,isOffline);
                 var PolicyStatusValue = $("#hfPolicyStatus").val();
-
-
 
              if (NewPolicyValue != CurrentPolicyValue){
                 var Vdate = new Date(EnrolmentDate);  //or your date here
@@ -109,6 +113,7 @@ In case of dispute arising out or in relation to the use of the program, it is s
            });
 
 
+
             $('#btnSave').click(function(){
             var passed = isFormValidated();
             var jsonPolicy = createJSONString();
@@ -121,6 +126,12 @@ In case of dispute arising out or in relation to the use of the program, it is s
                     Android.ShowDialog(Android.getString('FieldRequired'));
                 }
            });
+
+               $('#txtStartDate').change(function(){
+                    var txtStartDate = $('#txtStartDate').val();
+                    var ProdId = $('#ddlProduct').val();
+                    getPolicyPeriod(txtStartDate,parseInt(ProdId),parseInt(FamilyId),parseInt(policyId));
+               });
         });
 
         function getPolicyPeriod(EnrolmentDate,ProdId,FamilyId,policyId){
@@ -133,6 +144,7 @@ In case of dispute arising out or in relation to the use of the program, it is s
                 var StartDate = new Date(Period[0]["StartDate"]);
                 var ExpiryDate = new Date(Period[0]["ExpiryDate"]);
                    HasCycle = Period[0]["HasCycle"];
+
 
 
 
@@ -162,6 +174,7 @@ In case of dispute arising out or in relation to the use of the program, it is s
 
              $("#ddlOfficer").val(parseInt(OfficerId));
              $("#ddlOfficer").prop('disabled', true);
+             $("#ddlOfficer").css('display', 'none');
 
         }
         function LoadProduct(RegionId,DistrictId, EnrolmentDate){
@@ -213,7 +226,9 @@ In case of dispute arising out or in relation to the use of the program, it is s
         </li>
         <li id="Officer">
             <span strName="Officer">Officer</span>
-            <select datafield="OfficerId" id="ddlOfficer" required></select>
+            <select datafield="OfficerId" id="ddlOfficer" required>
+
+            </select>
         </li>
 
         <li>

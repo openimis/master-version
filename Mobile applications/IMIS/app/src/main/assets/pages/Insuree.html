@@ -70,29 +70,49 @@ In case of dispute arising out or in relation to the use of the program, it is s
 
              $('#txtInsuranceNumber').change(function(){
                  var Ins = $('#txtInsuranceNumber').val();
+                 var ans = Android.isValidInsuranceNumber(Ins);
+                 if(ans != true){
+                    $('#txtInsuranceNumber').val("");
+                    $('#txtInsuranceNumber').focus();
+                 }
                 var ImagePath = Android.GetListOfImagesContain(Ins);
 
-                if(ImagePath.length > 0)
-                $('#imgInsuree').attr('src', 'file://' +ImagePath);
+                if(ImagePath.length > 0){
+                    $('#imgInsuree').attr('src', 'file://' +ImagePath);
+                }else{
+                    $('#imgInsuree').attr('src', '');
+                }
+
              });
 
+
+            $('#spPleaseWait').text(Android.getString('saving'));
+
             $('#btnSave').click(function(){
+                $("#divProgress").show();
+
+                getImage();
+
                 var passed = isFormValidated();
                 if (passed == true){
-                //mimi
-                    Android.clearInsuranceNo();
 
+                    Android.clearInsuranceNo();
                     var jsonInsuree = createJSONString();
 
                     if(sessionStorage.getItem("FamilyData") !== null){
+
                         var FamilyId = Android.SaveFamily(sessionStorage.getItem("FamilyData"), jsonInsuree);
 
                         if(FamilyId > 0){
                             sessionStorage.removeItem("FamilyData");
                             $(this).attr("disabled","disabled");
-                             window.open("FamilyAndInsurees.html?f=" + FamilyId, "_self");
-                            }
+
+                            window.open("FamilyAndInsurees.html?f=" + FamilyId, "_self");
+
+                        }
+
                     }else{
+
                         var FamilyId = parseInt(queryString('f'));
                         var FamilyPolicy = Android.getFamilyPolicy(FamilyId);
                         var $Policy = $.parseJSON(FamilyPolicy);
@@ -103,23 +123,31 @@ In case of dispute arising out or in relation to the use of the program, it is s
                         var IsNewIns = parseInt($("#hfInsureeId").val());
                         var MemberDialog = -1;
                         var ExceedThreshold = -1;
+
                         if(PolicyId > 0 && IsNewIns == 0 ){
                             if ( TotalIns >= MemberCount){
-                            ExceedThreshold = 0
-                            Android.ShowDialog(Android.getString('ExceedMemberCount'));
-                            }
-                            else if(TotalIns >= Threshold ){
+                                ExceedThreshold = 0;
+                                Android.ShowDialog(Android.getString('ExceedMemberCount'));
+                            }else if(TotalIns >= Threshold ){
                                 ExceedThreshold =1;
                             }
                         }
+                        $("#divProgress").show();
                         var InsureeId = Android.SaveInsuree(jsonInsuree, FamilyId, 0,parseInt(ExceedThreshold));
-                         window.open("FamilyAndInsurees.html?f=" + FamilyId, "_self");
+                        $("#divProgress").hide();
+                        window.open("FamilyAndInsurees.html?f=" + FamilyId, "_self");
 
                     }
-                }
-                 else
+                }else{
+                    $("#divProgress").hide();
                     Android.ShowDialog(Android.getString('FieldRequired'));
+                }
+
             });
+
+
+
+
 
            $(window).bind("onbeforeunload", function(){
                 Android.showDialog('bye');
@@ -286,10 +314,22 @@ In case of dispute arising out or in relation to the use of the program, it is s
             bindDropdown('ddlFSP', $HF, 'HFID', 'HF',0, Android.getString('SelectHF'));
         }
 
-    function createJSONString(){
-                var jsonInsuree = getControlsValuesJSON('li');
-                return jsonInsuree;
+        function createJSONString(){
+            var jsonInsuree = getControlsValuesJSON('li');
+            return jsonInsuree;
+        }
+
+        function getImage(){
+            var Ins = $('#txtInsuranceNumber').val();
+            var ImagePath = Android.GetListOfImagesContain(Ins);
+
+            if(ImagePath.length > 0){
+                $('#imgInsuree').attr('src', 'file://' +ImagePath);
+            }else{
+                $('#imgInsuree').attr('src', '');
             }
+
+        }
 
 
 
@@ -300,6 +340,9 @@ In case of dispute arising out or in relation to the use of the program, it is s
 
 </head>
 <body>
+<div id="divProgress">
+    <span id="spPleaseWait"></span>
+</div>
 <div>
     <ul class="ulEntry">
         <li id="Relationship">
@@ -312,7 +355,7 @@ In case of dispute arising out or in relation to the use of the program, it is s
             <input type="hidden" datafield="isHead" id="hfisHead" value="-1"/>
             <span strName="InsuranceNumber">Insurance Number</span>
             <div style="display:flex">
-            <input type="text" maxlength="12" id="txtInsuranceNumber" dataField="CHFID" required />
+            <input type="text" maxlength="12" id="txtInsuranceNumber" dataField="CHFID" onkeyup="getImage()" required />
             <img src="" alt="Scan" id="btnScan" style="width:50px !important"  />
             </div>
         </li>

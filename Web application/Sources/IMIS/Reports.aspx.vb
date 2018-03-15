@@ -801,11 +801,12 @@ Partial Public Class Reports
         Else
             LocationId = Val(ddlRegionWoNational.SelectedValue)
         End If
-
-        Dim sSubTitle As String = If(LocationName.Length > 0, LocationName & " | ", "") & imisgen.getMessage("L_DATEFROM") & DateFrom & imisgen.getMessage("L_DATETO") & DateTo
+        'changed by amani 22/02/2018 to fix isuue with missing space
+        Dim sSubTitle As String = If(LocationName.Length > 0, LocationName & " | ", "") & imisgen.getMessage("L_DATEFROM") & " " & DateFrom & " " & imisgen.getMessage("L_DATETO") & " " & DateTo
         IMIS_EN.eReports.SubTitle = sSubTitle
         dt = reports.GetPaymentCategoryOverview(DateFrom, DateTo, LocationId, ddlProduct.SelectedValue)
     End Sub
+
     Private Function GetMatchingFunds() As Boolean
         Dim DistrictID As Integer?
         Dim ProdID As Integer?

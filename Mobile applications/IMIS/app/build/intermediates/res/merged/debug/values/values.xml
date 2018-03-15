@@ -759,7 +759,7 @@
     <string name="DeleteFamily">Deleting of family will also Delete all Insurees, Policies and Premiums of this Family </string>
     <string name="DeleteFamilyWithPolicy">This Family has a policy on the server, Do you want to delete this family only on your phone?</string>
     <string name="DeletePolicyPremium">Deleting policy will also delete premium on it</string>
-    <string name="Deleting">Delete ...</string>
+    <string name="Deleting">Deleting ...</string>
     <string name="DiscontinuePolicy">Discontinue this policy</string>
     <string name="DiscontinuePolicyQ">Do you want to discontinue this policy?</string>
     <string name="Dispensary">Dispensary</string>
@@ -834,6 +834,7 @@
     <string name="InsureeNotDeleted">Insuree has not deleted</string>
     <string name="InternetRequired">Internet connection is required to view the statistics.</string>
     <string name="InternetRequiredOnlineData">Internet connection is required to delete online data.</string>
+    <string name="Interuption">Process has been Interuption please check your internet connection</string>
     <string name="InvalidInsuranceNumber">Invalid CHF number</string>
     <string name="InvalidReceiptNo">This receipt number is already used.</string>
     <string name="IsHeadDelete">You can not delete the head of the family.</string>
@@ -868,18 +869,19 @@
     <string name="New">New</string>
     <string name="Next">Next</string>
     <string name="No">No</string>
+    <string name="NoFamilyUploaded">No Family found</string>
     <string name="NoFeedbackFound">No feedback found</string>
     <string name="NoFiles">No file found.</string>
     <string name="NoImages">No images found.</string>
     <string name="NoInternet">Please check your internet connection.</string>
-    <string name="NoPhoto">No photos upload</string>
+    <string name="NoPhoto">No photos found</string>
     <string name="NoRenewalFound">No renewal found</string>
     <string name="NoSDCard">IMIS needs external memory card to run. Please insert memory card and restart the application.</string>
     <string name="NoStatFound">No data found</string>
     <string name="NotSpecified">Not specified</string>
     <string name="Of">Of</string>
     <string name="Officer">Officer</string>
-    <string name="OfficerCode">Officer Code :</string>
+    <string name="OfficerCode">Officer Code</string>
     <string name="Ok">Ok</string>
     <string name="Other">Other</string>
     <string name="OtherNames">Other Names</string>
@@ -891,6 +893,7 @@
     <string name="PaymentType">Payment Type</string>
     <string name="PermanentAddress">Permanent Address Details</string>
     <string name="PhoneNumber">Phone number</string>
+    <string name="PhotoSaved">Photo saved successfully.</string>
     <string name="PhotosUploaded">Photos uploaded successfully</string>
     <string name="PleaseDeletePremium">Policy has contribution. Please delete contributions first</string>
     <string name="PleaseWait">Please Wait..</string>
@@ -922,6 +925,7 @@
     <string name="ReleaseDate">Release Date</string>
     <string name="Renewal">Renewal</string>
     <string name="RenewalNotUploaded">Renewal could not be uploaded please, try again later</string>
+    <string name="RenewalUploaded">Upload successfully please check Accepted/Rejected folders</string>
     <string name="Save">Save</string>
     <string name="SavedOnMemoryCard">Data has been saved on the external memory card.</string>
     <string name="SavedOnSDCard">File is saved on external storage.</string>
@@ -1014,7 +1018,7 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="action_settings">Settings</string>
-    <string name="app_name">IMIS</string>
+    <string name="app_name">IMIS-DEV</string>
     <string name="app_picker_name">Applications</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bookmark_picker_name">Bookmarks</string>
@@ -1137,6 +1141,7 @@
     <string name="result_text">Found plain text</string>
     <string name="result_uri">Found URL</string>
     <string name="result_wifi">Found WLAN Configuration</string>
+    <string name="saving">Saving...</string>
     <string name="sbc_name">Google Book Search</string>
     <string name="search_menu_title">Search</string>
     <string name="share_name">Share via barcode</string>

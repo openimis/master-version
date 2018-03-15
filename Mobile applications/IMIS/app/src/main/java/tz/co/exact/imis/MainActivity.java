@@ -25,6 +25,7 @@
 
 package tz.co.exact.imis;
 
+import android.Manifest;
 import android.annotation.SuppressLint;
 import android.app.ActionBar;
 import android.app.AlertDialog;
@@ -35,6 +36,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
 import android.content.res.Configuration;
 import android.database.Cursor;
 import android.net.Uri;
@@ -45,6 +47,7 @@ import android.os.Vibrator;
 import android.provider.MediaStore;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.NotificationCompat;
 import android.text.TextUtils;
 import android.util.Log;
@@ -103,6 +106,7 @@ public class MainActivity extends AppCompatActivity
     static  TextView OfficerName;
 
     General _General = new General();
+
     final String VersionField = "AppVersionImis";
     final String ApkFileLocation = _General.getDomain() + "/Apps/IMIS.apk";
     final int SIMPLE_NOTFICATION_ID = 98029;
@@ -110,6 +114,7 @@ public class MainActivity extends AppCompatActivity
 
     NotificationManager mNotificationManager;
     Vibrator vibrator;
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -182,11 +187,14 @@ public class MainActivity extends AppCompatActivity
         SharedPreferences spHF = getSharedPreferences(PREFS_NAME,MODE_PRIVATE);
         selectedLanguage = spHF.getString("Language", "en");
         changeLanguage(selectedLanguage, false);
-
         super.onCreate(savedInstanceState);
-
+        //Request for camera permission//
+        //By Herman 20/2/2018
+        requestPermision();
 
         setContentView(R.layout.activity_main);
+
+
         sqlHandler = new SQLHandler(this);
 
         sqlHandler.isPrivate = true;
@@ -307,10 +315,16 @@ public class MainActivity extends AppCompatActivity
             //setTitle(getResources().getString(R.string.app_name) + "-" + getResources().getString(R.string.OfflineMode));
             //setTitleColor(getResources().getColor(R.color.Red));
         }
+
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+            OfficerName.setText(global.getOfficerName());
+    }
 
-    public static final void SetLogedIn(String Lg,String Lo){
+    public static final void SetLogedIn(String Lg, String Lo){
         if(global.getUserId() > 0)
         { Login.setText(Lo);
 
@@ -526,6 +540,7 @@ public class MainActivity extends AppCompatActivity
             finish();
         }
         setPreferences();
+        //OfficerName.setText(global.getOfficerName());
     }
 
     @Override
@@ -705,7 +720,7 @@ public class MainActivity extends AppCompatActivity
                 builder.setContentText(ContentText);
                 builder.setSmallIcon(R.drawable.ic_statistics);
                 builder.setContentIntent(intent);
-                builder.setOngoing(true);
+                builder.setOngoing(false);
 
                 mNotificationManager.notify(SIMPLE_NOTFICATION_ID, builder.build());
                 vibrator = (Vibrator)getSystemService(VIBRATOR_SERVICE);
@@ -717,4 +732,25 @@ public class MainActivity extends AppCompatActivity
     public Context appContent(){
         return this.getApplicationContext();
     }
+
+    //Ask for permission
+    public void requestPermision(){
+        int PERMISSION_ALL = 1;
+        String[] PERMISSIONS = {Manifest.permission.ACCESS_COARSE_LOCATION, Manifest.permission.VIBRATE, Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.INTERNET, Manifest.permission.CAMERA, Manifest.permission.ACCESS_NETWORK_STATE, Manifest.permission.ACCESS_WIFI_STATE, Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.CHANGE_WIFI_STATE};
+        if(!hasPermissions(this, PERMISSIONS)){
+            ActivityCompat.requestPermissions(this, PERMISSIONS, PERMISSION_ALL);
+        }
+    }
+    public static boolean hasPermissions(Context context, String... permissions) {
+        if (context != null && permissions != null) {
+            for (String permission : permissions) {
+                if (ActivityCompat.checkSelfPermission(context, permission) != PackageManager.PERMISSION_GRANTED) {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+
+
 }

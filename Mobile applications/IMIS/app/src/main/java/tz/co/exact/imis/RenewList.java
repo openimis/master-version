@@ -211,7 +211,10 @@ public class RenewList extends AppCompatActivity {
                     } catch (IOException | XmlPullParserException e) {
                         e.printStackTrace();
                     }
-                    ca.InsertRenewals(result);
+                    if(result != null){
+                        ca.InsertRenewals(result);
+                    }
+
 
                     runOnUiThread(new Runnable() {
                         @Override
