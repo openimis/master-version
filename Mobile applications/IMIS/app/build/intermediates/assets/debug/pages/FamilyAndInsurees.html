@@ -86,25 +86,41 @@ In case of dispute arising out or in relation to the use of the program, it is s
                          window.open("Insuree.html?i=" + InsureeId + "&f=" + FamilyId, "_self");
                  }
                  else if(clicked == Android.getString('Delete')){
+                    //$("#divProgress").show();
                   var isOffline = $('#hfIsOffline').val();
                   var deletedSuccess = null;
+                  $('#spPleaseWait').text(Android.getString('Deleting'));
 					if(isOffline == 0 || isOffline == 2){
-                       deletedSuccess = parseInt(Android.DeleteOnlineData(InsureeId, 'I'));
+					
+                        $("#divProgress").show();
+                    
+                        deletedSuccess = parseInt(Android.DeleteOnlineData(InsureeId, 'I'));
+                        
+
                       }
 					else{
+
 						deletedSuccess = Android.DeleteInsuree(InsureeId);
 					  }
-                    if(deletedSuccess == 1)
-                      {
-                             Android.ShowDialog(Android.getString('InsureeDeleted'));
-                             window.open('FamilyAndInsurees.html?f=' + FamilyId  + '&l='+ LocationId + '&r='+ RegionId  + '&d='+ DistrictId, '_self');
+					
+                    if(deletedSuccess == 1){
+                
+                        $("#divProgress").hide();
+                        //Android.ShowDialog(Android.getString('InsureeDeleted'));
+                        window.open('FamilyAndInsurees.html?f=' + FamilyId  + '&l='+ LocationId + '&r='+ RegionId  + '&d='+ DistrictId, '_self');
 						}
-                    else if(deletedSuccess == 2)
-                         Android.ShowDialog(Android.getString('IsHeadDelete'));
-                    else if(deletedSuccess== -1)
-						 Android.ShowDialog(Android.getString('LoginToDeleteOnlineData'));
-					 else
+                    else if(deletedSuccess == 2){
+                        $("#divProgress").hide();
+                        Android.ShowDialog(Android.getString('IsHeadDelete'));
+                    }else if(deletedSuccess== -1){
+                        $("#divProgress").hide();
+                        Android.ShowDialog(Android.getString('LoginToDeleteOnlineData'));
+                    }else{
+                        $("#divProgress").hide();
+                        
 					    Android.ShowDialog(Android.getString('InsureeNotDeleted'));
+					 }
+
                  }
               });
 
@@ -136,6 +152,9 @@ In case of dispute arising out or in relation to the use of the program, it is s
 
 </head>
 <body>
+<div id="divProgress">
+    <span id="spPleaseWait"></span>
+</div>
 <div class="container">
     <div class="overview-top">
         <ul class="family-location">

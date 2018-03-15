@@ -103,6 +103,34 @@ class CallSoap {
         return response.toString();
 
     }
+    public String InsureeNumberExist(String CHFID) {
+
+        SoapObject request = new SoapObject(WSDL_TARGET_NAMESPACE, OPERATION_NAME);
+        PropertyInfo pi = new PropertyInfo();
+        pi.setName("CHFID");
+        pi.setValue(CHFID);
+        pi.setType(String.class);
+        request.addProperty(pi);
+        SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(SoapEnvelope.VER11);
+        envelope.dotNet = true;
+        envelope.setOutputSoapObject(request);
+
+        HttpTransportSE httpTransport = new HttpTransportSE(SOAP_ADDRESS);
+        Object response = null;
+
+        try {
+            httpTransport.call(SOAP_ACTION, envelope);
+            response = envelope.getResponse();
+        } catch (IOException e) {
+            response = e.toString();
+        } catch (XmlPullParserException e) {
+            // TODO Auto-generated catch block
+            response = e.toString();
+        }
+
+        return response.toString();
+
+    }
 
     public String getPayers(String OfficerCode) {
         SoapObject request = new SoapObject(WSDL_TARGET_NAMESPACE, OPERATION_NAME);
@@ -483,6 +511,8 @@ class CallSoap {
     }
 
     public int EnrollFamily(String Family, String Insuree, String Policy, String Premium, int UserId, int OfficerId) {
+        int res = -6;
+
         SoapObject request = new SoapObject(WSDL_TARGET_NAMESPACE, OPERATION_NAME);
 
         PropertyInfo pi = new PropertyInfo();
@@ -528,13 +558,17 @@ class CallSoap {
         try {
             httpTransport.call(SOAP_ACTION, envelope);
             response = envelope.getResponse();
+            if(response != null){
+                res = Integer.parseInt(response.toString());
+            }
         } catch (IOException e) {
-            return -1;
+            return res;
+
         } catch (XmlPullParserException e) {
-            return -1;
+            return res;
         }
 
-        return Integer.parseInt(response.toString());
+        return res;
 
     }
 

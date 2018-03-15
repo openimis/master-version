@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
 //    if(sessionStorage.getItem("user") == "in"){
 //        document.body.style.backgroundColor = "#3CB371";
 //    }else{

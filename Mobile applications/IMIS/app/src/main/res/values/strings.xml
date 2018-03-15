@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">IMIS</string>
+    <string name="app_name">IMIS-DEV</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -137,6 +137,7 @@
     <string name="GetingInsuuree">Getting insuree info&#8230;</string>
     <string name="RecordNotFound">Member with this CHF No. does not exist.</string>
     <string name="NoRenewalFound">No renewal found</string>
+    <string name="RenewalUploaded">Upload successfully please check Accepted/Rejected folders</string>
     <string name="NoInternet">Please check your internet connection.</string>
     <string name="Submit">Submit</string>
     <string name="DiscontinuePolicy">Discontinue this policy</string>
@@ -179,12 +180,13 @@
     <string name="LoginName">Login Name</string>
     <string name="LoginFail">Login Failed</string>
     <string name="Password">Password</string>
-    <string name="OfficerCode">Officer Code :</string>
+    <string name="OfficerCode">Officer Code</string>
     <string name="IncorrectOfficerCode">Incorrect officer code</string>
     <string name="Login">Login</string>
     <string name="FTPConnectionFailed">Unable to connect the server. Operation aborted.</string>
     <string name="UncaughtException">Family could not be inserted.</string>
     <string name="FamilyUploaded">Family uploaded successfully</string>
+    <string name="NoFamilyUploaded">No Family found</string>
     <string name="MissingHOF">Given family has no HOF</string>
     <string name="DuplicateHOF">Family with this CHF number already exists</string>
     <string name="DuplicateInsuranceNumber">Duplicate CHF number found</string>
@@ -242,11 +244,12 @@
     <string name="SavedOnMemoryCard">Data has been saved on the external memory card.</string>
     <string name="CouldNotUpload">Data could not be sent to the server. Saved on the external memory card.</string>
     <string name="Uploaded">Photo uploaded successfully.</string>
+    <string name="PhotoSaved">Photo saved successfully.</string>
     <string name="NoImages">No images found.</string>
     <string name="MissingImage">Please capture an Image</string>
     <string name="UploadAllImages">Upload all Images</string>
     <string name="PhotosUploaded">Photos uploaded successfully</string>
-    <string name="NoPhoto">No photos upload</string>
+    <string name="NoPhoto">No photos found</string>
     <string name="UploadPhoto">Upload Photos</string>
     <string name="Search">Search </string>
     <string name="ModifyFamily">Modify family</string>
@@ -257,7 +260,7 @@
     <string name="TotalPremiumOnline">Edited Contributions</string>
     <string name="InsuranceNumberNotFound">Insurance Number Not Found</string>
     <string name="InsuranceNumberRequired">Insurance Number Required</string>
-    <string name="Deleting">Delete ...</string>
+    <string name="Deleting">Deleting ...</string>
     <string name="InternetRequiredOnlineData">Internet connection is required to delete online data.</string>
     <string name="LoginToDeleteOnlineData">Please login first, to delete online data</string>
     <string name="DeletePolicyPremium">Deleting policy will also delete premium on it</string>
@@ -267,4 +270,6 @@
     <string name="FamilyExists">Family already exists in phone</string>
     <string name="ContentTitle">New release of IMIS is now available.</string>
     <string name="ContentText">Click here to download.</string>
+    <string name="saving">Saving...</string>
+    <string name="Interuption">Process has been Interuption please check your internet connection</string>
 </resources>

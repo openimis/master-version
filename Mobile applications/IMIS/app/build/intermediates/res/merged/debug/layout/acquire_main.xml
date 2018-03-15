@@ -20,8 +20,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:paddingBottom="5dp"
-            >
+            android:paddingBottom="5dp">
 
             <EditText
                 android:id="@+id/etCHFID"
@@ -31,12 +30,11 @@
                 android:background="@drawable/square_txt_bg"
                 android:hint="@string/InsuranceNumber"
                 android:ems="10"
-                android:inputType="textPersonName"
-
+                android:inputType="number"
                 android:maxLength="12">
                 <requestFocus/>
             </EditText>
-
+            <!--android:inputType="textPersonName"-->
             <ImageButton
                 android:id="@+id/btnScan"
                 android:layout_width="43dp"

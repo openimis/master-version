@@ -199,7 +199,8 @@ Partial Public Class Insuree
 
             FillHF()
 
-
+            Dim UpdatedFolder As String
+            UpdatedFolder = System.Web.Configuration.WebConfigurationManager.AppSettings("UpdatedFolder").ToString()
             'Get Current Region, District, Wards and Villages
 
             Dim dtCurrentRegion As DataTable = Insuree.GetRegionsAll(imisgen.getUserId(Session("User")), True)
@@ -220,16 +221,16 @@ Partial Public Class Insuree
                 txtBirthDate.Text = eInsuree.DOB
                 ddlGender.SelectedValue = eInsuree.Gender
                 ddlMarital.SelectedValue = eInsuree.Marital
-                ddlCardIssued.SelectedValue = if(eInsuree.CardIssued = True, "1", "0")
+                ddlCardIssued.SelectedValue = If(eInsuree.CardIssued = True, "1", "0")
                 txtPassport.Text = eInsuree.passport
                 txtPhone.Text = eInsuree.Phone
-                Image1.ImageUrl = eInsuree.tblPhotos.PhotoFolder & eInsuree.tblPhotos.PhotoFileName.ToString 'if(eInsuree.tblPhotos.PhotoFileName.ToString <> String.Empty, eInsuree.tblPhotos.PhotoFolder & eInsuree.tblPhotos.PhotoFileName.ToString, "")
+                Image1.ImageUrl = UpdatedFolder & eInsuree.tblPhotos.PhotoFileName.ToString 'if(eInsuree.tblPhotos.PhotoFileName.ToString <> String.Empty, eInsuree.tblPhotos.PhotoFolder & eInsuree.tblPhotos.PhotoFileName.ToString, "")
                 efamily.FamilyID = eInsuree.tblFamilies1.FamilyID
                 ddlRelation.SelectedValue = eInsuree.Relationship
                 ddlProfession.SelectedValue = eInsuree.Profession
                 ddlEducation.SelectedValue = eInsuree.Education
                 txtEmail.Text = eInsuree.Email
-                If eInsuree.ValidityTo.HasValue Or ((IMIS_Gen.offlineHF Or IMIS_Gen.OfflineCHF) And Not if(eInsuree.isOffline Is Nothing, False, eInsuree.isOffline)) Then
+                If eInsuree.ValidityTo.HasValue Or ((IMIS_Gen.offlineHF Or IMIS_Gen.OfflineCHF) And Not If(eInsuree.isOffline Is Nothing, False, eInsuree.isOffline)) Then
                     L_FAMILYPANEL.Enabled = False
                     Panel2.Enabled = False
                     pnlImages.Enabled = False

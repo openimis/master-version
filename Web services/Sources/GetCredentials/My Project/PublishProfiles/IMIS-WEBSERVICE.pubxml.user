@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\HVH-IMIS\IMIS 17.5.15  02-03-2018\WEB Service\Published WebService 17.5.15</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="7z.dll">
+      <publishTime>11/13/2017 13:36:18</publishTime>
+    </File>
+    <File Include="7z64.dll">
+      <publishTime>11/13/2017 13:36:18</publishTime>
+    </File>
+    <File Include="bin/7z.dll">
+      <publishTime>11/13/2017 13:36:18</publishTime>
+    </File>
+    <File Include="bin/7z64.dll">
+      <publishTime>11/13/2017 13:36:18</publishTime>
+    </File>
+    <File Include="bin/ExactComponents.dll">
+      <publishTime>11/09/2015 14:12:34</publishTime>
+    </File>
+    <File Include="bin/GetCredentials.dll">
+      <publishTime>03/06/2018 17:01:47</publishTime>
+    </File>
+    <File Include="bin/GetCredentials.pdb">
+      <publishTime>10/24/2017 15:01:54</publishTime>
+    </File>
+    <File Include="bin/GetCredentials.xml">
+      <publishTime>03/06/2018 17:01:47</publishTime>
+    </File>
+    <File Include="bin/SevenZipSharp.dll">
+      <publishTime>10/26/2013 02:05:16</publishTime>
+    </File>
+    <File Include="bin/System.Data.SQLite.dll">
+      <publishTime>04/18/2010 13:58:58</publishTime>
+    </File>
+    <File Include="ExactServices.asmx">
+      <publishTime>07/11/2012 13:48:24</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>03/06/2018 17:01:47</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/01/2018 12:31:30</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

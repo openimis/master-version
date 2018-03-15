@@ -75,15 +75,29 @@ Public Class InsureeDAL
 
     Public Function GetInsureeFullSearch(ByVal eInsuree As IMIS_EN.tblInsuree, Optional ByVal All As Boolean = False, Optional ByVal PhotoAssigned As Int16 = 1) As DataTable
         Dim sSQL As String = ""
-        sSQL += " SELECT I.isOffline,I.FamilyID,I.InsureeID, RegionName,DistrictName,WardName,VillageName,LastName,Othernames, I.CHFID,Gender,Marital,phone,DOB,  I.validityfrom,I.validityTo"
-        sSQL += " FROM tblInsuree I"
-        sSQL += " INNER JOIN tblFamilies F ON I.FamilyID = F.FamilyID"
-        sSQL += " INNER JOIN uvwLocations L ON ISNULL(L.LocationId,0) = ISNULL(F.LocationId,0)"
-        sSQL += " INNER JOIN (SELECT L.DistrictId, L.RegionId FROM tblUsersDistricts UD"
-        sSQL += " INNER JOIN uvwLocations L ON L.DistrictId = UD.LocationId WHERE UD.ValidityTo IS NULL AND (UD.UserId = @UserId OR @UserId = 0)"
-        sSQL += " GROUP BY L.DistrictId, L.RegionId )UD ON UD.DistrictId = L.DistrictId  OR UD.RegionId = L.RegionId OR F.LocationId IS NULL"
-        sSQL += " LEFT JOIN tblPhotos on I.PhotoID = tblPhotos.PhotoID AND tblPhotos.ValidityTo is null"
+        'sSQL += " SELECT I.isOffline,I.FamilyID,I.InsureeID, RegionName,DistrictName,WardName,VillageName,LastName,Othernames, I.CHFID,Gender,Marital,phone,DOB,  I.validityfrom,I.validityTo"
+        'sSQL += " FROM tblInsuree I"
+        'sSQL += " INNER JOIN tblFamilies F ON I.FamilyID = F.FamilyID"
+        'sSQL += " INNER JOIN uvwLocations L ON ISNULL(L.LocationId,0) = ISNULL(F.LocationId,0)"
+        'sSQL += " INNER JOIN (SELECT L.DistrictId, L.RegionId FROM tblUsersDistricts UD"
+        'sSQL += " INNER JOIN uvwLocations L ON L.DistrictId = UD.LocationId WHERE UD.ValidityTo IS NULL AND (UD.UserId = @UserId OR @UserId = 0)"
+        'sSQL += " GROUP BY L.DistrictId, L.RegionId )UD ON UD.DistrictId = L.DistrictId  OR UD.RegionId = L.RegionId OR F.LocationId IS NULL"
+        'sSQL += " LEFT JOIN tblPhotos on I.PhotoID = tblPhotos.PhotoID AND tblPhotos.ValidityTo is null"
+
+        sSQL += " ;WITH UD AS( "
+        sSQL += " SELECT L.DistrictId, L.Region FROM tblUsersDistricts UD  "
+        sSQL += " INNER JOIN tblDistricts L ON L.DistrictId = UD.LocationId  "
+        sSQL += " WHERE UD.ValidityTo IS NULL AND (UD.UserId = @UserId OR @UserId = 0)  "
+        sSQL += " GROUP BY L.DistrictId, L.Region ) "
+        sSQL += " SELECT I.isOffline,I.FamilyID,I.InsureeID, RegionName,DistrictName,WardName,VillageName,LastName,Othernames, I.CHFID,Gender,Marital,phone,DOB,  I.validityfrom,I.validityTo  "
+        sSQL += " FROM tblInsuree I  "
+        sSQL += " INNER JOIN tblFamilies F ON I.FamilyID = F.FamilyID  "
+        sSQL += " INNER JOIN uvwLocations L ON ISNULL(L.LocationId,0) = ISNULL(F.LocationId,0)  "
+        sSQL += " LEFT JOIN tblPhotos on I.PhotoID = tblPhotos.PhotoID AND tblPhotos.ValidityTo is null  "
+
+
         Dim strWhere As String = ""
+        strWhere += " WHERE  ((L.RegionId IN (SELECT Region FROM UD)) OR (L.DistrictId IN (SELECT DistrictId FROM UD))) "
         If All = False Then
             strWhere += " AND I.ValidityTo is NULL"
         End If
@@ -141,9 +155,9 @@ Public Class InsureeDAL
         If eInsuree.Email.ToString.Trim.Length > 0 Then
             strWhere += " AND I.Email like @Email"
         End If
-        If Not strWhere = String.Empty Then
-            strWhere = " WHERE" & strWhere.Remove(1, 4)
-        End If
+        'If Not strWhere = String.Empty Then
+        '    strWhere = " WHERE" & strWhere.Remove(1, 4)
+        'End If
 
         sSQL += strWhere
 
@@ -407,16 +421,22 @@ Public Class InsureeDAL
         End If
         Return data.Filldata()
     End Function
+
     Public Function FindInsureeByCHFID(ByVal CHFID As String) As DataTable
         Dim data As New ExactSQL
-        Dim sSQL As String = "SELECT I.CHFID,I.LastName,I.OtherNames,CONVERT(VARCHAR,I.DOB,103)DOB,I.Gender, P.PhotoFolder + P.PhotoFileName AS PhotoPath" & _
-                " FROM tblInsuree I INNER JOIN tblFamilies F ON I.FamilyID = F.FamilyID" & _
-                " LEFT OUTER JOIN tblPhotos P ON I.PhotoID = P.PhotoID" & _
+        'Imports System.Web.Configuration.WebConfigurationManager
+        Dim UpdatedFolder As String
+        UpdatedFolder = System.Web.Configuration.WebConfigurationManager.AppSettings("UpdatedFolder").ToString()
+        ' Dim sSQL As String = "SELECT I.CHFID,I.LastName,I.OtherNames,CONVERT(VARCHAR,I.DOB,103)DOB,I.Gender, P.PhotoFolder + P.PhotoFileName AS PhotoPath" &
+        Dim sSQL As String = "SELECT I.CHFID,I.LastName,I.OtherNames,CONVERT(VARCHAR,I.DOB,103)DOB,I.Gender, @UpdatedFolder + P.PhotoFileName AS PhotoPath" &
+                " FROM tblInsuree I INNER JOIN tblFamilies F ON I.FamilyID = F.FamilyID" &
+                " LEFT OUTER JOIN tblPhotos P ON I.PhotoID = P.PhotoID" &
                 " WHERE I.CHFID = @CHFID AND I.ValidityTo IS NULL"
 
         data.setSQLCommand(sSQL, CommandType.Text)
 
         data.params("@CHFID", SqlDbType.NVarChar, 12, CHFID)
+        data.params("@UpdatedFolder", SqlDbType.NVarChar, 100, UpdatedFolder)
 
         Return data.Filldata
 

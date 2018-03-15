@@ -1,26 +1,26 @@
 [
     {
-        "merged": "/Users/user/Desktop/2018/ANDROID v17.5.14 18.1.2018/MASTER v17.5.14 18.1.2018/MASTER SOURCE v17.5.14 18.1.2018/IMIS/app/build/intermediates/res/merged/debug/menu/menu_stats.xml",
-        "source": "/Users/user/Desktop/2018/ANDROID v17.5.14 18.1.2018/MASTER v17.5.14 18.1.2018/MASTER SOURCE v17.5.14 18.1.2018/IMIS/app/src/main/res/menu/menu_stats.xml"
+        "merged": "/Users/user/Desktop/2018/IMIS/app/build/intermediates/res/merged/debug/menu/menu_statistics.xml",
+        "source": "/Users/user/Desktop/2018/IMIS/app/src/main/res/menu/menu_statistics.xml"
     },
     {
-        "merged": "/Users/user/Desktop/2018/ANDROID v17.5.14 18.1.2018/MASTER v17.5.14 18.1.2018/MASTER SOURCE v17.5.14 18.1.2018/IMIS/app/build/intermediates/res/merged/debug/menu/acquire_menu.xml",
-        "source": "/Users/user/Desktop/2018/ANDROID v17.5.14 18.1.2018/MASTER v17.5.14 18.1.2018/MASTER SOURCE v17.5.14 18.1.2018/IMIS/app/src/main/res/menu/acquire_menu.xml"
+        "merged": "/Users/user/Desktop/2018/IMIS/app/build/intermediates/res/merged/debug/menu/acquire_menu.xml",
+        "source": "/Users/user/Desktop/2018/IMIS/app/src/main/res/menu/acquire_menu.xml"
     },
     {
-        "merged": "/Users/user/Desktop/2018/ANDROID v17.5.14 18.1.2018/MASTER v17.5.14 18.1.2018/MASTER SOURCE v17.5.14 18.1.2018/IMIS/app/build/intermediates/res/merged/debug/menu/activity_main_drawer.xml",
-        "source": "/Users/user/Desktop/2018/ANDROID v17.5.14 18.1.2018/MASTER v17.5.14 18.1.2018/MASTER SOURCE v17.5.14 18.1.2018/IMIS/app/src/main/res/menu/activity_main_drawer.xml"
+        "merged": "/Users/user/Desktop/2018/IMIS/app/build/intermediates/res/merged/debug/menu/language.xml",
+        "source": "/Users/user/Desktop/2018/IMIS/app/src/main/res/menu/language.xml"
     },
     {
-        "merged": "/Users/user/Desktop/2018/ANDROID v17.5.14 18.1.2018/MASTER v17.5.14 18.1.2018/MASTER SOURCE v17.5.14 18.1.2018/IMIS/app/build/intermediates/res/merged/debug/menu/main.xml",
-        "source": "/Users/user/Desktop/2018/ANDROID v17.5.14 18.1.2018/MASTER v17.5.14 18.1.2018/MASTER SOURCE v17.5.14 18.1.2018/IMIS/app/src/main/res/menu/main.xml"
+        "merged": "/Users/user/Desktop/2018/IMIS/app/build/intermediates/res/merged/debug/menu/activity_main_drawer.xml",
+        "source": "/Users/user/Desktop/2018/IMIS/app/src/main/res/menu/activity_main_drawer.xml"
     },
     {
-        "merged": "/Users/user/Desktop/2018/ANDROID v17.5.14 18.1.2018/MASTER v17.5.14 18.1.2018/MASTER SOURCE v17.5.14 18.1.2018/IMIS/app/build/intermediates/res/merged/debug/menu/language.xml",
-        "source": "/Users/user/Desktop/2018/ANDROID v17.5.14 18.1.2018/MASTER v17.5.14 18.1.2018/MASTER SOURCE v17.5.14 18.1.2018/IMIS/app/src/main/res/menu/language.xml"
+        "merged": "/Users/user/Desktop/2018/IMIS/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/user/Desktop/2018/IMIS/app/src/main/res/menu/main.xml"
     },
     {
-        "merged": "/Users/user/Desktop/2018/ANDROID v17.5.14 18.1.2018/MASTER v17.5.14 18.1.2018/MASTER SOURCE v17.5.14 18.1.2018/IMIS/app/build/intermediates/res/merged/debug/menu/menu_statistics.xml",
-        "source": "/Users/user/Desktop/2018/ANDROID v17.5.14 18.1.2018/MASTER v17.5.14 18.1.2018/MASTER SOURCE v17.5.14 18.1.2018/IMIS/app/src/main/res/menu/menu_statistics.xml"
+        "merged": "/Users/user/Desktop/2018/IMIS/app/build/intermediates/res/merged/debug/menu/menu_stats.xml",
+        "source": "/Users/user/Desktop/2018/IMIS/app/src/main/res/menu/menu_stats.xml"
     }
 ]

@@ -245,7 +245,13 @@ Partial Public Class PriceListMS
                     Dim eItemDetails As New IMIS_EN.tblPLServicesDetail
                     Dim Item As New IMIS_EN.tblServices
                     If Not gvMedicalServices.DataKeys.Item(r.RowIndex).Values("PriceOverule") Is DBNull.Value Or Not CType(gvMedicalServices.Rows(r.RowIndex).Cells(5).Controls(3), TextBox).Text = "" Then
-                        eItemDetails.PriceOverule = CType(gvMedicalServices.Rows(r.RowIndex).Cells(5).Controls(3), TextBox).Text
+                        'Changed by Amani 22/02/2018
+                        'eItemDetails.PriceOverule = If(CType(gvMedicalServices.Rows(r.RowIndex).Cells(5).Controls(3), TextBox).Text = "", Nothing, CType(gvMedicalServices.Rows(r.RowIndex).Cells(5).Controls(3), TextBox).Text)
+                        If CType(gvMedicalServices.Rows(r.RowIndex).Cells(5).Controls(3), TextBox).Text = "" Then
+                            eItemDetails.PriceOverule = Nothing
+                        Else
+                            eItemDetails.PriceOverule = CType(gvMedicalServices.Rows(r.RowIndex).Cells(5).Controls(3), TextBox).Text
+                        End If
                     End If
                     Item.ServiceID = gvMedicalServices.DataKeys.Item(r.RowIndex).Values("ServiceID")
                     If action > 0 Then

@@ -6,7 +6,32 @@ IMIS_EN
 </name>
 </assembly>
 <members>
-<member name="M:IMIS_EN.IMISEntities.#ctor">
+<member name="P:IMIS_EN.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:IMIS_EN.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:IMIS_EN.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:IMIS_EN.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:IMIS_EN.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="T:IMIS_EN.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:IMIS_EN.IMISEntities.#ctor">
 	<summary>
  Initializes a new IMISEntities object using the connection string found in the 'IMISEntities' section of the application configuration file.
  </summary>
@@ -5095,31 +5120,6 @@ IMIS_EN
 	<summary>
  No Metadata Documentation available.
  </summary>
-</member><member name="P:IMIS_EN.My.MyWebExtension.Computer">
-	<summary>
- Returns information about the host computer.
- </summary>
-</member><member name="P:IMIS_EN.My.MyWebExtension.User">
-	<summary>
- Returns information for the current Web user.
- </summary>
-</member><member name="P:IMIS_EN.My.MyWebExtension.Request">
-	<summary>
- Returns Request object.
- </summary>
-</member><member name="P:IMIS_EN.My.MyWebExtension.Response">
-	<summary>
- Returns Response object.
- </summary>
-</member><member name="P:IMIS_EN.My.MyWebExtension.Log">
-	<summary>
- Returns the Asp log object.
- </summary>
-</member><member name="T:IMIS_EN.My.MyWebExtension">
-	<summary>
- Module used to define the properties that are available in the My Namespace for Web projects.
- </summary>
-	<remarks></remarks>
 </member>
 </members>
 </doc>

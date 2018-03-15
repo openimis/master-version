@@ -199,8 +199,13 @@ public class Acquire extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
-                startActivityForResult(intent, 0);
+                try{
+                    Intent intent = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
+                    startActivityForResult(intent, 0);
+                }catch (Exception e){
+                    e.printStackTrace();
+                }
+
             }
         });
 
@@ -218,6 +223,12 @@ public class Acquire extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
+                Escape escape = new Escape();
+                int validInsuranceNumber = escape.CheckInsuranceNumber(etCHFID.getText().toString());
+                if (validInsuranceNumber > 0){
+                    ca.ShowDialog(getResources().getString(validInsuranceNumber));
+                    return;
+                }
 
                 if (!isValidate()) return;
 
@@ -235,7 +246,7 @@ public class Acquire extends AppCompatActivity {
                             public void run() {
                                 switch (result) {
                                     case 1:
-                                        msg = getResources().getString(R.string.Uploaded);
+                                        msg = getResources().getString(R.string.PhotoSaved);
                                         break;
                                     default:
                                         msg = getResources().getString(R.string.CouldNotUpload);
@@ -468,5 +479,6 @@ public class Acquire extends AppCompatActivity {
 //	return etCHFID.getText().toString().equals(chfid);
         return true;
     }
+
 
 }

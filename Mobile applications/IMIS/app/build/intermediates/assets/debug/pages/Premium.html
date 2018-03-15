@@ -58,112 +58,108 @@ In case of dispute arising out or in relation to the use of the program, it is s
                 $("#ddlPayType").val($Premium[0]["PayType"]);
                 $("#ddlPhotoFee").val($Premium[0]["IsPhotoFee"]);
                 PreviousAmount = parseInt($Premium[0]["Amount"]);
-
                 bindDataFromDatafield(strPremium);
                 var Balance = parseInt($('#spBalance').text());
                 var Contribution = parseInt($('#spContribution').text())
+
                 var CurrentBalance = Balance + PreviousAmount
                 var CurrentContribution = Contribution - PreviousAmount
                 var isOffline =  parseInt($Premium[0]["isOffline"]);
 
                 $("#hfBalance").val(CurrentBalance);
                 $("#hfContribution").val(CurrentContribution);
+
           }
           $('#txtAmount').change(function(){
 
-          if($('#ddlPhotoFee').val()=='true'){
-             $('#spBalance').text($('#hfBalance').val());
-             $('#spContribution').text($('#hfContribution').val());
-           }
-           else{
+            if($('#ddlPhotoFee').val()=='true'){
+                $('#spBalance').text($('#hfBalance').val());
+                $('#spContribution').text($('#hfContribution').val());
+            }
+            else{
+                var ogBalance = parseInt($('#hfContribution').val());
+                var ogContribution= parseInt($('#hfContribution').val());
+                var Amount = parseInt($('#txtAmount').val() || 0);
+                var policyValue = parseInt($('#txtPolicyValue').text());
 
-            var ogBalance = parseInt($('#hfContribution').val());
-            var ogContribution= parseInt($('#hfContribution').val());
-            var Amount = parseInt($('#txtAmount').val() || 0);
-            var policyValue = parseInt($('#txtPolicyValue').text());
-
-            var newBalance = policyValue - (Amount+ ogContribution);
-            var newContribution = Amount + ogContribution;
-
+                var newBalance = policyValue - (Amount+ ogContribution);
+                var newContribution = Amount + ogContribution;
 
                 $('#spBalance').text(newBalance);
                 $('#spContribution').text(newContribution);
+            }
+        });
 
-           }
-          });
-
-            $('#txtPayDate').change(function(){
+        $('#txtPayDate').change(function(){
             Paydate = ($(this).val());
-            });
-           $('#btnSave').click(function(){
+        });
+
+        $('#btnSave').click(function(){
             var ReceiptNo = $('#txtReceipt').val();
-
-
             var passed = isFormValidated();
             var jsonPremium = createJSONString();
-                if (passed == true){
-
-                  var IsReceiptUnique = Android.IsReceiptNumberUnique(ReceiptNo, parseInt(FamilyId));
-                   var PolicyBalance  =   $('#spBalance').text();
-                    if (IsReceiptUnique == true || premiumId != 0 ){
-                       var PremiumId = Android.SavePremiums(jsonPremium,parseInt(policyId),parseInt(premiumId),parseInt(FamilyId));
-                           $('#btnSave').attr("disabled", "disabled");
-                           var policystatus = 1;
-                           if(PremiumId != 0 &&  PolicyBalance <= 0 ){//herman new
-                                    policystatus = 2;
-                                    Paydate = $('#txtPayDate').val();
-                                    Android.UpdatePolicy(parseInt(policyId), Paydate, policystatus);
-                                    Android.UpdateInsureePolicy(parseInt(policyId));
-                                    window.open('PolicyPremium.html?p=' + policyId + '&l=' + LocationId +'&f=' + FamilyId + '&r='+ RegionId  + '&d='+ DistrictId , "_self");
-                                 }else if(PremiumId != 0 &&  PolicyBalance > 0 ){
-                                    policystatus = 1;
-                                    Paydate = $('#txtPayDate').val();
-                                    Android.UpdatePolicy(parseInt(policyId), Paydate, policystatus);
-                                    Android.UpdateInsureePolicy(parseInt(policyId));
-                                    window.open('PolicyPremium.html?p=' + policyId + '&l=' + LocationId +'&f=' + FamilyId + '&r='+ RegionId  + '&d='+ DistrictId , "_self");
-                                 }else{
-                                    window.open('PolicyPremium.html?p=' + policyId + '&l=' + LocationId +'&f=' + FamilyId + '&r='+ RegionId  + '&d='+ DistrictId , "_self");
-                                 }
-
+            if (passed == true){
+                var IsReceiptUnique = Android.IsReceiptNumberUnique(ReceiptNo, parseInt(FamilyId));
+                var PolicyBalance  =   $('#spBalance').text();
+                if (IsReceiptUnique == true || premiumId != 0 ){
+                    var PremiumId = Android.SavePremiums(jsonPremium,parseInt(policyId),parseInt(premiumId),parseInt(FamilyId));
+                    $('#btnSave').attr("disabled", "disabled");
+                    var policystatus = 1;
+                    if(PremiumId != 0 &&  PolicyBalance <= 0 ){//herman
+                        policystatus = 2;
+                        Paydate = $('#txtPayDate').val();
+                        Android.UpdatePolicy(parseInt(policyId), Paydate, policystatus);
+                        Android.UpdateInsureePolicy(parseInt(policyId));
+                        window.open('PolicyPremium.html?p=' + policyId + '&l=' + LocationId +'&f=' + FamilyId + '&r='+ RegionId  + '&d='+ DistrictId , "_self");
+                    }else if(PremiumId != 0 &&  PolicyBalance > 0 ){
+                        policystatus = 1;
+                        Paydate = $('#txtPayDate').val();
+                        Android.UpdatePolicy(parseInt(policyId), Paydate, policystatus);
+                        Android.UpdateInsureePolicy(parseInt(policyId));
+                        window.open('PolicyPremium.html?p=' + policyId + '&l=' + LocationId +'&f=' + FamilyId + '&r='+ RegionId  + '&d='+ DistrictId , "_self");
+                    }else{
+                        window.open('PolicyPremium.html?p=' + policyId + '&l=' + LocationId +'&f=' + FamilyId + '&r='+ RegionId  + '&d='+ DistrictId , "_self");
                     }
-                              else{
-                                      Android.ShowDialog(Android.getString('ReceiptNotUnique'));
-                                   }
-                         }
-                    else{
-                         Android.ShowDialog(Android.getString('FieldRequired'));
-                         }
-                 });
-
-
-         $('#ddlPhotoFee').change(function(){
-         if($('#ddlPhotoFee').val()=='true'){
-                var Balance = parseInt($('#hfBalance').val());
-                var Contribution = parseInt($('#hfContribution').val())
-                 $('#spBalance').text(Balance);
-                 $('#spContribution').text(Contribution);
-           }
-          else{
-              $('#txtAmount').change();
+                }else{
+                        Android.ShowDialog(Android.getString('ReceiptNotUnique'));
+                }
+            }else{
+                Android.ShowDialog(Android.getString('FieldRequired'));
             }
+        });
 
+
+            $('#ddlPhotoFee').change(function(){
+                if($('#ddlPhotoFee').val()=='true'){
+                    var Balance = parseInt($('#hfBalance').val());
+                    var Contribution = parseInt($('#hfContribution').val());
+                    $('#spBalance').text(Balance);
+                    $('#spContribution').text(Contribution);
+                }else{
+                    var Balance = parseInt($('#hfBalance').val());
+                    var Contribution = parseInt($('#hfContribution').val());
+                    $('#spBalance').text(Balance);
+                    $('#spContribution').text(Contribution);
+                    $('#txtAmount').change();
+                }
             });
+
         });
 
         function LoadPayers(RegionId,DistrictId){
             var $Payers = Android.getPayers(RegionId,DistrictId);
             bindDropdown('ddlPayer', $Payers, 'PayerId', 'PayerName',0,  Android.getString('SelectPayer'));
-           }
+        }
         function createJSONString(){
-                var jsonPremium = getControlsValuesJSON('li');
-                return jsonPremium;
-            }
+            var jsonPremium = getControlsValuesJSON('li');
+            return jsonPremium;
+        }
 
         function getPolicyValue(policyId){
-                var strPolicy = Android.getPolicy(parseInt(policyId));
-                var $Policy = $.parseJSON(strPolicy);
-                bindDataFromDatafield(strPolicy);
-            }
+            var strPolicy = Android.getPolicy(parseInt(policyId));
+            var $Policy = $.parseJSON(strPolicy);
+            bindDataFromDatafield(strPolicy);
+        }
 
     </script>
 </head>
@@ -176,9 +172,9 @@ In case of dispute arising out or in relation to the use of the program, it is s
             <span strName="Payer"> </span>
             <select dataField="PayerId" id="ddlPayer"></select>
         </li>
-        <li>
+        <li id="ContributionCategory">
             <span strName="ContributionCategory">IsPhotoFee</span>
-            <select dataField="isPhotoFee" id="ddlPhotoFee" required>
+            <select dataField="isPhotoFee" id="ddlPhotoFee">
                 <option value="" strName="SelectLevel"></option>
                 <option value="true" strName="PremiumPhotoFee"></option>
                 <option value="false" strName="PremiumContribution"></option>
@@ -208,7 +204,8 @@ In case of dispute arising out or in relation to the use of the program, it is s
         <li>
             <span strName="Contribution">Contribution :</span>
             <span type="text" dataField="Contribution" id="spContribution">0</span>
-            <input datafield="Contribution" type="hidden"  id="hfContribution"/>
+            <input datafield="Contribution" type="hidden" id="hfContribution"/>
+
             <span strName="Balance">Balance : </span>
             <span type="text" dataField="Balance" id="spBalance">0</span>
             <input datafield="Balance" type="hidden"  id="hfBalance"/>

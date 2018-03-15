@@ -1,4 +1,4 @@
-'Copyright (c) 2016-2017 Swiss Agency for Development and Cooperation (SDC)
+'Copyright (c) 2016-%CurrentYear% Swiss Agency for Development and Cooperation (SDC)
 '
 'The program users must agree to the following terms:
 '

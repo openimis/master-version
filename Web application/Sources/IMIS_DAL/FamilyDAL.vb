@@ -202,7 +202,6 @@ Public Class FamilyDAL
     End Sub
 
     'Corrected
-     
     Public Function GetFamilyFiltered(ByVal eFamily As IMIS_EN.tblFamilies, ByVal All As Boolean, ByVal Allpoverty As Boolean, ByVal GetYesNo As DataTable) As DataTable
         Dim data As New ExactSQL
         Dim sSQL As String = ""
@@ -222,21 +221,41 @@ Public Class FamilyDAL
         'sSQL += " And isnull(Marital,'')  like @Marital"
         'sSQL += " And isnull(Phone,'') like @Phone"
 
-        sSQL += " SELECT F.isOffline,F.FamilyId,I.CHFID,I.LastName,I.Othernames,L.DistrictName,L.WardName, L.VillageName,F.Poverty AS Poverty,"
-        sSQL += " CASE WHEN F.Poverty = 1 THEN 'Yes' ELSE 'No' END PovertyDisplay, F.ConfirmationType,F.Ethnicity,  RegionName,F.validityfrom,"
-        sSQL += " F.validityTo"
-        sSQL += " FROM tblfamilies F"
-        sSQL += " INNER JOIN tblInsuree I ON F.InsureeID = I.insureeid  AND   I.ValidityTo IS NULL"
-        sSQL += " INNER JOIN uvwLocations L ON ISNULL(L.LocationId,0) = ISNULL(F.LocationId,0)"
-        sSQL += " INNER JOIN (SELECT L.DistrictId, L.RegionId FROM tblUsersDistricts UD"
-        sSQL += " INNER JOIN uvwLocations L ON L.DistrictId = UD.LocationId"
-        sSQL += " WHERE UD.ValidityTo IS NULL AND (UD.UserId = @UserId OR @UserId = 0)"
-        sSQL += " GROUP BY L.DistrictId, L.RegionId )UD ON UD.DistrictId = L.DistrictId  OR UD.RegionId = L.RegionId OR F.LocationId IS NULL"
-        sSQL += " WHERE LastName LIKE @Lastname"
-        sSQL += " AND OtherNames LIKE @OtherNames"
-        sSQL += " AND CHFID LIKE @CHFID"
-        sSQL += " AND  (Gender LIKE @Gender  OR Gender IS NULL)"
-        sSQL += " AND ISNULL(Marital,'')  LIKE @Marital And ISNULL(Phone,'') LIKE @Phone"
+        'sSQL += " SELECT F.isOffline,F.FamilyId,I.CHFID,I.LastName,I.Othernames,L.DistrictName,L.WardName, L.VillageName,F.Poverty AS Poverty,"
+        'sSQL += " CASE WHEN F.Poverty = 1 THEN 'Yes' ELSE 'No' END PovertyDisplay, F.ConfirmationType,F.Ethnicity,  RegionName,F.validityfrom,"
+        'sSQL += " F.validityTo"
+        'sSQL += " FROM tblfamilies F"
+        'sSQL += " INNER JOIN tblInsuree I ON F.InsureeID = I.insureeid  AND   I.ValidityTo IS NULL"
+        'sSQL += " INNER JOIN uvwLocations L ON ISNULL(L.LocationId,0) = ISNULL(F.LocationId,0)"
+        'sSQL += " INNER JOIN (SELECT L.DistrictId, L.RegionId FROM tblUsersDistricts UD"
+        'sSQL += " INNER JOIN uvwLocations L ON L.DistrictId = UD.LocationId"
+        'sSQL += " WHERE UD.ValidityTo IS NULL AND (UD.UserId = @UserId OR @UserId = 0)"
+        'sSQL += " GROUP BY L.DistrictId, L.RegionId )UD ON UD.DistrictId = L.DistrictId  OR UD.RegionId = L.RegionId OR F.LocationId IS NULL"
+        'sSQL += " WHERE LastName LIKE @Lastname"
+        'sSQL += " AND OtherNames LIKE @OtherNames"
+        'sSQL += " AND CHFID LIKE @CHFID"
+        'sSQL += " AND  (Gender LIKE @Gender  OR Gender IS NULL)"
+        'sSQL += " AND ISNULL(Marital,'')  LIKE @Marital And ISNULL(Phone,'') LIKE @Phone"
+
+        sSQL += " ;WITH UD AS ("
+        sSQL += " SELECT L.DistrictId, L.Region FROM tblUsersDistricts UD "
+        sSQL += " INNER JOIN tblDistricts L ON L.DistrictId = UD.LocationId "
+        sSQL += " WHERE UD.ValidityTo IS NULL AND (UD.UserId = @UserId OR @UserId = 0)  "
+        sSQL += " GROUP BY L.DistrictId, L.Region ) "
+        sSQL += " SELECT F.isOffline, F.FamilyID,I.CHFID, I.LastName, I.OtherNames, L.DistrictName, L.WardName, L.VillageName, F.Poverty,CASE WHEN F.Poverty = 1 THEN 'Yes' ELSE 'No' END PovertyDisplay,F.ConfirmationType,F.Ethnicity,  RegionName,F.validityfrom, F.validityTo  "
+        sSQL += " FROM tblFamilies F INNER JOIN tblInsuree I ON I.InsureeId = F.InsureeID INNER JOIN uvwLocations L ON ISNULL(L.LocationId, 0) = ISNULL(F.LocationId, 0) "
+        sSQL += " WHERE (L.RegionId IN (SELECT Region FROM UD) OR (L.DistrictId IN (SELECT DistrictId FROM UD)) OR F.LocationId IS NULL) "
+        sSQL += " AND LastName LIKE @Lastname "
+        sSQL += " AND OtherNames LIKE @OtherNames "
+        sSQL += " AND CHFID LIKE @CHFID "
+        sSQL += " AND (Gender LIKE @Gender  OR Gender IS NULL) "
+        sSQL += " AND ISNULL(Marital,'')  LIKE @Marital "
+        sSQL += " And ISNULL(Phone,'') LIKE @Phone  "
+        'sSQL += " AND F.ValidityTo is null "
+        sSQL += " AND I.ValidityTo IS NULL "
+        ' sSQL += " GROUP BY F.isOffline, F.FamilyID, I.CHFID, I.LastName, I.OtherNames, L.DistrictName, L.WardName, L.VillageName, F.Poverty,F.ConfirmationType,F.Ethnicity,  RegionName,F.validityfrom, F.validityTo "
+
+
 
         If Not eFamily.RegionId = 0 Then
             sSQL += " And  L.RegionId =  @RegionId "
@@ -274,9 +293,10 @@ Public Class FamilyDAL
             sSQL += " AND I.Email like @Email"
         End If
 
-        sSQL += " GROUP BY  F.isOffline,F.FamilyId,I.CHFID,I.LastName,I.Othernames,L.DistrictName,L.WardName, L.VillageName,F.Poverty ,"
-        sSQL += " CASE WHEN F.Poverty = 1 THEN 'Yes' ELSE 'No' END, F.ConfirmationType,F.Ethnicity,  RegionName,F.validityfrom,"
-        sSQL += " F.validityTo,I.ValidityTo "
+        'sSQL += " GROUP BY  F.isOffline,F.FamilyId,I.CHFID,I.LastName,I.Othernames,L.DistrictName,L.WardName, L.VillageName,F.Poverty ,"
+        sSQL += " GROUP BY F.isOffline, F.FamilyID, I.CHFID, I.LastName, I.OtherNames, L.DistrictName, L.WardName, L.VillageName, F.Poverty,F.ConfirmationType,F.Ethnicity,  RegionName,F.validityfrom, F.validityTo "
+        'sSQL += " CASE WHEN F.Poverty = 1 THEN 'Yes' ELSE 'No' END, F.ConfirmationType,F.Ethnicity,  RegionName,F.validityfrom,"
+        sSQL += " ,F.validityTo,I.ValidityTo "
         sSQL = sSQL & " ORDER BY Familyid DESC, validityto"
         'changed by amani added timeout:=0 12/12/2017
         data.setSQLCommand(sSQL, CommandType.Text, timeout:=0)
@@ -304,6 +324,7 @@ Public Class FamilyDAL
 
         Return data.Filldata
     End Function
+    
    
     'Corrected Rogers
     Public Sub GetFamilyHeadInfo(ByVal eFamily As IMIS_EN.tblFamilies)
