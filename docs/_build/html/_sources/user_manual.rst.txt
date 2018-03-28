@@ -5,446 +5,19 @@ The Insurance Management Information System (IMIS) is a web based software to ma
 
 The following conventions are used:
 
-  - [Hyperlink](#) enable a quick link (using the online version) to the subject relating to the functionality,
+  - Hyperlink_ enable a quick link (using the online version) to the subject relating to the functionality,
   - **Item** means an item in a drop down list,
   - **_LABEL_** means a data field or a button,
   - _NAME OF PAGE_ means a name of page or a data field in a text without hyperlink.
 
-Table of Contents
-=================
 
-`1 Users’ roles and rights 10 <#users-roles-and-rights>`__
 
-`2 Login Access 12 <#login-access>`__
-
-`3 Administration of registers 13 <#administration-of-registers>`__
-
-`3.1 Insurance Products Administration
-14 <#insurance-products-administration>`__
-
-`3.1.1 Pre-conditions 14 <#pre-conditions>`__
-
-`3.1.2 Navigation 14 <#navigation>`__
-
-`3.1.3 Product Control Page 15 <#product-control-page>`__
-
-`3.1.4 Product Page 18 <#product-page>`__
-
-`3.1.5 Adding a Product 31 <#adding-a-product>`__
-
-`3.1.6 Editing a Product 31 <#editing-a-product>`__
-
-`3.1.7 Duplicating a Product 31 <#duplicating-a-product>`__
-
-`3.1.8 Deleting a Product 31 <#deleting-a-product>`__
-
-`3.2 Health Facilities Administration
-31 <#health-facilities-administration>`__
-
-`3.2.1 Pre-conditions 31 <#pre-conditions-1>`__
-
-`3.2.2 Navigation 32 <#navigation-1>`__
-
-`3.2.3 Health Facilities Control Page
-33 <#health-facilities-control-page>`__
-
-`3.2.4 Health Facility Page 36 <#health-facility-page>`__
-
-`3.2.5 Adding a Health Facility 38 <#adding-a-health-facility>`__
-
-`3.2.6 Editing a Health Facility 39 <#editing-a-health-facility>`__
-
-`3.2.7 Deleting a Health Facility 39 <#deleting-a-health-facility>`__
-
-`3.3 Medical Services Administration
-39 <#medical-services-administration>`__
-
-`3.3.1 Pre-conditions 40 <#pre-conditions-2>`__
-
-`3.3.2 Navigation 40 <#navigation-2>`__
-
-`3.3.3 Medical Services Control Page
-41 <#medical-services-control-page>`__
-
-`3.3.4 Medical Service Page 43 <#medical-service-page>`__
-
-`3.3.5 Adding a Medical Service 46 <#adding-a-medical-service>`__
-
-`3.3.6 Editing a Medical Service 46 <#editing-a-medical-service>`__
-
-`3.3.7 Deleting a Medical Service 46 <#deleting-a-medical-service>`__
-
-`3.4 Medical Items Administration 47 <#medical-items-administration>`__
-
-`3.4.1 Pre-conditions 47 <#pre-conditions-3>`__
-
-`3.4.2 Navigation 47 <#navigation-3>`__
-
-`3.4.3 Medical Items Control Page 48 <#medical-items-control-page>`__
-
-`3.4.4 Medical Item Page 50 <#medical-item-page>`__
-
-`3.4.5 Adding a Medical Item 53 <#adding-a-medical-item>`__
-
-`3.4.6 Editing a Medical Item 53 <#editing-a-medical-item>`__
-
-`3.4.7 Deleting a Medical Item 53 <#deleting-a-medical-item>`__
-
-`3.5 Medical Service Price Lists Administration
-54 <#medical-service-price-lists-administration>`__
-
-`3.5.1 Pre-conditions 54 <#pre-conditions-4>`__
-
-`3.5.2 Navigation 54 <#navigation-4>`__
-
-`3.5.3 Price List Medical Services Control Page
-55 <#price-list-medical-services-control-page>`__
-
-`3.5.4 Price List Medical Services Page
-58 <#price-list-medical-services-page>`__
-
-`3.5.5 Adding a Price List of Medical Services
-60 <#adding-a-price-list-of-medical-services>`__
-
-`3.5.6 Editing a Price List of Medical Services
-60 <#editing-a-price-list-of-medical-services>`__
-
-`3.5.7 Duplicating a Price List of Medical Services
-60 <#duplicating-a-price-list-of-medical-services>`__
-
-`3.5.8 Deleting a Price List of Medical Services
-60 <#deleting-a-price-list-of-medical-services>`__
-
-`3.6 Medical Item Price Lists Administration
-61 <#medical-item-price-lists-administration>`__
-
-`3.6.1 Pre-conditions 61 <#pre-conditions-5>`__
-
-`3.6.2 Navigation 61 <#navigation-5>`__
-
-`3.6.3 Price List Medical Items Control Page
-63 <#price-list-medical-items-control-page>`__
-
-`3.6.4 Price List Medical Item Page
-65 <#price-list-medical-item-page>`__
-
-`3.6.5 Adding a Price List of Medical Items
-67 <#adding-a-price-list-of-medical-items>`__
-
-`3.6.6 Editing a Price List of Medical Items
-68 <#editing-a-price-list-of-medical-items>`__
-
-`3.6.7 Duplicating a Price List of Medical Items
-68 <#duplicating-a-price-list-of-medical-items>`__
-
-`3.6.8 Deleting a Price List of Medical Items
-68 <#deleting-a-price-list-of-medical-items>`__
-
-`3.7 Users administration 69 <#users-administration>`__
-
-`3.7.1 Pre-conditions 69 <#pre-conditions-6>`__
-
-`3.7.2 Navigation 69 <#navigation-6>`__
-
-`3.7.3 User Control Page 70 <#user-control-page>`__
-
-`3.7.4 User Page 73 <#user-page>`__
-
-`3.7.5 Adding a User 75 <#adding-a-user>`__
-
-`3.7.6 Editing a User 75 <#editing-a-user>`__
-
-`3.7.7 Deleting a User 75 <#deleting-a-user>`__
-
-`3.8 Enrolment Officers Administration
-76 <#enrolment-officers-administration>`__
-
-`3.8.1 Pre-conditions 76 <#pre-conditions-7>`__
-
-`3.8.2 Navigation 76 <#navigation-7>`__
-
-`3.8.3 Enrolment Officers Control Page
-78 <#enrolment-officers-control-page>`__
-
-`3.8.4 Enrolment Officer Page 81 <#enrolment-officer-page>`__
-
-`3.8.5 Adding an Enrolment Officer 84 <#adding-an-enrolment-officer>`__
-
-`3.8.6 Editing an Enrolment Officer
-84 <#editing-an-enrolment-officer>`__
-
-`3.8.7 Deleting an Enrolment Officer
-84 <#deleting-an-enrolment-officer>`__
-
-`3.9 Claim Administrators Administration
-85 <#claim-administrators-administration>`__
-
-`3.9.1 Pre-conditions 85 <#pre-conditions-8>`__
-
-`3.9.2 Navigation 85 <#navigation-8>`__
-
-`3.9.3 Claim Administrators Control Page
-87 <#claim-administrators-control-page>`__
-
-`3.9.4 Claim Administrator Page 90 <#claim-administrator-page>`__
-
-`3.9.5 Adding a Claim Administrator
-92 <#adding-a-claim-administrator>`__
-
-`3.9.6 Editing a Claim Administrator
-92 <#editing-a-claim-administrator>`__
-
-`3.9.7 Deleting a Claim Administrator
-93 <#deleting-a-claim-administrator>`__
-
-`3.10 Payers Administration 93 <#payers-administration>`__
-
-`3.10.1 Pre-conditions 93 <#pre-conditions-9>`__
-
-`3.10.2 Navigation 93 <#navigation-9>`__
-
-`3.10.3 Payer Control Page 95 <#payer-control-page>`__
-
-`3.10.4 Payer Page 97 <#payer-page>`__
-
-`3.10.5 Adding a Payer 99 <#adding-a-payer>`__
-
-`3.10.6 Editing a Payer 99 <#editing-a-payer>`__
-
-`3.10.7 Deleting a Payer 99 <#deleting-a-payer>`__
-
-`3.11 Locations Administration 100 <#locations-administration>`__
-
-`3.11.1 Pre-conditions 100 <#pre-conditions-10>`__
-
-`3.11.2 Navigation 100 <#navigation-10>`__
-
-`3.11.3 Locations Page 101 <#locations-page>`__
-
-`3.11.4 Adding a Region, District, Municipality, Village
-102 <#adding-a-region-district-municipality-village>`__
-
-`3.11.5 Editing a Region, District, Municipality, Village
-102 <#editing-a-region-district-municipality-village>`__
-
-`3.11.6 Deleting a Region, District, Municipality, Village
-102 <#deleting-a-region-district-municipality-village>`__
-
-`3.11.7 Moving a District, Municipality, Village
-103 <#moving-a-district-municipality-village>`__
-
-`4 Insurees and Policies 105 <#insurees-and-policies>`__
-
-`4.1 Insuree Enquiry 105 <#insuree-enquiry>`__
-
-`4.2 Find Family 106 <#find-family>`__
-
-`4.2.1 Pre-conditions 106 <#pre-conditions-11>`__
-
-`4.2.2 Navigation 106 <#navigation-11>`__
-
-`4.2.3 Find Family Page 107 <#find-family-page>`__
-
-`4.3 Find Insuree 111 <#find-insuree>`__
-
-`4.3.1 Pre-conditions 111 <#pre-conditions-12>`__
-
-`4.3.2 Navigation 111 <#navigation-12>`__
-
-`4.3.3 Find Insuree Page 112 <#find-insuree-page>`__
-
-`4.4 Find Policy 116 <#find-policy>`__
-
-`4.4.1 Pre-conditions 116 <#pre-conditions-13>`__
-
-`4.4.2 Navigation 116 <#navigation-13>`__
-
-`4.4.3 Find Policy Page 118 <#find-policy-page>`__
-
-`4.5 Find Contribution 122 <#find-contribution>`__
-
-`4.5.1 Pre-conditions 122 <#pre-conditions-14>`__
-
-`4.5.2 Navigation 122 <#navigation-14>`__
-
-`4.5.3 Find Contribution Page 122 <#find-contribution-page>`__
-
-`4.6 Family Overview 126 <#family-overview>`__
-
-`4.6.1 Pre-conditions 126 <#pre-conditions-15>`__
-
-`4.6.2 Navigation 126 <#navigation-15>`__
-
-`4.6.3 Family Overview Page. 127 <#family-overview-page.>`__
-
-`4.6.4 Family/Group Page 132 <#familygroup-page>`__
-
-`4.6.5 Adding a Family 135 <#adding-a-family>`__
-
-`4.6.6 Editing a Family/Group 135 <#editing-a-familygroup>`__
-
-`4.6.7 Changing a Head of Family/Group
-136 <#changing-a-head-of-familygroup>`__
-
-`4.6.8 Moving an Insuree 137 <#moving-an-insuree>`__
-
-`4.6.9 Deleting a Family/Group 137 <#deleting-a-familygroup>`__
-
-`4.6.10 Insuree Page 137 <#insuree-page>`__
-
-`4.6.11 Adding an Insuree 140 <#adding-an-insuree>`__
-
-`4.6.12 Editing an Insuree 141 <#editing-an-insuree>`__
-
-`4.6.13 Deleting an Insuree 141 <#deleting-an-insuree>`__
-
-`4.6.14 Policy Page 141 <#policy-page>`__
-
-`4.6.15 Adding a Policy 144 <#adding-a-policy>`__
-
-`4.6.16 Editing a Policy 144 <#editing-a-policy>`__
-
-`4.6.17 Deleting a Policy 144 <#deleting-a-policy>`__
-
-`4.6.18 Contribution Page 144 <#contribution-page>`__
-
-`4.6.19 Adding a Contribution 148 <#adding-a-contribution>`__
-
-`4.6.20 Editing a Contribution 148 <#editing-a-contribution>`__
-
-`4.6.21 Deleting a Contribution 148 <#deleting-a-contribution>`__
-
-`5 Claims 149 <#claims>`__
-
-`5.1 Heath Facility Claims 149 <#heath-facility-claims>`__
-
-`5.1.1 Pre-conditions 150 <#pre-conditions-16>`__
-
-`5.1.2 Navigation 150 <#navigation-16>`__
-
-`5.1.3 Claims Control Page 151 <#claims-control-page>`__
-
-`5.1.4 Claim Page 157 <#claim-page>`__
-
-`5.2 Review claims 163 <#review-claims>`__
-
-`5.2.1 Pre-conditions 163 <#pre-conditions-17>`__
-
-`5.2.2 Navigation 163 <#navigation-17>`__
-
-`5.2.3 Claims Overview Page 164 <#claims-overview-page>`__
-
-`5.2.4 Claim Review Page 173 <#claim-review-page>`__
-
-`5.2.5 Claim Feedback Page 179 <#claim-feedback-page>`__
-
-`5.3 Batch Run 181 <#batch-run>`__
-
-`5.3.1 Pre-conditions 181 <#pre-conditions-18>`__
-
-`5.3.2 Navigation 181 <#navigation-18>`__
-
-`5.3.3 Batch Run Control Page 182 <#batch-run-control-page>`__
-
-`6 Tools 186 <#tools>`__
-
-`6.1 Upload List of Diagnoses 186 <#upload-list-of-diagnoses>`__
-
-`6.1.1 Navigation 186 <#navigation-19>`__
-
-`6.2 Policy Renewals 188 <#policy-renewals>`__
-
-`6.2.1 Navigation 188 <#navigation-20>`__
-
-`6.2.2 Policy Renewal Page 190 <#policy-renewal-page>`__
-
-`6.2.3 Preview Report on Renewals 192 <#preview-report-on-renewals>`__
-
-`6.2.4 Preview Journal on Renewals 193 <#preview-journal-on-renewals>`__
-
-`6.3 Feedback Prompts 194 <#feedback-prompts>`__
-
-`6.3.1 Navigation 194 <#navigation-21>`__
-
-`6.4 IMIS Extracts 198 <#imis-extracts>`__
-
-`6.4.1 Pre-conditions 198 <#pre-conditions-19>`__
-
-`6.4.2 Navigation 198 <#navigation-22>`__
-
-`6.4.3 IMIS Extracts (ONLINE MODE) 199 <#imis-extracts-online-mode>`__
-
-`6.4.4 IMIS Extracts (OFFLINE MODE) 206 <#imis-extracts-offline-mode>`__
-
-`6.5 Reports 212 <#reports>`__
-
-`6.5.1 Pre-Conditions 212 <#pre-conditions-20>`__
-
-`6.5.2 Navigation 212 <#navigation-23>`__
-
-`6.5.3 Report Preview 221 <#report-preview>`__
-
-`6.6 Utilities 238 <#utilities>`__
-
-`6.6.1 Navigation 238 <#navigation-24>`__
-
-`6.6.2 Backup 239 <#backup>`__
-
-`6.6.3 Restore 240 <#restore>`__
-
-`6.6.4 Execute script 240 <#execute-script>`__
-
-`6.7 Funding 240 <#funding>`__
-
-`6.7.1 Navigation 241 <#navigation-25>`__
-
-`6.7.2 Funding Page 241 <#funding-page>`__
-
-`7 Changing of user’s password 243 <#changing-of-users-password>`__
-
-`7.1 Navigation 243 <#navigation-26>`__
-
-`7.2 Change Password Page 244 <#change-password-page>`__
-
-`8 IMIS OFFLINE 245 <#imis-offline>`__
-
-`8.1 Introduction 245 <#introduction>`__
-
-`8.2 OFFLINE FACILITIES 245 <#offline-facilities>`__
-
-`9 Analytic and reporting component (AR-IMIS)
-257 <#analytic-and-reporting-component-ar-imis>`__
-
-`9.1 Concept of AR-IMIS 257 <#concept-of-ar-imis>`__
-
-`9.2 Dimensions 258 <#dimensions>`__
-
-`9.3 Facts 261 <#facts>`__
-
-`9.3.1 Facts on enrolment and policies
-261 <#facts-on-enrolment-and-policies>`__
-
-`9.3.2 Facts on collected revenue 264 <#facts-on-collected-revenue>`__
-
-`9.3.3 Facts on claims 265 <#facts-on-claims>`__
-
-`9.3.4 Facts on utilization of health care
-268 <#facts-on-utilization-of-health-care>`__
-
-`9.3.5 Facts on expenditures for health care
-271 <#facts-on-expenditures-for-health-care>`__
-
-`9.3.6 Facts on feedbacks 273 <#facts-on-feedbacks>`__
-
-`9.4 How access data from the Data Warehouse
-275 <#how-access-data-from-the-data-warehouse>`__
-
- ***Users’ roles and rights***
-==============================
+Users’ roles and rights
+-----------------------
 
 +-----------------------+-----------------------+-----------------------+
-|     **Role**          |     **Responsibilitie |     **Available       |
-|                       | s**                   |     functionality**   |
+|     **Role**          |  **Responsibilities** |     **Available       |
+|                       |                       |     functionality**   |
 +=======================+=======================+=======================+
 |     **Scheme          |                       |                       |
 |     administrator &   |                       |                       |
@@ -639,20 +212,19 @@ Table of Contents
 +-----------------------+-----------------------+-----------------------+
 
 Login Access
-============
+------------
 
-|image0|\ To access the software, Users, must have a valid User Name and
+To access the software, Users, must have a valid User Name and
 Password, provided by the “IMIS Administrator”. In the browser address
 bar type URL of the IMIS and request the start page. Login page will
-appear `(Image 2.1). <#image-2.1-user-login>`__
+appear `(Image 2.1).
 
-.. figure:: .\Master_Version_Manual__v17.5.0\word\media\image1.png
-   : align center
+.. image:: /img/user_manual/image1.png
 
  Image 2.1 (User Login)
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-|image1|\ Use the provided Login Name and Password, and click on the
+Use the provided Login Name and Password, and click on the
 button Login. If successful, the system will re-direct to the Home Page
 `(Image 2.2). <#image-2.2-home-page>`__
 
@@ -671,7 +243,7 @@ When a password is forgotten, clicking **Forgot Password?** results in
 the Forgot Password Page `(Image
 2.3) <#image-2.3-forgot-password-page>`__.
 
-|image2|
+
 
 Image 2.3 (Forgot Password Page)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -681,8 +253,8 @@ Write **Email** and click on the **Submit** button. In case the
 the register of users, the forgotten password is sent to the indicated
 e-mail.
 
-***Administration of registers***
-=================================
+Administration of registers
+---------------------------
 
 Registers of IMIS serve as a principal tool by which IMIS is adjusted to
 needs of health insurance schemes. With exception of the register of
@@ -735,7 +307,7 @@ approval of the management of the scheme administration.
 Navigation
 ~~~~~~~~~~
 
-|image3|\ All functionality for use with the administration of insurance
+All functionality for use with the administration of insurance
 products can be found under the main menu **Administration**, sub menu
 **Products.**
 
@@ -5083,7 +4655,7 @@ Messages will occur once a district, municipality or village has been
 moved or if there was an error at any time during the process of this
 action.
 
-***Insurees and Policies***
+Insurees and Policies
 ===========================
 
 Insuree Enquiry
@@ -7130,7 +6702,7 @@ Image 4.41 (Delete confirmation- Button Panel)
 When a contribution is deleted, all records retaining to the deleted
 contribution will still be available by selecting historical records.
 
-***Claims***
+Claims
 ============
 
 The functionality under the menu **Claims** allows complete processing
@@ -8938,7 +8510,7 @@ F. Information Panel
    Messages will occur once a batch has been processed, filtered or if
    there was an error at any time during the process of these actions.
 
-***Tools***
+Tools
 ===========
 
 Upload List of Diagnoses
