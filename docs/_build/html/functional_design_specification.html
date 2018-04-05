@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Contents &mdash; openIMIS  documentation</title>
+  <title>1   Functional Design Specifications &mdash; openIMIS  documentation</title>
   
 
   
@@ -30,13 +30,15 @@
   
 
   
+    <link rel="stylesheet" href="_static/theme_overrides.css" type="text/css" />
+  
 
   
         <link rel="index" title="Index"
               href="genindex.html"/>
         <link rel="search" title="Search" href="search.html"/>
     <link rel="top" title="openIMIS  documentation" href="index.html"/>
-        <link rel="prev" title="User Manual" href="user_manual.html"/> 
+        <link rel="prev" title="1   User Manual" href="user_manual.html"/> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -85,231 +87,231 @@
               
             
             
-              <p class="caption"><span class="caption-text">Manuals</span></p>
+              <p class="caption"><span class="caption-text">User documentation</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="user_manual.html">User Manual</a></li>
-<li class="toctree-l1"><a class="reference internal" href="user_manual.html#insurees-and-policies">Insurees and Policies</a></li>
-<li class="toctree-l1"><a class="reference internal" href="user_manual.html#claims">Claims</a></li>
-<li class="toctree-l1"><a class="reference internal" href="user_manual.html#tools">Tools</a></li>
-<li class="toctree-l1"><a class="reference internal" href="user_manual.html#changing-of-users-password">Changing of user’s password</a></li>
-<li class="toctree-l1"><a class="reference internal" href="user_manual.html#imis-offline">IMIS OFFLINE</a></li>
-<li class="toctree-l1"><a class="reference internal" href="user_manual.html#analytic-and-reporting-component-ar-imis">Analytic and reporting component (AR-IMIS)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="user_manual.html">1&nbsp;&nbsp;&nbsp;User Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="user_manual.html#insurees-and-policies">2&nbsp;&nbsp;&nbsp;Insurees and Policies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="user_manual.html#claims">3&nbsp;&nbsp;&nbsp;Claims</a></li>
+<li class="toctree-l1"><a class="reference internal" href="user_manual.html#tools">4&nbsp;&nbsp;&nbsp;Tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="user_manual.html#changing-of-users-password">5&nbsp;&nbsp;&nbsp;Changing of user’s password</a></li>
+<li class="toctree-l1"><a class="reference internal" href="user_manual.html#imis-offline">6&nbsp;&nbsp;&nbsp;IMIS OFFLINE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="user_manual.html#analytic-and-reporting-component-ar-imis">7&nbsp;&nbsp;&nbsp;Analytic and reporting component (AR-IMIS)</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Functional design</span></p>
 <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Contents</a></li>
-<li class="toctree-l1"><a class="reference internal" href="#overview">Overview</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#introduction">Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#scope">Scope</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#audience">Audience</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#assumptions">Assumptions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#document-history">Document History</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">1&nbsp;&nbsp;&nbsp;Functional Design Specifications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#overview">2&nbsp;&nbsp;&nbsp;Overview</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#introduction">2.1&nbsp;&nbsp;&nbsp;Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#scope">2.2&nbsp;&nbsp;&nbsp;Scope</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#audience">2.3&nbsp;&nbsp;&nbsp;Audience</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#assumptions">2.4&nbsp;&nbsp;&nbsp;Assumptions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#document-history">2.5&nbsp;&nbsp;&nbsp;Document History</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="#system-architecture">System Architecture</a></li>
-<li class="toctree-l1"><a class="reference internal" href="#programming-approach-standards-and-methods">Programming approach, standards and methods</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#multi-tier-development">Multi Tier development</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#coding-standards-and-conventions">Coding Standards and Conventions</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#entities">Entities</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#methods">Methods</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#controls">Controls</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#objects">Objects</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#resources">Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#system-architecture">3&nbsp;&nbsp;&nbsp;System Architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#programming-approach-standards-and-methods">4&nbsp;&nbsp;&nbsp;Programming approach, standards and methods</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#multi-tier-development">4.1&nbsp;&nbsp;&nbsp;Multi Tier development</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#coding-standards-and-conventions">4.2&nbsp;&nbsp;&nbsp;Coding Standards and Conventions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#entities">4.2.1&nbsp;&nbsp;&nbsp;Entities</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#methods">4.2.2&nbsp;&nbsp;&nbsp;Methods</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#controls">4.2.3&nbsp;&nbsp;&nbsp;Controls</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#objects">4.2.4&nbsp;&nbsp;&nbsp;Objects</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#resources">4.2.5&nbsp;&nbsp;&nbsp;Resources</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#photo-storage">Photo Storage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#photo-storage">4.3&nbsp;&nbsp;&nbsp;Photo Storage</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="#imis-menu-structure-and-interface-flow">IMIS Menu structure and Interface flow</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#main-menu">Main menu</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#menu-insurees-and-policies">Menu Insurees and Policies</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#menu-claims">Menu Claims</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#menu-administration">Menu Administration</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#menu-price-lists">Menu Price Lists</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#my-profile">My Profile</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#menu-tools">Menu Tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#imis-menu-structure-and-interface-flow">5&nbsp;&nbsp;&nbsp;IMIS Menu structure and Interface flow</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#main-menu">5.1&nbsp;&nbsp;&nbsp;Main menu</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#menu-insurees-and-policies">5.2&nbsp;&nbsp;&nbsp;Menu Insurees and Policies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#menu-claims">5.3&nbsp;&nbsp;&nbsp;Menu Claims</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#menu-administration">5.4&nbsp;&nbsp;&nbsp;Menu Administration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#menu-price-lists">5.5&nbsp;&nbsp;&nbsp;Menu Price Lists</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#my-profile">5.6&nbsp;&nbsp;&nbsp;My Profile</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#menu-tools">5.7&nbsp;&nbsp;&nbsp;Menu Tools</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="#functional-area-description">Functional Area Description</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#generic-interface-features">Generic interface features</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#add-edit-delete-save-and-buttons">Add, Edit, Delete, Save and buttons</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#user-security">User Security</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#historical-records">‘Historical’ records</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#data-grids-hyperlinks-and-pages">Data grids, hyperlinks and pages</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#multi-language-aspects">Multi Language aspects</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#session-expiry">Session expiry</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#mandatory-fields">Mandatory fields</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#functional-area-description">6&nbsp;&nbsp;&nbsp;Functional Area Description</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#generic-interface-features">6.1&nbsp;&nbsp;&nbsp;Generic interface features</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#add-edit-delete-save-and-buttons">6.1.1&nbsp;&nbsp;&nbsp;Add, Edit, Delete, Save and buttons</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#user-security">6.1.2&nbsp;&nbsp;&nbsp;User Security</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#historical-records">6.1.3&nbsp;&nbsp;&nbsp;‘Historical’ records</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#data-grids-hyperlinks-and-pages">6.1.4&nbsp;&nbsp;&nbsp;Data grids, hyperlinks and pages</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#multi-language-aspects">6.1.5&nbsp;&nbsp;&nbsp;Multi Language aspects</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#session-expiry">6.1.6&nbsp;&nbsp;&nbsp;Session expiry</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#mandatory-fields">6.1.7&nbsp;&nbsp;&nbsp;Mandatory fields</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#web-pages">Web pages</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#default-aspx">Default.aspx</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#forgotpassword-aspx">ForgotPassword.aspx</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#changepassword-aspx">ChangePassword.aspx</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#home-aspx">Home.aspx</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#logout-aspx">Logout.aspx</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#family-aspx">Family.aspx</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#findfamily-aspx">FindFamily.aspx</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#changefamily-aspx">ChangeFamily.aspx</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#findinsuree-aspx">FindInsuree.aspx</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#id13">***</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#web-pages">6.2&nbsp;&nbsp;&nbsp;Web pages</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#default-aspx">6.2.1&nbsp;&nbsp;&nbsp;Default.aspx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#forgotpassword-aspx">6.2.2&nbsp;&nbsp;&nbsp;ForgotPassword.aspx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#changepassword-aspx">6.2.3&nbsp;&nbsp;&nbsp;ChangePassword.aspx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#home-aspx">6.2.4&nbsp;&nbsp;&nbsp;Home.aspx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#logout-aspx">6.2.5&nbsp;&nbsp;&nbsp;Logout.aspx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#family-aspx">6.2.6&nbsp;&nbsp;&nbsp;Family.aspx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#findfamily-aspx">6.2.7&nbsp;&nbsp;&nbsp;FindFamily.aspx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#changefamily-aspx">6.2.8&nbsp;&nbsp;&nbsp;ChangeFamily.aspx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#findinsuree-aspx">6.2.9&nbsp;&nbsp;&nbsp;FindInsuree.aspx</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id13">6.2.9.1&nbsp;&nbsp;&nbsp;***</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#insuree-aspx">Insuree.aspx</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#findpolicy-aspx">FindPolicy.aspx</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#policy-aspx">Policy.aspx</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#findpremium-aspx">FindPremium.aspx</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#id22">***</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#insuree-aspx">6.2.10&nbsp;&nbsp;&nbsp;Insuree.aspx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#findpolicy-aspx">6.2.11&nbsp;&nbsp;&nbsp;FindPolicy.aspx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#policy-aspx">6.2.12&nbsp;&nbsp;&nbsp;Policy.aspx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#findpremium-aspx">6.2.13&nbsp;&nbsp;&nbsp;FindPremium.aspx</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id22">6.2.13.1&nbsp;&nbsp;&nbsp;***</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#premium-aspx">Premium.aspx</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#overviewfamily-aspx">OverviewFamily.aspx</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#findclaims-aspx">FindClaims.aspx</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#claim-aspx">Claim.aspx</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#claimoverview-aspx">ClaimOverview.aspx</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#claimreview-aspx">ClaimReview.aspx</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#claimfeedback-aspx">ClaimFeedback.aspx</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#batchrun-aspx">BatchRun.aspx</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#claimadministrator-aspx">ClaimAdministrator.aspx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#premium-aspx">6.2.14&nbsp;&nbsp;&nbsp;Premium.aspx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#overviewfamily-aspx">6.2.15&nbsp;&nbsp;&nbsp;OverviewFamily.aspx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#findclaims-aspx">6.2.16&nbsp;&nbsp;&nbsp;FindClaims.aspx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#claim-aspx">6.2.17&nbsp;&nbsp;&nbsp;Claim.aspx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#claimoverview-aspx">6.2.18&nbsp;&nbsp;&nbsp;ClaimOverview.aspx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#claimreview-aspx">6.2.19&nbsp;&nbsp;&nbsp;ClaimReview.aspx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#claimfeedback-aspx">6.2.20&nbsp;&nbsp;&nbsp;ClaimFeedback.aspx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#batchrun-aspx">6.2.21&nbsp;&nbsp;&nbsp;BatchRun.aspx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#claimadministrator-aspx">6.2.22&nbsp;&nbsp;&nbsp;ClaimAdministrator.aspx</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#checking-of-claims-process">Checking of claims process</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#batch-valuation-process">Batch Valuation process</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#calculation-of-relative-prices-index-process">Calculation of ‘relative prices index’ process</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#graphical-page-routing-overview-claim-interfaces">Graphical page routing overview Claim interfaces</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#overview-of-status-fields">Overview of status fields</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#findhealthfacility-aspx">FindHealthFacility.aspx</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#healthfacility-aspx">HealthFacility.aspx</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#findproduct-aspx">FindProduct.aspx</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#product-aspx">Product.aspx</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#findmedicalitem-aspx">FindMedicalItem.aspx</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#id39">***</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#checking-of-claims-process">6.3&nbsp;&nbsp;&nbsp;Checking of claims process</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#batch-valuation-process">6.4&nbsp;&nbsp;&nbsp;Batch Valuation process</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#calculation-of-relative-prices-index-process">6.5&nbsp;&nbsp;&nbsp;Calculation of ‘relative prices index’ process</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#graphical-page-routing-overview-claim-interfaces">6.6&nbsp;&nbsp;&nbsp;Graphical page routing overview Claim interfaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#overview-of-status-fields">6.7&nbsp;&nbsp;&nbsp;Overview of status fields</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#findhealthfacility-aspx">6.7.1&nbsp;&nbsp;&nbsp;FindHealthFacility.aspx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#healthfacility-aspx">6.7.2&nbsp;&nbsp;&nbsp;HealthFacility.aspx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#findproduct-aspx">6.7.3&nbsp;&nbsp;&nbsp;FindProduct.aspx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#product-aspx">6.7.4&nbsp;&nbsp;&nbsp;Product.aspx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#findmedicalitem-aspx">6.7.5&nbsp;&nbsp;&nbsp;FindMedicalItem.aspx</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id39">6.7.5.1&nbsp;&nbsp;&nbsp;***</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#medicalitem-aspx">MedicalItem.aspx</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#findmedicalservice-aspx">FindMedicalService.aspx</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#medicalservice-aspx">MedicalService.aspx</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#findofficer-asp">FindOfficer.asp</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#officer-aspx">Officer.aspx</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#findpayer-aspx">FindPayer.aspx</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#payer-aspx">Payer.aspx</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#findpricelistmi-aspx">FindPriceListMI.aspx</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#pricelistmi-aspx">PriceListMI.aspx</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#findpricelistms-aspx">FindPriceListMS.aspx</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#pricelistms-aspx">PriceListMS.aspx</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#finduser-aspx">FindUser.aspx</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#user-aspx">User.aspx</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#locations-aspx">Locations.aspx</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#movelocation-aspx">MoveLocation.aspx</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#emailsettings-aspx">EmailSettings.aspx</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#uploadicd-aspx">UploadICD.aspx</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#policyrenewals-aspx">PolicyRenewals.aspx</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#imis-extracts">IMIS Extracts</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#id44">***</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#id49">***</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#medicalitem-aspx">6.7.6&nbsp;&nbsp;&nbsp;MedicalItem.aspx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#findmedicalservice-aspx">6.7.7&nbsp;&nbsp;&nbsp;FindMedicalService.aspx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#medicalservice-aspx">6.7.8&nbsp;&nbsp;&nbsp;MedicalService.aspx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#findofficer-asp">6.7.9&nbsp;&nbsp;&nbsp;FindOfficer.asp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#officer-aspx">6.7.10&nbsp;&nbsp;&nbsp;Officer.aspx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#findpayer-aspx">6.7.11&nbsp;&nbsp;&nbsp;FindPayer.aspx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#payer-aspx">6.7.12&nbsp;&nbsp;&nbsp;Payer.aspx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#findpricelistmi-aspx">6.7.13&nbsp;&nbsp;&nbsp;FindPriceListMI.aspx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pricelistmi-aspx">6.7.14&nbsp;&nbsp;&nbsp;PriceListMI.aspx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#findpricelistms-aspx">6.7.15&nbsp;&nbsp;&nbsp;FindPriceListMS.aspx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pricelistms-aspx">6.7.16&nbsp;&nbsp;&nbsp;PriceListMS.aspx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#finduser-aspx">6.7.17&nbsp;&nbsp;&nbsp;FindUser.aspx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#user-aspx">6.7.18&nbsp;&nbsp;&nbsp;User.aspx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#locations-aspx">6.7.19&nbsp;&nbsp;&nbsp;Locations.aspx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#movelocation-aspx">6.7.20&nbsp;&nbsp;&nbsp;MoveLocation.aspx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#emailsettings-aspx">6.7.21&nbsp;&nbsp;&nbsp;EmailSettings.aspx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#uploadicd-aspx">6.7.22&nbsp;&nbsp;&nbsp;UploadICD.aspx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#policyrenewals-aspx">6.7.23&nbsp;&nbsp;&nbsp;PolicyRenewals.aspx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#imis-extracts">6.7.24&nbsp;&nbsp;&nbsp;IMIS Extracts</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id44">6.7.24.1&nbsp;&nbsp;&nbsp;***</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id49">6.7.24.2&nbsp;&nbsp;&nbsp;***</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#reports-aspx">Reports.aspx</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#id56">***</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#reports-aspx">6.7.25&nbsp;&nbsp;&nbsp;Reports.aspx</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id56">6.7.25.1&nbsp;&nbsp;&nbsp;***</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#utilities-aspx">Utilities.aspx</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#imis-master-used-for-menu-and-quick-inquiry">IMIS.MASTER (used for Menu and Quick Inquiry)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#utilities-aspx">6.7.26&nbsp;&nbsp;&nbsp;Utilities.aspx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#imis-master-used-for-menu-and-quick-inquiry">6.7.27&nbsp;&nbsp;&nbsp;IMIS.MASTER (used for Menu and Quick Inquiry)</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#graphical-page-routing-overview">Graphical page routing overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#graphical-page-routing-overview">6.8&nbsp;&nbsp;&nbsp;Graphical page routing overview</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="#database-design">Database Design</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#tables-with-main-properties">Tables with main properties</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#tbldistricts">tblDistricts</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblward-municipality">TblWard (Municipality)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblvillages">tblVillages</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblusers">TblUsers</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblofficer">tblOfficer</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblicdcodes">tblICDCodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblitems">tblItems</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblplitems">tblPLItems</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblplitemsdetail">tblPLItemsDetail</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblservices">tblServices</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblplservices">tblPLServices</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblplservicesdetail">tblPLServicesDetail</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblhf">tblHF</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblfamilies">tblFamilies</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblinsuree">tblInsuree</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblhealthstatus">tblHealthStatus</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblphotos">tblPhotos</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblpolicy">tblPolicy</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblproduct">tblProduct</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblproductitems">tblProductItems</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblproductservices">tblProductServices</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblreldistr">tblRelDistr</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblpremium">tblPremium</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblpayer">tblPayer</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblbatch">tblBatch</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblclaim">tblClaim</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblclaimitems">tblClaimItems</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblclaimservices">tblClaimServices</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblclaimdedrem">tblClaimDedRem</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblfeedback">tblFeedback</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblpolicyrenewals">tblPolicyRenewals</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblpolicyrenewalsdetails">tblPolicyRenewalsDetails</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblbatchrun">tblBatchRun</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblimisdefaults">tblIMISDefaults</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblreporting">tblReporting</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tbleducations">tblEducations</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblprofessions">tblProfessions</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblidentificationtypes">tblIdentificationTypes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tbllegalforms">tblLegalForms</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblrelations">tblRelations</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblfamilytypes">tblFamilyTypes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblconfirmationtypes">tblConfirmationTypes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblceilinginterpretation">tblCeilingInterpretation</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tbllanguages">tblLanguages</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblemailsettings">tblEmailSettings</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblhfsublevel">tblHFSublevel</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblpayertype">tblPayerType</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblfromphone">tblFromPhone</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tblsubmittedphotos">tblSubmittedPhotos</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#id59">**</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="#graphical-relationship-overviews">Graphical relationship overviews</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#imis-on-line-and-off-line">IMIS On-line and Off-line</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="#windows-and-web-services">Windows and Web Services</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#windows-services">Windows Services</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#imis-backup">IMIS Backup</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#imis-policy-renewal">IMIS Policy Renewal</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#assignphotoservice">AssignPhotoService</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#smsoneffective">SMSONEFFECTIVE</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="#web-services">Web Services</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="#mobile-phone-concept">Mobile phone Concept</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#enrollment-application">Enrollment Application</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#enrollment-flow-chart-diagram">Enrollment Flow chart diagram</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="#claim-application">Claim application</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#claim-flow-chart-diagram">Claim Flow chart diagram</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="#feedback-renew-application">Feedback &amp; Renew application</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#feedback-renewal-flow-chart-diagram">Feedback-Renewal Flow chart diagram</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="#policy-inquiring-application">Policy Inquiring Application</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#inquiring-flow-chart-diagram">Inquiring Flow chart diagram</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#database-design">7&nbsp;&nbsp;&nbsp;Database Design</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#tables-with-main-properties">7.1&nbsp;&nbsp;&nbsp;Tables with main properties</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#tbldistricts">7.1.1&nbsp;&nbsp;&nbsp;tblDistricts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblward-municipality">7.1.2&nbsp;&nbsp;&nbsp;TblWard (Municipality)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblvillages">7.1.3&nbsp;&nbsp;&nbsp;tblVillages</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblusers">7.1.4&nbsp;&nbsp;&nbsp;TblUsers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblofficer">7.1.5&nbsp;&nbsp;&nbsp;tblOfficer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblicdcodes">7.1.6&nbsp;&nbsp;&nbsp;tblICDCodes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblitems">7.1.7&nbsp;&nbsp;&nbsp;tblItems</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblplitems">7.1.8&nbsp;&nbsp;&nbsp;tblPLItems</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblplitemsdetail">7.1.9&nbsp;&nbsp;&nbsp;tblPLItemsDetail</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblservices">7.1.10&nbsp;&nbsp;&nbsp;tblServices</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblplservices">7.1.11&nbsp;&nbsp;&nbsp;tblPLServices</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblplservicesdetail">7.1.12&nbsp;&nbsp;&nbsp;tblPLServicesDetail</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblhf">7.1.13&nbsp;&nbsp;&nbsp;tblHF</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblfamilies">7.1.14&nbsp;&nbsp;&nbsp;tblFamilies</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblinsuree">7.1.15&nbsp;&nbsp;&nbsp;tblInsuree</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblhealthstatus">7.1.16&nbsp;&nbsp;&nbsp;tblHealthStatus</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblphotos">7.1.17&nbsp;&nbsp;&nbsp;tblPhotos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblpolicy">7.1.18&nbsp;&nbsp;&nbsp;tblPolicy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblproduct">7.1.19&nbsp;&nbsp;&nbsp;tblProduct</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblproductitems">7.1.20&nbsp;&nbsp;&nbsp;tblProductItems</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblproductservices">7.1.21&nbsp;&nbsp;&nbsp;tblProductServices</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblreldistr">7.1.22&nbsp;&nbsp;&nbsp;tblRelDistr</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblpremium">7.1.23&nbsp;&nbsp;&nbsp;tblPremium</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblpayer">7.1.24&nbsp;&nbsp;&nbsp;tblPayer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblbatch">7.1.25&nbsp;&nbsp;&nbsp;tblBatch</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblclaim">7.1.26&nbsp;&nbsp;&nbsp;tblClaim</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblclaimitems">7.1.27&nbsp;&nbsp;&nbsp;tblClaimItems</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblclaimservices">7.1.28&nbsp;&nbsp;&nbsp;tblClaimServices</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblclaimdedrem">7.1.29&nbsp;&nbsp;&nbsp;tblClaimDedRem</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblfeedback">7.1.30&nbsp;&nbsp;&nbsp;tblFeedback</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblpolicyrenewals">7.1.31&nbsp;&nbsp;&nbsp;tblPolicyRenewals</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblpolicyrenewalsdetails">7.1.32&nbsp;&nbsp;&nbsp;tblPolicyRenewalsDetails</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblbatchrun">7.1.33&nbsp;&nbsp;&nbsp;tblBatchRun</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblimisdefaults">7.1.34&nbsp;&nbsp;&nbsp;tblIMISDefaults</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblreporting">7.1.35&nbsp;&nbsp;&nbsp;tblReporting</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tbleducations">7.1.36&nbsp;&nbsp;&nbsp;tblEducations</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblprofessions">7.1.37&nbsp;&nbsp;&nbsp;tblProfessions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblidentificationtypes">7.1.38&nbsp;&nbsp;&nbsp;tblIdentificationTypes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tbllegalforms">7.1.39&nbsp;&nbsp;&nbsp;tblLegalForms</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblrelations">7.1.40&nbsp;&nbsp;&nbsp;tblRelations</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblfamilytypes">7.1.41&nbsp;&nbsp;&nbsp;tblFamilyTypes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblconfirmationtypes">7.1.42&nbsp;&nbsp;&nbsp;tblConfirmationTypes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblceilinginterpretation">7.1.43&nbsp;&nbsp;&nbsp;tblCeilingInterpretation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tbllanguages">7.1.44&nbsp;&nbsp;&nbsp;tblLanguages</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblemailsettings">7.1.45&nbsp;&nbsp;&nbsp;tblEmailSettings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblhfsublevel">7.1.46&nbsp;&nbsp;&nbsp;tblHFSublevel</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblpayertype">7.1.47&nbsp;&nbsp;&nbsp;tblPayerType</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblfromphone">7.1.48&nbsp;&nbsp;&nbsp;tblFromPhone</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tblsubmittedphotos">7.1.49&nbsp;&nbsp;&nbsp;tblSubmittedPhotos</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id59">7.1.49.1&nbsp;&nbsp;&nbsp;**</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="#library">Library</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#graphical-relationship-overviews">7.2&nbsp;&nbsp;&nbsp;Graphical relationship overviews</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#imis-on-line-and-off-line">7.3&nbsp;&nbsp;&nbsp;IMIS On-line and Off-line</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#windows-and-web-services">8&nbsp;&nbsp;&nbsp;Windows and Web Services</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#windows-services">8.1&nbsp;&nbsp;&nbsp;Windows Services</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#imis-backup">8.1.1&nbsp;&nbsp;&nbsp;IMIS Backup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#imis-policy-renewal">8.1.2&nbsp;&nbsp;&nbsp;IMIS Policy Renewal</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#assignphotoservice">8.1.3&nbsp;&nbsp;&nbsp;AssignPhotoService</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#smsoneffective">8.1.4&nbsp;&nbsp;&nbsp;SMSONEFFECTIVE</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#web-services">8.2&nbsp;&nbsp;&nbsp;Web Services</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#mobile-phone-concept">9&nbsp;&nbsp;&nbsp;Mobile phone Concept</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#enrollment-application">9.1&nbsp;&nbsp;&nbsp;Enrollment Application</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#enrollment-flow-chart-diagram">9.1.1&nbsp;&nbsp;&nbsp;Enrollment Flow chart diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#claim-application">9.2&nbsp;&nbsp;&nbsp;Claim application</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#claim-flow-chart-diagram">9.2.1&nbsp;&nbsp;&nbsp;Claim Flow chart diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#feedback-renew-application">9.3&nbsp;&nbsp;&nbsp;Feedback &amp; Renew application</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#feedback-renewal-flow-chart-diagram">9.3.1&nbsp;&nbsp;&nbsp;Feedback-Renewal Flow chart diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#policy-inquiring-application">9.4&nbsp;&nbsp;&nbsp;Policy Inquiring Application</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#inquiring-flow-chart-diagram">9.4.1&nbsp;&nbsp;&nbsp;Inquiring Flow chart diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#library">10&nbsp;&nbsp;&nbsp;Library</a></li>
 </ul>
 
             
@@ -354,7 +356,7 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-      <li>Contents</li>
+      <li>1&nbsp;&nbsp;&nbsp;Functional Design Specifications</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -373,236 +375,13 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <blockquote>
-<div><p>Insurance Management Information System (IMIS) Application</p>
-<p>Functional Design Specifications</p>
-<p>Functional Area: Insurees and Policies, Administration of registers,
-Management of claims and general management</p>
-</div></blockquote>
-<table border="1" class="docutils">
-<colgroup>
-<col width="58%" />
-<col width="42%" />
-</colgroup>
-<thead valign="bottom">
-<tr class="row-odd"><th class="head"><strong>Created by:</strong></th>
-<th class="head">Exact Software Ltd</th>
-</tr>
-</thead>
-<tbody valign="top">
-<tr class="row-even"><td><strong>Deliverable Owner:</strong></td>
-<td>Swiss TPH</td>
-</tr>
-<tr class="row-odd"><td><strong>Deliverable Approvers:</strong></td>
-<td>&#160;</td>
-</tr>
-<tr class="row-even"><td><strong>Last Revision Date:</strong></td>
-<td>24 April 2017</td>
-</tr>
-<tr class="row-odd"><td><strong>Version &amp; Status:</strong></td>
-<td>17.3.11</td>
-</tr>
-<tr class="row-even"><td>&#160;</td>
-<td>&#160;</td>
-</tr>
-</tbody>
-</table>
-<div class="section" id="contents">
-<h1>Contents<a class="headerlink" href="#contents" title="Permalink to this headline">¶</a></h1>
-<p><a class="reference external" href="#overview">1. Overview 7</a></p>
-<p><a class="reference external" href="#introduction">1.1. Introduction 7</a></p>
-<p><a class="reference external" href="#scope">1.2. Scope 7</a></p>
-<p><a class="reference external" href="#audience">1.3. Audience 7</a></p>
-<p><a class="reference external" href="#assumptions">1.4. Assumptions 8</a></p>
-<p><a class="reference external" href="#document-history">1.5. Document History 8</a></p>
-<p><a class="reference external" href="#system-architecture">2. System Architecture 9</a></p>
-<p><a class="reference external" href="#imis-online-web-application">2.1.1. IMIS online web Application 9</a></p>
-<p><a class="reference external" href="#imis-offline-web-application">2.1.2. IMIS offline web Application
-9</a></p>
-<p><a class="reference external" href="#android-phone-applications">2.1.3. Android phone applications 10</a></p>
-<p><a class="reference external" href="#window-services-and-web-services">2.1.4. Window services and Web services
-10</a></p>
-<p><a class="reference external" href="#imis-data-warehouse">2.1.5. IMIS Data warehouse 10</a></p>
-<p><a class="reference external" href="#programming-approach-standards-and-methods">3. Programming approach, standards and methods
-11</a></p>
-<p><a class="reference external" href="#multi-tier-development">3.1. Multi Tier development 11</a></p>
-<p><a class="reference external" href="#coding-standards-and-conventions">3.2. Coding Standards and Conventions
-14</a></p>
-<p><a class="reference external" href="#entities">3.2.1. Entities 15</a></p>
-<p><a class="reference external" href="#methods">3.2.2. Methods 15</a></p>
-<p><a class="reference external" href="#controls">3.2.3. Controls 15</a></p>
-<p><a class="reference external" href="#objects">3.2.4. Objects 15</a></p>
-<p><a class="reference external" href="#resources">3.2.5. Resources 15</a></p>
-<p><a class="reference external" href="#photo-storage">3.3. Photo Storage 16</a></p>
-<p><a class="reference external" href="#imis-menu-structure-and-interface-flow">4. IMIS Menu structure and Interface flow
-17</a></p>
-<p><a class="reference external" href="#main-menu">4.1. Main menu 17</a></p>
-<p><a class="reference external" href="#menu-insurees-and-policies">4.2. Menu Insurees and Policies 17</a></p>
-<p><a class="reference external" href="#menu-claims">4.3. Menu Claims 18</a></p>
-<p><a class="reference external" href="#menu-administration">4.4. Menu Administration 18</a></p>
-<p><a class="reference external" href="#menu-price-lists">4.5. Menu Price Lists 19</a></p>
-<p><a class="reference external" href="#my-profile">4.6. My Profile 19</a></p>
-<p><a class="reference external" href="#menu-tools">4.7. Menu Tools 19</a></p>
-<p><a class="reference external" href="#functional-area-description">5. Functional Area Description 20</a></p>
-<p><a class="reference external" href="#generic-interface-features">5.1. Generic interface features 20</a></p>
-<p><a class="reference external" href="#add-edit-delete-save-and-buttons">5.1.1. Add, Edit, Delete, Save and buttons
-20</a></p>
-<p><a class="reference external" href="#user-security">5.1.2. User Security 21</a></p>
-<p><a class="reference external" href="#historical-records">5.1.3. ‘Historical’ records 21</a></p>
-<p><a class="reference external" href="#data-grids-hyperlinks-and-pages">5.1.4. Data grids, hyperlinks and pages
-22</a></p>
-<p><a class="reference external" href="#multi-language-aspects">5.1.5. Multi Language aspects 23</a></p>
-<p><a class="reference external" href="#session-expiry">5.1.6. Session expiry 25</a></p>
-<p><a class="reference external" href="#mandatory-fields">5.1.7. Mandatory fields 25</a></p>
-<p><a class="reference external" href="#status-bar-and-popup">5.1.8. Status bar and Popup 26</a></p>
-<p><a class="reference external" href="#web-pages">5.2. Web pages 26</a></p>
-<p><a class="reference external" href="#default.aspx">5.2.1. Default.aspx 28</a></p>
-<p><a class="reference external" href="#forgotpassword.aspx">5.2.2. ForgotPassword.aspx 29</a></p>
-<p><a class="reference external" href="#changepassword.aspx">5.2.3. ChangePassword.aspx 30</a></p>
-<p><a class="reference external" href="#home.aspx">5.2.4. Home.aspx 31</a></p>
-<p><a class="reference external" href="#logout.aspx">5.2.5. Logout.aspx 32</a></p>
-<p><a class="reference external" href="#family.aspx">5.2.6. Family.aspx 33</a></p>
-<p><a class="reference external" href="#findfamily.aspx">5.2.7. FindFamily.aspx 35</a></p>
-<p><a class="reference external" href="#changefamily.aspx">5.2.8. ChangeFamily.aspx 37</a></p>
-<p><a class="reference external" href="#findinsuree.aspx">5.2.9. FindInsuree.aspx 39</a></p>
-<p><a class="reference external" href="#insuree.aspx">5.2.10. Insuree.aspx 40</a></p>
-<p><a class="reference external" href="#findpolicy.aspx">5.2.11. FindPolicy.aspx 42</a></p>
-<p><a class="reference external" href="#policy.aspx">5.2.12. Policy.aspx 44</a></p>
-<p><a class="reference external" href="#findpremium.aspx">5.2.13. FindPremium.aspx 45</a></p>
-<p><a class="reference external" href="#premium.aspx">5.2.14. Premium.aspx 46</a></p>
-<p><a class="reference external" href="#overviewfamily.aspx">5.2.15. OverviewFamily.aspx 48</a></p>
-<p><a class="reference external" href="#findclaims.aspx">5.2.16. FindClaims.aspx 50</a></p>
-<p><a class="reference external" href="#claim.aspx">5.2.17. Claim.aspx 52</a></p>
-<p><a class="reference external" href="#claimoverview.aspx">5.2.18. ClaimOverview.aspx 54</a></p>
-<p><a class="reference external" href="#claimreview.aspx">5.2.19. ClaimReview.aspx 58</a></p>
-<p><a class="reference external" href="#claimfeedback.aspx">5.2.20. ClaimFeedback.aspx 60</a></p>
-<p><a class="reference external" href="#batchrun.aspx">5.2.21. BatchRun.aspx 61</a></p>
-<p><a class="reference external" href="#claimadministrator.aspx">5.2.22. ClaimAdministrator.aspx 63</a></p>
-<p><a class="reference external" href="#checking-of-claims-process">5.3. Checking of claims process 64</a></p>
-<p><a class="reference external" href="#batch-valuation-process">5.4. Batch Valuation process 66</a></p>
-<p><a class="reference external" href="#calculation-of-relative-prices-index-process">5.5. Calculation of ‘relative prices index’ process
-68</a></p>
-<p><a class="reference external" href="#graphical-page-routing-overview-claim-interfaces">5.6. Graphical page routing overview Claim interfaces
-70</a></p>
-<p><a class="reference external" href="#overview-of-status-fields">5.7. Overview of status fields 71</a></p>
-<p><a class="reference external" href="#findhealthfacility.aspx">5.7.1. FindHealthFacility.aspx 72</a></p>
-<p><a class="reference external" href="#healthfacility.aspx">5.7.2. HealthFacility.aspx 73</a></p>
-<p><a class="reference external" href="#findproduct.aspx">5.7.3. FindProduct.aspx 74</a></p>
-<p><a class="reference external" href="#product.aspx">5.7.4. Product.aspx 75</a></p>
-<p><a class="reference external" href="#findmedicalitem.aspx">5.7.5. FindMedicalItem.aspx 77</a></p>
-<p><a class="reference external" href="#medicalitem.aspx">5.7.6. MedicalItem.aspx 78</a></p>
-<p><a class="reference external" href="#findmedicalservice.aspx">5.7.7. FindMedicalService.aspx 79</a></p>
-<p><a class="reference external" href="#medicalservice.aspx">5.7.8. MedicalService.aspx 80</a></p>
-<p><a class="reference external" href="#findofficer.asp">5.7.9. FindOfficer.asp 81</a></p>
-<p><a class="reference external" href="#officer.aspx">5.7.10. Officer.aspx 82</a></p>
-<p><a class="reference external" href="#findpayer.aspx">5.7.11. FindPayer.aspx 83</a></p>
-<p><a class="reference external" href="#payer.aspx">5.7.12. Payer.aspx 84</a></p>
-<p><a class="reference external" href="#findpricelistmi.aspx">5.7.13. FindPriceListMI.aspx 85</a></p>
-<p><a class="reference external" href="#pricelistmi.aspx">5.7.14. PriceListMI.aspx 86</a></p>
-<p><a class="reference external" href="#findpricelistms.aspx">5.7.15. FindPriceListMS.aspx 87</a></p>
-<p><a class="reference external" href="#pricelistms.aspx">5.7.16. PriceListMS.aspx 88</a></p>
-<p><a class="reference external" href="#finduser.aspx">5.7.17. FindUser.aspx 89</a></p>
-<p><a class="reference external" href="#user.aspx">5.7.18. User.aspx 90</a></p>
-<p><a class="reference external" href="#locations.aspx">5.7.19. Locations.aspx 92</a></p>
-<p><a class="reference external" href="#movelocation.aspx">5.7.20. MoveLocation.aspx 93</a></p>
-<p><a class="reference external" href="#emailsettings.aspx">5.7.21. EmailSettings.aspx 94</a></p>
-<p><a class="reference external" href="#uploadicd.aspx">5.7.22. UploadICD.aspx 95</a></p>
-<p><a class="reference external" href="#policyrenewals.aspx">5.7.23. PolicyRenewals.aspx 96</a></p>
-<p><a class="reference external" href="#imis-extracts">5.7.24. IMIS Extracts 98</a></p>
-<p><a class="reference external" href="#reports.aspx">5.7.25. Reports.aspx 108</a></p>
-<p><a class="reference external" href="#utilities.aspx">5.7.26. Utilities.aspx 110</a></p>
-<p><a class="reference external" href="#imis.master-used-for-menu-and-quick-inquiry">5.7.27. IMIS.MASTER (used for Menu and Quick Inquiry)
-111</a></p>
-<p><a class="reference external" href="#graphical-page-routing-overview">5.8. Graphical page routing overview
-112</a></p>
-<p><a class="reference external" href="#database-design">6. Database Design 113</a></p>
-<p><a class="reference external" href="#tables-with-main-properties">6.1. Tables with main properties 113</a></p>
-<p><a class="reference external" href="#tblregion">6.1.1. tblRegion 114</a></p>
-<p><a class="reference external" href="#tbldistricts">6.1.2. tblDistricts 115</a></p>
-<p><a class="reference external" href="#tblward-municipality">6.1.3. TblWard (Municipality) 116</a></p>
-<p><a class="reference external" href="#tblvillages">6.1.4. tblVillages 117</a></p>
-<p><a class="reference external" href="#tblusers">6.1.5. TblUsers 117</a></p>
-<p><a class="reference external" href="#tblusersdistricts">6.1.6. tblUsersDistricts 118</a></p>
-<p><a class="reference external" href="#tblofficer">6.1.7. tblOfficer 119</a></p>
-<p><a class="reference external" href="#tblofficervillages">6.1.8. tblOfficerVillages 120</a></p>
-<p><a class="reference external" href="#tblicdcodes">6.1.9. tblICDCodes 121</a></p>
-<p><a class="reference external" href="#tblitems">6.1.10. tblItems 122</a></p>
-<p><a class="reference external" href="#tblplitems">6.1.11. tblPLItems 123</a></p>
-<p><a class="reference external" href="#tblplitemsdetail">6.1.12. tblPLItemsDetail 123</a></p>
-<p><a class="reference external" href="#tblservices">6.1.13. tblServices 124</a></p>
-<p><a class="reference external" href="#tblplservices">6.1.14. tblPLServices 125</a></p>
-<p><a class="reference external" href="#tblplservicesdetail">6.1.15. tblPLServicesDetail 125</a></p>
-<p><a class="reference external" href="#tblhf">6.1.16. tblHF 126</a></p>
-<p><a class="reference external" href="#tblfamilies">6.1.17. tblFamilies 127</a></p>
-<p><a class="reference external" href="#tblinsuree">6.1.18. tblInsuree 128</a></p>
-<p><a class="reference external" href="#tblinsureepolicy">6.1.19. tblInsureePolicy 129</a></p>
-<p><a class="reference external" href="#tblhealthstatus">6.1.20. tblHealthStatus 130</a></p>
-<p><a class="reference external" href="#tblphotos">6.1.21. tblPhotos 130</a></p>
-<p><a class="reference external" href="#tblpolicy">6.1.22. tblPolicy 131</a></p>
-<p><a class="reference external" href="#tblproduct">6.1.23. tblProduct 132</a></p>
-<p><a class="reference external" href="#tblproductitems">6.1.24. tblProductItems 134</a></p>
-<p><a class="reference external" href="#tblproductservices">6.1.25. tblProductServices 135</a></p>
-<p><a class="reference external" href="#tblreldistr">6.1.26. tblRelDistr 136</a></p>
-<p><a class="reference external" href="#tblpremium">6.1.27. tblPremium 137</a></p>
-<p><a class="reference external" href="#tblpayer">6.1.28. tblPayer 137</a></p>
-<p><a class="reference external" href="#tblbatch">6.1.29. tblBatch 139</a></p>
-<p><a class="reference external" href="#tblclaim">6.1.30. tblClaim 140</a></p>
-<p><a class="reference external" href="#tblclaimitems">6.1.31. tblClaimItems 142</a></p>
-<p><a class="reference external" href="#tblclaimservices">6.1.32. tblClaimServices 143</a></p>
-<p><a class="reference external" href="#tblclaimdedrem">6.1.33. tblClaimDedRem 144</a></p>
-<p><a class="reference external" href="#tblfeedback">6.1.34. tblFeedback 145</a></p>
-<p><a class="reference external" href="#tblpolicyrenewals">6.1.35. tblPolicyRenewals 145</a></p>
-<p><a class="reference external" href="#tblpolicyrenewalsdetails">6.1.36. tblPolicyRenewalsDetails 146</a></p>
-<p><a class="reference external" href="#tblrelindex">6.1.37. tblRelIndex 147</a></p>
-<p><a class="reference external" href="#tblbatchrun">6.1.38. tblBatchRun 148</a></p>
-<p><a class="reference external" href="#tblimisdefaults">6.1.39. tblIMISDefaults 149</a></p>
-<p><a class="reference external" href="#tblreporting">6.1.40. tblReporting 150</a></p>
-<p><a class="reference external" href="#tblcontrol">6.1.41. tblControl 150</a></p>
-<p><a class="reference external" href="#tbleducations">6.1.42. tblEducations 151</a></p>
-<p><a class="reference external" href="#tblprofessions">6.1.43. tblProfessions 151</a></p>
-<p><a class="reference external" href="#tblidentificationtypes">6.1.44. tblIdentificationTypes 151</a></p>
-<p><a class="reference external" href="#tbllegalforms">6.1.45. tblLegalForms 152</a></p>
-<p><a class="reference external" href="#tblrelations">6.1.46. tblRelations 152</a></p>
-<p><a class="reference external" href="#tblfamilytypes">6.1.47. tblFamilyTypes 153</a></p>
-<p><a class="reference external" href="#tblconfirmationtypes">6.1.48. tblConfirmationTypes 153</a></p>
-<p><a class="reference external" href="#tblceilinginterpretation">6.1.49. tblCeilingInterpretation 153</a></p>
-<p><a class="reference external" href="#tbllanguages">6.1.50. tblLanguages 154</a></p>
-<p><a class="reference external" href="#tblemailsettings">6.1.51. tblEmailSettings 154</a></p>
-<p><a class="reference external" href="#tblhfsublevel">6.1.52. tblHFSublevel 154</a></p>
-<p><a class="reference external" href="#tblpayertype">6.1.53. tblPayerType 155</a></p>
-<p><a class="reference external" href="#tblfromphone">6.1.54. tblFromPhone 155</a></p>
-<p><a class="reference external" href="#tblsubmittedphotos">6.1.55. tblSubmittedPhotos 156</a></p>
-<p><a class="reference external" href="#tbllogins">6.1.56. tblLogins 156</a></p>
-<p><a class="reference external" href="#graphical-relationship-overviews">6.2. Graphical relationship overviews
-157</a></p>
-<p><a class="reference external" href="#imis-on-line-and-off-line">6.3. IMIS On-line and Off-line 164</a></p>
-<p><a class="reference external" href="#windows-and-web-services">7. Windows and Web Services 166</a></p>
-<p><a class="reference external" href="#windows-services">7.1. Windows Services 166</a></p>
-<p><a class="reference external" href="#imis-backup">7.1.1. IMIS Backup 166</a></p>
-<p><a class="reference external" href="#imis-policy-renewal">7.1.2. IMIS Policy Renewal 167</a></p>
-<p><a class="reference external" href="#assignphotoservice">7.1.3. AssignPhotoService 169</a></p>
-<p><a class="reference external" href="#smsoneffective">7.1.4. SMSONEFFECTIVE 170</a></p>
-<p><a class="reference external" href="#web-services">7.2. Web Services 170</a></p>
-<p><a class="reference external" href="#mobile-phone-concept">8. Mobile phone Concept 174</a></p>
-<p><a class="reference external" href="#mobile-phone-technologies">8.1.1. Mobile phone technologies 174</a></p>
-<p><a class="reference external" href="#enrollment-application">8.2. Enrollment Application 176</a></p>
-<p><a class="reference external" href="#enrollment-flow-chart-diagram">8.2.1. Enrollment Flow chart diagram
-176</a></p>
-<p><a class="reference external" href="#claim-application">8.3. Claim application 184</a></p>
-<p><a class="reference external" href="#claim-flow-chart-diagram">8.3.1. Claim Flow chart diagram 184</a></p>
-<p><a class="reference external" href="#feedback-renew-application">8.4. Feedback &amp; Renew application 190</a></p>
-<p><a class="reference external" href="#feedback-renewal-flow-chart-diagram">8.4.1. Feedback-Renewal Flow chart diagram
-190</a></p>
-<p><a class="reference external" href="#policy-inquiring-application">8.5. Policy Inquiring Application
-197</a></p>
-<p><a class="reference external" href="#inquiring-flow-chart-diagram">8.5.1. Inquiring Flow chart diagram
-197</a></p>
-<p><a class="reference external" href="#library">9. Library 201</a></p>
+  <div class="section" id="functional-design-specifications">
+<h1>1&nbsp;&nbsp;&nbsp;Functional Design Specifications<a class="headerlink" href="#functional-design-specifications" title="Permalink to this headline">¶</a></h1>
 </div>
 <div class="section" id="overview">
-<h1>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h1>
+<h1>2&nbsp;&nbsp;&nbsp;Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="introduction">
-<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<h2>2.1&nbsp;&nbsp;&nbsp;Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
 <p>This document cover the design of IMIS Master Version Phase 3 version
 17.3.11 for Insurees and policies , administration of
 registers,Management of Claims and general management, based on the
@@ -612,7 +391,7 @@ Community Health Fund structure.</p>
 design aspects of the application.</p>
 </div>
 <div class="section" id="scope">
-<h2>Scope<a class="headerlink" href="#scope" title="Permalink to this headline">¶</a></h2>
+<h2>2.2&nbsp;&nbsp;&nbsp;Scope<a class="headerlink" href="#scope" title="Permalink to this headline">¶</a></h2>
 <p>This document will cover the overall design of the Insurance Management
 Information System for the new IMIS Master version Phase 3: Insurees and
 policies, administration of registers, management of claims and general
@@ -650,7 +429,7 @@ specification of the Insurance Management Information System version
 17.3.11 should remain the final authority for developers.</p>
 </div>
 <div class="section" id="audience">
-<h2>Audience<a class="headerlink" href="#audience" title="Permalink to this headline">¶</a></h2>
+<h2>2.3&nbsp;&nbsp;&nbsp;Audience<a class="headerlink" href="#audience" title="Permalink to this headline">¶</a></h2>
 <p>This document used to develop and implement components for the IMIS
 application. They translate the functionality described in this document
 directly into the actual functionality of the Administration of
@@ -659,11 +438,11 @@ registers and Management of Insurees and policies.</p>
 functional areas and to test application security.</p>
 </div>
 <div class="section" id="assumptions">
-<h2>Assumptions<a class="headerlink" href="#assumptions" title="Permalink to this headline">¶</a></h2>
+<h2>2.4&nbsp;&nbsp;&nbsp;Assumptions<a class="headerlink" href="#assumptions" title="Permalink to this headline">¶</a></h2>
 <p>Readers will be familiar with terminology used within the IMIS project.</p>
 </div>
 <div class="section" id="document-history">
-<h2>Document History<a class="headerlink" href="#document-history" title="Permalink to this headline">¶</a></h2>
+<h2>2.5&nbsp;&nbsp;&nbsp;Document History<a class="headerlink" href="#document-history" title="Permalink to this headline">¶</a></h2>
 <table border="1" class="docutils">
 <colgroup>
 <col width="18%" />
@@ -699,7 +478,7 @@ functional areas and to test application security.</p>
 </div>
 </div>
 <div class="section" id="system-architecture">
-<h1>System Architecture<a class="headerlink" href="#system-architecture" title="Permalink to this headline">¶</a></h1>
+<h1>3&nbsp;&nbsp;&nbsp;System Architecture<a class="headerlink" href="#system-architecture" title="Permalink to this headline">¶</a></h1>
 <p>This chapter will cover the overall architectural design of the IMIS
 system. The design can be divided in several components:</p>
 <ul class="simple">
@@ -749,11 +528,11 @@ more information on the IMIS Data warehouse, please refer to the
 document on <strong>*IMIS Data warehouse Deployment.*</strong></p>
 </div>
 <div class="section" id="programming-approach-standards-and-methods">
-<h1>Programming approach, standards and methods<a class="headerlink" href="#programming-approach-standards-and-methods" title="Permalink to this headline">¶</a></h1>
+<h1>4&nbsp;&nbsp;&nbsp;Programming approach, standards and methods<a class="headerlink" href="#programming-approach-standards-and-methods" title="Permalink to this headline">¶</a></h1>
 <p>This chapter will further elaborate the architecture of the IMIS
 solution, coding standards and the methodology of storing images.</p>
 <div class="section" id="multi-tier-development">
-<h2>Multi Tier development<a class="headerlink" href="#multi-tier-development" title="Permalink to this headline">¶</a></h2>
+<h2>4.1&nbsp;&nbsp;&nbsp;Multi Tier development<a class="headerlink" href="#multi-tier-development" title="Permalink to this headline">¶</a></h2>
 <p>IMIS is developed with a multi tier approach. Each Tier is represented
 in the Visual Studio solution as a separate project.</p>
 <p>The following projects (tiers) can be found in the IMIS Solution:</p>
@@ -989,11 +768,11 @@ presentation layer, using the Try and Catch. Errors are reported back to
 the user, by means of the information panel at the bottom of each page.</p>
 </div>
 <div class="section" id="coding-standards-and-conventions">
-<h2>Coding Standards and Conventions<a class="headerlink" href="#coding-standards-and-conventions" title="Permalink to this headline">¶</a></h2>
+<h2>4.2&nbsp;&nbsp;&nbsp;Coding Standards and Conventions<a class="headerlink" href="#coding-standards-and-conventions" title="Permalink to this headline">¶</a></h2>
 <p>In all classes, the following standards and or prefixes could be found.
 Hereunder we elaborate on the prefixes and their meaning.</p>
 <div class="section" id="entities">
-<h3>Entities<a class="headerlink" href="#entities" title="Permalink to this headline">¶</a></h3>
+<h3>4.2.1&nbsp;&nbsp;&nbsp;Entities<a class="headerlink" href="#entities" title="Permalink to this headline">¶</a></h3>
 <table border="1" class="docutils">
 <colgroup>
 <col width="18%" />
@@ -1015,7 +794,7 @@ Hereunder we elaborate on the prefixes and their meaning.</p>
 </table>
 </div>
 <div class="section" id="methods">
-<h3>Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h3>
+<h3>4.2.2&nbsp;&nbsp;&nbsp;Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h3>
 <table border="1" class="docutils">
 <colgroup>
 <col width="17%" />
@@ -1053,7 +832,7 @@ Hereunder we elaborate on the prefixes and their meaning.</p>
 </table>
 </div>
 <div class="section" id="controls">
-<h3>Controls<a class="headerlink" href="#controls" title="Permalink to this headline">¶</a></h3>
+<h3>4.2.3&nbsp;&nbsp;&nbsp;Controls<a class="headerlink" href="#controls" title="Permalink to this headline">¶</a></h3>
 <table border="1" class="docutils">
 <colgroup>
 <col width="28%" />
@@ -1095,7 +874,7 @@ Hereunder we elaborate on the prefixes and their meaning.</p>
 </table>
 </div>
 <div class="section" id="objects">
-<h3>Objects<a class="headerlink" href="#objects" title="Permalink to this headline">¶</a></h3>
+<h3>4.2.4&nbsp;&nbsp;&nbsp;Objects<a class="headerlink" href="#objects" title="Permalink to this headline">¶</a></h3>
 <table border="1" class="docutils">
 <colgroup>
 <col width="26%" />
@@ -1153,7 +932,7 @@ Hereunder we elaborate on the prefixes and their meaning.</p>
 </table>
 </div>
 <div class="section" id="resources">
-<h3>Resources<a class="headerlink" href="#resources" title="Permalink to this headline">¶</a></h3>
+<h3>4.2.5&nbsp;&nbsp;&nbsp;Resources<a class="headerlink" href="#resources" title="Permalink to this headline">¶</a></h3>
 <table border="1" class="docutils">
 <colgroup>
 <col width="28%" />
@@ -1192,7 +971,7 @@ name of the entity.</p>
 </div>
 </div>
 <div class="section" id="photo-storage">
-<h2>Photo Storage<a class="headerlink" href="#photo-storage" title="Permalink to this headline">¶</a></h2>
+<h2>4.3&nbsp;&nbsp;&nbsp;Photo Storage<a class="headerlink" href="#photo-storage" title="Permalink to this headline">¶</a></h2>
 <p>Photos of insurees are captured by the mobile phones and are to be
 transmitted to the central server by the mobile phone application. In
 case the mobile network coverage is sufficient, the sending of
@@ -1222,7 +1001,7 @@ should set a maximum size of 200Kb. The file format we suggest is JPEG.</p>
 </div>
 </div>
 <div class="section" id="imis-menu-structure-and-interface-flow">
-<h1>IMIS Menu structure and Interface flow<a class="headerlink" href="#imis-menu-structure-and-interface-flow" title="Permalink to this headline">¶</a></h1>
+<h1>5&nbsp;&nbsp;&nbsp;IMIS Menu structure and Interface flow<a class="headerlink" href="#imis-menu-structure-and-interface-flow" title="Permalink to this headline">¶</a></h1>
 <p>The IMIS application consists of many individual ASPX pages which are
 initiated via the following controls:</p>
 <ul class="simple">
@@ -1233,7 +1012,7 @@ initiated via the following controls:</p>
 <p>Hereunder we will cover the IMIS menu structure with its submenus and
 actions.</p>
 <div class="section" id="main-menu">
-<h2>Main menu<a class="headerlink" href="#main-menu" title="Permalink to this headline">¶</a></h2>
+<h2>5.1&nbsp;&nbsp;&nbsp;Main menu<a class="headerlink" href="#main-menu" title="Permalink to this headline">¶</a></h2>
 <p><a class="reference internal" href="media/image3.png"><img alt="image2" src="media/image3.png" style="width: 6.26806in; height: 0.27449in;" /></a></p>
 <p>The options ‘<strong>Home’</strong> and ‘<strong>Logout’</strong> are not having sub-menus and
 will navigate directly toward the following pages:</p>
@@ -1249,7 +1028,7 @@ will navigate directly toward the following pages:</p>
 </ul>
 </div>
 <div class="section" id="menu-insurees-and-policies">
-<h2>Menu Insurees and Policies<a class="headerlink" href="#menu-insurees-and-policies" title="Permalink to this headline">¶</a></h2>
+<h2>5.2&nbsp;&nbsp;&nbsp;Menu Insurees and Policies<a class="headerlink" href="#menu-insurees-and-policies" title="Permalink to this headline">¶</a></h2>
 <p><a href="#id72"><span class="problematic" id="id73">|C:\Technical Document IMIS\screenshots\Imis
 screenshort\Insuree_Policy.PNG|</span></a></p>
 <p>The above menu will have four options which will open web pages:</p>
@@ -1259,7 +1038,7 @@ screenshort\Insuree_Policy.PNG|</span></a></p>
 <p>[Contributions] FindPremium.aspx</p>
 </div>
 <div class="section" id="menu-claims">
-<h2>Menu Claims<a class="headerlink" href="#menu-claims" title="Permalink to this headline">¶</a></h2>
+<h2>5.3&nbsp;&nbsp;&nbsp;Menu Claims<a class="headerlink" href="#menu-claims" title="Permalink to this headline">¶</a></h2>
 <p><a href="#id74"><span class="problematic" id="id75">|C:\Technical Document IMIS\screenshots\Imis screenshort\ClaimMenu.PNG|</span></a></p>
 <p>The above menu has three options which will open web pages:</p>
 <p>[Health Facility Claims] FindClaims.aspx</p>
@@ -1267,7 +1046,7 @@ screenshort\Insuree_Policy.PNG|</span></a></p>
 <p>[Batch Run] ProcessBatches.aspx</p>
 </div>
 <div class="section" id="menu-administration">
-<h2>Menu Administration<a class="headerlink" href="#menu-administration" title="Permalink to this headline">¶</a></h2>
+<h2>5.4&nbsp;&nbsp;&nbsp;Menu Administration<a class="headerlink" href="#menu-administration" title="Permalink to this headline">¶</a></h2>
 <p><a class="reference internal" href="media/image6.png"><img alt="image5" src="media/image6.png" style="width: 1.86566in; height: 3.22388in;" /></a></p>
 <p>This menu has only one submenu as shown above:</p>
 <ul class="simple">
@@ -1285,7 +1064,7 @@ screenshort\Insuree_Policy.PNG|</span></a></p>
 <p>[Locations] Locations.aspx</p>
 </div>
 <div class="section" id="menu-price-lists">
-<h2>Menu Price Lists<a class="headerlink" href="#menu-price-lists" title="Permalink to this headline">¶</a></h2>
+<h2>5.5&nbsp;&nbsp;&nbsp;Menu Price Lists<a class="headerlink" href="#menu-price-lists" title="Permalink to this headline">¶</a></h2>
 <p><a href="#id76"><span class="problematic" id="id77">|C:\Technical Document IMIS\screenshots\Imis
 screenshort\medicalMenu.PNG|</span></a></p>
 <p>The options Medical Items and medical Services open up the following
@@ -1294,13 +1073,13 @@ pages:</p>
 <p>[Medical Services] FindPriceListMS.aspx</p>
 </div>
 <div class="section" id="my-profile">
-<h2>My Profile<a class="headerlink" href="#my-profile" title="Permalink to this headline">¶</a></h2>
+<h2>5.6&nbsp;&nbsp;&nbsp;My Profile<a class="headerlink" href="#my-profile" title="Permalink to this headline">¶</a></h2>
 <p><a class="reference internal" href="media/image8.png"><img alt="myProfile.PNG" src="media/image8.png" style="width: 1.92735in; height: 0.76052in;" /></a></p>
 <p>My profile has only one sub menu which is change password, the Change
 Password sub menu open up ChangePassword.aspx page</p>
 </div>
 <div class="section" id="menu-tools">
-<h2>Menu Tools<a class="headerlink" href="#menu-tools" title="Permalink to this headline">¶</a></h2>
+<h2>5.7&nbsp;&nbsp;&nbsp;Menu Tools<a class="headerlink" href="#menu-tools" title="Permalink to this headline">¶</a></h2>
 <p><a class="reference internal" href="media/image9.png"><img alt="image8" src="media/image9.png" style="width: 1.8359in; height: 2.59702in;" /></a></p>
 <p>This menu has no further submenu and would open pages directly.</p>
 <p>[Upload Diagnosis List] UploadICD.aspx</p>
@@ -1314,7 +1093,7 @@ Password sub menu open up ChangePassword.aspx page</p>
 </div>
 </div>
 <div class="section" id="functional-area-description">
-<h1>Functional Area Description<a class="headerlink" href="#functional-area-description" title="Permalink to this headline">¶</a></h1>
+<h1>6&nbsp;&nbsp;&nbsp;Functional Area Description<a class="headerlink" href="#functional-area-description" title="Permalink to this headline">¶</a></h1>
 <p>This chapter will cover the actual screen designs and screen flow of the
 IMIS application. Each interface will be presented with the following:</p>
 <ul class="simple">
@@ -1328,7 +1107,7 @@ IMIS application. Each interface will be presented with the following:</p>
 <p>Some features are to be found on several interfaces. These mechanisms
 will be described generally rather than for each interface separately.</p>
 <div class="section" id="generic-interface-features">
-<h2>Generic interface features<a class="headerlink" href="#generic-interface-features" title="Permalink to this headline">¶</a></h2>
+<h2>6.1&nbsp;&nbsp;&nbsp;Generic interface features<a class="headerlink" href="#generic-interface-features" title="Permalink to this headline">¶</a></h2>
 <p>The following features could be found on several interfaces:</p>
 <ul class="simple">
 <li>Add, Edit, Delete and Save buttons</li>
@@ -1343,7 +1122,7 @@ will be described generally rather than for each interface separately.</p>
 <li>General messages and current menu path</li>
 </ul>
 <div class="section" id="add-edit-delete-save-and-buttons">
-<h3>Add, Edit, Delete, Save and buttons<a class="headerlink" href="#add-edit-delete-save-and-buttons" title="Permalink to this headline">¶</a></h3>
+<h3>6.1.1&nbsp;&nbsp;&nbsp;Add, Edit, Delete, Save and buttons<a class="headerlink" href="#add-edit-delete-save-and-buttons" title="Permalink to this headline">¶</a></h3>
 <p>The cancel button is always found in the lower section of the screen on
 the right corner side. The cancel button will cancel any entry on a
 screen (if any) and will subsequently navigate back to the actual caller
@@ -1381,7 +1160,7 @@ after data validation passed (as peruse cases). The save button will
 bring you back to the calling interface.</p>
 </div>
 <div class="section" id="user-security">
-<h3>User Security<a class="headerlink" href="#user-security" title="Permalink to this headline">¶</a></h3>
+<h3>6.1.2&nbsp;&nbsp;&nbsp;User Security<a class="headerlink" href="#user-security" title="Permalink to this headline">¶</a></h3>
 <p>User security in IMIS is built around pre-defined roles:</p>
 <table border="1" class="docutils">
 <colgroup>
@@ -1450,7 +1229,7 @@ enabled for use or disabled if no rights were assigned.</p>
 information. An audit report is available in the reports section.</p>
 </div>
 <div class="section" id="historical-records">
-<h3>‘Historical’ records<a class="headerlink" href="#historical-records" title="Permalink to this headline">¶</a></h3>
+<h3>6.1.3&nbsp;&nbsp;&nbsp;‘Historical’ records<a class="headerlink" href="#historical-records" title="Permalink to this headline">¶</a></h3>
 <p>IMIS register all its records with timestamps for the validity of the
 record. All records that are flagged with a ValidityTo date have been
 updated or deleted via the IMIS interfaces or services.</p>
@@ -1466,7 +1245,7 @@ the ‘historic’ record will be shown.</p>
 <p><a class="reference internal" href="media/image13.png"><img alt="priceListHistory.PNG" src="media/image13.png" style="width: 6.26806in; height: 4.54167in;" /></a></p>
 </div>
 <div class="section" id="data-grids-hyperlinks-and-pages">
-<h3>Data grids, hyperlinks and pages<a class="headerlink" href="#data-grids-hyperlinks-and-pages" title="Permalink to this headline">¶</a></h3>
+<h3>6.1.4&nbsp;&nbsp;&nbsp;Data grids, hyperlinks and pages<a class="headerlink" href="#data-grids-hyperlinks-and-pages" title="Permalink to this headline">¶</a></h3>
 <p>As seen in the previous chapter (menus), most of the menu options in
 IMIS will open up search interfaces. Each search interface will display
 the result of the search action (after clicking the search button)
@@ -1507,7 +1286,7 @@ contents ascending or descending. The sort order change will be
 performed after clicking the column header.</p>
 </div>
 <div class="section" id="multi-language-aspects">
-<h3>Multi Language aspects<a class="headerlink" href="#multi-language-aspects" title="Permalink to this headline">¶</a></h3>
+<h3>6.1.5&nbsp;&nbsp;&nbsp;Multi Language aspects<a class="headerlink" href="#multi-language-aspects" title="Permalink to this headline">¶</a></h3>
 <p>IMIS developed in multi-language: English and the other language which
 will be provided with IMIS Administration. The manner of changing from
 one language to another is depending on the user profile. The default
@@ -1540,14 +1319,14 @@ text for the field ‘other names’.</p>
 <p><a class="reference internal" href="media/image20.png"><img alt="image19" src="media/image20.png" style="width: 6.26042in; height: 2.52083in;" /></a></p>
 </div>
 <div class="section" id="session-expiry">
-<h3>Session expiry<a class="headerlink" href="#session-expiry" title="Permalink to this headline">¶</a></h3>
+<h3>6.1.6&nbsp;&nbsp;&nbsp;Session expiry<a class="headerlink" href="#session-expiry" title="Permalink to this headline">¶</a></h3>
 <p>The session expiry has been set at 20 minutes as a default. However,
 this can be changed to another time interval as required via the
 web.config file and IIS configuration.</p>
 <p>If a session expires the operator will have to login once again.</p>
 </div>
 <div class="section" id="mandatory-fields">
-<h3>Mandatory fields<a class="headerlink" href="#mandatory-fields" title="Permalink to this headline">¶</a></h3>
+<h3>6.1.7&nbsp;&nbsp;&nbsp;Mandatory fields<a class="headerlink" href="#mandatory-fields" title="Permalink to this headline">¶</a></h3>
 <p>While working with an entry (adding/editing) screens, the operator will
 see directly which data is incomplete or not correctly entered. The
 message is shown on the screen on the right side of the actual control
@@ -1573,7 +1352,7 @@ more important messages, IMIS will provide popup messages.</p>
 </div>
 </div>
 <div class="section" id="web-pages">
-<h2>Web pages<a class="headerlink" href="#web-pages" title="Permalink to this headline">¶</a></h2>
+<h2>6.2&nbsp;&nbsp;&nbsp;Web pages<a class="headerlink" href="#web-pages" title="Permalink to this headline">¶</a></h2>
 <p>The presentation Tier of IMIS will consist of several web pages (aspx
 pages) that will contain different programming techniques such as:</p>
 <ul class="simple">
@@ -1658,7 +1437,7 @@ transfers) and EPICOR.</p>
 <li>WebConfig</li>
 </ul>
 <div class="section" id="default-aspx">
-<h3>Default.aspx<a class="headerlink" href="#default-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.2.1&nbsp;&nbsp;&nbsp;Default.aspx<a class="headerlink" href="#default-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a href="#id90"><span class="problematic" id="id91">|C:\Technical Document IMIS\screenshots\Imis screenshort\Login.PNG|</span></a></p>
 <table border="1" class="docutils">
 <colgroup>
@@ -1699,7 +1478,7 @@ application and making use of the required resource file
 <p>For the mobile phone only English will be used.</p>
 </div>
 <div class="section" id="forgotpassword-aspx">
-<h3>ForgotPassword.aspx<a class="headerlink" href="#forgotpassword-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.2.2&nbsp;&nbsp;&nbsp;ForgotPassword.aspx<a class="headerlink" href="#forgotpassword-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a class="reference internal" href="media/image24.png"><img alt="forgot Password.PNG" src="media/image24.png" style="width: 6.26806in; height: 2.17153in;" /></a></p>
 <table border="1" class="docutils">
 <colgroup>
@@ -1736,7 +1515,7 @@ user has to submit the email address then the system will verify the
 email and send the correct password.</p>
 </div>
 <div class="section" id="changepassword-aspx">
-<h3>ChangePassword.aspx<a class="headerlink" href="#changepassword-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.2.3&nbsp;&nbsp;&nbsp;ChangePassword.aspx<a class="headerlink" href="#changepassword-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a class="reference internal" href="media/image27.jpeg"><img alt="ChangePassword.JPG" src="media/image27.jpeg" style="width: 2in; height: 1.63542in;" /></a></p>
 <table border="1" class="docutils">
 <colgroup>
@@ -1772,7 +1551,7 @@ interface used to change user password by enter the current password and
 the new password.</p>
 </div>
 <div class="section" id="home-aspx">
-<h3>Home.aspx<a class="headerlink" href="#home-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.2.4&nbsp;&nbsp;&nbsp;Home.aspx<a class="headerlink" href="#home-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a class="reference internal" href="media/image28.png"><img alt="image27" src="media/image28.png" style="width: 6.26806in; height: 4.58967in;" /></a></p>
 <table border="1" class="docutils">
 <colgroup>
@@ -1810,7 +1589,7 @@ menu calls)</em></td>
 menu will show in the language of the user.</p>
 </div>
 <div class="section" id="logout-aspx">
-<h3>Logout.aspx<a class="headerlink" href="#logout-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.2.5&nbsp;&nbsp;&nbsp;Logout.aspx<a class="headerlink" href="#logout-aspx" title="Permalink to this headline">¶</a></h3>
 <p>NO DESIGN APPLICABLE</p>
 <table border="1" class="docutils">
 <colgroup>
@@ -1846,7 +1625,7 @@ the top menu. The open sessions will be terminated and this page
 redirects automatically to the Login page: Defaults.aspx</p>
 </div>
 <div class="section" id="family-aspx">
-<h3>Family.aspx<a class="headerlink" href="#family-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.2.6&nbsp;&nbsp;&nbsp;Family.aspx<a class="headerlink" href="#family-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a href="#id92"><span class="problematic" id="id93">|C:\Technical Document IMIS\screenshots\Imis screenshort\family.PNG|</span></a></p>
 <table border="1" class="docutils">
 <colgroup>
@@ -1901,7 +1680,7 @@ dependants and/or policies/contributions:</p>
 <p><a class="reference internal" href="media/image33.png"><img alt="image34" src="media/image33.png" style="width: 6.26806in; height: 4.59469in;" /></a></p>
 </div>
 <div class="section" id="findfamily-aspx">
-<h3>FindFamily.aspx<a class="headerlink" href="#findfamily-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.2.7&nbsp;&nbsp;&nbsp;FindFamily.aspx<a class="headerlink" href="#findfamily-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a href="#id96"><span class="problematic" id="id97">|C:\Users\T4\AppData\Local\Microsoft\Windows\Temporary Internet
 Files\Content.Word\New Picture (9).bmp|</span></a></p>
 <table border="1" class="docutils">
@@ -1946,7 +1725,7 @@ grid will open up the family/group overview page. Further operations
 will take action from this overview page.</p>
 </div>
 <div class="section" id="changefamily-aspx">
-<h3>ChangeFamily.aspx<a class="headerlink" href="#changefamily-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.2.8&nbsp;&nbsp;&nbsp;ChangeFamily.aspx<a class="headerlink" href="#changefamily-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a href="#id100"><span class="problematic" id="id101">|\\\HIREN\Sharing\Rogers\Screenshot Missng\ChangFamily.PNG|</span></a></p>
 <table border="1" class="docutils">
 <colgroup>
@@ -1999,7 +1778,7 @@ Also the family table (change head of family/group) will be updated.
 (For audit record purposes only).</p>
 </div>
 <div class="section" id="findinsuree-aspx">
-<h3>FindInsuree.aspx<a class="headerlink" href="#findinsuree-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.2.9&nbsp;&nbsp;&nbsp;FindInsuree.aspx<a class="headerlink" href="#findinsuree-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a href="#id104"><span class="problematic" id="id105">|C:\Users\T4\AppData\Local\Microsoft\Windows\Temporary Internet
 Files\Content.Word\New Picture.bmp|</span></a></p>
 <table border="1" class="docutils">
@@ -2035,7 +1814,7 @@ Shots_25 Sept
 </tbody>
 </table>
 <div class="section" id="id13">
-<h4><a href="#id9"><span class="problematic" id="id10">**</span></a><a href="#id11"><span class="problematic" id="id12">*</span></a><a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h4>
+<h4>6.2.9.1&nbsp;&nbsp;&nbsp;<a href="#id9"><span class="problematic" id="id10">**</span></a><a href="#id11"><span class="problematic" id="id12">*</span></a><a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h4>
 <p><strong>*Brief description:*</strong></p>
 <p>This interface opens up when the user has clicked the Insurees button
 option on the top menu (Insurees and Policies). This interface is used
@@ -2047,7 +1826,7 @@ will take action from this overview page.</p>
 </div>
 </div>
 <div class="section" id="insuree-aspx">
-<h3>Insuree.aspx<a class="headerlink" href="#insuree-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.2.10&nbsp;&nbsp;&nbsp;Insuree.aspx<a class="headerlink" href="#insuree-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a href="#id108"><span class="problematic" id="id109">|\\\HIREN\Sharing\For
 Paul\screenshots\ImisScreenShorts\InsureeDisplay.PNG|</span></a></p>
 <table border="1" class="docutils">
@@ -2112,7 +1891,7 @@ holder.</p>
 insurees section within the family/group overview page.</p>
 </div>
 <div class="section" id="findpolicy-aspx">
-<h3>FindPolicy.aspx<a class="headerlink" href="#findpolicy-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.2.11&nbsp;&nbsp;&nbsp;FindPolicy.aspx<a class="headerlink" href="#findpolicy-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a href="#id114"><span class="problematic" id="id115">|C:\Users\T4\AppData\Local\Microsoft\Windows\Temporary Internet
 Files\Content.Word\New Picture (2).bmp|</span></a></p>
 <table border="1" class="docutils">
@@ -2157,7 +1936,7 @@ in the grid will open up the family/group overview page. Further
 operations on the policy will take action from this overview page.</p>
 </div>
 <div class="section" id="policy-aspx">
-<h3>Policy.aspx<a class="headerlink" href="#policy-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.2.12&nbsp;&nbsp;&nbsp;Policy.aspx<a class="headerlink" href="#policy-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a href="#id118"><span class="problematic" id="id119">|C:\Users\T4\AppData\Local\Microsoft\Windows\Temporary Internet
 Files\Content.Word\New Picture (3).bmp|</span></a></p>
 <table border="1" class="docutils">
@@ -2203,7 +1982,7 @@ Policy.</p>
 section within the family/group overview page.</p>
 </div>
 <div class="section" id="findpremium-aspx">
-<h3>FindPremium.aspx<a class="headerlink" href="#findpremium-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.2.13&nbsp;&nbsp;&nbsp;FindPremium.aspx<a class="headerlink" href="#findpremium-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a href="#id122"><span class="problematic" id="id123">|C:\Users\T4\AppData\Local\Microsoft\Windows\Temporary Internet
 Files\Content.Word\New Picture (5).bmp|</span></a></p>
 <table border="1" class="docutils">
@@ -2239,7 +2018,7 @@ Shots_25 Sept
 </tbody>
 </table>
 <div class="section" id="id22">
-<h4><a href="#id18"><span class="problematic" id="id19">**</span></a><a href="#id20"><span class="problematic" id="id21">*</span></a><a class="headerlink" href="#id22" title="Permalink to this headline">¶</a></h4>
+<h4>6.2.13.1&nbsp;&nbsp;&nbsp;<a href="#id18"><span class="problematic" id="id19">**</span></a><a href="#id20"><span class="problematic" id="id21">*</span></a><a class="headerlink" href="#id22" title="Permalink to this headline">¶</a></h4>
 <p><strong>*Brief description:*</strong></p>
 <p>This interface opens up when the user has clicked the Contributions
 button option on the top menu (Insurees and Policies). This interface is
@@ -2251,7 +2030,7 @@ operations on the Contribution will take action from this overview page.</p>
 </div>
 </div>
 <div class="section" id="premium-aspx">
-<h3>Premium.aspx<a class="headerlink" href="#premium-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.2.14&nbsp;&nbsp;&nbsp;Premium.aspx<a class="headerlink" href="#premium-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a href="#id126"><span class="problematic" id="id127">|C:\Users\T4\AppData\Local\Microsoft\Windows\Temporary Internet
 Files\Content.Word\New Picture (6).bmp|</span></a></p>
 <table border="1" class="docutils">
@@ -2309,7 +2088,7 @@ service that runs in the background.</p>
 equal or higher than the amount to be paid.</p>
 </div>
 <div class="section" id="overviewfamily-aspx">
-<h3>OverviewFamily.aspx<a class="headerlink" href="#overviewfamily-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.2.15&nbsp;&nbsp;&nbsp;OverviewFamily.aspx<a class="headerlink" href="#overviewfamily-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a href="#id130"><span class="problematic" id="id131">|C:\Users\T4\AppData\Local\Microsoft\Windows\Temporary Internet
 Files\Content.Word\New Picture (7).bmp|</span></a></p>
 <table border="1" class="docutils">
@@ -2411,7 +2190,7 @@ mistakenly entered policies or Contributions. These mistakes can in this
 case be rectified by deletions. No use cases support this scenario.</p>
 </div>
 <div class="section" id="findclaims-aspx">
-<h3>FindClaims.aspx<a class="headerlink" href="#findclaims-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.2.16&nbsp;&nbsp;&nbsp;FindClaims.aspx<a class="headerlink" href="#findclaims-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a class="reference internal" href="media/image53.jpeg"><img alt="image54" src="media/image53.jpeg" style="width: 5.10562in; height: 3.791in;" /></a></p>
 <table border="1" class="docutils">
 <colgroup>
@@ -2532,7 +2311,7 @@ background at the server. The upload procedure of the XML data from
 mobile phones and offline IMIS clients is exactly the same.</p>
 </div>
 <div class="section" id="claim-aspx">
-<h3>Claim.aspx<a class="headerlink" href="#claim-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.2.17&nbsp;&nbsp;&nbsp;Claim.aspx<a class="headerlink" href="#claim-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a class="reference internal" href="media/image55.jpeg"><img alt="image57" src="media/image55.jpeg" style="width: 5.73067in; height: 4.12495in;" /></a></p>
 <table border="1" class="docutils">
 <colgroup>
@@ -2584,7 +2363,7 @@ the claim contents or value.</p>
 claim item or service level.</p>
 </div>
 <div class="section" id="claimoverview-aspx">
-<h3>ClaimOverview.aspx<a class="headerlink" href="#claimoverview-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.2.18&nbsp;&nbsp;&nbsp;ClaimOverview.aspx<a class="headerlink" href="#claimoverview-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a class="reference internal" href="media/image57.jpeg"><img alt="image59" src="media/image57.jpeg" style="width: 5.70228in; height: 4.15436in;" /></a></p>
 <table border="1" class="docutils">
 <colgroup>
@@ -2757,7 +2536,7 @@ will be set to ‘ByPassed’ (=8).</p>
 The‘valuation’ process, is described later in paragraph 3.3.</p>
 </div>
 <div class="section" id="claimreview-aspx">
-<h3>ClaimReview.aspx<a class="headerlink" href="#claimreview-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.2.19&nbsp;&nbsp;&nbsp;ClaimReview.aspx<a class="headerlink" href="#claimreview-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a class="reference internal" href="media/image59.jpeg"><img alt="image62" src="media/image59.jpeg" style="width: 5.81917in; height: 3.928in;" /></a></p>
 <table border="1" class="docutils">
 <colgroup>
@@ -2829,7 +2608,7 @@ Feedback status will be set to ‘ByPassed’ (=8). Furthermore, the date
 processed will be set to ‘now’.</p>
 </div>
 <div class="section" id="claimfeedback-aspx">
-<h3>ClaimFeedback.aspx<a class="headerlink" href="#claimfeedback-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.2.20&nbsp;&nbsp;&nbsp;ClaimFeedback.aspx<a class="headerlink" href="#claimfeedback-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a class="reference internal" href="media/image61.jpeg"><img alt="claimFeedback.JPG" src="media/image61.jpeg" style="width: 5.6505in; height: 4.13958in;" /></a></p>
 <table border="1" class="docutils">
 <colgroup>
@@ -2877,7 +2656,7 @@ files originating from the mobile phones (via mobile feedback
 application).</p>
 </div>
 <div class="section" id="batchrun-aspx">
-<h3>BatchRun.aspx<a class="headerlink" href="#batchrun-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.2.21&nbsp;&nbsp;&nbsp;BatchRun.aspx<a class="headerlink" href="#batchrun-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a class="reference internal" href="media/image63.jpeg"><img alt="image66" src="media/image63.jpeg" style="width: 5.59936in; height: 4.13206in;" /></a></p>
 <table border="1" class="docutils">
 <colgroup>
@@ -2970,7 +2749,7 @@ accounting instruction. The report will be grouped by District, Health
 facility and Product.</p>
 </div>
 <div class="section" id="claimadministrator-aspx">
-<h3>ClaimAdministrator.aspx<a class="headerlink" href="#claimadministrator-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.2.22&nbsp;&nbsp;&nbsp;ClaimAdministrator.aspx<a class="headerlink" href="#claimadministrator-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a class="reference internal" href="media/image65.jpeg"><img alt="image68" src="media/image65.jpeg" style="width: 5.59546in; height: 4.13333in;" /></a></p>
 <table border="1" class="docutils">
 <colgroup>
@@ -3017,7 +2796,7 @@ within the claim administrator search page as described before.</p>
 </div>
 </div>
 <div class="section" id="checking-of-claims-process">
-<h2>Checking of claims process<a class="headerlink" href="#checking-of-claims-process" title="Permalink to this headline">¶</a></h2>
+<h2>6.3&nbsp;&nbsp;&nbsp;Checking of claims process<a class="headerlink" href="#checking-of-claims-process" title="Permalink to this headline">¶</a></h2>
 <p>The checking of claims process will be automatically executed at the
 moment the Claim administrator or Clerk submits the claims (via the
 Submit button). The actual checking procedure will run purely on T-SQL
@@ -3032,7 +2811,7 @@ validity and could have either the status ‘Passed’ or ‘Rejected’.</p>
 submitted Claims</p>
 </div>
 <div class="section" id="batch-valuation-process">
-<h2>Batch Valuation process<a class="headerlink" href="#batch-valuation-process" title="Permalink to this headline">¶</a></h2>
+<h2>6.4&nbsp;&nbsp;&nbsp;Batch Valuation process<a class="headerlink" href="#batch-valuation-process" title="Permalink to this headline">¶</a></h2>
 <p>The claim valuation process will start at the moment of clicking the
 Process button on the ClaimOverview page (possibly multiple claims) or
 on the individual save action on the Claim review interface e
@@ -3063,7 +2842,7 @@ and remunerations per policy and per insuree. This table will be used
 for output and input in the valuation process.</p>
 </div>
 <div class="section" id="calculation-of-relative-prices-index-process">
-<h2>Calculation of ‘relative prices index’ process<a class="headerlink" href="#calculation-of-relative-prices-index-process" title="Permalink to this headline">¶</a></h2>
+<h2>6.5&nbsp;&nbsp;&nbsp;Calculation of ‘relative prices index’ process<a class="headerlink" href="#calculation-of-relative-prices-index-process" title="Permalink to this headline">¶</a></h2>
 <p>The process of calculation of the index of relative prices is needed to
 determine the actual price to be paid to the health facility for items
 and services that were covered with an insurance product with the price
@@ -3096,11 +2875,11 @@ and ‘D’ are considered)</li>
 <p>Please find below the flowchart of this process.</p>
 </div>
 <div class="section" id="graphical-page-routing-overview-claim-interfaces">
-<h2>Graphical page routing overview Claim interfaces<a class="headerlink" href="#graphical-page-routing-overview-claim-interfaces" title="Permalink to this headline">¶</a></h2>
+<h2>6.6&nbsp;&nbsp;&nbsp;Graphical page routing overview Claim interfaces<a class="headerlink" href="#graphical-page-routing-overview-claim-interfaces" title="Permalink to this headline">¶</a></h2>
 <p><a class="reference internal" href="media/image67.png"><img alt="image70" src="media/image67.png" style="width: 6.26806in; height: 6.83553in;" /></a></p>
 </div>
 <div class="section" id="overview-of-status-fields">
-<h2>Overview of status fields<a class="headerlink" href="#overview-of-status-fields" title="Permalink to this headline">¶</a></h2>
+<h2>6.7&nbsp;&nbsp;&nbsp;Overview of status fields<a class="headerlink" href="#overview-of-status-fields" title="Permalink to this headline">¶</a></h2>
 <p>Please find below an overview of the different statuses found in several
 tables and the actual interface/action that would set the status in
 question.</p>
@@ -3242,7 +3021,7 @@ tatus</strong></td>
 </tbody>
 </table>
 <div class="section" id="findhealthfacility-aspx">
-<h3>FindHealthFacility.aspx<a class="headerlink" href="#findhealthfacility-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.7.1&nbsp;&nbsp;&nbsp;FindHealthFacility.aspx<a class="headerlink" href="#findhealthfacility-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a href="#id142"><span class="problematic" id="id143">|C:\Users\T4\AppData\Local\Microsoft\Windows\Temporary Internet
 Files\Content.Word\New Picture (1).bmp|</span></a></p>
 <table border="1" class="docutils">
@@ -3293,7 +3072,7 @@ facility page. Any further operations on Health Facilities will take
 action from this page.</p>
 </div>
 <div class="section" id="healthfacility-aspx">
-<h3>HealthFacility.aspx<a class="headerlink" href="#healthfacility-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.7.2&nbsp;&nbsp;&nbsp;HealthFacility.aspx<a class="headerlink" href="#healthfacility-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a href="#id146"><span class="problematic" id="id147">|C:\Users\T4\AppData\Local\Microsoft\Windows\Temporary Internet
 Files\Content.Word\New Picture (2).bmp|</span></a></p>
 <table border="1" class="docutils">
@@ -3340,7 +3119,7 @@ for adding and editing a health facility.</p>
 grid on the health facilities search page as described before.</p>
 </div>
 <div class="section" id="findproduct-aspx">
-<h3>FindProduct.aspx<a class="headerlink" href="#findproduct-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.7.3&nbsp;&nbsp;&nbsp;FindProduct.aspx<a class="headerlink" href="#findproduct-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a href="#id150"><span class="problematic" id="id151">|C:\Users\T4\AppData\Local\Microsoft\Windows\Temporary Internet
 Files\Content.Word\New Picture (4).bmp|</span></a></p>
 <table border="1" class="docutils">
@@ -3406,7 +3185,7 @@ procedure for saving will take place. If the operator cancels the entry,
 nothing will be saved.</p>
 </div>
 <div class="section" id="product-aspx">
-<h3>Product.aspx<a class="headerlink" href="#product-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.7.4&nbsp;&nbsp;&nbsp;Product.aspx<a class="headerlink" href="#product-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a class="reference internal" href="media/image74.jpeg"><img alt="image77" src="media/image74.jpeg" style="width: 5.71512in; height: 4.11875in;" /></a></p>
 <table border="1" class="docutils">
 <colgroup>
@@ -3466,7 +3245,7 @@ distribution percentages.</p>
 the product search page as described before.</p>
 </div>
 <div class="section" id="findmedicalitem-aspx">
-<h3>FindMedicalItem.aspx<a class="headerlink" href="#findmedicalitem-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.7.5&nbsp;&nbsp;&nbsp;FindMedicalItem.aspx<a class="headerlink" href="#findmedicalitem-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a href="#id156"><span class="problematic" id="id157">|C:\Users\T4\AppData\Local\Microsoft\Windows\Temporary Internet
 Files\Content.Word\New Picture (6).bmp|</span></a></p>
 <table border="1" class="docutils">
@@ -3504,7 +3283,7 @@ Shots_25 Sept
 </tbody>
 </table>
 <div class="section" id="id39">
-<h4><a href="#id35"><span class="problematic" id="id36">**</span></a><a href="#id37"><span class="problematic" id="id38">*</span></a><a class="headerlink" href="#id39" title="Permalink to this headline">¶</a></h4>
+<h4>6.7.5.1&nbsp;&nbsp;&nbsp;<a href="#id35"><span class="problematic" id="id36">**</span></a><a href="#id37"><span class="problematic" id="id38">*</span></a><a class="headerlink" href="#id39" title="Permalink to this headline">¶</a></h4>
 <p><strong>*Brief description:*</strong></p>
 <p>This interface opens up when the user has clicked the ‘Medical Items’
 button option on the top menu (Administration). This interface is used
@@ -3518,7 +3297,7 @@ action from this page.</p>
 </div>
 </div>
 <div class="section" id="medicalitem-aspx">
-<h3>MedicalItem.aspx<a class="headerlink" href="#medicalitem-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.7.6&nbsp;&nbsp;&nbsp;MedicalItem.aspx<a class="headerlink" href="#medicalitem-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a href="#id160"><span class="problematic" id="id161">|C:\Users\T4\AppData\Local\Microsoft\Windows\Temporary Internet
 Files\Content.Word\New Picture.bmp|</span></a></p>
 <table border="1" class="docutils">
@@ -3565,7 +3344,7 @@ and editing a medical item.</p>
 on the medical items search page as described before.</p>
 </div>
 <div class="section" id="findmedicalservice-aspx">
-<h3>FindMedicalService.aspx<a class="headerlink" href="#findmedicalservice-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.7.7&nbsp;&nbsp;&nbsp;FindMedicalService.aspx<a class="headerlink" href="#findmedicalservice-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a href="#id164"><span class="problematic" id="id165">|C:\Users\T4\AppData\Local\Microsoft\Windows\Temporary Internet
 Files\Content.Word\New Picture (1).bmp|</span></a></p>
 <table border="1" class="docutils">
@@ -3615,7 +3394,7 @@ medical service page. Any further operations on medical services will
 take action from this page.</p>
 </div>
 <div class="section" id="medicalservice-aspx">
-<h3>MedicalService.aspx<a class="headerlink" href="#medicalservice-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.7.8&nbsp;&nbsp;&nbsp;MedicalService.aspx<a class="headerlink" href="#medicalservice-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a href="#id168"><span class="problematic" id="id169">|C:\Users\T4\AppData\Local\Microsoft\Windows\Temporary Internet
 Files\Content.Word\New Picture (2).bmp|</span></a></p>
 <table border="1" class="docutils">
@@ -3659,7 +3438,7 @@ for adding and editing a medical service.</p>
 on the medical services search page as described before.</p>
 </div>
 <div class="section" id="findofficer-asp">
-<h3>FindOfficer.asp<a class="headerlink" href="#findofficer-asp" title="Permalink to this headline">¶</a></h3>
+<h3>6.7.9&nbsp;&nbsp;&nbsp;FindOfficer.asp<a class="headerlink" href="#findofficer-asp" title="Permalink to this headline">¶</a></h3>
 <p><a class="reference internal" href="media/image84.png"><img alt="image88" src="media/image84.png" style="width: 6.26806in; height: 4.55847in;" /></a></p>
 <table border="1" class="docutils">
 <colgroup>
@@ -3703,7 +3482,7 @@ officer’s page. Any further operations on officers will take action from
 this page.</p>
 </div>
 <div class="section" id="officer-aspx">
-<h3>Officer.aspx<a class="headerlink" href="#officer-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.7.10&nbsp;&nbsp;&nbsp;Officer.aspx<a class="headerlink" href="#officer-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a href="#id170"><span class="problematic" id="id171">|C:\Users\T4\AppData\Local\Microsoft\Windows\Temporary Internet
 Files\Content.Word\New Picture (4).bmp|</span></a></p>
 <table border="1" class="docutils">
@@ -3745,7 +3524,7 @@ editing an officer.</p>
 on the officer search page as described before.</p>
 </div>
 <div class="section" id="findpayer-aspx">
-<h3>FindPayer.aspx<a class="headerlink" href="#findpayer-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.7.11&nbsp;&nbsp;&nbsp;FindPayer.aspx<a class="headerlink" href="#findpayer-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a href="#id172"><span class="problematic" id="id173">|C:\Users\T4\AppData\Local\Microsoft\Windows\Temporary Internet
 Files\Content.Word\New Picture.bmp|</span></a></p>
 <table border="1" class="docutils">
@@ -3794,7 +3573,7 @@ field order) in the grid will open up the payers page. Any further
 operations on payers will take action from this page.</p>
 </div>
 <div class="section" id="payer-aspx">
-<h3>Payer.aspx<a class="headerlink" href="#payer-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.7.12&nbsp;&nbsp;&nbsp;Payer.aspx<a class="headerlink" href="#payer-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a href="#id176"><span class="problematic" id="id177">|C:\Users\T4\AppData\Local\Microsoft\Windows\Temporary Internet
 Files\Content.Word\New Picture (1).bmp|</span></a></p>
 <table border="1" class="docutils">
@@ -3839,7 +3618,7 @@ editing a Payer.</p>
 grid on the payer s search page as described before.</p>
 </div>
 <div class="section" id="findpricelistmi-aspx">
-<h3>FindPriceListMI.aspx<a class="headerlink" href="#findpricelistmi-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.7.13&nbsp;&nbsp;&nbsp;FindPriceListMI.aspx<a class="headerlink" href="#findpricelistmi-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a class="reference internal" href="media/image91.png"><img alt="image96" src="media/image91.png" style="width: 6.26806in; height: 4.58017in;" /></a></p>
 <table border="1" class="docutils">
 <colgroup>
@@ -3890,7 +3669,7 @@ pricelist medical items page. Any further operations on pricelist of
 medical items will take action from this page.</p>
 </div>
 <div class="section" id="pricelistmi-aspx">
-<h3>PriceListMI.aspx<a class="headerlink" href="#pricelistmi-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.7.14&nbsp;&nbsp;&nbsp;PriceListMI.aspx<a class="headerlink" href="#pricelistmi-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a class="reference internal" href="media/image93.png"><img alt="image98" src="media/image93.png" style="width: 6.26439in; height: 3.768in;" /></a></p>
 <table border="1" class="docutils">
 <colgroup>
@@ -3939,7 +3718,7 @@ defined ‘use-cases’ for adding and editing a pricelist of medical items.</p>
 page as described before.</p>
 </div>
 <div class="section" id="findpricelistms-aspx">
-<h3>FindPriceListMS.aspx<a class="headerlink" href="#findpricelistms-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.7.15&nbsp;&nbsp;&nbsp;FindPriceListMS.aspx<a class="headerlink" href="#findpricelistms-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a class="reference internal" href="media/image95.png"><img alt="image100" src="media/image95.png" style="width: 6.25744in; height: 4.08in;" /></a></p>
 <table border="1" class="docutils">
 <colgroup>
@@ -3990,7 +3769,7 @@ pricelist medical services page. Any further operations on pricelist of
 medical services will take action from this page.</p>
 </div>
 <div class="section" id="pricelistms-aspx">
-<h3>PriceListMS.aspx<a class="headerlink" href="#pricelistms-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.7.16&nbsp;&nbsp;&nbsp;PriceListMS.aspx<a class="headerlink" href="#pricelistms-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a class="reference internal" href="media/image97.png"><img alt="image102" src="media/image97.png" style="width: 6.26439in; height: 4.152in;" /></a></p>
 <table border="1" class="docutils">
 <colgroup>
@@ -4040,7 +3819,7 @@ medical services.</p>
 page as described before.</p>
 </div>
 <div class="section" id="finduser-aspx">
-<h3>FindUser.aspx<a class="headerlink" href="#finduser-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.7.17&nbsp;&nbsp;&nbsp;FindUser.aspx<a class="headerlink" href="#finduser-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a href="#id188"><span class="problematic" id="id189">|C:\Users\T4\AppData\Local\Microsoft\Windows\Temporary Internet
 Files\Content.Word\New Picture (6).bmp|</span></a></p>
 <table border="1" class="docutils">
@@ -4089,7 +3868,7 @@ hyperlink on the first column (Login Name) in the grid will open up
 page.</p>
 </div>
 <div class="section" id="user-aspx">
-<h3>User.aspx<a class="headerlink" href="#user-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.7.18&nbsp;&nbsp;&nbsp;User.aspx<a class="headerlink" href="#user-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a class="reference internal" href="media/image101.jpeg"><img alt="userRegistration.JPG" src="media/image101.jpeg" style="width: 6.26092in; height: 4.344in;" /></a></p>
 <table border="1" class="docutils">
 <colgroup>
@@ -4133,7 +3912,7 @@ editing a user.</p>
 grid on the users search page as described before.</p>
 </div>
 <div class="section" id="locations-aspx">
-<h3>Locations.aspx<a class="headerlink" href="#locations-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.7.19&nbsp;&nbsp;&nbsp;Locations.aspx<a class="headerlink" href="#locations-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a class="reference internal" href="media/image103.png"><img alt="image108" src="media/image103.png" style="width: 6.26743in; height: 4.08955in;" /></a></p>
 <table border="1" class="docutils">
 <colgroup>
@@ -4186,7 +3965,7 @@ will only be performed by flagging the record with the validity to field
 <p>This screen is only available to the IMIS administrator.</p>
 </div>
 <div class="section" id="movelocation-aspx">
-<h3>MoveLocation.aspx<a class="headerlink" href="#movelocation-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.7.20&nbsp;&nbsp;&nbsp;MoveLocation.aspx<a class="headerlink" href="#movelocation-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a class="reference internal" href="media/image105.png"><img alt="image110" src="media/image105.png" style="width: 6.15827in; height: 4.23134in;" /></a></p>
 <table border="1" class="docutils">
 <colgroup>
@@ -4226,7 +4005,7 @@ Musicality can be moved from one district to another district and
 district can be moved from one region to another region.</p>
 </div>
 <div class="section" id="emailsettings-aspx">
-<h3>EmailSettings.aspx<a class="headerlink" href="#emailsettings-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.7.21&nbsp;&nbsp;&nbsp;EmailSettings.aspx<a class="headerlink" href="#emailsettings-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a class="reference internal" href="media/image107.jpeg"><img alt="EmailSettings.JPG" src="media/image107.jpeg" style="width: 5.54717in; height: 3.704in;" /></a></p>
 <table border="1" class="docutils">
 <colgroup>
@@ -4266,7 +4045,7 @@ default email setup this include email address (will be sender email),
 Password this is the email password.</p>
 </div>
 <div class="section" id="uploadicd-aspx">
-<h3>UploadICD.aspx<a class="headerlink" href="#uploadicd-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.7.22&nbsp;&nbsp;&nbsp;UploadICD.aspx<a class="headerlink" href="#uploadicd-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a href="#id198"><span class="problematic" id="id199">|C:\Users\T4\AppData\Local\Microsoft\Windows\Temporary Internet
 Files\Content.Word\New Picture (2).bmp|</span></a></p>
 <table border="1" class="docutils">
@@ -4323,7 +4102,7 @@ need an update in the description.</p>
 <p>This feature is only available to the IMIS administrator</p>
 </div>
 <div class="section" id="policyrenewals-aspx">
-<h3>PolicyRenewals.aspx<a class="headerlink" href="#policyrenewals-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.7.23&nbsp;&nbsp;&nbsp;PolicyRenewals.aspx<a class="headerlink" href="#policyrenewals-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a href="#id202"><span class="problematic" id="id203">|C:\Users\T4\AppData\Local\Microsoft\Windows\Temporary Internet
 Files\Content.Word\New Picture (3).bmp|</span></a></p>
 <table border="1" class="docutils">
@@ -4389,14 +4168,14 @@ registration record of the officer)</li>
 </ul>
 </div>
 <div class="section" id="imis-extracts">
-<h3>IMIS Extracts<a class="headerlink" href="#imis-extracts" title="Permalink to this headline">¶</a></h3>
+<h3>6.7.24&nbsp;&nbsp;&nbsp;IMIS Extracts<a class="headerlink" href="#imis-extracts" title="Permalink to this headline">¶</a></h3>
 <p>This page opens in two different modes depending on the type of IMIS
 installation: IMIS Central (live server) or IMIS Offline (installed on
 local network in a health facility or local network in IMIS).</p>
 <p><strong>*IMIS Extracts (ONLINE MODE)*</strong></p>
 <p><a class="reference internal" href="media/image114.jpeg"><img alt="image119" src="media/image114.jpeg" style="width: 5.62402in; height: 3.832in;" /></a></p>
 <div class="section" id="id44">
-<h4><a href="#id40"><span class="problematic" id="id41">**</span></a><a href="#id42"><span class="problematic" id="id43">*</span></a><a class="headerlink" href="#id44" title="Permalink to this headline">¶</a></h4>
+<h4>6.7.24.1&nbsp;&nbsp;&nbsp;<a href="#id40"><span class="problematic" id="id41">**</span></a><a href="#id42"><span class="problematic" id="id43">*</span></a><a class="headerlink" href="#id44" title="Permalink to this headline">¶</a></h4>
 <table border="1" class="docutils">
 <colgroup>
 <col width="50%" />
@@ -4579,7 +4358,7 @@ Messages will occur once an action has completed or if there was an
 error at any time during the process of these actions.</p>
 </div>
 <div class="section" id="id49">
-<h4><a href="#id45"><span class="problematic" id="id46">**</span></a><a href="#id47"><span class="problematic" id="id48">*</span></a><a class="headerlink" href="#id49" title="Permalink to this headline">¶</a></h4>
+<h4>6.7.24.2&nbsp;&nbsp;&nbsp;<a href="#id45"><span class="problematic" id="id46">**</span></a><a href="#id47"><span class="problematic" id="id48">*</span></a><a class="headerlink" href="#id49" title="Permalink to this headline">¶</a></h4>
 <p><strong>*IMIS Extracts (OFFLINE MODE) HEALTH FACILITY*</strong></p>
 <p><a class="reference internal" href="media/image125.png"><img alt="image131" src="media/image125.png" style="width: 6.26389in; height: 4.07986in;" /></a></p>
 <p>On clicking the Choose file button, the file selector dialog appears as
@@ -4657,7 +4436,7 @@ in the offline IMIS HF prior to be sent to online IMIS.</p>
 </div>
 </div>
 <div class="section" id="reports-aspx">
-<h3>Reports.aspx<a class="headerlink" href="#reports-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.7.25&nbsp;&nbsp;&nbsp;Reports.aspx<a class="headerlink" href="#reports-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a class="reference internal" href="media/image134.png"><img alt="image140" src="media/image134.png" style="width: 6.26806in; height: 4.64076in;" /></a></p>
 <table border="1" class="docutils">
 <colgroup>
@@ -4688,7 +4467,7 @@ in the offline IMIS HF prior to be sent to online IMIS.</p>
 </tbody>
 </table>
 <div class="section" id="id56">
-<h4><a href="#id52"><span class="problematic" id="id53">**</span></a><a href="#id54"><span class="problematic" id="id55">*</span></a><a class="headerlink" href="#id56" title="Permalink to this headline">¶</a></h4>
+<h4>6.7.25.1&nbsp;&nbsp;&nbsp;<a href="#id52"><span class="problematic" id="id53">**</span></a><a href="#id54"><span class="problematic" id="id55">*</span></a><a class="headerlink" href="#id56" title="Permalink to this headline">¶</a></h4>
 <p><strong>*Brief description:*</strong></p>
 <p>This interface opens up when the user has clicked the ‘Reports’ option
 in the reports menu under the Tools top menu. This function is used to
@@ -4701,7 +4480,7 @@ The report will be exportable to MS Excel and PDF formats.</p>
 </div>
 </div>
 <div class="section" id="utilities-aspx">
-<h3>Utilities.aspx<a class="headerlink" href="#utilities-aspx" title="Permalink to this headline">¶</a></h3>
+<h3>6.7.26&nbsp;&nbsp;&nbsp;Utilities.aspx<a class="headerlink" href="#utilities-aspx" title="Permalink to this headline">¶</a></h3>
 <p><a class="reference internal" href="media/image136.png"><img alt="image142" src="media/image136.png" style="width: 6.26806in; height: 4.63115in;" /></a></p>
 <table border="1" class="docutils">
 <colgroup>
@@ -4758,7 +4537,7 @@ changes. The files to run will be provided by Exact Software, the
 developers.</p>
 </div>
 <div class="section" id="imis-master-used-for-menu-and-quick-inquiry">
-<h3>IMIS.MASTER (used for Menu and Quick Inquiry)<a class="headerlink" href="#imis-master-used-for-menu-and-quick-inquiry" title="Permalink to this headline">¶</a></h3>
+<h3>6.7.27&nbsp;&nbsp;&nbsp;IMIS.MASTER (used for Menu and Quick Inquiry)<a class="headerlink" href="#imis-master-used-for-menu-and-quick-inquiry" title="Permalink to this headline">¶</a></h3>
 <p><a class="reference internal" href="media/image138.png"><img alt="image144" src="media/image138.png" style="width: 4.67951in; height: 2.32089in;" /></a></p>
 <p>Although this object is not an aspx page as such it is included in this
 chapter as it is part of the presentation Tier and is included in the
@@ -4773,12 +4552,12 @@ review by experts from the Swiss tropical health institute.</p>
 </div>
 </div>
 <div class="section" id="graphical-page-routing-overview">
-<h2>Graphical page routing overview<a class="headerlink" href="#graphical-page-routing-overview" title="Permalink to this headline">¶</a></h2>
+<h2>6.8&nbsp;&nbsp;&nbsp;Graphical page routing overview<a class="headerlink" href="#graphical-page-routing-overview" title="Permalink to this headline">¶</a></h2>
 <p><a class="reference internal" href="media/image140.png"><img alt="image146" src="media/image140.png" style="width: 5.60294in; height: 6.68657in;" /></a></p>
 </div>
 </div>
 <div class="section" id="database-design">
-<h1>Database Design<a class="headerlink" href="#database-design" title="Permalink to this headline">¶</a></h1>
+<h1>7&nbsp;&nbsp;&nbsp;Database Design<a class="headerlink" href="#database-design" title="Permalink to this headline">¶</a></h1>
 <p>This chapter will cover the database design for the Online IMIS and the
 Off-line clients that have no connectivity.</p>
 <p>Paragraph 4.1 will provide the design of the database ‘IMIS’. This
@@ -4788,7 +4567,7 @@ order to separate the ‘master data’ that originates from the Central
 database from the Claim management objects belonging to the offline
 facility.</p>
 <div class="section" id="tables-with-main-properties">
-<h2>Tables with main properties<a class="headerlink" href="#tables-with-main-properties" title="Permalink to this headline">¶</a></h2>
+<h2>7.1&nbsp;&nbsp;&nbsp;Tables with main properties<a class="headerlink" href="#tables-with-main-properties" title="Permalink to this headline">¶</a></h2>
 <p>Each record in each table in the database has an internal ID number.
 This number is automatically generated via the identity seed
 configuration for these ID fields. The ID fields are also used to
@@ -4844,7 +4623,7 @@ together.</p>
 <div>tblRegion</div></blockquote>
 <hr class="docutils" />
 <div class="section" id="tbldistricts">
-<h3>tblDistricts<a class="headerlink" href="#tbldistricts" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.1&nbsp;&nbsp;&nbsp;tblDistricts<a class="headerlink" href="#tbldistricts" title="Permalink to this headline">¶</a></h3>
 <p>TblDistrcits will contain all districts to be used and referenced in
 IMIS.</p>
 <p>This table will initially be populated from an external file to avoid
@@ -4852,21 +4631,21 @@ excessive data entry. Thereafter this table will be maintained via the
 user interfaces.</p>
 </div>
 <div class="section" id="tblward-municipality">
-<h3>TblWard (Municipality)<a class="headerlink" href="#tblward-municipality" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.2&nbsp;&nbsp;&nbsp;TblWard (Municipality)<a class="headerlink" href="#tblward-municipality" title="Permalink to this headline">¶</a></h3>
 <p>TblWard will contain all Municipality that fall under the villages. This
 table will initially be populated from an external file to avoid
 excessive data entry. Thereafter this table will be maintained via the
 user interfaces.</p>
 </div>
 <div class="section" id="tblvillages">
-<h3>tblVillages<a class="headerlink" href="#tblvillages" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.3&nbsp;&nbsp;&nbsp;tblVillages<a class="headerlink" href="#tblvillages" title="Permalink to this headline">¶</a></h3>
 <p>TblVillages will contain all villages that fall under the districts.
 This table will initially be populated from an external file to avoid
 excessive data entry. Thereafter this table will be maintained via the
 user interfaces.</p>
 </div>
 <div class="section" id="tblusers">
-<h3>TblUsers<a class="headerlink" href="#tblusers" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.4&nbsp;&nbsp;&nbsp;TblUsers<a class="headerlink" href="#tblusers" title="Permalink to this headline">¶</a></h3>
 <p>TblUser will contain all IMIS users with credentials and security role.</p>
 <p>The security field RoleID has the following</p>
 <blockquote>
@@ -4877,164 +4656,164 @@ select/use in IMIS. Within these districts the security role of the user
 is defined at user level (tblUser).</p>
 </div>
 <div class="section" id="tblofficer">
-<h3>tblOfficer<a class="headerlink" href="#tblofficer" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.5&nbsp;&nbsp;&nbsp;tblOfficer<a class="headerlink" href="#tblofficer" title="Permalink to this headline">¶</a></h3>
 <p>tblOfficer contains all enrolment officers.</p>
 <blockquote>
 <div>tblOfficerVillages</div></blockquote>
 <hr class="docutils" />
 </div>
 <div class="section" id="tblicdcodes">
-<h3>tblICDCodes<a class="headerlink" href="#tblicdcodes" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.6&nbsp;&nbsp;&nbsp;tblICDCodes<a class="headerlink" href="#tblicdcodes" title="Permalink to this headline">¶</a></h3>
 <p>This table will contain standard international codes for diseases. These
 codes are used at the entry of claims.</p>
 </div>
 <div class="section" id="tblitems">
-<h3>tblItems<a class="headerlink" href="#tblitems" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.7&nbsp;&nbsp;&nbsp;tblItems<a class="headerlink" href="#tblitems" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="tblplitems">
-<h3>tblPLItems<a class="headerlink" href="#tblplitems" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.8&nbsp;&nbsp;&nbsp;tblPLItems<a class="headerlink" href="#tblplitems" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="tblplitemsdetail">
-<h3>tblPLItemsDetail<a class="headerlink" href="#tblplitemsdetail" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.9&nbsp;&nbsp;&nbsp;tblPLItemsDetail<a class="headerlink" href="#tblplitemsdetail" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="tblservices">
-<h3>tblServices<a class="headerlink" href="#tblservices" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.10&nbsp;&nbsp;&nbsp;tblServices<a class="headerlink" href="#tblservices" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="tblplservices">
-<h3>tblPLServices<a class="headerlink" href="#tblplservices" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.11&nbsp;&nbsp;&nbsp;tblPLServices<a class="headerlink" href="#tblplservices" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="tblplservicesdetail">
-<h3>tblPLServicesDetail<a class="headerlink" href="#tblplservicesdetail" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.12&nbsp;&nbsp;&nbsp;tblPLServicesDetail<a class="headerlink" href="#tblplservicesdetail" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="tblhf">
-<h3>tblHF<a class="headerlink" href="#tblhf" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.13&nbsp;&nbsp;&nbsp;tblHF<a class="headerlink" href="#tblhf" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="tblfamilies">
-<h3>tblFamilies<a class="headerlink" href="#tblfamilies" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.14&nbsp;&nbsp;&nbsp;tblFamilies<a class="headerlink" href="#tblfamilies" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="tblinsuree">
-<h3>tblInsuree<a class="headerlink" href="#tblinsuree" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.15&nbsp;&nbsp;&nbsp;tblInsuree<a class="headerlink" href="#tblinsuree" title="Permalink to this headline">¶</a></h3>
 <blockquote>
 <div>tblInsureePolicy</div></blockquote>
 <hr class="docutils" />
 </div>
 <div class="section" id="tblhealthstatus">
-<h3>tblHealthStatus<a class="headerlink" href="#tblhealthstatus" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.16&nbsp;&nbsp;&nbsp;tblHealthStatus<a class="headerlink" href="#tblhealthstatus" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="tblphotos">
-<h3>tblPhotos<a class="headerlink" href="#tblphotos" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.17&nbsp;&nbsp;&nbsp;tblPhotos<a class="headerlink" href="#tblphotos" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="tblpolicy">
-<h3>tblPolicy<a class="headerlink" href="#tblpolicy" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.18&nbsp;&nbsp;&nbsp;tblPolicy<a class="headerlink" href="#tblpolicy" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="tblproduct">
-<h3>tblProduct<a class="headerlink" href="#tblproduct" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.19&nbsp;&nbsp;&nbsp;tblProduct<a class="headerlink" href="#tblproduct" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="tblproductitems">
-<h3>tblProductItems<a class="headerlink" href="#tblproductitems" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.20&nbsp;&nbsp;&nbsp;tblProductItems<a class="headerlink" href="#tblproductitems" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="tblproductservices">
-<h3>tblProductServices<a class="headerlink" href="#tblproductservices" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.21&nbsp;&nbsp;&nbsp;tblProductServices<a class="headerlink" href="#tblproductservices" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="tblreldistr">
-<h3>tblRelDistr<a class="headerlink" href="#tblreldistr" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.22&nbsp;&nbsp;&nbsp;tblRelDistr<a class="headerlink" href="#tblreldistr" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="tblpremium">
-<h3>tblPremium<a class="headerlink" href="#tblpremium" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.23&nbsp;&nbsp;&nbsp;tblPremium<a class="headerlink" href="#tblpremium" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="tblpayer">
-<h3>tblPayer<a class="headerlink" href="#tblpayer" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.24&nbsp;&nbsp;&nbsp;tblPayer<a class="headerlink" href="#tblpayer" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="tblbatch">
-<h3>tblBatch<a class="headerlink" href="#tblbatch" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.25&nbsp;&nbsp;&nbsp;tblBatch<a class="headerlink" href="#tblbatch" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="tblclaim">
-<h3>tblClaim<a class="headerlink" href="#tblclaim" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.26&nbsp;&nbsp;&nbsp;tblClaim<a class="headerlink" href="#tblclaim" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="tblclaimitems">
-<h3>tblClaimItems<a class="headerlink" href="#tblclaimitems" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.27&nbsp;&nbsp;&nbsp;tblClaimItems<a class="headerlink" href="#tblclaimitems" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="tblclaimservices">
-<h3>tblClaimServices<a class="headerlink" href="#tblclaimservices" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.28&nbsp;&nbsp;&nbsp;tblClaimServices<a class="headerlink" href="#tblclaimservices" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="tblclaimdedrem">
-<h3>tblClaimDedRem<a class="headerlink" href="#tblclaimdedrem" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.29&nbsp;&nbsp;&nbsp;tblClaimDedRem<a class="headerlink" href="#tblclaimdedrem" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="tblfeedback">
-<h3>tblFeedback<a class="headerlink" href="#tblfeedback" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.30&nbsp;&nbsp;&nbsp;tblFeedback<a class="headerlink" href="#tblfeedback" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="tblpolicyrenewals">
-<h3>tblPolicyRenewals<a class="headerlink" href="#tblpolicyrenewals" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.31&nbsp;&nbsp;&nbsp;tblPolicyRenewals<a class="headerlink" href="#tblpolicyrenewals" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="tblpolicyrenewalsdetails">
-<h3>tblPolicyRenewalsDetails<a class="headerlink" href="#tblpolicyrenewalsdetails" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.32&nbsp;&nbsp;&nbsp;tblPolicyRenewalsDetails<a class="headerlink" href="#tblpolicyrenewalsdetails" title="Permalink to this headline">¶</a></h3>
 <blockquote>
 <div>tblRelIndex</div></blockquote>
 <hr class="docutils" />
 </div>
 <div class="section" id="tblbatchrun">
-<h3>tblBatchRun<a class="headerlink" href="#tblbatchrun" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.33&nbsp;&nbsp;&nbsp;tblBatchRun<a class="headerlink" href="#tblbatchrun" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="tblimisdefaults">
-<h3>tblIMISDefaults<a class="headerlink" href="#tblimisdefaults" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.34&nbsp;&nbsp;&nbsp;tblIMISDefaults<a class="headerlink" href="#tblimisdefaults" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="tblreporting">
-<h3>tblReporting<a class="headerlink" href="#tblreporting" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.35&nbsp;&nbsp;&nbsp;tblReporting<a class="headerlink" href="#tblreporting" title="Permalink to this headline">¶</a></h3>
 <blockquote>
 <div>tblControl</div></blockquote>
 <hr class="docutils" />
 </div>
 <div class="section" id="tbleducations">
-<h3>tblEducations<a class="headerlink" href="#tbleducations" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.36&nbsp;&nbsp;&nbsp;tblEducations<a class="headerlink" href="#tbleducations" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="tblprofessions">
-<h3>tblProfessions<a class="headerlink" href="#tblprofessions" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.37&nbsp;&nbsp;&nbsp;tblProfessions<a class="headerlink" href="#tblprofessions" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="tblidentificationtypes">
-<h3>tblIdentificationTypes<a class="headerlink" href="#tblidentificationtypes" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.38&nbsp;&nbsp;&nbsp;tblIdentificationTypes<a class="headerlink" href="#tblidentificationtypes" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="tbllegalforms">
-<h3>tblLegalForms<a class="headerlink" href="#tbllegalforms" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.39&nbsp;&nbsp;&nbsp;tblLegalForms<a class="headerlink" href="#tbllegalforms" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="tblrelations">
-<h3>tblRelations<a class="headerlink" href="#tblrelations" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.40&nbsp;&nbsp;&nbsp;tblRelations<a class="headerlink" href="#tblrelations" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="tblfamilytypes">
-<h3>tblFamilyTypes<a class="headerlink" href="#tblfamilytypes" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.41&nbsp;&nbsp;&nbsp;tblFamilyTypes<a class="headerlink" href="#tblfamilytypes" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="tblconfirmationtypes">
-<h3>tblConfirmationTypes<a class="headerlink" href="#tblconfirmationtypes" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.42&nbsp;&nbsp;&nbsp;tblConfirmationTypes<a class="headerlink" href="#tblconfirmationtypes" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="tblceilinginterpretation">
-<h3>tblCeilingInterpretation<a class="headerlink" href="#tblceilinginterpretation" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.43&nbsp;&nbsp;&nbsp;tblCeilingInterpretation<a class="headerlink" href="#tblceilinginterpretation" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="tbllanguages">
-<h3>tblLanguages<a class="headerlink" href="#tbllanguages" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.44&nbsp;&nbsp;&nbsp;tblLanguages<a class="headerlink" href="#tbllanguages" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="tblemailsettings">
-<h3>tblEmailSettings<a class="headerlink" href="#tblemailsettings" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.45&nbsp;&nbsp;&nbsp;tblEmailSettings<a class="headerlink" href="#tblemailsettings" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="tblhfsublevel">
-<h3>tblHFSublevel<a class="headerlink" href="#tblhfsublevel" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.46&nbsp;&nbsp;&nbsp;tblHFSublevel<a class="headerlink" href="#tblhfsublevel" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="tblpayertype">
-<h3>tblPayerType<a class="headerlink" href="#tblpayertype" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.47&nbsp;&nbsp;&nbsp;tblPayerType<a class="headerlink" href="#tblpayertype" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="tblfromphone">
-<h3>tblFromPhone<a class="headerlink" href="#tblfromphone" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.48&nbsp;&nbsp;&nbsp;tblFromPhone<a class="headerlink" href="#tblfromphone" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="tblsubmittedphotos">
-<h3>tblSubmittedPhotos<a class="headerlink" href="#tblsubmittedphotos" title="Permalink to this headline">¶</a></h3>
+<h3>7.1.49&nbsp;&nbsp;&nbsp;tblSubmittedPhotos<a class="headerlink" href="#tblsubmittedphotos" title="Permalink to this headline">¶</a></h3>
 <blockquote>
 <div>tblLogins</div></blockquote>
 <hr class="docutils" />
 <div class="section" id="id59">
-<h4><a href="#id57"><span class="problematic" id="id58">**</span></a><a class="headerlink" href="#id59" title="Permalink to this headline">¶</a></h4>
+<h4>7.1.49.1&nbsp;&nbsp;&nbsp;<a href="#id57"><span class="problematic" id="id58">**</span></a><a class="headerlink" href="#id59" title="Permalink to this headline">¶</a></h4>
 </div>
 </div>
 </div>
 <div class="section" id="graphical-relationship-overviews">
-<h2>Graphical relationship overviews<a class="headerlink" href="#graphical-relationship-overviews" title="Permalink to this headline">¶</a></h2>
+<h2>7.2&nbsp;&nbsp;&nbsp;Graphical relationship overviews<a class="headerlink" href="#graphical-relationship-overviews" title="Permalink to this headline">¶</a></h2>
 <p>The graphical representation of relationships is covered in this
 paragraph in separate so-called database diagrams. We could have
 enforced and non-enforced relationships as shown below:</p>
@@ -5060,7 +4839,7 @@ clarity of the model.</p>
 <p><strong>Diagram 7:</strong> Claim Administrator</p>
 </div>
 <div class="section" id="imis-on-line-and-off-line">
-<h2>IMIS On-line and Off-line<a class="headerlink" href="#imis-on-line-and-off-line" title="Permalink to this headline">¶</a></h2>
+<h2>7.3&nbsp;&nbsp;&nbsp;IMIS On-line and Off-line<a class="headerlink" href="#imis-on-line-and-off-line" title="Permalink to this headline">¶</a></h2>
 <p>The online and offline client will use exactly the same
 ‘web-application’ but differ on few areas:</p>
 <ul class="simple">
@@ -5146,14 +4925,14 @@ database for referencing.</p>
 </div>
 </div>
 <div class="section" id="windows-and-web-services">
-<h1>Windows and Web Services<a class="headerlink" href="#windows-and-web-services" title="Permalink to this headline">¶</a></h1>
+<h1>8&nbsp;&nbsp;&nbsp;Windows and Web Services<a class="headerlink" href="#windows-and-web-services" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="windows-services">
-<h2>Windows Services<a class="headerlink" href="#windows-services" title="Permalink to this headline">¶</a></h2>
+<h2>8.1&nbsp;&nbsp;&nbsp;Windows Services<a class="headerlink" href="#windows-services" title="Permalink to this headline">¶</a></h2>
 <p>The IMIS Windows services are automatically started when the computer
 boots, but can be paused and restarted at any time through the user
 interface as discussed below.</p>
 <div class="section" id="imis-backup">
-<span id="section-1"></span><h3>IMIS Backup<a class="headerlink" href="#imis-backup" title="Permalink to this headline">¶</a></h3>
+<span id="section-1"></span><h3>8.1.1&nbsp;&nbsp;&nbsp;IMIS Backup<a class="headerlink" href="#imis-backup" title="Permalink to this headline">¶</a></h3>
 <p>This service is used for database backup, after the service
 installation, the user has to set the name of the server, the database
 name, the SQL-server instance credentials, and the service schedule for
@@ -5186,7 +4965,7 @@ backup service.</p>
 </table>
 </div>
 <div class="section" id="imis-policy-renewal">
-<h3>IMIS Policy Renewal<a class="headerlink" href="#imis-policy-renewal" title="Permalink to this headline">¶</a></h3>
+<h3>8.1.2&nbsp;&nbsp;&nbsp;IMIS Policy Renewal<a class="headerlink" href="#imis-policy-renewal" title="Permalink to this headline">¶</a></h3>
 <p>This service is used for updating insurance policies and runs every day
 at the specified time while check if there is any policy which is about
 to expire within specified period of time. If it finds a policy which
@@ -5228,7 +5007,7 @@ allow the service to send SMS to the insuree.</p>
 </table>
 </div>
 <div class="section" id="assignphotoservice">
-<h3>AssignPhotoService<a class="headerlink" href="#assignphotoservice" title="Permalink to this headline">¶</a></h3>
+<h3>8.1.3&nbsp;&nbsp;&nbsp;AssignPhotoService<a class="headerlink" href="#assignphotoservice" title="Permalink to this headline">¶</a></h3>
 <p>This service is used to move pictures from submitted folder to updated
 folder once the picture are assigned to an insuree.</p>
 <p>After install the service user has to set the name of the server,
@@ -5261,7 +5040,7 @@ image below.</p>
 </table>
 </div>
 <div class="section" id="smsoneffective">
-<h3>SMSONEFFECTIVE<a class="headerlink" href="#smsoneffective" title="Permalink to this headline">¶</a></h3>
+<h3>8.1.4&nbsp;&nbsp;&nbsp;SMSONEFFECTIVE<a class="headerlink" href="#smsoneffective" title="Permalink to this headline">¶</a></h3>
 <p>This service is used to send SMS to the insuree when their policy
 becomes effective.</p>
 <p>On setting the service, the user has to specify the url given by SMS
@@ -5289,7 +5068,7 @@ allow the service to send SMS to the insuree.</p>
 </div>
 </div>
 <div class="section" id="web-services">
-<h2>Web Services<a class="headerlink" href="#web-services" title="Permalink to this headline">¶</a></h2>
+<h2>8.2&nbsp;&nbsp;&nbsp;Web Services<a class="headerlink" href="#web-services" title="Permalink to this headline">¶</a></h2>
 <p>A Web Service is used for exchanging data between applications or
 systems.</p>
 <p>The IMIS Web Services is used for the exchange of information between
@@ -5404,7 +5183,7 @@ officer.</p>
 </div>
 </div>
 <div class="section" id="mobile-phone-concept">
-<h1>Mobile phone Concept<a class="headerlink" href="#mobile-phone-concept" title="Permalink to this headline">¶</a></h1>
+<h1>9&nbsp;&nbsp;&nbsp;Mobile phone Concept<a class="headerlink" href="#mobile-phone-concept" title="Permalink to this headline">¶</a></h1>
 <p>The mobile phone concept is using standard XML files and making use of
 naming conventions for photo storage, XML is having its own internal
 structure (schema) and could be used for exchange of standard data such
@@ -5493,11 +5272,11 @@ on the ‘claims’ phone app only.</li>
 </li>
 </ul>
 <div class="section" id="enrollment-application">
-<h2>Enrollment Application<a class="headerlink" href="#enrollment-application" title="Permalink to this headline">¶</a></h2>
+<h2>9.1&nbsp;&nbsp;&nbsp;Enrollment Application<a class="headerlink" href="#enrollment-application" title="Permalink to this headline">¶</a></h2>
 <p>This application is used by the enrollment officers for the purpose of
 enrolling families with their dependants (Insurees) in the system.</p>
 <div class="section" id="enrollment-flow-chart-diagram">
-<span id="section-2"></span><h3>Enrollment Flow chart diagram<a class="headerlink" href="#enrollment-flow-chart-diagram" title="Permalink to this headline">¶</a></h3>
+<span id="section-2"></span><h3>9.1.1&nbsp;&nbsp;&nbsp;Enrollment Flow chart diagram<a class="headerlink" href="#enrollment-flow-chart-diagram" title="Permalink to this headline">¶</a></h3>
 <p>In the code snippets below, the main functions of importance are shown
 in <strong>bold</strong>.</p>
 <ul class="simple">
@@ -5784,11 +5563,11 @@ Officer, will be cleared.</p>
 </div>
 </div>
 <div class="section" id="claim-application">
-<h2>Claim application<a class="headerlink" href="#claim-application" title="Permalink to this headline">¶</a></h2>
+<h2>9.2&nbsp;&nbsp;&nbsp;Claim application<a class="headerlink" href="#claim-application" title="Permalink to this headline">¶</a></h2>
 <p>This application is used by the claim administrator for the purpose of
 entering and submits claims in their respective health facility.</p>
 <div class="section" id="claim-flow-chart-diagram">
-<h3>Claim Flow chart diagram<a class="headerlink" href="#claim-flow-chart-diagram" title="Permalink to this headline">¶</a></h3>
+<h3>9.2.1&nbsp;&nbsp;&nbsp;Claim Flow chart diagram<a class="headerlink" href="#claim-flow-chart-diagram" title="Permalink to this headline">¶</a></h3>
 <p><a class="reference internal" href="media/image308.png"><img alt="image337" src="media/image308.png" style="width: 6.26806in; height: 4.70118in;" /></a></p>
 <p>In the code snippets below, the main functions of importance are shown
 in <strong>bold</strong>.</p>
@@ -6067,12 +5846,12 @@ IMIS\screenshots\ImisScreenShorts\shot_000099.png|</span></a></p>
 </div>
 </div>
 <div class="section" id="feedback-renew-application">
-<h2>Feedback &amp; Renew application<a class="headerlink" href="#feedback-renew-application" title="Permalink to this headline">¶</a></h2>
+<h2>9.3&nbsp;&nbsp;&nbsp;Feedback &amp; Renew application<a class="headerlink" href="#feedback-renew-application" title="Permalink to this headline">¶</a></h2>
 <p>This application will be used by the Enrollment Officers, the
 application home page allow user to put enrolment officer code which is
 related to the displayed number.</p>
 <div class="section" id="feedback-renewal-flow-chart-diagram">
-<h3>Feedback-Renewal Flow chart diagram<a class="headerlink" href="#feedback-renewal-flow-chart-diagram" title="Permalink to this headline">¶</a></h3>
+<h3>9.3.1&nbsp;&nbsp;&nbsp;Feedback-Renewal Flow chart diagram<a class="headerlink" href="#feedback-renewal-flow-chart-diagram" title="Permalink to this headline">¶</a></h3>
 <p><a class="reference internal" href="media/image318.png"><img alt="image348" src="media/image318.png" style="width: 6.26806in; height: 4.66672in;" /></a></p>
 <p>In the code snippets below, the main functions of importance are shown
 in <strong>bold</strong>.</p>
@@ -6344,11 +6123,11 @@ clear all the inputs and the user will be ready for the next feedback.</p>
 </div>
 </div>
 <div class="section" id="policy-inquiring-application">
-<h2>Policy Inquiring Application<a class="headerlink" href="#policy-inquiring-application" title="Permalink to this headline">¶</a></h2>
+<h2>9.4&nbsp;&nbsp;&nbsp;Policy Inquiring Application<a class="headerlink" href="#policy-inquiring-application" title="Permalink to this headline">¶</a></h2>
 <p>This application will be used extensively by dispensaries, health
 facilities and hospitals for verifying on policies.</p>
 <div class="section" id="inquiring-flow-chart-diagram">
-<h3>Inquiring Flow chart diagram<a class="headerlink" href="#inquiring-flow-chart-diagram" title="Permalink to this headline">¶</a></h3>
+<h3>9.4.1&nbsp;&nbsp;&nbsp;Inquiring Flow chart diagram<a class="headerlink" href="#inquiring-flow-chart-diagram" title="Permalink to this headline">¶</a></h3>
 <p>In the code snippets below, the main functions of importance are shown
 in <strong>bold</strong>.</p>
 <ul class="simple">
@@ -6533,7 +6312,7 @@ so that the user can enter another Insurance Number enquire.</p>
 </div>
 </div>
 <div class="section" id="library">
-<h1>Library<a class="headerlink" href="#library" title="Permalink to this headline">¶</a></h1>
+<h1>10&nbsp;&nbsp;&nbsp;Library<a class="headerlink" href="#library" title="Permalink to this headline">¶</a></h1>
 <p>The IMIS application uses the normal windows libraries, but 3 other
 additional libraries are required.</p>
 <p>The figure below shows the 3 additional libraries:</p>
@@ -6557,7 +6336,7 @@ applications.</li>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
       
-        <a href="user_manual.html" class="btn btn-neutral" title="User Manual" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="user_manual.html" class="btn btn-neutral" title="1   User Manual" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

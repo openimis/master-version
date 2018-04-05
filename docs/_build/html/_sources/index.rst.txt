@@ -6,11 +6,11 @@
 openIMIS documentation
 ======================
 
-Welcome to the openIMIS technical documenation repository. 
+Welcome to the openIMIS technical documenation repository.
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Manuals
+   :maxdepth: 3
+   :caption: User documentation
 
    user_manual
 

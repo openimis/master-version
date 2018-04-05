@@ -1,27 +1,24 @@
+.. sectnum::
+
 User Manual
 ===========
 
 The Insurance Management Information System (IMIS) is a web based software to manage health insurance schemes. It includes functionality for setup of the software to requirements of health insurance schemes, administration of policies and policy holders and for claim processing. This manual is a guide on the use and functionality of the software rather than in-depth technical reference. The Contents section, provide a reference to the page of each major chapter and the sub chapters within. By clicking on the content title (online version), the reader is re-directed to the position of the content title.
 
-The following conventions are used:
-
-  - Hyperlink_ enable a quick link (using the online version) to the subject relating to the functionality,
+.. The following conventions are used:
+  - `<Hyperlink>`_  enable a quick link (using the online version) to the subject relating to the functionality,
   - **Item** means an item in a drop down list,
   - **_LABEL_** means a data field or a button,
   - _NAME OF PAGE_ means a name of page or a data field in a text without hyperlink.
-
-
 
 Users’ roles and rights
 -----------------------
 
 +-----------------------+-----------------------+-----------------------+
-|     **Role**          |  **Responsibilities** |     **Available       |
-|                       |                       |     functionality**   |
+| Role                  | Responsibilities      | Available             |
+|                       |                       | functionality         |
 +=======================+=======================+=======================+
-|     **Scheme          |                       |                       |
-|     administrator &   |                       |                       |
-|     district Staff**  |                       |                       |
+|     **Scheme administrator & district Staff**                         |
 +-----------------------+-----------------------+-----------------------+
 |     Enrolment Officer |     He/she enrols     |     Capture a photo   |
 |                       |     insurees and      |     of an Insuree     |
@@ -176,11 +173,7 @@ Users’ roles and rights
 |                       |                       | -extracts-online-mode |
 |                       |                       | >`__                  |
 +-----------------------+-----------------------+-----------------------+
-|     **Role**          |     **Responsibilitie |     **Available       |
-|                       | s**                   |     functionality**   |
-+-----------------------+-----------------------+-----------------------+
-|     **Staff of Health |                       |                       |
-|     Facilities**      |                       |                       |
+|     **Health Facilities staff**                                       |
 +-----------------------+-----------------------+-----------------------+
 |     Receptionist      |     Verifies          |     Inquiring on a    |
 |                       |     membership and    |     Household/group,  |
@@ -190,25 +183,23 @@ Users’ roles and rights
 |                       |                       |     `Policy <#_Image_ |
 |                       |                       | 4.16_(Find>`__        |
 +-----------------------+-----------------------+-----------------------+
-|     **Claim           |     Pools claim forms |     Opening of a      |
-|     administrator**   |     of a health       |     batch of claims   |
+|     Claim             |     Pools claim forms |     Opening of a      |
+|     administrator     |     of a health       |     batch of claims   |
 |                       |     facility, enters  |                       |
 |                       |     and submits       |     Entry of a claim  |
 |                       |     claims.           |                       |
 +-----------------------+-----------------------+-----------------------+
-|     **HF              |     Off-line Health   |     `Off-line extract |
-|     Administrator**   |     Facility          |     upload <#imis-ext |
+|     HF                |     Off-line Health   |     `Off-line extract |
+|     Administrator     |     Facility          |     upload <#imis-ext |
 |                       |     administration,   | racts-offline-mode>`_ |
 |                       |     Off-line extract  | _                     |
 |                       |     upload            |                       |
 +-----------------------+-----------------------+-----------------------+
-|     **Offline         |     Creation of clerk |                       |
-|     Administrator**   |     user in the       |                       |
+|     Offline           |     Creation of clerk |                       |
+|     Administrator     |     user in the       |                       |
 |                       |     offline IMIS,     |                       |
 |                       |     Creation of       |                       |
 |                       |     offline Extract   |                       |
-+-----------------------+-----------------------+-----------------------+
-|                       |                       |                       |
 +-----------------------+-----------------------+-----------------------+
 
 Login Access
@@ -217,19 +208,23 @@ Login Access
 To access the software, Users, must have a valid User Name and
 Password, provided by the “IMIS Administrator”. In the browser address
 bar type URL of the IMIS and request the start page. Login page will
-appear `(Image 2.1).
+appear (:ref:`image1`).
 
-.. image:: /img/user_manual/image1.png
+.. _image1:
+.. figure:: /img/user_manual/image1.png
+  :align: center
 
- Image 2.1 (User Login)
-^^^^^^^^^^^^^^^^^^^^^^^
+  Image 1 - User Login
 
 Use the provided Login Name and Password, and click on the
 button Login. If successful, the system will re-direct to the Home Page
-`(Image 2.2). <#image-2.2-home-page>`__
+(:ref:`image2`).
 
- Image 2.2 (Home Page)
-^^^^^^^^^^^^^^^^^^^^^^
+.. _image2:
+.. figure:: /img/user_manual/image2.png
+  :align: center
+
+  Image 2 - Home Page
 
 The full menu is displayed; Clicking on the menu headers will display a
 sub-menu providing further navigation options. Menus with a blue
@@ -239,18 +234,18 @@ functionality. Below the main menu at the top left-hand corner there is
 information about the current login user: Login Name, a list of roles
 acquired by the user and the districts to which the user has access.
 
-When a password is forgotten, clicking **Forgot Password?** results in
-the Forgot Password Page `(Image
-2.3) <#image-2.3-forgot-password-page>`__.
+When a password is forgotten, clicking ``Forgot Password?`` results in
+the Forgot Password Page (:ref:`image3`).
 
+.. _image3:
+.. figure:: /img/user_manual/image3.png
+  :align: center
 
+  Image 3 - Forgot Password Page
 
-Image 2.3 (Forgot Password Page)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Write **Email** and click on the **Submit** button. In case the
-**Email** coincides with the e-mail address provided with the user in
-the register of users, the forgotten password is sent to the indicated
+Enter the ``Email`` linked to the account and click on the ``Submit`` button.
+In case the ``Email`` coincides with the e-mail address provided with the
+user in the register of users, the forgotten password is sent to the indicated
 e-mail.
 
 Administration of registers
@@ -286,7 +281,7 @@ of all insurance products that can be distributed/ sold within the
 health insurance scheme.
 
 Insurance Products Administration
-----------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The register of insurance products contains all insurance products in
 the health insurance scheme. There may be several insurance products
@@ -299,87 +294,79 @@ register of insurance products is restricted to users with the role of
 Scheme Administrator
 
 Pre-conditions
-~~~~~~~~~~~~~~
+""""""""""""""
 
 An insurance product may only be added or thereafter edited, after the
 approval of the management of the scheme administration.
 
 Navigation
-~~~~~~~~~~
+""""""""""
 
 All functionality for use with the administration of insurance
-products can be found under the main menu **Administration**, sub menu
-**Products.**
+products can be found under the main menu ``Administration``, sub menu
+``Products``.
 
-Image 3.1 (Navigation Products)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. _image4:
+.. figure:: /img/user_manual/image4.png
+  :align: center
+
+  Image 4 - Navigation Products
 
 Product Control Page
-~~~~~~~~~~~~~~~~~~~~
+""""""""""""""""""""
 
-Clicking on the sub menu **Products** re-directs the current user to the
-Product Control Page\ **.**
+Clicking on the sub menu ``Products`` re-directs the current user to the
+``Product Control Page``.
 
-|image4|
+.. _image5:
+.. figure:: /img/user_manual/image5.png
+  :align: center
 
-Image 3.2 (Product Control Page)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  Image 5 - Product Control Page
 
-The Product Control Page is the central point for administration of
+The ``Product Control Page`` is the central point for administration of
 insurance products. By having access to this page, it is possible to
 add, edit, duplicate and search. The panel is divided into four panels
-(`Image 3.2 <#image-3.2-product-control-page>`__\ )
+(:ref:`image5`)
 
+..
 A. Search Panel
 
-..
+The search panel allows a user to select specific criteria to
+minimise the search results. In the case of Products the following
+search options are available, which can be used alone, or in
+combination with each other.
 
-    The search panel allows a user to select specific criteria to
-    minimise the search results. In the case of Products the following
-    search options are available, which can be used alone, or in
-    combination with each other.
+-  ``Product Code``
 
--  **Product Code**
-
-..
-
-    Type in the beginning of; or the full Product Code; to search for
-    products with a Product Code, which starts with or matches
+    Type in the beginning of; or the full ``Product Code``; to search for
+    products with a ``Product Code``, which starts with or matches
     completely, the typed text.
 
--  **Product Name**
+-  ``Product Name``
 
-..
-
-    Type in the beginning of; or the full Product Name to search for
-    products with a Product Name, which starts with or matches
+    Type in the beginning of; or the full ``Product Name`` to search for
+    products with a ``Product Name``, which starts with or matches
     completely, the typed text.
 
--  **Date From**
-
-..
+-  ``Date From``
 
     Type in a date; or use the date selector button, to search for
-    products with a Date From, which is on or is greater than the date
-    typed/selected. ***Note. To clear the date entry box; use the mouse
-    to highlight the full date and then press the space key.***
+    products with a ``Date From``, which is on or is greater than the date
+    typed/selected. Note: To clear the date entry box; use the mouse
+    to highlight the full date and then press the space key.
 
--  **Date To**
-
-..
+-  ``Date To``
 
     Type in a date; or use the date selector button, to search for
     products with a Date To, which is on or is greater than the date
-    typed/selected. ***Note. To clear the date entry box; use the mouse
-    to highlight the full date and then press the space key.***
+    typed/selected. Note: To clear the date entry box; use the mouse
+    to highlight the full date and then press the space key.
 
--  **date selector button**
+-  ``Date selector button``
 
-..
-
-    Clicking on the **Date Selector Button** will pop-up an easy to use,
-    calendar selector (`Image
-    3.3 <#image-3.3-calendar-selector---search-panel>`__); by default
+    Clicking on the ``Date Selector Button`` will pop-up an easy to use,
+    calendar selector (:ref:`image6`); by default
     the calendar will show the current month, or the month of the
     currently selected date, with the current day highlighted.
 
@@ -400,176 +387,188 @@ A. Search Panel
 
 -  Clicking on the year will display a year selector.
 
-..
+.. _image6:
+.. |logo1| image:: /img/user_manual/image6.png
+  :scale: 100%
+  :align: middle
+.. |logo2| image:: /img/user_manual/image7.png
+  :scale: 100%
+  :align: middle
+.. |logo3| image:: /img/user_manual/image8.png
+  :scale: 100%
+  :align: middle
 
-    |image5|\ |image6|\ |image7|
++---------+---------+---------+
+| |logo1| | |logo2| | |logo2| |
++---------+---------+---------+
+*Image 6 - Calendar Selector - Search Panel*
 
- Image 3.3 (Calendar Selector - Search Panel)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-  ``Region``
 
--  **Region**
-
-..
-
-    Select the Region; from the list of regions by clicking on the arrow
+    Select the ``Region``; from the list of regions by clicking on the arrow
     on the right of the selector to select products from a specific
-    region. The option **National** means that the found insurance
-    products should be common for all regions. ***Note: The list will
+    region. The option ``National`` means that the found insurance
+    products should be common for all regions. Note: The list will
     only be filled with the regions assigned to the current logged in
     user and with the option National. All nationwide products and all
     regional products relating to the selected region will be found. If
     no district is selected then also all district products for
-    districts belonging to the selected region will be found. ***
+    districts belonging to the selected region will be found.
 
-    **District**
+-  ``District``
 
-Select the District; from the list of districts by clicking on the arrow
-on the right of the selector to select products from a specific
-district. ***Note: The list will be only filled with the districts
-belonging to the selected region. All nationwide products, all regional
-products relating to the selected region and all district products for
-the selected district will be found.***
+    Select the ``District``; from the list of districts by clicking on the arrow
+    on the right of the selector to select products from a specific
+    district. Note: The list will be only filled with the districts
+    belonging to the selected region. All nationwide products, all regional
+    products relating to the selected region and all district products for
+    the selected district will be found.
 
--  **Historical **
+-  ``Historical``
 
-   |image8|\ Click on Historical to see historical records matching the
-   selected criteria. Historical records are displayed in the result
-   with a line through the middle of the text (strikethrough) to clearly
-   define them from current records (\ `Image
-   3.4 <#image-3.4-historical-records---result-panel>`__\ ).
+    Click on Historical to see historical records matching the
+    selected criteria. Historical records are displayed in the result
+    with a line through the middle of the text (strikethrough) to clearly
+    define them from current records (:ref:`image7`).
 
- Image 3.4 (Historical records - Result Panel)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   .. _image7:
+   .. figure:: /img/user_manual/image9.png
+     :align: center
 
--  **Search Button**
+     Image 7 - Historical records - Result Panel
 
-..
+-  ``Search Button``
 
     Once the criteria have been entered, use the search button to filter
     the records, the results will appear in the result panel.
 
+..
 B. Result Panel
 
-   The result panel displays a list of all products found, matching the
-   selected criteria in the search panel. The currently selected record
-   is highlighted with light blue, while hovering over records changes
-   the highlight to yellow (`Image
-   3.5 <#image-3.5-selected-record-blue-hovered-records-yellow---result-panel>`__).
-   The leftmost record contains a hyperlink which if clicked, re-directs
-   the user to the actual record for detailed viewing if it is a
-   historical record or editing if it is the current record.
+The result panel displays a list of all products found, matching the
+selected criteria in the search panel. The currently selected record
+is highlighted with light blue, while hovering over records changes
+the highlight to yellow (:ref:`image8`). The leftmost record contains a hyperlink which if clicked, re-directs
+the user to the actual record for detailed viewing if it is a
+historical record or editing if it is the current record.
 
-   |image9|
+   .. _image8:
+   .. figure:: /img/user_manual/image10.png
+     :align: center
 
- Image 3.5 (Selected record (blue), hovered records (yellow) - Result Panel)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     Image 8 - Selected record (blue), hovered records (yellow) - Result Panel
 
 A maximum of 15 records are displayed at one time, further records can
 be viewed by navigating through the pages using the page selector at the
-bottom of the result Panel (\ `Image
-3.6 <#image-3.6-page-selector--result-panel>`__\ ).
+bottom of the result Panel (:ref:`image9`).
 
-|Pagination|
+.. _image9:
+.. figure:: /img/user_manual/image11.png
+  :align: center
 
- Image 3.6 (Page selector- Result Panel)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-C. Button Panel
-
-   With exception of the **Cancel** button, which re-directs to the
-   `Home Page <#image-2.2-home-page>`__, and the Add button which
-   re-directs to the product page, the button panel (the buttons
-   **Edit** and **Duplicate** ) is used in conjunction with the current
-   selected record (highlighted with blue). The user should first select
-   a record by clicking on any position of the record except the
-   leftmost hyperlink, and then click on the button.
-
-D. Information Panel
-
-   The Information Panel is used to display messages back to the user.
-   Messages will occur once a product has been added, updated or deleted
-   or if there was an error at any time during the process of these
-   actions.
-
-Product Page
-~~~~~~~~~~~~
-
-1. |image11|\ Data Entry
-
-|image12|
-
-Image 3.7 (Product Page)
-^^^^^^^^^^^^^^^^^^^^^^^^
-
--  **Product Code**
+  Image 9 - Page selector - Result Panel
 
 ..
+C. Button Panel
+
+With exception of the ``Cancel`` button, which re-directs to the
+Home Page (:ref:`image2`), and the Add button which
+re-directs to the product page, the button panel (the buttons
+``Edit`` and ``Duplicate`` ) is used in conjunction with the current
+selected record (highlighted with blue). The user should first select
+a record by clicking on any position of the record except the
+leftmost hyperlink, and then click on the button.
+
+..
+D. Information Panel
+
+The Information Panel is used to display messages back to the user.
+Messages will occur once a product has been added, updated or deleted
+or if there was an error at any time during the process of these
+actions.
+
+..
+Product Page
+""""""""""""
+
+1. Data Entry
+
+  .. _image10:
+  .. |logo4| image:: /img/user_manual/image12.png
+    :scale: 100%
+    :align: middle
+  .. |logo5| image:: /img/user_manual/image13.png
+    :scale: 100%
+    :align: middle
+
+  +---------+
+  | |logo4| |
+  +---------+
+  | |logo5| |
+  +---------+
+  *Image 10 - Product Page*
+
+-  ``Product Code``
 
     Enter the product code for the product. Mandatory, 8 characters.
 
--  **Product Name**
-
-..
+-  ``Product Name``
 
     Enter product name for the product. Mandatory, 100 characters
     maximum.
 
--  **Region**
+-  ``Region``
 
-   Select the region in which the product will be used, from the list by
-   clicking on the arrow on the right hand side of the lookup. The
-   option National means that the insurance product is nationwide and it
-   is not constraint to a specific region. ***Note: The list will only
-   be filled with the regions assigned to the current logged in user and
-   with the option National.*** Mandatory.
+    Select the region in which the product will be used, from the list by
+    clicking on the arrow on the right hand side of the lookup. The
+    option National means that the insurance product is nationwide and it
+    is not constraint to a specific region. Note: The list will only
+    be filled with the regions assigned to the current logged in user and
+    with the option National. Mandatory.
 
--  **District**
 
-   Select the district in which the product will be used, from the list
-   by clicking on the arrow on the right hand side of the lookup.
-   ***Note: The list will only be filled with the districts assigned to
-   the selected region and assigned to the current logged in user. If no
-   district is selected then the product is considered to be either
-   nationwide (the option National is selected in the field Region) or
-   regional associated with the selected region.***
+-  ``District``
 
--  **Date From**
+    Select the district in which the product will be used, from the list
+    by clicking on the arrow on the right hand side of the lookup.
+    Note: The list will only be filled with the districts assigned to
+    the selected region and assigned to the current logged in user. If no
+    district is selected then the product is considered to be either
+    nationwide (the option National is selected in the field Region) or
+    regional associated with the selected region.
 
-..
 
-    Type in the date or use the Date Selector Button to provide the date
+-  ``Date From``
+
+    Type in the date or use the ``Date Selector Button`` to provide the date
     for which underwriting for the insurance product can be done from.
-    Date From determines the earliest date from which underwriting can
-    be done. ***Note. To clear the date entry box; use the mouse to
-    highlight the full date and then press the space key.*** Mandatory.
+    ``Date From`` determines the earliest date from which underwriting can
+    be done. Note. To clear the date entry box; use the mouse to
+    highlight the full date and then press the space key. Mandatory.
 
--  **Date To**
 
-..
+-  ``Date To``
 
     Type in the date or use the Date Selector Button to provide the date
-    until which underwriting can be done to. ***Note. To clear the date
+    until which underwriting can be done to. Note. To clear the date
     entry box; use the mouse to highlight the full date and then press
-    the space key.*** Mandatory.
+    the space key. Mandatory.
 
--  **date selector button**
+-  ``Date Selector Button``
 
-..
-
-    Clicking on the **Date Selector button** will pop-up an easy to use,
-    calendar selector (\ `Image
-    3.8 <#image-3.8-calendar-selector---search-panel>`__\ ). By default
+    Clicking on the ``Date Selector button`` will pop-up an easy to use,
+    calendar selector (:ref:`image11`). By default
     the calendar will show the current month, or the month of the
     currently selected date, with the current day highlighted.
 
 -  At anytime during the use of the pop-up, the user can see the date of
-       *today*.
+   ``today``.
 
--  Clicking on *today* will close the pop-up and display the today’s
-       date in the corresponding date entry box.
+-  Clicking on ``today`` will close the pop-up and display the today’s
+   date in the corresponding date entry box.
 
 -  Clicking on any day of the month will close the pop-up and display
-       the date selected in the corresponding date entry box.
+   the date selected in the corresponding date entry box.
 
 -  Clicking on the arrow to the left displays the previous month.
 
@@ -579,153 +578,133 @@ Image 3.7 (Product Page)
 
 -  Clicking on the year will display a year selector.
 
-..
+.. _image11:
+.. |logo1| image:: /img/user_manual/image6.png
+  :scale: 100%
+  :align: middle
+.. |logo2| image:: /img/user_manual/image7.png
+  :scale: 100%
+  :align: middle
+.. |logo3| image:: /img/user_manual/image8.png
+  :scale: 100%
+  :align: middle
 
-    |image13|\ |image14|\ |image15|
++---------+---------+---------+
+| |logo1| | |logo2| | |logo2| |
++---------+---------+---------+
 
-Image 3.8 (Calendar Selector - Search Panel)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  *Image 11 - Calendar Selector - Search Panel*
 
--  **Conversion**
 
-..
+-  ``Conversion``
 
     Select from the list of products, a reference to the product which
-    replaces the current product in case of renewal after the Date to.
-    ***Note. Selecting the current product will prevent the record from
+    replaces the current product in case of renewal after the ``Date to``.
+    Note. Selecting the current product will prevent the record from
     saving, and cause a message to be displayed in the Information
-    Panel.***
+    Panel.
 
--  **Lump Sum**
-
-..
+-  ``Lump Sum``
 
     Enter the lump sum contribution (an amount paid irrespective of the
     number of members up to a threshold) to be paid by a household/group
     for the product. If the lump sum is zero no lump sum is applied
-    irrespective of the threshold members. Decimal up to two digits
+    irrespective of the threshold members. Decimal up to two digits.
 
--  **Threshold Members**
-
-..
+-  ``Threshold Members``
 
     Enter the threshold number of members in product for which the lump
     sum is valid.
 
-    **Number of Members**
+-  ``Number of Members``
 
     Enter the maximal number of members of a household/group for the
     product.
 
--  **Contribution Adult**
-
-..
+-  ``Contribution Adult``
 
     Enter the contribution to be paid for each adult (on top of the
-    threshold number of members). Decimal up to two digits
+    threshold number of members). Decimal up to two digits.
 
--  **Contribution Child**
-
-..
+-  ``Contribution Child``
 
     Enter the contribution to be paid for each child (on top of the
-    threshold number of members). Decimal up to two digits
+    threshold number of members). Decimal up to two digits.
 
--  **Insurance Period**
-
-..
+-  ``Insurance Period``
 
     Enter duration of the period in months, in which a policy with the
     product will be valid. Mandatory.
 
--  **Administration Period**
-
-..
+-  ``Administration Period``
 
     Enter duration of the administration period in months. The
     administration period is added to the enrolment date/renewal date
     for determination of the policy start date.
 
--  **Max Instalments**
-
-..
+-  ``Max Instalments``
 
     Enter maximal number of instalments in which contributions for a
     policy may be paid. Mandatory.
 
--  **Grace Period Payment**
-
-..
+-  ``Grace Period Payment``
 
     Enter duration of the period in months, in which a policy has a
     grace period (not fully paid up) before it is suspended. Mandatory,
     although it is by default and can be left at zero.
 
--  **Grace Period Enrolment**
-
-..
+-  ``Grace Period Enrolment``
 
     Enter duration of the period in months after the starting date of a
     cycle (including this starting date), in which underwriting of a
     policy will still be associated with this cycle.
 
--  **Grace Period Renewal**
-
-..
+-  ``Grace Period Renewal``
 
     Enter duration of the period in months after the starting date of a
     cycle (including this starting date), in which renewing of a policy
     will still be associated with this cycle.
 
--  **Enrolment Disc. % **
-
-..
+-  ``Enrolment Discount percentage``
 
     Enter the enrolment discount percentage for the insurance product.
     The discount percentage is applied on the total contributions
-    calculated for a policy underwritten earlier than **Enrolment disc.
-    period** months before the start date of the corresponding
-    cycle\ **.**
+    calculated for a policy underwritten earlier than ``Enrolment disc.
+    period`` months before the start date of the corresponding
+    cycle.
 
--  **Enrolment Disc. Period**
-
-..
+-  ``Enrolment Discount Period``
 
     Enter the enrolment discount period of the insurance product in
     months.
 
--  **Renewal Disc. % **
-
-..
+-  ``Renewal Discount Percentage``
 
     Enter the renewal discount percentage for the insurance product. The
     discount percentage is applied on the total contributions calculated
-    for a policy renewed earlier than **renewal disc. period** months
+    for a policy renewed earlier than ``renewal disc. period`` months
     before the start date of the corresponding cycle.
 
--  **Renewal Disc. Period**
-
-..
+-  ``Renewal Discount Period``
 
     Enter the renewal discount period of the insurance product in
     months.
 
--  **Medical Services**
-
-..
+-  ``Medical Services``
 
     Select from the list of available medical services (from the
     register of Medical Services) the medical services covered within
-    the insurance product, by either clicking on the **Check All** box
+    the insurance product, by either clicking on the ``Check All`` box
     at the top of the list of medical services, or by selectively
     clicking on the check box to the left of the medical service.
 
--  **Medical Services Grid**
+-  ``Medical Services Grid``
 
-|image16|
+.. _image 12:
+.. figure:: /img/user_manual/image14.png
+  :align: center
 
-Image 3.9 (Medical Services - Product)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  Image 12 - Medical Services - Product
 
 -  **Code**: Displays the code for the medical service
 
@@ -800,9 +779,8 @@ Image 3.9 (Medical Services - Product)
    out-patient care and [B] means exclusion both for in-patient and
    out-patient care.
 
--  **medical items**
-
 ..
+-  ``medical items``
 
     Select from the list of available medical items (from the register
     of Medical Items) the medical items covered within the product; by
@@ -810,12 +788,13 @@ Image 3.9 (Medical Services - Product)
     medical items, or by selectively clicking on the check box to the
     left of the medical item.
 
--  **medical items grid**
+-  ``medical items grid``
 
-|image17|
+.. _image 13:
+.. figure:: /img/user_manual/image15.png
+  :align: center
 
-Image 3.10 (Medical Items - Product)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  Image 13 - Medical Items - Product
 
 -  **Code**: Displays the code for the medical item
 
@@ -889,61 +868,48 @@ Image 3.10 (Medical Items - Product)
    out-patient care and [B] means exclusion both for in-patient and
    out-patient care.
 
--  **Account Code Remuneration**
-
 ..
+-  ``Account Code Remuneration``
 
     Enter the account code of the insurance product used in the
     accounting software for remuneration of the product. 25 characters
     maximum.
 
--  **Account Code Contribution**
-
-..
+-  ``Account Code Contribution``
 
     Enter the account code of the insurance product used in the
     accounting software for paid contributions. 25 characters maximum.
 
--  **Registration Lump Sum**
-
-..
+-  ``Registration Lump Sum``
 
     Enter the lump sum (for a household/group) for registration fee to
     be paid at the first enrolment of the household/group. Registration
     fee is not paid for renewals of policies.
 
--  **Assembly Lump Sum**
-
-..
+-  ``Assembly Lump Sum``
 
     Enter the lump sum (for a household/group) for additional assembly
     fee to be paid both at the first enrolment and renewals of policies.
 
--  **Registration Fee**
-
-..
+-  ``Registration Fee``
 
     Enter the registration fee per member of a household/group. If
     registration lump sum is non zero, registration fee is not
     considered. Registration fee is not paid for renewals of policies.
 
--  **Assembly Fee**
-
-..
+-  ``Assembly Fee``
 
     Enter the assembly fee per member of a household/group. If assembly
     lump sum is non zero, assembly fee is not considered. Assembly fee
     is paid both at the first enrolment and renewals of policies.
 
--  **Start Cycle 1**
+-  ``Start Cycle 1``
 
--  **Start Cycle 2**
+-  ``Start Cycle 2``
 
--  **Start Cycle 3**
+-  ``Start Cycle 3``
 
--  **Start Cylce 4**
-
-..
+-  ``Start Cycle 4``
 
     If one or more starting dates (a day and a month) of a cycle are
     specified then the insurance product is considered as the insurance
@@ -951,94 +917,80 @@ Image 3.10 (Medical Items - Product)
     underwritten and renewed policies is accomplished always on fixed
     dates during a year. Maximum four cycle dates can be specified.
 
--  **Ceiling Interpretation**
-
-..
+-  ``Ceiling Interpretation``
 
     Specify whether Hospital and Non-Hospital care should be determined
     according to the type of health facility (select [Hospital]) that
     provided health care or according to the type of health care (select
     [In-patient]) acquired from a claim. In the first case all health
-    care provided in hospitals (defined in the field HF Level in the
-    register of Health Facilities) is accounted for Hospital
-    Ceilings/Deductibles and for calculation of relative prices for the
-    Hospital part. It means that if clamed health care was provided
+    care provided in hospitals (defined in the field ``HF Level`` in the
+    register of Health Facilities) is accounted for ``Hospital
+    Ceilings/Deductibles`` and for calculation of relative prices for the
+    ``Hospital`` part. It means that if clamed health care was provided
     out-patient in a hospital, it is considered for calculation of
     ceilings/deductibles and for calculation of relative prices as
     hospital care. In the second case only in-patient care (determined
     from a claim when a patient spent at least one night in a health
-    facility) is accounted for Hospital Ceilings/Deductibles and for
+    facility) is accounted for ``Hospital Ceilings/Deductibles`` and for
     calculation of relative prices for hospital part. Other health care
     including out-patient care provided in hospitals is accounted for
-    Non hospital Ceilings/Deductibles and also such health care is used
+    ``Non hospital Ceilings/Deductibles`` and also such health care is used
     for calculation of relative prices for non-hospital part. Mandatory.
 
--  **Treatment**
-
-..
+-  ``Treatment``
 
     Deductibles and Ceilings for treatments may be entered for general
-    care (Hospitals and Non-hospitals) or for hospital care (Hospitals)
-    only and/or for non-hospital care (Non-Hospitals) only. An amount
+    care (``Hospitals and Non-hospitals``) or for hospital care (``Hospitals``)
+    only and/or for non-hospital care (``Non-Hospitals``) only. An amount
     may be set, indicating the value that a patient should cover within
     his/her own means, before a policy of the insurance product comes
-    into effect (Deductibles) or the ceiling (maximum amount covered)
-    within a policy of the insurance product (Ceilings) for a treatment
+    into effect (``Deductibles``) or the ceiling (maximum amount covered)
+    within a policy of the insurance product (``Ceilings``) for a treatment
     (the treatment is identified health care claimed in one claim)
 
--  **Insuree**
-
-..
+-  ``Insuree``
 
     Deductibles and Ceilings for an insuree may be entered for general
-    care (Hospitals and Non-hospitals) or for hospital care (Hospitals)
-    only and/or for non-hospital care (Non-Hospitals) only. An amount
+    care (``Hospitals and Non-hospitals``) or for hospital care (Hospitals)
+    only and/or for non-hospital care (``Non-Hospitals``) only. An amount
     may be set, indicating the value that an insuree should cover within
     his/her own means, before a policy of the insurance product comes
-    into effect (Deductibles) or the ceiling (maximum amount covered)
-    within a policy of the insurance product (Ceilings) for an insuree
+    into effect (``Deductibles``) or the ceiling (maximum amount covered)
+    within a policy of the insurance product (``Ceilings``) for an insuree
     for the whole insurance period.
 
--  **Policy**
-
-..
+-  ``Policy``
 
     Deductibles and Ceilings for a policy may be entered for general
-    care (Hospitals and Non-hospitals) or for hospital care (Hospitals)
+    care (``Hospitals and Non-hospitals``) or for hospital care (``Hospitals``)
     only and/or for non-hospital care (Non-Hospitals) only. An amount
     may be set, indicating the value that policy holders should cover
     within their own means, before a policy of the insurance product
-    comes into effect (Deductibles) or the ceiling (maximum amount
+    comes into effect (``Deductibles``) or the ceiling (maximum amount
     covered) for the policy (all members of a family/group) of the
-    insurance product (Ceilings) for the whole insurance period.
+    insurance product (``Ceilings``) for the whole insurance period.
 
--  **Extra Member Ceiling**
-
-..
+-  ``Extra Member Ceiling``
 
     Additional (extra) ceiling for a policy may be entered for general
-    care (Hospitals and Non-hospitals) or for hospital care (Hospitals)
-    only and/or for non-hospital care (Non-Hospitals ) only per a member
-    of a family/group above Threshold Members.
+    care (``Hospitals`` and ``Non-hospitals``) or for hospital care (``Hospitals``)
+    only and/or for non-hospital care (``Non-Hospital`` s ) only per a member
+    of a family/group above ``Threshold Members``.
 
--  **Maximum Ceiling**
-
-..
+-  ``Maximum Ceiling``
 
     Maximal ceiling for a policy may be entered for general care
-    (Hospitals and Non-hospitals) or for hospital care (Hospitals) only
-    and/or for non-hospital care (Non-Hospitals ) only if extra ceilings
-    are applied for members of a family/group above Threshold Members.
+    (``Hospitals`` and ``Non-hospitals``) or for hospital care (``Hospitals``) only
+    and/or for non-hospital care (``Non-Hospitals``) only if extra ceilings
+    are applied for members of a family/group above ``Threshold Members``.
 
--  **Number**
-
-..
+-  ``Number``
 
     Maximal number of covered claims per an insuree during the whole
     insurance period according to the category of a claim. The options
-    are claims of the category Consultations, Surgery, Delivery and
-    Antenatal care. Maximal numbers may be also specified for
-    Hospitalizations (in-patient stays) and (out-patient visits) Visits.
+    are claims of the category ``Consultations``, ``Surgery``, ``Delivery`` and
+    ``Antenatal care``. Maximal numbers may be also specified for
+    Hospitalizations (in-patient stays) and (out-patient visits) ``Visits``.
     The claim category is determined as follows:
 
 +-----------------------------------------------------------------------+
@@ -1070,30 +1022,26 @@ Image 3.10 (Medical Items - Product)
 | the claim is of the category *Visit*                                  |
 +-----------------------------------------------------------------------+
 
--  **Ceiling**
-
-..
+-  ``Ceiling``
 
     Maximal amount of coverage can be specified for claims according to
     the category of a claim. The options are claims of the category
-    Consultations, Surgery, Delivery, Antenatal care, Hospitalizations,
-    and Visits. The category of claim is determined according to the
-    procedure described with Number.
+    ``Consultations``, ``Surgery``, ``Delivery``, ``Antenatal care``, Hospitalizations,
+    and ``Visits``. The category of claim is determined according to the
+    procedure described with ``Number``.
 
-    ***Note. It is possible to specify only one of the following
+    Note. It is possible to specify only one of the following
     ceilings –per Treatment, per Insuree or per Policy. If ceilings per
     category of claims are specified together with ceilings per
     Treatment, per Insuree or per Policy than evaluation of claims may
     be dependent under special circumstances on the order of claimed
-    medical services/items in a claim.***
+    medical services/items in a claim.
 
--  **distribution Period**
+-  ``distribution Period``
 
-..
-
-    Distribution periods may be entered for general care (Hospitals and
-    Non-hospitals), or for hospital care (Hospitals) only and/or for
-    non-hospital care (Non-Hospitals) only. Select from the list
+    Distribution periods may be entered for general care (``Hospitals`` and
+    ``Non-hospitals``), or for hospital care (``Hospitals``) only and/or for
+    non-hospital care (``Non-Hospitals``) only. Select from the list
     (**NONE, Monthly, Quarterly, Yearly**), the period that is to be
     used for calculation of the actual value of relative prices for the
     insurance product; by clicking on the arrow on the right. The
@@ -1116,7 +1064,7 @@ Image 3.10 (Medical Items - Product)
     It is not required to enter a value in each period, zero values are
     accepted. Once all the percentage values have been entered, click on
     the button OK to submit the values to the respective grid. Clicking
-    on the button Cancel will cancel the action closing the popup and
+    on the button ``Cancel`` will cancel the action closing the popup and
     cancelling the change in the distribution.
 
 |image18|\ |image19|\ |image20|

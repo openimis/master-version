@@ -1,388 +1,8 @@
-    Insurance Management Information System (IMIS) Application
-
-    Functional Design Specifications
-
-    Functional Area: Insurees and Policies, Administration of registers,
-    Management of claims and general management
-
-+----------------------------+--------------------+
-| **Created by:**            | Exact Software Ltd |
-+============================+====================+
-| **Deliverable Owner:**     | Swiss TPH          |
-+----------------------------+--------------------+
-| **Deliverable Approvers:** |                    |
-+----------------------------+--------------------+
-| **Last Revision Date:**    | 24 April 2017      |
-+----------------------------+--------------------+
-| **Version & Status:**      | 17.3.11            |
-+----------------------------+--------------------+
-|                            |                    |
-+----------------------------+--------------------+
-
-Contents
-========
-
-`1. Overview 7 <#overview>`__
-
-`1.1. Introduction 7 <#introduction>`__
-
-`1.2. Scope 7 <#scope>`__
-
-`1.3. Audience 7 <#audience>`__
-
-`1.4. Assumptions 8 <#assumptions>`__
-
-`1.5. Document History 8 <#document-history>`__
-
-`2. System Architecture 9 <#system-architecture>`__
-
-`2.1.1. IMIS online web Application 9 <#imis-online-web-application>`__
-
-`2.1.2. IMIS offline web Application
-9 <#imis-offline-web-application>`__
-
-`2.1.3. Android phone applications 10 <#android-phone-applications>`__
-
-`2.1.4. Window services and Web services
-10 <#window-services-and-web-services>`__
-
-`2.1.5. IMIS Data warehouse 10 <#imis-data-warehouse>`__
-
-`3. Programming approach, standards and methods
-11 <#programming-approach-standards-and-methods>`__
-
-`3.1. Multi Tier development 11 <#multi-tier-development>`__
-
-`3.2. Coding Standards and Conventions
-14 <#coding-standards-and-conventions>`__
-
-`3.2.1. Entities 15 <#entities>`__
-
-`3.2.2. Methods 15 <#methods>`__
-
-`3.2.3. Controls 15 <#controls>`__
-
-`3.2.4. Objects 15 <#objects>`__
-
-`3.2.5. Resources 15 <#resources>`__
-
-`3.3. Photo Storage 16 <#photo-storage>`__
-
-`4. IMIS Menu structure and Interface flow
-17 <#imis-menu-structure-and-interface-flow>`__
-
-`4.1. Main menu 17 <#main-menu>`__
-
-`4.2. Menu Insurees and Policies 17 <#menu-insurees-and-policies>`__
-
-`4.3. Menu Claims 18 <#menu-claims>`__
-
-`4.4. Menu Administration 18 <#menu-administration>`__
-
-`4.5. Menu Price Lists 19 <#menu-price-lists>`__
-
-`4.6. My Profile 19 <#my-profile>`__
-
-`4.7. Menu Tools 19 <#menu-tools>`__
-
-`5. Functional Area Description 20 <#functional-area-description>`__
-
-`5.1. Generic interface features 20 <#generic-interface-features>`__
-
-`5.1.1. Add, Edit, Delete, Save and buttons
-20 <#add-edit-delete-save-and-buttons>`__
-
-`5.1.2. User Security 21 <#user-security>`__
-
-`5.1.3. ‘Historical’ records 21 <#historical-records>`__
-
-`5.1.4. Data grids, hyperlinks and pages
-22 <#data-grids-hyperlinks-and-pages>`__
-
-`5.1.5. Multi Language aspects 23 <#multi-language-aspects>`__
-
-`5.1.6. Session expiry 25 <#session-expiry>`__
-
-`5.1.7. Mandatory fields 25 <#mandatory-fields>`__
-
-`5.1.8. Status bar and Popup 26 <#status-bar-and-popup>`__
-
-`5.2. Web pages 26 <#web-pages>`__
-
-`5.2.1. Default.aspx 28 <#default.aspx>`__
-
-`5.2.2. ForgotPassword.aspx 29 <#forgotpassword.aspx>`__
-
-`5.2.3. ChangePassword.aspx 30 <#changepassword.aspx>`__
-
-`5.2.4. Home.aspx 31 <#home.aspx>`__
-
-`5.2.5. Logout.aspx 32 <#logout.aspx>`__
-
-`5.2.6. Family.aspx 33 <#family.aspx>`__
-
-`5.2.7. FindFamily.aspx 35 <#findfamily.aspx>`__
-
-`5.2.8. ChangeFamily.aspx 37 <#changefamily.aspx>`__
-
-`5.2.9. FindInsuree.aspx 39 <#findinsuree.aspx>`__
-
-`5.2.10. Insuree.aspx 40 <#insuree.aspx>`__
-
-`5.2.11. FindPolicy.aspx 42 <#findpolicy.aspx>`__
-
-`5.2.12. Policy.aspx 44 <#policy.aspx>`__
-
-`5.2.13. FindPremium.aspx 45 <#findpremium.aspx>`__
-
-`5.2.14. Premium.aspx 46 <#premium.aspx>`__
-
-`5.2.15. OverviewFamily.aspx 48 <#overviewfamily.aspx>`__
-
-`5.2.16. FindClaims.aspx 50 <#findclaims.aspx>`__
-
-`5.2.17. Claim.aspx 52 <#claim.aspx>`__
-
-`5.2.18. ClaimOverview.aspx 54 <#claimoverview.aspx>`__
-
-`5.2.19. ClaimReview.aspx 58 <#claimreview.aspx>`__
-
-`5.2.20. ClaimFeedback.aspx 60 <#claimfeedback.aspx>`__
-
-`5.2.21. BatchRun.aspx 61 <#batchrun.aspx>`__
-
-`5.2.22. ClaimAdministrator.aspx 63 <#claimadministrator.aspx>`__
-
-`5.3. Checking of claims process 64 <#checking-of-claims-process>`__
-
-`5.4. Batch Valuation process 66 <#batch-valuation-process>`__
-
-`5.5. Calculation of ‘relative prices index’ process
-68 <#calculation-of-relative-prices-index-process>`__
-
-`5.6. Graphical page routing overview Claim interfaces
-70 <#graphical-page-routing-overview-claim-interfaces>`__
-
-`5.7. Overview of status fields 71 <#overview-of-status-fields>`__
-
-`5.7.1. FindHealthFacility.aspx 72 <#findhealthfacility.aspx>`__
-
-`5.7.2. HealthFacility.aspx 73 <#healthfacility.aspx>`__
-
-`5.7.3. FindProduct.aspx 74 <#findproduct.aspx>`__
-
-`5.7.4. Product.aspx 75 <#product.aspx>`__
-
-`5.7.5. FindMedicalItem.aspx 77 <#findmedicalitem.aspx>`__
-
-`5.7.6. MedicalItem.aspx 78 <#medicalitem.aspx>`__
-
-`5.7.7. FindMedicalService.aspx 79 <#findmedicalservice.aspx>`__
-
-`5.7.8. MedicalService.aspx 80 <#medicalservice.aspx>`__
-
-`5.7.9. FindOfficer.asp 81 <#findofficer.asp>`__
-
-`5.7.10. Officer.aspx 82 <#officer.aspx>`__
-
-`5.7.11. FindPayer.aspx 83 <#findpayer.aspx>`__
-
-`5.7.12. Payer.aspx 84 <#payer.aspx>`__
-
-`5.7.13. FindPriceListMI.aspx 85 <#findpricelistmi.aspx>`__
-
-`5.7.14. PriceListMI.aspx 86 <#pricelistmi.aspx>`__
-
-`5.7.15. FindPriceListMS.aspx 87 <#findpricelistms.aspx>`__
-
-`5.7.16. PriceListMS.aspx 88 <#pricelistms.aspx>`__
-
-`5.7.17. FindUser.aspx 89 <#finduser.aspx>`__
-
-`5.7.18. User.aspx 90 <#user.aspx>`__
-
-`5.7.19. Locations.aspx 92 <#locations.aspx>`__
-
-`5.7.20. MoveLocation.aspx 93 <#movelocation.aspx>`__
-
-`5.7.21. EmailSettings.aspx 94 <#emailsettings.aspx>`__
-
-`5.7.22. UploadICD.aspx 95 <#uploadicd.aspx>`__
-
-`5.7.23. PolicyRenewals.aspx 96 <#policyrenewals.aspx>`__
-
-`5.7.24. IMIS Extracts 98 <#imis-extracts>`__
-
-`5.7.25. Reports.aspx 108 <#reports.aspx>`__
-
-`5.7.26. Utilities.aspx 110 <#utilities.aspx>`__
-
-`5.7.27. IMIS.MASTER (used for Menu and Quick Inquiry)
-111 <#imis.master-used-for-menu-and-quick-inquiry>`__
-
-`5.8. Graphical page routing overview
-112 <#graphical-page-routing-overview>`__
-
-`6. Database Design 113 <#database-design>`__
-
-`6.1. Tables with main properties 113 <#tables-with-main-properties>`__
-
-`6.1.1. tblRegion 114 <#tblregion>`__
-
-`6.1.2. tblDistricts 115 <#tbldistricts>`__
-
-`6.1.3. TblWard (Municipality) 116 <#tblward-municipality>`__
-
-`6.1.4. tblVillages 117 <#tblvillages>`__
-
-`6.1.5. TblUsers 117 <#tblusers>`__
-
-`6.1.6. tblUsersDistricts 118 <#tblusersdistricts>`__
-
-`6.1.7. tblOfficer 119 <#tblofficer>`__
-
-`6.1.8. tblOfficerVillages 120 <#tblofficervillages>`__
-
-`6.1.9. tblICDCodes 121 <#tblicdcodes>`__
-
-`6.1.10. tblItems 122 <#tblitems>`__
-
-`6.1.11. tblPLItems 123 <#tblplitems>`__
-
-`6.1.12. tblPLItemsDetail 123 <#tblplitemsdetail>`__
-
-`6.1.13. tblServices 124 <#tblservices>`__
-
-`6.1.14. tblPLServices 125 <#tblplservices>`__
-
-`6.1.15. tblPLServicesDetail 125 <#tblplservicesdetail>`__
-
-`6.1.16. tblHF 126 <#tblhf>`__
-
-`6.1.17. tblFamilies 127 <#tblfamilies>`__
-
-`6.1.18. tblInsuree 128 <#tblinsuree>`__
-
-`6.1.19. tblInsureePolicy 129 <#tblinsureepolicy>`__
-
-`6.1.20. tblHealthStatus 130 <#tblhealthstatus>`__
-
-`6.1.21. tblPhotos 130 <#tblphotos>`__
-
-`6.1.22. tblPolicy 131 <#tblpolicy>`__
-
-`6.1.23. tblProduct 132 <#tblproduct>`__
-
-`6.1.24. tblProductItems 134 <#tblproductitems>`__
-
-`6.1.25. tblProductServices 135 <#tblproductservices>`__
-
-`6.1.26. tblRelDistr 136 <#tblreldistr>`__
-
-`6.1.27. tblPremium 137 <#tblpremium>`__
-
-`6.1.28. tblPayer 137 <#tblpayer>`__
-
-`6.1.29. tblBatch 139 <#tblbatch>`__
-
-`6.1.30. tblClaim 140 <#tblclaim>`__
-
-`6.1.31. tblClaimItems 142 <#tblclaimitems>`__
-
-`6.1.32. tblClaimServices 143 <#tblclaimservices>`__
-
-`6.1.33. tblClaimDedRem 144 <#tblclaimdedrem>`__
-
-`6.1.34. tblFeedback 145 <#tblfeedback>`__
-
-`6.1.35. tblPolicyRenewals 145 <#tblpolicyrenewals>`__
-
-`6.1.36. tblPolicyRenewalsDetails 146 <#tblpolicyrenewalsdetails>`__
-
-`6.1.37. tblRelIndex 147 <#tblrelindex>`__
-
-`6.1.38. tblBatchRun 148 <#tblbatchrun>`__
-
-`6.1.39. tblIMISDefaults 149 <#tblimisdefaults>`__
-
-`6.1.40. tblReporting 150 <#tblreporting>`__
-
-`6.1.41. tblControl 150 <#tblcontrol>`__
-
-`6.1.42. tblEducations 151 <#tbleducations>`__
-
-`6.1.43. tblProfessions 151 <#tblprofessions>`__
-
-`6.1.44. tblIdentificationTypes 151 <#tblidentificationtypes>`__
-
-`6.1.45. tblLegalForms 152 <#tbllegalforms>`__
-
-`6.1.46. tblRelations 152 <#tblrelations>`__
-
-`6.1.47. tblFamilyTypes 153 <#tblfamilytypes>`__
-
-`6.1.48. tblConfirmationTypes 153 <#tblconfirmationtypes>`__
-
-`6.1.49. tblCeilingInterpretation 153 <#tblceilinginterpretation>`__
-
-`6.1.50. tblLanguages 154 <#tbllanguages>`__
-
-`6.1.51. tblEmailSettings 154 <#tblemailsettings>`__
-
-`6.1.52. tblHFSublevel 154 <#tblhfsublevel>`__
-
-`6.1.53. tblPayerType 155 <#tblpayertype>`__
-
-`6.1.54. tblFromPhone 155 <#tblfromphone>`__
-
-`6.1.55. tblSubmittedPhotos 156 <#tblsubmittedphotos>`__
-
-`6.1.56. tblLogins 156 <#tbllogins>`__
-
-`6.2. Graphical relationship overviews
-157 <#graphical-relationship-overviews>`__
-
-`6.3. IMIS On-line and Off-line 164 <#imis-on-line-and-off-line>`__
-
-`7. Windows and Web Services 166 <#windows-and-web-services>`__
-
-`7.1. Windows Services 166 <#windows-services>`__
-
-`7.1.1. IMIS Backup 166 <#imis-backup>`__
-
-`7.1.2. IMIS Policy Renewal 167 <#imis-policy-renewal>`__
-
-`7.1.3. AssignPhotoService 169 <#assignphotoservice>`__
-
-`7.1.4. SMSONEFFECTIVE 170 <#smsoneffective>`__
-
-`7.2. Web Services 170 <#web-services>`__
-
-`8. Mobile phone Concept 174 <#mobile-phone-concept>`__
-
-`8.1.1. Mobile phone technologies 174 <#mobile-phone-technologies>`__
-
-`8.2. Enrollment Application 176 <#enrollment-application>`__
-
-`8.2.1. Enrollment Flow chart diagram
-176 <#enrollment-flow-chart-diagram>`__
-
-`8.3. Claim application 184 <#claim-application>`__
-
-`8.3.1. Claim Flow chart diagram 184 <#claim-flow-chart-diagram>`__
-
-`8.4. Feedback & Renew application 190 <#feedback-renew-application>`__
-
-`8.4.1. Feedback-Renewal Flow chart diagram
-190 <#feedback-renewal-flow-chart-diagram>`__
-
-`8.5. Policy Inquiring Application
-197 <#policy-inquiring-application>`__
-
-`8.5.1. Inquiring Flow chart diagram
-197 <#inquiring-flow-chart-diagram>`__
-
-`9. Library 201 <#library>`__
+.. sectnum::
+
+Functional Design Specifications
+================================
+  
 
 Overview
 ========
@@ -1065,7 +685,7 @@ initiated via the following controls:
 Hereunder we will cover the IMIS menu structure with its submenus and
 actions.
 
-Main menu 
+Main menu
 ----------
 
 |image2|
@@ -1935,7 +1555,7 @@ appear. The Insurance Number hyperlink (Insuree) in the grid will open
 up the family/group overview page. Further operations on the insuree
 will take action from this overview page.
 
-Insuree.aspx 
+Insuree.aspx
 ~~~~~~~~~~~~~
 
 |\\\HIREN\Sharing\For
@@ -2729,7 +2349,7 @@ automatically by a service running in the backgrounds that uploads XML
 files originating from the mobile phones (via mobile feedback
 application).
 
-BatchRun.aspx 
+BatchRun.aspx
 ~~~~~~~~~~~~~~
 
 |image66|
@@ -3958,7 +3578,7 @@ screen to be able to filter out:
 
 -  Renewals successfully sent
 
-IMIS Extracts 
+IMIS Extracts
 ~~~~~~~~~~~~~~
 
 This page opens in two different modes depending on the type of IMIS
@@ -4368,7 +3988,7 @@ is required. The operator should select the file provided and click the
 changes. The files to run will be provided by Exact Software, the
 developers.
 
-IMIS.MASTER (used for Menu and Quick Inquiry) 
+IMIS.MASTER (used for Menu and Quick Inquiry)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 |image144|
@@ -6225,7 +5845,7 @@ allow the service to send SMS to the insuree.
 | ***Class Diagram***          | |image329| |
 +------------------------------+------------+
 
-Web Services 
+Web Services
 -------------
 
 A Web Service is used for exchanging data between applications or
