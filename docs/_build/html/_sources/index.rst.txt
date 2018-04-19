@@ -18,7 +18,7 @@ Welcome to the openIMIS technical documenation repository.
    :maxdepth: 2
    :caption: Functional design
 
-   functional_design_specification
+.. functional_design_specification
 
 
 
