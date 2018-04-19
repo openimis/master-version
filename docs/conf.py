@@ -90,9 +90,7 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 html_static_path = ['_static']
 
 #html_context = {
-#    'css_files': [
-#        '_static/theme_overrides.css',  # override wide tables in RTD theme
-#        ],
+
 #     }
 
 # Custom sidebar templates, must be a dictionary that maps document names
@@ -162,6 +160,6 @@ texinfo_documents = [
      'Miscellaneous'),
 ]
 
-# Add custom CSS
+# Add custom CSS to resize the tables
 def setup(app):
     app.add_stylesheet('css/theme_overrides.css')
