@@ -161,3 +161,7 @@ texinfo_documents = [
      author, 'openIMIS', 'One line description of project.',
      'Miscellaneous'),
 ]
+
+# Add custom CSS
+def setup(app):
+    app.add_stylesheet('css/theme_overrides.css')
