@@ -77,31 +77,31 @@ Users’ roles and rights
 |                       |     facility          |                       |
 |                       |     sub-accounts.     |                       |
 +-----------------------+-----------------------+-----------------------+
-|     Clerk             |     Enters and        |     `Creation/Finding |
-|                       |     modifies data on  | /Modification         |
-|                       |     families,         |     /Deleting <#famil |
-|                       |     insurees,         | y-overview-page.>`__  |
-|                       |     policies and      |     of a              |
-|                       |     contributions.    |     `Household-group  |
-|                       |                       | <#familygroup-page>`_ |
-|                       |     Enters data on    | _,                    |
-|                       |     claims if the     |     an                |
-|                       |     claims are        |     `Insure <#insuree |
-|                       |     submitted in a    | -page>`__\ e,         |
-|                       |     paper form        |     a                 |
-|                       |                       |     `Policy <#policy- |
-|                       |                       | page>`__              |
-|                       |                       |     or a              |
-|                       |                       |     `Contribution <#c |
-|                       |                       | ontribution-page>`__. |
+|     Clerk             |                       | `Creation/Search/Mod  |
+|                       |     Enters and        | ification/Deletion    |
+|                       |     modifies data on  | /Modification <#famil |
+|                       |     families,         | y-overview-page>`__   |
+|                       |     insurees,         | of a `household/group |
+|                       |     policies and      | <#family-group-page>`_|
+|                       |     contributions.    | , an `Insuree <#insur |
+|                       |                       | ee-page>`__, a        |
+|                       |     Enters data on    | `Policy <#policy-     |
+|                       |     claims if the     | page>`__              |
+|                       |     claims are        | or a                  |
+|                       |     submitted in a    | `Contribution <#c     |
+|                       |     paper form        | ontribution-page>`__. |
 |                       |                       |                       |
-|                       |                       |     `Renewal of a     |
-|                       |                       |     policy <#policy-r |
+|                       |                       |                       |
+|                       |                       |                       |
+|                       |                       |                       |
+|                       |                       |                       |
+|                       |                       |                       |
+|                       |                       | `Renewal of a         |
+|                       |                       | policy <#policy-r     |
 |                       |                       | enewals>`__           |
 |                       |                       |                       |
-|                       |                       |     `Entry of a       |
-|                       |                       |     claim <#changing- |
-|                       |                       | of-users-password>`__ |
+|                       |                       | `Entry of a           |
+|                       |                       | claim <#claim-page>`__|
 +-----------------------+-----------------------+-----------------------+
 |     Medical Officer   |     Provides          |     Checking of a     |
 |                       |     technical advice  |     claim for         |
@@ -112,77 +112,74 @@ Users’ roles and rights
 |                       |                       |     Authorize a claim |
 |                       |                       |     for payment       |
 +-----------------------+-----------------------+-----------------------+
-|     Scheme            |     Administers       |     `Administer       |
-|     Administrator     |     registers (all    |     registers <#admin |
+|     Scheme            |     Administers       | `Administer           |
+|     Administrator     |     registers (all    | registers <#admin     |
 |                       |     except the        | istration-of-register |
 |                       |     register of       | s>`__                 |
-|                       |     users)            |     (`Officers <#heal |
+|                       |     users)            | (`Officers <#heal     |
 |                       |                       | th-facilities-adminis |
 |                       |                       | tration>`__,          |
-|                       |                       |     `Payers <#health- |
+|                       |                       | `Payers <#health-     |
 |                       |                       | facilities-administra |
 |                       |                       | tion>`__,             |
-|                       |                       |     `Medical          |
-|                       |                       |     Services <#medica |
+|                       |                       | `Medical              |
+|                       |                       | Services <#medica     |
 |                       |                       | l-service-price-lists |
 |                       |                       | -administration>`__,  |
-|                       |                       |     `Medical          |
-|                       |                       |     Items <#medical-s |
+|                       |                       | `Medical              |
+|                       |                       | Items <#medical-s     |
 |                       |                       | ervice-price-lists-ad |
 |                       |                       | ministration>`__,     |
-|                       |                       |     `Health           |
-|                       |                       |     Facilities <#heal |
+|                       |                       | `Health               |
+|                       |                       | Facilities <#heal     |
 |                       |                       | th-facilities-adminis |
 |                       |                       | tration>`__,          |
-|                       |                       |     `Medical Item     |
-|                       |                       |     Price             |
-|                       |                       |     Lists <#medical-s |
+|                       |                       | `Medical Item         |
+|                       |                       | Price                 |
+|                       |                       | Lists <#medical-s     |
 |                       |                       | ervice-price-lists-ad |
 |                       |                       | ministration>`__,     |
-|                       |                       |     `Medical Services |
-|                       |                       |     Price             |
-|                       |                       |     List, <#medical-s |
+|                       |                       | `Medical Services     |
+|                       |                       | Price                 |
+|                       |                       | List, <#medical-s     |
 |                       |                       | ervice-price-lists-ad |
 |                       |                       | ministration>`__      |
-|                       |                       |     `Products <#claim |
+|                       |                       | `Products <#claim     |
 |                       |                       | -administrators-admin |
 |                       |                       | istration>`__),       |
-|                       |                       |     `Extract Creation |
-|                       |                       |     for Off-line      |
-|                       |                       |     Health            |
-|                       |                       |     Facilities <#imis |
-|                       |                       | -extracts-online-mode |
-|                       |                       | >`__                  |
+|                       |                       | `Extract Creation     |
+|                       |                       | for Off-line          |
+|                       |                       | Health                |
+|                       |                       | Facilities <#imis-ext |
+|                       |                       | racts-online-mode>`__ |
 +-----------------------+-----------------------+-----------------------+
-|     IMIS              |     Administers       |     Administer the    |
-|     Administrator     |     operations of the |     register of       |
-|                       |     IMIS. Is          |     `users <#_User_Ad |
+|     IMIS              |     Administers       | Administer the        |
+|     Administrator     |     operations of the | register of           |
+|                       |     IMIS. Is          | `users <#_User_Ad     |
 |                       |     responsible for   | ministration>`__      |
-|                       |     backups of data.  |     (of the           |
-|                       |                       |     IMIS),\ `Utilitie |
-|                       |                       | s <#utilities>`__,    |
-|                       |                       |     `Backup <#backup> |
-|                       |                       | `__,                  |
-|                       |                       |     `Restore <#restor |
+|                       |     backups of data.  | ,\ `Utilities         |
+|                       |                       | <#utilities>`__,      | 
+|                       |                       | `Backup <#backup>`__, |
+|                       |                       | `Restore <#restor     |
 |                       |                       | e>`__                 |
-|                       |                       |     and               |
-|                       |                       |     `Updates <#execut |
+|                       |                       | and                   |
+|                       |                       | `Updates <#execut     |
 |                       |                       | e-script>`__,         |
-|                       |                       |     `Extract Creation |
-|                       |                       |     for Off-line      |
-|                       |                       |     Health            |
-|                       |                       |     Facilities <#imis |
-|                       |                       | -extracts-online-mode |
-|                       |                       | >`__                  |
+|                       |                       | `Extract Creation     |
+|                       |                       | for Off-line          |
+|                       |                       | Health                |
+|                       |                       | Facilities <#imis     |
+|                       |                       | <#imis-extracts-onlin |
+|                       |                       | e-mode>`__            |
 +-----------------------+-----------------------+-----------------------+
 |     **Health Facilities staff**                                       |
 +-----------------------+-----------------------+-----------------------+
-|     Receptionist      |     Verifies          |     Inquiring on a    |
-|                       |     membership and    |     Household/group,  |
-|                       |     issues to a       |     `Insuree <#find-i |
+|     Receptionist      |     Verifies          | Inquiring on a        |
+|                       |     membership and    | Household/group,      |
+|                       |     issues to a       | `Insuree <#find-i     |
 |                       |     patient a claim   | nsuree>`__            |
-|                       |     form.             |     and               |
-|                       |                       |     `Policy <#_Image_ |
+|                       |     form.             | and                   |
+|                       |                       | `Policy <#_Image_     |
 |                       |                       | 4.16_(Find>`__        |
 +-----------------------+-----------------------+-----------------------+
 |     Claim             |     Pools claim forms |     Opening of a      |
@@ -191,10 +188,10 @@ Users’ roles and rights
 |                       |     and submits       |     Entry of a claim  |
 |                       |     claims.           |                       |
 +-----------------------+-----------------------+-----------------------+
-|     HF                |     Off-line Health   |     `Off-line extract |
-|     Administrator     |     Facility          |     upload <#imis-ext |
-|                       |     administration,   | racts-offline-mode>`_ |
-|                       |     Off-line extract  | _                     |
+|     HF                |     Off-line Health   | `Off-line extract     |
+|     Administrator     |     Facility          | upload <#imis-ext     |
+|                       |     administration,   | racts-offline-mode>`__|
+|                       |     Off-line extract  |                       |
 |                       |     upload            |                       |
 +-----------------------+-----------------------+-----------------------+
 |     Offline           |     Creation of clerk |                       |
@@ -328,6 +325,7 @@ The ``Product Control Page`` is the central point for administration of insuranc
     +---------+---------+---------+
     | |logo1| | |logo2| | |logo2| |
     +---------+---------+---------+
+
       `Image 6 - Calendar Selector - Search Panel`
 
   -  ``Region``
@@ -485,6 +483,7 @@ Product Page
       Enter duration of the administration period in months. The administration period is added to the enrolment date/renewal date for determination of the policy start date.
 
     -  ``Max Instalments``
+
       Enter maximal number of instalments in which contributions for a policy may be paid. Mandatory.
 
     -  ``Grace Period Payment``
@@ -850,7 +849,7 @@ Product Page
     -  *Insured population living in catchments area of the health facility*
     -  *Insured number of families living in catchments area of the health facility*
     -  *Number of claims (contacts) with the health facility by insured in the catchment area*
-    -  *Adjusted amount*
+    -  *Adjusted amount*\
 
   :math:`\text{AllocatedContribution}` *is the amount of contributions for given insurance product for given period *
 
@@ -1516,19 +1515,19 @@ Navigation
 
 All functionality for use with the administration of price lists medical services can be found under the main menu ``Administration``, sub menu ``Price Lists`` and sub menu ``Medical Services``
 
-.. _image35:
+.. _image36:
 .. figure:: /img/user_manual/image35.png
   :align: center
 
-  `Image 35 - Navigation Medical Services Price Lists`
+  `Image 36 - Navigation Medical Services Price Lists`
 
 Clicking on the sub menu ``Medical Services`` re-directs the current user to the `Price List Medical Services Control Panel. <#price-list-medical-services-control-page>`__
 
-.. _image36:
+.. _image37:
 .. figure:: /img/user_manual/image36.png
   :align: center
 
-  `Image 36 - Price List Medical Service Control Panel`
+  `Image 37 - Price List Medical Service Control Panel`
 
 Price List Medical Services Control Page
 """"""""""""""""""""""""""""""""""""""""
@@ -1549,7 +1548,7 @@ The ``Price List Medical Services Control Page`` is the central point for admini
 
     -  ``Date Selector Button``
 
-      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`image37`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
+      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`image38`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
       -  Anytime during the use of the pop-up, the user can see the date of today.
       -  Clicking on today will close the pop-up and display the today’s date in the corresponding date entry box.
@@ -1559,7 +1558,7 @@ The ``Price List Medical Services Control Page`` is the central point for admini
       -  Clicking on the month will display all the months for the year.
       -  Clicking on the year will display a year selector.
 
-      .. _image37:
+      .. _image38:
       .. |logo12| image:: /img/user_manual/image6.png
         :scale: 100%
         :align: middle
@@ -1574,7 +1573,7 @@ The ``Price List Medical Services Control Page`` is the central point for admini
       | |logo12| || |logo13||| |logo14||
       +----------++---------++---------+
 
-        `Image 37 - Calendar Selector - Search Panel`
+        `Image 38 - Calendar Selector - Search Panel`
 
     -  ``Region``
 
@@ -1586,13 +1585,13 @@ The ``Price List Medical Services Control Page`` is the central point for admini
 
     -  ``Historical``
 
-      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`image38`)
+      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`image39`)
 
-    .. _image38:
+    .. _image39:
     .. figure:: /img/user_manual/image37.png
       :align: center
 
-      `Image 38 - Historical records - Result Panel`
+      `Image 39 - Historical records - Result Panel`
 
     -  ``Search button``
 
@@ -1600,21 +1599,21 @@ The ``Price List Medical Services Control Page`` is the central point for admini
 
   B. Result Panel
 
-  The Result Panel displays a list of all price lists of medical services found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image39`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
+  The Result Panel displays a list of all price lists of medical services found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image40`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
 
-  .. _image39:
+  .. _image40:
   .. figure:: /img/user_manual/image38.png
     :align: center
 
-    `Image 39 - Selected record (blue), hovered records (yellow) - Result Panel`
+    `Image 40 - Selected record (blue), hovered records (yellow) - Result Panel`
 
-  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`image40`)
+  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`image41`)
 
-  .. _image40:
+  .. _image41:
   .. figure:: /img/user_manual/image11.png
     :align: center
 
-    `Image 40 - Page selector- Result Panel`
+    `Image 41 - Page selector- Result Panel`
 
   C. Button Panel
 
@@ -1629,12 +1628,11 @@ Price List Medical Services Page
 
   **1. Data Entry**
 
-
-  .. _image41:
+  .. _image42:
   .. figure:: /img/user_manual/image39.png
     :align: center
 
-    `Image 41 - Price List Medical Service Page`
+    `Image 42 - Price List Medical Service Page`
 
 ..
 
@@ -1696,13 +1694,13 @@ Deleting a Price List of Medical Services
 
 Click on the ``Delete`` button to delete the currently selected record.
 
-Before deleting a confirmation popup (:ref:`image42`) is displayed, which requires the user to confirm if the action should really be carried out?
+Before deleting a confirmation popup (:ref:`image43`) is displayed, which requires the user to confirm if the action should really be carried out?
 
-.. _image42:
+.. _image43:
 .. figure:: /img/user_manual/image24.png
   :align: center
 
-  `Image 42 - Delete Confirmation - Button Panel`
+  `Image 43 - Delete Confirmation - Button Panel`
 
 When a price list medical service is deleted, all records retaining to the deleted price list medical service will still be available by selecting historical records.
 
@@ -1721,24 +1719,24 @@ Navigation
 
 All functionality for use with the administration of medical items price lists can be found under the main menu ``Administration``, sub menu ``Price Lists``, sub menu ``Medical Items.``
 
-.. _image43:
+.. _image44:
 .. figure:: /img/user_manual/image40.png
   :align: center
 
-  `Image 43 - Navigation Price Lists Medical Items`
+  `Image 44 - Navigation Price Lists Medical Items`
 
 Clicking on the sub menu ``Medical Items`` re-directs the current user to the `Price List Medical Items Control Page <#price-list-medical-items-control-page>`__\ .
 
-.. _image44:
+.. _image45:
 .. figure:: /img/user_manual/image41.png
   :align: center
 
-  `Image 44 - Price List Medical Items Control Page`
+  `Image 45 - Price List Medical Items Control Page`
 
 Price List Medical Items Control Page
 """""""""""""""""""""""""""""""""""""
 
-The ``Price List Medical Items Control Page`` is the central point for all medical item price list administration. By having access to this panel, it is possible to add, edit, delete and search. The panel is divided into four panels (:ref:`image47`).
+The ``Price List Medical Items Control Page`` is the central point for all medical item price list administration. By having access to this panel, it is possible to add, edit, delete and search. The panel is divided into four panels (:ref:`image48`).
 
   A. Search Panel
 
@@ -1750,7 +1748,7 @@ The ``Price List Medical Items Control Page`` is the central point for all medic
 
   -  ``Date``
 
-    Type in the full ``Date`` to search for price lists of medical items with a creation Date which matches completely, the typed date. *`Note: You can also use the button next to the date field to select a date.*
+    Type in the full ``Date`` to search for price lists of medical items with a creation Date which matches completely, the typed date. *Note: You can also use the button next to the date field to select a date.*
 
   -  ``Date Selector Button``
 
@@ -1763,7 +1761,7 @@ The ``Price List Medical Items Control Page`` is the central point for all medic
     -  Clicking on the arrow on the right will displays the following month.-  Clicking on the month will display all the months for the year.
     -  Clicking on the year will display a year selector.
 
-    .. _image45:
+    .. _image46:
     .. |logo15| image:: /img/user_manual/image6.png
       :scale: 100%
     .. |logo16| image:: /img/user_manual/image7.png
@@ -1775,7 +1773,7 @@ The ``Price List Medical Items Control Page`` is the central point for all medic
     ||logo15|||logo16|||logo17||
     +--------+--------+--------+
 
-      `Image 45 - Calendar Selector - Search Panel`
+      `Image 46 - Calendar Selector - Search Panel`
 
   -  ``Region``
 
@@ -1787,13 +1785,13 @@ The ``Price List Medical Items Control Page`` is the central point for all medic
 
   -  ``Historical``
 
-    Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`image46`).
+    Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`image47`).
 
-  .. _image46:
+  .. _image47:
   .. figure:: /img/user_manual/image42.png
    :align: center
 
-   `Image 46 - Historical records - Result Panel`
+   `Image 47 - Historical records - Result Panel`
 
   -  ``Search button``
 
@@ -1801,21 +1799,21 @@ The ``Price List Medical Items Control Page`` is the central point for all medic
 
   B. Result Panel
 
-  The Result Panel displays a list of all price lists of medical items found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image47`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
+  The Result Panel displays a list of all price lists of medical items found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image48`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
 
-  .. _image47:
+  .. _image48:
   .. figure:: /img/user_manual/image43.png
    :align: center
 
-   `Image 47 - Selected record (blue), hovered records (yellow) - Result Panel`
+   `Image 48 - Selected record (blue), hovered records (yellow) - Result Panel`
 
-  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`image48`)
+  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`image49`)
 
-  .. _image48:
+  .. _image49:
   .. figure:: /img/user_manual/image11.png
    :align: center
 
-   `Image 48 - Page selector- Result Panel`
+   `Image 49 - Page selector- Result Panel`
 
   C. Button Panel
 
@@ -1830,11 +1828,11 @@ Price List Medical Item Page
 
   **1. Data entry**
 
-  .. _image49:
+  .. _image50:
   .. figure:: /img/user_manual/image44.png
     :align: center
 
-    `Image 49 - Price List Medical Item Page`
+    `Image 50 - Price List Medical Item Page`
 
 ..
 
@@ -1896,13 +1894,13 @@ Deleting a Price List of Medical Items
 
 Click on the ``Delete`` button to delete the currently selected record\; the user is re-directed to the `Price List Medical Items Control Page <#medical-items-control-page>`__\.
 
-Before deleting a confirmation popup (:ref:`image50`) is displayed, which requires the user to confirm if the action should really be carried out?
+Before deleting a confirmation popup (:ref:`image51`) is displayed, which requires the user to confirm if the action should really be carried out?
 
-.. _image50:
+.. _image51:
 .. figure:: /img/user_manual/image24.png
   :align: center
 
-  `Image 50 - Delete confirmation- Button Panel`
+  `Image 51 - Delete confirmation- Button Panel`
 
 When a price list of medical items is deleted, all records retaining to the deleted price list of medical items will still be available by selecting historical records.
 
@@ -1921,19 +1919,19 @@ Navigation
 
 All functionality for use with the administration of users can be found under the main menu ``Administration``, sub menu ``Users``.
 
-.. _image51:
+.. _image52:
 .. figure:: /img/user_manual/image45.png
   :align: center
 
-  `Image 51 - Navigation Users`
+  `Image 52 - Navigation Users`
 
 Clicking on the sub menu ``Users`` re-directs the current user to the `User Control Page <#user-control-page>`__\ .
 
- .. _image52:
+ .. _image53:
  .. figure:: /img/user_manual/image46.png
    :align: center
 
-   `Image 52 - User Control Page`
+   `Image 53 - User Control Page`
 
 User Control Page
 """""""""""""""""
@@ -1986,13 +1984,13 @@ The ``User Control Page`` is the central point for all user administration. By h
 
     -  ``Historical``
 
-      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`image53`).
+      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`image54`).
 
-    .. _image53:
+    .. _image54:
     .. figure:: /img/user_manual/image47.png
       :align: center
 
-      `Image 53 - Historical records - Result Panel`
+      `Image 54 - Historical records - Result Panel`
 
     -  ``Search Button``
 
@@ -2000,21 +1998,21 @@ The ``User Control Page`` is the central point for all user administration. By h
 
   B. Result Panel
 
-  .. _image54:
+  .. _image55:
   .. figure:: /img/user_manual/image47.png
     :align: center
 
-    `Image 54 - Selected record (blue), hovered records (yellow) - Result Panel`
+    `Image 55 - Selected record (blue), hovered records (yellow) - Result Panel`
 
-  The result panel displays a list of all users found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image54`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
+  The result panel displays a list of all users found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image55`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
 
-  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`image55`)
+  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`image56`)
 
-  .. _image55:
+  .. _image56:
   .. figure:: /img/user_manual/image11.png
     :align: center
 
-    `Image 55 - Page selector- Result Panel`
+    `Image 56 - Page selector- Result Panel`
 
   C. Button Panel
 
@@ -2025,15 +2023,15 @@ The ``User Control Page`` is the central point for all user administration. By h
   The Information Panel is used to display messages back to the user. Messages will occur once a user has been added, updated or deleted or if there was an error at any time during the process of these actions.
 
 ­User Page
-"""""""""
+""""""""""
 
   **1. Data Entry**
 
-  .. _image56:
+  .. _image57:
   .. figure:: /img/user_manual/image49.png
     :align: center
 
-    `Image 56 - User Page`
+    `Image 57 - User Page`
 
 ..
 
@@ -2118,13 +2116,13 @@ Deleting a User
 
 Click on the Delete button to delete the currently selected record
 
-Before deleting a confirmation popup (:ref:`image57`) is displayed, this requires the user to confirm if the action should really be carried out.
+Before deleting a confirmation popup (:ref:`image58`) is displayed, this requires the user to confirm if the action should really be carried out.
 
-.. _image57:
+.. _image58:
 .. figure:: /img/user_manual/image24.png
   :align: center
 
-  `Image 57 - Delete confirmation- Button Panel`
+  `Image 58 - Delete confirmation- Button Panel`
 
 When a user is deleted, all records retaining to the deleted user will still be available by selecting historical records.
 
@@ -2143,24 +2141,24 @@ Navigation
 
 All functionality for use with the administration of enrolment officers can be found under the main menu ``Administration``, sub menu ``Enrolment Officers``.
 
-.. _image58:
+.. _image59:
 .. figure:: /img/user_manual/image50.png
   :align: center
 
-  `Image 58 - Navigation Enrolment Officers`
+  `Image 59 - Navigation Enrolment Officers`
 
 Clicking on the sub menu ``Enrolment Officers`` re-directs the current user to the `Enrolment Officers Control Page. <#enrolment-officers-control-page>`__.
 
-.. _image59:
+.. _image60:
 .. figure:: /img/user_manual/image51.png
   :align: center
 
-  `Image 59 - Enrolment Officers Control Page`
+  `Image 60 - Enrolment Officers Control Page`
 
 Enrolment Officers Control Page
 """""""""""""""""""""""""""""""
 
-The Enrolment Officers Control Page is the central point for all enrolment officer administration. By having access to this page, it is possible to add, edit, delete and search. The page is divided into four panels (:ref:`image59`).
+The Enrolment Officers Control Page is the central point for all enrolment officer administration. By having access to this page, it is possible to add, edit, delete and search. The page is divided into four panels (:ref:`image60`).
 
   A. Search Panel
 
@@ -2172,7 +2170,7 @@ The Enrolment Officers Control Page is the central point for all enrolment offic
 
     -  ``Code``
 
-      Type in the beginning of; or the full ``Code`` to search for officers with a ``Code, that starts with or matches completely, the typed text.
+      Type in the beginning of; or the full ``Code`` to search for officers with a ``Code``, that starts with or matches completely, the typed text.
 
     -  ``Other Names``
 
@@ -2188,7 +2186,7 @@ The Enrolment Officers Control Page is the central point for all enrolment offic
 
     -  ``Date Selector button``
 
-      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`image60`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
+      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`image61`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
       -  At anytime during the use of the pop-up, the user can see the date of *today*.
       -  Clicking on *today* will close the pop-up and display the today’s date in the corresponding date entry box.
@@ -2198,14 +2196,14 @@ The Enrolment Officers Control Page is the central point for all enrolment offic
       -  Clicking on the month will display all the months for the year.
       -  Clicking on the year will display a year selector.
 
-      .. _image60:
-      .. |logo12| image:: /img/user_manual/image6.png
+      .. _image61:
+      .. |logo18| image:: /img/user_manual/image6.png
         :scale: 100%
         :align: middle
-      .. |logo13| image:: /img/user_manual/image7.png
+      .. |logo19| image:: /img/user_manual/image7.png
         :scale: 100%
         :align: middle
-      .. |logo14| image:: /img/user_manual/image8.png
+      .. |logo20| image:: /img/user_manual/image8.png
         :scale: 100%
         :align: middle
 
@@ -2213,7 +2211,7 @@ The Enrolment Officers Control Page is the central point for all enrolment offic
       | |logo18| || |logo19||| |logo20||
       +----------++---------++---------+
 
-        `Image 60 - Calendar Selector - Search Panel`
+        `Image 61 - Calendar Selector - Search Panel`
 
     -  ``Region``
 
@@ -2233,13 +2231,13 @@ The Enrolment Officers Control Page is the central point for all enrolment offic
 
     -  ``Historical``
 
-      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`image61`).
+      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`image62`).
 
-    .. _image61:
+    .. _image62:
     .. figure:: /img/user_manual/image52.png
       :align: center
 
-      `Image 61 - Historical records - Result Panel`
+      `Image 62 - Historical records - Result Panel`
 
     -  ``Search Button``
 
@@ -2247,21 +2245,21 @@ The Enrolment Officers Control Page is the central point for all enrolment offic
 
   B. Result Panel
 
-  .. _image62:
+  .. _image63:
   .. figure:: /img/user_manual/image53.png
     :align: center
 
-    `Image 62  - Selected record (blue), hovered records (yellow) - Result Panel`
+    `Image 63  - Selected record (blue), hovered records (yellow) - Result Panel`
 
-  The result panel displays a list of all officers found, matching the selected Criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image62`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
+  The result panel displays a list of all officers found, matching the selected Criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image63`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
 
-  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`image63`)
+  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`image64`)
 
-  .. _image63:
+  .. _image64:
   .. figure:: /img/user_manual/image11.png
     :align: center
 
-    `Image 63 - Page selector- Result Panel`
+    `Image 64 - Page selector- Result Panel`
 
   C. Button Panel
 
@@ -2276,11 +2274,11 @@ Enrolment Officer Page
 
   **1. Data Entry**
 
-  .. _image64:
+  .. _image65:
   .. figure:: /img/user_manual/image54.png
     :align: center
 
-    `Image 64 - Enrolment Officer Page`
+    `Image 65 - Enrolment Officer Page`
 
   ``Enrolment Officers Details``
 
@@ -2318,7 +2316,7 @@ Enrolment Officer Page
 
     -  ``District``
 
-      Select from the list of available districts the district in which the enrolment officer will act. `*Note: The list will be only filled with the districts belonging to the selected region.`* Mandatory .
+      Select from the list of available districts the district in which the enrolment officer will act. *Note: The list will be only filled with the districts belonging to the selected region.* Mandatory .
 
     -  ``Substitution``
 
@@ -2397,13 +2395,13 @@ Deleting an Enrolment Officer
 
 Click on the ``Delete`` button to delete the currently selected record.
 
-Before deleting a confirmation popup (:ref:`image65`) is displayed, which requires the user to confirm if the action should really be carried out?
+Before deleting a confirmation popup (:ref:`image66`) is displayed, which requires the user to confirm if the action should really be carried out?
 
-.. _image65:
+.. _image66:
 .. figure:: /img/user_manual/image24.png
   :align: center
 
-  `Image 65 - Delete confirmation- Button Panel`
+  `Image 66 - Delete confirmation- Button Panel`
 
 When an officer is deleted, all records retaining to the deleted officer will still be available by selecting historical records.
 
@@ -2422,24 +2420,24 @@ Navigation
 
 All functionality for use with the administration of claim administrators can be found under the main menu ``Administration``, submenu ``Claim Administrators``.
 
-.. _image66:
+.. _image67:
 .. figure:: /img/user_manual/image60.png
   :align: center
 
-  `Image 66 - Navigation Claim Administrators`
+  `Image 67 - Navigation Claim Administrators`
 
 Clicking on the sub menu ``Claim Administrators`` re-directs the current user to the `Claim Administrators Control Page. <#claim-administrators-control-page>`__
 
-.. _image67:
+.. _image68:
 .. figure:: /img/user_manual/image56.png
   :align: center
 
-  `Image 67 - Claim Administrators Control Page`
+  `Image 68 - Claim Administrators Control Page`
 
 Claim Administrators Control Page
 """""""""""""""""""""""""""""""""
 
-The ``Claim Administrators Control Page`` is the central point for all claim administrators administration. By having access to this panel, it is possible to add, edit, delete and search claim administrators. The panel is divided into four panels (:ref:`image67`).
+The ``Claim Administrators Control Page`` is the central point for all claim administrators administration. By having access to this panel, it is possible to add, edit, delete and search claim administrators. The panel is divided into four panels (:ref:`image68`).
 
   A. Search Panel
 
@@ -2467,7 +2465,7 @@ The ``Claim Administrators Control Page`` is the central point for all claim adm
 
     -  ``Date Selector Button``
 
-      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`image68`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
+      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`image69`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
       -  At any time during the use of the pop-up, the user can see the date of *today*.
       -  Clicking on *today* will close the pop-up and display the today’s date in the corresponding date entry box.
@@ -2477,7 +2475,7 @@ The ``Claim Administrators Control Page`` is the central point for all claim adm
       -  Clicking on the month will display all the months for the year.
       -  Clicking on the year will display a year selector.
 
-      .. _image68:
+      .. _image69:
       .. |logo21| image:: /img/user_manual/image6.png
         :scale: 100%
         :align: middle
@@ -2489,10 +2487,10 @@ The ``Claim Administrators Control Page`` is the central point for all claim adm
         :align: middle
 
       +----------++----------++----------+
-      | |logo20| || |logo21| || |logo22 ||
+      | |logo21| || |logo22| || |logo23| |
       +----------++----------++----------+
 
-        `Image 68 - Calendar Selector - Search Panel`
+        `Image 69 - Calendar Selector - Search Panel`
 
     -  ``HF Code``
 
@@ -2506,15 +2504,15 @@ The ``Claim Administrators Control Page`` is the central point for all claim adm
 
       Type in the beginning of; or the full ``email`` to search for claim administrators with an e-mail\ , which starts with or matches completely, the typed text.
 
-    -  ``Historical ``
+    -  ``Historical``
 
-      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`image69`).
+      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`image70`).
 
-    .. _image69:
+    .. _image70:
     .. figure:: /img/user_manual/image57.png
       :align: center
 
-      `Image 69 - Historical records - Result Panel`
+      `Image 70 - Historical records - Result Panel`
 
     -  ``Search Button``
 
@@ -2522,21 +2520,21 @@ The ``Claim Administrators Control Page`` is the central point for all claim adm
 
   B. Result Panel
 
-  The Result Panel displays a list of all claim administrators found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image70`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
+  The Result Panel displays a list of all claim administrators found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image71`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
 
-  .. _image70:
+  .. _image71:
   .. figure:: /img/user_manual/image58.png
     :align: center
 
-    `Image 70 - Selected record (blue), hovered records (yellow) - Result Panel`
+    `Image 71 - Selected record (blue), hovered records (yellow) - Result Panel`
 
-  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`image71`)
+  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`image72`)
 
-  .. _image71:
+  .. _image72:
   .. figure:: /img/user_manual/image11.png
     :align: center
 
-    `Image 71 - Page selector- Result Panel`
+    `Image 72 - Page selector- Result Panel`
 
   C. Button Panel
 
@@ -2551,11 +2549,11 @@ Claim Administrator Page
 
   **1. Data Entry**
 
-  .. _image72:
+  .. _image73:
   .. figure:: /img/user_manual/image59.png
     :align: center
 
-    `Image 72 - Claim Administrator Page`
+    `Image 73 - Claim Administrator Page`
 
   ``claim administrator details``
 
@@ -2618,13 +2616,13 @@ Deleting a Claim Administrator
 
 Click on the ``Delete`` button to delete the currently selected record
 
-Before deleting a confirmation popup (:ref:`image73`) is displayed, which requires the user to confirm if the action should really be carried out.
+Before deleting a confirmation popup (:ref:`image74`) is displayed, which requires the user to confirm if the action should really be carried out.
 
-.. _image73:
+.. _image74:
 .. figure:: /img/user_manual/image24.png
   :align: center
 
-  `Image 73 - Delete confirmation- Button Panel`
+  `Image 74 - Delete confirmation- Button Panel`
 
 When a claim administrator is deleted, all records retaining to the deleted claim administrator will still be available by selecting historical records.
 
@@ -2641,26 +2639,26 @@ A payer may only be added or thereafter edited or deleted, after the approval of
 Navigation
 ~~~~~~~~~~
 
-.. _image74:
+.. _image75:
 .. figure:: /img/user_manual/image60.png
   :align: center
 
-  `Image 74 - Navigation Payers`
+  `Image 75 - Navigation Payers`
 
 All functionality for use with the administration of payers can be found under the main menu ``Administration``, sub menu ``Payers.``
 
-.. _image75:
+.. _image76:
 .. figure:: /img/user_manual/image61.png
   :align: center
 
-  `Image 75 - Payers Control Page`
+  `Image 76 - Payers Control Page`
 
 Clicking on the sub menu ``Payers`` re-directs the current user to the `Payer Control Page <#payer-control-page>`__\.
 
 Payer Control Page
 ~~~~~~~~~~~~~~~~~~
 
-The Payer control Page is the central point for all payer administration. By having access to this page, it is possible to add, edit, delete and search (institutional) payers. The page is divided into four panels (:ref:`image75`).
+The Payer control Page is the central point for all payer administration. By having access to this page, it is possible to add, edit, delete and search (institutional) payers. The page is divided into four panels (:ref:`image76`).
 
   A. Search Panel
 
@@ -2692,13 +2690,13 @@ The Payer control Page is the central point for all payer administration. By hav
 
     -  ``Historical``
 
-      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`image76`).
+      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`image77`).
 
-    .. _image76:
+    .. _image77:
     .. figure:: /img/user_manual/image62.png
       :align: center
 
-      `Image 76 - Historical records - Result Panel`
+      `Image 77 - Historical records - Result Panel`
 
     -  ``Search Button``
 
@@ -2706,21 +2704,21 @@ The Payer control Page is the central point for all payer administration. By hav
 
   B. Result Panel
 
-  .. _image77:
+  .. _image78:
   .. figure:: /img/user_manual/image63.png
     :align: center
 
-    `Image 77 - Selected record (blue), hovered records (yellow) - Result Panel`
+    `Image 78 - Selected record (blue), hovered records (yellow) - Result Panel`
 
-  The result panel displays a list of all payers found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image77`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
+  The result panel displays a list of all payers found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image78`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
 
-  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`image78`).
+  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`image79`).
 
-  .. _image78:
+  .. _image79:
   .. figure:: /img/user_manual/image11.png
     :align: center
 
-    `Image 78 - Page selector- Result Panel`
+    `Image 79 - Page selector- Result Panel`
 
   C. Button Panel
 
@@ -2735,11 +2733,11 @@ Payer Page
 
   **1. Data Entry**
 
-  .. _image78:
+  .. _image80:
   .. figure:: /img/user_manual/image64.png
     :align: center
 
-    `Image 78 - Payer Page`
+    `Image 80 - Payer Page`
 
 ..
 
@@ -2806,13 +2804,13 @@ Deleting a Payer
 
 Click on the Delete button to delete the currently selected record.
 
-Before deleting a confirmation popup (:ref:`image79`) is displayed, which requires the user to confirm if the action should really be carried out?
+Before deleting a confirmation popup (:ref:`image81`) is displayed, which requires the user to confirm if the action should really be carried out?
 
-.. _image79:
+.. _image81:
 .. figure:: /img/user_manual/image24.png
   :align: center
 
-  `Image 79 - Delete confirmation- Button Panel`
+  `Image 81 - Delete confirmation- Button Panel`
 
 When a payer is deleted, all records retaining to the deleted payer will still be available by selecting historical records.
 
@@ -2831,24 +2829,24 @@ Navigation
 
 All functionality for use with the administration of locations can be found under the main menu ``Administration``, sub menu ``Locations.``
 
-.. _image80:
+.. _image82:
 .. figure:: /img/user_manual/image65.png
   :align: center
 
-  `Image 80 - Navigation Locations`
+  `Image 82 - Navigation Locations`
 
 Clicking on the sub menu ``Locations`` re-directs the current user to the `Locations Page. <#locations-page>`__
 
-.. _image81:
+.. _image83:
 .. figure:: /img/user_manual/image66.png
   :align: center
 
-  `Image 81 - Locations Page`
+  `Image 83 - Locations Page`
 
 Locations Page
 """"""""""""""
 
-The Locations page is the central point for all locations administration. By having access to this page, it is possible to add, edit, delete and move regions, districts, municipalities and villages. The page is divided into three panels (:ref:`image81`). *Note. Only regions and districts with associated municipalities and villages, belonging to the logged in user will be available to edit or delete. On adding a new region or district, the user will automatically become associated with this region or district.*
+The Locations page is the central point for all locations administration. By having access to this page, it is possible to add, edit, delete and move regions, districts, municipalities and villages. The page is divided into three panels (:ref:`image83`). *Note. Only regions and districts with associated municipalities and villages, belonging to the logged in user will be available to edit or delete. On adding a new region or district, the user will automatically become associated with this region or district.*
 
   A. Locations Panel
 
@@ -2858,11 +2856,11 @@ The Locations page is the central point for all locations administration. By hav
 
   It has four buttons, ``Add``, ``Edit``, ``Delete`` and ``Move`` for actions on the locations and the ``Cancel`` button for re-directing to the `Home Page <#image-2.2-home-page>`__\.
 
-  .. _image82:
+  .. _image84:
   .. figure:: /img/user_manual/image67.png
     :align: center
 
-    `Image 82 - Action Buttons - Locations Page`
+    `Image 84 - Action Buttons - Locations Page`
 
   C. Information Panel
 
@@ -2887,26 +2885,26 @@ Deleting a Region, District, Municipality, Village
 
 Select first the location to delete and click the ``Delete`` button. *Note. It is not possible to delete a region, district or municipality with associated districts, municipalities or villages respectively.*
 
-Before deleting a confirmation popup (:ref:`image83`) is displayed, which requires the user to confirm if the action should really be carried out?
+Before deleting a confirmation popup (:ref:`image85`) is displayed, which requires the user to confirm if the action should really be carried out?
 
-.. _image83:
+.. _image85:
 .. figure:: /img/user_manual/image24.png
   :align: center
 
-  `Image 83 - Delete confirmation – Location Page`
+  `Image 85 - Delete confirmation – Location Page`
 
 When a region, district, municipality or village is deleted, all records retaining to the deleted region, district, municipality or village will still be available by selecting historical records.
 
 Moving a District, Municipality, Village
 """"""""""""""""""""""""""""""""""""""""
 
-Moving of a location is needed when the administrative division of the territory, on which a health insurance scheme is active, changes. Clicking on the ``Move`` button will re-direct to the Move Location Page (:ref:`image84`).
+Moving of a location is needed when the administrative division of the territory, on which a health insurance scheme is active, changes. Clicking on the ``Move`` button will re-direct to the Move Location Page (:ref:`image86`).
 
-.. _image84:
+.. _image86:
 .. figure:: /img/user_manual/image68.png
   :align: center
 
-   `Image 84 - Move Location Page`
+  `Image 86 - Move Location Page`
 
 The ``Move Location Page`` is divided into six panels.
 
@@ -2934,13 +2932,13 @@ Insuree Enquiry
 
 This functionality is available to users will all roles. The function Insuree Enquiry can be accessed at any time, after login. On the top right hand of the main menu, there is a search feature, allowing the user to enter an Insurance Number for a “quick enquiry”.
 
-.. _image85:
+.. _image87:
 .. figure:: /img/user_manual/image69.png
   :align: center
 
-  `Image 85 - Insuree Enquiry Field`
+  `Image 87 - Insuree Enquiry Field`
 
-By typing in a valid insurance­­­­­­­ number and pressing the enter key or clicking on the green search button, a pop-up will appear (:ref:`image86`), providing a photo of the insuree and information about the current policy or policies covering of the insuree.
+By typing in a valid insurance­­­­­­­ number and pressing the enter key or clicking on the green search button, a pop-up will appear (:ref:`image87`), providing a photo of the insuree and information about the current policy or policies covering of the insuree.
 
 The Information includes the following:
 
@@ -2951,11 +2949,11 @@ The Information includes the following:
   -  The deductible amount remaining for the insuree to pay before the policy is claimable, for hospitals and non-hospitals
   -  The ceiling amount claimable by a health facility on behalf of the insuree for both hospitals and non-hospitals.
 
-.. _image86:
+.. _image88:
 .. figure:: /img/user_manual/image70.png
   :align: center
 
-  `Image 86 - Insuree Enquiry Results`
+  `Image 88 - Insuree Enquiry Results`
 
 Find Family
 ^^^^^^^^^^^
@@ -2972,21 +2970,21 @@ Navigation
 
 Find Family can be found under the main menu ``Insurees and Policies`` sub menu ``Families/Groups``
 
-.. _image87:
+.. _image89:
 .. figure:: /img/user_manual/image71.png
   :align: center
 
-  `Image 87 - Navigation – Families - Find Family`
+  `Image 89 - Navigation – Families - Find Family`
 
 Clicking on the sub menu ``Families/Groups`` re-directs the current user to the `Find Family Page <#find-family-page>`__\.
 
-.. _image88:
+.. _image90:
 .. figure:: /img/user_manual/image72.png
   :align: center
 
-  `Image 88 - Find Families`
+  `Image 90 - Find Families`
 
-The Find Family Page is the first step in the process of finding of a family and thereafter accessing the `Family Overview Page <#family-overview>`__ of insurees, policies and contributions. This initial page can be used to search for specific families or groups based on specific criteria. The page is divided into four panels (:ref:`image88`):
+The Find Family Page is the first step in the process of finding of a family and thereafter accessing the `Family Overview Page <#family-overview>`__ of insurees, policies and contributions. This initial page can be used to search for specific families or groups based on specific criteria. The page is divided into four panels (:ref:`image90`):
 
   A. Search Panel
 
@@ -3018,9 +3016,9 @@ The Find Family Page is the first step in the process of finding of a family and
 
     -  ``Date Selector Button``
 
-      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`image89`) by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
+      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`image91`) by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
-        -  At anytime during the use of the pop-up, the user can see the date of *today*.
+        -  At anytime during the use of the pop-up, the user can see the date of **today**.
         -  Clicking on *today* will close the pop-up and display the today’s date in the corresponding date entry box.
         -  Clicking on any day of the month will close the pop-up and display the date selected in the corresponding date entry box.
         -  Clicking on the arrow to the left displays the previous month.
@@ -3028,27 +3026,26 @@ The Find Family Page is the first step in the process of finding of a family and
         -  Clicking on the month will display all the months for the year.
         -  Clicking on the year will display a year selector.
 
-      .. _image89:
-      .. |logo23| image:: /img/user_manual/image6.png
+      .. _image91:
+      .. |logo24| image:: /img/user_manual/image6.png
         :scale: 100%
         :align: middle
-      .. |logo24| image:: /img/user_manual/image7.png
+      .. |logo25| image:: /img/user_manual/image7.png
         :scale: 100%
         :align: middle
-      .. |logo25| image:: /img/user_manual/image8.png
+      .. |logo26| image:: /img/user_manual/image8.png
         :scale: 100%
         :align: middle
 
       +----------++----------++----------+
-      | |logo23| || |logo24| || |logo25| |
+      | |logo24| || |logo25| || |logo26| |
       +----------++----------++----------+
 
-        `Image 89 - Calendar Selector - Search Panel`
+        `Image 91 - Calendar Selector - Search Panel`
 
     -  ``Gender``
 
       Select the ``Gender``; from the list of gender by clicking on the arrow on the right of the selector, to select families/groups, who’s family head/group head is of the specific gender.
-
 
     -   ``Poverty Status``
 
@@ -3083,14 +3080,13 @@ The Find Family Page is the first step in the process of finding of a family and
 
     -  ``Historical``
 
-      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`image90`).
+      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`image92`).
 
-
-    .. _image90:
+    .. _image92:
     .. figure:: /img/user_manual/image73.png
       :align: center
 
-      `Image 90 - Historical records - Result Panel`
+      `Image 92 - Historical records - Result Panel`
 
     -  ``Search Button``
 
@@ -3098,21 +3094,21 @@ The Find Family Page is the first step in the process of finding of a family and
 
   B. Result Panel
 
-  .. _image91:
+  .. _image93:
   .. figure:: /img/user_manual/image74.png
     :align: center
 
-    `Image 91 - Selected record (blue), hovered records (yellow) - Result Panel`
+    `Image 93 - Selected record (blue), hovered records (yellow) - Result Panel`
 
-  The Result Panel displays a list of all families/groups found, matching the selected criteria in the Search Panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image91`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the `Family Overview Page <#family-overview>`__ for the Family selected or if it is an historical record then the `Change Family Page <#familygroup-page>`__, for detailed viewing.
+  The Result Panel displays a list of all families/groups found, matching the selected criteria in the Search Panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image93`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the `Family Overview Page <#family-overview>`__ for the Family selected or if it is an historical record then the `Change Family Page <#family-group-page>`__, for detailed viewing.
 
-  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`image92`)
+  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`image94`)
 
-  .. _image92:
+  .. _image94:
   .. figure:: /img/user_manual/image11.png
     :align: center
 
-    `Image 92 - Page selector- Result Panel`
+    `Image 94 - Page selector- Result Panel`
 
   C. Button Panel
 
@@ -3137,24 +3133,24 @@ Navigation
 
 All functionality for use with the administration of insurees can be found under the main menu ``Insurees and Policies``, sub menu ``Insurees``.
 
-.. _image93:
+.. _image95:
 .. figure:: /img/user_manual/image75.png
   :align: center
 
-  `Image 93 - Navigation Insurees`
+  `Image 95 - Navigation Insurees`
 
-Clicking on the sub menu ``Insurees`` re-directs the current user to the Find Insuree Page.\
+Clicking on the sub menu ``Insurees`` re-directs the current user to the Find Insuree Page.
 
 Find Insuree Page
 """""""""""""""""
 
-.. _image94:
+.. _image96:
 .. figure:: /img/user_manual/image76.png
   :align: center
 
-  `Image 94 - Find Insuree Page`
+  `Image 96 - Find Insuree Page`
 
-The ``Find Insuree Page`` is the first step in the process of finding an insuree and thereafter accessing the family/group overview of insurees, policies and contributions. This initial page can be used to search for specific Insurees or groups of insurees based on specific criteria. The panel is divided into four panels (:ref:`image94`)
+The ``Find Insuree Page`` is the first step in the process of finding an insuree and thereafter accessing the family/group overview of insurees, policies and contributions. This initial page can be used to search for specific Insurees or groups of insurees based on specific criteria. The panel is divided into four panels (:ref:`image96`)
 
   A. Search Panel
 
@@ -3190,9 +3186,9 @@ The ``Find Insuree Page`` is the first step in the process of finding an insuree
 
     -  ``Date Selector Button``
 
-      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`image95`) by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
+      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`image97`) by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
-        -  At anytime during the use of the pop-up, the user can see the date of *today*.
+        -  At anytime during the use of the pop-up, the user can see the date of **today**.
         -  Clicking on *today* will close the pop-up and display the today’s date in the corresponding date entry box.
         -  Clicking on any day of the month will close the pop-up and display the date selected in the corresponding date entry box.
         -  Clicking on the arrow to the left displays the previous month.
@@ -3200,22 +3196,22 @@ The ``Find Insuree Page`` is the first step in the process of finding an insuree
         -  Clicking on the month will display all the months for the year.
         -  Clicking on the year will display a year selector.
 
-      .. _image95:
-      .. |logo26| image:: /img/user_manual/image6.png
+      .. _image97:
+      .. |logo27| image:: /img/user_manual/image6.png
         :scale: 100%
         :align: middle
-      .. |logo27| image:: /img/user_manual/image7.png
+      .. |logo28| image:: /img/user_manual/image7.png
         :scale: 100%
         :align: middle
-      .. |logo28| image:: /img/user_manual/image8.png
+      .. |logo29| image:: /img/user_manual/image8.png
         :scale: 100%
         :align: middle
 
       +----------++----------++----------+
-      | |logo26| || |logo27| || |logo28| |
+      | |logo27| || |logo28| || |logo29| |
       +----------++----------++----------+
 
-        `Image 95 - Calendar Selector - Search Panel`
+        `Image 97 - Calendar Selector - Search Panel`
 
     -  ``Gender``
 
@@ -3243,13 +3239,13 @@ The ``Find Insuree Page`` is the first step in the process of finding an insuree
 
     -  ``Historical``
 
-      Click on Historical to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`image96`)
+      Click on Historical to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`image98`)
 
-    .. _image96:
+    .. _image98:
     .. figure:: /img/user_manual/image77.png
       :align: center
 
-      `Image 96 - Historical records - Result Panel`
+      `Image 98 - Historical records - Result Panel`
 
     -  ``Search Button``
 
@@ -3257,21 +3253,21 @@ The ``Find Insuree Page`` is the first step in the process of finding an insuree
 
   B. Result Panel
 
-  The result panel displays a list of all Insurees found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image97`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the `Family Overview Page <#family-overview-page.>`__ of the insuree’s family, or the `Insuree Page <#insuree-page>`__ if it is a historical record for viewing purposes.
+  The result panel displays a list of all Insurees found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image99`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the `Family Overview Page <#family-overview-page.>`__ of the insuree’s family, or the `Insuree Page <#insuree-page>`__ if it is a historical record for viewing purposes.
 
-  .. _image97:
+  .. _image99:
   .. figure:: /img/user_manual/image78.png
     :align: center
 
-    `Image 97 - Selected record (blue), hovered records (yellow) - Result Panel`
+    `Image 99 - Selected record (blue), hovered records (yellow) - Result Panel`
 
-  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`image98`)
+  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`image100`)
 
-  .. _image98:
+  .. _image100:
   .. figure:: /img/user_manual/image11.png
     :align: center
 
-    `Image 98 - Page selector- Result Panel`
+    `Image 100 - Page selector- Result Panel`
 
   C. Button Panel
 
@@ -3296,24 +3292,24 @@ Navigation
 
 Find Policy Page can be found under the main menu ``Insurees and Policies``, sub menu ``Policies``.
 
-.. _image99:
+.. _image101:
 .. figure:: /img/user_manual/image79.png
   :align: center
 
-  `Image 99 - Navigation Policies`
+  `Image 101 - Navigation Policies`
 
 Clicking on the sub menu ``Policies`` re-directs the current user to the ``find policy page.``
 
 Find Policy Page
 """"""""""""""""
 
-.. _image100:
+.. _image102:
 .. figure:: /img/user_manual/image80.png
   :align: center
 
-  `Image 100 - Find Policy Page`
+  `Image 102 - Find Policy Page`
 
-The ``Find Policy Page`` is the first step in the process of finding a policy and thereafter accessing the `Family Overview Page <#family-overview-page.>`__ of insurees, policies and contributions. This initial page can be used to search for specific policies or groups of policies based on specific criteria. The panel is divided into four panels (:ref:`image100`)
+The ``Find Policy Page`` is the first step in the process of finding a policy and thereafter accessing the `Family Overview Page <#family-overview-page.>`__ of insurees, policies and contributions. This initial page can be used to search for specific policies or groups of policies based on specific criteria. The panel is divided into four panels (:ref:`image102`)
 
   A. Search Panel
 
@@ -3349,9 +3345,9 @@ The ``Find Policy Page`` is the first step in the process of finding a policy an
 
     -  ``Date Selector Button``
 
-      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`image101`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
+      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`image103`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
-        -  At anytime during the use of the pop-up, the user can see the date of *today*.
+        -  At anytime during the use of the pop-up, the user can see the date of **today**.
         -  Clicking on **today** will close the pop-up and display the today’s date in the corresponding date entry box.
         -  Clicking on any day of the month will close the pop-up and display the date selected in the corresponding date entry box.
         -  Clicking on the arrow to the left displays the previous month.
@@ -3359,22 +3355,22 @@ The ``Find Policy Page`` is the first step in the process of finding a policy an
         -  Clicking on the month will display all the months for the year.
         -  Clicking on the year will display a year selector.
 
-      .. _image101:
-      .. |logo27| image:: /img/user_manual/image6.png
+      .. _image103:
+      .. |logo30| image:: /img/user_manual/image6.png
         :scale: 100%
         :align: middle
-      .. |logo28| image:: /img/user_manual/image7.png
+      .. |logo31| image:: /img/user_manual/image7.png
         :scale: 100%
         :align: middle
-      .. |logo29| image:: /img/user_manual/image8.png
+      .. |logo32| image:: /img/user_manual/image8.png
         :scale: 100%
         :align: middle
 
       +----------++----------++----------+
-      | |logo27| || |logo28| || |logo29| |
+      | |logo30| || |logo31| || |logo32| |
       +----------++----------++----------+
 
-        `Image 101 - Calendar Selector - Search Panel`
+        `Image 103 - Calendar Selector - Search Panel`
 
     -  ``Enrolment Officer``
 
@@ -3394,7 +3390,7 @@ The ``Find Policy Page`` is the first step in the process of finding a policy an
         -  **Active** (Policy partially or fully paid and made active)
         -  **Suspended** (Policy was not fully paid for within the grace period)
         -  **Expired** (Policy is not active anymore as the insurance period elapsed)
-s
+
     -  ``Balance``
 
       Types in a positive ``Balance`` to search for policies with a balance equal or greater than the typed amount. For example if 0 (zero) is entered, all policies with a balance, will be displayed. If 1,000 is entered, then only policies with a balance equal to or greater than 1,000 will be displayed.
@@ -3419,13 +3415,13 @@ s
 
     -  ``Historical``
 
-      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`image102`)
+      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`image104`)
 
-    .. _image102:
+    .. _image104:
     .. figure:: /img/user_manual/image81.png
       :align: center
 
-      `Image 102 - Historical records - Result Panel`
+      `Image 104 - Historical records - Result Panel`
 
     -  ``Search button``
 
@@ -3433,21 +3429,21 @@ s
 
   B. Result Panel
 
-  The Result Panel displays a list of all policies found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image103`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
+  The Result Panel displays a list of all policies found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image105`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
 
-  .. _image103:
+  .. _image105:
   .. figure:: /img/user_manual/image82.png
     :align: center
 
-    `Image 103 - Selected record (blue), hovered records (yellow) - Result Panel`
+    `Image 105 - Selected record (blue), hovered records (yellow) - Result Panel`
 
-  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (`Image104 <#image-4.20-page-selector--result-panel>`__)
+  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`image106`)
 
-  .. _image104:
+  .. _image106:
   .. figure:: /img/user_manual/image11.png
     :align: center
 
-    `Image 104 - Page selector- Result Panel`
+    `Image 106 - Page selector- Result Panel`
 
   C. Button Panel
 
@@ -3472,24 +3468,24 @@ Navigation
 
 Find Contribution can be found under the main menu ``Insurees and Policies``, sub menu ``Contributions``
 
-.. _image105:
+.. _image107:
 .. figure:: /img/user_manual/image83.png
   :align: center
 
- `Image 105 - Navigation Contributions`
+  `Image 107 - Navigation Contributions`
 
 Clicking on the sub menu ``Contributions`` re-directs the current user to the `Find Contribution Page <#_Image_4.22_(Find>`__\.
 
 Find Contribution Page
 """"""""""""""""""""""
 
-.. _image106:
+.. _image108:
 .. figure:: /img/user_manual/image84.png
   :align: center
 
- `Image - 106 Find Contribution Page`
+  `Image - 108 Find Contribution Page`
 
-The ``Find Contribution Page`` is the first step in the process of finding a contribution and thereafter accessing the `Family Overview Page <#family-overview>`__ of insures, policies and contributions. This initial page can be used to search for specific contributions or groups of contributions based on specific criteria. The page is divided into four panels (:ref:`image106`).
+The ``Find Contribution Page`` is the first step in the process of finding a contribution and thereafter accessing the `Family Overview Page <#family-overview>`__ of insures, policies and contributions. This initial page can be used to search for specific contributions or groups of contributions based on specific criteria. The page is divided into four panels (:ref:`image108`).
 
     A. Search Panel
 
@@ -3513,9 +3509,9 @@ The ``Find Contribution Page`` is the first step in the process of finding a con
 
       -  ``Date Selector Button``
 
-        Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`image107`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
+        Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`image109`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
-          -  At anytime during the use of the pop-up, the user can see the date of *today*.
+          -  At anytime during the use of the pop-up, the user can see the date of **today**.
           -  Clicking on *today* will close the pop-up and display the today’s date in the corresponding date entry box.
           -  Clicking on any day of the month will close the pop-up and display the date selected in the corresponding date entry box.
           -  Clicking on the arrow to the left displays the previous month.
@@ -3523,22 +3519,22 @@ The ``Find Contribution Page`` is the first step in the process of finding a con
           -  Clicking on the month will display all the months for the year.
           -  Clicking on the year will display a year selector.
 
-        .. _image107:
-        .. |logo30| image:: /img/user_manual/image6.png
+        .. _image109:
+        .. |logo33| image:: /img/user_manual/image6.png
           :scale: 100%
           :align: middle
-        .. |logo31| image:: /img/user_manual/image7.png
+        .. |logo34| image:: /img/user_manual/image7.png
           :scale: 100%
           :align: middle
-        .. |logo32| image:: /img/user_manual/image8.png
+        .. |logo35| image:: /img/user_manual/image8.png
           :scale: 100%
           :align: middle
 
         +----------++----------++----------+
-        | |logo30| || |logo31| || |logo32| |
+        | |logo33| || |logo34| || |logo35| |
         +----------++----------++----------+
 
-          `Image 107 - Calendar Selector - Search Panel`
+          `Image 109 - Calendar Selector - Search Panel`
 
       -  ``Contribution Paid``
 
@@ -3554,13 +3550,13 @@ The ``Find Contribution Page`` is the first step in the process of finding a con
 
       -  ``Historical``
 
-        Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`image108`).
+        Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`image110`).
 
-      .. _image108:
+      .. _image110:
       .. figure:: /img/user_manual/image85.png
         :align: center
 
-        `Image 108 - Historical records - Result Panel`
+        `Image 110 - Historical records - Result Panel`
 
       -  ``Search Button``
 
@@ -3568,21 +3564,21 @@ The ``Find Contribution Page`` is the first step in the process of finding a con
 
   B. Result Panel
 
-  The result panel displays a list of all contributions found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image109`) The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
+  The result panel displays a list of all contributions found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image111`) The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
 
-  .. _image109:
+  .. _image111:
   .. figure:: /img/user_manual/image86.png
     :align: center
 
-    `Image 109 Selected record (blue), hovered records (yellow) - Result Pane`
+    `Image 111 Selected record (blue), hovered records (yellow) - Result Pane`
 
-  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`image110`).
+  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`image112`).
 
-  .. _image110:
+  .. _image112:
   .. figure:: /img/user_manual/image11.png
     :align: center
 
-    `Image 110 - Page selector- Result Panel`
+    `Image 112 - Page selector- Result Panel`
 
   C. Button Panel
 
@@ -3602,8 +3598,6 @@ Pre-conditions
 
 Need to enquire on, or edit a family/group or manage the insurees, policies and contributions associated with it.
 
-.. _navigation-15:
-
 Navigation
 """"""""""
 
@@ -3612,21 +3606,23 @@ Navigation
 Family Overview Page
 """"""""""""""""""""
 
-.. _image111:
+.. _image113:
 .. figure:: /img/user_manual/image87.png
   :align: center
 
-  `Image 111 - Family Overview Page`
+  `Image 113 - Family Overview Page`
 
-The ``Family Overview Page`` is the central point for all operations with regards to the families/groups, Insurees, policies and contributions associated with it. The page is divided into 6 panels `(Image111) <#image-4.27-family-overview-page>`__
+The ``Family Overview Page`` is the central point for all operations with regards to the families/groups, Insurees, policies and contributions associated with it. The page is divided into 6 panels (:ref:`image113`)
 
   A. Family/Group Panel
 
   The Family/Group Panel provides information about the family including the Insurance Number and the Last Name and Other Names of the head of family and the District, Municipality, Village and Poverty status of the family. In the Family/Group panel action buttons allow to add, edit and delete the family/group.
 
-  .. _image112:
+  .. _image114:
   .. figure:: /img/user_manual/image88.png
     :align: center
+
+    `Image 114`
 
 ..
 
@@ -3638,20 +3634,25 @@ The ``Family Overview Page`` is the central point for all operations with regard
 
   B. Insurees Panel
 
-  The Insurees Panel displays a list of the insurees within the family/group. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image113`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the insuree record for editing or detailed viewing.
+  The Insurees Panel displays a list of the insurees within the family/group.
+  The currently selected record is highlighted with light blue, while hovering
+  over records changes the highlight to yellow (:ref:`image115`). The leftmost
+  record contains a hyperlink which if clicked, re-directs the user to the
+  insuree record for editing or detailed viewing.
 
-  .. _image113:
+  .. _image115:
   .. figure:: /img/user_manual/image89.png
     :align: center
 
-    `Image 113 - Selected record (blue), hovered records (yellow) – Insurees Panel`
-
+    `Image 115 - Selected record (blue), hovered records (yellow) – Insurees Panel`
 
   In the Insurees Panel, action buttons allow to add, edit and delete insurees belonging to the family/group.
 
-  .. _image114:
+  .. _image116:
   .. figure:: /img/user_manual/image90.png
     :align: center
+
+    `Image 116`
 
 ..
 
@@ -3663,27 +3664,29 @@ The ``Family Overview Page`` is the central point for all operations with regard
 
   C. Policies Panel
 
-  The Policies Panel displays a list of the policies held by the family/group. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image115`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the policy for editing or detailed viewing. By default the first policy is selected and therefore in the Contribution Panel, only the contributions paid on that policy will be displayed in the Contribution Panel By selecting another policy in the list, the Contribution Panel, will refresh with the contributions paid on the newly selected policy.
+  The Policies Panel displays a list of the policies held by the family/group. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image117`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the policy for editing or detailed viewing. By default the first policy is selected and therefore in the Contribution Panel, only the contributions paid on that policy will be displayed in the Contribution Panel By selecting another policy in the list, the Contribution Panel, will refresh with the contributions paid on the newly selected policy.
 
-  .. _image115:
+  .. _image117:
   .. figure:: /img/user_manual/image91.png
     :align: center
 
-    `Image 115 - Selected record (blue), hovered records (yellow) - Policy Panel`
+    `Image 117 - Selected record (blue), hovered records (yellow) - Policy Panel`
 
-  In the fifth **Product** column of Policy data grid, there is a link showing product for the policy on the corresponding row. When the link is clicked; a popup browser window `(Image116) <#image-4.30-product-popup-policies-panel>`__ will open up showing the details of the product (in read-only mode).
+  In the fifth **Product** column of Policy data grid, there is a link showing product for the policy on the corresponding row. When the link is clicked; a popup browser window (:ref:image118) will open up showing the details of the product (in read-only mode).
 
-  .. _image116:
+  .. _image118:
   .. figure:: /img/user_manual/image92.png
     :align: center
 
-    `Image 116 - Product Popup – Policies Panell`
+    `Image 118 - Product Popup – Policies Panel`
 
   In the ``Policies Panel``, action buttons allow to add, edit and delete policies.
 
-  .. _image117:
+  .. _image119:
   .. figure:: /img/user_manual/image93.png
     :align: center
+
+    `Image 119`
 
 ..
 
@@ -3697,27 +3700,29 @@ The ``Family Overview Page`` is the central point for all operations with regard
 
   D. Contributions Panel
 
-  The ``Contribution Panel`` displays a list of contributions paid on the policy currently selected in the ``Policies Panel``. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image118`) The leftmost record contains a hyperlink which if clicked, re-directs the user to the contribution for editing or detailed viewing.
+  The ``Contribution Panel`` displays a list of contributions paid on the policy currently selected in the ``Policies Panel``. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image120`) The leftmost record contains a hyperlink which if clicked, re-directs the user to the contribution for editing or detailed viewing.
 
-  .. _image118:
+  .. _image120:
   .. figure:: /img/user_manual/image94.png
     :align: center
 
-    `Image 118 - Selected record (blue), hovered records (yellow) - Contributions Panel`
+    `Image 120 - Selected record (blue), hovered records (yellow) - Contributions Panel`
 
-  In the second **Payer** column of Contributions data grid, there is a link showing (institutional) payer of the contribution on the corresponding row. When the link is clicked; a popup browser window (:ref:`imgae119`) will open up showing the details of the payer in read-only mode.
+  In the second **Payer** column of Contributions data grid, there is a link showing (institutional) payer of the contribution on the corresponding row. When the link is clicked; a popup browser window (:ref:`image121`) will open up showing the details of the payer in read-only mode.
 
-  .. _image119:
+  .. _image121:
   .. figure:: /img/user_manual/image95.png
     :align: center
 
-    `Image 119 - Payer Pop up – Contribution Panel`
+    `Image 121 - Payer Pop up – Contribution Panel`
 
   In the ``Contributions Panel``, action buttons allow to add, edit and delete contributions.
 
-  .. _image120:
+  .. _image122:
   .. figure:: /img/user_manual/image96.png
     :align: center
+
+    `Image 122`
 
 ..
 
@@ -3738,11 +3743,11 @@ The ``Family Overview Page`` is the central point for all operations with regard
 Family/Group Page
 """""""""""""""""
 
-.. _image121:
+.. _image123:
 .. figure:: /img/user_manual/image97.png
   :align: center
 
-  `Image 121 - Family/Group Page`
+  `Image 123 - Family/Group Page`
 
 ..
 
@@ -3889,7 +3894,7 @@ Family/Group Page
 Adding a Family
 """""""""""""""
 
-Click on the ``Green Plus Sign`` to re-direct to the `Family/Group Page <#familygroup-page>`__\ .
+Click on the ``Green Plus Sign`` to re-direct to the `Family/Group Page <#familygroup-page>`__.\
 
 ..
 
@@ -3904,16 +3909,16 @@ Click on the Yellow Pencil Sign to re-direct to the `Change Family/Group Page <#
 
 The page will open with the current information loaded into the data entry fields, plus there are options to change the head of the family/group and move an insuree to the family/group.
 
-.. _image122:
+.. _image124:
 .. figure:: /img/user_manual/image98.png
   :align: center
 
-  `Image 122 - Change Family/Group Page`
+  `Image 124 - Change Family/Group Page`
 
 Changing a Head of Family/Group
 """""""""""""""""""""""""""""""
 
-The head of the Family/Group is the main contact associated with a^policy. For various reasons it may be necessary to change the head of a family/group. The new head must a head of family in another family.
+The head of the Family/Group is the main contact associated with a policy. For various reasons it may be necessary to change the head of a family/group. The new head must a head of family in another family.
 
 ..
 
@@ -3935,13 +3940,13 @@ Click on the Red Cross Sign button to delete the currently selected record\ .
 
 ..
 
-Before deleting a confirmation popup (:ref:`image123`) is displayed, which requires the user to confirm if the action should really be carried out? Deleting of a family requires deleting of all its dependants first.
+Before deleting a confirmation popup (:ref:`image125`) is displayed, which requires the user to confirm if the action should really be carried out? Deleting of a family requires deleting of all its dependants first.
 
-.. _image123:
+.. _image125:
 .. figure:: /img/user_manual/image24.png
   :align: center
 
-  `Image 123 - Delete confirmation- Button Panel`
+  `Image 125 - Delete confirmation- Button Panel`
 
 When a family is deleted, all records retaining to the deleted family will still be available by selecting historical records.
 
@@ -3950,16 +3955,15 @@ Insuree Page
 
   **1. Data Entry**
 
-  .. _image124:
+  .. _image126:
   .. figure:: /img/user_manual/image100.png
     :align: center
 
-    `Image 124 - Insuree Page`
+    `Image 126 - Insuree Page`
 
 ..
 
     -  ``Relationship``
-
 
       Select from the list of available relationships of the insuree to the head of family/group.
 
@@ -4019,7 +4023,7 @@ Insuree Page
 
       Select from the list of available educations the education of the insuree.
 
-    -  ``Phone Number ``
+    -  ``Phone Number``
 
       Enter the phone number for the insuree.
 
@@ -4072,7 +4076,7 @@ Insuree Page
 Adding an Insuree
 """""""""""""""""
 
-Click on the Green Plus Sign to re-direct to the `Insuree Page <\l>`__\ .
+Click on the Green Plus Sign to re-direct to the `Insuree Page <#insuree-page>`__\.
 
 ..
 
@@ -4081,7 +4085,7 @@ When the page opens all entry fields are empty. See the `Insuree Page <#insuree-
 Editing an Insuree
 """"""""""""""""""
 
-Click on the Yellow Pencil Sign to re-direct to the `Insuree Page <#insuree-page>`__\ .
+Click on the Yellow Pencil Sign to re-direct to the `Insuree Page <#insuree-page>`__\.
 
 The page will open with the current information loaded into the data entry fields. See the Insuree Page for information on the data entry and mandatory fields.
 
@@ -4092,13 +4096,13 @@ Click on the Red Cross Sign to delete the currently selected record.
 
 ..
 
-Before deleting a confirmation popup (:ref:`image125`) is displayed, which requires the user to confirm if the action should really becarried out?
+Before deleting a confirmation popup (:ref:`image127`) is displayed, which requires the user to confirm if the action should really becarried out?
 
-.. _image125:
+.. _image127:
 .. figure:: /img/user_manual/image24.png
   :align: center
 
-  `Image 125 - Delete confirmation- Button Panel`
+  `Image 127 - Delete confirmation- Button Panel`
 
 When an insuree is deleted, all records retaining to the deleted insuree will still be available by selecting historical records.
 
@@ -4107,11 +4111,11 @@ Policy Page
 
   **1. Data Entry**
 
-  .. _image126:
+  .. _image128:
   .. figure:: /img/user_manual/image102.png
     :align: center
 
-    `Image 126 - Policy Page`
+    `Image 128 - Policy Page`
 
 ..
 
@@ -4149,7 +4153,7 @@ Policy Page
 
   **4. Cancel**
 
-  By clicking on the ``Cancel`` \ button, the user will be re-directed to the `Family Overview Page <#family-overview-page.>`__.
+  By clicking on the ``Cancel`` button, the user will be re-directed to the `Family Overview Page <#family-overview-page.>`__.
 
 Adding a Policy
 """""""""""""""
@@ -4163,7 +4167,7 @@ When the page opens all entry fields are empty. See the `Policy Page <#policy-pa
 Editing a Policy
 """"""""""""""""
 
-Click on the ``Yellow Pencil Sign`` to re-direct to the `Policy^Page <#policy-page>`__\ .
+Click on the ``Yellow Pencil Sign`` to re-direct to the `Policy Page <#policy-page>`__\ .
 
 ..
 
@@ -4176,13 +4180,13 @@ Click on the ``Red Cross Sign`` to delete the currently selected policy.
 
 ..
 
-Before deleting of a policy, all contributions of the policy should be deleted. Before deleting a confirmation popup (:ref:`image127`) is displayed, which requires the user to confirm if the action should really be carried out?
+Before deleting of a policy, all contributions of the policy should be deleted. Before deleting a confirmation popup (:ref:`image129`) is displayed, which requires the user to confirm if the action should really be carried out?
 
-.. _image127:
+.. _image129:
 .. figure:: /img/user_manual/image24.png
   :align: center
 
-  `Image 127 - Delete confirmation- Button Panel`
+  `Image 129 - Delete confirmation- Button Panel`
 
 When a policy is deleted, all records retaining to the deleted policy will still be available by selecting historical records.
 
@@ -4191,11 +4195,11 @@ Contribution Page
 
   **1. Data Entry**
 
-  .. _image128:
+  .. _image130:
   .. figure:: /img/user_manual/image104.png
     :align: center
 
-    `Image 128 - Contribution Page`
+    `Image 130 - Contribution Page`
 
 ..
 
@@ -4225,29 +4229,37 @@ Contribution Page
 
     a) If the Contribution paid matches the price of the policy:
 
-    .. _image129:
+    .. _image131:
     .. figure:: /img/user_manual/image105.png
       :align: center
 
+      `Image 131`
+
     b) If the contribution paid is lower than the price of the policy:
 
-    .. _image130:
+    .. _image132:
     .. figure:: /img/user_manual/image106.png
       :align: center
 
+      `Image 132`
+
     Followed by:
 
-    .. _image131:
+    .. _image133:
     .. figure:: /img/user_manual/image107.png
       :align: center
+
+      `Image 133`
 
     If you choose **Yes**, the policy will be (enforced) set as **Active**. If you choose No, it will remain **Idle**.
 
     c) If the contribution is higher than the price of the policy:
 
-    .. _image133:
+    .. _image134:
     .. figure:: /img/user_manual/image108.png
       :align: center
+
+      `Image 134`
 
     The user will then be re-directed back to the `Family Overview Page <#family-overview-page.>`__\ , with the newly saved record displayed and selected in the result panel. A message confirming that the contribution has been saved will appear on the Information Panel.
 
@@ -4280,13 +4292,13 @@ Click on the Red Cross Sign button to delete the currently selected record.
 
 ..
 
-Before deleting a confirmation popup (:ref:`image134`) is displayed, which requires the user to confirm if the action should really be carried out?
+Before deleting a confirmation popup (:ref:`image135`) is displayed, which requires the user to confirm if the action should really be carried out?
 
-.. _image134:
+.. _image135:
 .. figure:: /img/user_manual/image24.png
   :align: center
 
-  `Image 134 - Delete confirmation- Button Panel`
+  `Image 135 - Delete confirmation- Button Panel`
 
 When a contribution is deleted, all records retaining to the deleted contribution will still be available by selecting historical records.
 
@@ -4308,22 +4320,22 @@ Navigation
 
 All functionality for use with the administration of health facility claims can be found under the main menu ``Claims``, sub menu ``Health Facility Claims``.
 
-.. _image135:
+.. _image136:
 .. figure:: /img/user_manual/image110.png
   :align: center
 
-  `Image 135 - Navigation Health Facility Claims`
+  `Image 136 - Navigation Health Facility Claims`
 
-Clicking on the sub menu ``Health Facility Claims`` re-directs the current user to the `Claims Control Page <#_Health_Facility_Claims>`__\ .
+Clicking on the sub menu ``Health Facility Claims`` re-directs the current user to the `Claims Control Page <#_Health_Facility_Claims>`__.
 
 Claims Control Page
 """""""""""""""""""
 
-.. _image136:
+.. _image137:
 .. figure:: /img/user_manual/image111.png
   :align: center
 
-  `Image 136 - Claims Control Page`
+  `Image 137 - Claims Control Page`
 
 The Claims Control Page is the central point for all health facility claim administration. By having access to this panel, it is possible to add, edit and search claims. Claims can be edited only in the state **Entered**. The panel is divided into four panels (:ref:`image136`).
 
@@ -4401,9 +4413,9 @@ The Claims Control Page is the central point for all health facility claim admin
 
     -  ``Date Selector Button``
 
-      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`image137`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
+      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`image138`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
-        -  At anytime during the use of the pop-up, the user can see the date of today.
+        -  At anytime during the use of the pop-up, the user can see the date of **today**.
         -  Clicking on today will close the pop-up and display the today’s date in the corresponding date entry box.
         -  Clicking on any day of the month will close the pop-up and display the date selected in the corresponding date entry box.
         -  Clicking on the arrow to the left displays the previous month.
@@ -4411,22 +4423,22 @@ The Claims Control Page is the central point for all health facility claim admin
         -  Clicking on the month will display all the months for the year.
         -  Clicking on the year will display a year selector.
 
-      .. _image137:
-      .. |logo33| image:: /img/user_manual/image6.png
+      .. _image138:
+      .. |logo36| image:: /img/user_manual/image6.png
         :scale: 100%
         :align: middle
-      .. |logo34| image:: /img/user_manual/image7.png
+      .. |logo37| image:: /img/user_manual/image7.png
         :scale: 100%
         :align: middle
-      .. |logo35| image:: /img/user_manual/image8.png
+      .. |logo38| image:: /img/user_manual/image8.png
         :scale: 100%
         :align: middle
 
       +----------++----------++----------+
-      | |logo33| || |logo34| || |logo35| |
+      | |logo36| || |logo37| || |logo38| |
       +----------++----------++----------+
 
-        `Image 137 - Calendar Selector - Search Panel`
+        `Image 138 - Calendar Selector - Search Panel`
 
     -  ``Search Button``
 
@@ -4434,13 +4446,13 @@ The Claims Control Page is the central point for all health facility claim admin
 
   B. Result Panel
 
-  The Result Panel displays a list of all claims found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image138`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
+  The Result Panel displays a list of all claims found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image139`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
 
-  .. _image138:
+  .. _image139:
   .. figure:: /img/user_manual/image112.png
     :align: center
 
-    `Image 138 - Selected record (blue), hovered records (yellow) - Result Panel`
+    `Image 139 - Selected record (blue), hovered records (yellow) - Result Panel`
 
   A maximum of 2000 records can be displayed at one time, in a scroll panel. Further records can be viewed by processing the current loaded claims and search claims again.
 
@@ -4472,18 +4484,18 @@ The Claims Control Page is the central point for all health facility claim admin
 
       Once the process is done, a popup window (:ref:`image140`) with the result of the process will be shown.
 
-      .. _image139:
+      .. _image140:
       .. figure:: /img/user_manual/image113.png
         :align: center
 
-        `Image 139 - Submit Claims Prompt – Claims Control Page`
+        `Image 140 - Submit Claims Prompt – Claims Control Page`
 
 
-      .. _image140:
+      .. _image141:
       .. figure:: /img/user_manual/image114.png
-      :align: center
+        :align: center
 
-      `Image 140 - Submitted Claims details – Claims Control Page`
+        `Image 141 - Submitted Claims details – Claims Control Page`
 
     -  ``delete``
 
@@ -4491,13 +4503,13 @@ The Claims Control Page is the central point for all health facility claim admin
 
       ..
 
-      Before deleting a confirmation popup (:ref:`image141`) is displayed, which requires the user to confirm if the action should really be carried out?
+      Before deleting a confirmation popup (:ref:`image142`) is displayed, which requires the user to confirm if the action should really be carried out?
 
-      .. _image141:
+      .. _image142:
       .. figure:: /img/user_manual/image24.png
         :align: center
 
-        `Image 141 - Delete confirmation – Claims Control Page`
+        `Image 142 - Delete confirmation – Claims Control Page`
 
     -  ``cancel``
 
@@ -4512,11 +4524,11 @@ Claim Page
 
   **1.  Data Entry**
 
-  .. _image142:
+  .. _image143:
   .. figure:: /img/user_manual/image116.png
     :align: center
 
-    `Image 142 - Claim Page`
+    `Image 143 - Claim Page`
 
   ..
 
@@ -4590,11 +4602,11 @@ Claim Page
 
         Once the selected service has been written on the service data grid row, the dropdown suggestion box will close itself. When needed, the dropdown suggestion box can be closed by clicking any place on the page but outside the dropdown suggestion box.
 
-        .. _image143:
+        .. _image144:
         .. figure:: /img/user_manual/image117.png
           :align: center
 
-          `Image 143 - Services dropdown suggestion box – Claim Page`
+          `Image 144 - Services dropdown suggestion box – Claim Page`
 
       2. ``quantity``
 
@@ -4618,11 +4630,11 @@ Claim Page
 
         Once the selected item has been written on the item data grid row, the dropdown suggestion box will close itself. When needed, the dropdown suggestion box can be closed by clicking any place on the page but outside the dropdown suggestion box.
 
-        .. _image144:
+        .. _image145:
         .. figure:: /img/user_manual/image118.png
           :align: center
 
-          `Image 144 - Items dropdown suggestion box – Claim Page`
+          `Image 145 - Items dropdown suggestion box – Claim Page`
 
       2. ``quantity``
 
@@ -4646,33 +4658,33 @@ Claim Page
 
   **#  User Controls**
 
-  On top of services input grid panel and items input grid panel, there is a textbox field (:ref:`image145`) and (:ref:`image146`) which is filled with a constant representing the current number of rows in the input grid a user is working with. A user can change the current number of rows in the corresponding data input grid by entered a number of rows greater than existing one. This change is only allowed before a user has made changes to the corresponding data input grid.
+  On top of services input grid panel and items input grid panel, there is a textbox field (:ref:`image146`) and (:ref:`image147`) which is filled with a constant representing the current number of rows in the input grid a user is working with. A user can change the current number of rows in the corresponding data input grid by entered a number of rows greater than existing one. This change is only allowed before a user has made changes to the corresponding data input grid.
 
-  .. _image145:
+  .. _image146:
   .. figure:: /img/user_manual/image119.png
     :align: center
 
-    `Image 145 - Services input grid row number change, input field – Claim Page`
+    `Image 146 - Services input grid row number change, input field – Claim Page`
 
-  .. _image146:
+  .. _image147:
   .. figure:: /img/user_manual/image120.png
     :align: center
 
-    `Image 146 - Items input grid row number change, input field – Claim Page`
+    `Image 147 - Items input grid row number change, input field – Claim Page`
 
-  A user can manually clear the inputs in the row by clicking the ``Red Cross`` button on the end right of a desired row (:ref:`image147`). This action will require a user to confirm for the clearing process to proceed by choosing either yes / no from the popup window (:ref:`image148`) asking for user confirmation.
+  A user can manually clear the inputs in the row by clicking the ``Red Cross`` button on the end right of a desired row (:ref:`image148`). This action will require a user to confirm for the clearing process to proceed by choosing either yes / no from the popup window (:ref:`image149`) asking for user confirmation.
 
-  .. _image147:
+  .. _image148:
   .. figure:: /img/user_manual/image121.png
     :align: center
 
-    `Image 147 - Clear row inputs button-Claim Page`
+    `Image 148 - Clear row inputs button-Claim Page`
 
-  .. _image148:
+  .. _image149:
   .. figure:: /img/user_manual/image122.png
     :align: center
 
-    `Image 148 - Clearing of a row confirmation – Claim Page`
+    `Image 149 - Clearing of a row confirmation – Claim Page`
 
   **2. Saving**
 
@@ -4710,19 +4722,19 @@ Navigation
 
 All functionality for use with the administration of claim overview can be found under the main menu ``Claims``, sub menu ``Review.``
 
-.. _image149:
+.. _image150:
 .. figure:: /img/user_manual/image123.png
   :align: center
 
-  `Image 149 - Navigation Review`
+  `Image 150 - Navigation Review`
 
 Clicking on the sub menu ``Review`` re-directs the current user to the `Claims Overview Page. <#claims-overview-page>`__
 
-.. _image150:
+.. _image151:
 .. figure:: /img/user_manual/image124.png
   :align: center
 
-  `Image 150 - Claims Overview Page`
+  `Image 151 - Claims Overview Page`
 
 Claims Overview Page
 """"""""""""""""""""
@@ -4803,9 +4815,9 @@ The Claims Overview Page is the central point for all claim review administratio
 
     -  ``Date Selector Button``
 
-      Clicking on the Date Selector Button will pop-up an easy to use, calendar selector (:ref:`iamge151`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
+      Clicking on the Date Selector Button will pop-up an easy to use, calendar selector (:ref:`iamge152`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
-        -  At anytime during the use of the pop-up, the user can see the date of today.
+        -  At anytime during the use of the pop-up, the user can see the date of **today**.
         -  Clicking on today will close the pop-up and display the today’s date in the corresponding date entry box.
         -  Clicking on any day of the month will close the pop-up and display the date selected in the corresponding date entry box.
         -  Clicking on the arrow to the left displays the previous month.
@@ -4813,22 +4825,22 @@ The Claims Overview Page is the central point for all claim review administratio
         -  Clicking on the month will display all the months for the year.
         -  Clicking on the year will display a year selector.
 
-      .. _image151:
-      .. |logo36| image:: /img/user_manual/image6.png
+      .. _image152:
+      .. |logo39| image:: /img/user_manual/image6.png
         :scale: 100%
         :align: middle
-      .. |logo37| image:: /img/user_manual/image7.png
+      .. |logo40| image:: /img/user_manual/image7.png
         :scale: 100%
         :align: middle
-      .. |logo38| image:: /img/user_manual/image8.png
+      .. |logo41| image:: /img/user_manual/image8.png
         :scale: 100%
         :align: middle
 
       +----------++----------++----------+
-      | |logo36| || |logo37| || |logo38| |
+      | |logo39| || |logo40| || |logo41| |
       +----------++----------++----------+
 
-        `Image 151 - Calendar Selector - Search Panel`
+        `Image 152 - Calendar Selector - Search Panel`
 
     -  ``Search Button``
 
@@ -4860,39 +4872,39 @@ The Claims Overview Page is the central point for all claim review administratio
 
       ..
 
-      A popup prompt window will be displayed to confirm the process, as shown on (:ref:`image152`) and (:ref:`image153`).
+      A popup prompt window will be displayed to confirm the process, as shown on (:ref:`image153`) and (:ref:`image154`).
 
       ..
 
-      Once the update process is over, a popup window (:ref:`image154`). Showing the result of the process will be displayed.
+      Once the update process is over, a popup window (:ref:`image155`). Showing the result of the process will be displayed.
 
-      .. _image152:
+      .. _image1523:
       .. figure:: /img/user_manual/image125.png
         :align: center
 
-        `Image 152 - Claim Feedback Selection Update Prompt – Claims Overview Page`
+        `Image 153 - Claim Feedback Selection Update Prompt – Claims Overview Page`
 
-      .. _image153:
+      .. _image154:
       .. figure:: /img/user_manual/image126.png
         :align: center
 
-        `Image 153 - Claim Review Selection Update Prompt – Claims Overview Page`
+        `Image 154 - Claim Review Selection Update Prompt – Claims Overview Page`
 
-      .. _image154:
+      .. _image155:
       .. figure:: /img/user_manual/image127.png
         :align: center
 
-        `Image 154 - Claim Selection Update Results – Claims Overview Page`
+        `Image 155 - Claim Selection Update Results – Claims Overview Page`
 
   C. Result Panel
 
-  The Result Panel displays a list of all claims found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image155`).
+  The Result Panel displays a list of all claims found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image156`).
 
-  .. _image155:
+  .. _image156:
   .. figure:: /img/user_manual/image128.png
     :align: center
 
-    `Image 155 - Selected record (blue), hovered records (yellow) - Result Panel`
+    `Image 156 - Selected record (blue), hovered records (yellow) - Result Panel`
 
   A maximum of 2000 records can be displayed at one time, in a scroll panel. Further records can be viewed by processing the current loaded claims and search claims again.
 
@@ -4930,19 +4942,19 @@ The Claims Overview Page is the central point for all claim review administratio
 
       ..
 
-      Claims which can be selected for being processed are ones whose claim status is **Checked** and **Feedback Status** and **Review Status** are not **Idle**. The checkbox on the top of the Result Panel can be used to select multiple claims. The process happens while a user stays on the same page. Once the process is done, a popup window (:ref:`image156`) showing results of the process will be shown.
+      Claims which can be selected for being processed are ones whose claim status is **Checked** and **Feedback Status** and **Review Status** are not **Idle**. The checkbox on the top of the Result Panel can be used to select multiple claims. The process happens while a user stays on the same page. Once the process is done, a popup window (:ref:`image157`) showing results of the process will be shown.
 
-      .. _image156:
+      .. _image157:
       .. figure:: /img/user_manual/image129.png
         :align: center
 
-        `Image 156 - Process Claim Prompt – Claims Overview Page`
+        `Image 157 - Process Claim Prompt – Claims Overview Page`
 
-      .. _image157:
+      .. _image158:
       .. figure:: /img/user_manual/image130.png
         :align: center
 
-        `Image 157 - Processed Claims details – Claims Overview Page`
+        `Image 158 - Processed Claims details – Claims Overview Page`
 
     -  ``Cancel``
 
@@ -4957,11 +4969,11 @@ Claim Review Page
 
   **1. Data Entry**
 
-  .. _image158:
+  .. _image159:
   .. figure:: /img/user_manual/image131.png
     :align: center
 
-    `Image 158 - Claim Review Page`
+    `Image 159 - Claim Review Page`
 
   ..
 
@@ -5159,18 +5171,18 @@ Claim Review Page
 
   **5. Cancel**
 
-  By clicking on the ``Cancel`` button, the user will be re-directed to the `Claims Overview Page <#claims-overview-page>`__\.
+  By clicking on the ``Cancel`` button, the user will be re-directed to the `Claims Overview Page <#claims-overview-page>`__.
 
 Claim Feedback Page
 """""""""""""""""""
 
   **1.  Data Entry**
 
-  .. _image159:
+  .. _image160:
   .. figure:: /img/user_manual/image132.png
     :align: center
 
-    `Image 159 - Claim Feedback Page`
+    `Image 160 - Claim Feedback Page`
 
   ..
 
@@ -5260,9 +5272,9 @@ Claim Feedback Page
 
     -  ``Date Selector Button``
 
-      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`image160`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
+      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`image161`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
-        -  At anytime during the use of the pop-up, the user can see the date of today.
+        -  At anytime during the use of the pop-up, the user can see the date of **today**.
         -  Clicking on today will close the pop-up and display the today’s date in the corresponding date entry box.
         -  Clicking on any day of the month will close the pop-up and display the date selected in the corresponding date entry box.
         -  Clicking on the arrow to the left displays the previous month.
@@ -5270,22 +5282,22 @@ Claim Feedback Page
         -  Clicking on the month will display all the months for the year.
         -  Clicking on the year will display a year selector.
 
-      .. _image160:
-      .. |logo39| image:: /img/user_manual/image6.png
+      .. _image161:
+      .. |logo42| image:: /img/user_manual/image6.png
         :scale: 100%
         :align: middle
-      .. |logo40| image:: /img/user_manual/image7.png
+      .. |logo43| image:: /img/user_manual/image7.png
         :scale: 100%
         :align: middle
-      .. |logo41| image:: /img/user_manual/image8.png
+      .. |logo44| image:: /img/user_manual/image8.png
         :scale: 100%
         :align: middle
 
       +----------++----------++----------+
-      | |logo39| || |logo40| || |logo41| |
+      | |logo42| || |logo43| || |logo44| |
       +----------++----------++----------+
 
-        `Image 160 - Calendar Selector - Search Panel`
+        `Image 161 - Calendar Selector - Search Panel`
 
   **2. Saving**
 
@@ -5308,24 +5320,24 @@ Navigation
 
 All functionality for use with the administration of processing of batches can be found under the main menu ``Claims``, sub menu ``Batch Run.``
 
-.. _image161:
+.. _image162:
 .. figure:: /img/user_manual/image133.png
   :align: center
 
-  `Image 161 - Navigation Batch Run`
+  `Image 162 - Navigation Batch Run`
 
-Clicking on the sub menu ``Batch Run`` re-directs the current user to the `Batch Run Control Page <#_Batch_Run_Control>`__\ .
+Clicking on the sub menu ``Batch Run`` re-directs the current user to the `Batch Run Control Page <#_Batch_Run_Control>`__.
 
 Batch Run Control Page
 """"""""""""""""""""""
 
-.. _image162:
+.. _image163:
 .. figure:: /img/user_manual/image134.png
   :align: center
 
-`Image162 (Batch Run Control Page)`
+`Image163 (Batch Run Control Page)`
 
-The Batch Run Control Page is the central point for batch processing administration. Access to the page is restricted to users with the role of Accountant. By having access to this page, it is possible to process batches, filter, and filter for accounts. The panel is divided into six sections `(Image 5.28) <#image-5.28-batch-run-control-page>`__
+The Batch Run Control Page is the central point for batch processing administration. Access to the page is restricted to users with the role of Accountant. By having access to this page, it is possible to process batches, filter, and filter for accounts. The panel is divided into six sections (:ref:`image163`)
 
   A. Batch Processing Panel.
 
@@ -5389,13 +5401,13 @@ The Batch Run Control Page is the central point for batch processing administrat
 
   C. Display Panel.
 
-  The Display Panel is used to display results of running of batches after the filter or processing. While hovering over records, records get highlighted with a yellow colour (:ref:`image163`).
+  The Display Panel is used to display results of running of batches after the filter or processing. While hovering over records, records get highlighted with a yellow colour (:ref:`image164`).
 
-  .. _image163:
+  .. _image164:
   .. figure:: /img/user_manual/image135.png
     :align: center
 
-    `Image 163 - Selected record (blue), hovered records (yellow) - Result Panel`
+    `Image 164 - Selected record (blue), hovered records (yellow) - Result Panel`
 
 ..
 
@@ -5413,9 +5425,9 @@ The Batch Run Control Page is the central point for batch processing administrat
 
     -  ``Date Selector Button``
 
-      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`image164`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
+      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`image16`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
-        - At anytime during the use of the pop-up, the user can see the date of today.
+        - At anytime during the use of the pop-up, the user can see the date of **today**.
         - Clicking on today will close the pop-up and display the today’s date in the corresponding date entry box.
         - Clicking on any day of the month will close the pop-up and display the date selected in the corresponding date entry box.
         - Clicking on the arrow to the left displays the previous month.
@@ -5423,26 +5435,26 @@ The Batch Run Control Page is the central point for batch processing administrat
         - Clicking on the month will display all the months for the year.
         - Clicking on the year will display a year selector.
 
-        .. _image164:
-        .. |logo40| image:: /img/user_manual/image6.png
+        .. _image165:
+        .. |logo45| image:: /img/user_manual/image6.png
           :scale: 100%
           :align: middle
-        .. |logo41| image:: /img/user_manual/image7.png
+        .. |logo46| image:: /img/user_manual/image7.png
           :scale: 100%
           :align: middle
-        .. |logo42| image:: /img/user_manual/image8.png
+        .. |logo47| image:: /img/user_manual/image8.png
           :scale: 100%
           :align: middle
 
         +----------++----------++----------+
-        | |logo40| || |logo41| || |logo42| |
+        | |logo45| || |logo46| || |logo47| |
         +----------++----------++----------+
 
-          `Image 164 - Calendar Selector - Search Panel`
+          `Image 165 - Calendar Selector - Search Panel`
 
     -  ``Region``
 
-      Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select a region. **Note: The list will only be filled with the regions assigned to the current logged in user and the option National.*
+      Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select a region. *Note: The list will only be filled with the regions assigned to the current logged in user and the option National.*
 
     -  ``District``
 
@@ -5496,27 +5508,26 @@ Upload List of Diagnoses
 
 Access to uploading of diagnoses is restricted to the users with the role of IMIS Administrator.
 
-
 Navigation
 """"""""""
 
 All functionality for use with the administration of uploading of the list of diagnoses can be found under the main menu ``Tools``, sub menu ``Upload Diagnoses``.
 
-.. _image165:
+.. _image166:
 .. figure:: /img/user_manual/image136.png
   :align: center
 
-  `Image 165 - Navigation Upload Diagnoses`
+  `Image 166 - Navigation Upload Diagnoses`
 
 Clicking on the sub menu ``Upload Diagnoses`` re-directs the current user to the `Upload Diagnoses Page <#image-6.2-upload-diagnoses-page>`__\.
 
-.. _image166:
+.. _image167:
 .. figure:: /img/user_manual/image137.png
   :align: center
 
-  `Image 166 - Upload Diagnoses Page`
+  `Image 167 - Upload Diagnoses Page`
 
-The Upload Diagnoses Page is divided into three sections (:ref:`image166`).
+The Upload Diagnoses Page is divided into three sections (:ref:`image167`).
 
   A. Select Criteria
 
@@ -5534,13 +5545,13 @@ The Upload Diagnoses Page is divided into three sections (:ref:`image166`).
 
     -  ``Upload``
 
-      By clicking on the Upload button, a prompt popup message will appear, require a user to agree or disagree (:ref:`image167`). If user agrees the selected file containing list of diagnoses will be uploaded.
+      By clicking on the Upload button, a prompt popup message will appear, require a user to agree or disagree (:ref:`image168`). If user agrees the selected file containing list of diagnoses will be uploaded.
 
-      .. _image167:
+      .. _image168:
       .. figure:: /img/user_manual/image138.png
         :align: center
 
-        `Image 167 - Upload Diagnoses`
+        `Image 168 - Upload Diagnoses`
 
     -  ``Cancel``
 
@@ -5560,24 +5571,24 @@ Navigation
 
 All functionality for use with the administration of policy renewals can be found under the main menu ``Tools``, sub menu ``Policy Renewals``
 
-.. _image168:
+.. _image169:
 .. figure:: /img/user_manual/image139.png
   :align: center
 
-  `Image 168 - Navigation Policy Renewals`
+  `Image 169 - Navigation Policy Renewals`
 
 Clicking on the sub menu ``Policy Renewals`` re=directs the current user to the `Policy Renewal Page <#policy-renewal-page>`__\.
 
-.. _image169:
+.. _image170:
 .. figure:: /img/user_manual/image140.png
   :align: center
 
-  `Image169 - Policy Renewal Page`
+  `Image 170 - Policy Renewal Page`
 
 Policy Renewal Page
 """""""""""""""""""
 
-By having access to this page, it is possible preview the report on policy renewals, preview the journal on policy renewals and update the status of a policy. The journal will contain information on actual prompts being generated by the system. These prompt could already have been sent to the mobile phones of enrolment officers. The report on policy renewals will contain information on the expiration of policies for any given period. The page is divided into two panels (:ref:`image169`).
+By having access to this page, it is possible preview the report on policy renewals, preview the journal on policy renewals and update the status of a policy. The journal will contain information on actual prompts being generated by the system. These prompt could already have been sent to the mobile phones of enrolment officers. The report on policy renewals will contain information on the expiration of policies for any given period. The page is divided into two panels (:ref:`image170`).
 
   A. Select Criteria Panel
 
@@ -5645,33 +5656,33 @@ By having access to this page, it is possible preview the report on policy renew
 
   The Information Panel is used to display messages back to the user. Messages will occur once a user has updated the policy status or if there was an error at any time during the process of these actions.
 
-  .. _image170:
+  .. _image171:
   .. figure:: /img/user_manual/image141.png
     :align: center
 
-    `Image170 - Policy Renewal updated successfully message`
+    `Image171 - Policy Renewal updated successfully message`
 
 Preview Report on Renewals
 """"""""""""""""""""""""""
 
-.. _image171:
+.. _image172:
 .. figure:: /img/user_manual/image142.png
   :align: center
 
-  `Image 171 - Preview Report on Renewals`
+  `Image 172 - Preview Report on Renewals`
 
-After selecting specific criteria; preview the report (:ref:`image171`) by clicking on the preview button.
+After selecting specific criteria; preview the report (:ref:`image172`) by clicking on the preview button.
 
 Preview Journal on Renewals
 """""""""""""""""""""""""""
 
 Just like preview of the policy renewals the journal report can also be previewed. The difference between the Policy Renewal report and the Journal is; one forecasts the renewal while the other gives a report on the status of the renewal. Below is an example of a Journal Report.
 
-.. _image172:
+.. _image173:
 .. figure:: /img/user_manual/image143.png
   :align: center
 
-  `Image 172 - Preview Journal on Renewals`
+  `Image 173 - Preview Journal on Renewals`
 
 Feedback Prompts
 ^^^^^^^^^^^^^^^^
@@ -5683,21 +5694,21 @@ Navigation
 
 All functionality for use with the administration of feedback prompt can be found under the main menu ``Tools``, sub menu ``Feedback Prompts``
 
-.. _image173:
+.. _image174:
 .. figure:: /img/user_manual/image144.png
   :align: center
 
-  `Image 173 - Navigation Feedback Prompts`
+  `Image 174 - Navigation Feedback Prompts`
 
-Clicking on the sub menu ``Feedback Prompts`` re-directs the current user to the `Feedback Prompt Page <#image-6.9-feedback-prompts-page>`__\.
+Clicking on the sub menu ``Feedback Prompts`` re-directs the current user to the `Feedback Prompt Page (:ref:`image174`).
 
-.. _image174:
+.. _image175:
 .. figure:: /img/user_manual/image145.png
   :align: center
 
-  `Image 174 - Feedback Prompts Page`
+  `Image 175 - Feedback Prompts Page`
 
-The Feedback Prompt Page is divided into three panels (:ref:`image174`).
+The Feedback Prompt Page is divided into three panels (:ref:`image175`).
 
   A. Select Criteria Panel
 
@@ -5743,17 +5754,17 @@ The Feedback Prompt Page is divided into three panels (:ref:`image174`).
 
     -  ``Preview``
 
-      By clicking on the ``Preview`` button, a report (journal) of feedbacks prompted will get generated and displayed (:ref:`image175`).
+      By clicking on the ``Preview`` button, a report (journal) of feedbacks prompted will get generated and displayed (:ref:`image176`).
 
     -  ``Cancel``
 
       By clicking on ``Cancel`` button, user will be re-directed to `Home Page <#image-2.2-home-page>`__.
 
-  .. _image175:
+  .. _image176:
   .. figure:: /img/user_manual/image146.png
     :align: center
 
-    `Image 175 - Feedback Prompt Journal`
+    `Image 176 - Feedback Prompt Journal`
 
   C. Information Panel
 
@@ -5762,12 +5773,12 @@ The Feedback Prompt Page is divided into three panels (:ref:`image174`).
 IMIS Extracts
 ^^^^^^^^^^^^^
 
-Access to the IMIS Extracts page is restricted to users with the role of Scheme Administrator (IMIS Central online) or HF Administrator (IMIS offline installations). This page will contain all functionality for data synchronization between IMIS Central and IMIS offline installations as well as the generation of extract files for the mobile phones (Android). Depending on the type of installation, the interface will enable and disable certain functions.
+Access to the IMIS Extracts page is restricted to users with the role of Scheme Administrator (IMIS Central online) or HF Administrator (offline installations). This page will contain all functionality for data synchronization between IMIS Central and IMIS offline installations as well as the generation of extract files for the mobile phones (Android). Depending on the type of installation, the interface will enable and disable certain functions.
 
 Pre-conditions
 """"""""""""""
 
-The extract functionality is covering extracts for the mobile phone applications and the IMIS ‘off-line’ installations. IMIS offline extracts are only to be generated in case a district has so called ‘off-line’ installations in areas where no Internet connectivity is available.
+The extract functionality is covering extracts for the mobile phone applications and the IMIS ‘offline’ installations. Offline extracts are only to be generated in case a district has so called ‘off-line’ installations in areas where no Internet connectivity is available.
 
 ..
 
@@ -5782,11 +5793,11 @@ Navigation
 
 All functionality related to IMIS extracts can be found under the main menu ``Tools``, sub menu ``IMIS Extracts``
 
-.. _image176:
+.. _image177:
 .. figure:: /img/user_manual/image147.png
   :align: center
 
-  `Image 176 - Navigation IMIS Extracts`
+  `Image 177 - Navigation IMIS Extracts`
 
 Clicking on the sub menu ``IMIS Extracts`` re-directs the current user to the ``IMIS Extracts Page.``
 
@@ -5794,14 +5805,14 @@ Clicking on the sub menu ``IMIS Extracts`` re-directs the current user to the ``
 
 This page opens in two different modes depending on the type of IMIS installation: IMIS Central (live server) or IMIS offline (installed on local network in a health facility or an office of the scheme administration).
 
-IMIS Extracts (ONLINE MODE)
+IMIS Extracts (online mode)
 """""""""""""""""""""""""""
 
-.. _image177:
+.. _image178:
 .. figure:: /img/user_manual/image148.png
   :align: center
 
-  `Image 177 - IMIS Extracts`
+  `Image 178 - IMIS Extracts`
 
 **A - Phone Extract panel**
 
@@ -5821,35 +5832,35 @@ By clicking the ``Create`` button in panel A, a phone extract will be created. T
 
 In case the extract is created in the background, the following dialog box appears:
 
-.. _image178:
-.. figure:: /img/user_manual/image149.png
-  :align: center
-
-  `Image 178`
-
-If the extract is not created in background the user is notified about successful creation by the following message as shown below.
-
 .. _image179:
-.. figure:: /img/user_manual/image150.png
+.. figure:: /img/user_manual/image149.png
   :align: center
 
   `Image 179`
 
-The extract will be downloaded to your local computer by clicking the ``Download`` link that will appear after the creation of the extract, as shown below.
+If the extract is not created in background the user is notified about successful creation by the following message as shown below.
 
 .. _image180:
-.. figure:: /img/user_manual/image151.png
+.. figure:: /img/user_manual/image150.png
   :align: center
 
   `Image 180`
 
-The extract file is called **IMISDATA.DB3** and needs first to be copied (downloaded) to the local machine. After clicking the ``Download`` button, the operator is able to select the destination folder (locally) for the file to download as shown below.
+The extract will be downloaded to your local computer by clicking the ``Download`` link that will appear after the creation of the extract, as shown below.
 
-.. _image181
-.. figure:: /img/user_manual/image152.png
+.. _image181:
+.. figure:: /img/user_manual/image151.png
   :align: center
 
   `Image 181`
+
+The extract file is called **IMISDATA.DB3** and needs first to be copied (downloaded) to the local machine. After clicking the ``Download`` button, the operator is able to select the destination folder (locally) for the file to download as shown below.
+
+.. _image182:
+.. figure:: /img/user_manual/image152.png
+  :align: center
+
+  `Image 182`
 
 The extract is now ready to be transferred/copied to the mobile phones. This process is performed manually by connecting the mobile phone to the computer with the provided USB cable. The user needs to copy, manually, the file from the local machine into the ‘IMIS’ Folder on the mobile phone.
 
@@ -5865,21 +5876,21 @@ Three types of extracts could be generated:
 
       Differential extracts will only contain the differences in data compared with the previous extract. The first differential extract (sequence 000001) will contain all data as it will be the first extract. Thereafter, this type of the extract, will only contain any differences after the previous extract. This will result in smaller files sent to the health facilities in off-line mode. When we click the create button, the differential extract is always generated and will be assigned the next sequence number. A separate Photo extract will be created containing only photographs linked to changes compared with the previous extract. Differential extracts with insure and policy data are only generated in case the ``With Insuree`` checkbox is checked as shown below.
 
-      .. _image182
+      .. _image183:
       .. figure:: /img/user_manual/image153.png
         :align: center
 
-        `Image 182`
+        `Image 183`
 
     -  Full extract ``(Download F)``
 
       The Full extract will always contain all information in the database. These extracts are only generated in case the ``Full extract`` and the ``With Insuree`` checkbox are checked as shown below.
 
-      .. _image183
+      .. _image184:
       .. figure:: /img/user_manual/image154.png
         :align: center
 
-        `Image 183`
+        `Image 184`
 
       By clicking the ``Create`` button, in case of ``Full extract`` is checked, two extracts will be generated, one differential extract and one full extract. Both extracts will have the same sequence number. This implies that full extracts are not always needed/generated. A separate photo extract will be created containing all photographs.
 
@@ -5887,19 +5898,19 @@ Three types of extracts could be generated:
 
       Empty extracts will only contain the data from registers and no data on insurees and their policies/photos. If a full set of register data should be included in the extract, the checkbox ``Full extract`` has to be checked as shown below.
 
-      .. _image184
+      .. _image185:
       .. figure:: /img/user_manual/image155.png
         :align: center
 
-        `Image  184`
+        `Image  185`
 
 After clicking the ``Create`` button, the system will create the extract file and will on completion display the following message:
 
-.. _image185
+.. _image186:
 .. figure:: /img/user_manual/image156.png
   :align: center
 
-  `Image 185`
+  `Image 186`
 
 The message is only shown to provide some details on how much information is exported to the extract file.
 
@@ -5907,19 +5918,19 @@ The message is only shown to provide some details on how much information is exp
 
 Depending on the ``Full extract`` option, we will be re-directed to the extract page and will see the newly generated extract sequence in the list or will get a new message as shown below:
 
-.. _image186
+.. _image187:
 .. figure:: /img/user_manual/image157.png
   :align: center
 
-  `Image 186`
+  `Image 187`
 
 After clicking OK the statistics of the full extract will be shown:
 
-.. _image187
+.. _image188:
 .. figure:: /img/user_manual/image158.png
   :align: center
 
-  `Image 187`
+  `Image 188`
 
 We are now ready to download the extract to our computer.
 
@@ -5967,19 +5978,19 @@ Four different types of extracts could be downloaded by clicking one of the foll
 
 After clicking the desired extract download button, the file download dialog box appears to select the destination folder for the extract file as shown below:
 
-.. _image188
+.. _image189:
 .. figure:: /img/user_manual/image159.png
   :align: center
 
-  `Image 188`
+  `Image 189`
 
 In case the extract file is not available (anymore) on the server, the following dialog box might appear:
 
-.. _image189
+.. _image190:
 .. figure:: /img/user_manual/image160.png
   :align: center
 
-  `Image 189`
+  `Image 190`
 
 The reason for this box to appear could be that the file to be downloaded has been removed from the server or that you have attempted the download a full extract but no full extract was generated (only the differential extracts exist). It is also possible that you have attempted to download a photo extract but no photos were added since the last extract.
 
@@ -5987,19 +5998,19 @@ The reason for this box to appear could be that the file to be downloaded has be
 
 Checking the checkbox ``In background`` means that the off-line extract will be created in background and the user will be notified by e-mail (provided his/her e-mail is entered in the register of users) as shown below:
 
-.. _image190
+.. _image191:
 .. figure:: /img/user_manual/image161.png
   :align: center
 
-  `Image 190`
+  `Image 191`
 
 In case the extract is created in the background, the following dialog box appears:
 
-.. _image191
+.. _image192:
 .. figure:: /img/user_manual/image149.png
   :align: center
 
-  `Image 191`
+  `Image 192`
 
 **C - Import Extract panel**
 
@@ -6022,11 +6033,11 @@ IMIS Extracts (OFFLINE MODE)
 
 **Offline HF**
 
-.. _image192
+.. _image193:
 .. figure:: /img/user_manual/image162.png
   :align: center
 
-  `Image 192`
+  `Image 193`
 
 **A - Import Extract**
 
@@ -6042,11 +6053,11 @@ Used to download claims made in the offline health facility prior to be sent to 
 
 **Offline Insurer**
 
-.. _image193
+.. _image194:
 .. figure:: /img/user_manual/image163.png
   :align: center
 
-  `Image 193`
+  `Image 194`
 
 **A - Import Extract**
 
@@ -6060,19 +6071,19 @@ Used to upload photos obtained from online IMIS
 
 The Choose file section should be clicked to select an extract file to upload/import. The following file selector appears for Internet explorer (the appearance might differ for different internet browsers):
 
-.. _image194
+.. _image195:
 .. figure:: /img/user_manual/image164.png
   :align: center
 
-  `Image 194`
+  `Image 195`
 
 On clicking the ``Choose File`` button, the file selector dialog appears as shown below:
 
-.. _image195
+.. _image196:
 .. figure:: /img/user_manual/image165.png
   :align: center
 
-  `Image 195`
+  `Image 196`
 
 With the import/upload of an extract it is important to understand that each extract has its sequence number. This sequence number is found in the filename of the extract. We would in case of differential imports/uploads have to follow the sequence. In the example screen above, it shows in the status bar, that the last import was number 6. Therefore we should select in this case the differential extract number 7 as highlighted in the file selection dialog.
 
@@ -6080,19 +6091,19 @@ With the import/upload of an extract it is important to understand that each ext
 
 Alternatively the operator could select any full extract with a sequence number higher than 6. In case a wrong extract is selected, warning messages will appear as shown below:
 
-.. _image196
+.. _image197:
 .. figure:: /img/user_manual/image166.png
   :align: center
 
-  `Image 196`
+  `Image 197`
 
 or
 
-.. _image197
+.. _image198:
 .. figure:: /img/user_manual/image167.png
   :align: center
 
-  `Image 197`
+  `Image 198`
 
 In case you are missing extract sequences, additional extracts are needed to be uploaded before the extract selected. The extract selected, in this case, does not directly follow the last sequence as indicated in the status bar of the screen. The additional extracts are to be provided by NSHIP district office.
 
@@ -6100,13 +6111,13 @@ In case you are missing extract sequences, additional extracts are needed to be 
 
 In case the extract file selected is valid, the system will import the data. New data will be added and existing data might be modified. After a successful import of an extract (Differential and FULL), a form is displayed with the statistics of the import as shown below:
 
-.. _image198
+.. _image199:
 .. figure:: /img/user_manual/image168.png
   :align: center
 
-  `Image 198`
+  `Image 199`
 
-The above statistics are provided to give some quick overview of how many records were inserted or updated during the import process. In case we would for example update the phone number of an enrolment officer, it would result in one update and one insert as we always keep historical records. The photos inserts and updates are related to information on the photos, but are not the actual photographs. The actual photographs (*.jpg) are uploaded separately.
+The above statistics are provided to give some quick overview of how many records were inserted or updated during the import process. In case we would for example update the phone number of an enrolment officer, it would result in one update and one insert as we always keep historical records. The photos inserts and updates are related to information on the photos, but are not the actual photographs. The actual photographs (\\*.jpg) are uploaded separately.
 
 **D - Import Photos**
 
@@ -6116,19 +6127,19 @@ The import of photos is optional and will have no further checking on sequence n
 
 E.g. (for Differential extract)
 
-.. _image199
+.. _image200:
 .. figure:: /img/user_manual/image169.png
   :align: center
 
- `Image 199`
+  `Image 200`
 
 OR (for FULL extract)
 
-.. _image200
+.. _image201:
 .. figure:: /img/user_manual/image170.png
   :align: center
 
-  `Image 200`
+  `Image 201`
 
 The photo extract will contain all photographs associated with the actual extract in a zipped format. The Upload procedure will simply unzip the extract and copy the image files to the photo folder of IMIS.
 
@@ -6136,11 +6147,11 @@ The photo extract will contain all photographs associated with the actual extrac
 
 After successful upload of the photographs the following message appears:
 
-.. _image201
+.. _image202:
 .. figure:: /img/user_manual/image171.png
   :align: center
 
-  `Image 201`
+  `Image 202`
 
 **E - Button panel**
 
@@ -6163,180 +6174,180 @@ Navigation
 
 All functionality for use with the administration of Reports can be found under the main menu ``Tools``, sub menu ``Reports.``
 
-.. _image202
+.. _image203:
 .. figure:: /img/user_manual/image172.png
   :align: center
 
-  `Image 202 - Navigation Reports`
+  `Image 203 - Navigation Reports`
 
-Clicking on the sub menu ``Reports`` re-directs the current user to the Reports Page (:ref:`image203`).
+Clicking on the sub menu ``Reports`` re-directs the current user to the Reports Page (:ref:`image204`).
 
-.. _image203
+.. _image204:
 .. figure:: /img/user_manual/image173.png
   :align: center
 
-  `Image 203 - Reports Page`
+  `Image 204 - Reports Page`
 
 
-The Reports Page is divided into four panels (:ref:`image203`).
+The Reports Page is divided into four panels (:ref:`image204`).
 
   A. Select Criteria
 
-  The Select Criteria panel or the filter panel allows a user to select specific criteria determining the scope of data included in the report. The criteria (:ref:`image204 – 221`) will change depending on the selected type of the report.
+  The Select Criteria panel or the filter panel allows a user to select specific criteria determining the scope of data included in the report. The criteria (:ref:`image205` – :ref:`image222`) will change depending on the selected type of the report.
 
     -  Primary Operational Indicators - Policies Report.
 
-    .. _image204
+    .. _image205:
     .. figure:: /img/user_manual/image174.png
       :align: center
 
-      `Image 204 - Primary Operational Indicators - Policies Report Criteria`
+      `Image 205 - Primary Operational Indicators - Policies Report Criteria`
 
     -  Primary Operational Indicators - Claims Report.
 
-    .. _image205
+    .. _image206:
     .. figure:: /img/user_manual/image175.png
       :align: center
 
-      `Image 205 - Primary Operational Indicators - Claims Report Criteria`
+      `Image 206 - Primary Operational Indicators - Claims Report Criteria`
 
     -  Derived Operational Indicators Report.
 
-    .. _image206
+    .. _image207:
     .. figure:: /img/user_manual/image176.png
       :align: center
 
-      `Image 206 - Derived Operational Indicators Report Criteria`
+      `Image 207 - Derived Operational Indicators Report Criteria`
 
     -  Contribution Collection Report.
 
-    .. _image207
+    .. _image208:
     .. figure:: /img/user_manual/image177.png
       :align: center
 
-      `Image 207 - Contribution Collection Report Criteria`
+      `Image 208 - Contribution Collection Report Criteria`
 
     -  Product Sales Report.
 
-    .. _image208
+    .. _image209:
     .. figure:: /img/user_manual/image178.png
       :align: center
 
-      `Image 208 - Product Sales Report Criteria`
+      `Image 209 - Product Sales Report Criteria`
 
     -  Contribution Distribution Report.
 
-    .. _image209
+    .. _image210:
     .. figure:: /img/user_manual/image179.png
       :align: center
 
-      `Image 209 - Contribution Distribution Report Criteria`
+      `Image 210 - Contribution Distribution Report Criteria`
 
     -  User Activity Report.
 
-    .. _image210
+    .. _image211:
     .. figure:: /img/user_manual/image180.png
       :align: center
 
-      `Image 210 - User Activity Report Criteria`
+      `Image 211 - User Activity Report Criteria`
 
     -  Enrolment Performance Indicator Report.
 
-    .. _image211
+    .. _image212:
     .. figure:: /img/user_manual/image181.png
       :align: center
 
-      `Image 211 - Enrolment Performance Indicators Report Criteria`
+      `Image 212 - Enrolment Performance Indicators Report Criteria`
 
     -  Status of Registers Report.
 
-    .. _image212
+    .. _image213:
     .. figure:: /img/user_manual/image182.png
       :align: center
 
-      `Image 212 - Status of Registers Report Criteria`
+      `Image 213 - Status of Registers Report Criteria`
 
     -  Insurees without Photos Report.
 
-    .. _image213
+    .. _image214:
     .. figure:: /img/user_manual/image183.png
       :align: center
 
-      `Image 213 - Insurees without photos Report Criteria`
+      `Image 214 - Insurees without photos Report Criteria`
 
     -  Payment Category Overview Report.
 
-    .. _image214
+    .. _image215:
     .. figure:: /img/user_manual/image184.png
       :align: center
 
-      `Image 214 - Payment Category Overview Report Criteria`
+      `Image 215 - Payment Category Overview Report Criteria`
 
     -  Matching Funds Report.
 
-    .. _image215
+    .. _image216:
     .. figure:: /img/user_manual/image185.png
       :align: center
 
-      `Image 215 - Matching funds Report Criteria`
+      `Image 216 - Matching funds Report Criteria`
 
     -  Claim Overview Report.
 
-    .. _image216
+    .. _image217:
     .. figure:: /img/user_manual/image186.png
       :align: center
 
-      `Image 216 - Claim Overview Report Criteria`
+      `Image 217 - Claim Overview Report Criteria`
 
     -  Percentage of Referrals Report.
 
-    .. _image217
+    .. _image218:
     .. figure:: /img/user_manual/image187.png
       :align: center
 
-      `Image 217 - Percentage of Referrals Report Criteria`
+      `Image 218 - Percentage of Referrals Report Criteria`
 
     -  Families and Insurees Overview Report.
 
-    .. _image218
+    .. _image219:
     .. figure:: /img/user_manual/image188.png
       :align: center
 
-      `Image 218 - Families and Insurees Overview Report Criteria`
+      `Image 219 - Families and Insurees Overview Report Criteria`
 
     -  Pending Insurees Report.
 
-    .. _image219
+    .. _image220:
     .. figure:: /img/user_manual/image189.png
       :align: center
 
-      `Image 219 - Pending Insurees Report Criteria`
+      `Image 220 - Pending Insurees Report Criteria`
 
     -  Renewals Report.
 
-    .. _image220
+    .. _image221:
     .. figure:: /img/user_manual/image190.png
       :align: center
 
-      `Image 220 Renewals Report Criteria`
+      `Image 221 Renewals Report Criteria`
 
     -  Capitation Payment Report
 
-    .. _image221
+    .. _image222:
     .. figure:: /img/user_manual/image191.png
       :align: center
 
-      `Image 221 Capitation Payment Report Criteria`
+      `Image 222 Capitation Payment Report Criteria`
 
 The general meaning of selection criteria for creating of a report is as follows:
 
     -  ``Date From``
 
-      Type in a date; or use the Date Selector Button, to enter the beginning of a period, in which policies have their enrolment, effective, expire or renewal days, contributions were paid or in claimed health care was provided. If used with a report, it is mandatory. `*Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.`*
+      Type in a date; or use the Date Selector Button, to enter the beginning of a period, in which policies have their enrolment, effective, expire or renewal days, contributions were paid or in claimed health care was provided. If used with a report, it is mandatory. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
     -  ``Date To``
 
-      Type in a date; or use the Date Selector Button, to enter the end of a period, in which policies have their enrolment, effective, expire or renewal days or in which claimed health care was provided. If used with a report, it is mandatory. `*Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.`
+      Type in a date; or use the Date Selector Button, to enter the end of a period, in which policies have their enrolment, effective, expire or renewal days or in which claimed health care was provided. If used with a report, it is mandatory. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
     -  ``Payment Type``
 
@@ -6344,15 +6355,15 @@ The general meaning of selection criteria for creating of a report is as follows
 
     -  ``Region``
 
-      Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select a region, data of which should be included for the report. `*Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected.`*
+      Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select a region, data of which should be included for the report. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected.*
 
     -  ``District``
 
-      Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select a district, data of which should be included for the report. `*Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected.`*
+      Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select a district, data of which should be included for the report. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected.*
 
     -  ``Product``
 
-      Select the ``Product``; from the list of products by clicking on the arrow on the right of the selector to include in the report data for the specific product. `*Note: The list will only be filled with the products belong to the districts assigned to the current logged in user. If this is only one then the product will be automatically selected.`*
+      Select the ``Product``; from the list of products by clicking on the arrow on the right of the selector to include in the report data for the specific product. *Note: The list will only be filled with the products belong to the districts assigned to the current logged in user. If this is only one then the product will be automatically selected.*
 
     -  ``Month``
 
@@ -6368,11 +6379,11 @@ The general meaning of selection criteria for creating of a report is as follows
 
     -  ``HF Code``
 
-      Select the ``HF Code``; from the list of heath facility codes by clicking on the arrow on the right of the selector to create the report for the specific health facility. `*Note: The list will only be filled with health facility codes of health facilities belonging to the districts assigned to the current logged in user. If this is only one then the health facility code will be automatically selected.`*
+      Select the ``HF Code``; from the list of heath facility codes by clicking on the arrow on the right of the selector to create the report for the specific health facility. *Note: The list will only be filled with health facility codes of health facilities belonging to the districts assigned to the current logged in user. If this is only one then the health facility code will be automatically selected.*
 
     -  ``Enrolment Officer``
 
-      Select the enrolment officer; from the list of enrolment officers by clicking on the arrow on the right of the selector to select enrolment officer data of whom should be included in the report. `*Note: The list will only be filled with the enrolment officers assigned to the current selected district. If this is no district selected the enrolment officers list will be filled by all districts' enrolment officers`*
+      Select the enrolment officer; from the list of enrolment officers by clicking on the arrow on the right of the selector to select enrolment officer data of whom should be included in the report. *Note: The list will only be filled with the enrolment officers assigned to the current selected district. If this is no district selected the enrolment officers list will be filled by all districts' enrolment officers*
 
     -  ``Payer``
 
@@ -6388,13 +6399,13 @@ The general meaning of selection criteria for creating of a report is as follows
 
     -  ``Previous``
 
-      Select the previous reports from the drop down list by clicking on the right arrow. By selecting any of the options a user can fetch a report which was produced before. `*Note: This filter is available only for Matching Funds Report.`*
+      Select the previous reports from the drop down list by clicking on the right arrow. By selecting any of the options a user can fetch a report which was produced before. *Note: This filter is available only for Matching Funds Report.*
 
     -  ``Date Selector Button``
 
-      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`image222`) by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
+      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`image223`) by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
-        -  At anytime during the use of the pop-up, the user can see the date of *today*.
+        -  At anytime during the use of the pop-up, the user can see the date of **today**.
         -  Clicking on *today* will close the pop-up and display the today’s date in the corresponding date entry box.
         -  Clicking on any day of the month will close the pop-up and display the date selected in the corresponding date entry box.
         -  Clicking on the arrow to the left displays the previous month.
@@ -6402,26 +6413,26 @@ The general meaning of selection criteria for creating of a report is as follows
         -  Clicking on the month will display all the months for the year.
         -  Clicking on the year will display a year selector.
 
-      .. _image222:
-      .. |logo45| image:: /img/user_manual/image6.png
+      .. _image223:
+      .. |logo48| image:: /img/user_manual/image6.png
         :scale: 100%
         :align: middle
-      .. |logo46| image:: /img/user_manual/image7.png
+      .. |logo49| image:: /img/user_manual/image7.png
         :scale: 100%
         :align: middle
-      .. |logo47| image:: /img/user_manual/image8.png
+      .. |logo50| image:: /img/user_manual/image8.png
         :scale: 100%
         :align: middle
 
       +----------++----------++----------+
-      | |logo45| || |logo46| || |logo47| |
+      | |logo48| || |logo49| || |logo50| |
       +----------++----------++----------+
 
-        `Image 222 - Calendar Selector - Search Panel`
+        `Image 223 - Calendar Selector - Search Panel`
 
   B. Report Type Selector
 
-  This panel contains a list of available report types. A user can select to create a desired report by clicking on the report type list item (:ref:`image223`) and narrow the report using the criteria being shown on the panel above, and then click the preview button to create the report. Available report types are:
+  This panel contains a list of available report types. A user can select to create a desired report by clicking on the report type list item (:ref:`image224`) and narrow the report using the criteria being shown on the panel above, and then click the preview button to create the report. Available report types are:
 
     -  Primary Operational Indicators Report.
     -  Derived Operational Indicators Report.
@@ -6440,11 +6451,11 @@ The general meaning of selection criteria for creating of a report is as follows
     -  Percentage of Referrals.
     -  Capitation Payment
 
-  .. _image223
+  .. _image224:
   .. figure:: /img/user_manual/image192.png
     :align: center
 
-    `Image 223 - Report Type Selector`
+    `Image 224 - Report Type Selector`
 
   C. Button Panel
 
@@ -6474,8 +6485,8 @@ Below are the types of reports as they can be seen in the report page.
   The report provides aggregate data relating to policies and insurees according to insurance products. The report can be run by users with the role Manager. The table below will provide an overview on primary indicators of the report.
 
   +-----------------+-----------------+-----------------+-----------------+
-  |     **Code**    |   **Primary     |  **Dimension**  | **Description** |
-  |                 |  indicators**   |                 |                 |
+  |     Code        |     Primary     |      Dimension  |     Description |
+  |                 |  indicators     |                 |                 |
   |                 |                 |                 |                 |
   +=================+=================+=================+=================+
   |     P1          |     Number of   |     Time,       |     The number  |
@@ -6510,7 +6521,7 @@ Below are the types of reports as they can be seen in the report page.
   |                 |                 |                 |     respective  |
   |                 |                 |                 |     period      |
   |                 |                 |                 |                 |
-  |                 |                 |                 |     ( Enrolment |
+  |                 |                 |                 |     (Enrolment  |
   |                 |                 |                 |     date is     |
   |                 |                 |                 |     within the  |
   |                 |                 |                 |     respective  |
@@ -6719,20 +6730,20 @@ Below are the types of reports as they can be seen in the report page.
 
   Below is an example of the report:
 
-  .. _image224
+  .. _image225:
   .. figure:: /img/user_manual/image193.png
     :align: center
 
-    `Image 224 - Preview – Primary Operational Indicators - Policies Report`
+    `Image 225 - Preview – Primary Operational Indicators - Policies Report`
 
   **2. primary operational indicators - claims report**
 
   The report provides aggregate data relating to policies and insurees according to insurance products. The report can be run by users with the role Manager. The table below will provide an overview on primary indicators of the report.
 
   +-----------------+-----------------+-----------------+-----------------+
-  |     ``Code``    |     ``Primary   |     ``Dimension |     ``Descripti |
-  |                 |     indicators* | ``              | on``            |
-  |                 | *               |                 |                 |
+  |       Code      |       Primary   |     Dimension   |     Description |
+  |                 |     indicators  |                 |                 |
+  |                 |                 |                 |                 |
   +=================+=================+=================+=================+
   | P10             |     Number of   |     Time,       |     The number  |
   |                 |     claims      |     Health      |     of claims   |
@@ -6799,22 +6810,22 @@ Below are the types of reports as they can be seen in the report page.
 
   Below is an example of the report:
 
-  .. _image225
+  .. _image226:
   .. figure:: /img/user_manual/image194.png
     :align: center
 
-    `Image 225 . Preview – Primary Operational Indicators - Claims Report`
+    `Image 226 - Preview – Primary Operational Indicators - Claims Report`
 
   **3. derived operational indicators report**
 
   The report provides operational indicators derived from primary operational indicators. The report can be run by users with the role Manager. The table below will provide an overview on the actual derived indicators provided by the report.
 
   +-----------------+-----------------+-----------------+-----------------+
-  |     ``Code``    |     ``Derived   |     ``Dimension |     ``Descripti |
-  |                 |     indicators* | ``              | on``            |
-  |                 | *               |                 |                 |
+  |     Code        |     Derived     |     Dimension   |     Description |
+  |                 |     indicators  |                 |                 |
+  |                 |                 |                 |                 |
   +=================+=================+=================+=================+
-  |     D1          | Incurred claims |     Time,       |     It is the   |
+  | D1              | Incurred claims |     Time,       |     It is the   |
   |                 | ratio           |     Insurance   |     ratio       |
   |                 |                 |     product     |     P11/P9      |
   +-----------------+-----------------+-----------------+-----------------+
@@ -6833,8 +6844,8 @@ Below are the types of reports as they can be seen in the report page.
   |                 |     of claims   |     Insurance   |     average     |
   |                 |     settlement  |     product     |     (date of    |
   |                 |                 |                 |     sending to  |
-  |                 |                 |                 |     payment-Dat |
-  |                 |                 |                 | e               |
+  |                 |                 |                 |     payment-    |
+  |                 |                 |                 |     Date        |
   |                 |                 |                 |     of          |
   |                 |                 |                 |     submission  |
   |                 |                 |                 |     of the      |
@@ -6863,9 +6874,9 @@ Below are the types of reports as they can be seen in the report page.
   |                 |                 |                 |     be?)        |
   +-----------------+-----------------+-----------------+-----------------+
   | D5              |     Claims      |     Time,       |     It is the   |
-  |                 |     settlement  |     Health      |     ratio       |
-  |                 |     ratio       |     facility,   |     (P10-P12)/P |
-  |                 |                 |     Insurance   | 10              |
+  |                 |     settlement  |     Health      |     ratio (P10- |
+  |                 |     ratio       |     facility,   |     P12)/P10    |
+  |                 |                 |     Insurance   |                 |
   |                 |                 |     product     |                 |
   +-----------------+-----------------+-----------------+-----------------+
   | D6              |     Number of   |     Time,       |     It is the   |
@@ -6878,9 +6889,9 @@ Below are the types of reports as they can be seen in the report page.
   |                 |                 |     Insurance   |                 |
   |                 |                 |     product     |                 |
   +-----------------+-----------------+-----------------+-----------------+
-  | D8              |     Satisfactio |     Time,       |     The average |
-  |                 | n               |     District,   |     mark from   |
-  |                 |     level       |     Health      |     feedbacks   |
+  | D8              |     Satisfaction|     Time,       |     The average |
+  |                 |     level       |     District,   |     mark from   |
+  |                 |                 |     Health      |     feedbacks   |
   |                 |                 |     facility    |     received in |
   |                 |                 |                 |     a           |
   |                 |                 |                 |     respective  |
@@ -6905,11 +6916,11 @@ Below are the types of reports as they can be seen in the report page.
 
   Below is an example of the report:
 
-  .. _image226
+  .. _image227:
   .. figure:: /img/user_manual/image195.png
     :align: center
 
-    `Image 226 - Preview – Derived Operational Indicators Report`
+    `Image 227 - Preview – Derived Operational Indicators Report`
 
   **4. Contribution collection report**
 
@@ -6919,11 +6930,11 @@ Below are the types of reports as they can be seen in the report page.
 
   Below is an example of the report:
 
-  .. _image227
+  .. _image228:
   .. figure:: /img/user_manual/image196.png
     :align: center
 
-    `Image 227 - Preview – Contribution Collection Report`
+    `Image 228 - Preview – Contribution Collection Report`
 
   **5. product sales report**
 
@@ -6933,11 +6944,11 @@ Below are the types of reports as they can be seen in the report page.
 
   Below is an example of the report:
 
-  .. _image228
+  .. _image229:
   .. figure:: /img/user_manual/image197.png
     :align: center
 
-    `Image 228 - Preview – Product Sales Report`
+    `Image 229 - Preview – Product Sales Report`
 
   **6. Contribution distribution report**
 
@@ -6951,91 +6962,91 @@ Below are the types of reports as they can be seen in the report page.
 
   Below is an example of the report:
 
-  .. _image229
+  .. _image230:
   .. figure:: /img/user_manual/image198.png
     :align: center
 
-    `Image 229 - Preview – Contribution Distribution Report`
+    `Image 230 - Preview – Contribution Distribution Report`
 
   **7. user activity report**
 
   The report shows activities of users according to types of activities and types of entities to which the activities relate. The report can be run by users with the role IMIS Administrator. Below is an example of the report:
 
-  .. _image230
+  .. _image231:
   .. figure:: /img/user_manual/image199.png
     :align: center
 
-    `Image 230 - Preview – User Activity Report`
+    `Image 231 - Preview – User Activity Report`
 
   **8. enrolment performance indicator report**
 
   The report provides overview of activity of enrolment officers. The report can be run by users with the role Manager. Below is an example of the report:
 
-  .. _image231
+  .. _image232:
   .. figure:: /img/user_manual/image200.png
     :align: center
 
-    `Image 231 - Preview – Enrolment Performance Indicator Report`
+    `Image 232 - Preview – Enrolment Performance Indicator Report`
 
   **9. status of registers report**
 
   The report provides an overview of the number of items in registers according to districts. The report can be run by users with the role Scheme Administrator. Below is an example of the report:
 
-  .. _image232
+  .. _image233:
   .. figure:: /img/user_manual/image201.png
     :align: center
 
-    `Image 232 - Preview – Status of Registers Report`
+    `Image 233 - Preview – Status of Registers Report`
 
   **10. insurees without photos**
 
   The report lists all insurees according to enrolment officers that have not assigned a photo. The report can be run by users with the role Accountant. Below is an example of the report:
 
-  .. _image233
+  .. _image234:
   .. figure:: /img/user_manual/image202.png
     :align: center
 
-    `Image 233 - Preview – Insurees without photos`
+    `Image 234 - Preview – Insurees without photos`
 
   **11. matching funds**
 
   The report lists all families/groups according to insurance products and (institutional) payers that paid contributions in the specified period. This report is useful for claiming of subsidies for running of health insurance schemes. The report can be run by users with the role Accountant. Below is an example of the report:
 
-  .. _image234
+  .. _image235:
   .. figure:: /img/user_manual/image203.png
     :align: center
 
-    `Image 234 - Preview –Matching Funds`
+    `Image 235 - Preview –Matching Funds`
 
   **12. claim overview**
 
   The report provides detailed data about results of processing of claims in IMIS according to insurance products and health facilities. The report can be used as a tool for communication between a health insurance scheme and its contractual health facilities. The report can be run by users with the role Accountant. Claims are assigned to the specified period according to date of provision of health care (in case of in-patient care according to the date of discharge). Below is an example of the report:
 
-  .. _image235
+  .. _image236:
   .. figure:: /img/user_manual/image204.png
     :align: center
 
-    `Image 235 Preview – Claim Overview`
+    `Image 236 Preview – Claim Overview`
 
   **13. payment category overview**
 
   The report provides split of total contributions according to their categories. The report can be run by users with the role Accountant. Contributions are assigned to the specified period according to actual payment date. Below is an example of the report:
 
-  .. _image236
+  .. _image237:
   .. figure:: /img/user_manual/image205.png
     :align: center
 
-    `Image 236 - Preview – Payment Category Overview`
+    `Image 237 - Preview – Payment Category Overview`
 
   **14. Families and Insurees Overview report**
 
   The report provides an overview of enrolled families/groups and their members in specified location within the specified period. The report can be run by users with the role Accountant. Below is an example of the report:
 
-  .. _image237
+  .. _image238:
   .. figure:: /img/user_manual/image206.png
     :align: center
 
-    `Image 237 - Preview – Families and Insurees Overview Report`
+    `Image 238 - Preview – Families and Insurees Overview Report`
 
   **15. Percentage of Referrals report**
 
@@ -7047,41 +7058,41 @@ Below are the types of reports as they can be seen in the report page.
 
   The report can be run by users with the role Accountant. Below is an example of the report:
 
-  .. _image238
+  .. _image239:
   .. figure:: /img/user_manual/image207.png
     :align: center
 
-    `Image 238 - Preview – Percentage of Referrals Overview Report`
+    `Image 239 - Preview – Percentage of Referrals Overview Report`
 
   **16. Pending Insurees report**
 
   The report lists all insurees whose photos have been sent to IMIS but who has no record in IMIS yet. The report can be run by users with the role Accountant.  Below is an example of the report:
 
-  .. _image239
+  .. _image240:
   .. figure:: /img/user_manual/image208.png
     :align: center
 
-    `Image 239 - Preview – Pending Insurees Report`
+    `Image 240 - Preview – Pending Insurees Report`
 
   **17. Renewals report**
 
   The report lists all renewed policies in given period for given insurance product and optionally for given enrolment officer. The families that have at least one payment of contributions in given period of time are included in the report. The report can be run by users with the role Accountant. Below is an example of the report:
 
-  .. _image240
+  .. _image241:
   .. figure:: /img/user_manual/image209.png
     :align: center
 
-    `Image 240 - Preview – Renewals Report`
+    `Image 241 - Preview – Renewals Report`
 
   **18. Capitation Payment Report**
 
   The report lists capitation payments for all health facilities specified in the `capitation formula <#capitation-payment>`__ for specified month and for given insurance product. The report can be run by users with the role Accountant. Below is an example of the report:
 
-  .. _image241
+  .. _image242:
   .. figure:: /img/user_manual/image210.png
     :align: center
 
-    `Image 241 - Preview –Capitation Payment Report`
+    `Image 242 - Preview –Capitation Payment Report`
 
 Utilities
 ^^^^^^^^^
@@ -7097,41 +7108,41 @@ Navigation
 
 All functionality for use with the administration of utilities can be found under the main menu ``Tools``, sub menu ``Utilities``
 
-.. _image242
+.. _image243:
 .. figure:: /img/user_manual/image211.png
   :align: center
 
-  `Image 242 - Navigation Utilities`
+  `Image 243 - Navigation Utilities`
 
 Clicking on the sub menu ``Utilities`` re-directs the current user to the `Utilities Page. <#image-6.75-utilities-page>`__
 
-.. _image243
+.. _image244:
 .. figure:: /img/user_manual/image212.png
   :align: center
 
-  `Image 243 - Utilities Page`
+  `Image 244 - Utilities Page`
 
 Backup
 """"""
 
 Backup utility can be found in the top panel of the `Utilities Page <#Utilities>`_. By default the path of the backup folder will be populated from the default table. User can change the path according to the requirement. Next to the textbox user can see one heck box called ``Save Path``. If user wants to update the backup folder in default table then this check box should be in checked state. Otherwise system will take the backup on the folder assigned by the user but it will not be updated in database. So next time when user comes on the `Utilities Page <#Utilities>`_, the textbox will be populated with the original path. After the path has been entered user can just click on the ``Backup button`` to start the process and a progress bar will be appeared on the screen. Users are requested to be patient while the system performs the task.
 
-.. _image244
+.. _image245:
 .. figure:: /img/user_manual/image213.png
   :align: center
 
-  `Image 244 - Backup is in progress`
+  `Image 245 - Backup is in progress`
 
 Restore
 """""""
 
 Restore utility can be found in the second panel of the `Utilities Page <#Utilities>`_. User will have to put the path of the backup file to be restored. After the path has been entered user can just click on the ``Restore`` button to start the process and a progress bar will be appeared on the screen. Users are requested to be patient while the system performs the task.
 
-.. _image245
+.. _image246:
 .. figure:: /img/user_manual/image213.png
   :align: center
 
-  `Image 245 - Backup is in progress`
+  `Image 246 - Backup is in progress`
 
 Execute script
 """"""""""""""
@@ -7147,18 +7158,16 @@ Access to the ``Funding`` is restricted to the users with the role of Accountant
 
 The ``Funding`` is the place where funding from external authorities (payers) can be for entered. IMIS creates internally one fictive family/group (the insurance number of the head of the fictive family/group is 999999999, the name is *Funding* and the other name is *Funding* as well) for the district for which a funding is done. Each entering of a fund results in creation of a fictive policy for the corresponding fictive family/group with paid contribution in the amount of the funding. The fictive policy is active since the date of payment of the corresponding fund. These fictive policies are overpaid as these funds are usually much higher than the contribution rate for a single family/member of the group but it doesn’t matter. External funding corresponds to payment of contributions for many families/members of the group in some period. IMIS can regard funds as standard contributions and its standard functionality can be used for handling of funds. One distinctive feature of payment of funds by means of the fictive policies is that the payments of funds don’t appear in the reports on matching funds generated for funding authorities. So, there is no danger that offices of the scheme administration would acquire new funds based on funding already acquired.
 
-.. _navigation-25:
-
 Navigation
 """"""""""
 
 The functionality for entering of funds can be found under the main menu ``Tools``, sub menu ``Funding``
 
-.. _image246
+.. _image247:
 .. figure:: /img/user_manual/image214.png
   :align: center
 
-  `Image 246 - Navigation Funding`
+  `Image 247 - Navigation Funding`
 
 Clicking on the sub menu ``Funding`` re-directs the current user to the `Funding Page. <#image-6.79-funding-page>`__
 
@@ -7167,21 +7176,21 @@ Funding Page
 
   **1. Data Entry**
 
-  .. _image247
+  .. _image248:
   .. figure:: /img/user_manual/image215.png
     :align: center
 
-    `Image 247 - Funding Page`
+    `Image 248 - Funding Page`
 
 ..
 
     -  ``Region``
 
-      Select the region from the list of regions for which the funding is designated by clicking on the arrow on the right of the selector. `*Note: The list will only be filled with the regions assigned to the current logged in user.`*
+      Select the region from the list of regions for which the funding is designated by clicking on the arrow on the right of the selector. *Note: The list will only be filled with the regions assigned to the current logged in user.*
 
     -  ``District``
 
-      Select the district from the list of districts for which the funding is designated. by clicking on the arrow on the right of the selector. `*Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user.`*
+      Select the district from the list of districts for which the funding is designated. by clicking on the arrow on the right of the selector. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user.*
 
     -  ``Product``
 
@@ -7215,8 +7224,8 @@ Funding Page
 
   By clicking on the Cancel button, the user will be re-directed to the `Home Page <#image-2.2-home-page>`__.
 
-Changing of user’s password
----------------------------
+Password change
+---------------
 
 Any user can change his/her password by adjustment of his/her profile.
 
@@ -7225,11 +7234,11 @@ Navigation
 
 Functionality for changing of a password can be in the menu ``My Profile``, sub menu ``Change Password``
 
-.. _image248
+.. _image249:
 .. figure:: /img/user_manual/image216.png
   :align: center
 
-  `Image 248 - Navigation Change Password`
+  `Image 249 - Navigation Change Password`
 
 Clicking on the sub menu ``Change Password`` re-directs the current user to the `Change Password Page. <#image-7.2-change-password-page>`__
 
@@ -7238,11 +7247,11 @@ Change Password Page
 
   **5. Data Entry**
 
-  .. _image249
+  .. _image250:
   .. figure:: /img/user_manual/image217.png
     :align: center
 
-    `Image 249 - Change Password Page`
+    `Image 250 - Change Password Page`
 
 ..
 
@@ -7270,7 +7279,7 @@ Change Password Page
 
   By clicking on the Cancel button, the user will be re-directed to the `Home Page <#image-2.2-home-page>`__
 
-IMIS OFFLINE
+Offline mode
 ------------
 
 Introduction
@@ -7285,35 +7294,35 @@ Facilities available while offline and online in IMIS, are similar with some few
 
   A. ``LOGIN``
 
-  If a user who is logging in is having user role HF Administrator or offline Scheme Administrator and if Heath Facility ID/Scheme Office ID is not set yet, just after clicking login button on the login screen/page, the user will be prompted to enter Health Facility/Scheme Office ID (:ref:`image250`), (:ref:`image251`), only once for that very first time of logging in.
+  If a user who is logging in is having user role HF Administrator or offline Scheme Administrator and if Heath Facility ID/Scheme Office ID is not set yet, just after clicking login button on the login screen/page, the user will be prompted to enter Health Facility/Scheme Office ID (:ref:`image251`), (:ref:`image252`), only once for that very first time of logging in.
 
-  .. _image250
+  .. _image251:
   .. figure:: /img/user_manual/image218.png
     :align: center
 
-    `Image 250 - Enter HF ID - HF Administrator Login, IMIS offline`
+    `Image 251 - Enter HF ID - HF Administrator Login, IMIS offline`
 
-  .. _image251
+  .. _image252:
   .. figure:: /img/user_manual/image219.png
     :align: center
 
-    `Image 251 - Enter Scheme Office ID - offline Scheme Administrator Login, IMIS offline`
+    `Image 252 - Enter Scheme Office ID - offline Scheme Administrator Login, IMIS offline`
 
   B. ``INFORMATION BAR``
 
-  Throughout the application, an information bar at the bottom of each page will have a different background colour to that of online IMIS and on the its right end, there will be shown heath facility code and health facility name / Scheme Office ID submitted (:ref:`image252`), (:ref:`image253`).
+  Throughout the application, an information bar at the bottom of each page will have a different background colour to that of online IMIS and on the its right end, there will be shown heath facility code and health facility name / Scheme Office ID submitted (:ref:`image253`), (:ref:`image254`).
 
-  .. _image252
+  .. _image253:
   .. figure:: /img/user_manual/image220.png
     :align: center
 
-    `Image 252 - Information Bar – Scheme Office, IMIS offline`
+    `Image 253 - Information Bar – Scheme Office, IMIS offline`
 
-  .. _image253
+  .. _image254:
   .. figure:: /img/user_manual/image221.png
     :align: center
 
-    `Image 253 - Information Bar - Health Facility, IMIS offline`
+    `Image 254 - Information Bar - Health Facility, IMIS offline`
 
   C. ``MENUS ACCESS``
 
@@ -7322,19 +7331,20 @@ Facilities available while offline and online in IMIS, are similar with some few
     -  User with roles HF Administrator and Offline Scheme Administrator can access only ``Users``, ``IMIS Extracts`` and ``Utilities`` menus, while all other users with different roles can access menus just as they would do in the online IMIS version.
 
       -  ``Extracts``
-        Extracts Menu leads an offline user to Extracts control panel. Using this panel, an offline user with rights to this panel can import data from online IMIS to the local offline IMIS, and can also download claims and enrolments prior to upload them to the online IMIS. This panel is divided into five sections (:ref:`image254`), (:ref:`image255`) If an offline user is HF Administrator, section C will contain facility to ``Download Claims``. If an offline user is Offline Scheme Administrator, section C will contain facility to ``Download Enrolments``
 
-        .. _image254
+        Extracts Menu leads an offline user to Extracts control panel. Using this panel, an offline user with rights to this panel can import data from online IMIS to the local offline IMIS, and can also download claims and enrolments prior to upload them to the online IMIS. This panel is divided into five sections (:ref:`image255`), (:ref:`image256`) If an offline user is HF Administrator, section C will contain facility to ``Download Claims``. If an offline user is Offline Scheme Administrator, section C will contain facility to ``Download Enrolments``
+
+        .. _image255:
         .. figure:: /img/user_manual/image222.png
           :align: center
 
-          `Image 254 - Extracts Control Page, HF Administrator, IMIS offline`
+          `Image 255 - Extracts Control Page, HF Administrator, IMIS offline`
 
-        .. _image255
+        .. _image256:
         .. figure:: /img/user_manual/image223.png
           :align: center
 
-          `Image 255 - Extracts Control Page, Offline Scheme Administrator, IMIS offline`
+          `Image 256 - Extracts Control Page, Offline Scheme Administrator, IMIS offline`
 
       -  ``section a - import extract``
 
@@ -7344,33 +7354,33 @@ Facilities available while offline and online in IMIS, are similar with some few
 
         User has to select a file from a local computer by clicking the 'select file' button on the left side of the section, and in the popup window which appears (:ref:`image256`) user can navigate to the required file and select the file.
 
-        .. _image256
+        .. _image257:
         .. figure:: /img/user_manual/image224.png
           :align: center
 
-          `Image 256 - Select File Popup Window, Import Extracts, IMIS offline`
+          `Image 257 - Select File Popup Window, Import Extracts, IMIS offline`
 
         After clicking the upload button on the very end of right hand side in this section, data in the file will be imported to the offline IMIS and confirmation will be given as popup messages (:ref:`image257`), (:ref:`image258`).
 
-        .. _image257
+        .. _image258:
         .. figure:: /img/user_manual/image225.png
           :align: center
 
-          `Image 257 - Popup Window, Import Extracts, HF Administrator, IMIS offline`
+          `Image 258 - Popup Window, Import Extracts, HF Administrator, IMIS offline`
 
-        .. _image258
+        .. _image259:
         .. figure:: /img/user_manual/image226.png
           :align: center
 
-          `Image 258 - Popup Window, Import Extracts, Offline Scheme Administrator, IMIS offline`
+          `Image 259 - Popup Window, Import Extracts, Offline Scheme Administrator, IMIS offline`
 
-        User cannot import an extract whose sequence number is same as last one imported; if done so, a popup message (:ref:`image259`) will be shown.
+        User cannot import an extract whose sequence number is same as last one imported; if done so, a popup message (:ref:`image260`) will be shown.
 
-        .. _image259
+        .. _image260:
         .. figure:: /img/user_manual/image227.png
           :align: center
 
-          `Image 259 - Popup Window, Wrong sequence of an extract file, IMIS offline`
+          `Image 260 - Popup Window, Wrong sequence of an extract file, IMIS offline`
 
       -  ``section b - import photos``
 
@@ -7378,21 +7388,21 @@ Facilities available while offline and online in IMIS, are similar with some few
 
         ..
 
-        User has to select a file from a local computer by clicking the 'select file' button on the left side of the section, and in the popup window which appears (:ref:`image260`), user can navigate to the required file and select the file.
+        User has to select a file from a local computer by clicking the 'select file' button on the left side of the section, and in the popup window which appears (:ref:`image261`), user can navigate to the required file and select the file.
 
-        .. _image260
+        .. _image261:
         .. figure:: /img/user_manual/image228.png
           :align: center
 
-          `Image 260 - Select File Popup Window, Import Photos, IMIS offline`
+          `Image 261 - Select File Popup Window, Import Photos, IMIS offline`
 
         After clicking the upload button on the very end of right hand side in this section, data in the file will be imported to the offline IMIS and confirmation will be given as popup messages (:ref:`image261`).
 
-        .. _image261
+        .. _image262:
         .. figure:: /img/user_manual/image229.png
           :align: center
 
-          `Image 261 - Popup Window, Import Photos, IMIS offline`
+          `Image 262 - Popup Window, Import Photos, IMIS offline`
 
         If importation of photo is not done due to some reason, the above popup message will not be shown, instead system will issue proper popup message to notify a user what went wrong and what is to be done.
 
@@ -7402,20 +7412,19 @@ Facilities available while offline and online in IMIS, are similar with some few
 
       -  ``download enrolment xmls``
 
-        This section has facility to enable Offline Scheme Administrator download to a zipped file all offline enrollments of families, insurees, policies and contributions. By clicking the download button on the right hand side, the user initiate download process. If no enrolment found, a popup message box (:ref:`image262`) will appear, notifying the user. Otherwise enrollments will be downloaded in a zipped file and a confirmation popup message (:ref:`image263`) will appear
+        This section has facility to enable Offline Scheme Administrator download to a zipped file all offline enrollments of families, insurees, policies and contributions. By clicking the download button on the right hand side, the user initiate download process. If no enrolment found, a popup message box (:ref:`image262`) will appear, notifying the user. Otherwise enrollments will be downloaded in a zipped file and a confirmation popup message (:ref:`image264`) will appear
 
-        .. _image262
+        .. _image263:
         .. figure:: /img/user_manual/image230.png
           :align: center
 
-          `Image 262 - Popup Window, Download Enrolments, IMIS offline`
+          `Image 263 - Popup Window, Download Enrolments, IMIS offline`
 
-
-          .. _image263
+          .. _image264:
           .. figure:: /img/user_manual/image231.png
             :align: center
 
-            `Image 263 - Popup Window, Download Enrolments, IMIS offline`
+            `Image 264 - Popup Window, Download Enrolments, IMIS offline`
 
       -  ``section d - buttons``
 
@@ -7426,201 +7435,127 @@ Facilities available while offline and online in IMIS, are similar with some few
         Information bar at the bottom will show different notification messages in blue color depending on the actions of the user. Such actions and messages may be:
 
         a) No Previous Extract Found
+
           This message is seen at the first time when using the system and no any extract has been imported into the offline IMIS
 
-          .. _image264
+          .. _image265:
           .. figure:: /img/user_manual/image232.png
             :align: center
 
-            `Image 264 - IMIS Extracts, Information Bar, IMIS offline`
+            `Image 265 - IMIS Extracts, Information Bar, IMIS offline`
 
-        b) Last Extract Sequence: < Sequence Number >
+        b) Last Extract Sequence: <Sequence Number>
 
           This message is seen, after a single / series of extract importation have been made to the offline IMIS and that much times will be shown as a sequence number at the end of the message. This enables proper tracking of right extracts to import and use.
 
-          .. _image265
+          .. _image266:
           .. figure:: /img/user_manual/image233.png
             :align: center
 
-            `Image 265 - IMIS Extracts, Information Bar, IMIS offline`
+            `Image 266 - IMIS Extracts, Information Bar, IMIS offline`
 
         c) No claims Found
 
           When HF offline IMIS user is downloading offline claims and no new offline claims is found, this message is displayed.
 
-          .. _image266
+          .. _image267:
           .. figure:: /img/user_manual/image234.png
             :align: center
 
-            `Image 266 - IMIS Extracts, Information Bar, IMIS offline`
+            `Image 267 - IMIS Extracts, Information Bar, IMIS offline`
 
--  USERS
+    -  USERS
 
-   Users with role HF Administrator, can create only users with roles:
-   ``Receptionist, Claim Administrator`` and ``HF Administrator``
-   `(Image
-   8.18) <#image-8.18-users-page---hf-administrator-imis-offline>`__.
-   User with role 'offline NSHIP Administrator', can create only user
-   with role\ ``: Clerk`` `(Image
-   8.19) <#image-8.19-users-page---offline-scheme-administrator-imis-offline>`__
+      Users with role HF Administrator, can create only users with roles: **Receptionist, Claim Administrator** and **HF Administrator** (:ref:`image268`). User with role 'offline NSHIP Administrator', can create only user with role: **Clerk** (:ref:`image269`).
 
-   |image280|
+      .. _image268:
+      .. figure:: /img/user_manual/image235.png
+        :align: center
 
- Image 8.18 (Users Page - HF Administrator, IMIS offline)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        `Image 268 - Users Page - HF Administrator, IMIS offline`
 
-|image281|
+      .. _image269:
+      .. figure:: /img/user_manual/image236.png
+        :align: center
 
- Image 8.19 (Users Page - Offline Scheme Administrator, IMIS offline)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        `Image 269 - Users Page - Offline Scheme Administrator, IMIS offline`
 
-D. data access
+  D. data access
 
--  Search / Find
+    -  Search / Find
 
-   In all pages in Insurees and Policies menus with search / find
-   facility, there will be an extra search criteria `(Image
-   8.20) <#image-8.20-search-criteria---offline-only-data-imis-offline>`__
-   to enable search for offline data only. This feature is available if
-   a user is in Offline IMIS.
+      In all pages in ``Insurees`` and ``Policies`` menus with search / find acility, there will be an extra search criteria (:ref:`image 270`) to enable search for offline data only. This feature is available if a user is in Offline IMIS.
 
-   |image282|
+      .. _image270:
+      .. figure:: /img/user_manual/image237.png
+        :align: center
 
- Image 8.20 (Search Criteria - offline only data, IMIS offline)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        `Image 270 - Search Criteria - offline only data, IMIS offline`
 
--  Create / Edit
+  -  Create / Edit
 
-   Only families, insurees, policies and contributions created/edited
-   while offline, will be available for further manipulation. An online
-   data is available for viewing purposes.
+    Only families, insurees, policies and contributions created/edited while offline, will be available for further manipulation. An online data is available for viewing purposes.
 
-   For an offline user with a right to open Insurees and Policies menus,
-   he/she can access all data but can manipulate only that data which
-   was created offline. The rest of the data will be available in
-   read-only mode
+    ..
 
-Analytic and reporting component (AR-IMIS)
-==========================================
+    For an offline user with a right to open ``Insurees`` and ``Policies`` menus, he/she can access all data but can manipulate only that data which was created offline. The rest of the data will be available in read-only mode
 
-    The Analytic and Reporting component of the Insurance Management
-    Information System (AR-IMIS) provides managerial data for management
-    of health insurance schemes supported by IMIS, allows easy and
-    speedy analysis of these data with the objective to reveal causes of
-    different phenomena encountered in supported health insurance
-    schemes. Provided data allow also monitoring of developments within
-    supported health insurance schemes and identification of potential
-    errors in operational data.
+Analytic and reporting component
+--------------------------------
+
+The Analytic and Reporting component of the Insurance Management Information System (AR-IMIS) provides managerial data for management of health insurance schemes supported by IMIS, allows easy and speedy analysis of these data with the objective to reveal causes of different phenomena encountered in supported health insurance schemes. Provided data allow also monitoring of developments within supported health insurance schemes and identification of potential errors in operational data.
 
 Concept of AR-IMIS
-------------------
+^^^^^^^^^^^^^^^^^^
 
-    The concept of AR-IMIS is based on populating of the Data Warehouse
-    with aggregate data from the operational database of IMIS. This
-    populating is done automatically and regularly (usually once a week)
-    from the operational database by Extract, Transformation and Loading
-    process (ETL). Within this process data from the operational
-    database are aggregated and stored in the Data Warehouse in
-    conformance with multidimensional data model (`Image
-    9.1 <#image-9.1-concept-of-ar-imis>`__)
+The concept of AR-IMIS is based on populating of the Data Warehouse with aggregate data from the operational database of IMIS. This populating is done automatically and regularly (usually once a week) from the operational database by Extract, Transformation and Loading process (ETL). Within this process data from the operational database are aggregated and stored in the Data Warehouse in conformance with multidimensional data model (:ref:`image271`).
 
-    |image283|
+.. _image271:
+.. figure:: /img/user_manual/image238.png
+  :align: center
 
-Image 9.1 Concept of AR-IMIS
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  `Image 271 - Concept of AR-IMIS`
 
-    This model is suitable for analysis of data. Questions like “What is
-    the number of newly covered insurees by an insurance product at
-    during a calendar period and who were of an age, a gender, lived in
-    a location and were cared for by a enrolment officer? Data in the
-    multidimensional Data Warehouse are presented by a suitable
-    front-end tool. Currently AR-IMIS uses MS Excel as the front-end
-    presentation tool. An Excel file is remotely connected to the Data
-    Warehouse and data are stored in the Excel file in the form of so
-    called pivot tables. The multidimensional model is based on the
-    notion of facts and dimensions. The facts (indicators) are what we
-    are interested in. For example, a fact may number of insured
-    persons, number of active policies, number of submitted claims etc.
-    Facts can be looked at from different angles-for example from the
-    point of view of age and gender of insured persons, from the point
-    of view of time period etc. These angles (points of view) are
-    captured by the notion of dimensions that are used for qualification
-    of facts `Image 9.2 <#image-9.2-facts-and-dimensions>`__
+This model is suitable for analysis of data. Questions like “What is the number of newly covered insurees by an insurance product at during a calendar period and who were of an age, a gender, lived in a location and were cared for by a enrolment officer? Data in the multidimensional Data Warehouse are presented by a suitable front-end tool. Currently AR-IMIS uses MS Excel as the front-end presentation tool. An Excel file is remotely connected to the Data Warehouse and data are stored in the Excel file in the form of so called pivot tables. The multidimensional model is based on the notion of facts and dimensions. The facts (indicators) are what we are interested in. For example, a fact may number of insured persons, number of active policies, number of submitted claims etc. Facts can be looked at from different angles-for example from the point of view of age and gender of insured persons, from the point of view of time period etc. These angles (points of view) are captured by the notion of dimensions that are used for qualification of facts (:ref:`image272`).
 
-    |image284|
+.. _image272:
+.. figure:: /img/user_manual/image239.png
+  :align: center
 
-Image 9.2 Facts and dimensions
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  `Image 272 - Facts and dimensions`
 
-    A dimension is composed from points that represent specific values
-    in the dimension for which we want to look at facts-for example
-    *November* 2015 may be one point in the Time dimension. Points of a
-    dimension may be organized in hierarchies. Higher levels of
-    hierarchies represent more aggregate views. Going to the lower
-    levels by so called *drill down* operation we can analyze facts in
-    more detail-for example we may drill down from calendar years to
-    quarters of corresponding calendar years and further to months. We
-    can go in an opposite direction and look at facts from more
-    aggregate points of view (*drill up*).For example from looking at
-    the amount of collected contributions in calendar months we can look
-    at the same indicator according to quarters of a year or according
-    to calendar years.
+A dimension is composed from points that represent specific values in the dimension for which we want to look at facts-for example *November* 2015 may be one point in the Time dimension. Points of a dimension may be organized in hierarchies. Higher levels of hierarchies represent more aggregate views. Going to the lower levels by so called *drill down* operation we can analyze facts in more detail-for example we may drill down from calendar years to quarters of corresponding calendar years and further to months. We can go in an opposite direction and look at facts from more aggregate points of view (*drill up*).For example from looking at the amount of collected contributions in calendar months we can look at the same indicator according to quarters of a year or according to calendar years.
 
-    Facts with related meaning and the identical set of qualifying
-    dimension are represented in the multidimensional model of the Data
-    Warehouse as so called cubes. We can do other operations on cubes as
-    for example *slicing* when we select one or several points in one
-    dimension and look at the rest of cube or dicing when we select on
-    or several points in two or more dimensions. All such operations
-    allow analysis of data in the Data Warehouse in an easy and
-    comprehensive way.
+..
+
+Facts with related meaning and the identical set of qualifying dimension are represented in the multidimensional model of the Data Warehouse as so called cubes. We can do other operations on cubes as for example *slicing* when we select one or several points in one dimension and look at the rest of cube or dicing when we select on or several points in two or more dimensions. All such operations allow analysis of data in the Data Warehouse in an easy and comprehensive way.
 
 Dimensions
-----------
+^^^^^^^^^^
 
-    Dimensions represent our point of view on facts. Each dimension has
-    several values (points). The points are used for qualification of
-    our view on the facts. AR-IMIS provides values of facts
-    corresponding to specified points across one or more dimensions. The
-    points may be organized in hierarchies. Lower levels of a hierarchy
-    allow looking at a fact according to more specific points. For
-    example, the most important *Time* dimension has at the lowest level
-    calendar months. The calendar months are grouped into quarters and
-    quarters into calendar years. So, we can get a value of a fact
-    corresponding to a specific month. Going one level up in the
-    dimension *Time*, we can get can get a value of the fact
-    corresponding to a specific quarter and going even up we can get a
-    value of the fact corresponding to a specific calendar year. If we
-    don’t specify any point in a dimension, it means we are interested
-    in a value of a fact for all points together in the given dimension.
+Dimensions represent our point of view on facts. Each dimension has several values (points). The points are used for qualification of our view on the facts. AR-IMIS provides values of facts corresponding to specified points across one or more dimensions. The points may be organized in hierarchies. Lower levels of a hierarchy allow looking at a fact according to more specific points. For example, the most important *Time* dimension has at the lowest level calendar months. The calendar months are grouped into quarters and quarters into calendar years. So, we can get a value of a fact corresponding to a specific month. Going one level up in the dimension *Time*, we can get can get a value of the fact corresponding to a specific quarter and going even up we can get a value of the fact corresponding to a specific calendar year. If we don’t specify any point in a dimension, it means we are interested in a value of a fact for all points together in the given dimension.
 
-    AR-IMIS defines several dimensions. Their meaning is dependent on
-    the context of a fact for which they are used. For example, for the
-    fact *Number of submitted claims* the *Time* dimension means in
-    AR-IMIS a period in which claimed health care was provided. It could
-    have also other interpretations, for example, it may be a period in
-    which claims were submitted. Exact interpretation of each dimension
-    is indicated with description of each fact provided below.
+..
 
-    The points of a dimension are either fixed, e. g. the points *Sex*
-    are *Male/Female/Undefined* for the dimension, or are obtained from
-    registers in the operational part of IMIS. For example, the points
-    for the dimension *Services* are obtained from the current status of
-    the register of services in IMIS.
+AR-IMIS defines several dimensions. Their meaning is dependent on the context of a fact for which they are used. For example, for the fact *Number of submitted claims* the *Time* dimension means in AR-IMIS a period in which claimed health care was provided. It could have also other interpretations, for example, it may be a period in which claims were submitted. Exact interpretation of each dimension is indicated with description of each fact provided below.
 
-    The following table shows dimensions used across AR-IMIS. For each
-    dimension its name, names of attributes used for referencing of
-    their points, source for their points, and their meaning.
+..
+
+The points of a dimension are either fixed, e.g. the points *Sex* are *Male/Female/Undefined* for the dimension, or are obtained from registers in the operational part of IMIS. For example, the points for the dimension *Services* are obtained from the current status of the register of services in IMIS.
+
+..
+
+The following table shows dimensions used across AR-IMIS. For each dimension its name, names of attributes used for referencing of their points, source for their points, and their meaning.
 
 +-----------------+-----------------+-----------------+-----------------+
-|     Name        | Names of        | Source of data  | Points          |
-|                 | hierarchy/attri |                 |                 |
-|                 | butes           |                 |                 |
+|         Name    | Names of        | Source of data  | Points          |
+|                 | hierarchy /     |                 |                 |
+|                 | attributes      |                 |                 |
 +=================+=================+=================+=================+
-| ``Time``        | Time Hierarchy  | generated by    | Hierarchy:      |
+| **Time**        | Time Hierarchy  | generated by    | Hierarchy:      |
 |                 |                 | IMIS            |                 |
-|                 | ``Other         |                 | Years->Quarters |
-|                 | fields``:       |                 | ->Months        |
+|                 | **Other         |                 | Years->Quarters |
+|                 | fields**:       |                 | ->Months        |
 |                 |                 |                 |                 |
 |                 | Month Name      |                 |                 |
 |                 |                 |                 |                 |
@@ -7628,18 +7563,18 @@ Dimensions
 |                 |                 |                 |                 |
 |                 | Year Time       |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
-| ``Age``         | Age Range       | generated by    | below1,1-4,5-9… |
+| **Age**         | Age Range       | generated by    | below1,1-4,5-9… |
 |                 |                 | IMIS            | ,               |
 |                 |                 |                 | 80+,Unkown      |
 +-----------------+-----------------+-----------------+-----------------+
-| ``Gender``      | Gender Name     | generated by    | Male, Female,   |
+| **Gender**      | Gender Name     | generated by    | Male, Female,   |
 |                 |                 | IMIS            | Unknown         |
 +-----------------+-----------------+-----------------+-----------------+
-| ``Regions``     | Region          | `register of    | Hierarchy:      |
+| **Regions**     | Region          | `register of    | Hierarchy:      |
 |                 | Hierarchy       | locations <#loc |                 |
 |                 |                 | ations-administ | Regions->Distri |
-|                 | ``Other         | ration>`__      | cts->Wards->Vil |
-|                 | fields``:       |                 | lages           |
+|                 | **Other         | ration>`__      | cts->Wards->Vil |
+|                 | fields**:       |                 | lages           |
 |                 |                 |                 |                 |
 |                 | Region          |                 |                 |
 |                 |                 |                 |                 |
@@ -7649,11 +7584,11 @@ Dimensions
 |                 |                 |                 |                 |
 |                 | Village         |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
-| ``Products``    | Product         | `register of    | Hierarchy:      |
+| **Products**    | Product         | `register of    | Hierarchy:      |
 |                 | Hierarchy       | insurance       |                 |
 |                 |                 | products <#insu | Regions->Distri |
-|                 | ``Other         | rance-products- | cts->Products   |
-|                 | fields``:       | administration> |                 |
+|                 | **Other         | rance-products- | cts->Products   |
+|                 | fields**:       | administration> |                 |
 |                 |                 | `__             |                 |
 |                 | Region          |                 |                 |
 |                 |                 |                 |                 |
@@ -7663,16 +7598,16 @@ Dimensions
 |                 |                 |                 |                 |
 |                 | Product Code    |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
-| ``Payers``      | Payer Name      | `register of    | Families,       |
+| **Payers**      | Payer Name      | `register of    | Families,       |
 |                 |                 | payers <#payers | Payers (the     |
 |                 |                 | -administration | list of)        |
 |                 |                 | >`__            |                 |
 +-----------------+-----------------+-----------------+-----------------+
-| ``Officers``    | Officer         | `register of    | Hierarchy:      |
+| **Officers**    | Officer         | `register of    | Hierarchy:      |
 |                 | Hierarchy       | enrolment       |                 |
 |                 |                 | officers <#enro | Regions->Distri |
-|                 | ``Other         | lment-officers- | cts->Enrolment  |
-|                 | fields``:       | administration> | Officers        |
+|                 | **Other         | lment-officers- | cts->Enrolment  |
+|                 | fields**:       | administration> | Officers        |
 |                 |                 | `__             |                 |
 |                 | Region          |                 |                 |
 |                 |                 |                 |                 |
@@ -7684,11 +7619,11 @@ Dimensions
 |                 |                 |                 |                 |
 |                 | Assistant Code  |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
-| ``Services``    | Service         | `register of    | Hierarchy:      |
+| **Services**    | Service         | `register of    | Hierarchy:      |
 |                 | Hierarchy       | medical         |                 |
 |                 |                 | services <#medi | (Curative,      |
-|                 | ``Other         | cal-services-ad | Preventive)->Se |
-|                 | fields``:       | ministration>`_ | rvices          |
+|                 | **Other         | cal-services-ad | Preventive)->Se |
+|                 | fields**:       | ministration>`_ | rvices          |
 |                 |                 | _               |                 |
 |                 | Service Code    |                 |                 |
 |                 |                 |                 |                 |
@@ -7697,10 +7632,10 @@ Dimensions
 |                 | Service         |                 |                 |
 |                 | Category        |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
-| ``Items``       | Item Hierarchy  | `register of    | Hierarchy:      |
+| **Items**       | Item Hierarchy  | `register of    | Hierarchy:      |
 |                 |                 | medical         |                 |
-|                 | ``Other         | items <#medical | (Drugs,         |
-|                 | fields``:       | -items-administ | Prostheses)->It |
+|                 | **Other         | items <#medical | (Drugs,         |
+|                 | fields**:       | -items-administ | Prostheses)->It |
 |                 |                 | ration>`__      | ems             |
 |                 | Item Code       |                 |                 |
 |                 |                 |                 |                 |
@@ -7708,11 +7643,11 @@ Dimensions
 |                 |                 |                 |                 |
 |                 | Item Category   |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
-| ``Diseases``    | Disease         | `list of        |                 |
+| **Diseases**    | Disease         | `list of        |                 |
 |                 | Hierarchy       | diagnoses <#upl |                 |
 |                 |                 | oad-list-of-dia |                 |
-|                 | ``Other         | gnoses>`__      |                 |
-|                 | fields``:       |                 |                 |
+|                 | **Other         | gnoses>`__      |                 |
+|                 | fields**:       |                 |                 |
 |                 |                 |                 |                 |
 |                 | Disease Name    |                 |                 |
 |                 |                 |                 |                 |
@@ -7721,11 +7656,11 @@ Dimensions
 |                 | Disease         |                 |                 |
 |                 | Category        |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
-| ``Providers``   | Provider        | `register of    | Hierarchy:      |
+| **Providers**   | Provider        | `register of    | Hierarchy:      |
 |                 | Hierarchy       | health          |                 |
 |                 |                 | facilities <#he | Regions->Distri |
-|                 | ``Other         | alth-facilities | cts->           |
-|                 | fields``:       | -administration | (Dispensary,    |
+|                 | **Other         | alth-facilities | cts->           |
+|                 | fields**:       | -administration | (Dispensary,    |
 |                 |                 | >`__            | Health Centre,  |
 |                 | Provider Name   |                 | Hospital)       |
 |                 |                 |                 | ->Health        |
@@ -7734,16 +7669,16 @@ Dimensions
 |                 | Provider        |                 |                 |
 |                 | Category        |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
-| ``Care Category | Category Care   | generated by    | Emergency,      |
-| ``              |                 | IMIS            | Other,          |
+| **Care          | Category Care   | generated by    | Emergency,      |
+| Category**      |                 | IMIS            | Other,          |
 |                 |                 |                 | Referral,       |
 |                 |                 |                 | Unknown         |
 +-----------------+-----------------+-----------------+-----------------+
-| ``Care Type``   | Care Type       | generated by    | In-patient,     |
+| **Care Type**   | Care Type       | generated by    | In-patient,     |
 |                 |                 | IMIS            | Out-patient,    |
 |                 |                 |                 | Unknown         |
 +-----------------+-----------------+-----------------+-----------------+
-| ``Questions``   | Question        | generated by    | Care Rendered,  |
+| **Questions**   | Question        | generated by    | Care Rendered,  |
 |                 |                 | IMIS            | Drug            |
 |                 |                 |                 | Prescribed,     |
 |                 |                 |                 | Drug Received,  |
@@ -7751,37 +7686,26 @@ Dimensions
 |                 |                 |                 | Unknown         |
 +-----------------+-----------------+-----------------+-----------------+
 
-Table 9.1 Overview of dimensions
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+`Table 9.1 Overview of dimensions`
+
 
 Facts
------
+^^^^^
 
-|image285|\ Facts provided by AR-IMIS can be structured into the areas
-according to `Image 9.3 <#image-9.3-areas-of-facts>`__. Within each area
-several facts packed into one or several cubes are provided. Facts are
-packed into the same cube if they have an associated meaning and are
-provided with the same set of dimension. The following articles lists
-available cubes according to the areas, for each cube indicates
-available facts with description of their meaning and
+Facts provided by AR-IMIS can be structured into the areas according to (:ref:`image273`). Within each area several facts packed into one or several cubes are provided. Facts are packed into the same cube if they have an associated meaning and are provided with the same set of dimension. The following articles lists available cubes according to the areas, for each cube indicates available facts with description of their meaning and
 
-.. _section-20:
+.. _image273:
+.. figure:: /img/user_manual/image239.png
+  :align: center
 
-Image 9.3 Areas of facts
-^^^^^^^^^^^^^^^^^^^^^^^^
+  `Image 273 - Areas of facts`
 
-underlying set of qualifying dimensions. If meaning of a dimension is
-not straightforward, its description is provided. It relates especially
-to the *Time* dimension where it is important which datum related with a
-fact is taken as the governing date for association with given point
-(period) in the *Time* dimension.
+underlying set of qualifying dimensions. If meaning of a dimension is not straightforward, its description is provided. It relates especially to the *Time* dimension where it is important which datum related with a fact is taken as the governing date for association with given point (period) in the *Time* dimension.
 
 Facts on enrolment and policies
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"""""""""""""""""""""""""""""""
 
-This group of facts relates to acquisition of insures and development of
-coverage by health insurance schemes. Facts available are listed in
-`Table 9.2 <#table-9.2-facts-on-enrolment-and-policies>`__
+This group of facts relates to acquisition of insures and development of coverage by health insurance schemes. Facts available are listed in `Table 9.2 <#table-9.2-facts-on-enrolment-and-policies>`__
 
 +-------------+-------------+-------------+-------------+-------------+
 | Cube        | Fact        | Meaning     | Dimension   | Comment     |
@@ -7954,14 +7878,12 @@ coverage by health insurance schemes. Facts available are listed in
 |             |             |             | Time        |             |
 +-------------+-------------+-------------+-------------+-------------+
 
-Table 9.2 Facts on enrolment and policies
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+`Table 9.2 Facts on enrolment and policies`
 
 Facts on collected revenue
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+""""""""""""""""""""""""""
 
-This group of facts relates to revenue of health insurance schemes.
-Facts available are listed in `Table 9.3 <\l>`__.
+This group of facts relates to revenue of health insurance schemes. Facts available are listed in `Table 9.3 <\l>`__.
 
 +-------------+-------------+-------------+-------------+-------------+
 | Cube        | Fact        | Meaning     | Dimension   | Comment     |
@@ -8022,15 +7944,12 @@ Facts available are listed in `Table 9.3 <\l>`__.
 |             |             |             |             |             |
 +-------------+-------------+-------------+-------------+-------------+
 
-Table 9.3 Facts on contributions
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+`Table 9.3 Facts on contributions`
 
 Facts on claims
-~~~~~~~~~~~~~~~
+"""""""""""""""
 
-This group of facts relates to claims forwarded by health care providers
-to administrators of health insurance schemes. Facts available are
-listed in `Table 9.4 <#table-9.4-facts-on-claims>`__ .
+This group of facts relates to claims forwarded by health care providers to administrators of health insurance schemes. Facts available are listed in `Table 9.4 <#table-9.4-facts-on-claims>`__.
 
 +-------------+-------------+-------------+-------------+-------------+
 | Cube        | Fact        | Meaning     | Dimension   | Comment     |
@@ -8125,16 +8044,12 @@ listed in `Table 9.4 <#table-9.4-facts-on-claims>`__ .
 |             |             | claims      |             |             |
 +-------------+-------------+-------------+-------------+-------------+
 
-Table 9.4 Facts on claims
-^^^^^^^^^^^^^^^^^^^^^^^^^
+`Table 9.4 Facts on claims`
 
 Facts on utilization of health care
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"""""""""""""""""""""""""""""""""""
 
-    This group of facts relates to utilization of health care by insures
-    according to submitted and not rejected claims. Facts available are
-    listed in `Table
-    9.5 <#table-9.5-facts-on-of-utilization-health-care>`__
+This group of facts relates to utilization of health care by insures according to submitted and not rejected claims. Facts available are listed in `Table 9.5 <#table-9.5-facts-on-of-utilization-health-care>`__
 
 +-------------+-------------+-------------+-------------+-------------+
 | Cube        | Fact        | Meaning     | Dimension   | Comment     |
@@ -8346,15 +8261,12 @@ Facts on utilization of health care
 |             |             |             | Time        |             |
 +-------------+-------------+-------------+-------------+-------------+
 
-Table 9.5 Facts on of utilization health care
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+`Table 9.5 Facts on of utilization health care`
 
 Facts on expenditures for health care
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"""""""""""""""""""""""""""""""""""""
 
-    This group of facts relates to expenditures for health care actually
-    paid to health care providers. Facts available are listed in `Table
-    9.6 <#table-9.6-facts-on-expenditures-for-health-care>`__
+This group of facts relates to expenditures for health care actually paid to health care providers. Facts available are listed in `Table 9.6 <#table-9.6-facts-on-expenditures-for-health-care>`__
 
 +-------------+-------------+-------------+-------------+-------------+
 | Cube        | Fact        | Meaning     | Dimension   | Comment     |
@@ -8537,16 +8449,12 @@ Facts on expenditures for health care
 |             |             |             |             | care        |
 +-------------+-------------+-------------+-------------+-------------+
 
-Table 9.6 Facts on expenditures for health care
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+`Table 9.6 Facts on expenditures for health care`
 
 Facts on feedbacks
-~~~~~~~~~~~~~~~~~~
+""""""""""""""""""
 
-    This group of facts relates to evaluation of request for feedbacks
-    on provided health care that are issued by medical officers during
-    processing of claims. Facts available are listed in `Table
-    9.7 <\l>`__
+This group of facts relates to evaluation of request for feedbacks on provided health care that are issued by medical officers during processing of claims. Facts available are listed in `Table 9.7 <\l>`__
 
 +-------------+-------------+-------------+-------------+-------------+
 | Cube        | Fact        | Meaning     | Dimension   | Comment     |
@@ -8615,58 +8523,53 @@ Facts on feedbacks
 |             |             |             |             | feedbacks   |
 +-------------+-------------+-------------+-------------+-------------+
 
-Table 9.7 Facts on feedbacks
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+`Table 9.7 Facts on feedbacks`
 
 How access data from the Data Warehouse
----------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Data from the Data Warehouse can be accessed by means of an Excel file.
-As access to the Data Warehouse is protected, a user has to get from an
-administrator of AR-MIS URL of the Data Warehouse for remote access, a
-userid and a password. A userid may allow access to all data in the Data
-Warehouse or only to a subset of data corresponding to a specific
-region, to selected regions, to a specific district or to selected
-districts.
+Data from the Data Warehouse can be accessed by means of an Excel file. As access to the Data Warehouse is protected, a user has to get from an administrator of AR-MIS URL of the Data Warehouse for remote access, a userid and a password. A userid may allow access to all data in the Data Warehouse or only to a subset of data corresponding to a specific region, to selected regions, to a specific district or to selected districts.
 
-The procedure of accessing of data is as follows `(Image
-9.8) <#image-9.8-accessing-the-data-warehouse>`__
+..
 
-|image286|\ Image 9.8 Accessing the Data Warehouse
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The procedure of accessing of data is as follows (:ref:`image274`)
+
+.. _image274:
+.. figure:: /img/user_manual/image239.png
+  :align: center
+
+  `Image 274 - Accessing the Data Warehouse`
 
 1. Open an Excel file
 
-2. Click on the menu item ``*Data``*
+2. Click on the menu item **Data**
 
-3. Click on the sub-menu ``*From Other Sources``*
+3. Click on the sub-menu **From Other Sources**
 
-4. Click on the sub-menu ``*From Analysis Services``*
+4. Click on the sub-menu **From Analysis Services**
 
 5. A dialog box appears for specification of logon data:
 
-   a. Enter URL of the Data Warehouse into the field ``*Server Name``*
+   a. Enter URL of the Data Warehouse into the field **Server Name**
 
-   b. Select the option ``*Use the following user name and password``*
+   b. Select the option **Use the following user name and password**
 
-   c. Enter your userid into the field ``*User Name``*
+   c. Enter your userid into the field **User Name**
 
-   d. Enter your password into the field ``*Password``*
+   d. Enter your password into the field **Password**
 
-   e. Click on ``*Finish``*
+   e. Click on **Finish**
 
-6. A box appears (``*Select Database and Tables``*) with the list of
-   available cubes. Select one and click on ``*Finish``*
+6. A box appears (**Select Database and Tables**) with the list of available cubes. Select one and click on **Finish**
 
-7. A box appears (``*Save Data Connection File and Finish``*).Check the
-   box ``*Save passport in file``* and click on ``*Finish``*.
+7. A box appears (**Save Data Connection File and Finish**).Check the box **Save passport in file** and click on **Finish**.
 
-8. A box appears (``*Import Data``*). Select whether cube should be
-   accessed by a pivot table and/or chart and specify a placement of the
-   pivot table. Click on ``OK``.
+8. A box appears (**Import Data**). Select whether cube should be accessed by a pivot table and/or chart and specify a placement of the pivot table. Click on **OK**.
 
-9. An area for the pivot table appears in the sheet with the ``*Pivot
-   Table Field``* area on the right `(Image
-   9.9) <#image-9.9-pivot-table-in-excel>`__ . Click on facts to be
-   displayed and click or drag dimensions to appropriate sectors of the
-   pivot table in the ``Pivot Table Field`` area.
+9. An area for the pivot table appears in the sheet with the **Pivot Table Field** area on the right (:ref:`image274`). Click on facts to be displayed and click or drag dimensions to appropriate sectors of the pivot table in the **Pivot Table Field** area.
+
+.. _image275:
+.. figure:: /img/user_manual/image240.png
+  :align: center
+
+  `Image 275 - Pivot Table in Excel`
