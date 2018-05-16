@@ -9,17 +9,17 @@ openIMIS documentation
 Welcome to the openIMIS technical documenation repository.
 
 .. toctree::
+   :maxdepth: 2
+   :caption: Implementer documentation
+
+   web_application_installation
+   mobile_applications_configuration
+
+.. toctree::
    :maxdepth: 3
    :caption: User documentation
 
    user_manual
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Functional design
-
-.. functional_design_specification
-
 
 
 .. Contents

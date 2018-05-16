@@ -1,4 +1,5 @@
 .. sectnum::
+  :start: 3
 
 User Manual
 ===========
@@ -158,7 +159,7 @@ Users’ roles and rights
 |                       |     IMIS. Is          | `users <#_User_Ad     |
 |                       |     responsible for   | ministration>`__      |
 |                       |     backups of data.  | ,\ `Utilities         |
-|                       |                       | <#utilities>`__,      | 
+|                       |                       | <#utilities>`__,      |
 |                       |                       | `Backup <#backup>`__, |
 |                       |                       | `Restore <#restor     |
 |                       |                       | e>`__                 |
