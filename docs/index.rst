@@ -10,7 +10,7 @@ Welcome to the openIMIS technical documenation repository.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Implementer documentation
+   :caption: Installation documentation
 
    web_application_installation
    mobile_applications_configuration
