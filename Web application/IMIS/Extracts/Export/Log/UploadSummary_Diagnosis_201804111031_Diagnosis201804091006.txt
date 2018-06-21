@@ -1,0 +1,35 @@
+﻿File Name : Diagnosis201804091006.xml
+Register : Diagnosis
+User : exact
+Date : 11/04/2018 10:31
+Strategy : Insert Only
+
+
+2 Inserted
+---------------------------------------------------------------------------------
+1.	[EX001]
+2.	[EX002]
+
+
+0 Updated
+---------------------------------------------------------------------------------
+
+
+0 Deleted
+---------------------------------------------------------------------------------
+
+
+10 Failed(s)
+---------------------------------------------------------------------------------
+1.	ICD Code [B52] already exists in Database
+2.	ICD Code [A03] already exists in Database
+3.	ICD Code [A05] already exists in Database
+4.	ICD Code [A06] already exists in Database
+5.	ICD Code [A01] already exists in Database
+6.	ICD Code [B76] already exists in Database
+7.	ICD Code [B82] already exists in Database
+8.	ICD Code [T17] already exists in Database
+9.	ICD Code [T18] already exists in Database
+10.	ICD Code [000] already exists in Database
+
+

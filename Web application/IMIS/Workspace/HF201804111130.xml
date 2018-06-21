@@ -1,0 +1,52 @@
+<HealthFacilities>
+  <HealthFacilityDetails>
+    <HealthFacility>
+      <LegalForm>G</LegalForm>
+      <Level>H</Level>
+      <SubLevel>
+      </SubLevel>
+      <Code>HSHF001</Code>
+      <Name>Hiren Soni hospital</Name>
+      <Address>Mbezi Beach</Address>
+      <DistrictCode>HRD001</DistrictCode>
+      <DistrictName>Hiren District</DistrictName>
+      <Phone />
+      <Fax />
+      <Email />
+      <CareType>B</CareType>
+      <AccountCode />
+      <ItemPriceListName>Hiren PLI</ItemPriceListName>
+      <ServicePriceListName>Hiren PLS</ServicePriceListName>
+    </HealthFacility>
+
+    <HealthFacility>
+      <LegalForm>G</LegalForm>
+      <Level>H</Level>
+      <SubLevel>
+      </SubLevel>
+      <Code>HSHF002</Code>
+      <Name>Hiren Soni hospital 2</Name>
+      <Address>Mbezi Beach</Address>
+      <DistrictCode>HRD002</DistrictCode>
+      <DistrictName>Hiren District 2</DistrictName>
+      <Phone />
+      <Fax />
+      <Email />
+      <CareType>B</CareType>
+      <AccountCode />
+      <ItemPriceListName>Hiren PLI</ItemPriceListName>
+      <ServicePriceListName></ServicePriceListName>
+    </HealthFacility>
+    
+  </HealthFacilityDetails>
+  <CatchmentDetails>
+    <Catchment>
+      <HFCode>HSHF001</HFCode>
+      <VillageCode>HWV001</VillageCode>
+      <VillageName>TestVillage111</VillageName>
+      <Percentage>100</Percentage>
+    </Catchment>
+
+    
+  </CatchmentDetails>
+</HealthFacilities>

@@ -1,0 +1,17 @@
+﻿Family: 
+{"Family":[{"FamilyId":"1","InsureeId":"1","LocationId":"2427","HOFCHFID":"789456654","Poverty":"0","FamilyType":"","FamilyAddress":"","Ethnicity":"","ConfirmationNo":"","ConfirmationType":"","isOffline":"1"}]}
+
+Insuree: 
+{"Insuree":[{"InsureeId":"1","FamilyId":"1","CHFID":"789456654","LastName":"Exact","OtherNames":"Amani","DOB":"2018-01-25","Gender":"M","Marital":"S","isHead":"0","IdentificationNumber":"00001","Phone":"","PhotoPath":"","CardIssued":"","Relationship":"","Profession":"","Education":"","Email":"","TypeOfId":"","HFID":"","CurrentAddress":"","GeoLocation":"","CurVillage":"","isOffline":"1","EffectiveDate":""},{"InsureeId":"2","FamilyId":"1","CHFID":"1233214566","LastName":"Cvjkk","OtherNames":"Sfbn","DOB":"2018-01-25","Gender":"M","Marital":"S","isHead":"0","IdentificationNumber":"55800","Phone":"","PhotoPath":"","CardIssued":"","Relationship":"","Profession":"","Education":"","Email":"","TypeOfId":"","HFID":"","CurrentAddress":"","GeoLocation":"","CurVillage":"","isOffline":"0","EffectiveDate":""}]}
+
+Policy: 
+{"Policy":[]}
+
+Premium: 
+{"Premium":[]}
+
+OfficerId: 
+5
+
+UserId: 
+5

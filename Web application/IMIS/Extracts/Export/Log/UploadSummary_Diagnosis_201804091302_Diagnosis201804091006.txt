@@ -1,0 +1,16 @@
+﻿File Name : Diagnosis201804091006.xml
+Register : Diagnosis
+User : exact
+Date : 09/04/2018 13:02
+Strategy : Insert Only
+
+
+5 Inserted
+---------------------------------------------------------------------------------
+1. [EX1]
+2. [EX2]
+3. [EX3]
+4. [EX4]
+5. [EX5]
+
+

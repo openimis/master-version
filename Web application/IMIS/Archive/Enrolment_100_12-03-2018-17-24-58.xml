@@ -1,0 +1,96 @@
+<Enrolment>
+  <Families>
+    <Family>
+      <FamilyId>350</FamilyId>
+      <InsureeId>674</InsureeId>
+      <CHFID>21312154</CHFID>
+      <LocationId>151</LocationId>
+    </Family>
+    <Family>
+      <FamilyId>365</FamilyId>
+      <InsureeId>688</InsureeId>
+      <CHFID>091271040</CHFID>
+      <LocationId>99</LocationId>
+      <Poverty>0</Poverty>
+    </Family>
+  </Families>
+  <Insurees>
+    <Insuree>
+      <InsureeID>688</InsureeID>
+      <FamilyID>365</FamilyID>
+      <CHFID>091271040</CHFID>
+      <LastName>moova2</LastName>
+      <OtherNames>Amani2</OtherNames>
+      <DOB>2003-06-03</DOB>
+      <Gender>M</Gender>
+      <IsHead>1</IsHead>
+      <passport />
+      <Phone />
+      <CardIssued>0</CardIssued>
+    </Insuree>
+    <Insuree>
+      <InsureeID>688</InsureeID>
+      <FamilyID>365</FamilyID>
+      <CHFID>091271040</CHFID>
+      <LastName>moova2</LastName>
+      <OtherNames>Amani2</OtherNames>
+      <DOB>2003-06-03</DOB>
+      <Gender>M</Gender>
+      <IsHead>1</IsHead>
+      <passport />
+      <Phone />
+      <CardIssued>0</CardIssued>
+      <EffectiveDate>2018-02-05</EffectiveDate>
+    </Insuree>
+    <Insuree>
+      <InsureeID>697</InsureeID>
+      <FamilyID>350</FamilyID>
+      <CHFID>016045050</CHFID>
+      <LastName>Insuree</LastName>
+      <OtherNames>Added</OtherNames>
+      <DOB>1998-12-28</DOB>
+      <Gender>M</Gender>
+      <IsHead>0</IsHead>
+      <passport />
+      <Phone />
+      <CardIssued>0</CardIssued>
+    </Insuree>
+  </Insurees>
+  <Policies>
+    <Policy>
+      <PolicyID>749</PolicyID>
+      <FamilyID>365</FamilyID>
+      <EnrollDate>2018-01-16</EnrollDate>
+      <StartDate>2018-01-16</StartDate>
+      <EffectiveDate>2018-02-05</EffectiveDate>
+      <ExpiryDate>2019-01-15</ExpiryDate>
+      <PolicyStatus>2</PolicyStatus>
+      <PolicyValue>24000.00</PolicyValue>
+      <ProdID>1</ProdID>
+      <OfficerID>12</OfficerID>
+      <PolicyStage>N</PolicyStage>
+    </Policy>
+    <Policy>
+      <PolicyID>754</PolicyID>
+      <FamilyID>365</FamilyID>
+      <EnrollDate>2018-03-12</EnrollDate>
+      <StartDate>2018-05-01</StartDate>
+      <ExpiryDate>2019-04-30</ExpiryDate>
+      <PolicyStatus>1</PolicyStatus>
+      <PolicyValue>12500.00</PolicyValue>
+      <ProdID>14</ProdID>
+      <OfficerID>12</OfficerID>
+      <PolicyStage>N</PolicyStage>
+    </Policy>
+  </Policies>
+  <Premiums>
+    <Premium>
+      <PremiumId>419</PremiumId>
+      <PolicyID>749</PolicyID>
+      <Amount>14000.00</Amount>
+      <Receipt>10DRT10</Receipt>
+      <PayDate>2018-01-08</PayDate>
+      <PayType>C</PayType>
+    </Premium>
+  </Premiums>
+</Enrolment>

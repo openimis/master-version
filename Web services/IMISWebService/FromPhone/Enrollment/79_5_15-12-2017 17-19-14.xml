@@ -1,0 +1,170 @@
+﻿<Enrollment>
+  <Family>
+    <FamilyId>330</FamilyId>
+    <InsureeId>609</InsureeId>
+    <LocationId>151</LocationId>
+    <HOFCHFID>79</HOFCHFID>
+    <Poverty />
+    <FamilyType />
+    <FamilyAddress />
+    <Ethnicity />
+    <ConfirmationNo />
+    <ConfirmationType />
+    <isOffline>0</isOffline>
+  </Family>
+  <Insuree>
+    <InsureeId>609</InsureeId>
+    <FamilyId>330</FamilyId>
+    <CHFID>79</CHFID>
+    <LastName>Test</LastName>
+    <OtherNames>Head</OtherNames>
+    <DOB>2017-12-15</DOB>
+    <Gender>M</Gender>
+    <Marital />
+    <isHead>true</isHead>
+    <IdentificationNumber />
+    <Phone />
+    <PhotoPath>null</PhotoPath>
+    <CardIssued>false</CardIssued>
+    <Relationship />
+    <Profession />
+    <Education />
+    <Email />
+    <TypeOfId />
+    <HFID />
+    <CurrentAddress />
+    <GeoLocation />
+    <CurVillage />
+    <isOffline>0</isOffline>
+    <EffectiveDate />
+  </Insuree>
+  <Insuree>
+    <InsureeId>610</InsureeId>
+    <FamilyId>330</FamilyId>
+    <CHFID>78</CHFID>
+    <LastName>Test</LastName>
+    <OtherNames>One</OtherNames>
+    <DOB>2017-12-15</DOB>
+    <Gender>M</Gender>
+    <Marital />
+    <isHead>false</isHead>
+    <IdentificationNumber />
+    <Phone />
+    <PhotoPath>null</PhotoPath>
+    <CardIssued>false</CardIssued>
+    <Relationship>1</Relationship>
+    <Profession />
+    <Education />
+    <Email />
+    <TypeOfId />
+    <HFID />
+    <CurrentAddress />
+    <GeoLocation />
+    <CurVillage />
+    <isOffline>0</isOffline>
+    <EffectiveDate />
+  </Insuree>
+  <Insuree>
+    <InsureeId>611</InsureeId>
+    <FamilyId>330</FamilyId>
+    <CHFID>77</CHFID>
+    <LastName>Test</LastName>
+    <OtherNames>Two</OtherNames>
+    <DOB>2017-12-15</DOB>
+    <Gender>F</Gender>
+    <Marital />
+    <isHead>false</isHead>
+    <IdentificationNumber />
+    <Phone />
+    <PhotoPath>null</PhotoPath>
+    <CardIssued>false</CardIssued>
+    <Relationship>1</Relationship>
+    <Profession />
+    <Education />
+    <Email />
+    <TypeOfId />
+    <HFID />
+    <CurrentAddress />
+    <GeoLocation />
+    <CurVillage />
+    <isOffline>0</isOffline>
+    <EffectiveDate />
+  </Insuree>
+  <Insuree>
+    <InsureeId>612</InsureeId>
+    <FamilyId>330</FamilyId>
+    <CHFID>76</CHFID>
+    <LastName>Test</LastName>
+    <OtherNames>Three</OtherNames>
+    <DOB>2017-12-15</DOB>
+    <Gender>M</Gender>
+    <Marital />
+    <isHead>false</isHead>
+    <IdentificationNumber />
+    <Phone />
+    <PhotoPath>null</PhotoPath>
+    <CardIssued>false</CardIssued>
+    <Relationship>3</Relationship>
+    <Profession />
+    <Education />
+    <Email />
+    <TypeOfId />
+    <HFID />
+    <CurrentAddress />
+    <GeoLocation />
+    <CurVillage />
+    <isOffline>0</isOffline>
+    <EffectiveDate />
+  </Insuree>
+  <Insuree>
+    <InsureeId>-5</InsureeId>
+    <FamilyId>330</FamilyId>
+    <CHFID>75</CHFID>
+    <LastName>Createdoffline</LastName>
+    <OtherNames>New</OtherNames>
+    <DOB>2017-12-15</DOB>
+    <Gender>F</Gender>
+    <Marital />
+    <isHead>0</isHead>
+    <IdentificationNumber />
+    <Phone />
+    <PhotoPath />
+    <CardIssued />
+    <Relationship>1</Relationship>
+    <Profession />
+    <Education />
+    <Email />
+    <TypeOfId />
+    <HFID />
+    <CurrentAddress />
+    <GeoLocation />
+    <CurVillage />
+    <isOffline>0</isOffline>
+    <EffectiveDate />
+  </Insuree>
+  <Policy>
+    <PolicyId>-1</PolicyId>
+    <FamilyId>330</FamilyId>
+    <EnrollDate>2017-12-15</EnrollDate>
+    <StartDate>2017-12-15</StartDate>
+    <EffectiveDate>2017-12-15</EffectiveDate>
+    <ExpiryDate>2018-12-14</ExpiryDate>
+    <PolicyStatus>2</PolicyStatus>
+    <PolicyValue>22000</PolicyValue>
+    <ProdId>1</ProdId>
+    <OfficerId>5</OfficerId>
+    <PolicyStage>N</PolicyStage>
+    <isOffline>0</isOffline>
+  </Policy>
+  <Premium>
+    <PremiumId>-1</PremiumId>
+    <PolicyId>-1</PolicyId>
+    <PayerId>9</PayerId>
+    <Amount>22000</Amount>
+    <Receipt>Offlinerecp</Receipt>
+    <PayDate>2017-12-15</PayDate>
+    <PayType>C</PayType>
+    <isPhotoFee>false</isPhotoFee>
+    <isOffline>0</isOffline>
+  </Premium>
+</Enrollment>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="General:@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/0f063376c5278d427721a33ea9480a93cecfffce/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/0f063376c5278d427721a33ea9480a93cecfffce/output/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/0f063376c5278d427721a33ea9480a93cecfffce/output/jars/libs/commons-net-ftp-2.0.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/0f063376c5278d427721a33ea9480a93cecfffce/output/jars/libs/ksoap2-android-assembly-2.4-jar-with-dependencies.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

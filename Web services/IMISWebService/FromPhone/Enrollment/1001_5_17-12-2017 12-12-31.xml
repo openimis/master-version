@@ -1,0 +1,118 @@
+﻿<Enrollment>
+  <Family>
+    <FamilyId>1</FamilyId>
+    <InsureeId>1</InsureeId>
+    <LocationId>151</LocationId>
+    <HOFCHFID>1001</HOFCHFID>
+    <Poverty>0</Poverty>
+    <FamilyType />
+    <FamilyAddress />
+    <Ethnicity />
+    <ConfirmationNo />
+    <ConfirmationType />
+    <isOffline>1</isOffline>
+  </Family>
+  <Insuree>
+    <InsureeId>1</InsureeId>
+    <FamilyId>1</FamilyId>
+    <CHFID>1001</CHFID>
+    <LastName>Test</LastName>
+    <OtherNames>Head</OtherNames>
+    <DOB>2017-12-17</DOB>
+    <Gender>M</Gender>
+    <Marital />
+    <isHead>1</isHead>
+    <IdentificationNumber />
+    <Phone />
+    <PhotoPath />
+    <CardIssued />
+    <Relationship />
+    <Profession />
+    <Education />
+    <Email />
+    <TypeOfId />
+    <HFID />
+    <CurrentAddress />
+    <GeoLocation />
+    <CurVillage />
+    <isOffline>1</isOffline>
+    <EffectiveDate>2017-12-17</EffectiveDate>
+  </Insuree>
+  <Insuree>
+    <InsureeId>2</InsureeId>
+    <FamilyId>1</FamilyId>
+    <CHFID>10011</CHFID>
+    <LastName>Test</LastName>
+    <OtherNames>Ins1</OtherNames>
+    <DOB>2017-12-17</DOB>
+    <Gender>M</Gender>
+    <Marital />
+    <isHead>0</isHead>
+    <IdentificationNumber />
+    <Phone />
+    <PhotoPath />
+    <CardIssued />
+    <Relationship>1</Relationship>
+    <Profession />
+    <Education />
+    <Email />
+    <TypeOfId />
+    <HFID />
+    <CurrentAddress />
+    <GeoLocation />
+    <CurVillage />
+    <isOffline>1</isOffline>
+    <EffectiveDate>2017-12-17</EffectiveDate>
+  </Insuree>
+  <Insuree>
+    <InsureeId>3</InsureeId>
+    <FamilyId>1</FamilyId>
+    <CHFID>10012</CHFID>
+    <LastName>Test</LastName>
+    <OtherNames>maxthershold</OtherNames>
+    <DOB>2017-12-17</DOB>
+    <Gender>O</Gender>
+    <Marital />
+    <isHead>0</isHead>
+    <IdentificationNumber />
+    <Phone />
+    <PhotoPath />
+    <CardIssued />
+    <Relationship>2</Relationship>
+    <Profession />
+    <Education />
+    <Email />
+    <TypeOfId />
+    <HFID />
+    <CurrentAddress />
+    <GeoLocation />
+    <CurVillage />
+    <isOffline>1</isOffline>
+    <EffectiveDate>2017-12-17</EffectiveDate>
+  </Insuree>
+  <Policy>
+    <PolicyId>1</PolicyId>
+    <FamilyId>1</FamilyId>
+    <EnrollDate>2017-12-17</EnrollDate>
+    <StartDate>2017-12-17</StartDate>
+    <EffectiveDate>2017-12-17</EffectiveDate>
+    <ExpiryDate>2018-12-16</ExpiryDate>
+    <PolicyStatus>2</PolicyStatus>
+    <PolicyValue>12000</PolicyValue>
+    <ProdId>2</ProdId>
+    <OfficerId>5</OfficerId>
+    <PolicyStage>N</PolicyStage>
+    <isOffline>1</isOffline>
+  </Policy>
+  <Premium>
+    <PremiumId>1</PremiumId>
+    <PolicyId>1</PolicyId>
+    <PayerId>9</PayerId>
+    <Amount>12000</Amount>
+    <Receipt>Recpt1</Receipt>
+    <PayDate>2017-12-17</PayDate>
+    <PayType>C</PayType>
+    <isPhotoFee>false</isPhotoFee>
+    <isOffline>1</isOffline>
+  </Premium>
+</Enrollment>

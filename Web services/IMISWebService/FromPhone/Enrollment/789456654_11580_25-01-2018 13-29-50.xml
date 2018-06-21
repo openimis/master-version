@@ -1,0 +1,67 @@
+﻿<Enrollment>
+  <Family>
+    <FamilyId>1</FamilyId>
+    <InsureeId>1</InsureeId>
+    <LocationId>2427</LocationId>
+    <HOFCHFID>789456654</HOFCHFID>
+    <Poverty>0</Poverty>
+    <FamilyType />
+    <FamilyAddress />
+    <Ethnicity />
+    <ConfirmationNo />
+    <ConfirmationType />
+    <isOffline>1</isOffline>
+  </Family>
+  <Insuree>
+    <InsureeId>1</InsureeId>
+    <FamilyId>1</FamilyId>
+    <CHFID>789456654</CHFID>
+    <LastName>Exact</LastName>
+    <OtherNames>Amani</OtherNames>
+    <DOB>2018-01-25</DOB>
+    <Gender>M</Gender>
+    <Marital>S</Marital>
+    <isHead>1</isHead>
+    <IdentificationNumber>00001</IdentificationNumber>
+    <Phone />
+    <PhotoPath />
+    <CardIssued />
+    <Relationship />
+    <Profession />
+    <Education />
+    <Email />
+    <TypeOfId />
+    <HFID />
+    <CurrentAddress />
+    <GeoLocation />
+    <CurVillage />
+    <isOffline>1</isOffline>
+    <EffectiveDate />
+  </Insuree>
+  <Insuree>
+    <InsureeId>2</InsureeId>
+    <FamilyId>1</FamilyId>
+    <CHFID>1233214566</CHFID>
+    <LastName>Cvjkk</LastName>
+    <OtherNames>Sfbn</OtherNames>
+    <DOB>2018-01-25</DOB>
+    <Gender>M</Gender>
+    <Marital>S</Marital>
+    <isHead>0</isHead>
+    <IdentificationNumber>55800</IdentificationNumber>
+    <Phone />
+    <PhotoPath />
+    <CardIssued />
+    <Relationship />
+    <Profession />
+    <Education />
+    <Email />
+    <TypeOfId />
+    <HFID />
+    <CurrentAddress />
+    <GeoLocation />
+    <CurVillage />
+    <isOffline>1</isOffline>
+    <EffectiveDate />
+  </Insuree>
+</Enrollment>

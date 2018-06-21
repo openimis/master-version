@@ -1,0 +1,211 @@
+<Enrolment>
+  <Families>
+    <Family>
+      <FamilyId>325</FamilyId>
+      <InsureeId>597</InsureeId>
+      <CHFID>058622524</CHFID>
+      <LocationId>99</LocationId>
+      <Poverty>1</Poverty>
+    </Family>
+    <Family>
+      <FamilyId>326</FamilyId>
+      <InsureeId>598</InsureeId>
+      <CHFID>091271040</CHFID>
+      <LocationId>99</LocationId>
+      <Poverty>0</Poverty>
+    </Family>
+    <Family>
+      <FamilyId>327</FamilyId>
+      <InsureeId>599</InsureeId>
+      <CHFID>040281684</CHFID>
+      <LocationId>99</LocationId>
+    </Family>
+  </Families>
+  <Insurees>
+    <Insuree>
+      <InsureeID>597</InsureeID>
+      <FamilyID>325</FamilyID>
+      <CHFID>058622524</CHFID>
+      <LastName>Moova</LastName>
+      <OtherNames>Amani</OtherNames>
+      <DOB>1988-12-25</DOB>
+      <Gender>M</Gender>
+      <Marital>M</Marital>
+      <IsHead>1</IsHead>
+      <passport />
+      <Phone />
+      <CardIssued>0</CardIssued>
+    </Insuree>
+    <Insuree>
+      <InsureeID>598</InsureeID>
+      <FamilyID>326</FamilyID>
+      <CHFID>091271040</CHFID>
+      <LastName>moova2</LastName>
+      <OtherNames>Amani2</OtherNames>
+      <DOB>2003-06-03</DOB>
+      <Gender>M</Gender>
+      <IsHead>1</IsHead>
+      <passport />
+      <Phone />
+      <CardIssued>0</CardIssued>
+      <EffectiveDate>2018-02-05</EffectiveDate>
+    </Insuree>
+    <Insuree>
+      <InsureeID>599</InsureeID>
+      <FamilyID>327</FamilyID>
+      <CHFID>040281684</CHFID>
+      <LastName>Moova3</LastName>
+      <OtherNames>Amani3</OtherNames>
+      <DOB>1988-12-26</DOB>
+      <Gender>M</Gender>
+      <IsHead>1</IsHead>
+      <passport />
+      <Phone />
+      <CardIssued>0</CardIssued>
+      <EffectiveDate>2018-02-04</EffectiveDate>
+    </Insuree>
+    <Insuree>
+      <InsureeID>600</InsureeID>
+      <FamilyID>327</FamilyID>
+      <CHFID>006373765</CHFID>
+      <LastName>Member1</LastName>
+      <OtherNames>Moova</OtherNames>
+      <DOB>2018-01-09</DOB>
+      <Gender>M</Gender>
+      <IsHead>0</IsHead>
+      <passport />
+      <Phone />
+      <CardIssued>0</CardIssued>
+      <EffectiveDate>2018-02-04</EffectiveDate>
+    </Insuree>
+    <Insuree>
+      <InsureeID>601</InsureeID>
+      <FamilyID>327</FamilyID>
+      <CHFID>025746560</CHFID>
+      <LastName>Member2</LastName>
+      <OtherNames>Moova</OtherNames>
+      <DOB>2018-03-06</DOB>
+      <Gender>O</Gender>
+      <IsHead>0</IsHead>
+      <passport />
+      <Phone />
+      <CardIssued>0</CardIssued>
+      <EffectiveDate>2018-02-04</EffectiveDate>
+    </Insuree>
+    <Insuree>
+      <InsureeID>602</InsureeID>
+      <FamilyID>326</FamilyID>
+      <CHFID>093734561</CHFID>
+      <LastName>Moova</LastName>
+      <OtherNames>Angel</OtherNames>
+      <DOB>2018-01-15</DOB>
+      <Gender>F</Gender>
+      <IsHead>0</IsHead>
+      <passport />
+      <Phone />
+      <CardIssued>0</CardIssued>
+      <EffectiveDate>2018-02-05</EffectiveDate>
+    </Insuree>
+    <Insuree>
+      <InsureeID>603</InsureeID>
+      <FamilyID>326</FamilyID>
+      <CHFID>090865246</CHFID>
+      <LastName>Moova</LastName>
+      <OtherNames>Salum</OtherNames>
+      <DOB>1980-06-09</DOB>
+      <Gender>M</Gender>
+      <IsHead>0</IsHead>
+      <passport />
+      <Phone />
+      <CardIssued>0</CardIssued>
+      <EffectiveDate>2018-02-05</EffectiveDate>
+    </Insuree>
+    <Insuree>
+      <InsureeID>604</InsureeID>
+      <FamilyID>326</FamilyID>
+      <CHFID>086474555</CHFID>
+      <LastName>Moova</LastName>
+      <OtherNames>Hiren</OtherNames>
+      <DOB>2017-10-30</DOB>
+      <Gender>M</Gender>
+      <IsHead>0</IsHead>
+      <passport />
+      <Phone />
+      <CardIssued>0</CardIssued>
+      <EffectiveDate>2018-02-05</EffectiveDate>
+    </Insuree>
+    <Insuree>
+      <InsureeID>605</InsureeID>
+      <FamilyID>325</FamilyID>
+      <CHFID>037179052</CHFID>
+      <LastName>Moova</LastName>
+      <OtherNames>Maina</OtherNames>
+      <DOB>1968-12-29</DOB>
+      <Gender>M</Gender>
+      <Marital>S</Marital>
+      <IsHead>0</IsHead>
+      <passport />
+      <Phone />
+      <CardIssued>0</CardIssued>
+    </Insuree>
+  </Insurees>
+  <Policies>
+    <Policy>
+      <PolicyID>693</PolicyID>
+      <FamilyID>327</FamilyID>
+      <EnrollDate>2017-12-30</EnrollDate>
+      <StartDate>2017-12-30</StartDate>
+      <EffectiveDate>2018-02-04</EffectiveDate>
+      <ExpiryDate>2018-12-29</ExpiryDate>
+      <PolicyStatus>2</PolicyStatus>
+      <PolicyValue>21000.00</PolicyValue>
+      <ProdID>1</ProdID>
+      <OfficerID>12</OfficerID>
+      <PolicyStage>N</PolicyStage>
+    </Policy>
+    <Policy>
+      <PolicyID>695</PolicyID>
+      <FamilyID>326</FamilyID>
+      <EnrollDate>2018-01-16</EnrollDate>
+      <StartDate>2018-01-16</StartDate>
+      <EffectiveDate>2018-02-05</EffectiveDate>
+      <ExpiryDate>2019-01-15</ExpiryDate>
+      <PolicyStatus>2</PolicyStatus>
+      <PolicyValue>24000.00</PolicyValue>
+      <ProdID>1</ProdID>
+      <OfficerID>12</OfficerID>
+      <PolicyStage>N</PolicyStage>
+    </Policy>
+    <Policy>
+      <PolicyID>697</PolicyID>
+      <FamilyID>325</FamilyID>
+      <EnrollDate>2017-12-31</EnrollDate>
+      <StartDate>2017-12-31</StartDate>
+      <ExpiryDate>2018-12-30</ExpiryDate>
+      <PolicyStatus>1</PolicyStatus>
+      <PolicyValue>19000.00</PolicyValue>
+      <ProdID>1</ProdID>
+      <OfficerID>12</OfficerID>
+      <PolicyStage>N</PolicyStage>
+    </Policy>
+  </Policies>
+  <Premiums>
+    <Premium>
+      <PremiumId>381</PremiumId>
+      <PolicyID>693</PolicyID>
+      <PayerID>1</PayerID>
+      <Amount>21000.00</Amount>
+      <Receipt>PR2011</Receipt>
+      <PayDate>2018-02-04</PayDate>
+      <PayType>C</PayType>
+    </Premium>
+    <Premium>
+      <PremiumId>382</PremiumId>
+      <PolicyID>695</PolicyID>
+      <Amount>10000.00</Amount>
+      <Receipt>WCVFT100</Receipt>
+      <PayDate>2018-02-05</PayDate>
+      <PayType>C</PayType>
+    </Premium>
+  </Premiums>
+</Enrolment>

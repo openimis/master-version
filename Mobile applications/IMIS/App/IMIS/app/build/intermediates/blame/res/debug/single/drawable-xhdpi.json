@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_home.png",
+        "source": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_home.png"
+    },
+    {
+        "merged": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_quit.png",
+        "source": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_quit.png"
+    },
+    {
+        "merged": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_enquire.png",
+        "source": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_enquire.png"
+    },
+    {
+        "merged": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_sync.png",
+        "source": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_sync.png"
+    },
+    {
+        "merged": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_enroll.png",
+        "source": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_enroll.png"
+    },
+    {
+        "merged": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_renew.png",
+        "source": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_renew.png"
+    },
+    {
+        "merged": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_about.png",
+        "source": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_about.png"
+    },
+    {
+        "merged": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_feedback.png",
+        "source": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_feedback.png"
+    },
+    {
+        "merged": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_statistics.png",
+        "source": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_statistics.png"
+    }
+]

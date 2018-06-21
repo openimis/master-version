@@ -1,0 +1,41 @@
+﻿<Enrollment>
+  <Family>
+    <FamilyId>205</FamilyId>
+    <InsureeId>343</InsureeId>
+    <LocationId>151</LocationId>
+    <HOFCHFID>20202020</HOFCHFID>
+    <Poverty />
+    <FamilyType />
+    <FamilyAddress />
+    <Ethnicity />
+    <ConfirmationNo />
+    <ConfirmationType />
+    <isOffline>0</isOffline>
+  </Family>
+  <Insuree>
+    <InsureeId>343</InsureeId>
+    <FamilyId>205</FamilyId>
+    <CHFID>20202020</CHFID>
+    <LastName>Islam2</LastName>
+    <OtherNames>Islam</OtherNames>
+    <DOB>1984-10-13</DOB>
+    <Gender>M</Gender>
+    <Marital />
+    <isHead>1</isHead>
+    <IdentificationNumber />
+    <Phone />
+    <PhotoPath>20202020_E001_20171019_0_0.jpg</PhotoPath>
+    <CardIssued>0</CardIssued>
+    <Relationship />
+    <Profession />
+    <Education />
+    <Email />
+    <TypeOfId />
+    <HFID />
+    <CurrentAddress />
+    <GeoLocation />
+    <CurVillage />
+    <isOffline>0</isOffline>
+    <EffectiveDate />
+  </Insuree>
+</Enrollment>

@@ -1,0 +1,47 @@
+<Locations>
+  <Regions>
+
+  <Region>
+      <RegionCode>R0001</RegionCode>
+      <RegionName>Region</RegionName>
+    </Region>
+
+    <Region>
+      <RegionCode>HR001</RegionCode>
+      <RegionName>Hiren Region</RegionName>
+    </Region>
+    
+  </Regions>
+  <Districts>
+    <District>
+      <RegionCode>HR001</RegionCode>
+      <DistrictCode>HRD001</DistrictCode>
+      <DistrictName>Hiren District 1</DistrictName>
+    </District>
+    <District>
+      <RegionCode>HR001</RegionCode>
+      <DistrictCode>HRD002</DistrictCode>
+      <DistrictName>Hiren District 2</DistrictName>
+    </District>
+  </Districts>
+  <Municipalities>
+    <Municipality>
+      <DistrictCode>HRD001</DistrictCode>
+      <MunicipalityCode>HDW001</MunicipalityCode>
+      <MunicipalityName>Hiren Ward</MunicipalityName>
+    </Municipality>
+   
+  </Municipalities>
+  <Villages>
+    <Village>
+      <MunicipalityCode>HDW001</MunicipalityCode>
+      <VillageCode>HWV001</VillageCode>
+      <VillageName>Hiren Village</VillageName>
+      <MalePopulation>20</MalePopulation>
+      <FemalePopulation>30</FemalePopulation>
+      <OtherPopulation>1</OtherPopulation>
+      <Families>15</Families>
+    </Village>
+    
+  </Villages>
+</Locations>

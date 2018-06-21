@@ -1,0 +1,12 @@
+D:\IMIS Project\Master\WebService\IMISWebService\obj\Debug\IMISWebService.vbprojResolveAssemblyReference.cache
+D:\IMIS Project\Master\WebService\IMISWebService\obj\Debug\IMISWebService.vbproj.GenerateResource.cache
+D:\IMIS Project\Master\WebService\IMISWebService\obj\Debug\IMISWebService.vbproj.CoreCompileInputs.cache
+D:\IMIS Project\Master\WebService\IMISWebService\obj\Debug\IMISWebService.vbproj.CopyComplete
+D:\IMIS Project\Master\WebService\IMISWebService\bin\IMISWebService.dll.config
+D:\IMIS Project\Master\WebService\IMISWebService\bin\IMISWebService.dll
+D:\IMIS Project\Master\WebService\IMISWebService\bin\IMISWebService.pdb
+D:\IMIS Project\Master\WebService\IMISWebService\bin\IMISWebService.xml
+D:\IMIS Project\Master\WebService\IMISWebService\obj\Debug\IMISWebService.Resources.resources
+D:\IMIS Project\Master\WebService\IMISWebService\obj\Debug\IMISWebService.dll
+D:\IMIS Project\Master\WebService\IMISWebService\obj\Debug\IMISWebService.xml
+D:\IMIS Project\Master\WebService\IMISWebService\obj\Debug\IMISWebService.pdb

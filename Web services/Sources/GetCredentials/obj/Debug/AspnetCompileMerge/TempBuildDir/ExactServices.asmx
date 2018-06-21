@@ -1,1 +1,0 @@
-﻿<%@ WebService Language="VB" CodeBehind="ExactServices.asmx.vb" Class="GetCredentials.Service1" %>

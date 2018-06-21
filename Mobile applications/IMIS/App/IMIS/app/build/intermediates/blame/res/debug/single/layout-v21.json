@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Hiren\\.android\\build-cache\\937c7b95d3857ce7016dbb305b28e089ec5166ef\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Hiren\\.android\\build-cache\\937c7b95d3857ce7016dbb305b28e089ec5166ef\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Hiren\\.android\\build-cache\\937c7b95d3857ce7016dbb305b28e089ec5166ef\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\renewal.xml",
+        "source": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\src\\main\\res\\layout-v21\\renewal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Hiren\\.android\\build-cache\\937c7b95d3857ce7016dbb305b28e089ec5166ef\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    }
+]

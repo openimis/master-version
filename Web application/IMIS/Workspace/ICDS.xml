@@ -1,0 +1,70 @@
+﻿<ICDName>
+  <ICDCode>
+
+    <ICDCode>B62</ICDCode>
+    <ICDName>Malaria</ICDName>
+
+
+  </ICDCode>
+  <ICDCode>
+
+    <ICDCode>A63</ICDCode>
+    <ICDName>Shigellosis(BacilliaryDysentry)</ICDName>
+
+  </ICDCode>
+ 
+  <ICDCode>
+    
+    <ICDCode>A65</ICDCode>
+    <ICDName>Food Poisoning (Bacterial)</ICDName>
+
+  </ICDCode>
+  <ICDCode>
+
+    <ICDCode>A56</ICDCode>
+    <ICDName>Amoebiasis</ICDName>
+
+  </ICDCode>
+  <ICDCode>
+   
+    <ICDCode>A01</ICDCode>
+    <ICDName>Typhoid Fever</ICDName>
+
+  </ICDCode>
+  <ICDCode>
+  
+    <ICDCode>B76</ICDCode>
+    <ICDName>Ancylostomiasis(HookWorms)</ICDName>
+
+  </ICDCode>
+  <ICDCode>
+   
+    <ICDCode>B32</ICDCode>
+    <ICDName>Other Intestinal Worms</ICDName>
+
+  </ICDCode>
+  <ICDCode>
+  
+    <ICDCode>T17</ICDCode>
+    <ICDName>Gastric Ulcers</ICDName>
+
+  </ICDCode>
+  <ICDCode>
+
+    <ICDCode>T18</ICDCode>
+    <ICDName>Cancer</ICDName>
+
+  </ICDCode>
+  <ICDCode>
+
+    <ICDCode>000</ICDCode>
+    <ICDName>Other</ICDName>
+
+  </ICDCode>
+ <ICDCode>
+
+    <ICDCode>PS00</ICDCode>
+    <ICDName>Other</ICDName>
+
+  </ICDCode>
+</ICDName>

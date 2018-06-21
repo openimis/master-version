@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_home.xml",
+        "source": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_feedback.xml",
+        "source": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_feedback.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_quit.xml",
+        "source": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_quit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
+        "source": "C:\\Users\\Hiren\\.android\\build-cache\\cb4101bfd3a69bec986c1ac61585f434693cba2a\\output\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_enroll.xml",
+        "source": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_enroll.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
+        "source": "C:\\Users\\Hiren\\.android\\build-cache\\cb4101bfd3a69bec986c1ac61585f434693cba2a\\output\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_enquire.xml",
+        "source": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_enquire.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_statistics.xml",
+        "source": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_statistics.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_renew.xml",
+        "source": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_renew.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_sync.xml",
+        "source": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_sync.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_about.xml",
+        "source": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_about.xml"
+    }
+]

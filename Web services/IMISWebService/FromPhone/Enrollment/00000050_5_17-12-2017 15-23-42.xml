@@ -1,0 +1,118 @@
+﻿<Enrollment>
+  <Family>
+    <FamilyId>25</FamilyId>
+    <InsureeId>57</InsureeId>
+    <LocationId>151</LocationId>
+    <HOFCHFID>00000050</HOFCHFID>
+    <Poverty />
+    <FamilyType />
+    <FamilyAddress />
+    <Ethnicity />
+    <ConfirmationNo />
+    <ConfirmationType />
+    <isOffline>0</isOffline>
+  </Family>
+  <Insuree>
+    <InsureeId>57</InsureeId>
+    <FamilyId>25</FamilyId>
+    <CHFID>00000050</CHFID>
+    <LastName>Ngaiza</LastName>
+    <OtherNames>Allen</OtherNames>
+    <DOB>1989-05-26</DOB>
+    <Gender>M</Gender>
+    <Marital>S</Marital>
+    <isHead>true</isHead>
+    <IdentificationNumber />
+    <Phone />
+    <PhotoPath>00000050_E1001_20170526_0_0.jpg</PhotoPath>
+    <CardIssued>false</CardIssued>
+    <Relationship />
+    <Profession />
+    <Education />
+    <Email />
+    <TypeOfId />
+    <HFID />
+    <CurrentAddress />
+    <GeoLocation />
+    <CurVillage />
+    <isOffline>0</isOffline>
+    <EffectiveDate>2017-12-17</EffectiveDate>
+  </Insuree>
+  <Insuree>
+    <InsureeId>2</InsureeId>
+    <FamilyId>25</FamilyId>
+    <CHFID>123999</CHFID>
+    <LastName>Exact</LastName>
+    <OtherNames>Amani</OtherNames>
+    <DOB>2017-12-17</DOB>
+    <Gender>M</Gender>
+    <Marital />
+    <isHead>0</isHead>
+    <IdentificationNumber />
+    <Phone />
+    <PhotoPath />
+    <CardIssued />
+    <Relationship>2</Relationship>
+    <Profession />
+    <Education />
+    <Email />
+    <TypeOfId />
+    <HFID />
+    <CurrentAddress />
+    <GeoLocation />
+    <CurVillage />
+    <isOffline>1</isOffline>
+    <EffectiveDate>2017-12-17</EffectiveDate>
+  </Insuree>
+  <Insuree>
+    <InsureeId>3</InsureeId>
+    <FamilyId>25</FamilyId>
+    <CHFID>3258657</CHFID>
+    <LastName>Kazidi</LastName>
+    <OtherNames>Wapili</OtherNames>
+    <DOB>2017-12-17</DOB>
+    <Gender>M</Gender>
+    <Marital />
+    <isHead>0</isHead>
+    <IdentificationNumber />
+    <Phone />
+    <PhotoPath />
+    <CardIssued />
+    <Relationship>2</Relationship>
+    <Profession />
+    <Education />
+    <Email />
+    <TypeOfId />
+    <HFID />
+    <CurrentAddress />
+    <GeoLocation />
+    <CurVillage />
+    <isOffline>1</isOffline>
+    <EffectiveDate>2017-12-17</EffectiveDate>
+  </Insuree>
+  <Policy>
+    <PolicyId>1</PolicyId>
+    <FamilyId>25</FamilyId>
+    <EnrollDate>2017-12-17</EnrollDate>
+    <StartDate>2017-12-17</StartDate>
+    <EffectiveDate>2017-12-17</EffectiveDate>
+    <ExpiryDate>2018-12-16</ExpiryDate>
+    <PolicyStatus>2</PolicyStatus>
+    <PolicyValue>12000</PolicyValue>
+    <ProdId>2</ProdId>
+    <OfficerId>5</OfficerId>
+    <PolicyStage>N</PolicyStage>
+    <isOffline>1</isOffline>
+  </Policy>
+  <Premium>
+    <PremiumId>1</PremiumId>
+    <PolicyId>1</PolicyId>
+    <PayerId>9</PayerId>
+    <Amount>12000</Amount>
+    <Receipt>6lhgg</Receipt>
+    <PayDate>2017-12-17</PayDate>
+    <PayType>C</PayType>
+    <isPhotoFee>false</isPhotoFee>
+    <isOffline>1</isOffline>
+  </Premium>
+</Enrollment>

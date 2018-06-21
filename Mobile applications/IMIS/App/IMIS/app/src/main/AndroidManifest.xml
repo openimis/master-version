@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="tz.co.exact.master"
+    android:versionCode="1"
+    android:versionName="0.1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    android:hardwareAccelerated="true"
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:name="tz.co.exact.master.Global"
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_descriptor"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:replace="android:icon">
+        <activity
+            android:name="tz.co.exact.master.MainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="tz.co.exact.master.Enquire"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/Enquire"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="tz.co.exact.master.RenewList"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/Renewal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="tz.co.exact.master.Renewal"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/Renewal"
+            android:parentActivityName="tz.co.exact.master.RenewList"
+            android:screenOrientation="portrait"
+            tools:targetApi="jelly_bean" />
+        <activity
+            android:name="tz.co.exact.master.FeedbackList"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="tz.co.exact.master.Feedback"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:parentActivityName="tz.co.exact.master.FeedbackList"
+            android:screenOrientation="portrait"
+            tools:targetApi="jelly_bean" />
+        <activity
+            android:name="tz.co.exact.master.Statistics"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="tz.co.exact.master.Acquire"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/Acquire"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

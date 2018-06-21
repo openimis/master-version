@@ -1,1 +1,1 @@
-<?xml version="1.0"?><DTSDeploymentManifest GeneratedBy="HIREN\VMW7-A" GeneratedFromProjectName="IMIS DW" GeneratedDate="2017-08-24T10:16:09.2642421+03:00" AllowConfigurationChanges="true"><Package>IMISDW.dtsx</Package><ConfigurationFile>Config.dtsConfig</ConfigurationFile></DTSDeploymentManifest>
+<?xml version="1.0"?><DTSDeploymentManifest GeneratedBy="EXACT-WEBSERVER\HP" GeneratedFromProjectName="IMIS DW" GeneratedDate="2018-03-08T11:34:37.798321+03:00" AllowConfigurationChanges="true"><Package>IMISDW.dtsx</Package></DTSDeploymentManifest>

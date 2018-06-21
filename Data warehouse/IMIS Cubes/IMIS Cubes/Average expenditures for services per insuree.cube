@@ -624,7 +624,8 @@ END SCOPE;
 CREATE MEMBER CURRENTCUBE.[Measures].[Average expenditures for services per insuree]
  AS [Measures].[Service Expenditures]/[Measures].[Number Of Current Insurees], 
 FORMAT_STRING = "#,###0.###0;-#,##0.###0", 
-VISIBLE = 1  ; </Text>
+VISIBLE = 1  ; 
+</Text>
         </Command>
       </Commands>
     </MdxScript>

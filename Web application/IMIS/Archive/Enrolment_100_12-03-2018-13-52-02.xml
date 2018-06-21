@@ -1,0 +1,24 @@
+<Enrolment>
+  <Families>
+    <Family>
+      <FamilyId>325</FamilyId>
+      <InsureeId>597</InsureeId>
+      <CHFID>058622524</CHFID>
+      <LocationId>99</LocationId>
+      <Poverty>1</Poverty>
+    </Family>
+    <Family>
+      <FamilyId>326</FamilyId>
+      <InsureeId>598</InsureeId>
+      <CHFID>091271040</CHFID>
+      <LocationId>99</LocationId>
+      <Poverty>0</Poverty>
+    </Family>
+    <Family>
+      <FamilyId>327</FamilyId>
+      <InsureeId>599</InsureeId>
+      <CHFID>040281684</CHFID>
+      <LocationId>99</LocationId>
+    </Family>
+  </Families>
+</Enrolment>

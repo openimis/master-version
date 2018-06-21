@@ -1,0 +1,41 @@
+﻿<Enrollment>
+  <Family>
+    <FamilyId>352</FamilyId>
+    <InsureeId>676</InsureeId>
+    <LocationId>151</LocationId>
+    <HOFCHFID>1001</HOFCHFID>
+    <Poverty />
+    <FamilyType />
+    <FamilyAddress />
+    <Ethnicity />
+    <ConfirmationNo />
+    <ConfirmationType />
+    <isOffline>0</isOffline>
+  </Family>
+  <Insuree>
+    <InsureeId>677</InsureeId>
+    <FamilyId>352</FamilyId>
+    <CHFID>10011</CHFID>
+    <LastName>EditedEdited</LastName>
+    <OtherNames>Ins1</OtherNames>
+    <DOB>2017-12-17</DOB>
+    <Gender>M</Gender>
+    <Marital />
+    <isHead>0</isHead>
+    <IdentificationNumber />
+    <Phone />
+    <PhotoPath>null</PhotoPath>
+    <CardIssued>0</CardIssued>
+    <Relationship>1</Relationship>
+    <Profession />
+    <Education />
+    <Email />
+    <TypeOfId />
+    <HFID />
+    <CurrentAddress />
+    <GeoLocation />
+    <CurVillage />
+    <isOffline>0</isOffline>
+    <EffectiveDate />
+  </Insuree>
+</Enrollment>

@@ -1,0 +1,56 @@
+<Diagnoses>
+  
+  <Diagnosis>
+    <ICDCode>A03</ICDCode>
+    <ICDName>Shigellosis(BacilliaryDysentry)</ICDName>
+  </Diagnosis>
+  <Diagnosis>
+    <ICDCode>A05</ICDCode>
+    <ICDName>Food Poisoning (Bacterial)</ICDName>
+  </Diagnosis>
+  <Diagnosis>
+    <ICDCode>A06</ICDCode>
+    <ICDName>Amoebiasis</ICDName>
+  </Diagnosis>
+  <Diagnosis>
+    <ICDCode>A01</ICDCode>
+    <ICDName>Typhoid Fever</ICDName>
+  </Diagnosis>
+  <Diagnosis>
+    <ICDCode>B76</ICDCode>
+    <ICDName>Ancylostomiasis(HookWorms)</ICDName>
+  </Diagnosis>
+  <Diagnosis>
+    <ICDCode>B82</ICDCode>
+    <ICDName>Other Intestinal Worms</ICDName>
+  </Diagnosis>
+  <Diagnosis>
+    <ICDCode>T17</ICDCode>
+    <ICDName>Gastric Ulcers</ICDName>
+  </Diagnosis>
+  <Diagnosis>
+    <ICDCode>T18</ICDCode>
+    <ICDName>Cancer</ICDName>
+  </Diagnosis>
+  <Diagnosis>
+    <ICDCode>000</ICDCode>
+    <ICDName>Other (Unknown)</ICDName>
+  </Diagnosis>
+
+
+
+  <Diagnosis>
+    <ICDCode>EX003</ICDCode>
+    <ICDName>Exact 3</ICDName>
+  </Diagnosis>
+<Diagnosis>
+    <ICDCode>EX003</ICDCode>
+    <ICDName>Exact 3</ICDName>
+  </Diagnosis>
+<Diagnosis>
+    <ICDCode>EX004</ICDCode>
+    <ICDName>Exact 4</ICDName>
+  </Diagnosis>
+
+
+</Diagnoses>

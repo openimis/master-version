@@ -1,0 +1,450 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:2:1-85:12
+	package
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:4:5-33
+		INJECTED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:6:5-30
+		INJECTED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:5:5-28
+		INJECTED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:8:5-67
+MERGED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:27:5-67
+	android:name
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:8:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:9:5-81
+MERGED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:32:5-81
+	android:name
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:10:22-77
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:11:5-66
+MERGED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:28:5-66
+	android:name
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:11:22-63
+uses-permission#android.permission.FLASHLIGHT
+ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:12:5-69
+MERGED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:29:5-69
+	android:name
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:12:22-66
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:13:5-76
+MERGED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:33:5-76
+	android:name
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:13:22-73
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:14:5-76
+MERGED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:34:5-76
+	android:name
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:14:22-73
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:15:5-65
+MERGED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:26:5-65
+	android:name
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:15:22-62
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:16:5-79
+MERGED from [:General:] C:\Users\Hiren\.android\build-cache\0f063376c5278d427721a33ea9480a93cecfffce\output\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:16:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:17:5-79
+	android:name
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:17:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:18:5-81
+	android:name
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:18:22-78
+uses-feature#android.hardware.camera
+ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:20:5-22:35
+MERGED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:36:5-60
+	android:required
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:22:9-32
+		MERGED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:22:9-32
+	android:name
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:21:9-47
+application
+ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:24:5-83:19
+MERGED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:58:5-220:19
+MERGED from [:General:] C:\Users\Hiren\.android\build-cache\0f063376c5278d427721a33ea9480a93cecfffce\output\AndroidManifest.xml:13:5-16:19
+MERGED from [com.android.support:design:25.3.1] C:\Users\Hiren\.android\build-cache\cb4101bfd3a69bec986c1ac61585f434693cba2a\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Hiren\.android\build-cache\937c7b95d3857ce7016dbb305b28e089ec5166ef\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Hiren\.android\build-cache\2657cdd67011ec1c320db41e525d7673ac2f6c7d\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Hiren\.android\build-cache\c950b6668302f707ccd0d855add79f2e512f1470\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Hiren\.android\build-cache\0864997ad09673300c7d492aa26099d8568f1f61\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Hiren\.android\build-cache\cc8855d2a6c9667f56fc33f7707f49c5b4612a37\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Hiren\.android\build-cache\00be6983b3d975c50fa2e958b6e797c76df2dd2e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Hiren\.android\build-cache\31ce1fcfde2698288faa2b0679abd6cfd0c90ff7\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Hiren\.android\build-cache\9af16fa7e316fc277ff915c8f042b60a307a7f0f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Hiren\.android\build-cache\a4c1c086b1b3ac6387f0a25ba80ea1efb83d845a\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Hiren\.android\build-cache\8d389e766426764390bd805335c2de2cd8b5a05b\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Hiren\.android\build-cache\19c8e0cf008c7223a34e2ef6e2c61da226aad6ad\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:29:9-41
+	android:supportsRtl
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:31:9-35
+	android:fullBackupContent
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:27:9-59
+	android:roundIcon
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:30:9-48
+	tools:ignore
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:33:9-48
+	android:allowBackup
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:26:9-35
+	android:icon
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:28:9-43
+		REJECTED from [:General:] C:\Users\Hiren\.android\build-cache\0f063376c5278d427721a33ea9480a93cecfffce\output\AndroidManifest.xml:14:9-45
+	android:theme
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:32:9-40
+	tools:replace
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:34:9-37
+	android:name
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:25:9-49
+activity#tz.co.exact.master.MainActivity
+ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:35:9-46:20
+	android:screenOrientation
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:39:13-49
+	android:label
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:38:13-45
+	android:configChanges
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:37:13-74
+	android:theme
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:40:13-56
+	android:name
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:36:13-59
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:41:13-45:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:42:17-69
+	android:name
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:42:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:44:17-77
+	android:name
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:44:27-74
+activity#tz.co.exact.master.Enquire
+ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:47:9-51:52
+	android:screenOrientation
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:51:13-49
+	android:label
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:50:13-44
+	android:configChanges
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:49:13-74
+	android:name
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:48:13-54
+activity#tz.co.exact.master.RenewList
+ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:52:9-56:52
+	android:screenOrientation
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:56:13-49
+	android:label
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:55:13-44
+	android:configChanges
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:54:13-74
+	android:name
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:53:13-56
+activity#tz.co.exact.master.Renewal
+ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:57:9-63:44
+	android:screenOrientation
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:62:13-49
+	android:label
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:60:13-44
+	android:parentActivityName
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:61:13-70
+	android:configChanges
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:59:13-74
+	tools:targetApi
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:63:13-41
+	android:name
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:58:13-54
+activity#tz.co.exact.master.FeedbackList
+ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:64:9-67:52
+	android:screenOrientation
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:67:13-49
+	android:configChanges
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:66:13-74
+	android:name
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:65:13-59
+activity#tz.co.exact.master.Feedback
+ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:68:9-73:44
+	android:screenOrientation
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:72:13-49
+	android:parentActivityName
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:71:13-73
+	android:configChanges
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:70:13-74
+	tools:targetApi
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:73:13-41
+	android:name
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:69:13-55
+activity#tz.co.exact.master.Statistics
+ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:74:9-77:52
+	android:screenOrientation
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:77:13-49
+	android:configChanges
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:76:13-74
+	android:name
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:75:13-57
+activity#tz.co.exact.master.Acquire
+ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:78:9-82:52
+	android:screenOrientation
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:82:13-49
+	android:label
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:81:13-44
+	android:configChanges
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:80:13-74
+	android:name
+		ADDED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:79:13-54
+uses-sdk
+INJECTED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:22:5-24:40
+MERGED from [:General:] C:\Users\Hiren\.android\build-cache\0f063376c5278d427721a33ea9480a93cecfffce\output\AndroidManifest.xml:7:5-9:40
+MERGED from [com.android.support:design:25.3.1] C:\Users\Hiren\.android\build-cache\cb4101bfd3a69bec986c1ac61585f434693cba2a\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Hiren\.android\build-cache\937c7b95d3857ce7016dbb305b28e089ec5166ef\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Hiren\.android\build-cache\2657cdd67011ec1c320db41e525d7673ac2f6c7d\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Hiren\.android\build-cache\c950b6668302f707ccd0d855add79f2e512f1470\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Hiren\.android\build-cache\b065b3c6f8da1898609cb5bcfb3f41045e8b383a\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Hiren\.android\build-cache\0864997ad09673300c7d492aa26099d8568f1f61\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Hiren\.android\build-cache\cc8855d2a6c9667f56fc33f7707f49c5b4612a37\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Hiren\.android\build-cache\00be6983b3d975c50fa2e958b6e797c76df2dd2e\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Hiren\.android\build-cache\31ce1fcfde2698288faa2b0679abd6cfd0c90ff7\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Hiren\.android\build-cache\9af16fa7e316fc277ff915c8f042b60a307a7f0f\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Hiren\.android\build-cache\a4c1c086b1b3ac6387f0a25ba80ea1efb83d845a\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Hiren\.android\build-cache\8d389e766426764390bd805335c2de2cd8b5a05b\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Hiren\.android\build-cache\19c8e0cf008c7223a34e2ef6e2c61da226aad6ad\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Hiren\.android\build-cache\cb4101bfd3a69bec986c1ac61585f434693cba2a\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.READ_CONTACTS
+ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:30:5-72
+	android:name
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:30:22-69
+uses-permission#com.android.browser.permission.READ_HISTORY_BOOKMARKS
+ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:31:5-93
+	android:name
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:31:22-90
+uses-feature#android.hardware.camera.autofocus
+ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:37:5-39:36
+	android:required
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:39:9-33
+	android:name
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:38:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:40:5-42:36
+	android:required
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:42:9-33
+	android:name
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:41:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:43:5-70
+	android:name
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:43:19-67
+uses-feature#android.hardware.wifi
+ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:44:5-46:36
+	android:required
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:46:9-33
+	android:name
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:45:9-45
+uses-feature#android.hardware.touchscreen
+ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:47:5-49:36
+	android:required
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:49:9-33
+	android:name
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:48:9-52
+supports-screens
+ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:52:5-56:39
+	android:largeScreens
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:54:9-36
+	android:smallScreens
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:56:9-36
+	android:normalScreens
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:55:9-37
+	android:anyDensity
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:53:9-34
+activity#com.google.zxing.client.android.CaptureActivity
+ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:59:9-124:20
+	android:clearTaskOnLaunch
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:61:13-45
+	android:screenOrientation
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:63:13-50
+	android:stateNotNeeded
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:64:13-42
+	android:windowSoftInputMode
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:66:13-60
+	android:configChanges
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:62:13-63
+	android:theme
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:65:13-71
+	android:name
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:60:13-75
+intent-filter#android.intent.action.MAIN
+ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:67:13-70:29
+intent-filter#android.intent.category.DEFAULT+com.google.zxing.client.android.SCAN
+ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:71:13-75:29
+action#com.google.zxing.client.android.SCAN
+ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:72:17-79
+	android:name
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:72:25-76
+category#android.intent.category.DEFAULT
+ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:74:17-76
+	android:name
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:74:27-73
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:77:13-87:29
+action#android.intent.action.VIEW
+ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:78:17-69
+	android:name
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:78:25-66
+category#android.intent.category.BROWSABLE
+ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:81:17-78
+	android:name
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:81:27-75
+data
+ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:83:17-86:45
+	android:path
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:85:21-41
+	android:host
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:84:21-53
+	android:scheme
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:86:21-42
+activity#com.google.zxing.client.android.PreferencesActivity
+ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:125:9-129:20
+	android:label
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:127:13-53
+	android:stateNotNeeded
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:128:13-42
+	android:name
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:126:13-79
+activity#com.google.zxing.client.android.encode.EncodeActivity
+ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:130:9-155:20
+	android:label
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:132:13-47
+	android:stateNotNeeded
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:133:13-42
+	android:name
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:131:13-81
+intent-filter#android.intent.category.DEFAULT+com.google.zxing.client.android.ENCODE
+ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:134:13-138:29
+action#com.google.zxing.client.android.ENCODE
+ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:135:17-81
+	android:name
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:135:25-78
+intent-filter#android.intent.action.SEND+android.intent.category.DEFAULT
+ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:140:13-146:29
+action#android.intent.action.SEND
+ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:141:17-69
+	android:name
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:141:25-66
+activity#com.google.zxing.client.android.book.SearchBookContentsActivity
+ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:156:9-167:20
+	android:screenOrientation
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:160:13-50
+	android:label
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:159:13-45
+	android:stateNotNeeded
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:161:13-42
+	android:configChanges
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:158:13-63
+	android:name
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:157:13-91
+intent-filter#android.intent.category.DEFAULT+com.google.zxing.client.android.SEARCH_BOOK_CONTENTS
+ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:162:13-166:29
+action#com.google.zxing.client.android.SEARCH_BOOK_CONTENTS
+ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:163:17-95
+	android:name
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:163:25-92
+activity#com.google.zxing.client.android.share.ShareActivity
+ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:168:9-179:20
+	android:screenOrientation
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:171:13-45
+	android:label
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:170:13-47
+	android:stateNotNeeded
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:172:13-42
+	android:theme
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:173:13-55
+	android:name
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:169:13-79
+intent-filter#android.intent.category.DEFAULT+com.google.zxing.client.android.SHARE
+ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:174:13-178:29
+action#com.google.zxing.client.android.SHARE
+ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:175:17-80
+	android:name
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:175:25-77
+activity#com.google.zxing.client.android.history.HistoryActivity
+ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:180:9-189:20
+	android:label
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:182:13-50
+	android:stateNotNeeded
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:183:13-42
+	android:name
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:181:13-83
+intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT
+ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:184:13-188:29
+activity#com.google.zxing.client.android.share.BookmarkPickerActivity
+ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:190:9-199:20
+	android:label
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:192:13-57
+	android:stateNotNeeded
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:193:13-42
+	android:name
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:191:13-88
+intent-filter#android.intent.action.PICK+android.intent.category.DEFAULT
+ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:194:13-198:29
+action#android.intent.action.PICK
+ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:195:17-69
+	android:name
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:195:25-66
+activity#com.google.zxing.client.android.share.AppPickerActivity
+ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:200:9-210:20
+	android:label
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:203:13-52
+	android:stateNotNeeded
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:204:13-42
+	android:configChanges
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:202:13-48
+	android:name
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:201:13-83
+activity#com.google.zxing.client.android.HelpActivity
+ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:211:9-219:20
+	android:screenOrientation
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:213:13-45
+	android:name
+		ADDED from [:CaptureActivity:] C:\Users\Hiren\.android\build-cache\28d5c665f7a9fee784ae4d4b9be6ffd7e2ddf5ae\output\AndroidManifest.xml:212:13-72
+uses-permission#android.permission.READ_CALL_LOG
+IMPLIED from C:\Users\Hiren\Videos\IMIS\app\src\main\AndroidManifest.xml:2:1-85:12 reason: com.google.zxing.client.android has targetSdkVersion < 16 and requested READ_CONTACTS
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\Hiren\.android\build-cache\cb4101bfd3a69bec986c1ac61585f434693cba2a\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Hiren\.android\build-cache\937c7b95d3857ce7016dbb305b28e089ec5166ef\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Hiren\.android\build-cache\2657cdd67011ec1c320db41e525d7673ac2f6c7d\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Hiren\.android\build-cache\c950b6668302f707ccd0d855add79f2e512f1470\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Hiren\.android\build-cache\b065b3c6f8da1898609cb5bcfb3f41045e8b383a\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Hiren\.android\build-cache\0864997ad09673300c7d492aa26099d8568f1f61\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Hiren\.android\build-cache\00be6983b3d975c50fa2e958b6e797c76df2dd2e\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Hiren\.android\build-cache\31ce1fcfde2698288faa2b0679abd6cfd0c90ff7\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Hiren\.android\build-cache\9af16fa7e316fc277ff915c8f042b60a307a7f0f\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Hiren\.android\build-cache\a4c1c086b1b3ac6387f0a25ba80ea1efb83d845a\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Hiren\.android\build-cache\8d389e766426764390bd805335c2de2cd8b5a05b\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Hiren\.android\build-cache\19c8e0cf008c7223a34e2ef6e2c61da226aad6ad\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Hiren\.android\build-cache\cb4101bfd3a69bec986c1ac61585f434693cba2a\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Hiren\.android\build-cache\cb4101bfd3a69bec986c1ac61585f434693cba2a\output\AndroidManifest.xml:26:9-47

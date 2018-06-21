@@ -1,0 +1,41 @@
+﻿<Enrollment>
+  <Family>
+    <FamilyId>350</FamilyId>
+    <InsureeId>674</InsureeId>
+    <LocationId>151</LocationId>
+    <HOFCHFID>21312154</HOFCHFID>
+    <Poverty />
+    <FamilyType />
+    <FamilyAddress />
+    <Ethnicity />
+    <ConfirmationNo />
+    <ConfirmationType />
+    <isOffline>0</isOffline>
+  </Family>
+  <Insuree>
+    <InsureeId>-2</InsureeId>
+    <FamilyId>350</FamilyId>
+    <CHFID>9645321</CHFID>
+    <LastName>Amani</LastName>
+    <OtherNames>Hans</OtherNames>
+    <DOB>2017-12-17</DOB>
+    <Gender>M</Gender>
+    <Marital />
+    <isHead>0</isHead>
+    <IdentificationNumber />
+    <Phone />
+    <PhotoPath />
+    <CardIssued />
+    <Relationship>2</Relationship>
+    <Profession />
+    <Education />
+    <Email />
+    <TypeOfId />
+    <HFID />
+    <CurrentAddress />
+    <GeoLocation />
+    <CurVillage />
+    <isOffline>1</isOffline>
+    <EffectiveDate />
+  </Insuree>
+</Enrollment>

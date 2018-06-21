@@ -1,0 +1,270 @@
+﻿File Name : Locations201804111105.xml
+Register : Locations
+User : exact
+Date : 11/04/2018 11:14
+Strategy : Insert Only
+
+
+0 Region(s) Inserted
+---------------------------------------------------------------------------------
+
+
+0 Region(s) Updated
+---------------------------------------------------------------------------------
+
+
+21 Region(s) Failed
+---------------------------------------------------------------------------------
+1.	Region Code[R0001] is already exists in database
+2.	Region Code[R0002] is already exists in database
+3.	Region Code[R0003] is already exists in database
+4.	Region Code[R0004] is already exists in database
+5.	Region Code[R0005] is already exists in database
+6.	Region Code[R0006] is already exists in database
+7.	Region Code[R0007] is already exists in database
+8.	Region Code[R0008] is already exists in database
+9.	Region Code[R0009] is already exists in database
+10.	Region Code[R0010] is already exists in database
+11.	Region Code[R0011] is already exists in database
+12.	Region Code[R0012] is already exists in database
+13.	Region Code[R0013] is already exists in database
+14.	Region Code[R0014] is already exists in database
+15.	Region Code[R0015] is already exists in database
+16.	Region Code[R0016] is already exists in database
+17.	Region Code[HANS] is already exists in database
+18.	Region Code[RX] is already exists in database
+19.	Region Code[R00123] is already exists in database
+20.	Region Code[R0017] is already exists in database
+21.	Region Code[R0018] is already exists in database
+
+
+0 District(s) Inserted
+---------------------------------------------------------------------------------
+
+
+0 District(s) Updated
+---------------------------------------------------------------------------------
+
+
+44 District(s) Failed
+---------------------------------------------------------------------------------
+1.	District Code[D0002] is already exists in database
+2.	District Code[D0003] is already exists in database
+3.	District Code[D0004] is already exists in database
+4.	District Code[D0005] is already exists in database
+5.	District Code[D0006] is already exists in database
+6.	District Code[D0007] is already exists in database
+7.	District Code[D0008] is already exists in database
+8.	District Code[D0009] is already exists in database
+9.	District Code[D0010] is already exists in database
+10.	District Code[D0011] is already exists in database
+11.	District Code[D0012] is already exists in database
+12.	District Code[D0013] is already exists in database
+13.	District Code[D0014] is already exists in database
+14.	District Code[D0015] is already exists in database
+15.	District Code[D0016] is already exists in database
+16.	District Code[D0017] is already exists in database
+17.	District Code[D0018] is already exists in database
+18.	District Code[D0019] is already exists in database
+19.	District Code[D0020] is already exists in database
+20.	District Code[D0021] is already exists in database
+21.	District Code[D0022] is already exists in database
+22.	District Code[D0023] is already exists in database
+23.	District Code[D0024] is already exists in database
+24.	District Code[D0025] is already exists in database
+25.	District Code[D0026] is already exists in database
+26.	District Code[D0027] is already exists in database
+27.	District Code[D0028] is already exists in database
+28.	District Code[D0029] is already exists in database
+29.	District Code[D0030] is already exists in database
+30.	District Code[D0031] is already exists in database
+31.	District Code[D0032] is already exists in database
+32.	District Code[D0033] is already exists in database
+33.	District Code[D0035] is already exists in database
+34.	District Code[Q00051] is already exists in database
+35.	District Code[D0034] is already exists in database
+36.	District Code[hvh1] is already exists in database
+37.	District Code[RX1] is already exists in database
+38.	District Code[RX2] is already exists in database
+39.	District Code[D171] is already exists in database
+40.	District Code[D172] is already exists in database
+41.	District Code[D173] is already exists in database
+42.	District Code[R00181] is already exists in database
+43.	District Code[D174] is already exists in database
+44.	District Code[D175] is already exists in database
+
+
+0 Municipality(s) Inserted
+---------------------------------------------------------------------------------
+
+
+0 Municipality(s) Updated
+---------------------------------------------------------------------------------
+55 Municipality(s) Failed
+---------------------------------------------------------------------------------
+1.	Municipality Code[W0002] is already exists in database
+2.	Municipality Code[W0003] is already exists in database
+3.	Municipality Code[W0004] is already exists in database
+4.	Municipality Code[W0005] is already exists in database
+5.	Municipality Code[W0006] is already exists in database
+6.	Municipality Code[W0007] is already exists in database
+7.	Municipality Code[W0008] is already exists in database
+8.	Municipality Code[W0009] is already exists in database
+9.	Municipality Code[W0010] is already exists in database
+10.	Municipality Code[W0011] is already exists in database
+11.	Municipality Code[W0012] is already exists in database
+12.	Municipality Code[W0013] is already exists in database
+13.	Municipality Code[W0014] is already exists in database
+14.	Municipality Code[W0015] is already exists in database
+15.	Municipality Code[W0016] is already exists in database
+16.	Municipality Code[W0017] is already exists in database
+17.	Municipality Code[W0018] is already exists in database
+18.	Municipality Code[W0019] is already exists in database
+19.	Municipality Code[W0020] is already exists in database
+20.	Municipality Code[W0021] is already exists in database
+21.	Municipality Code[W0022] is already exists in database
+22.	Municipality Code[W0023] is already exists in database
+23.	Municipality Code[W0024] is already exists in database
+24.	Municipality Code[W0025] is already exists in database
+25.	Municipality Code[W0026] is already exists in database
+26.	Municipality Code[W0027] is already exists in database
+27.	Municipality Code[W0028] is already exists in database
+28.	Municipality Code[W0029] is already exists in database
+29.	Municipality Code[W0030] is already exists in database
+30.	Municipality Code[W0031] is already exists in database
+31.	Municipality Code[W0032] is already exists in database
+32.	Municipality Code[W0033] is already exists in database
+33.	Municipality Code[W0034] is already exists in database
+34.	Municipality Code[W0035] is already exists in database
+35.	Municipality Code[W0036] is already exists in database
+36.	Municipality Code[W0037] is already exists in database
+37.	Municipality Code[W0038] is already exists in database
+38.	Municipality Code[W0039] is already exists in database
+39.	Municipality Code[W0040] is already exists in database
+40.	Municipality Code[W0041] is already exists in database
+41.	Municipality Code[W0042] is already exists in database
+42.	Municipality Code[W0043] is already exists in database
+43.	Municipality Code[W0044] is already exists in database
+44.	Municipality Code[W0045] is already exists in database
+45.	Municipality Code[Q0041] is already exists in database
+46.	Municipality Code[Q0042] is already exists in database
+47.	Municipality Code[RX11] is already exists in database
+48.	Municipality Code[RX21] is already exists in database
+49.	Municipality Code[M1711] is already exists in database
+50.	Municipality Code[M1712] is already exists in database
+51.	Municipality Code[M1721] is already exists in database
+52.	Municipality Code[M1731] is already exists in database
+53.	Municipality Code[R001811] is already exists in database
+54.	Municipality Code[M1741] is already exists in database
+55.	Municipality Code[M1751] is already exists in database
+
+
+
+
+0 Village(s) Inserted
+---------------------------------------------------------------------------------
+
+
+0 Village(s) Updated
+---------------------------------------------------------------------------------
+
+
+95 Village(s) Failed
+---------------------------------------------------------------------------------
+1.	Village Code[V0002] is already exists in database
+2.	Village Code[V0003] is already exists in database
+3.	Village Code[V0004] is already exists in database
+4.	Village Code[V0005] is already exists in database
+5.	Village Code[V0006] is already exists in database
+6.	Village Code[V0007] is already exists in database
+7.	Village Code[V0008] is already exists in database
+8.	Village Code[V0009] is already exists in database
+9.	Village Code[V0010] is already exists in database
+10.	Village Code[V0011] is already exists in database
+11.	Village Code[V0012] is already exists in database
+12.	Village Code[V0013] is already exists in database
+13.	Village Code[V0014] is already exists in database
+14.	Village Code[V0015] is already exists in database
+15.	Village Code[V0016] is already exists in database
+16.	Village Code[V0017] is already exists in database
+17.	Village Code[V0018] is already exists in database
+18.	Village Code[V0019] is already exists in database
+19.	Village Code[V0020] is already exists in database
+20.	Village Code[V0021] is already exists in database
+21.	Village Code[V0022] is already exists in database
+22.	Village Code[V0023] is already exists in database
+23.	Village Code[V0024] is already exists in database
+24.	Village Code[V0025] is already exists in database
+25.	Village Code[V0026] is already exists in database
+26.	Village Code[V0027] is already exists in database
+27.	Village Code[V0028] is already exists in database
+28.	Village Code[V0029] is already exists in database
+29.	Village Code[V0030] is already exists in database
+30.	Village Code[V0031] is already exists in database
+31.	Village Code[V0032] is already exists in database
+32.	Village Code[V0033] is already exists in database
+33.	Village Code[V0034] is already exists in database
+34.	Village Code[V0035] is already exists in database
+35.	Village Code[V0036] is already exists in database
+36.	Village Code[V0037] is already exists in database
+37.	Village Code[V0038] is already exists in database
+38.	Village Code[V0039] is already exists in database
+39.	Village Code[V0040] is already exists in database
+40.	Village Code[V0041] is already exists in database
+41.	Village Code[V0042] is already exists in database
+42.	Village Code[V0043] is already exists in database
+43.	Village Code[V0044] is already exists in database
+44.	Village Code[V0045] is already exists in database
+45.	Village Code[V0046] is already exists in database
+46.	Village Code[V0047] is already exists in database
+47.	Village Code[V0048] is already exists in database
+48.	Village Code[V0049] is already exists in database
+49.	Village Code[V0050] is already exists in database
+50.	Village Code[V0051] is already exists in database
+51.	Village Code[V0052] is already exists in database
+52.	Village Code[V0053] is already exists in database
+53.	Village Code[V0054] is already exists in database
+54.	Village Code[V0055] is already exists in database
+55.	Village Code[V0056] is already exists in database
+56.	Village Code[V0057] is already exists in database
+57.	Village Code[V0058] is already exists in database
+58.	Village Code[V0059] is already exists in database
+59.	Village Code[V0060] is already exists in database
+60.	Village Code[V0061] is already exists in database
+61.	Village Code[V0062] is already exists in database
+62.	Village Code[V0063] is already exists in database
+63.	Village Code[V0064] is already exists in database
+64.	Village Code[V0065] is already exists in database
+65.	Village Code[V0066] is already exists in database
+66.	Village Code[V0067] is already exists in database
+67.	Village Code[V0068] is already exists in database
+68.	Village Code[V0069] is already exists in database
+69.	Village Code[V0070] is already exists in database
+70.	Village Code[V0071] is already exists in database
+71.	Village Code[V0072] is already exists in database
+72.	Village Code[V0073] is already exists in database
+73.	Village Code[V0074] is already exists in database
+74.	Village Code[V0075] is already exists in database
+75.	Village Code[V0076] is already exists in database
+76.	Village Code[V0077] is already exists in database
+77.	Village Code[V0078] is already exists in database
+78.	Village Code[VTest] is already exists in database
+79.	Village Code[V00411] is already exists in database
+80.	Village Code[V00421] is already exists in database
+81.	Village Code[RX111] is already exists in database
+82.	Village Code[RX211] is already exists in database
+83.	Village Code[RX112] is already exists in database
+84.	Village Code[RX113] is already exists in database
+85.	Village Code[V17111] is already exists in database
+86.	Village Code[V17112] is already exists in database
+87.	Village Code[V1721] is already exists in database
+88.	Village Code[V17211] is already exists in database
+89.	Village Code[V17311] is already exists in database
+90.	Village Code[V17113] is already exists in database
+91.	Village Code[R0018111] is already exists in database
+92.	Village Code[V17411] is already exists in database
+93.	Village Code[V17511] is already exists in database
+94.	Village Code[V1001] is already exists in database
+95.	Village Code[V1002] is already exists in database
+
+

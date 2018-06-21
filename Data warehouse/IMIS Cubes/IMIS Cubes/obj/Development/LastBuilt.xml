@@ -1,31 +1,6 @@
 ﻿<Infos>
-  <Item name="Average expenditures for health care per insuree.cube">
-    <Time>636263118940264688</Time>
-    <Hash length="20">
-      <b>11</b>
-      <b>173</b>
-      <b>151</b>
-      <b>195</b>
-      <b>5</b>
-      <b>132</b>
-      <b>127</b>
-      <b>228</b>
-      <b>55</b>
-      <b>139</b>
-      <b>160</b>
-      <b>152</b>
-      <b>231</b>
-      <b>96</b>
-      <b>214</b>
-      <b>178</b>
-      <b>184</b>
-      <b>201</b>
-      <b>108</b>
-      <b>109</b>
-    </Hash>
-  </Item>
   <Item name="Claim details products.partitions">
-    <Time>635919097859775546</Time>
+    <Time>635919097860000000</Time>
     <Hash length="20">
       <b>190</b>
       <b>160</b>
@@ -49,33 +24,58 @@
       <b>192</b>
     </Hash>
   </Item>
-  <Item name="Items.dim">
-    <Time>635923500003981875</Time>
+  <Item name="Service Expenditures.dsv">
+    <Time>636161185860000000</Time>
     <Hash length="20">
-      <b>205</b>
-      <b>9</b>
-      <b>210</b>
-      <b>124</b>
-      <b>13</b>
-      <b>7</b>
-      <b>12</b>
-      <b>2</b>
-      <b>165</b>
-      <b>2</b>
-      <b>38</b>
-      <b>88</b>
+      <b>98</b>
+      <b>173</b>
+      <b>184</b>
+      <b>190</b>
+      <b>153</b>
+      <b>130</b>
+      <b>232</b>
+      <b>143</b>
+      <b>186</b>
+      <b>138</b>
+      <b>163</b>
+      <b>113</b>
+      <b>81</b>
+      <b>82</b>
+      <b>229</b>
+      <b>254</b>
+      <b>234</b>
+      <b>111</b>
+      <b>196</b>
+      <b>58</b>
+    </Hash>
+  </Item>
+  <Item name="Products 1.dim">
+    <Time>636462572880000000</Time>
+    <Hash length="20">
+      <b>168</b>
+      <b>62</b>
+      <b>163</b>
+      <b>195</b>
+      <b>63</b>
       <b>35</b>
-      <b>106</b>
-      <b>238</b>
-      <b>3</b>
-      <b>37</b>
-      <b>128</b>
-      <b>159</b>
-      <b>176</b>
+      <b>161</b>
+      <b>111</b>
+      <b>197</b>
+      <b>144</b>
+      <b>72</b>
+      <b>53</b>
+      <b>172</b>
+      <b>124</b>
+      <b>218</b>
+      <b>183</b>
+      <b>84</b>
+      <b>51</b>
+      <b>115</b>
+      <b>90</b>
     </Hash>
   </Item>
   <Item name="Gender.dim">
-    <Time>635923499902263125</Time>
+    <Time>635923499920000000</Time>
     <Hash length="20">
       <b>32</b>
       <b>153</b>
@@ -100,7 +100,7 @@
     </Hash>
   </Item>
   <Item name="Number of insured Families or Groups.partitions">
-    <Time>636161946364061171</Time>
+    <Time>636161946380000000</Time>
     <Hash length="20">
       <b>97</b>
       <b>115</b>
@@ -125,7 +125,7 @@
     </Hash>
   </Item>
   <Item name="Utilization of services.cube">
-    <Time>636263085099639688</Time>
+    <Time>636263085100000000</Time>
     <Hash length="20">
       <b>119</b>
       <b>162</b>
@@ -149,33 +149,33 @@
       <b>162</b>
     </Hash>
   </Item>
-  <Item name="Claim details products.dsv">
-    <Time>636263146279577031</Time>
+  <Item name="Population.partitions">
+    <Time>636383123520000000</Time>
     <Hash length="20">
-      <b>171</b>
-      <b>82</b>
-      <b>108</b>
-      <b>92</b>
-      <b>54</b>
-      <b>197</b>
-      <b>242</b>
-      <b>225</b>
-      <b>100</b>
-      <b>63</b>
-      <b>59</b>
-      <b>78</b>
-      <b>238</b>
-      <b>48</b>
-      <b>72</b>
-      <b>71</b>
-      <b>140</b>
-      <b>229</b>
-      <b>34</b>
-      <b>173</b>
+      <b>103</b>
+      <b>11</b>
+      <b>21</b>
+      <b>247</b>
+      <b>0</b>
+      <b>14</b>
+      <b>25</b>
+      <b>26</b>
+      <b>127</b>
+      <b>9</b>
+      <b>11</b>
+      <b>188</b>
+      <b>228</b>
+      <b>231</b>
+      <b>191</b>
+      <b>5</b>
+      <b>161</b>
+      <b>36</b>
+      <b>80</b>
+      <b>112</b>
     </Hash>
   </Item>
   <Item name="Feedback Details.partitions">
-    <Time>635836090636386406</Time>
+    <Time>635836090640000000</Time>
     <Hash length="20">
       <b>117</b>
       <b>59</b>
@@ -200,7 +200,7 @@
     </Hash>
   </Item>
   <Item name="Admissions and Visits and Hospital Days.dsv">
-    <Time>636161185316353281</Time>
+    <Time>636161185320000000</Time>
     <Hash length="20">
       <b>66</b>
       <b>133</b>
@@ -225,7 +225,7 @@
     </Hash>
   </Item>
   <Item name="Payers.dim">
-    <Time>636210307357350000</Time>
+    <Time>636210307360000000</Time>
     <Hash length="20">
       <b>204</b>
       <b>39</b>
@@ -249,33 +249,83 @@
       <b>20</b>
     </Hash>
   </Item>
-  <Item name="Time 1.dim">
-    <Time>635923501103669375</Time>
+  <Item name="Feedback answers.partitions">
+    <Time>635399002580000000</Time>
     <Hash length="20">
-      <b>191</b>
-      <b>114</b>
-      <b>214</b>
-      <b>29</b>
-      <b>65</b>
-      <b>234</b>
-      <b>94</b>
+      <b>202</b>
+      <b>209</b>
+      <b>46</b>
+      <b>51</b>
+      <b>213</b>
+      <b>11</b>
+      <b>37</b>
       <b>139</b>
-      <b>5</b>
-      <b>232</b>
-      <b>241</b>
-      <b>166</b>
-      <b>69</b>
+      <b>224</b>
+      <b>220</b>
+      <b>131</b>
+      <b>147</b>
+      <b>88</b>
       <b>145</b>
+      <b>9</b>
+      <b>112</b>
+      <b>128</b>
+      <b>5</b>
+      <b>231</b>
+      <b>184</b>
+    </Hash>
+  </Item>
+  <Item name="Utilization of medical items.cube">
+    <Time>636263085400000000</Time>
+    <Hash length="20">
+      <b>34</b>
+      <b>46</b>
+      <b>176</b>
+      <b>213</b>
+      <b>84</b>
+      <b>156</b>
+      <b>110</b>
+      <b>88</b>
+      <b>57</b>
+      <b>160</b>
+      <b>95</b>
       <b>77</b>
-      <b>105</b>
-      <b>215</b>
+      <b>116</b>
+      <b>129</b>
+      <b>207</b>
+      <b>52</b>
+      <b>235</b>
+      <b>176</b>
+      <b>51</b>
+      <b>159</b>
+    </Hash>
+  </Item>
+  <Item name="Payers 1.dim">
+    <Time>636462572880000000</Time>
+    <Hash length="20">
+      <b>236</b>
+      <b>170</b>
+      <b>120</b>
+      <b>195</b>
+      <b>14</b>
+      <b>154</b>
+      <b>183</b>
+      <b>209</b>
+      <b>204</b>
+      <b>207</b>
+      <b>121</b>
       <b>185</b>
-      <b>27</b>
-      <b>22</b>
+      <b>58</b>
+      <b>247</b>
+      <b>126</b>
+      <b>235</b>
+      <b>169</b>
+      <b>92</b>
+      <b>178</b>
+      <b>150</b>
     </Hash>
   </Item>
   <Item name="Feedback Details.cube">
-    <Time>636263013627002969</Time>
+    <Time>636263013640000000</Time>
     <Hash length="20">
       <b>29</b>
       <b>103</b>
@@ -300,7 +350,7 @@
     </Hash>
   </Item>
   <Item name="Expenditures for medical items.partitions">
-    <Time>635398986631479531</Time>
+    <Time>635398986640000000</Time>
     <Hash length="20">
       <b>133</b>
       <b>75</b>
@@ -325,7 +375,7 @@
     </Hash>
   </Item>
   <Item name="Number of insurees by ranges.cube">
-    <Time>636263015017422891</Time>
+    <Time>636263015020000000</Time>
     <Hash length="20">
       <b>111</b>
       <b>219</b>
@@ -349,33 +399,83 @@
       <b>161</b>
     </Hash>
   </Item>
-  <Item name="Current and New Insurees.dsv">
-    <Time>636178233277864375</Time>
+  <Item name="Average utilization of medical items per insuree.cube">
+    <Time>636263007440000000</Time>
     <Hash length="20">
-      <b>153</b>
-      <b>239</b>
-      <b>82</b>
-      <b>62</b>
-      <b>67</b>
-      <b>91</b>
-      <b>72</b>
-      <b>203</b>
-      <b>201</b>
-      <b>53</b>
+      <b>185</b>
+      <b>70</b>
+      <b>221</b>
+      <b>92</b>
+      <b>0</b>
       <b>60</b>
-      <b>180</b>
-      <b>124</b>
-      <b>121</b>
-      <b>176</b>
-      <b>128</b>
-      <b>109</b>
-      <b>94</b>
-      <b>227</b>
-      <b>112</b>
+      <b>152</b>
+      <b>177</b>
+      <b>87</b>
+      <b>208</b>
+      <b>83</b>
+      <b>73</b>
+      <b>42</b>
+      <b>220</b>
+      <b>236</b>
+      <b>169</b>
+      <b>131</b>
+      <b>31</b>
+      <b>79</b>
+      <b>98</b>
+    </Hash>
+  </Item>
+  <Item name="Claim details products.dsv">
+    <Time>636263146280000000</Time>
+    <Hash length="20">
+      <b>171</b>
+      <b>82</b>
+      <b>108</b>
+      <b>92</b>
+      <b>54</b>
+      <b>197</b>
+      <b>242</b>
+      <b>225</b>
+      <b>100</b>
+      <b>63</b>
+      <b>59</b>
+      <b>78</b>
+      <b>238</b>
+      <b>48</b>
+      <b>72</b>
+      <b>71</b>
+      <b>140</b>
+      <b>229</b>
+      <b>34</b>
+      <b>173</b>
+    </Hash>
+  </Item>
+  <Item name="Rogers.dsv">
+    <Time>636462600380000000</Time>
+    <Hash length="20">
+      <b>91</b>
+      <b>3</b>
+      <b>137</b>
+      <b>25</b>
+      <b>21</b>
+      <b>110</b>
+      <b>51</b>
+      <b>187</b>
+      <b>63</b>
+      <b>59</b>
+      <b>217</b>
+      <b>195</b>
+      <b>188</b>
+      <b>77</b>
+      <b>4</b>
+      <b>215</b>
+      <b>158</b>
+      <b>44</b>
+      <b>1</b>
+      <b>192</b>
     </Hash>
   </Item>
   <Item name="Item Utilization.dsv">
-    <Time>636178233796809687</Time>
+    <Time>636178233800000000</Time>
     <Hash length="20">
       <b>240</b>
       <b>119</b>
@@ -399,33 +499,8 @@
       <b>237</b>
     </Hash>
   </Item>
-  <Item name="Number of Families or Groups.partitions">
-    <Time>635919270621045078</Time>
-    <Hash length="20">
-      <b>197</b>
-      <b>249</b>
-      <b>26</b>
-      <b>65</b>
-      <b>219</b>
-      <b>73</b>
-      <b>109</b>
-      <b>137</b>
-      <b>16</b>
-      <b>148</b>
-      <b>110</b>
-      <b>83</b>
-      <b>238</b>
-      <b>84</b>
-      <b>9</b>
-      <b>109</b>
-      <b>226</b>
-      <b>248</b>
-      <b>99</b>
-      <b>38</b>
-    </Hash>
-  </Item>
   <Item name="Service Utilization.dsv">
-    <Time>636178234250422968</Time>
+    <Time>636178234260000000</Time>
     <Hash length="20">
       <b>59</b>
       <b>147</b>
@@ -449,8 +524,33 @@
       <b>219</b>
     </Hash>
   </Item>
+  <Item name="Average utilization of services per insuree.partitions">
+    <Time>635860547240000000</Time>
+    <Hash length="20">
+      <b>191</b>
+      <b>254</b>
+      <b>240</b>
+      <b>62</b>
+      <b>73</b>
+      <b>51</b>
+      <b>48</b>
+      <b>114</b>
+      <b>110</b>
+      <b>143</b>
+      <b>105</b>
+      <b>166</b>
+      <b>210</b>
+      <b>133</b>
+      <b>142</b>
+      <b>14</b>
+      <b>198</b>
+      <b>246</b>
+      <b>25</b>
+      <b>72</b>
+    </Hash>
+  </Item>
   <Item name="Overall Assessment.dsv">
-    <Time>636178233877014765</Time>
+    <Time>636178233880000000</Time>
     <Hash length="20">
       <b>78</b>
       <b>244</b>
@@ -475,7 +575,7 @@
     </Hash>
   </Item>
   <Item name="Item Expenditures.dsv">
-    <Time>636178233709114375</Time>
+    <Time>636178233720000000</Time>
     <Hash length="20">
       <b>1</b>
       <b>37</b>
@@ -500,7 +600,7 @@
     </Hash>
   </Item>
   <Item name="Number of insured Families or Groups.cube">
-    <Time>636385744075611796</Time>
+    <Time>636385744080000000</Time>
     <Hash length="20">
       <b>152</b>
       <b>244</b>
@@ -525,7 +625,7 @@
     </Hash>
   </Item>
   <Item name="Claim details.dsv">
-    <Time>636178233198020625</Time>
+    <Time>636178233200000000</Time>
     <Hash length="20">
       <b>50</b>
       <b>163</b>
@@ -550,7 +650,7 @@
     </Hash>
   </Item>
   <Item name="Expenditures by ranges.cube">
-    <Time>636263079316456094</Time>
+    <Time>636263079320000000</Time>
     <Hash length="20">
       <b>235</b>
       <b>228</b>
@@ -575,7 +675,7 @@
     </Hash>
   </Item>
   <Item name="Average expenditures for health care per insuree.partitions">
-    <Time>635860537617999375</Time>
+    <Time>635860537620000000</Time>
     <Hash length="20">
       <b>206</b>
       <b>91</b>
@@ -599,58 +699,83 @@
       <b>63</b>
     </Hash>
   </Item>
-  <Item name="Claim details.cube">
-    <Time>636263123015225625</Time>
+  <Item name="Current and New Insurees.dsv">
+    <Time>636178233280000000</Time>
     <Hash length="20">
-      <b>60</b>
-      <b>248</b>
-      <b>8</b>
-      <b>47</b>
-      <b>177</b>
-      <b>194</b>
+      <b>153</b>
+      <b>239</b>
       <b>82</b>
-      <b>117</b>
       <b>62</b>
-      <b>93</b>
-      <b>42</b>
-      <b>13</b>
-      <b>171</b>
-      <b>226</b>
-      <b>54</b>
-      <b>249</b>
-      <b>187</b>
-      <b>6</b>
-      <b>202</b>
-      <b>106</b>
+      <b>67</b>
+      <b>91</b>
+      <b>72</b>
+      <b>203</b>
+      <b>201</b>
+      <b>53</b>
+      <b>60</b>
+      <b>180</b>
+      <b>124</b>
+      <b>121</b>
+      <b>176</b>
+      <b>128</b>
+      <b>109</b>
+      <b>94</b>
+      <b>227</b>
+      <b>112</b>
     </Hash>
   </Item>
-  <Item name="Service Expenditures.dsv">
-    <Time>636161185850728281</Time>
+  <Item name="Average expenditures for health care per insuree.cube">
+    <Time>636263118960000000</Time>
     <Hash length="20">
-      <b>98</b>
+      <b>11</b>
       <b>173</b>
+      <b>151</b>
+      <b>195</b>
+      <b>5</b>
+      <b>132</b>
+      <b>127</b>
+      <b>228</b>
+      <b>55</b>
+      <b>139</b>
+      <b>160</b>
+      <b>152</b>
+      <b>231</b>
+      <b>96</b>
+      <b>214</b>
+      <b>178</b>
       <b>184</b>
-      <b>190</b>
-      <b>153</b>
-      <b>130</b>
-      <b>232</b>
-      <b>143</b>
-      <b>186</b>
-      <b>138</b>
+      <b>201</b>
+      <b>108</b>
+      <b>109</b>
+    </Hash>
+  </Item>
+  <Item name="Contribution Collection.cube">
+    <Time>636263078600000000</Time>
+    <Hash length="20">
+      <b>221</b>
       <b>163</b>
-      <b>113</b>
-      <b>81</b>
-      <b>82</b>
-      <b>229</b>
-      <b>254</b>
-      <b>234</b>
-      <b>111</b>
-      <b>196</b>
+      <b>57</b>
+      <b>18</b>
+      <b>50</b>
+      <b>95</b>
+      <b>28</b>
+      <b>135</b>
+      <b>31</b>
+      <b>75</b>
+      <b>38</b>
+      <b>190</b>
       <b>58</b>
+      <b>235</b>
+      <b>115</b>
+      <b>71</b>
+      <b>223</b>
+      <b>209</b>
+      <b>191</b>
+      <b>153</b>
     </Hash>
   </Item>
   <Item name="Population.dsv">
-    <Time>636178233947327265</Time>
+    <Time>636178233960000000</Time>
     <Hash length="20">
       <b>67</b>
       <b>249</b>
@@ -675,7 +800,7 @@
     </Hash>
   </Item>
   <Item name="Time.dim">
-    <Time>635923500720231875</Time>
+    <Time>635923500740000000</Time>
     <Hash length="20">
       <b>10</b>
       <b>24</b>
@@ -700,7 +825,7 @@
     </Hash>
   </Item>
   <Item name="Premium Allocation.dsv">
-    <Time>636178234016702265</Time>
+    <Time>636178234020000000</Time>
     <Hash length="20">
       <b>224</b>
       <b>1</b>
@@ -724,83 +849,83 @@
       <b>75</b>
     </Hash>
   </Item>
-  <Item name="Share of insured population.cube">
-    <Time>636383124232270234</Time>
+  <Item name="Number of insured households.dsv">
+    <Time>636180114420000000</Time>
     <Hash length="20">
-      <b>147</b>
-      <b>25</b>
-      <b>48</b>
-      <b>19</b>
-      <b>115</b>
-      <b>123</b>
-      <b>97</b>
-      <b>2</b>
-      <b>49</b>
-      <b>119</b>
-      <b>204</b>
-      <b>8</b>
-      <b>41</b>
-      <b>79</b>
-      <b>50</b>
-      <b>27</b>
-      <b>139</b>
-      <b>25</b>
-      <b>175</b>
-      <b>182</b>
+      <b>13</b>
+      <b>248</b>
+      <b>132</b>
+      <b>254</b>
+      <b>228</b>
+      <b>64</b>
+      <b>121</b>
+      <b>201</b>
+      <b>150</b>
+      <b>160</b>
+      <b>202</b>
+      <b>197</b>
+      <b>127</b>
+      <b>104</b>
+      <b>188</b>
+      <b>145</b>
+      <b>167</b>
+      <b>242</b>
+      <b>152</b>
+      <b>195</b>
     </Hash>
   </Item>
   <Item name="All types of Policies.dsv">
-    <Time>636178232908909296</Time>
+    <Time>636462557460000000</Time>
     <Hash length="20">
-      <b>82</b>
-      <b>186</b>
-      <b>9</b>
-      <b>19</b>
-      <b>94</b>
-      <b>143</b>
-      <b>47</b>
-      <b>39</b>
-      <b>143</b>
-      <b>201</b>
-      <b>88</b>
-      <b>65</b>
-      <b>0</b>
-      <b>11</b>
-      <b>150</b>
+      <b>34</b>
+      <b>93</b>
+      <b>90</b>
+      <b>95</b>
+      <b>225</b>
+      <b>167</b>
       <b>177</b>
-      <b>216</b>
-      <b>149</b>
-      <b>20</b>
-      <b>216</b>
+      <b>93</b>
+      <b>11</b>
+      <b>190</b>
+      <b>182</b>
+      <b>35</b>
+      <b>206</b>
+      <b>9</b>
+      <b>34</b>
+      <b>89</b>
+      <b>255</b>
+      <b>132</b>
+      <b>138</b>
+      <b>99</b>
     </Hash>
   </Item>
-  <Item name="Expenditures for services.cube">
-    <Time>636263080875372109</Time>
+  <Item name="Contribution Allocation.partitions">
+    <Time>635834568560000000</Time>
     <Hash length="20">
-      <b>162</b>
-      <b>102</b>
-      <b>134</b>
-      <b>110</b>
-      <b>211</b>
-      <b>223</b>
-      <b>227</b>
-      <b>176</b>
-      <b>199</b>
-      <b>100</b>
-      <b>64</b>
-      <b>145</b>
-      <b>39</b>
-      <b>44</b>
-      <b>125</b>
-      <b>116</b>
-      <b>165</b>
+      <b>112</b>
+      <b>195</b>
+      <b>154</b>
       <b>235</b>
-      <b>224</b>
-      <b>223</b>
+      <b>170</b>
+      <b>214</b>
+      <b>234</b>
+      <b>49</b>
+      <b>33</b>
+      <b>137</b>
+      <b>72</b>
+      <b>178</b>
+      <b>72</b>
+      <b>28</b>
+      <b>248</b>
+      <b>110</b>
+      <b>130</b>
+      <b>125</b>
+      <b>142</b>
+      <b>175</b>
     </Hash>
   </Item>
   <Item name="Admissions, Visits and Hospital Days.partitions">
-    <Time>635917526631459296</Time>
+    <Time>635917526640000000</Time>
     <Hash length="20">
       <b>82</b>
       <b>220</b>
@@ -825,7 +950,7 @@
     </Hash>
   </Item>
   <Item name="Share of insured population.partitions">
-    <Time>635919225918007968</Time>
+    <Time>635919225920000000</Time>
     <Hash length="20">
       <b>44</b>
       <b>28</b>
@@ -850,7 +975,7 @@
     </Hash>
   </Item>
   <Item name="Average expenditures for medical items per insuree.partitions">
-    <Time>635860497431114609</Time>
+    <Time>635860497440000000</Time>
     <Hash length="20">
       <b>248</b>
       <b>227</b>
@@ -875,7 +1000,7 @@
     </Hash>
   </Item>
   <Item name="Care Category.dim">
-    <Time>635923499137419375</Time>
+    <Time>635923499140000000</Time>
     <Hash length="20">
       <b>46</b>
       <b>54</b>
@@ -900,7 +1025,7 @@
     </Hash>
   </Item>
   <Item name="Providers.dim">
-    <Time>636161186022417734</Time>
+    <Time>636161186040000000</Time>
     <Hash length="20">
       <b>27</b>
       <b>162</b>
@@ -925,7 +1050,7 @@
     </Hash>
   </Item>
   <Item name="Average utilization of medical items per insuree.partitions">
-    <Time>635860552958604843</Time>
+    <Time>635860552960000000</Time>
     <Hash length="20">
       <b>167</b>
       <b>242</b>
@@ -949,83 +1074,83 @@
       <b>78</b>
     </Hash>
   </Item>
-  <Item name="Population.partitions">
-    <Time>636383123502426484</Time>
+  <Item name="Officers 1.dim">
+    <Time>636462572880000000</Time>
     <Hash length="20">
-      <b>103</b>
-      <b>11</b>
-      <b>21</b>
-      <b>247</b>
-      <b>0</b>
-      <b>14</b>
-      <b>25</b>
-      <b>26</b>
-      <b>127</b>
-      <b>9</b>
-      <b>11</b>
-      <b>188</b>
-      <b>228</b>
-      <b>231</b>
-      <b>191</b>
-      <b>5</b>
-      <b>161</b>
-      <b>36</b>
-      <b>80</b>
-      <b>112</b>
-    </Hash>
-  </Item>
-  <Item name="Utilization of medical items.partitions">
-    <Time>635398990608168984</Time>
-    <Hash length="20">
-      <b>115</b>
-      <b>193</b>
-      <b>190</b>
-      <b>88</b>
-      <b>137</b>
-      <b>95</b>
-      <b>18</b>
-      <b>26</b>
-      <b>231</b>
-      <b>64</b>
-      <b>241</b>
-      <b>198</b>
-      <b>103</b>
-      <b>211</b>
-      <b>253</b>
-      <b>27</b>
-      <b>16</b>
-      <b>23</b>
-      <b>255</b>
-      <b>106</b>
-    </Hash>
-  </Item>
-  <Item name="Contribution Allocation.cube">
-    <Time>636263077431211953</Time>
-    <Hash length="20">
-      <b>127</b>
-      <b>96</b>
-      <b>169</b>
-      <b>237</b>
-      <b>211</b>
-      <b>135</b>
-      <b>9</b>
-      <b>162</b>
-      <b>49</b>
+      <b>59</b>
       <b>179</b>
-      <b>241</b>
-      <b>34</b>
-      <b>204</b>
-      <b>17</b>
-      <b>158</b>
-      <b>225</b>
-      <b>160</b>
-      <b>211</b>
-      <b>45</b>
-      <b>239</b>
+      <b>2</b>
+      <b>137</b>
+      <b>97</b>
+      <b>4</b>
+      <b>68</b>
+      <b>95</b>
+      <b>134</b>
+      <b>235</b>
+      <b>54</b>
+      <b>25</b>
+      <b>61</b>
+      <b>81</b>
+      <b>46</b>
+      <b>108</b>
+      <b>16</b>
+      <b>244</b>
+      <b>128</b>
+      <b>90</b>
+    </Hash>
+  </Item>
+  <Item name="Time 1 1.dim">
+    <Time>636462572880000000</Time>
+    <Hash length="20">
+      <b>161</b>
+      <b>102</b>
+      <b>53</b>
+      <b>153</b>
+      <b>48</b>
+      <b>175</b>
+      <b>60</b>
+      <b>95</b>
+      <b>83</b>
+      <b>38</b>
+      <b>46</b>
+      <b>148</b>
+      <b>218</b>
+      <b>236</b>
+      <b>148</b>
+      <b>60</b>
+      <b>80</b>
+      <b>105</b>
+      <b>206</b>
+      <b>107</b>
+    </Hash>
+  </Item>
+  <Item name="Disease.dim">
+    <Time>635923500800000000</Time>
+    <Hash length="20">
+      <b>18</b>
+      <b>162</b>
+      <b>31</b>
+      <b>139</b>
+      <b>128</b>
+      <b>73</b>
+      <b>35</b>
+      <b>150</b>
+      <b>41</b>
+      <b>181</b>
+      <b>74</b>
+      <b>150</b>
+      <b>114</b>
+      <b>110</b>
+      <b>140</b>
+      <b>173</b>
+      <b>89</b>
+      <b>19</b>
+      <b>167</b>
+      <b>3</b>
     </Hash>
   </Item>
   <Item name="Population.cube">
-    <Time>636383124814926484</Time>
+    <Time>636383124820000000</Time>
     <Hash length="20">
       <b>146</b>
       <b>15</b>
@@ -1050,7 +1175,7 @@
     </Hash>
   </Item>
   <Item name="Region.dim">
-    <Time>636379534927660000</Time>
+    <Time>636379534940000000</Time>
     <Hash length="20">
       <b>203</b>
       <b>122</b>
@@ -1074,8 +1199,33 @@
       <b>100</b>
     </Hash>
   </Item>
+  <Item name="Collected Amount.cube">
+    <Time>636463442880000000</Time>
+    <Hash length="20">
+      <b>222</b>
+      <b>250</b>
+      <b>20</b>
+      <b>141</b>
+      <b>60</b>
+      <b>247</b>
+      <b>118</b>
+      <b>219</b>
+      <b>78</b>
+      <b>226</b>
+      <b>176</b>
+      <b>119</b>
+      <b>153</b>
+      <b>100</b>
+      <b>188</b>
+      <b>253</b>
+      <b>204</b>
+      <b>132</b>
+      <b>67</b>
+      <b>98</b>
+    </Hash>
+  </Item>
   <Item name="All type of policies.cube">
-    <Time>636161116266206796</Time>
+    <Time>636161116280000000</Time>
     <Hash length="20">
       <b>202</b>
       <b>250</b>
@@ -1099,33 +1249,8 @@
       <b>230</b>
     </Hash>
   </Item>
-  <Item name="Utilization of medical items.cube">
-    <Time>636263085389083047</Time>
-    <Hash length="20">
-      <b>34</b>
-      <b>46</b>
-      <b>176</b>
-      <b>213</b>
-      <b>84</b>
-      <b>156</b>
-      <b>110</b>
-      <b>88</b>
-      <b>57</b>
-      <b>160</b>
-      <b>95</b>
-      <b>77</b>
-      <b>116</b>
-      <b>129</b>
-      <b>207</b>
-      <b>52</b>
-      <b>235</b>
-      <b>176</b>
-      <b>51</b>
-      <b>159</b>
-    </Hash>
-  </Item>
   <Item name="Current And New Insurees.cube">
-    <Time>636161116265738046</Time>
+    <Time>636161116280000000</Time>
     <Hash length="20">
       <b>119</b>
       <b>78</b>
@@ -1150,7 +1275,7 @@
     </Hash>
   </Item>
   <Item name="Products.dim">
-    <Time>636178235816643671</Time>
+    <Time>636178235820000000</Time>
     <Hash length="20">
       <b>2</b>
       <b>173</b>
@@ -1175,7 +1300,7 @@
     </Hash>
   </Item>
   <Item name="Officers.dim">
-    <Time>636161116265425546</Time>
+    <Time>636161116280000000</Time>
     <Hash length="20">
       <b>143</b>
       <b>4</b>
@@ -1200,7 +1325,7 @@
     </Hash>
   </Item>
   <Item name="Number of Families or Groups.cube">
-    <Time>636383130943227265</Time>
+    <Time>636383130960000000</Time>
     <Hash length="20">
       <b>37</b>
       <b>155</b>
@@ -1225,7 +1350,7 @@
     </Hash>
   </Item>
   <Item name="IMIS Cubes.database">
-    <Time>636153229986876093</Time>
+    <Time>636153230000000000</Time>
     <Hash length="20">
       <b>15</b>
       <b>111</b>
@@ -1249,83 +1374,58 @@
       <b>184</b>
     </Hash>
   </Item>
-  <Item name="Feedback answers.partitions">
-    <Time>635399002579282265</Time>
+  <Item name="Expenditures.dim">
+    <Time>635923499820000000</Time>
     <Hash length="20">
-      <b>202</b>
-      <b>209</b>
-      <b>46</b>
-      <b>51</b>
-      <b>213</b>
-      <b>11</b>
-      <b>37</b>
-      <b>139</b>
-      <b>224</b>
-      <b>220</b>
-      <b>131</b>
-      <b>147</b>
-      <b>88</b>
-      <b>145</b>
-      <b>9</b>
-      <b>112</b>
-      <b>128</b>
-      <b>5</b>
-      <b>231</b>
-      <b>184</b>
-    </Hash>
-  </Item>
-  <Item name="Average utilization of medical items per insuree.cube">
-    <Time>636263007437266641</Time>
-    <Hash length="20">
-      <b>185</b>
-      <b>70</b>
-      <b>221</b>
-      <b>92</b>
-      <b>0</b>
-      <b>60</b>
-      <b>152</b>
-      <b>177</b>
-      <b>87</b>
-      <b>208</b>
-      <b>83</b>
-      <b>73</b>
-      <b>42</b>
-      <b>220</b>
-      <b>236</b>
-      <b>169</b>
-      <b>131</b>
-      <b>31</b>
-      <b>79</b>
-      <b>98</b>
-    </Hash>
-  </Item>
-  <Item name="All type of policies.partitions">
-    <Time>635833640463108906</Time>
-    <Hash length="20">
-      <b>134</b>
-      <b>39</b>
-      <b>117</b>
-      <b>116</b>
-      <b>212</b>
-      <b>216</b>
-      <b>154</b>
-      <b>226</b>
-      <b>169</b>
-      <b>132</b>
-      <b>10</b>
+      <b>253</b>
+      <b>43</b>
       <b>27</b>
-      <b>60</b>
-      <b>133</b>
-      <b>52</b>
-      <b>45</b>
-      <b>137</b>
-      <b>136</b>
-      <b>30</b>
-      <b>128</b>
+      <b>34</b>
+      <b>65</b>
+      <b>167</b>
+      <b>39</b>
+      <b>229</b>
+      <b>212</b>
+      <b>134</b>
+      <b>184</b>
+      <b>94</b>
+      <b>230</b>
+      <b>164</b>
+      <b>107</b>
+      <b>20</b>
+      <b>236</b>
+      <b>144</b>
+      <b>146</b>
+      <b>182</b>
+    </Hash>
+  </Item>
+  <Item name="Time 1.dim">
+    <Time>635923501120000000</Time>
+    <Hash length="20">
+      <b>191</b>
+      <b>114</b>
+      <b>214</b>
+      <b>29</b>
+      <b>65</b>
+      <b>234</b>
+      <b>94</b>
+      <b>139</b>
+      <b>5</b>
+      <b>232</b>
+      <b>241</b>
+      <b>166</b>
+      <b>69</b>
+      <b>145</b>
+      <b>77</b>
+      <b>105</b>
+      <b>215</b>
+      <b>185</b>
+      <b>27</b>
+      <b>22</b>
     </Hash>
   </Item>
   <Item name="Number of insurees by ranges.partitions">
-    <Time>635399004726928750</Time>
+    <Time>635399004740000000</Time>
     <Hash length="20">
       <b>70</b>
       <b>230</b>
@@ -1350,7 +1450,7 @@
     </Hash>
   </Item>
   <Item name="Expenditures by ranges.partitions">
-    <Time>635399003392807656</Time>
+    <Time>635399003400000000</Time>
     <Hash length="20">
       <b>27</b>
       <b>120</b>
@@ -1374,33 +1474,58 @@
       <b>1</b>
     </Hash>
   </Item>
-  <Item name="Claim details.partitions">
-    <Time>635918301007490468</Time>
+  <Item name="Premium Collection.partitions">
+    <Time>636462572880000000</Time>
     <Hash length="20">
-      <b>239</b>
-      <b>238</b>
-      <b>47</b>
-      <b>229</b>
+      <b>175</b>
+      <b>190</b>
+      <b>81</b>
+      <b>228</b>
+      <b>133</b>
+      <b>62</b>
+      <b>154</b>
+      <b>207</b>
+      <b>57</b>
+      <b>79</b>
+      <b>110</b>
       <b>12</b>
-      <b>18</b>
-      <b>125</b>
-      <b>244</b>
-      <b>20</b>
-      <b>193</b>
-      <b>74</b>
-      <b>248</b>
-      <b>168</b>
-      <b>254</b>
-      <b>174</b>
-      <b>170</b>
+      <b>70</b>
+      <b>250</b>
+      <b>24</b>
+      <b>76</b>
+      <b>63</b>
+      <b>250</b>
+      <b>176</b>
+      <b>169</b>
+    </Hash>
+  </Item>
+  <Item name="Number of Families or Groups.partitions">
+    <Time>635919270640000000</Time>
+    <Hash length="20">
+      <b>197</b>
+      <b>249</b>
+      <b>26</b>
+      <b>65</b>
+      <b>219</b>
+      <b>73</b>
+      <b>109</b>
+      <b>137</b>
+      <b>16</b>
+      <b>148</b>
+      <b>110</b>
+      <b>83</b>
+      <b>238</b>
       <b>84</b>
-      <b>140</b>
-      <b>59</b>
-      <b>21</b>
+      <b>9</b>
+      <b>109</b>
+      <b>226</b>
+      <b>248</b>
+      <b>99</b>
+      <b>38</b>
     </Hash>
   </Item>
   <Item name="Average utilization of services per insuree.cube">
-    <Time>636263122217540078</Time>
+    <Time>636263122220000000</Time>
     <Hash length="20">
       <b>29</b>
       <b>154</b>
@@ -1425,7 +1550,7 @@
     </Hash>
   </Item>
   <Item name="Insuree Expenditures Range.dsv">
-    <Time>636178233623645625</Time>
+    <Time>636178233640000000</Time>
     <Hash length="20">
       <b>201</b>
       <b>18</b>
@@ -1450,7 +1575,7 @@
     </Hash>
   </Item>
   <Item name="Expenditures for medical items.cube">
-    <Time>636263079837344766</Time>
+    <Time>636263079840000000</Time>
     <Hash length="20">
       <b>62</b>
       <b>173</b>
@@ -1474,33 +1599,8 @@
       <b>191</b>
     </Hash>
   </Item>
-  <Item name="Expenditures.dim">
-    <Time>635923499802106875</Time>
-    <Hash length="20">
-      <b>253</b>
-      <b>43</b>
-      <b>27</b>
-      <b>34</b>
-      <b>65</b>
-      <b>167</b>
-      <b>39</b>
-      <b>229</b>
-      <b>212</b>
-      <b>134</b>
-      <b>184</b>
-      <b>94</b>
-      <b>230</b>
-      <b>164</b>
-      <b>107</b>
-      <b>20</b>
-      <b>236</b>
-      <b>144</b>
-      <b>146</b>
-      <b>182</b>
-    </Hash>
-  </Item>
   <Item name="Expenditures for services.partitions">
-    <Time>635398984269350625</Time>
+    <Time>635398984280000000</Time>
     <Hash length="20">
       <b>59</b>
       <b>152</b>
@@ -1524,33 +1624,8 @@
       <b>172</b>
     </Hash>
   </Item>
-  <Item name="Admissions, Visits and Hospital Days.cube">
-    <Time>636263118205020547</Time>
-    <Hash length="20">
-      <b>121</b>
-      <b>41</b>
-      <b>6</b>
-      <b>201</b>
-      <b>234</b>
-      <b>16</b>
-      <b>2</b>
-      <b>117</b>
-      <b>123</b>
-      <b>248</b>
-      <b>224</b>
-      <b>194</b>
-      <b>249</b>
-      <b>104</b>
-      <b>36</b>
-      <b>255</b>
-      <b>113</b>
-      <b>151</b>
-      <b>246</b>
-      <b>15</b>
-    </Hash>
-  </Item>
   <Item name="Average expenditures for services per insuree.partitions">
-    <Time>635860510009571640</Time>
+    <Time>635860510020000000</Time>
     <Hash length="20">
       <b>8</b>
       <b>96</b>
@@ -1574,33 +1649,133 @@
       <b>221</b>
     </Hash>
   </Item>
-  <Item name="Disease.dim">
-    <Time>635923500798513125</Time>
+  <Item name="CollectedAmount.dsv">
+    <Time>636463429540000000</Time>
     <Hash length="20">
-      <b>18</b>
-      <b>162</b>
-      <b>31</b>
-      <b>139</b>
-      <b>128</b>
-      <b>73</b>
-      <b>35</b>
-      <b>150</b>
-      <b>41</b>
-      <b>181</b>
-      <b>74</b>
-      <b>150</b>
-      <b>114</b>
+      <b>216</b>
+      <b>107</b>
+      <b>254</b>
+      <b>84</b>
+      <b>50</b>
+      <b>107</b>
+      <b>109</b>
+      <b>218</b>
+      <b>37</b>
+      <b>2</b>
+      <b>59</b>
+      <b>123</b>
+      <b>145</b>
+      <b>240</b>
+      <b>96</b>
       <b>110</b>
+      <b>216</b>
+      <b>95</b>
+      <b>29</b>
+      <b>202</b>
+    </Hash>
+  </Item>
+  <Item name="Claim details.cube">
+    <Time>636263123020000000</Time>
+    <Hash length="20">
+      <b>60</b>
+      <b>248</b>
+      <b>8</b>
+      <b>47</b>
+      <b>177</b>
+      <b>194</b>
+      <b>82</b>
+      <b>117</b>
+      <b>62</b>
+      <b>93</b>
+      <b>42</b>
+      <b>13</b>
+      <b>171</b>
+      <b>226</b>
+      <b>54</b>
+      <b>249</b>
+      <b>187</b>
+      <b>6</b>
+      <b>202</b>
+      <b>106</b>
+    </Hash>
+  </Item>
+  <Item name="Premium Collection.cube">
+    <Time>636462611420000000</Time>
+    <Hash length="20">
+      <b>53</b>
+      <b>124</b>
+      <b>58</b>
+      <b>159</b>
+      <b>202</b>
+      <b>157</b>
+      <b>63</b>
+      <b>183</b>
+      <b>20</b>
+      <b>247</b>
+      <b>10</b>
+      <b>84</b>
+      <b>207</b>
+      <b>182</b>
+      <b>31</b>
+      <b>11</b>
+      <b>50</b>
+      <b>230</b>
+      <b>125</b>
+      <b>131</b>
+    </Hash>
+  </Item>
+  <Item name="Claim details.partitions">
+    <Time>635918301020000000</Time>
+    <Hash length="20">
+      <b>239</b>
+      <b>238</b>
+      <b>47</b>
+      <b>229</b>
+      <b>12</b>
+      <b>18</b>
+      <b>125</b>
+      <b>244</b>
+      <b>20</b>
+      <b>193</b>
+      <b>74</b>
+      <b>248</b>
+      <b>168</b>
+      <b>254</b>
+      <b>174</b>
+      <b>170</b>
+      <b>84</b>
       <b>140</b>
-      <b>173</b>
-      <b>89</b>
-      <b>19</b>
+      <b>59</b>
+      <b>21</b>
+    </Hash>
+  </Item>
+  <Item name="Feedbacks Details.dsv">
+    <Time>636178233480000000</Time>
+    <Hash length="20">
+      <b>95</b>
+      <b>46</b>
+      <b>48</b>
+      <b>20</b>
+      <b>125</b>
+      <b>130</b>
       <b>167</b>
-      <b>3</b>
+      <b>225</b>
+      <b>55</b>
+      <b>21</b>
+      <b>197</b>
+      <b>11</b>
+      <b>2</b>
+      <b>208</b>
+      <b>1</b>
+      <b>166</b>
+      <b>16</b>
+      <b>195</b>
+      <b>116</b>
+      <b>167</b>
     </Hash>
   </Item>
   <Item name="Feedbacks Answered.dsv">
-    <Time>636178233360051875</Time>
+    <Time>636178233380000000</Time>
     <Hash length="20">
       <b>206</b>
       <b>217</b>
@@ -1624,8 +1799,33 @@
       <b>195</b>
     </Hash>
   </Item>
+  <Item name="Utilization of medical items.partitions">
+    <Time>635398990620000000</Time>
+    <Hash length="20">
+      <b>115</b>
+      <b>193</b>
+      <b>190</b>
+      <b>88</b>
+      <b>137</b>
+      <b>95</b>
+      <b>18</b>
+      <b>26</b>
+      <b>231</b>
+      <b>64</b>
+      <b>241</b>
+      <b>198</b>
+      <b>103</b>
+      <b>211</b>
+      <b>253</b>
+      <b>27</b>
+      <b>16</b>
+      <b>23</b>
+      <b>255</b>
+      <b>106</b>
+    </Hash>
+  </Item>
   <Item name="Average expenditures for medical items per insuree.cube">
-    <Time>636263006650879922</Time>
+    <Time>636263006660000000</Time>
     <Hash length="20">
       <b>9</b>
       <b>204</b>
@@ -1650,7 +1850,7 @@
     </Hash>
   </Item>
   <Item name="Feedback share answers.partitions">
-    <Time>635919298244423984</Time>
+    <Time>635919298260000000</Time>
     <Hash length="20">
       <b>202</b>
       <b>91</b>
@@ -1675,7 +1875,7 @@
     </Hash>
   </Item>
   <Item name="Age.dim">
-    <Time>635923497138044375</Time>
+    <Time>635923497140000000</Time>
     <Hash length="20">
       <b>54</b>
       <b>73</b>
@@ -1699,33 +1899,8 @@
       <b>58</b>
     </Hash>
   </Item>
-  <Item name="Feedback share answers.cube">
-    <Time>636210303415103906</Time>
-    <Hash length="20">
-      <b>62</b>
-      <b>137</b>
-      <b>244</b>
-      <b>45</b>
-      <b>61</b>
-      <b>106</b>
-      <b>21</b>
-      <b>122</b>
-      <b>176</b>
-      <b>128</b>
-      <b>219</b>
-      <b>36</b>
-      <b>18</b>
-      <b>236</b>
-      <b>44</b>
-      <b>188</b>
-      <b>185</b>
-      <b>206</b>
-      <b>106</b>
-      <b>248</b>
-    </Hash>
-  </Item>
   <Item name="Contribution Collection.partitions">
-    <Time>635399117889868203</Time>
+    <Time>635399117900000000</Time>
     <Hash length="20">
       <b>138</b>
       <b>236</b>
@@ -1749,58 +1924,33 @@
       <b>22</b>
     </Hash>
   </Item>
-  <Item name="Contribution Allocation.partitions">
-    <Time>635834568546559453</Time>
+  <Item name="Feedback answers.cube">
+    <Time>636263081300000000</Time>
     <Hash length="20">
-      <b>112</b>
-      <b>195</b>
-      <b>154</b>
-      <b>235</b>
-      <b>170</b>
-      <b>214</b>
-      <b>234</b>
-      <b>49</b>
-      <b>33</b>
-      <b>137</b>
-      <b>72</b>
-      <b>178</b>
-      <b>72</b>
       <b>28</b>
-      <b>248</b>
-      <b>110</b>
-      <b>130</b>
-      <b>125</b>
-      <b>142</b>
-      <b>175</b>
-    </Hash>
-  </Item>
-  <Item name="Number of insured households.dsv">
-    <Time>636180114405282734</Time>
-    <Hash length="20">
-      <b>13</b>
-      <b>248</b>
-      <b>132</b>
-      <b>254</b>
+      <b>112</b>
       <b>228</b>
-      <b>64</b>
-      <b>121</b>
-      <b>201</b>
-      <b>150</b>
-      <b>160</b>
-      <b>202</b>
+      <b>186</b>
+      <b>80</b>
+      <b>47</b>
+      <b>46</b>
+      <b>88</b>
+      <b>220</b>
+      <b>101</b>
+      <b>57</b>
+      <b>98</b>
+      <b>28</b>
+      <b>156</b>
       <b>197</b>
-      <b>127</b>
-      <b>104</b>
-      <b>188</b>
-      <b>145</b>
-      <b>167</b>
-      <b>242</b>
-      <b>152</b>
-      <b>195</b>
+      <b>0</b>
+      <b>78</b>
+      <b>117</b>
+      <b>26</b>
+      <b>93</b>
     </Hash>
   </Item>
   <Item name="Claim details products.cube">
-    <Time>636263117875362344</Time>
+    <Time>636263117880000000</Time>
     <Hash length="20">
       <b>98</b>
       <b>191</b>
@@ -1824,58 +1974,83 @@
       <b>191</b>
     </Hash>
   </Item>
-  <Item name="Average utilization of services per insuree.partitions">
-    <Time>635860547227198593</Time>
+  <Item name="Expenditures for services.cube">
+    <Time>636263080880000000</Time>
     <Hash length="20">
-      <b>191</b>
-      <b>254</b>
-      <b>240</b>
-      <b>62</b>
-      <b>73</b>
-      <b>51</b>
-      <b>48</b>
-      <b>114</b>
+      <b>162</b>
+      <b>102</b>
+      <b>134</b>
       <b>110</b>
-      <b>143</b>
-      <b>105</b>
-      <b>166</b>
-      <b>210</b>
-      <b>133</b>
-      <b>142</b>
-      <b>14</b>
-      <b>198</b>
-      <b>246</b>
-      <b>25</b>
-      <b>72</b>
+      <b>211</b>
+      <b>223</b>
+      <b>227</b>
+      <b>176</b>
+      <b>199</b>
+      <b>100</b>
+      <b>64</b>
+      <b>145</b>
+      <b>39</b>
+      <b>44</b>
+      <b>125</b>
+      <b>116</b>
+      <b>165</b>
+      <b>235</b>
+      <b>224</b>
+      <b>223</b>
+    </Hash>
+  </Item>
+  <Item name="Feedback share answers.cube">
+    <Time>636210303420000000</Time>
+    <Hash length="20">
+      <b>62</b>
+      <b>137</b>
+      <b>244</b>
+      <b>45</b>
+      <b>61</b>
+      <b>106</b>
+      <b>21</b>
+      <b>122</b>
+      <b>176</b>
+      <b>128</b>
+      <b>219</b>
+      <b>36</b>
+      <b>18</b>
+      <b>236</b>
+      <b>44</b>
+      <b>188</b>
+      <b>185</b>
+      <b>206</b>
+      <b>106</b>
+      <b>248</b>
     </Hash>
   </Item>
   <Item name="IMIS DW.ds">
-    <Time>636379594556009609</Time>
+    <Time>636573924812196160</Time>
     <Hash length="20">
-      <b>19</b>
-      <b>142</b>
-      <b>6</b>
-      <b>182</b>
-      <b>52</b>
-      <b>185</b>
-      <b>237</b>
-      <b>179</b>
-      <b>90</b>
-      <b>47</b>
-      <b>149</b>
-      <b>134</b>
-      <b>193</b>
-      <b>2</b>
-      <b>16</b>
-      <b>245</b>
-      <b>26</b>
-      <b>163</b>
-      <b>214</b>
-      <b>251</b>
+      <b>205</b>
+      <b>105</b>
+      <b>108</b>
+      <b>57</b>
+      <b>75</b>
+      <b>40</b>
+      <b>160</b>
+      <b>198</b>
+      <b>189</b>
+      <b>148</b>
+      <b>29</b>
+      <b>255</b>
+      <b>213</b>
+      <b>107</b>
+      <b>135</b>
+      <b>110</b>
+      <b>13</b>
+      <b>156</b>
+      <b>194</b>
+      <b>109</b>
     </Hash>
   </Item>
   <Item name="Utilization of services.partitions">
-    <Time>635398989065737343</Time>
+    <Time>635398989080000000</Time>
     <Hash length="20">
       <b>81</b>
       <b>235</b>
@@ -1900,7 +2075,7 @@
     </Hash>
   </Item>
   <Item name="Care Type.dim">
-    <Time>635923499639294375</Time>
+    <Time>635923499640000000</Time>
     <Hash length="20">
       <b>44</b>
       <b>55</b>
@@ -1924,33 +2099,58 @@
       <b>97</b>
     </Hash>
   </Item>
-  <Item name="Average expenditures for services per insuree.cube">
-    <Time>636263006975323281</Time>
+  <Item name="Collected Amount.partitions">
+    <Time>636463429540000000</Time>
     <Hash length="20">
-      <b>142</b>
-      <b>44</b>
-      <b>106</b>
-      <b>22</b>
-      <b>187</b>
+      <b>115</b>
       <b>175</b>
-      <b>96</b>
+      <b>160</b>
+      <b>246</b>
+      <b>45</b>
+      <b>74</b>
+      <b>142</b>
+      <b>25</b>
       <b>120</b>
-      <b>237</b>
-      <b>234</b>
-      <b>49</b>
-      <b>19</b>
+      <b>147</b>
+      <b>18</b>
+      <b>112</b>
+      <b>221</b>
+      <b>240</b>
+      <b>245</b>
+      <b>11</b>
+      <b>174</b>
+      <b>8</b>
+      <b>95</b>
+      <b>123</b>
+    </Hash>
+  </Item>
+  <Item name="Average expenditures for services per insuree.cube">
+    <Time>636453281580000000</Time>
+    <Hash length="20">
+      <b>35</b>
+      <b>1</b>
+      <b>42</b>
+      <b>13</b>
+      <b>52</b>
+      <b>206</b>
+      <b>130</b>
+      <b>233</b>
       <b>17</b>
-      <b>49</b>
-      <b>226</b>
-      <b>121</b>
-      <b>201</b>
+      <b>35</b>
+      <b>203</b>
+      <b>36</b>
+      <b>128</b>
       <b>78</b>
-      <b>228</b>
-      <b>236</b>
+      <b>87</b>
+      <b>131</b>
+      <b>204</b>
+      <b>11</b>
+      <b>89</b>
+      <b>52</b>
     </Hash>
   </Item>
   <Item name="Questions.dim">
-    <Time>635923500529138125</Time>
+    <Time>635923500540000000</Time>
     <Hash length="20">
       <b>193</b>
       <b>1</b>
@@ -1974,8 +2174,58 @@
       <b>29</b>
     </Hash>
   </Item>
+  <Item name="Contribution Allocation.cube">
+    <Time>636263077440000000</Time>
+    <Hash length="20">
+      <b>127</b>
+      <b>96</b>
+      <b>169</b>
+      <b>237</b>
+      <b>211</b>
+      <b>135</b>
+      <b>9</b>
+      <b>162</b>
+      <b>49</b>
+      <b>179</b>
+      <b>241</b>
+      <b>34</b>
+      <b>204</b>
+      <b>17</b>
+      <b>158</b>
+      <b>225</b>
+      <b>160</b>
+      <b>211</b>
+      <b>45</b>
+      <b>239</b>
+    </Hash>
+  </Item>
+  <Item name="Share of insured population.cube">
+    <Time>636383124240000000</Time>
+    <Hash length="20">
+      <b>147</b>
+      <b>25</b>
+      <b>48</b>
+      <b>19</b>
+      <b>115</b>
+      <b>123</b>
+      <b>97</b>
+      <b>2</b>
+      <b>49</b>
+      <b>119</b>
+      <b>204</b>
+      <b>8</b>
+      <b>41</b>
+      <b>79</b>
+      <b>50</b>
+      <b>27</b>
+      <b>139</b>
+      <b>25</b>
+      <b>175</b>
+      <b>182</b>
+    </Hash>
+  </Item>
   <Item name="Region 1.dim">
-    <Time>636161113728482187</Time>
+    <Time>636161113740000000</Time>
     <Hash length="20">
       <b>99</b>
       <b>237</b>
@@ -1999,33 +2249,8 @@
       <b>63</b>
     </Hash>
   </Item>
-  <Item name="Feedback answers.cube">
-    <Time>636263081280616250</Time>
-    <Hash length="20">
-      <b>28</b>
-      <b>112</b>
-      <b>228</b>
-      <b>186</b>
-      <b>80</b>
-      <b>47</b>
-      <b>46</b>
-      <b>88</b>
-      <b>220</b>
-      <b>101</b>
-      <b>57</b>
-      <b>98</b>
-      <b>28</b>
-      <b>156</b>
-      <b>197</b>
-      <b>0</b>
-      <b>78</b>
-      <b>117</b>
-      <b>26</b>
-      <b>93</b>
-    </Hash>
-  </Item>
   <Item name="Insuree By Range.dsv">
-    <Time>636178233545989375</Time>
+    <Time>636178233560000000</Time>
     <Hash length="20">
       <b>37</b>
       <b>45</b>
@@ -2050,7 +2275,7 @@
     </Hash>
   </Item>
   <Item name="Services.dim">
-    <Time>635923500886325625</Time>
+    <Time>635923500900000000</Time>
     <Hash length="20">
       <b>213</b>
       <b>240</b>
@@ -2074,33 +2299,33 @@
       <b>93</b>
     </Hash>
   </Item>
-  <Item name="Contribution Collection.cube">
-    <Time>636263078580606484</Time>
+  <Item name="All type of policies.partitions">
+    <Time>635833640480000000</Time>
     <Hash length="20">
-      <b>221</b>
-      <b>163</b>
-      <b>57</b>
-      <b>18</b>
-      <b>50</b>
-      <b>95</b>
-      <b>28</b>
-      <b>135</b>
-      <b>31</b>
-      <b>75</b>
-      <b>38</b>
-      <b>190</b>
-      <b>58</b>
-      <b>235</b>
-      <b>115</b>
-      <b>71</b>
-      <b>223</b>
-      <b>209</b>
-      <b>191</b>
-      <b>153</b>
+      <b>134</b>
+      <b>39</b>
+      <b>117</b>
+      <b>116</b>
+      <b>212</b>
+      <b>216</b>
+      <b>154</b>
+      <b>226</b>
+      <b>169</b>
+      <b>132</b>
+      <b>10</b>
+      <b>27</b>
+      <b>60</b>
+      <b>133</b>
+      <b>52</b>
+      <b>45</b>
+      <b>137</b>
+      <b>136</b>
+      <b>30</b>
+      <b>128</b>
     </Hash>
   </Item>
   <Item name="Current And New Insurees.partitions">
-    <Time>635833697024563984</Time>
+    <Time>635833697040000000</Time>
     <Hash length="20">
       <b>180</b>
       <b>70</b>
@@ -2124,33 +2349,58 @@
       <b>103</b>
     </Hash>
   </Item>
-  <Item name="Feedbacks Details.dsv">
-    <Time>636178233468958125</Time>
+  <Item name="Items.dim">
+    <Time>635923500020000000</Time>
     <Hash length="20">
-      <b>95</b>
-      <b>46</b>
-      <b>48</b>
-      <b>20</b>
-      <b>125</b>
-      <b>130</b>
-      <b>167</b>
-      <b>225</b>
-      <b>55</b>
-      <b>21</b>
-      <b>197</b>
-      <b>11</b>
+      <b>205</b>
+      <b>9</b>
+      <b>210</b>
+      <b>124</b>
+      <b>13</b>
+      <b>7</b>
+      <b>12</b>
       <b>2</b>
-      <b>208</b>
+      <b>165</b>
+      <b>2</b>
+      <b>38</b>
+      <b>88</b>
+      <b>35</b>
+      <b>106</b>
+      <b>238</b>
+      <b>3</b>
+      <b>37</b>
+      <b>128</b>
+      <b>159</b>
+      <b>176</b>
+    </Hash>
+  </Item>
+  <Item name="Admissions, Visits and Hospital Days.cube">
+    <Time>636537720300000000</Time>
+    <Hash length="20">
+      <b>42</b>
+      <b>198</b>
+      <b>40</b>
+      <b>182</b>
       <b>1</b>
-      <b>166</b>
-      <b>16</b>
-      <b>195</b>
-      <b>116</b>
-      <b>167</b>
+      <b>176</b>
+      <b>126</b>
+      <b>87</b>
+      <b>211</b>
+      <b>192</b>
+      <b>93</b>
+      <b>39</b>
+      <b>95</b>
+      <b>239</b>
+      <b>117</b>
+      <b>164</b>
+      <b>58</b>
+      <b>245</b>
+      <b>129</b>
+      <b>206</b>
     </Hash>
   </Item>
   <Item name="Premium Collection.dsv">
-    <Time>636178234099172968</Time>
+    <Time>636178234100000000</Time>
     <Hash length="20">
       <b>117</b>
       <b>89</b>

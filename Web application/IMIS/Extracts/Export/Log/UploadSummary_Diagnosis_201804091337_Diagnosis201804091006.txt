@@ -1,0 +1,21 @@
+﻿File Name : Diagnosis201804091006.xml
+Register : Diagnosis
+User : exact
+Date : 09/04/2018 13:37
+Strategy : Insert, Update and Delete
+
+
+10 Updated
+---------------------------------------------------------------------------------
+1. [B52]
+2. [A03]
+3. [A05]
+4. [A06]
+5. [A01]
+6. [B76]
+7. [B82]
+8. [T17]
+9. [T18]
+10. [000]
+
+

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\intermediates\\res\\merged\\debug\\menu\\language.xml",
+        "source": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\src\\main\\res\\menu\\language.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_statistics.xml",
+        "source": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\src\\main\\res\\menu\\menu_statistics.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_stats.xml",
+        "source": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\src\\main\\res\\menu\\menu_stats.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\build\\intermediates\\res\\merged\\debug\\menu\\acquire_menu.xml",
+        "source": "C:\\Users\\Hiren\\Videos\\IMIS\\app\\src\\main\\res\\menu\\acquire_menu.xml"
+    }
+]

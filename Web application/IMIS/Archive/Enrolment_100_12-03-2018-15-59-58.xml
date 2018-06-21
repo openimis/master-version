@@ -1,0 +1,25 @@
+<Enrolment>
+  <Families>
+    <Family>
+      <FamilyId>350</FamilyId>
+      <InsureeId>674</InsureeId>
+      <CHFID>21312154</CHFID>
+      <LocationId>151</LocationId>
+    </Family>
+  </Families>
+  <Insurees>
+    <Insuree>
+      <InsureeID>697</InsureeID>
+      <FamilyID>350</FamilyID>
+      <CHFID>016045050</CHFID>
+      <LastName>Insuree</LastName>
+      <OtherNames>Added</OtherNames>
+      <DOB>1998-12-28</DOB>
+      <Gender>M</Gender>
+      <IsHead>0</IsHead>
+      <passport />
+      <Phone />
+      <CardIssued>0</CardIssued>
+    </Insuree>
+  </Insurees>
+</Enrolment>

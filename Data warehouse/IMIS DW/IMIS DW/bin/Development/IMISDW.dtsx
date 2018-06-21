@@ -6,14 +6,13 @@
   DTS:CreatorComputerName="."
   DTS:CreatorName=".\HIREN"
   DTS:DTSID="{2FC36E34-E210-4082-B5C2-CE235D145AB5}"
-  DTS:EnableConfig="True"
   DTS:ExecutableType="SSIS.Package.3"
-  DTS:LastModifiedProductVersion="11.0.3402.0"
+  DTS:LastModifiedProductVersion="11.0.5583.0"
   DTS:LocaleID="1033"
   DTS:ObjectName="IMISDW"
   DTS:PackageType="5"
-  DTS:VersionBuild="458"
-  DTS:VersionGUID="{5990BEB6-ADF3-4AC9-A380-88410D1F9F1F}">
+  DTS:VersionBuild="469"
+  DTS:VersionGUID="{0A2AC7DF-A05A-4EE2-BE66-69EAF63C7538}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">6</DTS:Property>
   <DTS:ConnectionManagers>
@@ -35,12 +34,17 @@
       DTS:ObjectName="DataWarehouseServerConnectionString">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=.\EXACT2014DEV;User ID=;Initial Catalog=IMIS_DW;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package-{E40E5A8E-EB84-457A-893A-AB3995A0D713}VMW7A\EXACT2008R2.IMIS_DW;">
-          <DTS:Password
-            DTS:Name="Password"
-            Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwdMLF1/LYUOrmtTX5ZJ8oAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAvNi9aixMv/9kwHpPPTHuFOzJcXw5a+SRmmKK+zM0I6QAAAAAOgAAAAAIAACAAAADW8ZuOHTWfc2AB4cVtUVnM6hBHaSwWxvo3KcpswFNPAxAAAAB3FxxCH5RVDINyC5C6FGIyQAAAAGQKV7dcU5inlGZGvSRzzIPHCXqWxgpdhAe17qO9XcLXyxNBtvUhD9S1IHAUvqfrAdUGRoZn4EETuWBgACQcKZ8</DTS:Password>
-        </DTS:ConnectionManager>
+          DTS:ConnectionString="Data Source=.\EXACT2014DEV;Initial Catalog=IMIS_DW;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package-{E40E5A8E-EB84-457A-893A-AB3995A0D713}VMW7A\EXACT2008R2.IMIS_DW;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[New Analysis Server Connection String]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{B34C6412-5EBC-43B0-81E7-81EAB81FCFDD}"
+      DTS:ObjectName="New Analysis Server Connection String">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=EXACT-WEBSERVER\EXACT2014DEV;Initial Catalog=IMIS_CUBES;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -50,12 +54,7 @@
       DTS:ObjectName="ProductionServerConnectionString">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=.\EXACT2014;User ID=;Initial Catalog=IMIS;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package-{0A532215-6468-4F22-84E8-A1C58A230DCE}VMW7A\EXACT2008R2.CH_CENTRAL;">
-          <DTS:Password
-            DTS:Name="Password"
-            Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwdMLF1/LYUOrmtTX5ZJ8oAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABnRMFHW24cYPrmaimfApZG1SSAOyCv6oDb9f3HgkO48gAAAAAOgAAAAAIAACAAAABfISHK9uk1f/Q2Sh2fslYnvTUJzNzBzFGXsdaNupvlnRAAAAC4dv6ZspQmYtfDlKLd1D1wQAAAADncoGqQYn8DbT2FO9zoBeV4PqGgVALpbprQXa0LMntdQ7M3R/oRKr/bcQYnXi/NEmvSHPQch8aeXjZzrK5HNuU</DTS:Password>
-        </DTS:ConnectionManager>
+          DTS:ConnectionString="Data Source=.\EXACT2014DEV;Initial Catalog=IMIS;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package-{0A532215-6468-4F22-84E8-A1C58A230DCE}VMW7A\EXACT2008R2.CH_CENTRAL;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -23682,6 +23681,17 @@ WHERE V.ValidityTo IS NULL
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
+      DTS:refId="Package\Sequence Container"
+      DTS:CreationName="STOCK:SEQUENCE"
+      DTS:Description="Sequence Container"
+      DTS:DTSID="{24886C93-EE4F-4814-BE8D-5121544A1E53}"
+      DTS:ExecutableType="STOCK:SEQUENCE"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Sequence Container">
+      <DTS:Variables />
+      <DTS:Executables />
+    </DTS:Executable>
+    <DTS:Executable
       DTS:refId="Package\Truncate all fact tables"
       DTS:CreationName="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
       DTS:Description="Execute SQL Task"
@@ -23789,11 +23799,11 @@ WHERE V.ValidityTo IS NULL
       <GraphLayout
         Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="135.358490566038,43.8867924528302"
+          Size="135,44"
           Id="Package\Disease\Import Disease"
           TopLeft="13.3584905660377,13.0754716981132" />
         <NodeLayout
-          Size="135.358490566038,43.8867924528302"
+          Size="135,44"
           Id="Package\Disease\Insert disese  dimensions"
           TopLeft="16.6792452830189,95.2264150943396" />
         <EdgeLayout
@@ -23819,8 +23829,8 @@ WHERE V.ValidityTo IS NULL
         <ContainerLayout
           HeaderHeight="43.886792452830186"
           IsExpanded="False"
-          PanelSize="179.320754716982,176.377358490567"
-          Size="179,44"
+          PanelSize="179,176"
+          Size="137.6,44"
           Id="Package\Disease"
           TopLeft="216.5,213.5" />
         <NodeLayout
@@ -23852,138 +23862,138 @@ WHERE V.ValidityTo IS NULL
           </EdgeLayout.Labels>
         </EdgeLayout>
         <ContainerLayout
-          HeaderHeight="43.924528301886795"
+          HeaderHeight="43"
           IsExpanded="False"
-          PanelSize="193,148"
-          Size="193,44"
+          PanelSize="192.8,148"
+          Size="191.2,43.2"
           Id="Package\Expenditure Range"
           TopLeft="210.5,109.5" />
         <NodeLayout
-          Size="159,44"
+          Size="159.2,44"
           Id="Package\Import data from live server\Amount Approved"
           TopLeft="431.396226415094,22.1320754716981" />
         <NodeLayout
-          Size="159,44"
+          Size="159.2,44"
           Id="Package\Import data from live server\Amount Claimed"
           TopLeft="244.943396226415,479.830188679245" />
         <NodeLayout
-          Size="159,44"
+          Size="159.2,44"
           Id="Package\Import data from live server\Amount Rejected"
           TopLeft="426.188679245283,94.0943396226415" />
         <NodeLayout
-          Size="158,44"
+          Size="158.4,44"
           Id="Package\Import data from live server\Amount Valuated"
           TopLeft="426.188679245283,153" />
         <NodeLayout
-          Size="161,42"
+          Size="160.8,41.6"
           Id="Package\Import data from live server\Aquired Insurees"
           TopLeft="77.3584905660377,84.9245283018868" />
         <NodeLayout
-          Size="158,44"
+          Size="158.4,44"
           Id="Package\Import data from live server\Claim Entered"
           TopLeft="69.7735849056605,541.075471698113" />
         <NodeLayout
-          Size="153,44"
+          Size="152.8,44"
           Id="Package\Import data from live server\Claim Processed"
           TopLeft="247.981132075472,668.415094339623" />
         <NodeLayout
-          Size="162,44"
+          Size="161.6,44"
           Id="Package\Import data from live server\Claim Rejected"
           TopLeft="66.6792452830189,604.849056603774" />
         <NodeLayout
-          Size="159,44"
+          Size="159.2,44"
           Id="Package\Import data from live server\Claim Sent"
           TopLeft="246.641509433962,409.11320754717" />
         <NodeLayout
-          Size="158,44"
+          Size="158.4,44"
           Id="Package\Import data from live server\Claim Submitted"
           TopLeft="247.358490566038,547.528301886792" />
         <NodeLayout
-          Size="150,44"
+          Size="150.4,44"
           Id="Package\Import data from live server\Claim Valuated"
           TopLeft="66.566037735849,669.377358490566" />
         <NodeLayout
-          Size="159,44"
+          Size="159.2,44"
           Id="Package\Import data from live server\Current Insurees"
           TopLeft="80.3396226415096,15.9056603773585" />
         <NodeLayout
-          Size="159,44"
+          Size="159.2,44"
           Id="Package\Import data from live server\Feedback Ans Yes"
           TopLeft="425.962264150944,346.471698113208" />
         <NodeLayout
-          Size="159,44"
+          Size="159.2,44"
           Id="Package\Import data from live server\Feedback Responded"
           TopLeft="424.867924528302,285.037735849057" />
         <NodeLayout
-          Size="159,44"
+          Size="159.2,44"
           Id="Package\Import data from live server\Feedback Sent"
           TopLeft="426.566037735849,214.320754716981" />
         <NodeLayout
-          Size="159,44"
+          Size="159.2,44"
           Id="Package\Import data from live server\Hospital Admissions"
           TopLeft="248.33962264151,222.433962264151" />
         <NodeLayout
-          Size="159,44"
+          Size="159.2,44"
           Id="Package\Import data from live server\Hospital Days"
           TopLeft="248.490566037736,347.679245283019" />
         <NodeLayout
-          Size="173,42"
+          Size="172.8,41.6"
           Id="Package\Import data from live server\Insured households"
           TopLeft="429,618" />
         <NodeLayout
-          Size="159,44"
+          Size="159.2,44"
           Id="Package\Import data from live server\Insuree Expenditure Ranges"
           TopLeft="425.018867924528,410.283018867925" />
         <NodeLayout
-          Size="159,44"
+          Size="159.2,44"
           Id="Package\Import data from live server\Item Expenditure"
           TopLeft="255.320754716981,23.1509433962264" />
         <NodeLayout
-          Size="159,44"
+          Size="159.2,44"
           Id="Package\Import data from live server\Item Utilization"
           TopLeft="250.037735849057,151.716981132075" />
         <NodeLayout
-          Size="159,44"
+          Size="159.2,44"
           Id="Package\Import data from live server\Number of policies"
           TopLeft="78.490566037736,147.22641509434" />
         <NodeLayout
-          Size="158,44"
+          Size="158.4,44"
           Id="Package\Import data from live server\Overall Assessment"
           TopLeft="423.660377358491,466.056603773585" />
         <NodeLayout
-          Size="159,44"
+          Size="159.2,44"
           Id="Package\Import data from live server\Policies Expired"
           TopLeft="76.9433962264152,343.188679245283" />
         <NodeLayout
-          Size="159,44"
+          Size="159.2,44"
           Id="Package\Import data from live server\Policies Renewed"
           TopLeft="77.8867924528302,279.377358490566" />
         <NodeLayout
-          Size="159,44"
+          Size="159.2,44"
           Id="Package\Import data from live server\Policies sold"
           TopLeft="76.7924528301887,217.943396226415" />
         <NodeLayout
-          Size="130,42"
+          Size="129.6,41.6"
           Id="Package\Import data from live server\Population"
           TopLeft="422.716981132075,546.245283018868" />
         <NodeLayout
-          Size="158,44"
+          Size="158.4,44"
           Id="Package\Import data from live server\Premium Allocation"
           TopLeft="248.603773584906,611.716981132075" />
         <NodeLayout
-          Size="159,44"
+          Size="159.2,44"
           Id="Package\Import data from live server\Premium Collection"
           TopLeft="75.0943396226417,404.622641509434" />
         <NodeLayout
-          Size="159,44"
+          Size="159.2,44"
           Id="Package\Import data from live server\Service Expenditure"
           TopLeft="73.3962264150944,475.339622641509" />
         <NodeLayout
-          Size="159,44"
+          Size="159.2,44"
           Id="Package\Import data from live server\Service Utilization"
           TopLeft="251.88679245283,90.2830188679245" />
         <NodeLayout
-          Size="159,44"
+          Size="159.2,44"
           Id="Package\Import data from live server\Visits"
           TopLeft="249.433962264151,283.867924528302" />
         <EdgeLayout
@@ -24024,35 +24034,42 @@ WHERE V.ValidityTo IS NULL
           Id="Package\Insert Dimensions"
           TopLeft="206,1280.5" />
         <NodeLayout
-          Size="221,44"
+          Size="220.8,44"
           Id="Package\Insert into fact tables"
           TopLeft="195.5,1384.5" />
         <NodeLayout
-          Size="245,44"
+          Size="244.8,44"
           Id="Package\Process cubes"
-          TopLeft="183.5,1488.5" />
+          TopLeft="183.5,1487.5" />
+        <ContainerLayout
+          HeaderHeight="43"
+          IsExpanded="True"
+          PanelSize="204.8,55.2"
+          Size="204.8,97.6"
+          Id="Package\Sequence Container"
+          TopLeft="879,536" />
         <NodeLayout
           Size="188,44"
           Id="Package\Truncate all fact tables"
           TopLeft="212,317.5" />
         <NodeLayout
-          Size="200,44"
+          Size="188.8,41.6"
           Id="Package\Truncate all temp table"
           TopLeft="206,5.5" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="306.5,49.5">
+          TopLeft="303.25,47.1">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60"
+              EndConnector="0,62.4"
               Start="0,0"
-              End="0,52.5">
+              End="0,54.9">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.5" />
+                    End="0,54.9" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -24063,18 +24080,30 @@ WHERE V.ValidityTo IS NULL
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="306.5,153.5">
+          TopLeft="306,152.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60"
+              EndConnector="-20.5,61"
               Start="0,0"
-              End="0,52.5">
+              End="-20.5,53.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.5" />
+                    End="0,26.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26.5"
+                    Point2="0,30.5"
+                    Point3="-4,30.5" />
+                  <mssgle:LineSegment
+                    End="-16.5,30.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-16.5,30.5"
+                    Point2="-20.5,30.5"
+                    Point3="-20.5,34.5" />
+                  <mssgle:LineSegment
+                    End="-20.5,53.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -24151,18 +24180,30 @@ WHERE V.ValidityTo IS NULL
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 5]"
-          TopLeft="306,257.5">
+          TopLeft="285.5,257.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60"
+              EndConnector="20.5,60"
               Start="0,0"
-              End="0,52.5">
+              End="20.5,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.5" />
+                    End="0,26" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26"
+                    Point2="0,30"
+                    Point3="4,30" />
+                  <mssgle:LineSegment
+                    End="16.5,30" />
+                  <mssgle:CubicBezierSegment
+                    Point1="16.5,30"
+                    Point2="20.5,30"
+                    Point3="20.5,34" />
+                  <mssgle:LineSegment
+                    End="20.5,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -24177,14 +24218,14 @@ WHERE V.ValidityTo IS NULL
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60"
+              EndConnector="0,59"
               Start="0,0"
-              End="0,52.5">
+              End="0,51.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.5" />
+                    End="0,51.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -24204,13 +24245,13 @@ WHERE V.ValidityTo IS NULL
     design-time-name="Package\Disease\Import Disease">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="172,44"
           Id="Package\Disease\Import Disease\Disease Source"
           TopLeft="5.5,5.5" />
         <NodeLayout
-          Size="191,44"
+          Size="191.2,44"
           Id="Package\Disease\Import Disease\Disease Destination"
           TopLeft="10.4811320754717,109.349056603774" />
         <EdgeLayout
@@ -24236,9 +24277,7 @@ WHERE V.ValidityTo IS NULL
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -25473,49 +25512,47 @@ WHERE V.ValidityTo IS NULL
     design-time-name="Package\Import data from live server\Insured households">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="229,42"
+          Size="227.2,41.6"
           Id="Package\Import data from live server\Insured households\Insured households Destination"
           TopLeft="189,212" />
         <NodeLayout
-          Size="209,42"
+          Size="208.8,41.6"
           Id="Package\Import data from live server\Insured households\Insured households Source"
           TopLeft="188,83" />
         <EdgeLayout
           Id="Package\Import data from live server\Insured households.Paths[OLE DB Source Output]"
-          TopLeft="292.5,125">
+          TopLeft="292.4,124.6">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="11,87"
+              EndConnector="10.2,87.4"
               Start="0,0"
-              End="11,79.5">
+              End="10.2,79.9">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,39.5" />
+                    End="0,39.7" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,39.5"
-                    Point2="0,43.5"
-                    Point3="4,43.5" />
+                    Point1="0,39.7"
+                    Point2="0,43.7"
+                    Point3="4,43.7" />
                   <mssgle:LineSegment
-                    End="7,43.5" />
+                    End="6.20000000000005,43.7" />
                   <mssgle:CubicBezierSegment
-                    Point1="7,43.5"
-                    Point2="11,43.5"
-                    Point3="11,47.5" />
+                    Point1="6.20000000000005,43.7"
+                    Point2="10.2,43.7"
+                    Point3="10.2,47.7" />
                   <mssgle:LineSegment
-                    End="11,79.5" />
+                    End="10.2,79.9" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -26097,7 +26134,7 @@ WHERE V.ValidityTo IS NULL
     design-time-name="Package\Import data from live server\Population">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="187,42"
           Id="Package\Import data from live server\Population\Population Destination"
@@ -26137,7 +26174,9 @@ WHERE V.ValidityTo IS NULL
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>

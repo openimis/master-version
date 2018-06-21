@@ -1,0 +1,21 @@
+﻿File Name : HF201804111130.xml
+Register : HF
+User : exact
+Date : 11/04/2018 12:10
+Strategy : Insert Only
+
+
+0 Inserted
+---------------------------------------------------------------------------------
+
+
+0 Updated
+---------------------------------------------------------------------------------
+
+
+2 Error(s)
+---------------------------------------------------------------------------------
+1.	HF Code [HSHF001] has invalid Item Price List Name
+2.	HF Code [HSHF001] has invalid Service Price List Name
+
+
