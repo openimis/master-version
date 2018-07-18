@@ -41,6 +41,14 @@ Public Class ICDCodesBL
         dt.Rows.InsertAt(dr, 0)
         Return dt
     End Function
+    ' code added by Purushottam Sapkota starts
+    Public Function GetICDCodesNew() As DataTable
+        Return icd.getICDCodesNew()
+    End Function
+    Public Function getICDNamebyCode(ByVal ICDCode As String) As String
+        Return icd.getICDNamebyCode(ICDCode)
+    End Function
+    ' code added by Purushottam Sapkota Nirmal end
     'Public Function getICDIDFromCode(ByVal ICDCODE As String) As Integer
 
     '    Return icd.getICDIDFromCode(ICDCODE)

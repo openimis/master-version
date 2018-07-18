@@ -32,12 +32,35 @@ Public Class ICDCodesDAL
 
     Public Function getICDCodes() As DataTable
         Dim str As String
-        str = "SELECT ICDID,ICDCode FROM tblICDCodes WHERE ValidityTo IS NULL"
+        str = "SELECT ICDID,ICDCode FROM tblICDCodes"
 
         data.setSQLCommand(str, CommandType.Text)
 
         Return data.Filldata
     End Function
+    ' code added by Purushottam Sapkota starts
+    Public Function getICDCodesNew() As DataTable
+        Dim str As String
+        str = "SELECT ICDID, ICDCode, ICDName FROM tblICDCodes"
+
+        data.setSQLCommand(str, CommandType.Text)
+
+        Return data.Filldata
+    End Function
+    Public Function getICDNamebyCode(ByVal ICDCode As String) As String
+        Dim ICDName As String
+        ICDName = ""
+        data.setSQLCommand("select ICDName from tblICDCodes where ICDCode= @ICDCode", CommandType.Text)
+        data.params("@ICDCode", SqlDbType.NVarChar, 200, ICDCode)
+        Dim dt As DataTable
+        dt = data.Filldata()
+        If dt.Rows.Count > 0 Then
+            ICDName = dt.Rows(0)(0).ToString()
+        End If
+        Return ICDName
+    End Function
+
+    ' code added by Purushottam Sapkota ends
     'Public Function getICDIDFromCode(ByVal ICDCODE As String) As Integer
     '    Dim str As String
     '    str = "SELECT @ICDID = ICDID FROM tblICDCodes where icdcode = @ICDCode"

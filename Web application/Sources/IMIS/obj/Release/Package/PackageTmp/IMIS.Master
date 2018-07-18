@@ -14,9 +14,14 @@
     
      <link href="styleSheets/Imis.css" rel="stylesheet" type="text/css" />
      <link href="styleSheets/MainMenu.css" rel="stylesheet" type="text/css" />
+
+    <link href="styleSheets/autocomplete.css" rel="stylesheet" type="text/css" />
     
+      <script type="text/javascript" src="Javascripts/jquery-1.12.4.js"></script>
+    
+    <script src="Javascripts/jquery.autocomplete.min.js" type="text/javascript"></script>
   
-    <script src="Javascripts/jquery-1.8.2.min.js" type="text/javascript"></script>
+   <%--  <script src="Javascripts/jquery-1.8.2.min.js" type="text/javascript"></script> --%>
     <script src="Javascripts/Exact.js?c=<%#(New Random()).Next%>" type="text/javascript"></script>
      <script src="Javascripts/jquery.cookie.js" type="text/javascript"></script>
       <script type="text/javascript" src="Javascripts/ExactDropDown.js"></script>
@@ -48,7 +53,12 @@
        $(document).ready(function () {
            
            //        $('#ctl00_hfDirty').val(false)
-
+            /* -- Added by Purushottam Sapkota Starts -- */
+           $('[id^="Body_gvInsuree_viewButton_"]').click(function () {
+               $('#Header_txtSearch').val($(this).attr("alt"));
+               $('#Header_btnSearch').click();
+           });
+           /* -- Added by Purushottam Sapkota Ends -- */
 
            
            if ('<%#If(IsPostBack, 1, 0) %>' == 0) {

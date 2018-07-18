@@ -148,8 +148,10 @@ Public Class Family
 
         eFamily.FamilyID = HttpContext.Current.Request.QueryString("f")
 
+        Dim hf As HelperFunction = New HelperFunction
         RunPageSecurity()
         Try
+            LoadYear()
             Dim dtRegions As DataTable = Family.GetRegions(imisgen.getUserId(Session("User")), True)
             ddlRegion.DataSource = dtRegions
             ddlRegion.DataValueField = "RegionId"
@@ -218,7 +220,7 @@ Public Class Family
             If dtFSPRegion.Rows.Count = 1 Then
                 FillFSPDistricts()
             End If
-           
+
 
             ddlFSPCateogory.DataSource = Family.GetHFLevel
             ddlFSPCateogory.DataValueField = "Code"
@@ -244,9 +246,9 @@ Public Class Family
             If Not eFamily.FamilyID = 0 Then
                 Family.LoadFamily(eFamily)
                 ddlRegion.SelectedValue = eFamily.RegionId
-                ddlDistrict.SelectedValue = eFamily.DistrictID
+                ddlDistrict.SelectedValue = eFamily.DistrictId
                 ddlVillage.SelectedValue = eFamily.LocationId
-                ddlWard.SelectedValue = eFamily.WardID
+                ddlWard.SelectedValue = eFamily.WardId
                 'ddlDistrict.SelectedValue = eFamily.tblDistricts.DistrictID
                 ddlPoverty.SelectedValue = eFamily.Poverty
                 ddlConfirmationType.SelectedValue = eFamily.ConfirmationType
@@ -257,7 +259,15 @@ Public Class Family
                 If eFamily.tblInsuree.Profession IsNot Nothing Then ddlProfession.SelectedValue = eFamily.tblInsuree.Profession
                 If eFamily.tblInsuree.Education IsNot Nothing Then ddlEducation.SelectedValue = eFamily.tblInsuree.Education
                 txtCHFID.Text = eFamily.tblInsuree.CHFID.Trim
-                txtBirthDate.Text = eFamily.tblInsuree.DOB
+                'Date of Birth in Nepali start by Nirmal
+                'txtBirthDate.Text = eFamily.tblInsuree.DOB
+                Dim NepaliBirthDate As String = hf.ConverEnglishTONepali(eFamily.tblInsuree.DOB.ToString("dd/MM/yyyy"))
+                If (Not String.IsNullOrEmpty(NepaliBirthDate)) Then
+                    ddlBirthDay.SelectedValue = NepaliBirthDate.Split("/")(0)
+                    ddlBirthMonth.SelectedValue = NepaliBirthDate.Split("/")(1)
+                    ddlBirthYear.SelectedValue = NepaliBirthDate.Split("/")(2)
+                End If
+                'Date of Birth in Nepali start by Nirmal
                 txtLastName.Text = eFamily.tblInsuree.LastName
                 txtOtherNames.Text = eFamily.tblInsuree.OtherNames
                 txtPassport.Text = eFamily.tblInsuree.passport
@@ -266,8 +276,8 @@ Public Class Family
                 txtAddress.Text = eFamily.FamilyAddress
                 txtConfirmationNo.Text = eFamily.ConfirmationNo
 
-                hfFamilyIsOffline.Value = if(eFamily.isOffline Is Nothing, False, eFamily.isOffline)
-                hfInsureeIsOffline.Value = if(eFamily.tblInsuree.isOffline Is Nothing, False, eFamily.tblInsuree.isOffline)
+                hfFamilyIsOffline.Value = If(eFamily.isOffline Is Nothing, False, eFamily.isOffline)
+                hfInsureeIsOffline.Value = If(eFamily.tblInsuree.isOffline Is Nothing, False, eFamily.tblInsuree.isOffline)
 
 
                 'Addition for Nepal >> Start
@@ -293,7 +303,7 @@ Public Class Family
 
                 'Addition for Nepal >> End
 
-                If eFamily.ValidityTo.HasValue Or ((IMIS_Gen.offlineHF Or IMIS_Gen.OfflineCHF) And Not if(eFamily.isOffline Is Nothing, False, eFamily.isOffline)) Then
+                If eFamily.ValidityTo.HasValue Or ((IMIS_Gen.offlineHF Or IMIS_Gen.OfflineCHF) And Not If(eFamily.isOffline Is Nothing, False, eFamily.isOffline)) Then
                     pnlImages.Enabled = False
                     B_SAVE.Visible = False
                     btnBrowse.Enabled = False
@@ -438,6 +448,7 @@ Public Class Family
 
     End Sub
     Protected Sub btnSave_Click(ByVal sender As Object, ByVal e As EventArgs) Handles B_SAVE.Click
+        Dim hf As HelperFunction = New HelperFunction
         Try
             'Dim birthdate As Date
             'If Not IsDate(Date.ParseExact(txtBirthDate.Text, "dd/MM/yyyy", Nothing)) Then
@@ -488,13 +499,16 @@ Public Class Family
 
             ' If Trim(txtBirthDate.Text).Length > 0 Then
             ' If IsDate(txtBirthDate.Text) Then
-            eInsuree.DOB = Date.ParseExact(txtBirthDate.Text, "dd/MM/yyyy", Nothing)
+            ' eInsuree.DOB = Date.ParseExact(txtBirthDate.Text, "dd/MM/yyyy", Nothing)
             'Else
             '  lblMsg.Text = "Invalid Date Format"
             '  Return
             'End If
             ' End If
-
+            Dim DOB_ENG As Date
+            Dim NepDateArray() As String = Split(hf.ConvertNepaliTOEnglishNew(ddlBirthDay.SelectedValue + "/" + ddlBirthMonth.SelectedValue + "/" + ddlBirthYear.SelectedValue), "/")
+            DOB_ENG = New Date(Convert.ToInt16(NepDateArray(2)), Convert.ToInt16(NepDateArray(1)), Convert.ToInt16(NepDateArray(0)))
+            eInsuree.DOB = DOB_ENG
             eInsuree.Gender = ddlGender.SelectedValue
             If ddlMarital.SelectedValue <> "" Then eInsuree.Marital = ddlMarital.SelectedValue
             If ddlCardIssued.SelectedValue.Length > 0 Then eInsuree.CardIssued = ddlCardIssued.SelectedValue
@@ -665,4 +679,17 @@ Public Class Family
         End If
 
     End Sub
+    'Combo year in nepali start by Nirmal
+    Private Sub LoadYear()
+        Dim hf As HelperFunction = New HelperFunction
+        Dim currentNepaliYear As String = hf.GetCurrentNepaliYear()
+        ddlBirthYear.Items.Add(New ListItem("Year", "0"))
+        If (Not String.IsNullOrEmpty(currentNepaliYear)) Then
+            For i As Int16 = Convert.ToInt16(currentNepaliYear) To 1969 Step -1
+                ddlBirthYear.Items.Add(New ListItem(i.ToString(), i.ToString()))
+            Next
+
+        End If
+    End Sub
+    'Combo year in nepali start by Nirmal
 End Class

@@ -969,7 +969,7 @@ Partial Public Class Product
             imisgen.Alert(msg, pnlButtons, alertPopupTitle:="IMIS")
             Exit Sub
         ElseIf Val(txtShareContribution.Text) > 100 Then
-            imisgen.Alert(imisgen.getMessage("M_SHAREDCONTRIBUTIONPARCENT"), pnlButtons, alertPopupTitle:="IMIS")
+            imisgen.Alert(imisgen.getMessage("M_S6HAREDCONTRIBUTIONPARCENT"), pnlButtons, alertPopupTitle:="IMIS")
             Exit Sub
         End If
         Dim Changed As Boolean = CType(Me.Master.FindControl("hfDirty"), HiddenField).Value

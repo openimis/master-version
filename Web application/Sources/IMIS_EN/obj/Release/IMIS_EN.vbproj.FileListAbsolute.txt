@@ -133,3 +133,17 @@ C:\HVH-IMIS\IMIS 17.5.14  16-12-2017\IMIS\IMIS V17.5.14 12.12.2017 - MASTER\IMIS
 C:\HVH-IMIS\IMIS 17.5.14  16-12-2017\IMIS\IMIS V17.5.14 12.12.2017 - MASTER\IMIS_EN\obj\Release\IMIS_EN.dll
 C:\HVH-IMIS\IMIS 17.5.14  16-12-2017\IMIS\IMIS V17.5.14 12.12.2017 - MASTER\IMIS_EN\obj\Release\IMIS_EN.xml
 C:\HVH-IMIS\IMIS 17.5.14  16-12-2017\IMIS\IMIS V17.5.14 12.12.2017 - MASTER\IMIS_EN\obj\Release\IMIS_EN.pdb
+D:\IMIS\master-version-master\Web application\Sources\IMIS_EN\bin\IMIS_EN.dll.config
+D:\IMIS\master-version-master\Web application\Sources\IMIS_EN\bin\IMIS_EN.dll
+D:\IMIS\master-version-master\Web application\Sources\IMIS_EN\bin\IMIS_EN.pdb
+D:\IMIS\master-version-master\Web application\Sources\IMIS_EN\bin\IMIS_EN.xml
+D:\IMIS\master-version-master\Web application\Sources\IMIS_EN\bin\EntityFramework.dll
+D:\IMIS\master-version-master\Web application\Sources\IMIS_EN\bin\EntityFramework.xml
+D:\IMIS\master-version-master\Web application\Sources\IMIS_EN\obj\Release\IMIS_EN.vbprojAssemblyReference.cache
+D:\IMIS\master-version-master\Web application\Sources\IMIS_EN\obj\Release\IMIS_EN.Resources.resources
+D:\IMIS\master-version-master\Web application\Sources\IMIS_EN\obj\Release\IMIS_EN.vbproj.GenerateResource.cache
+D:\IMIS\master-version-master\Web application\Sources\IMIS_EN\obj\Release\IMIS_EN.vbproj.CoreCompileInputs.cache
+D:\IMIS\master-version-master\Web application\Sources\IMIS_EN\obj\Release\IMIS_EN.vbproj.CopyComplete
+D:\IMIS\master-version-master\Web application\Sources\IMIS_EN\obj\Release\IMIS_EN.dll
+D:\IMIS\master-version-master\Web application\Sources\IMIS_EN\obj\Release\IMIS_EN.xml
+D:\IMIS\master-version-master\Web application\Sources\IMIS_EN\obj\Release\IMIS_EN.pdb

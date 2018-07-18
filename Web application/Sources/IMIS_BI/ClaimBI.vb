@@ -73,6 +73,16 @@ Public Class ClaimBI
         Dim ICDCodes As New IMIS_BL.ICDCodesBL
         Return ICDCodes.GetICDCodes(showSelect)
     End Function
+    ' code added by Purushottam Sapkota starts
+    Public Function GetICDCodesNew() As DataTable
+        Dim ICDCodes As New IMIS_BL.ICDCodesBL
+        Return ICDCodes.GetICDCodesNew()
+    End Function
+    Public Function getICDNamebyCode(ByVal ICDCode As String) As String
+        Dim ICDCodes As New IMIS_BL.ICDCodesBL
+        Return ICDCodes.getICDNamebyCode(ICDCode)
+    End Function
+    ' code added by Purushottam Sapkota end
     Public Function SaveClaimServices(ByRef eClaimServices As IMIS_EN.tblClaimServices) As Integer
         Dim claimServices As New IMIS_BL.ClaimServicesBL
         Return claimServices.SaveClaimServices(eClaimServices)

@@ -252,3 +252,26 @@ C:\HVH-IMIS\IMIS 17.5.14  16-12-2017\IMIS\IMIS V17.5.14 12.12.2017 - MASTER\IMIS
 C:\HVH-IMIS\IMIS 17.5.14  16-12-2017\IMIS\IMIS V17.5.14 12.12.2017 - MASTER\IMIS_BI\obj\Release\IMIS_BI.dll
 C:\HVH-IMIS\IMIS 17.5.14  16-12-2017\IMIS\IMIS V17.5.14 12.12.2017 - MASTER\IMIS_BI\obj\Release\IMIS_BI.xml
 C:\HVH-IMIS\IMIS 17.5.14  16-12-2017\IMIS\IMIS V17.5.14 12.12.2017 - MASTER\IMIS_BI\obj\Release\IMIS_BI.pdb
+D:\IMIS\master-version-master\Web application\Sources\IMIS_BI\bin\IMIS_BI.dll
+D:\IMIS\master-version-master\Web application\Sources\IMIS_BI\bin\IMIS_BI.pdb
+D:\IMIS\master-version-master\Web application\Sources\IMIS_BI\bin\IMIS_BI.xml
+D:\IMIS\master-version-master\Web application\Sources\IMIS_BI\bin\IMIS_BL.dll
+D:\IMIS\master-version-master\Web application\Sources\IMIS_BI\bin\IMIS_EN.dll
+D:\IMIS\master-version-master\Web application\Sources\IMIS_BI\bin\IMIS_DAL.dll
+D:\IMIS\master-version-master\Web application\Sources\IMIS_BI\bin\SevenZipSharp.dll
+D:\IMIS\master-version-master\Web application\Sources\IMIS_BI\bin\System.Data.SQLite.dll
+D:\IMIS\master-version-master\Web application\Sources\IMIS_BI\bin\IMIS_BL.pdb
+D:\IMIS\master-version-master\Web application\Sources\IMIS_BI\bin\IMIS_BL.xml
+D:\IMIS\master-version-master\Web application\Sources\IMIS_BI\bin\IMIS_EN.pdb
+D:\IMIS\master-version-master\Web application\Sources\IMIS_BI\bin\IMIS_EN.xml
+D:\IMIS\master-version-master\Web application\Sources\IMIS_BI\bin\IMIS_EN.dll.config
+D:\IMIS\master-version-master\Web application\Sources\IMIS_BI\bin\IMIS_DAL.pdb
+D:\IMIS\master-version-master\Web application\Sources\IMIS_BI\bin\IMIS_DAL.xml
+D:\IMIS\master-version-master\Web application\Sources\IMIS_BI\obj\Release\IMIS_BI.vbprojAssemblyReference.cache
+D:\IMIS\master-version-master\Web application\Sources\IMIS_BI\obj\Release\IMIS_BI.Resources.resources
+D:\IMIS\master-version-master\Web application\Sources\IMIS_BI\obj\Release\IMIS_BI.vbproj.GenerateResource.cache
+D:\IMIS\master-version-master\Web application\Sources\IMIS_BI\obj\Release\IMIS_BI.vbproj.CoreCompileInputs.cache
+D:\IMIS\master-version-master\Web application\Sources\IMIS_BI\obj\Release\IMIS_BI.vbproj.CopyComplete
+D:\IMIS\master-version-master\Web application\Sources\IMIS_BI\obj\Release\IMIS_BI.dll
+D:\IMIS\master-version-master\Web application\Sources\IMIS_BI\obj\Release\IMIS_BI.xml
+D:\IMIS\master-version-master\Web application\Sources\IMIS_BI\obj\Release\IMIS_BI.pdb

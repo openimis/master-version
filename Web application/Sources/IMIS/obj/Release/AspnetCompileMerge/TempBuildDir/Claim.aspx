@@ -94,8 +94,12 @@ In case of dispute arising out or in relation to the use of the program, it is s
             });
 
             $(".ClaimValue").ready(function() {
-                CalculateClaimTotal($("#<%=gvService.ClientID %>"));
+                CalculateClaimTotal($("#<%=gvService.ClientID %>"));                
+                $("#Body_txtServTotal").val(claimValue.toFixed(2));
+                serviceValue = claimValue;
                 CalculateClaimTotal($("#<%=gvItems.ClientID %>"));
+                itemValue = claimValue - serviceValue;
+                $("#Body_txtItemTotal").val(itemValue.toFixed(2));
                 $("#<%=txtCLAIMTOTALData.ClientID %>").val(claimValue.toFixed(2));
                 $("#<%=hfClaimTotalValue.ClientID %>").val(claimValue.toFixed(2));
                 $("#<%=hfClaimTotalValue.ClientID %>").data("InitialCLMValue", claimValue.toFixed(2));
@@ -326,6 +330,116 @@ In case of dispute arising out or in relation to the use of the program, it is s
 
 
         function pageLoadExtend() {
+            // ICD auto complete and Visity Type other added by purushottam
+            $("[id*='Body_gvService_txtValue']").attr('readonly', true);
+            $("[id*='Body_gvItems_txtValueI']").attr('readonly', true);
+            $("#Body_ddlICDData").hide();
+            $("#Body_ddlICDData1").hide();
+            function getParameterByName(name, url) {
+                if (!url) url = window.location.href;
+                name = name.replace(/[\[\]]/g, "\\$&");
+                var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)", "i"),
+                    results = regex.exec(url);
+                if (!results) return null;
+                if (!results[2]) return '';
+                return decodeURIComponent(results[2].replace(/\+/g, " "));
+            }
+
+            var data = $("#HiddenContainer_gvHiddenIcdCodes tr").map(function () {
+                return {
+                    "value": $("td", this).eq(2).text(),
+                    "data": $("td", this).eq(0).text(),
+                };
+            }).get();
+
+            if (getParameterByName('c') != null && getParameterByName('c') != 0) {
+                var theIndex = -1;
+                for (var i = 0; i < data.length; i++) {
+                    if (data[i].data == $("#Body_ddlICDData").val()) {
+                        theIndex = i;
+                        break;
+                    }
+                }
+                $('.txtICDCode').val(data[theIndex].value);
+                if ($("#Body_ddlICDData1").val()!=0) {
+                var theIndex = -1;
+                for (var i = 0; i < data.length; i++) {
+                    if (data[i].data == $("#Body_ddlICDData1").val()) {
+                        theIndex = i;
+                        break;
+                    }
+                }
+                $('.txtICDCode1').val(data[theIndex].value);
+            }
+            }
+
+            $('.txtICDCode').autocomplete({
+                lookup: data,
+                onSelect: function (suggestion) {
+                    //var thehtml = '<strong>Currency Name:</strong> ' + suggestion.value + ' <br> <strong>Symbol:</strong> ' + suggestion.data;              
+                    $("#Body_ddlICDData").val(suggestion.data);
+                }
+            });
+            $('.txtICDCode1').autocomplete({
+                lookup: data,
+                onSelect: function (suggestion) {
+                   // var thehtml = '<strong>Currency Name:</strong> ' + suggestion.value + ' <br> <strong>Symbol:</strong> ' + suggestion.data;                  
+                    $("#Body_ddlICDData1").val(suggestion.data);
+                }
+            });
+            
+            $("#Body_ddlICDData").change(function () {
+                var theIndex = -1;
+                for (var i = 0; i < data.length; i++) {
+                    if (data[i].data == $(this).val()) {
+                        theIndex = i;
+                        break;
+                    }
+                }
+                $('.txtICDCode').val(data[theIndex].value);
+            });
+            $("#Body_ddlICDData1").change(function () {
+                var theIndex = -1;
+                for (var i = 0; i < data.length; i++) {
+                    if (data[i].data == $(this).val()) {
+                        theIndex = i;
+                        break;
+                    }
+                }
+                $('.txtICDCode1').val(data[theIndex].value);
+            });
+            
+            $("#Body_txtGuaranteeId").hide();
+            $("#Body_ddlOPDIPD").ready(function () {
+                if ($("#Body_ddlOPDIPD").val()!="") {
+                    $("#Body_ddlOPDIPD").val($('#Body_txtGuaranteeId').val());
+                }
+                //$('#Body_txtGuaranteeId').val($("#Body_ddlOPDIPD").val());
+            });
+            $("#Body_ddlOPDIPD").change(function () {
+                //alert("asdsad");
+                $('#Body_txtGuaranteeId').val($("#Body_ddlOPDIPD").val());
+            });
+            $("#Body_ddlVisitType").ready(function () {
+                //alert($("#Body_ddlVisitType").val());
+                if ($("#Body_ddlVisitType").val() == "O") {
+                    $('.opdipd').show();
+
+                }
+                else {
+                    $('.opdipd').hide();
+                }
+            });
+            $("#Body_ddlVisitType").change(function () {
+                if ($("#Body_ddlVisitType").val() == "O") {
+                    $('.opdipd').show();
+                }
+                else {
+                    $('.opdipd').hide();
+                }
+            });
+            // END
+
             dropdown.init($("#DropDownSugTable"), function() { $('.ClaimValue').eq(0).trigger("change"); });
 
             $(".disabled a").unbind("click").mouseover(function() {
@@ -351,7 +465,11 @@ In case of dispute arising out or in relation to the use of the program, it is s
 
             $(".ClaimValue").change(function() {
                 CalculateClaimTotal($("#<%=gvService.ClientID %>"));
+                $("#Body_txtServTotal").val(claimValue.toFixed(2));
+                serviceValue = claimValue;
                 CalculateClaimTotal($("#<%=gvItems.ClientID %>"));
+                itemValue = claimValue - serviceValue;
+                $("#Body_txtItemTotal").val(itemValue.toFixed(2));
                 $("#<%=txtCLAIMTOTALData.ClientID %>").val(claimValue.toFixed(2));
                 $("#<%=hfClaimTotalValue.ClientID %>").val(claimValue.toFixed(2));
                 claimValue = 0;
@@ -450,7 +568,7 @@ In case of dispute arising out or in relation to the use of the program, it is s
         {
             border-width: 0px;
         }
-        .pnlHiddenServiceCodes, .pnlHiddenItemCodes
+        .pnlHiddenServiceCodes, .pnlHiddenItemCodes, .pnlHiddenIcdCodes
         {
             display: none;
             position: absolute;
@@ -490,6 +608,13 @@ In case of dispute arising out or in relation to the use of the program, it is s
         }
         .auto-style1 {
             height: 27px;
+        }
+
+        .opdipd{
+            display:none;
+        }
+        #Body_ddlICDData1, #Body_ddlICDData{
+         display:none;
         }
     </style>
 </asp:Content>
@@ -593,30 +718,20 @@ In case of dispute arising out or in relation to the use of the program, it is s
                
              <tr>
              <td class="FormLabel">
-                   <asp:Label ID="lblICD" runat="server" Text="<%$ Resources:Resource,L_ICD %>"  ></asp:Label>
-               </td>
-               <td class ="DataEntry">
-               <%--<asp:TextBox ID="txtICDCode" size="10" runat="server" MaxLength="6"></asp:TextBox>--%>
-                   <asp:DropDownList ID="ddlICDData" runat="server" width="130px" ></asp:DropDownList>
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator3" 
-                       runat="server" ErrorMessage="*" ControlToValidate="ddlICDData" InitialValue="0"
-                       ValidationGroup="check" Visible="True"></asp:RequiredFieldValidator>               
-               </td>
-            
-               <td class="FormLabel">
                    <asp:Label ID="lblCLAIMCODE" runat="server" Text='<%$ Resources:Resource,L_CLAIMCODE %>' ></asp:Label>
                </td>
                <td class ="DataEntry">
-                   <asp:TextBox ID="txtCLAIMCODEData" runat="server" size="10" MaxLength="8" Text="" Width="130px" ></asp:TextBox>
+                        <asp:TextBox ID="txtCLAIMCODEData" runat="server" size="10" MaxLength="8" Text="" Width="130px" ></asp:TextBox>
                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" 
                        runat="server" ErrorMessage="*" ControlToValidate="txtCLAIMCODEData" 
-                       ValidationGroup="check" Visible="True"></asp:RequiredFieldValidator>
+                       ValidationGroup="check" Visible="True"></asp:RequiredFieldValidator>     
                </td>
-               <td class="FormLabel" style="width:600px;">
-                  <asp:Label ID="lblCLAIMDATE" runat="server" Text='<%$ Resources:Resource,L_CLAIMDATE %>' ></asp:Label>
+            
+               <td class="FormLabel">
+                   <asp:Label ID="lblCLAIMDATE" runat="server" Text='<%$ Resources:Resource,L_CLAIMDATE %>' ></asp:Label>
                </td>
-               <td class ="DataEntry" style="width:800px;">
-               <asp:TextBox ID="txtClaimDate" runat="server" Size="10" maxlength="10" Width="130px" ></asp:TextBox>
+               <td class ="DataEntry">
+                 <asp:TextBox ID="txtClaimDate" runat="server" Size="10" maxlength="10" Width="130px" ReadOnly="true" ></asp:TextBox>
                 <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" 
                     ControlToValidate="txtClaimDate" ErrorMessage="*" SetFocusOnError="True" 
                     ValidationExpression="^(0[1-9]|[12][0-9]|3[01])[/](0[1-9]|1[012])[/](19|20)\d\d$" 
@@ -624,18 +739,24 @@ In case of dispute arising out or in relation to the use of the program, it is s
                      <asp:RequiredFieldValidator ID="RequiredFieldValidator4" 
                        runat="server" ErrorMessage="*" ControlToValidate="txtClaimDate" 
                        ValidationGroup="check" Visible="True"></asp:RequiredFieldValidator>
-               <asp:Button ID="btnClaimDate" runat="server" Height="15px" padding-bottom="3px" 
+              <%--  <asp:Button ID="btnClaimDate" runat="server" Height="15px" padding-bottom="3px" 
                         Width="15px" class="btnDate"/>
                     <ajax:CalendarExtender ID="txtClaimDateCalendarExtender" runat="server" 
                         Format="dd/MM/yyyy" PopupButtonID="btnClaimDate" TargetControlID="txtClaimDate">
-                    </ajax:CalendarExtender>                    
+                    </ajax:CalendarExtender>           --%>      
+               </td>
+               <td class="FormLabel" style="width:600px;">
+                   <asp:Label ID="lblRemBalance" runat="server" Text="Remaining Balance" ></asp:Label>
+               </td>
+               <td class ="DataEntry" style="width:800px;">
+                  <asp:textbox ID="txtRemainingBalance" runat="server" Text="" BorderStyle="Solid" style="text-align:right" Enabled ="false"></asp:textbox>
                </td>             
              
                 <td class="FormLabel">
                    <asp:Label ID="lblCLAIMTOTAL" runat="server" style="width:600px;" Text='<%$ Resources:Resource,L_CLAIMTOTAL %>' ></asp:Label>
                </td>
                <td class ="DataEntry">
-                   <asp:textbox ID="txtCLAIMTOTALData" runat="server" Text="" BorderStyle="Solid" style="text-align:right" Enabled ="false" Width="135px" ></asp:textbox>
+                   <asp:textbox ID="txtCLAIMTOTALData" runat="server" Text="" BorderStyle="Solid" style="text-align:right" Enabled ="false" ></asp:textbox>
                    <ajax:MaskedEditExtender ID="txtAdultPremium_MaskedEditExtender" runat="server" 
                                 CultureAMPMPlaceholder="" CultureCurrencySymbolPlaceholder="TZS" 
                                 CultureDateFormat="" CultureDatePlaceholder="" 
@@ -647,33 +768,52 @@ In case of dispute arising out or in relation to the use of the program, it is s
             </tr>  
               <tr>
                   <td class="FormLabel">
-                      <asp:Label ID="lblICD1" runat="server" Text="<%$ Resources:Resource,L_SECONDARYDG1 %>"></asp:Label>
+                       <asp:Label ID="lblICD" runat="server" Text="<%$ Resources:Resource,L_ICD %>"  ></asp:Label>
                   </td>
                   <td class="DataEntry">
+                     <%--<asp:TextBox ID="txtICDCode" size="10" runat="server" MaxLength="6"></asp:TextBox>--%>
+                    <asp:TextBox ID="txtICDCode" size="15" runat="server"  class="cmb txtICDCode"
+                    ></asp:TextBox> <asp:RequiredFieldValidator ID="RequiredFieldValidator6" 
+                       runat="server" ErrorMessage="*" ControlToValidate="txtICDCode" 
+                       ValidationGroup="check" Visible="True" ForeColor="Red" Font-Bold="True"></asp:RequiredFieldValidator>
+                   <asp:DropDownList ID="ddlICDData" runat="server" width="130px" ></asp:DropDownList>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator3" 
+                       runat="server" ErrorMessage="*" ControlToValidate="ddlICDData" InitialValue="0"
+                       ValidationGroup="check" Visible="True"></asp:RequiredFieldValidator>   
+                  </td>
+                   
+                  <td class="FormLabel">
+                      <asp:Label ID="lblICD1" runat="server" Text="<%$ Resources:Resource,L_SECONDARYDG1 %>"></asp:Label>
+                    <%--  <asp:Label ID="lblICD2" runat="server" Text="<%$ Resources:Resource,L_SECONDARYDG2 %>"></asp:Label> --%>
+                  </td>
+                  <td class="DataEntry">  
+                      <asp:TextBox ID="txtICDCode1" size="15" runat="server"  class="cmb txtICDCode1"
+                    ></asp:TextBox>
                       <asp:DropDownList ID="ddlICDData1" runat="server" width="135px">
                       </asp:DropDownList>
+                    <%--   <asp:DropDownList ID="ddlICDData2" runat="server" width="135px">
+                      </asp:DropDownList> --%>
                   </td>
                   <td class="FormLabel">
-                      <asp:Label ID="lblICD2" runat="server" Text="<%$ Resources:Resource,L_SECONDARYDG2 %>"></asp:Label>
+                       <asp:Label ID="lblExpiryDate" runat="server" Text="Expiry Date"></asp:Label>
+                   <%--    <asp:Label ID="lblICD3" runat="server" Text="<%$ Resources:Resource,L_SECONDARYDG3 %>"></asp:Label> --%>
                   </td>
                   <td class="DataEntry">
-                      <asp:DropDownList ID="ddlICDData2" runat="server" width="135px">
-                      </asp:DropDownList>
+                       <asp:textbox ID="txtExpiry" runat="server" Text="" BorderStyle="Solid" style="text-align:right" Enabled ="false"></asp:textbox>
+                   <%--    <asp:DropDownList ID="ddlICDData3" runat="server" width="135px">
+                      </asp:DropDownList> --%>
                   </td>
+
                   <td class="FormLabel">
-                      <asp:Label ID="lblICD3" runat="server" Text="<%$ Resources:Resource,L_SECONDARYDG3 %>"></asp:Label>
+                       <asp:Label ID="lblServiceTotal" runat="server" Text="Service Total"></asp:Label>
+                  <%--     <asp:Label ID="lblICD4" runat="server" Text="<%$ Resources:Resource,L_SECONDARYDG4 %>"></asp:Label> --%>
                   </td>
                   <td class="DataEntry">
-                      <asp:DropDownList ID="ddlICDData3" runat="server" width="135px">
-                      </asp:DropDownList>
+                      <asp:textbox ID="txtServTotal" runat="server" Text="" BorderStyle="Solid" style="text-align:right" Enabled ="false"></asp:textbox>
+                  <%--     <asp:DropDownList ID="ddlICDData4" runat="server" width="135px">
+                      </asp:DropDownList> --%>
                   </td>
-                  <td class="FormLabel">
-                      <asp:Label ID="lblICD4" runat="server" Text="<%$ Resources:Resource,L_SECONDARYDG4 %>"></asp:Label>
-                  </td>
-                  <td class="DataEntry">
-                      <asp:DropDownList ID="ddlICDData4" runat="server" width="135px">
-                      </asp:DropDownList>
-                  </td>
+                      
               </tr>
               <tr>
                   <td class="FormLabel" style="width:400px;">
@@ -685,21 +825,40 @@ In case of dispute arising out or in relation to the use of the program, it is s
                           width="135px"></asp:TextBox>
                   </td>
                   <td class="FormLabel" style="width:400px;">
-                      <asp:Label ID="lblGurantee" runat="server" 
-                          Text="<%$ Resources:Resource,L_GUARANTEE %>"></asp:Label>
+                      <asp:Label ID="lblVisitType" runat="server" Text="<%$ Resources:Resource,L_VISITTYPE %>"></asp:Label>
+                  <%--    <asp:Label ID="lblGurantee" runat="server" 
+                          Text="<%$ Resources:Resource,L_GUARANTEE %>"></asp:Label> --%>
+                       <div class="opdipd">
+                      <asp:Label ID="Label1" runat="server" 
+                          Text="OPD/IPD"></asp:Label></div>
                   </td>
                   <td class="DataEntry">
-                      <asp:TextBox ID="txtGuaranteeId" runat="server" Enabled="true" width="135px" 
-                          MaxLength="50"></asp:TextBox>
-                  </td>
-                  <td class="FormLabel" style="width:400px;">
-                    <asp:Label ID="lblVisitType" runat="server" Text="<%$ Resources:Resource,L_VISITTYPE %>"></asp:Label>
-                  </td>
-                  <td class="DataEntry" colspan="5">
-                    <asp:DropDownList ID="ddlVisitType" runat="server" Width="135px">
+                       <asp:DropDownList ID="ddlVisitType" runat="server" Width="135px">
                     </asp:DropDownList>
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ErrorMessage="*"
                         ControlToValidate="ddlVisitType" ValidationGroup="check" Visible="True"></asp:RequiredFieldValidator>
+                       
+                  </td>
+                  <td class="FormLabel">
+                     <div class="opdipd">
+                      <asp:Label ID="lblOPDIPD" runat="server" 
+                          Text="OPD/IPD"></asp:Label></div>
+                  <td class="DataEntry">
+                      <div class="opdipd">
+                      <asp:DropDownList ID="ddlOPDIPD" runat="server" Width="120px">
+                         <asp:ListItem Selected="True" Text="Select" Value="0"></asp:ListItem>                         
+                         <asp:ListItem Text="OPD" Value="OPD"></asp:ListItem>                       
+                         <asp:ListItem Text="IPD" Value="IPD"></asp:ListItem>
+                    </asp:DropDownList>
+                      <asp:TextBox ID="txtGuaranteeId" runat="server" Enabled="true" width="135px" 
+                          MaxLength="50"></asp:TextBox>
+                      </div>
+                      </td>
+                  <td class="FormLabel" style="width:400px;">
+                     <asp:Label ID="lblItemTotal" runat="server" Text="Item Total"></asp:Label></td>
+                  </td>
+                  <td class="DataEntry" colspan="5">
+                   <asp:textbox ID="txtItemTotal" runat="server" Text="" BorderStyle="Solid" style="text-align:right" Enabled ="false"></asp:textbox>
                   </td>
                   <td class="FormLabel">
                       &nbsp;</td>
@@ -921,6 +1080,24 @@ In case of dispute arising out or in relation to the use of the program, it is s
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="HiddenContainer" runat="Server">
     <%--style="display:none;position:absolute;" --%>
+    <%-- Change by Purushottam Sapkota Starts --%>
+          <asp:Panel ID="pnlHiddenIcdCodes" class="pnlHiddenIcdCodes" runat="server">
+        <asp:Panel ID="Panel3" class="innerPanel" runat="server" Height="130px" ScrollBars="Vertical">
+            <asp:GridView ID="gvHiddenIcdCodes" runat="server" AutoGenerateColumns="false"
+                GridLines="None" PagerStyle-CssClass="pgr" ShowSelectButton="false" DataKeyNames="ICDCode,ICDName,ICDID">
+                <Columns>
+                    <%--<asp:BoundField DataField="ServiceID" HeaderText=''></asp:BoundField >--%>                    
+                    <asp:BoundField DataField="ICDID" HeaderText="ICD ID">
+                    </asp:BoundField>
+                    <asp:BoundField DataField="ICDCode" HeaderText="ICD CODE">
+                    </asp:BoundField>
+                    <asp:BoundField DataField="ICDName" HeaderText="ICD Name">
+                    </asp:BoundField>
+                </Columns>
+            </asp:GridView>
+        </asp:Panel>
+        <a href="javascript:void" class="hiddenPanelCloseButton">cancel</a></asp:Panel>
+    <%-- Change by Purushottam Sapkota Ends --%>
     <asp:Panel ID="pnlHiddenServiceCodes" class="pnlHiddenServiceCodes" runat="server">
         <asp:Panel ID="Panel2" class="innerPanel" runat="server" Height="130px" ScrollBars="Vertical">
             <asp:GridView ID="gvHiddenServiceCodes" runat="server" AutoGenerateColumns="false"

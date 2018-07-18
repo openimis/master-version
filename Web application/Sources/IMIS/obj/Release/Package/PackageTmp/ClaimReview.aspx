@@ -309,7 +309,7 @@ In case of dispute arising out or in relation to the use of the program, it is s
                                <HeaderStyle Width="125px" />                                
                                </asp:BoundField>
                                
-                                <asp:BoundField DataField="QtyProvided" DataFormatString="{0:n0}"  HeaderText="<%$ Resources:Resource, L_QTY %> "   ItemStyle-HorizontalAlign="Right" SortExpression="QtyProvided" >
+                                <asp:BoundField DataField="QtyProvided" DataFormatString="{0:n2}"  HeaderText="<%$ Resources:Resource, L_QTY %> "   ItemStyle-HorizontalAlign="Right" SortExpression="QtyProvided" >
                                 <HeaderStyle Width="25px" />                                
                                </asp:BoundField>
                                
@@ -397,7 +397,7 @@ In case of dispute arising out or in relation to the use of the program, it is s
                                <HeaderStyle Width="125px" />
                                </asp:BoundField>
                                
-                                <asp:BoundField DataField="QtyProvided" DataFormatString="{0:n0}"  HeaderText="<%$ Resources:Resource, L_QTY %> "   ItemStyle-HorizontalAlign="Right" SortExpression="QtyProvided" >
+                                <asp:BoundField DataField="QtyProvided" DataFormatString="{0:n2}"  HeaderText="<%$ Resources:Resource, L_QTY %> "   ItemStyle-HorizontalAlign="Right" SortExpression="QtyProvided" >
                                 <HeaderStyle Width="25px" /> 
                                </asp:BoundField>
                                

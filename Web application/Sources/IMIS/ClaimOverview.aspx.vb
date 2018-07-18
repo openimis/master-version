@@ -26,7 +26,7 @@
 ' 
 '
 
-Public Partial Class ClaimOverview
+Partial Public Class ClaimOverview
     Inherits System.Web.UI.Page
     Private eClaim As New IMIS_EN.tblClaim
     Private ClaimOverviews As New IMIS_BI.ClaimOverviewBI
@@ -35,7 +35,7 @@ Public Partial Class ClaimOverview
     Dim eHF As New IMIS_EN.tblHF
     Private eClaimAdmin As New IMIS_EN.tblClaimAdmin
     Private userBI As New IMIS_BI.UserBI
-    
+
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         txtValue.Enabled = chkValue.Checked
 
@@ -61,7 +61,7 @@ Public Partial Class ClaimOverview
             If dtRegions.Rows.Count = 1 Then
                 FillDistrict()
             End If
-         
+
 
             ddlSelectionType.DataSource = ClaimOverviews.GetReviewSelection(True)
             ddlSelectionType.DataTextField = "ReviewText"
@@ -100,7 +100,7 @@ Public Partial Class ClaimOverview
                 Exit Sub
             End If
             loadGrid()
-           
+
         Catch ex As Exception
             'lblMsg.Text = imisgen.getMessage("M_ERRORMESSAGE")
             imisgen.Alert(imisgen.getMessage("M_ERRORMESSAGE"), pnlBody, alertPopupTitle:="IMIS")
@@ -228,23 +228,30 @@ Public Partial Class ClaimOverview
 
 
         For Each row As GridViewRow In gv.Rows
-            ddl = CType(row.Cells(4).Controls(1), DropDownList)
+            ddl = CType(row.Cells(5).Controls(1), DropDownList)
             ddl.DataSource = dt
             ddl.DataTextField = "Status"
             ddl.DataValueField = "Code"
             ddl.DataBind()
             ddl.SelectedValue = gvClaims.DataKeys(row.RowIndex).Values("ReviewStatus")
-          
+
             FilterStatusCombination(ddl)
 
 
-            ddl2 = CType(row.Cells(3).Controls(1), DropDownList)
+            ddl2 = CType(row.Cells(4).Controls(1), DropDownList)
             ddl2.DataSource = dt2
             ddl2.DataTextField = "Status"
             ddl2.DataValueField = "Code"
             ddl2.DataBind()
             ddl2.SelectedValue = gvClaims.DataKeys(row.RowIndex).Values("FeedbackStatus")
+            'Start of color coding by Nirmal
+            Dim claimAmount As Double
+            claimAmount = Convert.ToDouble(row.Cells(6).Text)
+            If claimAmount >= 5000 Then
+                row.BackColor = System.Drawing.Color.FromArgb(255, 170, 255)
+            End If
 
+            'End of color coding by Nirmal
             FilterStatusCombination(ddl2)
         Next
     End Sub
@@ -253,7 +260,7 @@ Public Partial Class ClaimOverview
             Dim eICDCodes As New IMIS_EN.tblICDCodes
             Dim eInsuree As New IMIS_EN.tblInsuree
             Dim eBatchRun As New IMIS_EN.tblBatchRun
-           
+
             If (Not Request.QueryString("c") = 0) And (ScriptManager.GetCurrent(Me.Page).IsInAsyncPostBack() = False) Then
 
                 hfClaimID.Value = Request.QueryString("c")
@@ -468,8 +475,8 @@ Public Partial Class ClaimOverview
             Dim flagChanges As Boolean = False
             eClaim.AuditUserID = imisgen.getUserId(Session("User"))
             For Each row In gvClaims.Rows
-                Dim ddlFedBack As DropDownList = CType(row.cells(3).controls(1), DropDownList)
-                Dim ddlReview As DropDownList = CType(row.cells(4).controls(1), DropDownList)
+                Dim ddlFedBack As DropDownList = CType(row.cells(4).controls(1), DropDownList)
+                Dim ddlReview As DropDownList = CType(row.cells(5).controls(1), DropDownList)
                 If (ddlFedBack.SelectedValue = 2) Or (ddlFedBack.SelectedValue = 4) Then
                     If CheckDifferenceForUpdate(gvClaims, row.RowIndex, ddlFedBack, "FeedbackStatus") = True Then
                         eClaim.FeedbackStatus = ddlFedBack.SelectedValue
@@ -537,14 +544,14 @@ Public Partial Class ClaimOverview
             GetFilterCriteria()
             loadGrid()
             chkboxSelectToProcess.Checked = False
-            hfProcessClaims.Value = "<h4><u>" & imisgen.getMessage("M_SUBMITTEDTOPROCESS") & "</u></h4>" & "<br>" & _
-                                    "<table><tr><td>" & imisgen.getMessage("M_SUBMITTED") & "</td><td>" & Submitted & "</td></tr><tr><td>" & _
-                                    imisgen.getMessage("M_PROCESSED") & "</td><td>" & Processed & "</td></tr><tr><td>" & imisgen.getMessage("M_VALUATED") & _
-                                    "</td><td>" & Valuated & "</td></tr><tr><td>" & imisgen.getMessage("M_CHANGED") & "</td><td>" & Changed & _
-                                    "</td></tr><tr><td>" & imisgen.getMessage("M_REJECTED") & "</td><td>" & Rejected & "</td></tr><tr><td>" & _
+            hfProcessClaims.Value = "<h4><u>" & imisgen.getMessage("M_SUBMITTEDTOPROCESS") & "</u></h4>" & "<br>" &
+                                    "<table><tr><td>" & imisgen.getMessage("M_SUBMITTED") & "</td><td>" & Submitted & "</td></tr><tr><td>" &
+                                    imisgen.getMessage("M_PROCESSED") & "</td><td>" & Processed & "</td></tr><tr><td>" & imisgen.getMessage("M_VALUATED") &
+                                    "</td><td>" & Valuated & "</td></tr><tr><td>" & imisgen.getMessage("M_CHANGED") & "</td><td>" & Changed &
+                                    "</td></tr><tr><td>" & imisgen.getMessage("M_REJECTED") & "</td><td>" & Rejected & "</td></tr><tr><td>" &
                                     imisgen.getMessage("M_FAILED") & "</td><td>" & Failed & "</td></tr></td></tr></table>"
 
-            
+
         Catch ex As Exception
             'lblMsg.Text = imisgen.getMessage("M_ERRORMESSAGE")
             imisgen.Alert(imisgen.getMessage("M_ERRORMESSAGE"), pnlBody, alertPopupTitle:="IMIS")
@@ -561,12 +568,12 @@ Public Partial Class ClaimOverview
             ClaimOverviews.ReviewFeedbackSelection(ClaimIDDatatable(), getValue, ddlSelectionType.SelectedValue, getSelectionType(), GetSelectionValue(), Submitted, Selected, NotSelected)
             loadGrid()
             ddlSelectionType.SelectedValue = 0
-            hfSelectionExecute.Value = "<h4><u>" & imisgen.getMessage("M_SUBMITTEDTOUPDATE") & "</u></h4>" & "<br>" & _
-                                    "<table><tr><td>" & imisgen.getMessage("M_SUBMITTED") & "</td><td>" & Submitted & "</td></tr><tr><td>" & _
-                                    imisgen.getMessage("M_SELECTED") & "</td><td>" & Selected & "</td></tr><tr><td>" & imisgen.getMessage("M_NOTSELECTED") & _
+            hfSelectionExecute.Value = "<h4><u>" & imisgen.getMessage("M_SUBMITTEDTOUPDATE") & "</u></h4>" & "<br>" &
+                                    "<table><tr><td>" & imisgen.getMessage("M_SUBMITTED") & "</td><td>" & Submitted & "</td></tr><tr><td>" &
+                                    imisgen.getMessage("M_SELECTED") & "</td><td>" & Selected & "</td></tr><tr><td>" & imisgen.getMessage("M_NOTSELECTED") &
                                     "</td><td>" & NotSelected & "</td></tr></table>"
 
-            
+
         Catch ex As Exception
             'lblMsg.Text = imisgen.getMessage("M_ERRORMESSAGE")
             imisgen.Alert(imisgen.getMessage("M_ERRORMESSAGE"), pnlBody, alertPopupTitle:="IMIS")
@@ -627,15 +634,15 @@ Public Partial Class ClaimOverview
     End Function
 
     Private Function FilterDataTable() As DataTable
-       
+
         Dim filter As String = ""
         If ddlSelectionType.SelectedValue = 0 Then
             filter = ""
         ElseIf ddlSelectionType.SelectedValue = 1 Then
-            filter = "ReviewStatus=1 and ClaimStatus <> '" & imisgen.getMessage("T_VALUATED") & "' and ClaimStatus <> '" & _
+            filter = "ReviewStatus=1 and ClaimStatus <> '" & imisgen.getMessage("T_VALUATED") & "' and ClaimStatus <> '" &
                     imisgen.getMessage("T_PROCESSED") & "' and ClaimStatus <> '" & imisgen.getMessage("T_REJECTED") & "' "
         Else
-            filter = "FeedbackStatus=1 and ClaimStatus <> '" & imisgen.getMessage("T_VALUATED") & "' and ClaimStatus <> '" & _
+            filter = "FeedbackStatus=1 and ClaimStatus <> '" & imisgen.getMessage("T_VALUATED") & "' and ClaimStatus <> '" &
                     imisgen.getMessage("T_PROCESSED") & "' and ClaimStatus <> '" & imisgen.getMessage("T_REJECTED") & "'"
         End If
 
@@ -674,9 +681,9 @@ Public Partial Class ClaimOverview
     End Sub
 
     Protected Sub chkValue_CheckedChanged(ByVal sender As Object, ByVal e As EventArgs) Handles chkValue.CheckedChanged
-        If chkValue.Checked then 
-            filterGrid()
-         end if
+        If chkValue.Checked Then
+            FilterGrid()
+        End If
     End Sub
     Private Sub ClaimCodeTxtControl()
         If ddlHFCode.SelectedValue = 0 Then
@@ -692,4 +699,184 @@ Public Partial Class ClaimOverview
     Private Sub ddlRegion_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ddlRegion.SelectedIndexChanged
         FillDistrict()
     End Sub
+    'start of Sorting code added by nirmal
+    Protected Sub SortRecords(ByVal sender As Object, ByVal e As GridViewSortEventArgs)
+        Dim sortExpression As String = e.SortExpression
+        Dim direction As String = String.Empty
+        If SortDirection = SortDirection.Ascending Then
+            SortDirection = SortDirection.Descending
+            direction = " DESC"
+        Else
+            SortDirection = SortDirection.Ascending
+            direction = " ASC"
+        End If
+        Dim table As DataTable = loadGridforSorting()
+        table.DefaultView.Sort = sortExpression & direction
+        gvClaims.DataSource = table
+        gvClaims.DataBind()
+        completeGridFill(gvClaims)
+        ButtonDisplayControl(gvClaims.Rows.Count)
+    End Sub
+
+    Public Property SortDirection() As SortDirection
+        Get
+            If ViewState("SortDirection") Is Nothing Then
+                ViewState("SortDirection") = SortDirection.Ascending
+            End If
+            Return DirectCast(ViewState("SortDirection"), SortDirection)
+        End Get
+        Set(ByVal value As SortDirection)
+            ViewState("SortDirection") = value
+        End Set
+    End Property
+    Private Function loadGridforSorting()
+        Try
+            Dim eICDCodes As New IMIS_EN.tblICDCodes
+            Dim eInsuree As New IMIS_EN.tblInsuree
+            Dim eBatchRun As New IMIS_EN.tblBatchRun
+
+            If (Not Request.QueryString("c") = 0) And (ScriptManager.GetCurrent(Me.Page).IsInAsyncPostBack() = False) Then
+
+                hfClaimID.Value = Request.QueryString("c")
+                Dim dic As New Dictionary(Of String, String)
+                If Not Session("ClaimOverviewCriteria") Is Nothing Then
+                    dic = CType(Session("ClaimOverviewCriteria"), Dictionary(Of String, String))
+                End If
+                eClaim.LegacyID = dic("DistrictID") 'Used as a carrier for DistrictID
+                eHF.HfID = dic("HFID")
+                eClaim.FeedbackStatus = dic("FeedbackStatus")
+                eClaim.ReviewStatus = dic("ReviewStatus")
+                eClaim.ClaimStatus = dic("ClaimStatus")
+                eICDCodes.ICDID = dic("ICDID")
+
+                If Not dic("CHFNo") = "" Then
+                    eInsuree.CHFID = dic("CHFNo")
+                End If
+                If Not dic("VisitDateTo") = "" Then
+                    eClaim.DateTo = Date.Parse(dic("VisitDateTo"))
+                End If
+
+                If Not dic("VisitDateFrom") = "" Then
+                    eClaim.DateFrom = Date.Parse(dic("VisitDateFrom"))
+                End If
+                If Not dic("ClaimedDateFrom") = "" Then
+                    eClaim.DateClaimed = Date.Parse(dic("ClaimedDateFrom"))
+                End If
+
+                If Not dic("ClaimedDateTo") = "" Then
+                    eClaim.DateProcessed = Date.Parse(dic("ClaimedDateTo")) 'Used as a carrier for ClaimedDate to range 
+                End If
+                If Not dic("HFName") = "" Then
+                    eHF.HFName = dic("HFName")
+                End If
+                If Not dic("BatchRun") = "" Then
+                    eBatchRun.RunID = dic("BatchRun")
+                End If
+                If Not dic("ClaimCode") = "" Then
+                    eClaim.ClaimCode = dic("ClaimCode")
+                End If
+                If dic("ClaimAdminID") IsNot Nothing Then
+                    If dic("ClaimAdminID").Trim <> String.Empty Then
+                        eClaimAdmin.ClaimAdminId = dic("ClaimAdminID")
+                    End If
+                End If
+                If dic("VisitType") IsNot Nothing AndAlso dic("VisitType").Trim <> String.Empty Then
+                    eClaim.VisitType = dic("VisitType")
+                End If
+                eClaim.tblClaimAdmin = eClaimAdmin
+                ddlDistrict.SelectedValue = eClaim.LegacyID
+                ddlHFCode.SelectedValue = eHF.HfID
+                FillClaimAdminCodes()
+                ddlFBStatus.SelectedValue = eClaim.FeedbackStatus
+                ddlReviewStatus.SelectedValue = eClaim.ReviewStatus
+                ddlClaimStatus.SelectedValue = eClaim.ClaimStatus
+                ddlICD.SelectedValue = eICDCodes.ICDID
+
+                txtClaimCode.Text = IIf(eClaim.ClaimCode Is Nothing, "", eClaim.ClaimCode)
+                txtHFName.Text = eHF.HFName
+                txtCHFID.Text = eInsuree.CHFID
+                txtClaimTo.Text = IIf(eClaim.DateTo Is Nothing, "", eClaim.DateTo)
+                txtClaimFrom.Text = IIf(eClaim.DateFrom = Nothing, "", eClaim.DateFrom)
+                txtClaimedDateFrom.Text = IIf(eClaim.DateClaimed = Nothing, "", eClaim.DateClaimed)
+                txtClaimedDateTo.Text = IIf(eClaim.DateProcessed Is Nothing, "", eClaim.DateProcessed) 'Used as a carrier for ClaimedDate to range 
+                ddlBatchRun.SelectedValue = IIf(eBatchRun.RunID = Nothing, Nothing, eBatchRun.RunID)
+                ddlClaimAdmin.SelectedValue = eClaim.tblClaimAdmin.ClaimAdminId
+                ddlVisitType.SelectedValue = eClaim.VisitType
+                '''''clear Session("ClaimOverviewCriteria")....
+                Session.Remove("ClaimOverviewCriteria")
+
+            Else
+                eClaim.LegacyID = ddlDistrict.SelectedValue 'Used as a carrier for DistrictID
+                If ddlHFCode.SelectedIndex >= 0 Then
+                    eHF.HfID = ddlHFCode.SelectedValue
+                End If
+
+                eClaim.FeedbackStatus = ddlFBStatus.SelectedValue
+                eClaim.ReviewStatus = ddlReviewStatus.SelectedValue
+                eClaim.ClaimStatus = ddlClaimStatus.SelectedValue
+                eICDCodes.ICDID = ddlICD.SelectedValue
+                If Not ddlBatchRun.SelectedValue = "" Then
+                    eBatchRun.RunID = ddlBatchRun.SelectedValue
+                End If
+
+                If Not txtClaimCode.Text = "" Then
+                    eClaim.ClaimCode = txtClaimCode.Text
+                End If
+                If Not txtCHFID.Text = "" Then
+                    eInsuree.CHFID = txtCHFID.Text
+                End If
+                If Not txtClaimTo.Text = "" Then
+                    eClaim.DateTo = Date.Parse(txtClaimTo.Text)
+                End If
+
+                If Not txtClaimFrom.Text = "" Then
+
+                    eClaim.DateFrom = Date.Parse(txtClaimFrom.Text)
+
+                End If
+                If Not txtClaimedDateFrom.Text = "" Then
+                    eClaim.DateClaimed = Date.Parse(txtClaimedDateFrom.Text)
+                End If
+                If Not txtHFName.Text = "" Then
+                    eHF.HFName = txtHFName.Text
+                End If
+                If Not txtClaimedDateTo.Text = "" Then
+                    eClaim.DateProcessed = Date.Parse(txtClaimedDateTo.Text) 'Used as a carrier for ClaimedDate to range 
+                End If
+                If ddlClaimAdmin.SelectedIndex > -1 Then
+                    eClaimAdmin.ClaimAdminId = ddlClaimAdmin.SelectedValue
+                End If
+                If ddlVisitType.SelectedIndex > 0 Then
+                    eClaim.VisitType = ddlVisitType.SelectedValue
+                End If
+            End If
+
+            eClaim.tblHF = eHF
+            eClaim.tblInsuree = eInsuree
+            eClaim.tblICDCodes = eICDCodes
+            eClaim.tblBatchRun = eBatchRun
+            eClaim.tblClaimAdmin = eClaimAdmin
+
+            'If ClaimOverviews.GetReviewClaimsCount(eClaim, imisgen.getUserId(Session("User"))) = 1 Then
+            '    imisgen.Alert(imisgen.getMessage("M_CLAIMSEXCEEDLIMIT"), pnlButtons, alertPopupTitle:="IMIS")
+            '    Return
+            'End If
+
+            Dim dt As DataTable = ClaimOverviews.GetReviewClaims(eClaim, imisgen.getUserId(Session("User")))
+            Session("dtGrid") = dt
+            gvClaims.DataSource = dt
+            'gvClaims.HeaderRow.TableSection = TableRowSection.TableHeader
+            Return dt
+
+
+        Catch ex As Exception
+            'lblMsg.Text = imisgen.getMessage("M_ERRORMESSAGE")
+            imisgen.Alert(imisgen.getMessage("M_ERRORMESSAGE"), pnlBody, alertPopupTitle:="IMIS")
+            EventLog.WriteEntry("IMIS", Page.Title & " : " & imisgen.getLoginName(Session("User")) & " : " & ex.Message, EventLogEntryType.Error, 999)
+            Dim dt1 As DataTable = New DataTable
+            Return dt1
+        End Try
+    End Function
+
+    'End of sorting code added by nirmal
 End Class

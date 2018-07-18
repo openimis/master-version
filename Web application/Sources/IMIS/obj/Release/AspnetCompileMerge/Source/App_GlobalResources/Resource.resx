@@ -3616,7 +3616,7 @@
     <value>We could not send email. Please try again later.</value>
   </data>
   <data name="L_REGION" xml:space="preserve">
-    <value>Region</value>
+    <value>Province</value>
   </data>
   <data name="M_NOREGIONS" xml:space="preserve">
     <value>No regions found</value>
@@ -3628,7 +3628,7 @@
     <value>Total Insurees</value>
   </data>
   <data name="L_REGIONNAME" xml:space="preserve">
-    <value>Region Name</value>
+    <value>Province Name</value>
   </data>
   <data name="M_DELETEREGIONPROMPT" xml:space="preserve">
     <value>Are you sure you want to delete Region?</value>
@@ -3742,7 +3742,7 @@
     <value>District Code</value>
   </data>
   <data name="L_REGIONCODE" xml:space="preserve">
-    <value>Region Code</value>
+    <value>Province Code</value>
   </data>
   <data name="L_VILLAGECODE" xml:space="preserve">
     <value>Village Code</value>
@@ -3898,7 +3898,7 @@
     <value>District Total</value>
   </data>
   <data name="L_REGIONTOTAL" xml:space="preserve">
-    <value>Region Total</value>
+    <value>Province Total</value>
   </data>
   <data name="L_UNITPRICE" xml:space="preserve">
     <value>Unit Price</value>

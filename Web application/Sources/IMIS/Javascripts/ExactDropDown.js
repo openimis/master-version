@@ -54,7 +54,12 @@ var dropdown = {
 
         $(".txtServiceCode,.txtItemCode").keydown(function(e) {
             that.eventType = "keydown";
-
+            if (e.which == 8 || e.which == 46) {
+                alert("Click Delete Icon to Delete!");
+                e.preventDefault();
+                e.stopPropagation();
+                return false;
+            }
             if (e.which == 13) {
                 that.$sourceTxtbox = $(this);
                 that.writeSelectedRowToUserGridView();

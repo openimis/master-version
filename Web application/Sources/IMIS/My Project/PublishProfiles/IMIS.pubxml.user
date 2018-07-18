@@ -6,53 +6,53 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>C:\HVH-IMIS\IMIS 17.5.14  16-12-2017\IMIS\IMIS V17.5.14 12.12.2017 - MASTER\MASTER Published 17.5.14 16-12-2017</_PublishTargetUrl>
+    <_PublishTargetUrl>D:\IMIS\master_published</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="7z.dll">
-      <publishTime>11/01/2017 17:43:47</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="7z64.dll">
-      <publishTime>11/01/2017 17:43:47</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="AddFunding.aspx">
-      <publishTime>11/25/2017 12:50:59</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Archive/cnt.dm">
       <publishTime>01/31/2017 16:46:29</publishTime>
     </File>
     <File Include="bin/7z.dll">
-      <publishTime>11/01/2017 17:43:47</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="bin/7z64.dll">
-      <publishTime>11/01/2017 17:43:47</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="bin/AjaxControlToolkit.dll">
-      <publishTime>12/14/2013 20:05:02</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="bin/AjaxControlToolkit.pdb">
       <publishTime>12/14/2013 20:05:00</publishTime>
     </File>
     <File Include="bin/AjaxMin.dll">
-      <publishTime>12/05/2013 01:25:38</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="bin/App_global.asax.compiled">
-      <publishTime>12/16/2017 14:40:29</publishTime>
+      <publishTime>07/18/2018 11:41:14</publishTime>
     </File>
     <File Include="bin/App_global.asax.dll">
-      <publishTime>12/16/2017 14:40:29</publishTime>
+      <publishTime>07/18/2018 11:41:14</publishTime>
     </File>
     <File Include="bin/App_GlobalResources.compiled">
-      <publishTime>12/16/2017 14:40:29</publishTime>
+      <publishTime>07/18/2018 11:41:13</publishTime>
     </File>
     <File Include="bin/App_GlobalResources.dll">
-      <publishTime>12/16/2017 14:40:28</publishTime>
+      <publishTime>07/18/2018 11:41:13</publishTime>
     </File>
     <File Include="bin/App_GlobalResources/Resource.fr.resx">
-      <publishTime>10/02/2017 16:41:36</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="bin/App_GlobalResources/Resource.resx">
-      <publishTime>10/31/2017 13:19:03</publishTime>
+      <publishTime>06/15/2018 16:36:22</publishTime>
     </File>
     <File Include="bin/ar/AjaxControlToolkit.resources.dll">
       <publishTime>12/14/2013 20:05:01</publishTime>
@@ -94,7 +94,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/14/2013 20:05:01</publishTime>
     </File>
     <File Include="bin/fr/App_GlobalResources.resources.dll">
-      <publishTime>12/16/2017 14:40:28</publishTime>
+      <publishTime>07/18/2018 11:41:13</publishTime>
     </File>
     <File Include="bin/fr/Microsoft.Data.Edm.resources.dll">
       <publishTime>12/05/2013 01:25:45</publishTime>
@@ -118,43 +118,43 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/05/2013 01:25:36</publishTime>
     </File>
     <File Include="bin/IMIS.dll">
-      <publishTime>12/16/2017 14:40:18</publishTime>
+      <publishTime>07/18/2018 11:41:07</publishTime>
     </File>
     <File Include="bin/IMIS.pdb">
-      <publishTime>10/16/2017 17:00:03</publishTime>
+      <publishTime>07/18/2018 11:41:07</publishTime>
     </File>
     <File Include="bin/IMIS.xml">
-      <publishTime>12/16/2017 14:40:18</publishTime>
+      <publishTime>07/18/2018 11:41:07</publishTime>
     </File>
     <File Include="bin/IMIS.XmlSerializers.dll">
-      <publishTime>12/16/2017 14:40:23</publishTime>
+      <publishTime>07/18/2018 11:41:07</publishTime>
     </File>
     <File Include="bin/IMIS_BI.dll">
-      <publishTime>12/16/2017 14:40:15</publishTime>
+      <publishTime>07/18/2018 11:41:05</publishTime>
     </File>
     <File Include="bin/IMIS_BI.pdb">
-      <publishTime>10/16/2017 16:57:13</publishTime>
+      <publishTime>07/18/2018 11:41:05</publishTime>
     </File>
     <File Include="bin/IMIS_BL.dll">
-      <publishTime>12/16/2017 14:40:15</publishTime>
+      <publishTime>07/18/2018 11:41:05</publishTime>
     </File>
     <File Include="bin/IMIS_BL.pdb">
-      <publishTime>10/16/2017 16:57:13</publishTime>
+      <publishTime>07/18/2018 11:41:05</publishTime>
     </File>
     <File Include="bin/IMIS_DAL.dll">
-      <publishTime>12/16/2017 14:40:15</publishTime>
+      <publishTime>07/18/2018 11:41:04</publishTime>
     </File>
     <File Include="bin/IMIS_DAL.pdb">
-      <publishTime>10/16/2017 16:57:12</publishTime>
+      <publishTime>07/18/2018 11:41:04</publishTime>
     </File>
     <File Include="bin/IMIS_EN.dll">
-      <publishTime>11/25/2017 12:52:22</publishTime>
+      <publishTime>07/18/2018 11:41:03</publishTime>
     </File>
     <File Include="bin/IMIS_EN.dll.config">
-      <publishTime>08/28/2017 10:57:10</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="bin/IMIS_EN.pdb">
-      <publishTime>10/16/2017 16:57:12</publishTime>
+      <publishTime>07/18/2018 11:41:03</publishTime>
     </File>
     <File Include="bin/it/AjaxControlToolkit.resources.dll">
       <publishTime>12/14/2013 20:05:02</publishTime>
@@ -244,10 +244,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/05/2013 01:25:46</publishTime>
     </File>
     <File Include="bin/SevenZipSharp.dll">
-      <publishTime>10/25/2013 16:05:16</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="bin/System.Data.SQLite.dll">
-      <publishTime>04/18/2010 13:58:58</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="bin/System.Spatial.dll">
       <publishTime>12/05/2013 01:25:46</publishTime>
@@ -286,37 +286,37 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/05/2013 01:25:46</publishTime>
     </File>
     <File Include="ChangeFamily.aspx">
-      <publishTime>11/25/2017 12:50:59</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="ChangePassword.aspx">
-      <publishTime>11/25/2017 12:50:59</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Claim.aspx">
-      <publishTime>11/29/2017 16:20:59</publishTime>
+      <publishTime>06/21/2018 12:16:22</publishTime>
     </File>
     <File Include="ClaimAdministrator.aspx">
-      <publishTime>11/25/2017 12:50:59</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="ClaimFeedback.aspx">
-      <publishTime>11/25/2017 12:50:59</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="ClaimOverview.aspx">
-      <publishTime>11/25/2017 12:50:59</publishTime>
+      <publishTime>07/18/2018 11:10:26</publishTime>
     </File>
     <File Include="ClaimReview.aspx">
-      <publishTime>11/25/2017 12:50:59</publishTime>
+      <publishTime>07/18/2018 11:17:09</publishTime>
     </File>
     <File Include="Default.aspx">
-      <publishTime>11/25/2017 12:50:59</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Download.aspx">
-      <publishTime>11/25/2017 12:50:59</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="EmailSettings.aspx">
-      <publishTime>11/25/2017 12:50:59</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Error.htm">
-      <publishTime>12/19/2016 16:55:46</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Extracts/OffLine/WorkFolder/cnt.dm">
       <publishTime>01/31/2017 16:46:30</publishTime>
@@ -325,58 +325,58 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/31/2017 16:46:30</publishTime>
     </File>
     <File Include="Family.aspx">
-      <publishTime>11/25/2017 12:50:59</publishTime>
+      <publishTime>06/28/2018 12:07:37</publishTime>
     </File>
     <File Include="FeedbackPrompt.aspx">
-      <publishTime>11/25/2017 12:50:59</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="FindClaimAdministrator.aspx">
-      <publishTime>11/25/2017 12:50:59</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="FindClaims.aspx">
-      <publishTime>11/25/2017 12:50:59</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="FindFamily.aspx">
-      <publishTime>11/25/2017 12:50:59</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="FindHealthFacility.aspx">
-      <publishTime>11/25/2017 12:50:59</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="FindInsuree.aspx">
-      <publishTime>11/25/2017 12:50:59</publishTime>
+      <publishTime>06/21/2018 14:35:03</publishTime>
     </File>
     <File Include="FindMedicalItem.aspx">
-      <publishTime>11/25/2017 12:50:59</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="FindMedicalService.aspx">
-      <publishTime>11/25/2017 12:50:59</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="FindOfficer.aspx">
-      <publishTime>11/25/2017 12:50:59</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="FindPayer.aspx">
-      <publishTime>11/25/2017 12:50:59</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="FindPolicy.aspx">
-      <publishTime>11/25/2017 12:50:59</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="FindPremium.aspx">
-      <publishTime>11/25/2017 12:50:59</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="FindPriceListMI.aspx">
-      <publishTime>11/25/2017 12:50:59</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="FindPriceListMS.aspx">
-      <publishTime>11/25/2017 12:50:59</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="FindProduct.aspx">
-      <publishTime>11/25/2017 12:50:59</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="FindUser.aspx">
-      <publishTime>11/25/2017 12:50:59</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="ForgotPassword.aspx">
-      <publishTime>11/25/2017 12:50:59</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="FromPhone/Claim/Rejected/cnt.dm">
       <publishTime>01/31/2017 16:46:30</publishTime>
@@ -388,40 +388,40 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/31/2017 16:46:30</publishTime>
     </File>
     <File Include="HealthFacility.aspx">
-      <publishTime>11/25/2017 12:50:59</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Home.aspx">
-      <publishTime>12/12/2017 17:58:23</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Images/Add.gif">
-      <publishTime>09/30/2016 15:20:44</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Images/Erase.png">
-      <publishTime>09/30/2016 15:20:44</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Images/GoLtr.bmp">
-      <publishTime>09/30/2016 15:20:44</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Images/Help book.bmp">
-      <publishTime>09/30/2016 15:20:44</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Images/logo.png">
-      <publishTime>08/24/2017 09:37:38</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Images/Modify.png">
-      <publishTime>09/30/2016 15:20:44</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Images/noimage.jpg">
-      <publishTime>09/30/2016 15:20:44</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Images/no_javascript.gif">
-      <publishTime>09/30/2016 15:20:44</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Images/progress.gif">
-      <publishTime>09/30/2016 15:20:44</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Images/Renew.png">
-      <publishTime>09/30/2016 15:20:44</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Images/Submitted/cnt.dm">
       <publishTime>01/31/2017 16:46:30</publishTime>
@@ -430,223 +430,232 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/18/2016 10:14:58</publishTime>
     </File>
     <File Include="IMIS.Master">
-      <publishTime>07/03/2017 10:15:42</publishTime>
+      <publishTime>06/21/2018 14:01:28</publishTime>
     </File>
     <File Include="IMISExtracts.aspx">
-      <publishTime>11/01/2017 17:32:21</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Insuree.aspx">
-      <publishTime>11/25/2017 12:50:59</publishTime>
+      <publishTime>06/20/2018 12:18:41</publishTime>
     </File>
     <File Include="Javascripts/Exact.js">
-      <publishTime>05/08/2017 14:30:16</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Javascripts/ExactDropDown.js">
-      <publishTime>09/30/2016 15:21:12</publishTime>
+      <publishTime>06/21/2018 14:35:16</publishTime>
+    </File>
+    <File Include="Javascripts/jquery-1.12.4.js">
+      <publishTime>06/21/2018 10:22:22</publishTime>
     </File>
     <File Include="Javascripts/jquery-1.8.2.min.js">
-      <publishTime>09/30/2016 15:21:12</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
+    </File>
+    <File Include="Javascripts/jquery.autocomplete.min.js">
+      <publishTime>06/21/2018 10:18:51</publishTime>
     </File>
     <File Include="Javascripts/jquery.cookie.js">
-      <publishTime>09/30/2016 15:21:12</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Locations.aspx">
-      <publishTime>11/25/2017 12:50:59</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Logout.aspx">
-      <publishTime>11/25/2017 12:50:59</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Manual/IMIS_manual.pdf">
-      <publishTime>10/31/2017 13:56:05</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="MedicalItem.aspx">
-      <publishTime>11/25/2017 12:51:00</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="MedicalService.aspx">
-      <publishTime>11/29/2017 17:58:56</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="MoveLocation.aspx">
-      <publishTime>11/25/2017 12:51:00</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="nojs.htm">
-      <publishTime>09/30/2016 15:23:10</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Officer.aspx">
-      <publishTime>11/25/2017 12:51:00</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="OverviewFamily.aspx">
-      <publishTime>11/25/2017 12:51:00</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Payer.aspx">
-      <publishTime>11/25/2017 12:51:00</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Policy.aspx">
-      <publishTime>11/25/2017 12:51:00</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="PolicyRenewal.aspx">
-      <publishTime>11/25/2017 12:51:00</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>12/16/2017 14:40:25</publishTime>
+      <publishTime>07/18/2018 11:41:10</publishTime>
     </File>
     <File Include="Premium.aspx">
-      <publishTime>11/25/2017 12:51:00</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="PremiumCollection.aspx">
-      <publishTime>11/25/2017 12:51:00</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="PremiumDistribution.aspx">
-      <publishTime>11/25/2017 12:51:00</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="PriceListMI.aspx">
-      <publishTime>11/25/2017 12:51:00</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="PriceListMS.aspx">
-      <publishTime>11/25/2017 12:51:00</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="ProcessBatches.aspx">
-      <publishTime>11/25/2017 12:51:00</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Product.aspx">
-      <publishTime>11/25/2017 12:51:00</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Redirect.aspx">
-      <publishTime>11/25/2017 12:51:00</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Redirected.htm">
-      <publishTime>09/30/2016 15:23:10</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Report.aspx">
-      <publishTime>11/25/2017 12:51:00</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Reports.aspx">
-      <publishTime>11/25/2017 12:51:00</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Reports/ds.xsc">
-      <publishTime>09/28/2017 13:05:28</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Reports/ds.xss">
-      <publishTime>09/28/2017 13:05:28</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Reports/rptCapitationPayment.rdlc">
-      <publishTime>11/07/2017 09:48:33</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Reports/rptClaim.rdlc">
-      <publishTime>03/30/2017 15:44:36</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Reports/rptClaimOverview.rdlc">
-      <publishTime>11/11/2017 17:22:44</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Reports/rptDerivedIndicators.rdlc">
-      <publishTime>12/19/2016 10:38:42</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Reports/rptFamilesInsureesOverview.rdlc">
-      <publishTime>09/12/2017 10:12:08</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Reports/rptFeedbackPrompt.rdlc">
-      <publishTime>12/14/2016 09:53:02</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Reports/rptHFProcessBatch.rdlc">
-      <publishTime>07/19/2017 12:01:28</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Reports/rptHFProcessBatchWithClaims.rdlc">
-      <publishTime>09/12/2017 10:12:08</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Reports/rptInsureesWithoutPhotos.rdlc">
-      <publishTime>09/12/2017 10:12:08</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Reports/rptMatchingFunds.rdlc">
-      <publishTime>11/21/2017 17:37:55</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Reports/rptPaymentCategoryOverview.rdlc">
-      <publishTime>03/21/2017 11:53:48</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Reports/rptPendingInsurees.rdlc">
-      <publishTime>09/12/2017 10:12:08</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Reports/rptPercentageReferral.rdlc">
-      <publishTime>10/04/2016 09:58:32</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Reports/rptPolicyRenewal.rdlc">
-      <publishTime>09/30/2016 15:36:56</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Reports/rptPolicyRenewalJournal.rdlc">
-      <publishTime>09/12/2017 10:12:08</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Reports/rptPolicyRenewalStatus.rdlc">
-      <publishTime>01/26/2017 10:07:16</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Reports/rptPremiumCollection.rdlc">
-      <publishTime>10/12/2016 16:29:02</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Reports/rptPremiumDistribution.rdlc">
-      <publishTime>10/12/2016 16:47:22</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Reports/rptPrimaryIndicators.rdlc">
-      <publishTime>09/30/2016 15:36:56</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Reports/rptPrimaryIndicatorsClaims.rdlc">
-      <publishTime>09/19/2017 10:46:30</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Reports/rptPrimaryIndicatorsPolicies.rdlc">
-      <publishTime>09/12/2017 10:12:08</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Reports/rptProdProcessBatch.rdlc">
-      <publishTime>09/30/2016 15:36:56</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Reports/rptProductSales.rdlc">
-      <publishTime>10/12/2016 16:36:28</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Reports/rptRenewals.rdlc">
-      <publishTime>11/29/2016 15:46:26</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Reports/rptStatusofRegisters.rdlc">
-      <publishTime>06/30/2017 10:09:10</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Reports/rptUserActivityReport.rdlc">
-      <publishTime>11/21/2016 17:00:34</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Reports/TemplateLandscape.rdlc">
-      <publishTime>09/30/2016 15:36:56</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
+    </File>
+    <File Include="StyleSheets/autocomplete.css">
+      <publishTime>06/21/2018 10:19:12</publishTime>
     </File>
     <File Include="StyleSheets/grd_alt.png">
-      <publishTime>09/30/2016 15:21:30</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="StyleSheets/grd_head.png">
-      <publishTime>09/30/2016 15:21:30</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="StyleSheets/grd_pgr.png">
-      <publishTime>09/30/2016 15:21:30</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="StyleSheets/Imis.css">
-      <publishTime>08/24/2017 09:24:26</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="StyleSheets/MainMenu.css">
-      <publishTime>08/02/2017 17:10:04</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Templates/FamilySMSBeforeExpiry.txt">
-      <publishTime>02/20/2017 11:49:32</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Templates/ForgotPassword.html">
-      <publishTime>12/06/2016 11:02:50</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Templates/OfflineExtract.html">
-      <publishTime>10/02/2017 09:44:18</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Templates/PhoneExtract.html">
-      <publishTime>11/17/2016 16:48:18</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="UploadICD.aspx">
-      <publishTime>11/25/2017 12:51:00</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="User.aspx">
-      <publishTime>11/25/2017 12:51:00</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Utilities.aspx">
-      <publishTime>11/25/2017 12:51:00</publishTime>
+      <publishTime>05/17/2018 00:35:22</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>12/16/2017 14:40:24</publishTime>
+      <publishTime>07/18/2018 11:41:08</publishTime>
     </File>
     <File Include="Workspace/cnt.dm">
       <publishTime>01/31/2017 16:46:30</publishTime>

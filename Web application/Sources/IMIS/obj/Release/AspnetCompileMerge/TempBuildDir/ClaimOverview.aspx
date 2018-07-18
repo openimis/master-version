@@ -79,7 +79,7 @@ Title = '<%$ Resources:Resource,L_CLAIMOVERVIEW %>'%>
          }
      }
     function fillSelectedRowData($row) {
-        var claimId = $row.find("td").eq(9).html();
+        var claimId = $row.find("td").eq(10).html();
         $("#<%=hfClaimID.ClientID%>").val(claimId);
     }
     /** Ruzo Grid Row Selection 29 Aug 2014 >> End **/
@@ -88,10 +88,10 @@ Title = '<%$ Resources:Resource,L_CLAIMOVERVIEW %>'%>
      if (target.checked) {
          $('#<%=gvClaims.ClientID  %> tr:not(:first)').each(function(i) {
              $row = $(this); // current selected row reference.
-             $cell7 = $row.find("td").eq(7); //   cell7 in the current row.
-             $cell8 = $row.find("td").eq(8); //   cell8 in the current row.
-             $cell3 = $row.find("td").eq(3); //   cell3 in the current row.
-             $cell4 = $row.find("td").eq(4); //   cell4 in the current row.
+             $cell7 = $row.find("td").eq(8); //   cell7 in the current row.
+             $cell8 = $row.find("td").eq(9); //   cell8 in the current row.
+             $cell3 = $row.find("td").eq(4); //   cell3 in the current row.
+             $cell4 = $row.find("td").eq(5); //   cell4 in the current row.
              ClaimStatus = $.trim($cell7.html()).replace("&nbsp;", "");
              var $checkbx = $cell8.find("input[type=checkbox]").eq(0);
              var $ddlFeedbackStatus = $cell3.find("Select").eq(0);
@@ -106,10 +106,10 @@ Title = '<%$ Resources:Resource,L_CLAIMOVERVIEW %>'%>
           } else {
      $('#<%=gvClaims.ClientID  %> tr:not(:first)').each(function(i) {
          $row = $(this); // current selected row reference.
-         $cell7 = $row.find("td").eq(7); //   cell7 in the current row.
-         $cell8 = $row.find("td").eq(8); //   cell8 in the current row.
-         $cell3 = $row.find("td").eq(3); //   cell3 in the current row.
-         $cell4 = $row.find("td").eq(4); //   cell4 in the current row.
+         $cell7 = $row.find("td").eq(8); //   cell7 in the current row.
+         $cell8 = $row.find("td").eq(9); //   cell8 in the current row.
+         $cell3 = $row.find("td").eq(4); //   cell3 in the current row.
+         $cell4 = $row.find("td").eq(5); //   cell4 in the current row.
          ClaimStatus = $.trim($cell7.html()).replace("&nbsp;", "");
          var $checkbx = $cell8.find("input[type=checkbox]").eq(0);
          var $ddlFeedbackStatus = $cell3.find("Select").eq(0);
@@ -231,7 +231,7 @@ Title = '<%$ Resources:Resource,L_CLAIMOVERVIEW %>'%>
              var RevBoolean = false;
              var FedBoolean = false;
              $('#<%=gvClaims.ClientID  %> tr:not(:first)').each(function() {
-                 if ($(this).find("td").eq(8).find("input[type=checkbox]").is(":checked")) {
+                 if ($(this).find("td").eq(9).find("input[type=checkbox]").is(":checked")) {
                      flagProcessClaim = true;
                      return;
                  }
@@ -242,11 +242,11 @@ Title = '<%$ Resources:Resource,L_CLAIMOVERVIEW %>'%>
              var htmlMsgProcess3 = "";
              if (flagProcessClaim == true) {
                  $('#<%=gvClaims.ClientID  %> tr:not(:first)').each(function() {
-                     if ($(this).find("td").eq(8).find("input[type=checkbox]").is(":checked")) {
-                         if ($(this).find("td").eq(3).find("select").data("currenctStatusFed") == 4) {
+                     if ($(this).find("td").eq(9).find("input[type=checkbox]").is(":checked")) {
+                         if ($(this).find("td").eq(4).find("select").data("currenctStatusFed") == 4) {
                              FedBoolean = true;
                          }
-                         if ($(this).find("td").eq(4).find("select").data("currenstatusRev") == 4) {
+                         if ($(this).find("td").eq(5).find("select").data("currenstatusRev") == 4) {
                              RevBoolean = true;
                          }
                      }
@@ -406,7 +406,7 @@ Title = '<%$ Resources:Resource,L_CLAIMOVERVIEW %>'%>
          $('#<%=gvClaims.ClientID  %> tr').each(function(i) {
              if ($(this).is(".srs")) {                                            
                  // alert($(this).prop("tagName"));
-                 var $ddlFeedbck = $(this).find("td").eq(3).find("select");
+                 var $ddlFeedbck = $(this).find("td").eq(4).find("select");
                  var SelectedVal = $ddlFeedbck.find("option").eq($ddlFeedbck[0].selectedIndex).html();
                  //alert($ddlFeedbck.find("option").eq($ddlFeedbck[0].selectedIndex).html());
                  if (!(SelectedVal == '<%= imisgen.getMessage("T_DELIVERED", True)%>' || SelectedVal == '<%= imisgen.getMessage("T_SELECTEDFORFEEDBACK", True)%>')) {
@@ -423,7 +423,7 @@ Title = '<%$ Resources:Resource,L_CLAIMOVERVIEW %>'%>
          $("#<%=hfReview.ClientID %>").val('<%= imisgen.getMessage("M_REVIEW", True)%>');
          $('#<%=gvClaims.ClientID  %> tr').each(function(i) {
              if ($(this).is(".srs")) {
-                 var $ddlReview = $(this).find("td").eq(4).find("select");                 
+                 var $ddlReview = $(this).find("td").eq(5).find("select");                 
                  var SelectedVal = $ddlReview.find("option").eq($ddlReview[0].selectedIndex).html();
                  //alert(SelectedVal);
                  //if (SelectedVal == '<%= imisgen.getMessage("T_IDLE", True ) %>') {
@@ -578,7 +578,7 @@ Title = '<%$ Resources:Resource,L_CLAIMOVERVIEW %>'%>
 
      if ($('#<%=gvClaims.ClientID  %> tr:not(:first)').length != 0) {
          $('#<%=gvClaims.ClientID  %> tr:not(:first)').each(function() {
-             var ClmStatus = $(this).find("td").eq(7).html();
+             var ClmStatus = $(this).find("td").eq(8).html();
              if (ClmStatus == '<%= imisgen.getMessage("T_VALUATED", True)%>' || ClmStatus == '<%= imisgen.getMessage("T_PROCESSED", True)%>' || ClmStatus == '<%= imisgen.getMessage("T_REJECTED", True ) %>') {
                  $(this).find("td").eq(3).find("select").prop("disabled", true);
                  $(this).find("td").eq(4).find("select").attr("disabled", true);
@@ -896,7 +896,9 @@ Title = '<%$ Resources:Resource,L_CLAIMOVERVIEW %>'%>
             <asp:GridView ID="gvClaims" runat="server"
                 AutoGenerateColumns="False"
                 GridLines="None"
-                AllowPaging="false"
+                AllowPaging="false"                
+                AllowSorting="true"
+                 OnSorting="SortRecords"
                 CssClass="mGrid"
                 EmptyDataText='<%$ Resources:Resource,M_NOCLAIMS %>'
                 PagerStyle-CssClass="pgr"
@@ -911,6 +913,9 @@ Title = '<%$ Resources:Resource,L_CLAIMOVERVIEW %>'%>
                     </asp:HyperLinkField>--%>
                     <asp:BoundField DataField="ClaimCode"   HeaderText='<%$ Resources:Resource,L_CLAIMCODE %>' SortExpression="ClaimCode" HeaderStyle-Width="30px">  
                        <HeaderStyle Width="30px" />
+                    </asp:BoundField>
+                     <asp:BoundField DataField="CHFID"   HeaderText='NSHI Number' SortExpression="CHFID" HeaderStyle-Width="30px" >  
+                       <HeaderStyle Width="30px" /> 
                     </asp:BoundField>
                      <asp:BoundField DataField="HFName"   HeaderText='<%$ Resources:Resource,L_HFNAME %>' SortExpression="HFName" HeaderStyle-Width="70px">  
                        <HeaderStyle Width="95px" />

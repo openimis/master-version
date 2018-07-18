@@ -367,13 +367,68 @@ In case of dispute arising out or in relation to the use of the program, it is s
                                 </asp:Label>
                             </td>
                             <td class="DataEntry">
-                                <asp:TextBox ID="txtBirthDate" runat="server" Width="120px"></asp:TextBox>
-                                <asp:CalendarExtender ID="CalendarExtender1" runat="server" Format="dd/MM/yyyy" PopupButtonID="Button1" TargetControlID="txtBirthDate">
-                                </asp:CalendarExtender>
-                                <asp:Button ID="Button1" runat="server" Height="20px" Width="20px" />
-                                <asp:RequiredFieldValidator ID="RequiredFieldBirthDate0" runat="server" ControlToValidate="txtBirthDate" SetFocusOnError="True" Text="*" ValidationGroup="check"></asp:RequiredFieldValidator>
-                                <asp:RegularExpressionValidator ID="RegularExpressionValidator7" runat="server" ControlToValidate="txtBirthDate" ErrorMessage="*" SetFocusOnError="false" ValidationExpression="^(0[1-9]|[12][0-9]|3[01])[/](0[1-9]|1[012])[/](19|20)\d\d$" ValidationGroup="check"></asp:RegularExpressionValidator>
-                            </td>
+                    <asp:DropDownList ID="ddlBirthDay" runat="server" Width="50">
+                        <asp:ListItem Value="0">Day</asp:ListItem>
+                        <asp:ListItem Value="01">1</asp:ListItem>
+                        <asp:ListItem Value="02">2</asp:ListItem>
+                        <asp:ListItem Value="03">3</asp:ListItem>
+                        <asp:ListItem Value="04">4</asp:ListItem>
+                        <asp:ListItem Value="05">5</asp:ListItem>
+                        <asp:ListItem Value="06">6</asp:ListItem>
+                        <asp:ListItem Value="07">7</asp:ListItem>
+                        <asp:ListItem Value="08">8</asp:ListItem>
+                        <asp:ListItem Value="09">9</asp:ListItem>
+                        <asp:ListItem Value="10">10</asp:ListItem>
+                        <asp:ListItem Value="11">11</asp:ListItem>
+                        <asp:ListItem Value="12">12</asp:ListItem>
+                        <asp:ListItem Value="13">13</asp:ListItem>
+                        <asp:ListItem Value="14">14</asp:ListItem>
+                        <asp:ListItem Value="15">15</asp:ListItem>
+                        <asp:ListItem Value="16">16</asp:ListItem>
+                        <asp:ListItem Value="17">17</asp:ListItem>
+                        <asp:ListItem Value="18">18</asp:ListItem>
+                        <asp:ListItem Value="19">19</asp:ListItem>
+                        <asp:ListItem Value="20">20</asp:ListItem>
+                        <asp:ListItem Value="21">21</asp:ListItem>
+                        <asp:ListItem Value="22">22</asp:ListItem>
+                        <asp:ListItem Value="23">23</asp:ListItem>
+                        <asp:ListItem Value="24">24</asp:ListItem>
+                        <asp:ListItem Value="25">25</asp:ListItem>
+                        <asp:ListItem Value="26">26</asp:ListItem>
+                        <asp:ListItem Value="27">27</asp:ListItem>
+                        <asp:ListItem Value="28">28</asp:ListItem>
+                        <asp:ListItem Value="29">29</asp:ListItem>
+                        <asp:ListItem Value="30">30</asp:ListItem>
+                        <asp:ListItem Value="31">31</asp:ListItem>
+                        <asp:ListItem Value="32">32</asp:ListItem>
+                    </asp:DropDownList>
+                    <asp:DropDownList ID="ddlBirthMonth" runat="server" Width="80">
+                        <asp:ListItem Value="0">Month</asp:ListItem>
+                        <asp:ListItem Value="01">Baisakh</asp:ListItem>
+                        <asp:ListItem Value="02">Jestha</asp:ListItem>
+                        <asp:ListItem Value="03">Ashad</asp:ListItem>
+                        <asp:ListItem Value="04">Shrawan</asp:ListItem>
+                        <asp:ListItem Value="05">Bhadra</asp:ListItem>
+                        <asp:ListItem Value="06">Ashwin</asp:ListItem>
+                        <asp:ListItem Value="07">Kartik</asp:ListItem>
+                        <asp:ListItem Value="08">Mangshir</asp:ListItem>
+                        <asp:ListItem Value="09">Poush</asp:ListItem>
+                        <asp:ListItem Value="10">Magh</asp:ListItem>
+                        <asp:ListItem Value="11">Falgun</asp:ListItem>
+                        <asp:ListItem Value="12">Chaitra</asp:ListItem>
+                    </asp:DropDownList>
+                    <asp:DropDownList ID="ddlBirthYear" runat="server" Width="60">
+                    </asp:DropDownList>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="ddlBirthDay" ForeColor="Red" ValidationGroup="check" Font-Bold="True" InitialValue="0">*</asp:RequiredFieldValidator>
+                                            <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="ddlBirthMonth" ForeColor="Red" ValidationGroup="check" Font-Bold="True" InitialValue="0">*</asp:RequiredFieldValidator>
+                                            <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="ddlBirthYear" ForeColor="Red" ValidationGroup="check" Font-Bold="True" InitialValue="0">*</asp:RequiredFieldValidator>
+                    <%--<asp:TextBox ID="txtBirthDate" runat="server" Width="120px"></asp:TextBox>
+                    <asp:CalendarExtender ID="CalendarExtender1" runat="server" Format="dd/MM/yyyy" PopupButtonID="Button1" TargetControlID="txtBirthDate">
+                    </asp:CalendarExtender>
+                    <asp:Button ID="Button1" runat="server" Height="20px" Width="20px" />
+                    <asp:RequiredFieldValidator ID="RequiredFieldBirthDate0" runat="server" ControlToValidate="txtBirthDate" SetFocusOnError="True" Text="*" ValidationGroup="check" Font-Bold="True" ForeColor="Red"></asp:RequiredFieldValidator>
+                    <asp:RegularExpressionValidator ID="RegularExpressionValidator7" runat="server" ControlToValidate="txtBirthDate" ErrorMessage="*" SetFocusOnError="false" ValidationExpression="^(0[1-9]|[12][0-9]|3[01])[/](0[1-9]|1[012])[/](19|20)\d\d$" ValidationGroup="check" Font-Bold="True" ForeColor="Red"></asp:RegularExpressionValidator>--%>
+                </td>
                             <td></td>
                             <td class="DataEntry"></td>
                         </tr>

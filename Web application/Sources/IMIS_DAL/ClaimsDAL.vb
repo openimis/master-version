@@ -372,7 +372,7 @@ Public Class ClaimsDAL
         Dim sSQL As String = ""
         sSQL += " SELECT tblClaim.ClaimID,claimcode,DateClaimed,Claimed,ISNULL(Approved, Claimed)Approved, ClaimSt.name as ClaimStatus,"
         sSQL += " FeedbackStatus,ReviewStatus,tblClaim.RowID,tblHF.HFCode,HFName,tblClaim.HfID,tblClaim.ClaimAdminID,"
-        sSQL += " Cadm.ClaimAdminID,Cadm.ClaimAdminCode,Cadm.LastName CadminLastName,Cadm.OtherNames CadminOtherNames from tblClaim"
+        sSQL += " Cadm.ClaimAdminID,Cadm.ClaimAdminCode,Cadm.LastName CadminLastName,Cadm.OtherNames CadminOtherNames,tblInsuree.CHFID from tblClaim"
         sSQL += " INNER JOIN tblICDCodes ON tblICDCodes.ICDID = tblClaim.ICDID"
         sSQL += " INNER JOIN tblInsuree ON tblInsuree.InsureeID = tblClaim.InsureeID"
         sSQL += " INNER JOIN tblFamilies ON tblFamilies.FamilyID = tblInsuree.FamilyID"

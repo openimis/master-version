@@ -145,6 +145,7 @@ Partial Public Class Insuree
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         eInsuree.InsureeID = HttpContext.Current.Request.QueryString("i")
         efamily.FamilyID = HttpContext.Current.Request.QueryString("f")
+        Dim hf As HelperFunction = New HelperFunction
         lblMsg.Text = ""
         If IsPostBack = True Then Return
 
@@ -152,6 +153,7 @@ Partial Public Class Insuree
         RunPageSecurity()
 
         Try
+            LoadYear()
             ddlGender.DataSource = Insuree.GetGender
             ddlGender.DataValueField = "Code"
             ddlGender.DataTextField = "Gender"
@@ -217,10 +219,19 @@ Partial Public Class Insuree
                 txtCHFID.Text = eInsuree.CHFID.Trim
                 txtLastName.Text = eInsuree.LastName
                 txtOtherNames.Text = eInsuree.OtherNames
-                txtBirthDate.Text = eInsuree.DOB
+                'Date of Birth in Nepali start by Nirmal
+                'txtBirthDate.Text = eInsuree.DOB
+                Dim NepaliBirthDate As String = hf.ConverEnglishTONepali(eInsuree.DOB.ToString("dd/MM/yyyy"))
+                If (Not String.IsNullOrEmpty(NepaliBirthDate)) Then
+                    Dim NepDateArray() As String = Split(NepaliBirthDate, "/")
+                    ddlBirthDay.SelectedValue = NepaliBirthDate.Split("/")(0)
+                    ddlBirthMonth.SelectedValue = NepaliBirthDate.Split("/")(1)
+                    ddlBirthYear.SelectedValue = NepaliBirthDate.Split("/")(2)
+                End If
+                'Date of Birth in Nepali End by Nirmal
                 ddlGender.SelectedValue = eInsuree.Gender
                 ddlMarital.SelectedValue = eInsuree.Marital
-                ddlCardIssued.SelectedValue = if(eInsuree.CardIssued = True, "1", "0")
+                ddlCardIssued.SelectedValue = If(eInsuree.CardIssued = True, "1", "0")
                 txtPassport.Text = eInsuree.passport
                 txtPhone.Text = eInsuree.Phone
                 Image1.ImageUrl = eInsuree.tblPhotos.PhotoFolder & eInsuree.tblPhotos.PhotoFileName.ToString 'if(eInsuree.tblPhotos.PhotoFileName.ToString <> String.Empty, eInsuree.tblPhotos.PhotoFolder & eInsuree.tblPhotos.PhotoFileName.ToString, "")
@@ -229,7 +240,7 @@ Partial Public Class Insuree
                 ddlProfession.SelectedValue = eInsuree.Profession
                 ddlEducation.SelectedValue = eInsuree.Education
                 txtEmail.Text = eInsuree.Email
-                If eInsuree.ValidityTo.HasValue Or ((IMIS_Gen.offlineHF Or IMIS_Gen.OfflineCHF) And Not if(eInsuree.isOffline Is Nothing, False, eInsuree.isOffline)) Then
+                If eInsuree.ValidityTo.HasValue Or ((IMIS_Gen.offlineHF Or IMIS_Gen.OfflineCHF) And Not If(eInsuree.isOffline Is Nothing, False, eInsuree.isOffline)) Then
                     L_FAMILYPANEL.Enabled = False
                     Panel2.Enabled = False
                     pnlImages.Enabled = False
@@ -391,11 +402,17 @@ Partial Public Class Insuree
                 imisgen.Alert(txtCHFID.Text & imisgen.getMessage("M_NOTVALIDCHFNUMBER", True), pnlButtons, alertPopupTitle:="IMIS")
                 Return
             End If
-
+            Dim hf As HelperFunction = New HelperFunction
             eInsuree.CHFID = txtCHFID.Text.Trim
             eInsuree.LastName = txtLastName.Text
             eInsuree.OtherNames = txtOtherNames.Text
-            eInsuree.DOB = Date.ParseExact(txtBirthDate.Text, "dd/MM/yyyy", Nothing)
+            'Date of Birth in Nepali start by Nirmal
+            'eInsuree.DOB = Date.ParseExact(txtBirthDate.Text, "dd/MM/yyyy", Nothing)
+            Dim DOB_ENG As Date
+            Dim NepDateArray() As String = Split(hf.ConvertNepaliTOEnglishNew(ddlBirthDay.SelectedValue + "/" + ddlBirthMonth.SelectedValue + "/" + ddlBirthYear.SelectedValue), "/")
+            DOB_ENG = New Date(Convert.ToInt16(NepDateArray(2)), Convert.ToInt16(NepDateArray(1)), Convert.ToInt16(NepDateArray(0)))
+            eInsuree.DOB = DOB_ENG
+            'Date of Birth in Nepali start by Nirmal
             eInsuree.Gender = ddlGender.SelectedValue
             If ddlMarital.SelectedValue <> "" Then eInsuree.Marital = ddlMarital.SelectedValue
             If ddlCardIssued.SelectedValue <> "" Then eInsuree.CardIssued = ddlCardIssued.SelectedValue
@@ -609,4 +626,17 @@ Partial Public Class Insuree
     Private Sub ddlCurrentRegion_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ddlCurrentRegion.SelectedIndexChanged
         FillCurrentDistricts()
     End Sub
+    'Combo year in nepali start by Nirmal
+    Private Sub LoadYear()
+        Dim hf As HelperFunction = New HelperFunction
+        Dim currentNepaliYear As String = hf.GetCurrentNepaliYear()
+        ddlBirthYear.Items.Add(New ListItem("Year", "0"))
+        If (Not String.IsNullOrEmpty(currentNepaliYear)) Then
+            For i As Int16 = Convert.ToInt16(currentNepaliYear) To 1969 Step -1
+                ddlBirthYear.Items.Add(New ListItem(i.ToString(), i.ToString()))
+            Next
+
+        End If
+    End Sub
+    'Combo year in nepali start by Nirmal
 End Class
